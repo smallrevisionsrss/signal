@@ -1,0 +1,87 @@
+name: Build and deploy Signal
+
+# Rebuilds the static site whenever the data or the generator changes,
+# and deploys it to GitHub Pages at signal.smallrevisions.com.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'signal-issues-data.json'
+      - 'site_build.py'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build site
+        run: |
+          python3 site_build.py \
+            --data signal-issues-data.json \
+            --out _site \
+            --domain signal.smallrevisions.com
+
+      - name: Sanity checks
+        run: |
+          set -e
+          test -f _site/index.html
+          test -f _site/feed.xml
+          test -f _site/sitemap.xml
+          test -f _site/robots.txt
+          test -f _site/CNAME
+          python3 - <<'PY'
+          import json, re, glob, sys
+          import xml.etree.ElementTree as ET
+          bad = 0
+          for f in glob.glob('_site/**/*.html', recursive=True):
+              h = open(f, encoding='utf-8').read()
+              for m in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S):
+                  try:
+                      json.loads(m)
+                  except Exception as e:
+                      print('BAD JSON-LD', f, e); bad += 1
+          for f in ('_site/feed.xml', '_site/sitemap.xml'):
+              try:
+                  ET.parse(f)
+              except Exception as e:
+                  print('BAD XML', f, e); bad += 1
+          # the whole point: content must be in the served HTML
+          home = open('_site/index.html', encoding='utf-8').read()
+          links = len(re.findall(r'href="https?://(?!signal\.|www\.smallrevisions)', home))
+          print('outbound article links in raw home HTML:', links)
+          if links < 20:
+              print('FAIL: home page is not server-rendered'); bad += 1
+          sys.exit(1 if bad else 0)
+          PY
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
