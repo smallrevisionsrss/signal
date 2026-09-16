@@ -1,5 +1,181 @@
 [
  {
+  "dateLabel": "September 16, 2026",
+  "hero": {
+   "headline": "Thirty-Three Frames Shot on 12 September 2001, Held for Twenty-Five Years",
+   "dek": "Mike O'Meally went out with a camera the morning after the towers fell and skated through a downtown Manhattan with almost nobody in it. He shot thirty-three frames, then put the film away and left it there for twenty-five years. He has now collected them as a book called 9/12, and what he remembers of that day is not the version anyone else circulates: people on the sidewalk waving the skaters on, an atmosphere he describes to Ian Michna as weird optimistic.",
+   "byline": "By Ian Michna · Jenkem Magazine",
+   "category": "craft",
+   "image": "https://cdn.jenkemmag.com/mediaAssetsMaster/2026/09/mikeomeally_911.jpg",
+   "caption": "New York, 12 September 2001",
+   "url": "https://www.jenkemmag.com/home/2026/09/11/the-day-after-9-11-through-the-lens-of-skate-photographer-mike-omeally/"
+  },
+  "categories": {
+   "design-arch": [
+    {
+     "headline": "A Tulum Housing Block Built Against the Tower of Babel",
+     "source": "Metropolis",
+     "date": "Sep 15",
+     "url": "https://metropolismag.com/projects/in-tulum-v-taller-inverts-the-symbolism-of-the-tower-of-babel/"
+    },
+    {
+     "headline": "Five Chicago Interiors, Explained by the Designer Who Did Them",
+     "source": "Design Milk",
+     "date": "Sep 11",
+     "url": "https://design-milk.com/nicole-alexander-siren-betty-friday-five/",
+     "image": "https://design-milk.com/images/2026/09/Dimmi-Dimmi-Photo-by-Kevin-E.-White.jpg"
+    },
+    {
+     "headline": "Thirty-Seven Years of Folding Phones, Seen Through CT Scans",
+     "source": "iFixit",
+     "date": "Sep 7",
+     "url": "https://www.ifixit.com/News/118714/the-evolution-of-foldables-told-in-x-rays"
+    },
+    {
+     "headline": "Seven Ben Shahn Posters, and the Practice Abstraction Buried",
+     "source": "Poster House",
+     "date": "Sep 10",
+     "url": "https://posterhouse.org/blog/ben-shahn/"
+    }
+   ],
+   "craft": [
+    {
+     "headline": "Alia Bare Takes Korhogo Cloth From Hand-Painted to Digital Print",
+     "source": "Guzangs",
+     "date": "Sep 13",
+     "url": "https://guzangs.com/alia-bare-senufo-textiles/"
+    },
+    {
+     "headline": "Vladimir Seleznev Photographs Orthodoxy and the State Together",
+     "source": "Blind Magazine",
+     "date": "Sep 7",
+     "url": "https://www.blind-magazine.com/stories/vladimir-seleznev-quiet-we-pray/"
+    },
+    {
+     "headline": "Side-Hung Drawers, Riven Oak, and the Variations He Allows Himself",
+     "source": "Lost Art Press",
+     "date": "Sep 14",
+     "url": "https://blog.lostartpress.com/2026/09/14/17th-century-style-side-hung-drawers/",
+     "image": "https://i0.wp.com/blog.lostartpress.com/wp-content/uploads/2026/09/Screenshot-2026-09-14-at-9.24.21-AM.png"
+    },
+    {
+     "headline": "Navjot Altaf on Who Carries the Waste, and Where It Settles",
+     "source": "TAKE on Art",
+     "date": "Sep 9",
+     "url": "https://takeonartmagazine.com/reviews/on-unequal-burdens-waste-and-toxicity-in-navjot-altafs-new-works/"
+    }
+   ],
+   "sound-vinyl": [
+    {
+     "headline": "Paul Dunmall on Playing With Alice Coltrane, and Finding Meditations Jarring",
+     "source": "UK Jazz News",
+     "date": "Sep 14",
+     "url": "https://ukjazznews.com/the-coltrane-centenary-in-birmingham-interview-with-paul-dunmall/",
+     "image": "https://ukjazznews.b-cdn.net/wp-content/uploads/2026/09/combine_images-71-res.jpg"
+    },
+    {
+     "headline": "Katherine Young Replaced the Score With a Taxonomy",
+     "source": "Foxy Digitalis",
+     "date": "Sep 11",
+     "url": "https://foxydigitalis.zone/2026/09/11/the-sonic-ecosystems-of-katherine-young/"
+    },
+    {
+     "headline": "Coupling Techno, Oil Painting and Self-Built Instruments Into One Rig",
+     "source": "Sounding Future",
+     "date": "Sep 10",
+     "url": "https://soundingfuture.com/articles/techno-on-canvas-rethinking-audiovisual-practice-in-the-age-of-ai"
+    },
+    {
+     "headline": "How the Cash Register Loop on Money Was Actually Assembled",
+     "source": "Mix",
+     "date": "Sep 4",
+     "url": "https://www.mixonline.com/recording/classic-tracks/classic-tracks-pink-floyds-money"
+    }
+   ],
+   "collecting": [
+    {
+     "headline": "A Thousand British Bus Maps, Kept Because Nobody Else Would",
+     "source": "Cambridge University Library",
+     "date": "Aug 21",
+     "url": "https://specialcollections-blog.lib.cam.ac.uk/?p=32284"
+    },
+    {
+     "headline": "A Hundred Pamphlets Bought From the Man Who Forged Them",
+     "source": "Rylands Blog",
+     "date": "Sep 1",
+     "url": "https://rylandscollections.com/2026/09/01/the-moriarty-of-the-book-world-thomas-j-wise-at-the-john-rylands-library/"
+    },
+    {
+     "headline": "One Failing Capacitor Killed a Whole Generation of Cheap SLRs",
+     "source": "35mmc",
+     "date": "Sep 13",
+     "url": "https://www.35mmc.com/13/09/2026/incapacitated-by-capacitors-fixing-the-centon-df-300-minolta-x-300-et-al/",
+     "image": "https://www.35mmc.com/wp-content/uploads/2026/08/IMG_3393-scaled.jpg"
+    },
+    {
+     "headline": "A Hundred and Twenty-Four Pre-War Machines on a Danish Beach",
+     "source": "The Vintagent",
+     "date": "Sep 13",
+     "url": "https://thevintagent.com/2026/09/13/till-next-year-time-stops/"
+    }
+   ],
+   "archives": [
+    {
+     "headline": "Two Thousand Notarial Records, and Who Really Owned the Headwraps",
+     "source": "Age of Revolutions",
+     "date": "Sep 2",
+     "url": "https://ageofrevolutions.com/2026/09/02/whats-in-a-headwrap-using-mouchoirs-to-illuminate-connections-between-women-of-color-in-colonial-haiti/"
+    },
+    {
+     "headline": "The Shoga Was Killed Twice, by Colonial Law and Then by Liberation",
+     "source": "Africa Is a Country",
+     "date": "Sep 10",
+     "url": "https://africasacountry.com/2026/09/who-killed-the-shoga",
+     "image": "https://media.africasacountry.com/images/2026/9/834586333212.jpg"
+    },
+    {
+     "headline": "A Persian Illuminated Manuscript, Read Under Spectroscopy",
+     "source": "British Library",
+     "date": "Sep 15",
+     "url": "https://www.bl.uk/stories/blogs/posts/a-persian-illuminated-manuscript-reflections-from-an-internship"
+    },
+    {
+     "headline": "When Historians Started Calling Organisms Technologies",
+     "source": "JHI Blog",
+     "date": "Sep 14",
+     "url": "https://www.jhiblog.org/2026/09/14/organisms-as-technologies-in-the-history-of-science/"
+    }
+   ],
+   "photo-film": [
+    {
+     "headline": "What an Associate Editor Actually Does All Day",
+     "source": "CineMontage",
+     "date": "Sep 2",
+     "url": "https://cinemontage.org/what-our-members-do-josh-lewkowicz-associate-editor/",
+     "image": "https://cinemontage.org/wp-content/uploads/2026/06/Josh-Lewkowicz.png"
+    },
+    {
+     "headline": "Pumpkin at Twenty-Four, and What It Got Right About Inter-Ability",
+     "source": "Cinema Year Zero",
+     "date": "Sep 9",
+     "url": "https://www.cinemayearzero.com/p/just-a-horrible-phase"
+    },
+    {
+     "headline": "Poitras and Mueller Built an ICE Documentary From Crowdsourced Footage",
+     "source": "Modern Times Review",
+     "date": "Sep 13",
+     "url": "https://www.moderntimes.review/laura-poitras-rachel-lauren-mueller/"
+    },
+    {
+     "headline": "A Video Rental Shelf Inside a Chicago Movie Theater",
+     "source": "Newcity Film",
+     "date": "Sep 15",
+     "url": "https://www.newcityfilm.com/2026/09/15/the-rental-renaissance-how-movie-buffs-at-lincoln-squares-davis-theater-are-reviving-the-mom-and-pop-video-store-experience/"
+    }
+   ]
+  }
+ },
+ {
   "dateLabel": "September 15, 2026",
   "hero": {
    "headline": "How Shiv-Hari Hid a Stalker Inside a Love Song",

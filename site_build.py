@@ -87,138 +87,198 @@ def trim(text, n):
 # ---------------------------------------------------------------- styles
 
 CSS = """
+/* Tokens taken verbatim from Small Revisions' own .signal-editorial
+   block so this site and smallrevisions.com/rsssignal are the same
+   publication rather than cousins. */
 :root{
-  --bg:#fbfaf7; --fg:#191811; --mut:#6f6c60; --fai:#93907f;
-  --line:#e3e0d5; --card:#ffffff; --accent:#8a5b2b; --mark:#f0ece0;
-  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
-  --sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-}
-@media (prefers-color-scheme:dark){
-  :root{--bg:#111110; --fg:#ebe8dc; --mut:#9b9889; --fai:#6d6b5f;
-        --line:#2b2a24; --card:#191813; --accent:#d3a06a; --mark:#232219;}
+  --bg:#f9f7f0;
+  --ink:#111111;
+  --ink-soft:#4c4c4c;
+  --ink-faint:#8f8f8c;
+  --rule:#111111;
+  --rule-soft:#dedcd6;
+  --signal:#ff3b2f;
+  --dot:#fa4616;
+  --cat:#152035;
+  --serif:'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --sans:'Instrument Sans','Helvetica Neue',Arial,sans-serif;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);
-  font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
-a{color:inherit}
-.wrap{max-width:1220px;margin:0 auto;padding:0 20px}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:var(--sans); font-size:16px; line-height:1.55;
+  -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+}
+a{color:inherit; text-decoration:none}
+img{max-width:100%}
+:focus-visible{outline:2px solid var(--signal); outline-offset:3px}
+.container{max-width:1440px; margin:0 auto; padding:0 24px}
 
-/* masthead */
-.mast{border-bottom:1px solid var(--line);padding:22px 0 18px;margin-bottom:34px}
-.mast .wrap{display:flex;flex-wrap:wrap;gap:14px 26px;align-items:baseline}
-.brand{font-family:var(--serif);font-size:30px;font-weight:600;letter-spacing:-.015em;
-  text-decoration:none;line-height:1}
-.brand span{color:var(--accent)}
-.mast .tag{color:var(--mut);font-size:13.5px;max-width:46ch;flex:1 1 280px}
-.nav{display:flex;gap:18px;font-size:13.5px}
-.nav a{color:var(--mut);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px}
-.nav a:hover,.nav a[aria-current]{color:var(--fg);border-bottom-color:var(--accent)}
+.label{font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase}
 
-/* issue head */
-.ihead{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;
-  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:30px}
-.ihead h1{font-family:var(--serif);font-size:26px;margin:0;font-weight:600;letter-spacing:-.01em}
-.ihead .n{color:var(--fai);font-size:13px;font-variant-numeric:tabular-nums}
-.ihead .paging{margin-left:auto;display:flex;gap:16px;font-size:13.5px}
-.ihead .paging a{color:var(--mut);text-decoration:none}
-.ihead .paging a:hover{color:var(--accent)}
+/* announcement bar ----------------------------------------------- */
+.announce{background:var(--ink); border-bottom:1px solid var(--ink)}
+.announce .row{display:flex; align-items:center; justify-content:center; padding:10px 40px; text-align:center}
+.announce p{font-size:13px; color:rgba(249,247,240,.7); margin:0}
+.announce a{font-weight:700; color:var(--bg); border-bottom:1px solid var(--bg); padding-bottom:1px}
+.announce a:hover{color:var(--signal); border-color:var(--signal)}
 
-/* editor note */
-.note{background:var(--mark);border-left:3px solid var(--accent);padding:16px 20px;
-  margin:0 0 34px;border-radius:0 6px 6px 0;max-width:74ch}
-.note p{margin:0;font-size:15.5px}
-.note h2{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);
-  margin:0 0 7px;font-weight:700}
+/* masthead ------------------------------------------------------- */
+.mastrow .inner{display:flex; align-items:center; gap:24px; padding:20px 0}
+.logo{display:block; flex:none; transition:opacity .15s ease}
+.logo:hover{opacity:.6}
+.logo img{display:block; height:63px; width:auto}
+.navwrap{display:flex; align-items:center; justify-content:space-between; gap:24px; flex:1; min-width:0}
+.nav{display:flex; align-items:center; gap:20px; min-width:0}
+.nav a{
+  font-size:14px; font-weight:600; letter-spacing:.01em; color:var(--ink);
+  padding:6px 0; border-bottom:2px solid transparent; white-space:nowrap;
+  transition:color .15s ease, border-color .15s ease;
+}
+.nav a.navsub{font-size:13px; color:var(--ink-faint)}
+.nav a.navsub:hover{color:var(--ink)}
+.nav a[aria-current]{border-color:var(--dot)}
+.nav a.navsub[aria-current]{color:var(--cat); border-color:var(--dot)}
+.actions{display:flex; align-items:center; gap:22px; flex:none}
+.actions a{font-size:13px; font-weight:600; color:var(--ink-faint)}
+.actions a:hover{color:var(--signal)}
 
-/* hero */
-.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:30px;
-  align-items:start;margin:0 0 42px;padding-bottom:34px;border-bottom:1px solid var(--line)}
+/* issue line ----------------------------------------------------- */
+.issueline{padding:30px 0 26px}
+.issueline .inner{display:flex; flex-wrap:wrap; gap:10px 24px; align-items:baseline}
+.mark{display:flex; align-items:center; gap:8px}
+.dot{width:8px; height:8px; border-radius:50%; background:var(--dot); display:block; flex:none}
+.issueline .right{margin-left:auto; font-size:13px; color:var(--ink-faint)}
+.issueline .right b{font-weight:600; color:var(--ink)}
+.issueline .paging{display:flex; gap:18px; font-size:13px}
+.issueline .paging a{color:var(--ink-faint)}
+.issueline .paging a:hover{color:var(--signal)}
+
+/* editor note ---------------------------------------------------- */
+.note{max-width:74ch; margin:0 0 40px; padding:18px 22px; border:1px solid var(--rule-soft)}
+.note h2{margin:0 0 7px; color:var(--ink-faint)}
+.note p{margin:0; font-size:15.5px; color:var(--ink-soft)}
+
+/* hero ----------------------------------------------------------- */
+.hero{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.85fr); gap:36px; align-items:start; padding-bottom:52px}
 .hero.noimg{grid-template-columns:1fr}
-.hero.noimg .dek{max-width:74ch}
-.hero.noimg h2{max-width:20ch}
-.hero figure{margin:0}
-.hero img{width:100%;height:auto;display:block;border-radius:6px;background:var(--mark)}
-.hero figcaption{color:var(--fai);font-size:12px;margin-top:7px}
-.kicker{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);
-  font-weight:700;margin:0 0 9px}
-.hero h2{font-family:var(--serif);font-size:clamp(25px,3.1vw,36px);line-height:1.17;
-  margin:0 0 13px;font-weight:600;letter-spacing:-.018em}
-.hero h2 a{text-decoration:none}
-.hero h2 a:hover{color:var(--accent)}
-.hero .dek{font-size:16.5px;margin:0 0 13px;color:var(--fg)}
-.hero .byline{color:var(--mut);font-size:13.5px;margin:0}
+.hero .kicker{color:var(--ink-faint); margin:0 0 16px}
+.hero h1{
+  font-family:var(--serif); font-weight:400;
+  font-size:clamp(2rem,1.3rem+2.3vw,2.9rem); line-height:1.1;
+  letter-spacing:-.01em; margin:0 0 20px;
+}
+.hero h1 a:hover{color:var(--signal)}
+.hero .dek{font-size:16px; line-height:1.62; color:var(--ink-soft); margin:0 0 22px}
+.hero .read{display:inline-block; font-size:13.5px; font-weight:700; border-bottom:1.5px solid var(--ink); padding-bottom:2px}
+.hero .read:hover{color:var(--signal); border-bottom-color:var(--signal)}
+.hero .byline{font-size:12.5px; color:var(--ink-faint); margin:0}
+.hero .foot{display:flex; flex-wrap:wrap; gap:8px 18px; align-items:baseline}
+.hero figure{margin:0; position:relative}
+.hero figure img{width:100%; height:auto; display:block; border:1px solid var(--rule-soft)}
+.hero figcaption{position:absolute; right:14px; bottom:14px; background:rgba(17,17,17,.8); color:var(--bg); font-size:11.5px; padding:5px 9px}
 
-/* sections */
-.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 30px}
-section h2{font-family:var(--sans);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;
-  font-weight:700;color:var(--fg);margin:0 0 3px;padding-bottom:8px;
-  border-bottom:2px solid var(--accent)}
-ol.items{list-style:none;margin:0;padding:0}
-ol.items li{padding:15px 0;border-bottom:1px solid var(--line)}
+/* columns -------------------------------------------------------- */
+.cols{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:46px 34px}
+.colhead{display:flex; align-items:center; gap:8px; padding-bottom:9px; border-bottom:1px solid var(--rule)}
+.colhead svg{width:15px; height:15px; flex:none; stroke:var(--ink); fill:none; stroke-width:1.25; stroke-linecap:round; stroke-linejoin:round}
+ol.items{list-style:none; margin:0; padding:0}
+ol.items li{padding:18px 0; border-bottom:1px solid var(--rule-soft)}
 ol.items li:last-child{border-bottom:0}
-.items img{width:100%;height:auto;display:block;border-radius:5px;margin-bottom:11px;background:var(--mark)}
-.items h3{font-family:var(--serif);font-size:18px;line-height:1.3;margin:0 0 6px;
-  font-weight:600;letter-spacing:-.01em}
-.items h3 a{text-decoration:none}
-.items h3 a:hover{color:var(--accent)}
-.items .meta{color:var(--mut);font-size:12.5px;display:flex;flex-wrap:wrap;gap:7px;align-items:center}
-.items .meta .src{font-weight:600;color:var(--fg)}
-.items .meta .dot{color:var(--fai)}
-.ever{font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;
-  color:var(--accent);border:1px solid var(--accent);border-radius:3px;padding:1px 5px}
+.items figure{margin:0 0 14px}
+.items img{width:100%; height:auto; display:block; border:1px solid var(--rule-soft)}
+.items h3{font-family:var(--serif); font-weight:400; font-size:1.2rem; line-height:1.25; margin:0 0 8px}
+.items h3 a:hover{color:var(--signal)}
+.arw{font-size:.68em; vertical-align:.34em; color:var(--ink-faint); margin-left:.2em}
+.items h3 a:hover .arw{color:var(--signal)}
+.items .meta{font-size:12.5px; color:var(--ink-faint); margin:0; display:flex; flex-wrap:wrap; gap:6px; align-items:center}
+.items .meta .src{color:var(--ink-soft)}
+.ever{font-size:10px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--signal); border:1px solid var(--signal); padding:1px 5px}
 
-/* archive */
-.arch{list-style:none;margin:0;padding:0;max-width:760px}
-.arch li{border-bottom:1px solid var(--line)}
-.arch a{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;
-  padding:15px 2px;text-decoration:none}
-.arch a:hover{background:var(--mark)}
-.arch .d{font-family:var(--serif);font-size:18px;font-weight:600;min-width:11em}
-.arch .h{color:var(--mut);font-size:14px;flex:1 1 260px}
-.arch a:hover .d{color:var(--accent)}
+/* archive -------------------------------------------------------- */
+.arch{list-style:none; margin:0; padding:0; max-width:900px}
+.arch li{border-bottom:1px solid var(--rule-soft)}
+.arch a{display:flex; flex-wrap:wrap; gap:6px 20px; align-items:baseline; padding:16px 2px}
+.arch .d{font-family:var(--serif); font-size:1.2rem; min-width:11em}
+.arch .h{color:var(--ink-faint); font-size:14px; flex:1 1 280px}
+.arch a:hover .d{color:var(--signal)}
 
-/* prose */
-.prose{max-width:70ch}
-.prose h1{font-family:var(--serif);font-size:30px;margin:0 0 6px;font-weight:600;letter-spacing:-.015em}
-.prose h2{font-family:var(--serif);font-size:21px;margin:34px 0 10px;font-weight:600}
-.prose p,.prose li{font-size:16.5px}
+/* prose ---------------------------------------------------------- */
+.prose{max-width:68ch}
+.prose h1{font-family:var(--serif); font-weight:400; font-size:2.4rem; line-height:1.12; letter-spacing:-.01em; margin:0 0 10px}
+.prose h2{font-family:var(--serif); font-weight:400; font-size:1.5rem; margin:36px 0 10px}
+.prose p,.prose li{font-size:16px; line-height:1.62; color:var(--ink-soft)}
+.prose strong{color:var(--ink); font-weight:600}
+.prose a{color:var(--signal); border-bottom:1px solid var(--signal)}
 .prose ul{padding-left:20px}
-.prose a{color:var(--accent)}
 
-/* subscribe */
-.sub{margin:52px 0 0;padding:26px 0 0;border-top:1px solid var(--line)}
-.sub h2{font-family:var(--serif);font-size:20px;margin:0 0 6px;font-weight:600}
-.sub p{color:var(--mut);font-size:14.5px;margin:0 0 14px;max-width:60ch}
-.btn{display:inline-block;border:1px solid var(--accent);color:var(--accent);
-  text-decoration:none;border-radius:5px;padding:8px 16px;font-size:14px;font-weight:600}
-.btn:hover{background:var(--accent);color:var(--bg)}
+/* subscribe + footer --------------------------------------------- */
+.sub{margin:56px 0 0; padding-top:28px; border-top:1px solid var(--rule)}
+.sub h2{font-family:var(--serif); font-weight:400; font-size:1.5rem; margin:0 0 7px}
+.sub p{color:var(--ink-soft); font-size:14.5px; margin:0 0 16px; max-width:58ch}
+.btn{display:inline-block; border:1px solid var(--ink); color:var(--ink); padding:9px 17px; font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase}
+.btn:hover{background:var(--ink); color:var(--bg)}
+footer{margin-top:64px; border-top:1px solid var(--rule-soft); padding:20px 0 64px; color:var(--ink-faint); font-size:12.5px}
+footer .inner{display:flex; flex-wrap:wrap; gap:8px 22px; align-items:baseline}
+footer a:hover{color:var(--ink)}
 
-footer{margin-top:60px;border-top:1px solid var(--line);padding:22px 0 60px;
-  color:var(--mut);font-size:13px}
-footer .wrap{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:baseline}
-footer a{color:var(--mut)}
-
-@media (max-width:980px){ .cols{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .hero{grid-template-columns:1fr;gap:20px} .hero figure{order:-1} }
-@media (max-width:620px){ .cols{grid-template-columns:1fr;gap:30px}
-  .brand{font-size:26px} .ihead .paging{margin-left:0;width:100%} }
+@media (max-width:1100px){
+  .cols{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hero{grid-template-columns:1fr; gap:24px}
+  .hero figure{order:-1}
+}
+@media (max-width:760px){
+  .announce .row{padding:10px 24px}
+  .announce p{font-size:12px}
+  .logo img{height:51.61px}
+  .mastrow .inner{flex-wrap:wrap; gap:14px}
+  .navwrap{flex-wrap:wrap}
+  .nav{flex-wrap:wrap; gap:14px}
+  .cols{grid-template-columns:1fr; gap:36px}
+  .issueline .right{margin-left:0; width:100%}
+}
 """
 
 # ---------------------------------------------------------------- shell
 
-# Publisher images are hotlinked and some hosts refuse cross-origin requests.
-# If one is refused, drop the figure rather than show a broken box. Progressive
-# enhancement only: every headline, source and link is already in the HTML.
+LOGO = ("https://raw.githubusercontent.com/smallrevisionsrss/srrss/"
+        "refs/heads/main/Small%20Revisions%20-%20Dymo%20Label%20-%20Knockout%20-%20Black.svg")
+
+FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
+         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+         '<link href="https://fonts.googleapis.com/css2?'
+         'family=Instrument+Sans:ital,wght@0,400..700;1,400..700'
+         '&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">')
+
+# One line-art glyph per section, echoing the marks beside the column
+# headings on smallrevisions.com/rsssignal.
+GLYPHS = {
+ "design-arch": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-6h6v6"/></svg>',
+ "craft":       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 3l4 4L9 19l-5 1 1-5z"/><path d="M14 6l4 4"/></svg>',
+ "sound-vinyl": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/></svg>',
+ "collecting":  '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l9-4 9 4-9 4z"/><path d="M3 12l9 4 9-4"/><path d="M3 16l9 4 9-4"/></svg>',
+ "archives":    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/><path d="M9 12h6M9 16h6"/></svg>',
+ "photo-film":  '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="M7 5v14M17 5v14M3 12h18"/></svg>',
+}
+
+ARROW = '<span class="arw" aria-hidden="true">&#8599;</span>'
+
+# Publisher images are hotlinked and some hosts refuse cross-origin
+# requests. Drop a refused figure rather than show a broken box.
+# Progressive enhancement only: every headline, source and link is
+# already in the served HTML.
 IMG_FALLBACK_JS = """
 <script>
+function signalDropImage(i){
+  var f = i.closest('figure') || i;
+  f.style.display = 'none';
+  var hero = i.closest('.hero');
+  if (hero) { hero.classList.add('noimg'); }
+}
 document.querySelectorAll('img').forEach(function(i){
-  i.addEventListener('error', function(){
-    var f = i.closest('figure') || i;
-    f.style.display = 'none';
-    var hero = i.closest('.hero');
-    if (hero) { hero.classList.add('noimg'); }
-  });
+  i.addEventListener('error', function(){ signalDropImage(i); });
+  if (i.complete && i.naturalWidth === 0) { signalDropImage(i); }
 });
 </script>
 """
@@ -226,7 +286,7 @@ document.querySelectorAll('img').forEach(function(i){
 
 def page(*, title, desc, canonical, body, domain, jsonld=None,
          og_image=None, og_type="website", prev_url=None, next_url=None,
-         nav_current=None):
+         nav_current=None, issueline=""):
     base = f"https://{domain}"
     head = [
         '<!doctype html>', '<html lang="en">', '<head>',
@@ -252,6 +312,7 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
     if next_url: head.append(f'<link rel="next" href="{e(next_url)}">')
     head += [
         f'<link rel="alternate" type="application/rss+xml" title="{e(SITE_NAME)}" href="{base}/feed.xml">',
+        FONTS,
         f'<style>{CSS}</style>',
     ]
     if jsonld:
@@ -260,24 +321,44 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
                     + '</script>')
     head.append('</head><body>')
 
-    def navlink(href, label, key):
+    def nav(href, label, key, sub=False):
         cur = ' aria-current="page"' if nav_current == key else ""
-        return f'<a href="{href}"{cur}>{label}</a>'
+        cls = ' class="navsub"' if sub else ""
+        return f'<a href="{href}"{cls}{cur}>{label}</a>'
 
-    mast = f"""<header class="mast"><div class="wrap">
-<a class="brand" href="/">Signal<span>.</span></a>
-<p class="tag">{e(TAGLINE)}</p>
-<nav class="nav">{navlink('/', 'Today', 'today')}{navlink('/archive/', 'Archive', 'archive')}{navlink('/about/', 'About', 'about')}<a href="/feed.xml">RSS</a><a href="{SHOP_URL}">Shop</a></nav>
-</div></header>"""
+    mast = f"""<div class="announce"><div class="container"><div class="row">
+<p>A curated selection of design, art &amp; culture. <a href="{SHOP_URL}/all">Order now</a></p>
+</div></div></div>
+<header class="mastrow"><div class="container"><div class="inner">
+<a class="logo" href="/"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
+<div class="navwrap">
+<nav class="nav" aria-label="Main">
+{nav(SHOP_URL + '/all', 'Shop', 'shop')}{nav('/', 'RSS / Signal', 'today')}{nav('/archive/', 'Archive', 'archive', True)}{nav('/about/', 'About', 'about', True)}
+</nav>
+<div class="actions"><a href="/feed.xml">RSS</a></div>
+</div>
+</div></div></header>
+{issueline}"""
 
-    foot = f"""<footer><div class="wrap">
+    foot = f"""<footer><div class="container"><div class="inner">
 <span>{e(SITE_NAME)}, published by <a href="{SHOP_URL}">{e(PUBLISHER)}</a>.</span>
 <span><a href="/feed.xml">RSS feed</a></span>
 <span><a href="/archive/">Archive</a></span>
-</div></footer>""" + IMG_FALLBACK_JS + "</body></html>"
-    return "\n".join(head) + mast + '<main class="wrap">' + body + "</main>" + foot
+<span><a href="/about/">About</a></span>
+</div></div></footer>""" + IMG_FALLBACK_JS + "</body></html>"
+
+    return ("\n".join(head) + mast
+            + '<main class="container">' + body + "</main>" + foot)
 
 # ---------------------------------------------------------------- blocks
+
+def issue_line(issue, *, paging="", running=True):
+    right = (f'<div class="right">A Running Record of Findings from the Internet '
+             f'/ <b>{e(issue["dateLabel"])}</b></div>') if running else ""
+    return (f'<div class="issueline"><div class="container"><div class="inner">'
+            f'<span class="mark"><span class="dot"></span>'
+            f'<span class="label">RSS / Signal</span></span>'
+            f'{right}{paging}</div></div></div>')
 
 def hero_block(issue):
     h = issue["hero"]
@@ -288,10 +369,12 @@ def hero_block(issue):
         img = (f'<figure><a href="{e(h["url"])}" rel="noopener"><img src="{e(h["image"])}" '
                f'alt="{e(h.get("caption") or h["headline"])}" loading="eager"></a>{cap}</figure>')
     return f"""<div class="hero"><div>
-<p class="kicker">{e(lab)}</p>
-<h2><a href="{e(h['url'])}" rel="noopener">{e(h['headline'])}</a></h2>
+<h1><a href="{e(h['url'])}" rel="noopener">{e(h['headline'])}</a></h1>
 <p class="dek">{e(h.get('dek',''))}</p>
+<div class="foot">
+<a class="read" href="{e(h['url'])}" rel="noopener">Read the story {ARROW}</a>
 <p class="byline">{e(h.get('byline',''))}</p>
+</div>
 </div>{img}</div>"""
 
 def sections_block(issue):
@@ -300,14 +383,16 @@ def sections_block(issue):
         arts = issue["categories"].get(key, [])
         if not arts:
             continue
-        out.append(f"<section><h2>{e(label)}</h2><ol class='items'>")
+        out.append(f'<section><div class="colhead">{GLYPHS.get(key,"")}'
+                   f'<span class="label">{e(label)}</span></div><ol class="items">')
         for a in arts:
-            img = (f'<a href="{e(a["url"])}" rel="noopener"><img src="{e(a["image"])}" '
-                   f'alt="{e(a["headline"])}" loading="lazy"></a>') if a.get("image") else ""
+            img = (f'<figure><a href="{e(a["url"])}" rel="noopener"><img src="{e(a["image"])}" '
+                   f'alt="{e(a["headline"])}" loading="lazy"></a></figure>') if a.get("image") else ""
             ever = '<span class="ever">Evergreen</span>' if a.get("evergreen") else ""
-            date = f'<span class="dot">&middot;</span><span>{e(a["date"])}</span>' if a.get("date") else ""
+            date = f'<span>&middot;</span><span>{e(a["date"])}</span>' if a.get("date") else ""
             out.append(
-                f'<li>{img}<h3><a href="{e(a["url"])}" rel="noopener">{e(a["headline"])}</a></h3>'
+                f'<li>{img}<h3><a href="{e(a["url"])}" rel="noopener">{e(a["headline"])}'
+                f'{ARROW}</a></h3>'
                 f'<p class="meta"><span class="src">{e(a["source"])}</span>{date}{ever}</p></li>')
         out.append("</ol></section>")
     out.append("</div>")
@@ -375,9 +460,7 @@ def render_issue(issue, dt, *, domain, prev=None, nxt=None, as_index=False):
     if issue.get("note"):
         note = f'<div class="note"><h2>From the editor</h2><p>{e(issue["note"])}</p></div>'
 
-    body = (f'<div class="ihead"><h1>{e(issue["dateLabel"])}</h1>'
-            f'<span class="n">{n} pieces &middot; {len(srcs)} publications</span>{pag}</div>'
-            + note + hero_block(issue) + sections_block(issue) + subscribe_block(domain))
+    body = note + hero_block(issue) + sections_block(issue) + subscribe_block(domain)
 
     return page(
         title=(f"Signal &middot; {issue['dateLabel']}" if not as_index
@@ -389,7 +472,8 @@ def render_issue(issue, dt, *, domain, prev=None, nxt=None, as_index=False):
         jsonld=issue_jsonld(issue, dt, url, domain),
         prev_url=(f"https://{domain}/issues/{slug(prev)}/" if prev else None),
         next_url=(f"https://{domain}/issues/{slug(nxt)}/" if nxt else None),
-        nav_current="today" if as_index else None,
+        nav_current="today",
+        issueline=issue_line(issue, paging=pag),
     )
 
 def render_archive(pairs, domain):
@@ -399,8 +483,7 @@ def render_archive(pairs, domain):
                     f'<span class="h">{e(trim(issue["hero"]["headline"], 90))}</span></a></li>')
     total = sum(1 + sum(len(v) for v in i["categories"].values()) for i, _ in pairs)
     body = (f'<div class="prose"><h1>Archive</h1>'
-            f'<p style="color:var(--mut)">{len(pairs)} issues, {total} pieces, '
-            f'newest first.</p></div>'
+            f'<p>{len(pairs)} issues, {total} pieces, newest first.</p></div>'
             f'<ul class="arch">{"".join(rows)}</ul>')
     return page(title="Signal archive, every issue",
                 desc=f"Every issue of Signal. {len(pairs)} daily editions, {total} pieces of writing "
