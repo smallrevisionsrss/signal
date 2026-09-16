@@ -112,6 +112,7 @@ body{
 }
 a{color:inherit; text-decoration:none}
 img{max-width:100%}
+[hidden]{display:none !important}
 :focus-visible{outline:2px solid var(--signal); outline-offset:3px}
 .container{max-width:1440px; margin:0 auto; padding:0 24px}
 
@@ -264,6 +265,391 @@ GLYPHS = {
 
 ARROW = '<span class="arw" aria-hidden="true">&#8599;</span>'
 
+# ---------------------------------------------------------------- nav
+# Ported from Small Revisions' own header code injection so the two
+# domains read as one site. CSS is close to verbatim; the markup drops
+# the Squarespace-only plumbing and points Shop, cart and logo at
+# www.smallrevisions.com with absolute URLs so navigation between the
+# two never looks like a boundary.
+
+NAV_CSS = """
+/* fixed nav ------------------------------------------------------ */
+.mainnav-fixed{position:fixed; top:0; left:0; right:0; z-index:20; background:var(--bg)}
+.mainnav-spacer{width:100%}
+
+.mainnav-announce{background:var(--ink); border-bottom:1px solid var(--ink)}
+.mainnav-announce-row{position:relative; display:flex; align-items:center; justify-content:center; padding:10px 40px; text-align:center}
+.mainnav-announce-text{font-size:13px; color:rgba(249,247,240,.7); margin:0}
+.mainnav-announce-text a{font-weight:700; color:var(--bg); border-bottom:1px solid var(--bg); padding-bottom:1px; transition:border-color .15s ease, color .15s ease}
+.mainnav-announce-text a:hover{border-color:var(--signal); color:var(--signal)}
+.mainnav-announce-close{position:absolute; right:24px; top:50%; transform:translateY(-50%); background:none; border:none; cursor:pointer; padding:4px; font-size:16px; line-height:1; color:rgba(249,247,240,.7); transition:color .15s ease}
+.mainnav-announce-close:hover{color:var(--bg)}
+.mainnav-announce.is-dismissed{display:none}
+
+.mainnav-inner{display:flex; align-items:center; gap:24px; padding:20px 0}
+.mainnav-logo{display:block; flex:none; transition:opacity .15s ease}
+.mainnav-logo:hover{opacity:.6}
+.mainnav-logo img{display:block; height:63px; width:auto}
+.mainnav-bottom-row{display:flex; align-items:center; justify-content:space-between; gap:24px; flex:1; min-width:0}
+.mainnav-links{display:flex; align-items:center; flex:1; min-width:0}
+
+.mainnav-toplink{
+  background:none; border:none; cursor:pointer; padding:6px 0; margin-right:20px;
+  font-size:14px; font-weight:600; letter-spacing:.01em; color:var(--ink);
+  border-bottom:2px solid transparent; transition:border-color .15s ease;
+  flex:none; white-space:nowrap;
+}
+.mainnav-toplink.is-open{border-color:var(--dot)}
+
+.mainnav-rollout{
+  display:grid; grid-template-columns:0fr; align-items:center; margin-right:0;
+  overflow:hidden; opacity:0;
+  transition:grid-template-columns .4s cubic-bezier(.4,0,.2,1), margin-right .4s cubic-bezier(.4,0,.2,1), opacity .3s ease;
+}
+.mainnav-rollout.is-open{grid-template-columns:1fr; margin-right:20px; opacity:1}
+.mainnav-rollout-inner{display:flex; align-items:center; gap:20px; min-width:0; overflow:hidden; white-space:nowrap}
+
+.signal-tab{
+  background:none; border:none; cursor:pointer; padding:6px 0;
+  font-size:14px; font-weight:600; letter-spacing:.01em; color:var(--ink-faint);
+  border-bottom:2px solid transparent; transition:color .15s ease, border-color .15s ease;
+  white-space:nowrap; flex:none;
+}
+.signal-tab:hover{color:var(--ink)}
+.signal-tab.is-active{color:var(--cat); border-color:var(--dot)}
+
+.mainnav-rollout a{
+  font-size:13px; font-weight:600; letter-spacing:.01em; color:var(--ink-faint);
+  border-bottom:2px solid transparent; padding-bottom:2px;
+  transition:color .15s ease, border-color .15s ease; white-space:nowrap; flex:none;
+}
+.mainnav-rollout a:hover{color:var(--ink)}
+.mainnav-rollout a.is-active{color:var(--cat); border-color:var(--dot)}
+
+.mainnav-actions{display:flex; align-items:center; gap:22px}
+.mainnav-search{position:relative; flex:none; width:200px; max-width:100%}
+.mainnav-search-input{
+  width:100%; border:none; border-bottom:1px solid var(--rule-soft); background:none;
+  padding:6px 0; font-size:14px; font-family:inherit; color:var(--ink);
+  text-align:right; transition:border-color .15s ease;
+}
+.mainnav-search-input::placeholder{color:var(--ink-faint)}
+.mainnav-search-input:focus{outline:none; border-color:var(--ink)}
+
+.search-dropdown{
+  position:absolute; top:calc(100% + 8px); right:0; width:360px;
+  max-width:calc(100vw - 32px); max-height:420px; overflow-y:auto;
+  background:var(--bg); border:1px solid var(--rule-soft);
+  box-shadow:0 12px 32px rgba(17,17,17,.12); z-index:30; display:none; text-align:left;
+}
+.search-dropdown.is-open{display:block}
+.search-section-label{padding:10px 14px 6px; font-size:10px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-faint)}
+.search-result{display:block; padding:8px 14px; border-top:1px solid var(--rule-soft)}
+.search-section-label + .search-result{border-top:none}
+.search-result:hover{background:var(--rule-soft)}
+.search-result-title{font-size:13.5px; font-weight:600; color:var(--ink); line-height:1.3}
+.search-result-meta{font-size:11.5px; color:var(--ink-faint); margin-top:2px}
+.search-empty,.search-loading{padding:16px 14px; font-size:13px; color:var(--ink-faint); text-align:center}
+
+.mainnav-icon-btn{display:flex; align-items:center; gap:6px; background:none; border:none; cursor:pointer; padding:0; color:var(--ink); transition:color .15s ease}
+.mainnav-icon-btn:hover{color:var(--signal)}
+.mainnav-icon{width:19px; height:19px; flex:none; display:block}
+.mainnav-icon-btn.cart .mainnav-icon{width:28px; height:28px}
+.mainnav-cart-count{font-size:12px; font-weight:600; color:var(--ink)}
+.mainnav-icon-btn:hover .mainnav-cart-count{color:var(--signal)}
+
+.mainnav-toggle{display:none; background:none; border:none; cursor:pointer; padding:4px; color:var(--ink)}
+.mainnav-toggle .mainnav-icon{width:22px; height:22px}
+
+/* merged filter view --------------------------------------------- */
+.merged-feed{padding-top:8px; padding-bottom:64px}
+.merged-head{display:flex; flex-wrap:wrap; gap:10px 18px; align-items:baseline; padding-bottom:9px; border-bottom:1px solid var(--rule); margin-bottom:6px}
+.merged-head .count{font-size:12.5px; color:var(--ink-faint)}
+.merged-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0 34px}
+.merged-grid li{list-style:none; padding:17px 0; border-bottom:1px solid var(--rule-soft)}
+.merged-grid ol{list-style:none; margin:0; padding:0}
+.merged-issue{font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-faint); margin:0 0 6px}
+
+@media (max-width:1100px){ .merged-grid{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width:760px){
+  .mainnav-announce-row{padding:10px 44px}
+  .mainnav-announce-text{font-size:12px}
+  .mainnav-logo img{height:51.61px}
+  .mainnav-links{display:none}
+  .mainnav-toggle{display:block}
+  .mainnav-inner{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:16px 0; position:relative}
+  .mainnav-bottom-row{display:contents}
+  .mainnav-actions{flex:1; gap:16px; justify-content:flex-end}
+  .mainnav-search{flex:1; width:auto; min-width:0}
+  .search-dropdown{left:0; right:0; width:auto; max-width:none}
+  .merged-grid{grid-template-columns:1fr}
+  .mainnav-links.is-open{
+    display:flex; flex-direction:column; align-items:stretch;
+    position:absolute; top:100%; left:0; right:0; background:var(--bg);
+    border-top:1px solid var(--rule-soft); padding:18px 0; gap:0;
+    max-height:calc(100vh - 60px); overflow-y:auto; z-index:25;
+  }
+  .mainnav-links.is-open .mainnav-toplink{padding:10px 0; margin-right:0; font-size:16px; color:var(--ink); border-bottom:none; text-align:left}
+  .mainnav-links.is-open .mainnav-rollout{display:flex; flex-direction:column; align-items:flex-start; max-height:0; gap:0; margin-right:0; overflow:hidden; opacity:1; grid-template-columns:none; transition:max-height .4s ease}
+  .mainnav-links.is-open .mainnav-rollout.is-open{max-height:420px}
+  .mainnav-links.is-open .mainnav-rollout-inner{display:contents}
+  .mainnav-links.is-open .signal-tab,
+  .mainnav-links.is-open .mainnav-rollout a{padding:8px 0 8px 14px; font-size:14px; border-bottom:none}
+}
+"""
+
+CART_SVG = ('<svg class="mainnav-icon" viewBox="0 0 144 144" aria-hidden="true" fill="currentColor">'
+            '<path d="M91.95,109.3h-40.08c-2.9,0-5.26,2.36-5.26,5.26v4.9h50.61v-4.9c0-2.9-2.36-5.26-5.26-5.26Z"/>'
+            '<path d="M121.54,25.07H22.28c-3.18,0-5.75,2.89-5.75,6.44v81.5c0,3.56,2.58,6.44,5.75,6.44h21.04v-4.9c0-4.71,3.83-8.54,8.54-8.54h40.08c4.71,0,8.54,3.83,8.54,8.54v4.9h21.04c3.18,0,5.75-2.89,5.75-6.44V31.51c0-3.56-2.58-6.44-5.75-6.44ZM62.54,62.6l9.37-9.37,9.37,9.37-9.37,9.37-9.37-9.37ZM67.81,75.01l-9.37,9.37-9.37-9.37,9.37-9.37,9.37,9.37ZM85.38,65.64l9.37,9.37-9.37,9.37-9.37-9.37,9.37-9.37ZM89.49,62.6l9.37-9.37,9.37,9.37-9.37,9.37-9.37-9.37ZM85.38,59.55l-9.37-9.37h18.74l-9.37,9.37ZM55.91,34.02c0-1.24,1.21-2.25,2.7-2.25h26.59c1.49,0,2.7,1.01,2.7,2.25v7.54c0,1.24-1.21,2.25-2.7,2.25h-26.59c-1.49,0-2.7-1.01-2.7-2.25v-7.54ZM67.81,50.18l-9.37,9.37-9.37-9.37h18.74ZM54.34,62.6l-9.37,9.37-9.37-9.37,9.37-9.37,9.37,9.37ZM31.77,50.18h9.37l-9.37,9.37v-9.37ZM31.77,65.64l9.37,9.37-9.37,9.37v-18.74ZM31.77,99.84v-9.37l9.37,9.37h-9.37ZM44.97,96.8l-9.37-9.37,9.37-9.37,9.37,9.37-9.37,9.37ZM49.07,99.84l9.37-9.37,9.37,9.37h-18.74ZM62.54,87.43l9.37-9.37,9.37,9.37-9.37,9.37-9.37-9.37ZM76.01,99.84l9.37-9.37,9.37,9.37h-18.74ZM98.86,96.8l-9.37-9.37,9.37-9.37,9.37,9.37-9.37,9.37ZM111.93,99.84h-9.37l9.37-9.37v9.37ZM111.93,84.38l-9.37-9.37,9.37-9.37v18.74ZM111.93,59.55l-9.37-9.37h9.37v9.37Z"/></svg>')
+
+BURGER_SVG = ('<svg class="mainnav-icon" viewBox="0 0 72 72" aria-hidden="true">'
+              '<line x1="10" y1="22" x2="62" y2="22" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>'
+              '<line x1="10" y1="36" x2="62" y2="36" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>'
+              '<line x1="10" y1="50" x2="62" y2="50" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg>')
+
+
+def nav_html(domain):
+    tabs = "".join(
+        f'<button type="button" class="signal-tab" data-filter="{k}" role="tab" aria-selected="false">{e(lab)}</button>'
+        for lab, k in [("All", "all")] + SECTIONS)
+    return f"""<div class="mainnav-fixed" id="mainnav-fixed">
+<div class="mainnav-announce" id="mainnav-announce"><div class="container">
+<div class="mainnav-announce-row">
+<p class="mainnav-announce-text">A curated selection of design, art &amp; culture. <a href="{SHOP_URL}/all">Order now</a></p>
+<button type="button" class="mainnav-announce-close" id="mainnav-announce-close" aria-label="Dismiss announcement">&times;</button>
+</div></div></div>
+<div class="mainnav-row"><div class="container"><div class="mainnav-inner">
+<a class="mainnav-logo" href="/"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
+<div class="mainnav-bottom-row">
+<nav class="mainnav-links" id="mainnav-links" aria-label="Main">
+<a class="mainnav-toplink" href="{SHOP_URL}/all">Shop</a>
+<button type="button" class="mainnav-toplink" data-group="scroll" aria-expanded="false">RSS / Signal</button>
+<div class="mainnav-rollout" id="scroll-rollout" role="tablist" aria-label="Filter stories by section">
+<div class="mainnav-rollout-inner">{tabs}</div>
+</div>
+<a class="mainnav-toplink" href="/archive/">Archive</a>
+<a class="mainnav-toplink" href="/about/">About</a>
+</nav>
+<div class="mainnav-actions">
+<div class="mainnav-search">
+<input type="search" class="mainnav-search-input" id="search-input" placeholder="Search" aria-label="Search" autocomplete="off">
+<div class="search-dropdown" id="search-dropdown" role="listbox" aria-label="Search results"></div>
+</div>
+<a class="mainnav-icon-btn cart" href="{SHOP_URL}/cart" aria-label="Cart">{CART_SVG}<span class="mainnav-cart-count">0</span></a>
+<button type="button" class="mainnav-toggle" id="mainnav-toggle" aria-label="Open menu" aria-expanded="false">{BURGER_SVG}</button>
+</div>
+</div>
+</div></div></div>
+</div>
+<div class="mainnav-spacer" id="mainnav-spacer" aria-hidden="true"></div>"""
+
+
+NAV_JS = """
+<script>
+(function(){
+  var announce = document.getElementById('mainnav-announce');
+  var bar = document.getElementById('mainnav-fixed');
+  var spacer = document.getElementById('mainnav-spacer');
+  var toplink = document.querySelector('.mainnav-toplink[data-group="scroll"]');
+  var rollout = document.getElementById('scroll-rollout');
+  var links = document.getElementById('mainnav-links');
+  var toggle = document.getElementById('mainnav-toggle');
+  var input = document.getElementById('search-input');
+  var dropdown = document.getElementById('search-dropdown');
+  var mergedWrap = document.getElementById('merged-wrap');
+  var mergedGrid = document.getElementById('merged-grid');
+  var mergedHead = document.getElementById('merged-head');
+  var LABELS = __LABELS__;
+
+  function reserve(){ if(bar && spacer) spacer.style.height = bar.offsetHeight + 'px'; }
+  function alignClose(){
+    var close = document.getElementById('mainnav-announce-close');
+    var cart = document.querySelector('.mainnav-icon-btn.cart');
+    var row = close ? close.closest('.mainnav-announce-row') : null;
+    if(!close || !cart || !row) return;
+    var r = row.getBoundingClientRect(), c = cart.getBoundingClientRect();
+    close.style.right = (r.right - (c.left + c.width/2) - close.offsetWidth/2) + 'px';
+  }
+  function layout(){ reserve(); alignClose(); }
+
+  /* Filtering runs on top of server-rendered HTML, never instead of
+     it. Crawlers get the full issue; this only rearranges it. */
+  var DATA = null;
+  function loadData(cb){
+    if(DATA){ cb(DATA); return; }
+    fetch('/signal-issues-data.json').then(function(r){ return r.json(); })
+      .then(function(d){ DATA = d; cb(d); }).catch(function(){ cb([]); });
+  }
+
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+
+  function showIssue(v){
+    var hero = document.querySelector('.hero');
+    var cols = document.querySelector('.cols');
+    var line = document.querySelector('.issueline');
+    if(hero) hero.hidden = !v;
+    if(cols) cols.hidden = !v;
+    if(line) line.hidden = !v;
+  }
+
+  function renderMerged(key){
+    if(!mergedWrap) return;
+    loadData(function(issues){
+      var rows = [];
+      issues.forEach(function(iss){
+        (iss.categories && iss.categories[key] || []).forEach(function(a){
+          rows.push({issue: iss.dateLabel, a: a});
+        });
+      });
+      var per = Math.ceil(rows.length / 3) || 1;
+      var html = '';
+      for(var c = 0; c < 3; c++){
+        html += '<ol>';
+        rows.slice(c*per, (c+1)*per).forEach(function(r){
+          var a = r.a;
+          html += '<li><p class="merged-issue">' + esc(r.issue) + '</p>' +
+            '<h3><a href="' + esc(a.url) + '" rel="noopener">' + esc(a.headline) +
+            '<span class="arw" aria-hidden="true">&#8599;</span></a></h3>' +
+            '<p class="meta"><span class="src">' + esc(a.source) + '</span>' +
+            (a.date ? '<span>&middot;</span><span>' + esc(a.date) + '</span>' : '') + '</p></li>';
+        });
+        html += '</ol>';
+      }
+      mergedHead.innerHTML = '<span class="label">' + esc(LABELS[key] || '') + '</span>' +
+        '<span class="count">' + rows.length + ' pieces across ' + issues.length + ' issues</span>';
+      mergedGrid.className = 'merged-grid items';
+      mergedGrid.innerHTML = html;
+      mergedWrap.hidden = false;
+      window.scrollTo(0, 0);
+    });
+  }
+
+  function setFilter(key){
+    document.querySelectorAll('.signal-tab').forEach(function(t){
+      var on = t.getAttribute('data-filter') === key;
+      t.classList.toggle('is-active', on);
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    if(key === 'all'){
+      showIssue(true);
+      if(mergedWrap){ mergedWrap.hidden = true; mergedGrid.innerHTML = ''; }
+    } else {
+      showIssue(false);
+      renderMerged(key);
+    }
+  }
+
+  function openRollout(){
+    rollout.classList.add('is-open');
+    toplink.classList.add('is-open');
+    toplink.setAttribute('aria-expanded', 'true');
+    setFilter('all');
+    layout();
+  }
+  function closeRollout(){
+    rollout.classList.remove('is-open');
+    toplink.classList.remove('is-open');
+    toplink.setAttribute('aria-expanded', 'false');
+    document.querySelectorAll('.signal-tab').forEach(function(t){
+      t.classList.remove('is-active'); t.setAttribute('aria-selected','false');
+    });
+    showIssue(true);
+    if(mergedWrap){ mergedWrap.hidden = true; mergedGrid.innerHTML = ''; }
+    layout();
+  }
+
+  if(toplink && rollout){
+    toplink.addEventListener('click', function(){
+      if(window.location.pathname !== '/'){ window.location.href = '/?open=scroll'; return; }
+      rollout.classList.contains('is-open') ? closeRollout() : openRollout();
+    });
+    document.querySelectorAll('.signal-tab').forEach(function(t){
+      t.addEventListener('click', function(){ setFilter(t.getAttribute('data-filter')); });
+    });
+    if(new URLSearchParams(window.location.search).get('open') === 'scroll'){
+      openRollout();
+      history.replaceState(null, document.title, window.location.pathname);
+    }
+  }
+
+  var close = document.getElementById('mainnav-announce-close');
+  if(close && announce){
+    close.addEventListener('click', function(){ announce.classList.add('is-dismissed'); layout(); });
+  }
+  if(toggle && links){
+    toggle.addEventListener('click', function(){
+      var open = links.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      layout();
+    });
+  }
+
+  /* Search covers Signal only. The shop lives on another origin and
+     its JSON endpoint refuses cross-origin reads, so shop results
+     would silently return nothing rather than fail loudly. */
+  var idx = null, debounce = null;
+  function buildIndex(issues){
+    var list = [];
+    issues.forEach(function(iss){
+      if(iss.hero) list.push({t: iss.hero.headline, m: iss.hero.byline, u: iss.hero.url});
+      Object.keys(iss.categories || {}).forEach(function(k){
+        iss.categories[k].forEach(function(a){ list.push({t: a.headline, m: a.source, u: a.url}); });
+      });
+    });
+    return list;
+  }
+  function runSearch(q){
+    q = q.trim();
+    if(!q){ dropdown.classList.remove('is-open'); dropdown.innerHTML=''; return; }
+    dropdown.innerHTML = '<div class="search-loading">Searching&hellip;</div>';
+    dropdown.classList.add('is-open');
+    loadData(function(issues){
+      if(input.value.trim() !== q) return;
+      if(!idx) idx = buildIndex(issues);
+      var ql = q.toLowerCase(), out = [];
+      for(var i = 0; i < idx.length && out.length < 10; i++){
+        if(idx[i].t && idx[i].t.toLowerCase().indexOf(ql) !== -1) out.push(idx[i]);
+      }
+      if(!out.length){
+        dropdown.innerHTML = '<div class="search-empty">No results for &ldquo;' + esc(q) + '&rdquo;</div>';
+        return;
+      }
+      dropdown.innerHTML = '<div class="search-section-label">Signal</div>' + out.map(function(r){
+        return '<a class="search-result" href="' + esc(r.u) + '" target="_blank" rel="noopener">' +
+          '<div class="search-result-title">' + esc(r.t) + '</div>' +
+          (r.m ? '<div class="search-result-meta">' + esc(r.m) + '</div>' : '') + '</a>';
+      }).join('');
+    });
+  }
+  if(input && dropdown){
+    input.addEventListener('input', function(){
+      clearTimeout(debounce);
+      var q = input.value;
+      debounce = setTimeout(function(){ runSearch(q); }, 180);
+    });
+    input.addEventListener('keydown', function(ev){
+      if(ev.key === 'Escape'){ dropdown.classList.remove('is-open'); return; }
+      if(ev.key !== 'Enter') return;
+      ev.preventDefault();
+      var first = dropdown.querySelector('.search-result');
+      if(first) first.click();
+    });
+    document.addEventListener('click', function(ev){
+      if(!ev.target.closest || !ev.target.closest('.mainnav-search')){
+        dropdown.classList.remove('is-open');
+      }
+    });
+  }
+
+  layout();
+  window.addEventListener('resize', layout);
+  if(document.fonts && document.fonts.ready) document.fonts.ready.then(layout);
+})();
+</script>
+"""
+
+
 # Publisher images are hotlinked and some hosts refuse cross-origin
 # requests. Drop a refused figure rather than show a broken box.
 # Progressive enhancement only: every headline, source and link is
@@ -279,6 +665,127 @@ function signalDropImage(i){
 document.querySelectorAll('img').forEach(function(i){
   i.addEventListener('error', function(){ signalDropImage(i); });
   if (i.complete && i.naturalWidth === 0) { signalDropImage(i); }
+});
+</script>
+"""
+
+
+
+def nav_js():
+    labels = {"all": "All"}
+    labels.update({k: lab for lab, k in SECTIONS})
+    return NAV_JS.replace("__LABELS__", json.dumps(labels, ensure_ascii=False))
+
+# ---------------------------------------------------------------- footer
+# Ported from squarespace-block-signal-footer.html. Same silhouette:
+# one compact row (logo, links, newsletter, social) over a thin black
+# copyright band, mirroring the nav's main row over its announcement
+# strip. Logo sized to 63px/51.61px so it reads as the nav's bookend.
+
+FOOTER_CSS = """
+.signal-footer{
+  background:var(--bg); color:var(--ink);
+  border-top:1px solid var(--rule-soft);
+  margin-top:64px;
+}
+.signal-footer-row{padding:35px 0; display:flex; align-items:center; flex-wrap:wrap; gap:16px 24px}
+.signal-footer-logo{display:block; flex:none; transition:opacity .15s ease}
+.signal-footer-logo:hover{opacity:.6}
+.signal-footer-logo img{display:block; height:63px; width:auto}
+
+.signal-footer-links{display:flex; flex-wrap:wrap; align-items:center; gap:20px; flex:1; min-width:0}
+.signal-footer-links a{font-size:14px; font-weight:600; letter-spacing:.01em; color:var(--ink); white-space:nowrap}
+.signal-footer-links a:not(.signal-footer-jump){color:var(--ink-faint); transition:color .15s ease}
+.signal-footer-links a:not(.signal-footer-jump):hover{color:var(--ink)}
+
+.signal-footer-newsletter{
+  display:flex; align-items:center; border-bottom:1px solid var(--rule-soft);
+  flex:none; width:180px; transition:border-color .15s ease;
+}
+.signal-footer-newsletter:hover{border-color:var(--ink)}
+.signal-footer-newsletter .go{
+  flex:none; padding:4px 10px 4px 0; font-size:12px; font-weight:700;
+  letter-spacing:.03em; text-transform:uppercase; color:var(--ink);
+  transition:color .15s ease;
+}
+.signal-footer-newsletter:hover .go{color:var(--signal)}
+.signal-footer-newsletter .field{flex:1; min-width:0; padding:4px 0; font-size:13px; color:var(--ink-faint); text-align:right}
+
+.signal-footer-social{display:flex; flex:none; gap:10px}
+.signal-footer-social a{
+  display:flex; align-items:center; justify-content:center;
+  width:26px; height:26px; border:1px solid var(--rule-soft); border-radius:50%;
+  color:var(--ink-faint); transition:color .15s ease, border-color .15s ease;
+}
+.signal-footer-social a:hover{color:var(--ink); border-color:var(--ink)}
+.signal-footer-social svg{width:12px; height:12px; display:block}
+
+.signal-footer-bottom-bar{background:var(--ink)}
+.signal-footer-bottom{padding:10px 0; display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:8px 16px}
+.signal-footer-copy{font-size:11px; color:rgba(249,247,240,.7); letter-spacing:.02em}
+
+@media (max-width:760px){
+  .signal-footer-row{padding:28px 0; align-items:flex-start}
+  .signal-footer-logo img{height:51.61px}
+  .signal-footer-links{order:3; width:100%}
+  .signal-footer-newsletter{width:auto; flex:1 1 160px}
+}
+@media (prefers-reduced-motion:reduce){
+  .signal-footer-logo,.signal-footer-newsletter,.signal-footer-links a,.signal-footer-social a{transition:none}
+}
+"""
+
+IG_SVG = ('<svg viewBox="0 0 72 72" fill="none" aria-hidden="true">'
+          '<rect x="10" y="10" width="52" height="52" rx="14" stroke="currentColor" stroke-width="5"/>'
+          '<circle cx="36" cy="36" r="13" stroke="currentColor" stroke-width="5"/>'
+          '<circle cx="50" cy="22" r="3.5" fill="currentColor"/></svg>')
+
+FB_SVG = ('<svg viewBox="0 0 72 72" fill="none" aria-hidden="true">'
+          '<path d="M54 6h-9a15 15 0 0 0-15 15v9H21v12h9v24h12V42h9l3-12H42V21a3 3 0 0 1 3-3h9z" '
+          'stroke="currentColor" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg>')
+
+
+def footer_html(domain):
+    year = datetime.now().year
+    return f"""<footer class="signal-footer">
+<div class="container">
+<div class="signal-footer-row">
+<a class="signal-footer-logo" href="/"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
+<nav class="signal-footer-links" aria-label="Footer">
+<a href="{SHOP_URL}/all" class="signal-footer-jump">Shop</a>
+<a href="#" class="signal-footer-jump" data-jump="scroll">RSS / Signal</a>
+<a href="/archive/">Archive</a>
+<a href="/about/">About</a>
+<a href="{SHOP_URL}/contact">Contact</a>
+<a href="{SHOP_URL}/shipping-returns">Terms</a>
+</nav>
+<a class="signal-footer-newsletter" href="{SHOP_URL}/#newsletter">
+<span class="go">Go</span><span class="field">Join / Email</span>
+</a>
+<div class="signal-footer-social">
+<a href="https://www.instagram.com/smallrevisions/" target="_blank" rel="noopener" aria-label="Instagram">{IG_SVG}</a>
+<a href="https://www.facebook.com/p/Small-Revisions-61550887410561/" target="_blank" rel="noopener" aria-label="Facebook">{FB_SVG}</a>
+</div>
+</div>
+</div>
+<div class="signal-footer-bottom-bar"><div class="container">
+<div class="signal-footer-bottom">
+<div class="signal-footer-copy">&copy; {year} {e(PUBLISHER)}. All rights reserved.</div>
+</div>
+</div></div>
+</footer>"""
+
+
+FOOTER_JS = """
+<script>
+document.querySelectorAll('.signal-footer-jump[data-jump="scroll"]').forEach(function(link){
+  link.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var btn = document.querySelector('.mainnav-toplink[data-group="scroll"]');
+    if(!btn) return;
+    if(!document.getElementById('scroll-rollout').classList.contains('is-open')) btn.click();
+    btn.scrollIntoView({behavior:'smooth', block:'center'});
+  });
 });
 </script>
 """
@@ -313,7 +820,7 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
     head += [
         f'<link rel="alternate" type="application/rss+xml" title="{e(SITE_NAME)}" href="{base}/feed.xml">',
         FONTS,
-        f'<style>{CSS}</style>',
+        f'<style>{CSS}{NAV_CSS}{FOOTER_CSS}</style>',
     ]
     if jsonld:
         head.append('<script type="application/ld+json">'
@@ -326,26 +833,9 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
         cls = ' class="navsub"' if sub else ""
         return f'<a href="{href}"{cls}{cur}>{label}</a>'
 
-    mast = f"""<div class="announce"><div class="container"><div class="row">
-<p>A curated selection of design, art &amp; culture. <a href="{SHOP_URL}/all">Order now</a></p>
-</div></div></div>
-<header class="mastrow"><div class="container"><div class="inner">
-<a class="logo" href="/"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
-<div class="navwrap">
-<nav class="nav" aria-label="Main">
-{nav(SHOP_URL + '/all', 'Shop', 'shop')}{nav('/', 'RSS / Signal', 'today')}{nav('/archive/', 'Archive', 'archive', True)}{nav('/about/', 'About', 'about', True)}
-</nav>
-<div class="actions"><a href="/feed.xml">RSS</a></div>
-</div>
-</div></div></header>
-{issueline}"""
+    mast = nav_html(domain) + issueline
 
-    foot = f"""<footer><div class="container"><div class="inner">
-<span>{e(SITE_NAME)}, published by <a href="{SHOP_URL}">{e(PUBLISHER)}</a>.</span>
-<span><a href="/feed.xml">RSS feed</a></span>
-<span><a href="/archive/">Archive</a></span>
-<span><a href="/about/">About</a></span>
-</div></div></footer>""" + IMG_FALLBACK_JS + "</body></html>"
+    foot = footer_html(domain) + IMG_FALLBACK_JS + nav_js() + FOOTER_JS + "</body></html>"
 
     return ("\n".join(head) + mast
             + '<main class="container">' + body + "</main>" + foot)
@@ -460,7 +950,10 @@ def render_issue(issue, dt, *, domain, prev=None, nxt=None, as_index=False):
     if issue.get("note"):
         note = f'<div class="note"><h2>From the editor</h2><p>{e(issue["note"])}</p></div>'
 
-    body = note + hero_block(issue) + sections_block(issue) + subscribe_block(domain)
+    merged = ('<div id="merged-wrap" hidden><section class="merged-feed">'
+              '<div class="merged-head" id="merged-head"></div>'
+              '<div class="merged-grid" id="merged-grid"></div></section></div>') if as_index else ""
+    body = note + hero_block(issue) + sections_block(issue) + merged + subscribe_block(domain)
 
     return page(
         title=(f"Signal &middot; {issue['dateLabel']}" if not as_index
@@ -675,6 +1168,7 @@ def build(data_file, out_dir, domain):
     (out / "sitemap.xml").write_text(render_sitemap(pairs, domain), encoding="utf-8")
     (out / "robots.txt").write_text(render_robots(domain), encoding="utf-8")
     (out / "404.html").write_text(render_404(domain), encoding="utf-8")
+    shutil.copyfile(data_file, out / "signal-issues-data.json")
     (out / "CNAME").write_text(domain + "\n", encoding="utf-8")
     (out / ".nojekyll").write_text("", encoding="utf-8")
 
