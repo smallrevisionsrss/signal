@@ -30,6 +30,9 @@ from pathlib import Path
 SITE_NAME = "Signal"
 PUBLISHER = "Small Revisions"
 SHOP_URL  = "https://www.smallrevisions.com"
+# Google Search Console ownership. Keep this: removing it un-verifies
+# the property and the sitemap stops being accepted.
+GSC_VERIFY = "kFPZfxmZVRVFninZCFa9nUyYcgQ3X1Xb5mG99A4zh3E"
 TAGLINE   = "A daily edit of writing on design, art, sound, collecting, history and film."
 DESCRIPTION = (
     "Signal is a daily digest from Small Revisions. Each issue gathers "
@@ -931,6 +934,7 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
         '<!doctype html>', '<html lang="en">', '<head>',
         '<meta charset="utf-8">',
         '<meta name="viewport" content="width=device-width,initial-scale=1">',
+        f'<meta name="google-site-verification" content="{GSC_VERIFY}">',
         f'<title>{e(title)}</title>',
         f'<meta name="description" content="{e(desc)}">',
         f'<link rel="canonical" href="{e(canonical)}">',
