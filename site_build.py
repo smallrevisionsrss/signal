@@ -222,7 +222,12 @@ img{display:block; max-width:100%}
 .signal-merged-count{font-size:12.5px; font-weight:500; color:var(--ink-faint); margin-left:auto}
 
 /* pagination ------------------------------------------------------ */
-.signal-pagination{display:flex; justify-content:center; padding:8px 0 64px; border-top:1px solid var(--rule-soft)}
+.signal-pagination{display:flex; justify-content:space-between; align-items:center; gap:24px; padding:24px 0 64px; border-top:1px solid var(--rule-soft)}
+.signal-pagination-link:only-child{margin-left:auto; margin-right:auto}
+.signal-hero-date-value a{color:inherit; border-bottom:1px solid transparent; transition:border-color .15s ease, color .15s ease}
+.signal-hero-date-value a:hover{color:var(--signal); border-color:var(--signal)}
+/* Each stacked issue is its own article, separated by a rule. */
+.signal-issue + .signal-issue{border-top:1px solid var(--rule-soft); margin-top:8px; padding-top:8px}
 .signal-pagination-link{font-size:13px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; border-bottom:1px solid var(--ink); padding-bottom:3px; transition:border-color .15s ease, color .15s ease}
 .signal-pagination-link:hover{border-color:var(--signal); color:var(--signal)}
 
@@ -531,9 +536,10 @@ NAV_JS = """
   function showIssue(v){
     /* Class names track the .signal-editorial content block, so the
        filter has to hide the same elements the block styles. */
-    ['.signal-hero', '.signal-feed'].forEach(function(sel){
-      var el = document.querySelector(sel);
-      if(el) el.hidden = !v;
+    /* A listing page stacks seven issues, so this has to hide all of
+       them, not just the first. querySelector would leave six behind. */
+    ['.signal-issue', '.signal-hero', '.signal-feed', '.signal-pagination'].forEach(function(sel){
+      document.querySelectorAll(sel).forEach(function(el){ el.hidden = !v; });
     });
   }
 
@@ -935,7 +941,7 @@ def row_html(a):
             f'<time class="signal-row-date">{e(a["source"])}{date}</time></div>')
 
 
-def hero_block(issue, paging=""):
+def hero_block(issue, paging="", issue_url=None):
     h = issue["hero"]
     media = ""
     if h.get("image"):
@@ -947,10 +953,15 @@ def hero_block(issue, paging=""):
     if issue.get("note"):
         note = (f'<div class="signal-note"><h2>From the editor</h2>'
                 f'<p>{e(issue["note"])}</p></div>')
+    # On a listing page the date is the way into that issue's permanent
+    # page, which is how a crawler reaches all 48 of them from the home
+    # page. It inherits its colour, so it reads as the same plain text.
+    datemark = (f'<a href="{e(issue_url)}">{e(issue["dateLabel"])}</a>'
+                if issue_url else e(issue["dateLabel"]))
     return f"""<section class="signal-hero">
 <div class="signal-hero-topline">
 <span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true"></span>RSS / Signal</span>
-<span class="signal-hero-date">A Running Record of Findings from the Internet / <span class="signal-hero-date-value">{e(issue['dateLabel'])}</span></span>
+<span class="signal-hero-date">A Running Record of Findings from the Internet / <span class="signal-hero-date-value">{datemark}</span></span>
 </div>
 <div class="signal-hero-grid">
 <div class="signal-hero-text">
@@ -1041,7 +1052,7 @@ def render_issue(issue, dt, *, domain, prev=None, nxt=None, as_index=False):
     body = hero_block(issue, paging=pag) + sections_block(issue) + merged + subscribe_block(domain)
 
     return page(
-        title=(f"Signal &middot; {issue['dateLabel']}" if not as_index
+        title=(f"Signal · {issue['dateLabel']}" if not as_index
                else f"Signal, a daily edit from Small Revisions"),
         desc=desc if not as_index else DESCRIPTION,
         canonical=url if not as_index else f"https://{domain}/",
@@ -1052,6 +1063,112 @@ def render_issue(issue, dt, *, domain, prev=None, nxt=None, as_index=False):
         next_url=(f"https://{domain}/issues/{slug(nxt)}/" if nxt else None),
         nav_current="today",
     )
+
+PER_PAGE = 7  # matches /rsssignal, which always shows the seven newest
+
+
+def page_path(n):
+    """Page 1 is the site root; every later page lives at /page/N/."""
+    return "/" if n == 1 else f"/page/{n}/"
+
+
+def listing_jsonld(chunk, domain, page_no, total_pages):
+    """A listing page is a CollectionPage wrapping an ItemList that points
+    at each issue's own permanent URL. The Article markup for an issue
+    stays on that permanent page, so nothing is claimed twice."""
+    base = f"https://{domain}"
+    items = [{
+        "@type": "ListItem",
+        "position": i,
+        "url": f"{base}/issues/{slug(dt)}/",
+        "name": f"Signal, {issue['dateLabel']}",
+    } for i, (issue, dt) in enumerate(chunk, start=1)]
+    return {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "CollectionPage",
+                "@id": base + page_path(page_no),
+                "url": base + page_path(page_no),
+                "name": SITE_NAME if page_no == 1 else f"{SITE_NAME}, page {page_no}",
+                "isPartOf": {"@type": "WebSite", "@id": base + "/#website"},
+                "publisher": {"@type": "Organization", "name": PUBLISHER, "url": SHOP_URL},
+                "mainEntity": {
+                    "@type": "ItemList",
+                    "numberOfItems": len(items),
+                    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+                    "itemListElement": items,
+                },
+            },
+            {
+                "@type": "WebSite",
+                "@id": base + "/#website",
+                "url": base + "/",
+                "name": SITE_NAME,
+                "description": DESCRIPTION,
+                "publisher": {"@type": "Organization", "name": PUBLISHER, "url": SHOP_URL},
+            },
+        ],
+    }
+
+
+def render_listing(pairs, page_no, domain):
+    """One page of the scroll: seven issues stacked newest first, exactly
+    as /rsssignal does it, then Newer and Older links. Every issue is
+    rendered in full server side, so a crawler that never runs a line of
+    JavaScript still reads all seven."""
+    base = f"https://{domain}"
+    total_pages = max(1, -(-len(pairs) // PER_PAGE))
+    page_no = min(max(1, page_no), total_pages)
+    start = (page_no - 1) * PER_PAGE
+    chunk = pairs[start:start + PER_PAGE]
+
+    blocks = []
+    for issue, dt in chunk:
+        iso = slug(dt)
+        blocks.append(
+            f'<article class="signal-issue" id="issue-{iso}">'
+            + hero_block(issue, issue_url=f"/issues/{iso}/")
+            + sections_block(issue)
+            + "</article>")
+
+    links = []
+    if page_no > 1:
+        links.append(f'<a class="signal-pagination-link" rel="prev" '
+                     f'href="{page_path(page_no - 1)}">&larr; Newer</a>')
+    if page_no < total_pages:
+        links.append(f'<a class="signal-pagination-link" rel="next" '
+                     f'href="{page_path(page_no + 1)}">Older &rarr;</a>')
+    pagination = f'<div class="signal-pagination">{"".join(links)}</div>' if links else ""
+
+    # The filter view replaces the stack in place, so its container has to
+    # exist on every listing page, not only the first.
+    merged = ('<div id="merged-wrap" hidden><section class="signal-merged">'
+              '<div class="signal-column-header" id="merged-head"></div>'
+              '<div id="merged-grid"></div></section></div>')
+
+    newest, oldest = chunk[0][0]["dateLabel"], chunk[-1][0]["dateLabel"]
+    if page_no == 1:
+        title = f"{SITE_NAME}, a daily edit from {PUBLISHER}"
+        desc = DESCRIPTION
+    else:
+        title = f"{SITE_NAME}, page {page_no} of {total_pages}"
+        desc = trim(f"Issues of Signal from {oldest} to {newest}. "
+                    f"{len(chunk)} daily editions, each carrying twenty five pieces "
+                    f"on design, art, sound, collecting, history and film.", 300)
+
+    return page(
+        title=title, desc=desc,
+        canonical=base + page_path(page_no),
+        body="".join(blocks) + merged + pagination + subscribe_block(domain),
+        domain=domain,
+        jsonld=listing_jsonld(chunk, domain, page_no, total_pages),
+        og_image=chunk[0][0]["hero"].get("image"),
+        prev_url=(base + page_path(page_no - 1)) if page_no > 1 else None,
+        next_url=(base + page_path(page_no + 1)) if page_no < total_pages else None,
+        nav_current="today",
+    )
+
 
 def render_archive(pairs, domain):
     rows = []
@@ -1185,9 +1302,13 @@ def render_feed(pairs, domain, limit=30):
 
 def render_sitemap(pairs, domain):
     base = f"https://{domain}"
+    total_pages = max(1, -(-len(pairs) // PER_PAGE))
     urls = [(f"{base}/", pairs[0][1], "daily", "1.0"),
             (f"{base}/archive/", pairs[0][1], "daily", "0.7"),
             (f"{base}/about/", pairs[0][1], "monthly", "0.6")]
+    # Later pages of the scroll, each one a real URL a crawler can walk.
+    urls += [(f"{base}/page/{n}/", pairs[(n - 1) * PER_PAGE][1], "weekly", "0.6")
+             for n in range(2, total_pages + 1)]
     urls += [(f"{base}/issues/{slug(dt)}/", dt, "yearly", "0.8") for _, dt in pairs]
     rows = "".join(
         f"<url><loc>{u}</loc><lastmod>{dt.strftime('%Y-%m-%d')}</lastmod>"
@@ -1237,11 +1358,15 @@ def build(data_file, out_dir, domain):
         (d / "index.html").write_text(
             render_issue(issue, dt, domain=domain, prev=prev, nxt=nxt), encoding="utf-8")
 
-    top, topdt = pairs[0]
-    (out / "index.html").write_text(
-        render_issue(top, topdt, domain=domain,
-                     prev=pairs[1][1] if len(pairs) > 1 else None, as_index=True),
-        encoding="utf-8")
+    total_pages = max(1, -(-len(pairs) // PER_PAGE))
+    for n in range(1, total_pages + 1):
+        html = render_listing(pairs, n, domain)
+        if n == 1:
+            (out / "index.html").write_text(html, encoding="utf-8")
+        else:
+            d = out / "page" / str(n)
+            d.mkdir(parents=True, exist_ok=True)
+            (d / "index.html").write_text(html, encoding="utf-8")
 
     for sub, content in (("archive", render_archive(pairs, domain)),
                          ("about",   render_about(pairs, domain))):
@@ -1258,7 +1383,8 @@ def build(data_file, out_dir, domain):
 
     total = sum(1 + sum(len(v) for v in i["categories"].values()) for i, _ in pairs)
     files = sum(1 for _ in out.rglob("*") if _.is_file())
-    print(f"built {len(pairs)} issues, {total} pieces, {files} files -> {out}")
+    print(f"built {len(pairs)} issues over {total_pages} pages of {PER_PAGE}, "
+          f"{total} pieces, {files} files -> {out}")
     print(f"newest: {pairs[0][0]['dateLabel']}   oldest: {pairs[-1][0]['dateLabel']}")
     return pairs
 
