@@ -215,10 +215,10 @@ img{display:block; max-width:100%}
 
 /* merged filter view --------------------------------------------- */
 .signal-merged{padding-top:8px; padding-bottom:64px}
-.signal-merged .signal-column-list{display:flex; align-items:flex-start; column-gap:0; margin-left:-32px; margin-right:-32px; width:calc(100% + 64px)}
-.signal-filter-col{flex:1 1 0; min-width:0; padding:0 32px; position:relative}
-.signal-filter-col + .signal-filter-col::before{content:""; position:absolute; top:0; bottom:0; left:0; width:1px; background:var(--rule-soft)}
-.signal-merged-issue{font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:6px}
+.signal-merged .signal-column-list{position:relative; display:flex; align-items:flex-start; column-gap:0}
+.signal-filter-col{flex:1 1 0; min-width:0}
+.signal-filter-col + .signal-filter-col{border-left:1px solid var(--rule-soft)}
+.signal-merged .signal-column-list .signal-row{margin-left:32px; margin-right:32px}
 .signal-merged-count{font-size:12.5px; font-weight:500; color:var(--ink-faint); margin-left:auto}
 
 /* pagination ------------------------------------------------------ */
@@ -267,9 +267,9 @@ img{display:block; max-width:100%}
   .signal-column-header[data-category="design-arch"]{margin-top:0 !important}
   .signal-column{padding:0 !important}
   .signal-column::before{display:none}
-  .signal-merged .signal-column-list{display:block; margin-left:0; margin-right:0; width:100%}
-  .signal-filter-col{padding:0}
-  .signal-filter-col + .signal-filter-col::before{display:none}
+  .signal-merged .signal-column-list{display:block}
+  .signal-filter-col + .signal-filter-col{border-left:none}
+  .signal-merged .signal-column-list .signal-row{margin-left:0; margin-right:0}
 }
 @media (max-width:520px){
   .container{padding:0 18px}
@@ -545,37 +545,74 @@ NAV_JS = """
     });
   }
 
+  /* Ported from the /rsssignal content block so the filtered view is the
+     same view: images included, heroes folded in, and the three columns
+     balanced by image count rather than sliced in thirds. */
+  var MONTH_ABBR = {January:'Jan',February:'Feb',March:'Mar',April:'Apr',May:'May',June:'Jun',
+                    July:'Jul',August:'Aug',September:'Sep',October:'Oct',November:'Nov',December:'Dec'};
+  function shortDate(dateLabel){
+    var m = /^(\w+) (\d+),/.exec(dateLabel || '');
+    if(!m) return dateLabel || '';
+    return (MONTH_ABBR[m[1]] || m[1]) + ' ' + m[2];
+  }
+  function sourceFromByline(byline){
+    var parts = (byline || '').split('\u00b7');
+    return parts.length > 1 ? parts[parts.length - 1].trim() : (byline || '');
+  }
+  function heroToRow(issue){
+    return {headline: issue.hero.headline, url: issue.hero.url, image: issue.hero.image,
+            source: sourceFromByline(issue.hero.byline), date: shortDate(issue.dateLabel)};
+  }
+  /* A hero whose category matches the filter belongs in the results too;
+     leaving it out silently dropped one piece per issue. */
+  function buildAllFilteredRows(issues, key){
+    var rows = [];
+    issues.forEach(function(issue){
+      if(issue.hero && issue.hero.category === key) rows.push(heroToRow(issue));
+      ((issue.categories && issue.categories[key]) || []).forEach(function(a){ rows.push(a); });
+    });
+    return rows;
+  }
+  /* Images drive column height, so balance on image count first and row
+     count second. A flat slice into thirds leaves ragged columns. */
+  function distributeIntoColumns(rows, count){
+    var cols = [], imageCounts = [], rowCounts = [];
+    for(var c = 0; c < count; c++){ cols.push([]); imageCounts.push(0); rowCounts.push(0); }
+    rows.forEach(function(item){
+      var best = 0;
+      for(var c = 1; c < count; c++){
+        if(imageCounts[c] < imageCounts[best] ||
+           (imageCounts[c] === imageCounts[best] && rowCounts[c] < rowCounts[best])) best = c;
+      }
+      cols[best].push(item);
+      rowCounts[best]++;
+      if(item.image) imageCounts[best]++;
+    });
+    return cols;
+  }
+  function renderRowHTML(item){
+    var imageHTML = item.image ?
+      '<a class="signal-row-media" href="' + esc(item.url) + '" tabindex="-1" aria-hidden="true">' +
+      '<img src="' + esc(item.image) + '" alt="" loading="lazy"></a>' : '';
+    return '<div class="signal-row' + (item.image ? ' has-media' : '') + '">' + imageHTML +
+      '<h5 class="signal-row-headline"><a href="' + esc(item.url) + '" target="_blank" rel="noopener">' +
+      esc(item.headline) + ' <span class="signal-external-icon" aria-hidden="true">\u2197\ufe0e</span></a></h5>' +
+      '<time class="signal-row-date">' + esc(item.source) + ' \u00b7 ' + esc(item.date) + '</time></div>';
+  }
+
   function renderMerged(key){
     if(!mergedWrap) return;
     loadData(function(issues){
-      var rows = [];
-      issues.forEach(function(iss){
-        (iss.categories && iss.categories[key] || []).forEach(function(a){
-          rows.push({issue: iss.dateLabel, a: a});
-        });
-      });
-      var per = Math.ceil(rows.length / 3) || 1;
-      var html = '';
-      for(var c = 0; c < 3; c++){
-        html += '<div class="signal-filter-col">';
-        rows.slice(c*per, (c+1)*per).forEach(function(r){
-          var a = r.a;
-          html += '<div class="signal-row">' +
-            '<p class="signal-merged-issue">' + esc(r.issue) + '</p>' +
-            '<h5 class="signal-row-headline"><a href="' + esc(a.url) +
-            '" target="_blank" rel="noopener">' + esc(a.headline) +
-            ' <span class="signal-external-icon" aria-hidden="true">&#8599;&#65038;</span></a></h5>' +
-            '<time class="signal-row-date">' + esc(a.source) +
-            (a.date ? ' &middot; ' + esc(a.date) : '') + '</time></div>';
-        });
-        html += '</div>';
-      }
+      var rows = buildAllFilteredRows(issues, key);
+      var colsHTML = distributeIntoColumns(rows, 3).map(function(colRows){
+        return '<div class="signal-filter-col">' + colRows.map(renderRowHTML).join('') + '</div>';
+      }).join('');
       mergedHead.innerHTML = (ICONS[key] || '') +
         '<h4 class="signal-column-title">' + esc(LABELS[key] || '') + '</h4>' +
         '<span class="signal-merged-count">' + rows.length +
         ' pieces across ' + issues.length + ' issues</span>';
       mergedGrid.className = 'signal-column-list';
-      mergedGrid.innerHTML = html;
+      mergedGrid.innerHTML = colsHTML;
       mergedWrap.hidden = false;
       window.scrollTo(0, 0);
     });
