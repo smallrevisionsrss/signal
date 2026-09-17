@@ -87,157 +87,195 @@ def trim(text, n):
 # ---------------------------------------------------------------- styles
 
 CSS = """
-/* Tokens taken verbatim from Small Revisions' own .signal-editorial
-   block so this site and smallrevisions.com/rsssignal are the same
-   publication rather than cousins. */
+/* Tokens and type scale taken verbatim from Small Revisions' own
+   .signal-editorial content block, so this site and
+   smallrevisions.com/rsssignal are the same publication. */
 :root{
-  --bg:#f9f7f0;
   --ink:#111111;
   --ink-soft:#4c4c4c;
   --ink-faint:#8f8f8c;
+  --bg:#f9f7f0;
   --rule:#111111;
   --rule-soft:#dedcd6;
   --signal:#ff3b2f;
   --dot:#fa4616;
   --cat:#152035;
-  --serif:'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --serif:'Instrument Serif', Georgia, serif;
   --sans:'Instrument Sans','Helvetica Neue',Arial,sans-serif;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{
   margin:0; background:var(--bg); color:var(--ink);
-  font-family:var(--sans); font-size:16px; line-height:1.55;
+  font-family:var(--sans);
   -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
 }
 a{color:inherit; text-decoration:none}
-img{max-width:100%}
+h1,h2,h3,h4,h5,p{margin:0}
+img{display:block; max-width:100%}
 [hidden]{display:none !important}
 :focus-visible{outline:2px solid var(--signal); outline-offset:3px}
 .container{max-width:1440px; margin:0 auto; padding:0 24px}
 
-.label{font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase}
-
-/* announcement bar ----------------------------------------------- */
-.announce{background:var(--ink); border-bottom:1px solid var(--ink)}
-.announce .row{display:flex; align-items:center; justify-content:center; padding:10px 40px; text-align:center}
-.announce p{font-size:13px; color:rgba(249,247,240,.7); margin:0}
-.announce a{font-weight:700; color:var(--bg); border-bottom:1px solid var(--bg); padding-bottom:1px}
-.announce a:hover{color:var(--signal); border-color:var(--signal)}
-
-/* masthead ------------------------------------------------------- */
-.mastrow .inner{display:flex; align-items:center; gap:24px; padding:20px 0}
-.logo{display:block; flex:none; transition:opacity .15s ease}
-.logo:hover{opacity:.6}
-.logo img{display:block; height:63px; width:auto}
-.navwrap{display:flex; align-items:center; justify-content:space-between; gap:24px; flex:1; min-width:0}
-.nav{display:flex; align-items:center; gap:20px; min-width:0}
-.nav a{
-  font-size:14px; font-weight:600; letter-spacing:.01em; color:var(--ink);
-  padding:6px 0; border-bottom:2px solid transparent; white-space:nowrap;
-  transition:color .15s ease, border-color .15s ease;
+/* hero ----------------------------------------------------------- */
+.signal-hero{border-top:1px solid var(--rule); padding-top:28px; padding-bottom:24px}
+.signal-hero-topline{display:flex; align-items:center; justify-content:space-between; margin-bottom:28px}
+.signal-eyebrow{
+  display:inline-flex; align-items:center; gap:8px;
+  font-size:12px; font-weight:700; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--ink);
 }
-.nav a.navsub{font-size:13px; color:var(--ink-faint)}
-.nav a.navsub:hover{color:var(--ink)}
-.nav a[aria-current]{border-color:var(--dot)}
-.nav a.navsub[aria-current]{color:var(--cat); border-color:var(--dot)}
-.actions{display:flex; align-items:center; gap:22px; flex:none}
-.actions a{font-size:13px; font-weight:600; color:var(--ink-faint)}
-.actions a:hover{color:var(--signal)}
+.signal-dot{width:8.4px; height:8.4px; border-radius:50%; background:var(--dot); animation:signal-pulse 2.2s ease-in-out infinite}
+@keyframes signal-pulse{0%,100%{opacity:1; transform:scale(1)} 50%{opacity:.35; transform:scale(.72)}}
+.signal-hero-date{font-size:13px; font-weight:500; color:var(--ink-faint); letter-spacing:.02em}
+.signal-hero-date-value{color:var(--ink)}
+.signal-hero-paging{display:flex; gap:18px; margin-top:28px; font-size:13px; font-weight:500; color:var(--ink-faint)}
+.signal-hero-paging a{border-bottom:1px solid var(--rule-soft); padding-bottom:2px; transition:color .15s ease, border-color .15s ease}
+.signal-hero-paging a:hover{border-color:var(--signal)}
+.signal-hero-paging a:hover{color:var(--signal)}
 
-/* issue line ----------------------------------------------------- */
-.issueline{padding:30px 0 26px}
-.issueline .inner{display:flex; flex-wrap:wrap; gap:10px 24px; align-items:baseline}
-.mark{display:flex; align-items:center; gap:8px}
-.dot{width:8px; height:8px; border-radius:50%; background:var(--dot); display:block; flex:none}
-.issueline .right{margin-left:auto; font-size:13px; color:var(--ink-faint)}
-.issueline .right b{font-weight:600; color:var(--ink)}
-.issueline .paging{display:flex; gap:18px; font-size:13px}
-.issueline .paging a{color:var(--ink-faint)}
-.issueline .paging a:hover{color:var(--signal)}
+.signal-hero-grid{display:grid; grid-template-columns:repeat(3,1fr); column-gap:0; align-items:center}
+.signal-hero-text{grid-column:1; padding-right:40px; display:flex; flex-direction:column; gap:20px}
+.signal-hero-headline{
+  font-family:var(--serif); font-weight:400;
+  font-size:clamp(1.5rem,.64rem + 2.25vw,2.625rem);
+  line-height:1.05; letter-spacing:-.01em;
+}
+.signal-hero-link{transition:opacity .15s ease}
+.signal-hero-link:hover{opacity:.6}
+.signal-hero-dek{font-size:1.15rem; line-height:1.55; font-weight:400; color:var(--ink-soft); max-width:46ch}
+.signal-hero-meta{display:flex; align-items:center; flex-wrap:wrap; gap:20px; margin-top:4px}
+.signal-hero-cta{font-size:14px; font-weight:700; letter-spacing:.01em; border-bottom:1px solid var(--ink); padding-bottom:3px; transition:border-color .15s ease, color .15s ease}
+.signal-hero-cta:hover{border-color:var(--signal); color:var(--signal)}
+.signal-hero-byline{font-size:13px; color:var(--ink-faint); font-weight:500}
+.signal-hero-media{position:relative; grid-column:2 / 4; margin:0}
+.signal-hero-media img{width:100%; aspect-ratio:4/3; object-fit:cover; background:#111; border:1px solid var(--rule-soft)}
+.signal-hero-media figcaption{
+  position:absolute; right:14px; bottom:14px; padding:4px 9px;
+  font-size:12px; color:#fff; letter-spacing:.02em;
+  background:rgba(0,0,0,.45); border-radius:3px;
+}
 
 /* editor note ---------------------------------------------------- */
-.note{max-width:74ch; margin:0 0 40px; padding:18px 22px; border:1px solid var(--rule-soft)}
-.note h2{margin:0 0 7px; color:var(--ink-faint)}
-.note p{margin:0; font-size:15.5px; color:var(--ink-soft)}
+.signal-note{max-width:74ch; margin:24px 0 0; padding:18px 22px; border:1px solid var(--rule-soft)}
+.signal-note h2{font-size:12px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:8px}
+.signal-note p{font-size:1.05rem; line-height:1.55; color:var(--ink-soft)}
 
-/* hero ----------------------------------------------------------- */
-.hero{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.85fr); gap:36px; align-items:start; padding-bottom:52px}
-.hero.noimg{grid-template-columns:1fr}
-.hero .kicker{color:var(--ink-faint); margin:0 0 16px}
-.hero h1{
-  font-family:var(--serif); font-weight:400;
-  font-size:clamp(2rem,1.3rem+2.3vw,2.9rem); line-height:1.1;
-  letter-spacing:-.01em; margin:0 0 20px;
+/* feed ----------------------------------------------------------- */
+.signal-feed{padding-top:8px; padding-bottom:64px}
+.signal-feed-grid{
+  display:grid; grid-template-columns:repeat(3,1fr); column-gap:0;
+  margin-left:-32px; margin-right:-32px; width:calc(100% + 64px);
+  grid-template-areas:
+    "h1 h2 h3"
+    "l1 l2 l3"
+    "h4 h5 h6"
+    "l4 l5 l6";
 }
-.hero h1 a:hover{color:var(--signal)}
-.hero .dek{font-size:16px; line-height:1.62; color:var(--ink-soft); margin:0 0 22px}
-.hero .read{display:inline-block; font-size:13.5px; font-weight:700; border-bottom:1.5px solid var(--ink); padding-bottom:2px}
-.hero .read:hover{color:var(--signal); border-bottom-color:var(--signal)}
-.hero .byline{font-size:12.5px; color:var(--ink-faint); margin:0}
-.hero .foot{display:flex; flex-wrap:wrap; gap:8px 18px; align-items:baseline}
-.hero figure{margin:0; position:relative}
-.hero figure img{width:100%; height:auto; display:block; border:1px solid var(--rule-soft)}
-.hero figcaption{position:absolute; right:14px; bottom:14px; background:rgba(17,17,17,.8); color:var(--bg); font-size:11.5px; padding:5px 9px}
+.signal-column-header{
+  display:flex; align-items:center; gap:9px;
+  margin:0 32px 4px; padding-bottom:14px;
+  border-bottom:1px solid var(--rule); color:var(--cat);
+}
+.signal-column-header[data-category="design-arch"]{grid-area:h1}
+.signal-column-header[data-category="craft"]{grid-area:h2}
+.signal-column-header[data-category="sound-vinyl"]{grid-area:h3}
+.signal-column-header[data-category="collecting"]{grid-area:h4; margin-top:32px}
+.signal-column-header[data-category="archives"]{grid-area:h5; margin-top:32px}
+.signal-column-header[data-category="photo-film"]{grid-area:h6; margin-top:32px}
+.signal-cat-icon{width:18.75px; height:18.75px; flex:none; display:block; color:var(--cat)}
+.signal-column-title{font-size:13px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--cat)}
 
-/* columns -------------------------------------------------------- */
-.cols{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:46px 34px}
-.colhead{display:flex; align-items:center; gap:8px; padding-bottom:9px; border-bottom:1px solid var(--rule)}
-.colhead svg{width:15px; height:15px; flex:none; stroke:var(--ink); fill:none; stroke-width:1.25; stroke-linecap:round; stroke-linejoin:round}
-ol.items{list-style:none; margin:0; padding:0}
-ol.items li{padding:18px 0; border-bottom:1px solid var(--rule-soft)}
-ol.items li:last-child{border-bottom:0}
-.items figure{margin:0 0 14px}
-.items img{width:100%; height:auto; display:block; border:1px solid var(--rule-soft)}
-.items h3{font-family:var(--serif); font-weight:400; font-size:1.2rem; line-height:1.25; margin:0 0 8px}
-.items h3 a:hover{color:var(--signal)}
-.arw{font-size:.68em; vertical-align:.34em; color:var(--ink-faint); margin-left:.2em}
-.items h3 a:hover .arw{color:var(--signal)}
-.items .meta{font-size:12.5px; color:var(--ink-faint); margin:0; display:flex; flex-wrap:wrap; gap:6px; align-items:center}
-.items .meta .src{color:var(--ink-soft)}
-.ever{font-size:10px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--signal); border:1px solid var(--signal); padding:1px 5px}
+.signal-column{position:relative; padding:0 32px}
+.signal-column[data-category="design-arch"]{grid-area:l1}
+.signal-column[data-category="craft"]{grid-area:l2}
+.signal-column[data-category="sound-vinyl"]{grid-area:l3}
+.signal-column[data-category="collecting"]{grid-area:l4}
+.signal-column[data-category="archives"]{grid-area:l5}
+.signal-column[data-category="photo-film"]{grid-area:l6}
+.signal-column[data-category="craft"]::before,
+.signal-column[data-category="sound-vinyl"]::before,
+.signal-column[data-category="archives"]::before,
+.signal-column[data-category="photo-film"]::before{
+  content:""; position:absolute; top:32px; bottom:0; left:0; width:1px; background:var(--rule-soft);
+}
 
-/* archive -------------------------------------------------------- */
-.arch{list-style:none; margin:0; padding:0; max-width:900px}
-.arch li{border-bottom:1px solid var(--rule-soft)}
-.arch a{display:flex; flex-wrap:wrap; gap:6px 20px; align-items:baseline; padding:16px 2px}
-.arch .d{font-family:var(--serif); font-size:1.2rem; min-width:11em}
-.arch .h{color:var(--ink-faint); font-size:14px; flex:1 1 280px}
-.arch a:hover .d{color:var(--signal)}
+.signal-row{padding:18px 0; border-bottom:1px solid var(--rule-soft)}
+.signal-row:last-child{border-bottom:none}
+.signal-row-media{display:block; width:100%; aspect-ratio:4/3; margin-bottom:14px}
+.signal-row-media img{width:100%; height:100%; object-fit:cover; display:block; background:#111; border:1px solid var(--rule-soft)}
+.signal-row-headline{
+  font-family:var(--serif); font-weight:400;
+  font-size:clamp(1.15rem,.95rem + .7vw,1.4rem); line-height:1.25;
+}
+.signal-row-headline a{transition:opacity .15s ease}
+.signal-row-headline a:hover{opacity:.6}
+.signal-external-icon{font-family:var(--sans); font-size:.72em; color:var(--ink-faint); vertical-align:super}
+.signal-row-date{display:block; margin-top:8px; font-size:12.5px; font-weight:500; font-family:var(--sans); color:var(--ink-faint)}
+.signal-evergreen{font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--signal); border:1px solid var(--signal); padding:1px 5px; margin-left:8px}
 
-/* prose ---------------------------------------------------------- */
-.prose{max-width:68ch}
-.prose h1{font-family:var(--serif); font-weight:400; font-size:2.4rem; line-height:1.12; letter-spacing:-.01em; margin:0 0 10px}
+/* merged filter view --------------------------------------------- */
+.signal-merged{padding-top:8px; padding-bottom:64px}
+.signal-merged .signal-column-list{display:flex; align-items:flex-start; column-gap:0; margin-left:-32px; margin-right:-32px; width:calc(100% + 64px)}
+.signal-filter-col{flex:1 1 0; min-width:0; padding:0 32px; position:relative}
+.signal-filter-col + .signal-filter-col::before{content:""; position:absolute; top:0; bottom:0; left:0; width:1px; background:var(--rule-soft)}
+.signal-merged-issue{font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:6px}
+.signal-merged-count{font-size:12.5px; font-weight:500; color:var(--ink-faint); margin-left:auto}
+
+/* pagination ------------------------------------------------------ */
+.signal-pagination{display:flex; justify-content:center; padding:8px 0 64px; border-top:1px solid var(--rule-soft)}
+.signal-pagination-link{font-size:13px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; border-bottom:1px solid var(--ink); padding-bottom:3px; transition:border-color .15s ease, color .15s ease}
+.signal-pagination-link:hover{border-color:var(--signal); color:var(--signal)}
+
+/* archive + prose ------------------------------------------------- */
+.signal-arch{list-style:none; margin:0; padding:0; max-width:900px}
+.signal-arch li{border-bottom:1px solid var(--rule-soft)}
+.signal-arch a{display:flex; flex-wrap:wrap; gap:6px 20px; align-items:baseline; padding:18px 2px; transition:opacity .15s ease}
+.signal-arch a:hover{opacity:.6}
+.signal-arch .d{font-family:var(--serif); font-size:1.4rem; min-width:11em}
+.signal-arch .h{color:var(--ink-faint); font-size:14px; flex:1 1 280px}
+
+.prose{max-width:68ch; padding-top:28px}
+.prose h1{font-family:var(--serif); font-weight:400; font-size:clamp(1.9rem,1.2rem+2vw,2.625rem); line-height:1.05; letter-spacing:-.01em; margin-bottom:12px}
 .prose h2{font-family:var(--serif); font-weight:400; font-size:1.5rem; margin:36px 0 10px}
-.prose p,.prose li{font-size:16px; line-height:1.62; color:var(--ink-soft)}
+.prose p,.prose li{font-size:1.05rem; line-height:1.6; color:var(--ink-soft); margin-bottom:14px}
 .prose strong{color:var(--ink); font-weight:600}
 .prose a{color:var(--signal); border-bottom:1px solid var(--signal)}
-.prose ul{padding-left:20px}
+.prose ul{padding-left:20px; margin-bottom:14px}
+.prose-intro{font-size:13px; font-weight:500; color:var(--ink-faint); letter-spacing:.02em; margin-bottom:28px}
 
-/* subscribe + footer --------------------------------------------- */
-.sub{margin:56px 0 0; padding-top:28px; border-top:1px solid var(--rule)}
-.sub h2{font-family:var(--serif); font-weight:400; font-size:1.5rem; margin:0 0 7px}
-.sub p{color:var(--ink-soft); font-size:14.5px; margin:0 0 16px; max-width:58ch}
-.btn{display:inline-block; border:1px solid var(--ink); color:var(--ink); padding:9px 17px; font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase}
-.btn:hover{background:var(--ink); color:var(--bg)}
-footer{margin-top:64px; border-top:1px solid var(--rule-soft); padding:20px 0 64px; color:var(--ink-faint); font-size:12.5px}
-footer .inner{display:flex; flex-wrap:wrap; gap:8px 22px; align-items:baseline}
-footer a:hover{color:var(--ink)}
+/* subscribe ------------------------------------------------------- */
+.signal-sub{padding:28px 0 0; border-top:1px solid var(--rule)}
+.signal-sub h2{font-family:var(--serif); font-weight:400; font-size:1.5rem; margin-bottom:8px}
+.signal-sub p{color:var(--ink-soft); font-size:1.05rem; line-height:1.55; margin-bottom:18px; max-width:58ch}
 
-@media (max-width:1100px){
-  .cols{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .hero{grid-template-columns:1fr; gap:24px}
-  .hero figure{order:-1}
+@media (max-width:900px){
+  .signal-hero-grid{grid-template-columns:1fr; gap:28px}
+  .signal-hero-text{grid-column:1; padding-right:0}
+  .signal-hero-media{grid-column:1; order:-1}
+  .signal-feed-grid{
+    grid-template-columns:1fr; margin-left:0; margin-right:0; width:100%;
+    grid-template-areas:"h1" "l1" "h2" "l2" "h3" "l3" "h4" "l4" "h5" "l5" "h6" "l6";
+  }
+  .signal-column-header{margin-left:0 !important; margin-right:0 !important; margin-top:28px !important}
+  .signal-column-header[data-category="design-arch"]{margin-top:0 !important}
+  .signal-column{padding:0 !important}
+  .signal-column::before{display:none}
+  .signal-merged .signal-column-list{display:block; margin-left:0; margin-right:0; width:100%}
+  .signal-filter-col{padding:0}
+  .signal-filter-col + .signal-filter-col::before{display:none}
 }
-@media (max-width:760px){
-  .announce .row{padding:10px 24px}
-  .announce p{font-size:12px}
-  .logo img{height:51.61px}
-  .mastrow .inner{flex-wrap:wrap; gap:14px}
-  .navwrap{flex-wrap:wrap}
-  .nav{flex-wrap:wrap; gap:14px}
-  .cols{grid-template-columns:1fr; gap:36px}
-  .issueline .right{margin-left:0; width:100%}
+@media (max-width:520px){
+  .container{padding:0 18px}
+  .signal-hero-dek{max-width:none}
+  /* The topline is one line at desktop width; at phone width the
+     eyebrow and the standing line stack rather than crowd. */
+  .signal-hero-topline{display:block}
+  .signal-hero-date{display:block; margin-top:8px}
+}
+@media (prefers-reduced-motion:reduce){
+  .signal-dot{animation:none}
+  .signal-hero-link,.signal-row-headline a,.signal-hero-cta,.signal-arch a{transition:none}
 }
 """
 
@@ -330,10 +368,11 @@ NAV_CSS = """
 .mainnav-search{position:relative; flex:none; width:200px; max-width:100%}
 .mainnav-search-input{
   width:100%; border:none; border-bottom:1px solid var(--rule-soft); background:none;
-  padding:6px 0; font-size:14px; font-family:inherit; color:var(--ink);
+  padding:6px 18px 6px 0; font-size:14px; font-family:inherit; color:var(--ink);
   text-align:right; transition:border-color .15s ease;
 }
 .mainnav-search-input::placeholder{color:var(--ink-faint)}
+.mainnav-search-input::-webkit-search-cancel-button{display:none}
 .mainnav-search-input:focus{outline:none; border-color:var(--ink)}
 
 .search-dropdown{
@@ -412,6 +451,10 @@ def nav_html(domain):
     tabs = "".join(
         f'<button type="button" class="signal-tab" data-filter="{k}" role="tab" aria-selected="false">{e(lab)}</button>'
         for lab, k in [("All", "all")] + SECTIONS)
+    shop = "".join(
+        f'<a href="{SHOP_URL}{href}"{cls}>{lab}</a>'
+        for lab, href, cls in [("All", "/all", ' class="is-active"'), ("Books", "/all/books", ""),
+                               ("Records", "/all/records", ""), ("Accessories", "/all/accessories", "")])
     return f"""<div class="mainnav-fixed" id="mainnav-fixed">
 <div class="mainnav-announce" id="mainnav-announce"><div class="container">
 <div class="mainnav-announce-row">
@@ -422,20 +465,19 @@ def nav_html(domain):
 <a class="mainnav-logo" href="/"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
 <div class="mainnav-bottom-row">
 <nav class="mainnav-links" id="mainnav-links" aria-label="Main">
-<a class="mainnav-toplink" href="{SHOP_URL}/all">Shop</a>
+<button type="button" class="mainnav-toplink" data-group="shop" aria-expanded="false">Shop</button>
+<div class="mainnav-rollout" id="shop-rollout"><div class="mainnav-rollout-inner">{shop}</div></div>
 <button type="button" class="mainnav-toplink" data-group="scroll" aria-expanded="false">RSS / Signal</button>
 <div class="mainnav-rollout" id="scroll-rollout" role="tablist" aria-label="Filter stories by section">
 <div class="mainnav-rollout-inner">{tabs}</div>
 </div>
-<a class="mainnav-toplink" href="/archive/">Archive</a>
-<a class="mainnav-toplink" href="/about/">About</a>
 </nav>
 <div class="mainnav-actions">
 <div class="mainnav-search">
 <input type="search" class="mainnav-search-input" id="search-input" placeholder="Search" aria-label="Search" autocomplete="off">
 <div class="search-dropdown" id="search-dropdown" role="listbox" aria-label="Search results"></div>
 </div>
-<a class="mainnav-icon-btn cart" href="{SHOP_URL}/cart" aria-label="Cart">{CART_SVG}<span class="mainnav-cart-count">0</span></a>
+<a class="mainnav-icon-btn cart" href="{SHOP_URL}/cart" aria-label="Cart, 0 items">{CART_SVG}<span class="mainnav-cart-count">0</span></a>
 <button type="button" class="mainnav-toggle" id="mainnav-toggle" aria-label="Open menu" aria-expanded="false">{BURGER_SVG}</button>
 </div>
 </div>
@@ -452,6 +494,8 @@ NAV_JS = """
   var spacer = document.getElementById('mainnav-spacer');
   var toplink = document.querySelector('.mainnav-toplink[data-group="scroll"]');
   var rollout = document.getElementById('scroll-rollout');
+  var shopLink = document.querySelector('.mainnav-toplink[data-group="shop"]');
+  var shopRollout = document.getElementById('shop-rollout');
   var links = document.getElementById('mainnav-links');
   var toggle = document.getElementById('mainnav-toggle');
   var input = document.getElementById('search-input');
@@ -460,6 +504,7 @@ NAV_JS = """
   var mergedGrid = document.getElementById('merged-grid');
   var mergedHead = document.getElementById('merged-head');
   var LABELS = __LABELS__;
+  var ICONS = __ICONS__;
 
   function reserve(){ if(bar && spacer) spacer.style.height = bar.offsetHeight + 'px'; }
   function alignClose(){
@@ -485,12 +530,12 @@ NAV_JS = """
     return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
 
   function showIssue(v){
-    var hero = document.querySelector('.hero');
-    var cols = document.querySelector('.cols');
-    var line = document.querySelector('.issueline');
-    if(hero) hero.hidden = !v;
-    if(cols) cols.hidden = !v;
-    if(line) line.hidden = !v;
+    /* Class names track the .signal-editorial content block, so the
+       filter has to hide the same elements the block styles. */
+    ['.signal-hero', '.signal-feed'].forEach(function(sel){
+      var el = document.querySelector(sel);
+      if(el) el.hidden = !v;
+    });
   }
 
   function renderMerged(key){
@@ -505,20 +550,24 @@ NAV_JS = """
       var per = Math.ceil(rows.length / 3) || 1;
       var html = '';
       for(var c = 0; c < 3; c++){
-        html += '<ol>';
+        html += '<div class="signal-filter-col">';
         rows.slice(c*per, (c+1)*per).forEach(function(r){
           var a = r.a;
-          html += '<li><p class="merged-issue">' + esc(r.issue) + '</p>' +
-            '<h3><a href="' + esc(a.url) + '" rel="noopener">' + esc(a.headline) +
-            '<span class="arw" aria-hidden="true">&#8599;</span></a></h3>' +
-            '<p class="meta"><span class="src">' + esc(a.source) + '</span>' +
-            (a.date ? '<span>&middot;</span><span>' + esc(a.date) + '</span>' : '') + '</p></li>';
+          html += '<div class="signal-row">' +
+            '<p class="signal-merged-issue">' + esc(r.issue) + '</p>' +
+            '<h5 class="signal-row-headline"><a href="' + esc(a.url) +
+            '" target="_blank" rel="noopener">' + esc(a.headline) +
+            ' <span class="signal-external-icon" aria-hidden="true">&#8599;&#65038;</span></a></h5>' +
+            '<time class="signal-row-date">' + esc(a.source) +
+            (a.date ? ' &middot; ' + esc(a.date) : '') + '</time></div>';
         });
-        html += '</ol>';
+        html += '</div>';
       }
-      mergedHead.innerHTML = '<span class="label">' + esc(LABELS[key] || '') + '</span>' +
-        '<span class="count">' + rows.length + ' pieces across ' + issues.length + ' issues</span>';
-      mergedGrid.className = 'merged-grid items';
+      mergedHead.innerHTML = (ICONS[key] || '') +
+        '<h4 class="signal-column-title">' + esc(LABELS[key] || '') + '</h4>' +
+        '<span class="signal-merged-count">' + rows.length +
+        ' pieces across ' + issues.length + ' issues</span>';
+      mergedGrid.className = 'signal-column-list';
       mergedGrid.innerHTML = html;
       mergedWrap.hidden = false;
       window.scrollTo(0, 0);
@@ -540,7 +589,21 @@ NAV_JS = """
     }
   }
 
+  function shutShop(){
+    if(!shopRollout) return;
+    shopRollout.classList.remove('is-open');
+    shopLink.classList.remove('is-open');
+    shopLink.setAttribute('aria-expanded', 'false');
+  }
+  function openShop(){
+    closeRollout();
+    shopRollout.classList.add('is-open');
+    shopLink.classList.add('is-open');
+    shopLink.setAttribute('aria-expanded', 'true');
+    layout();
+  }
   function openRollout(){
+    shutShop();
     rollout.classList.add('is-open');
     toplink.classList.add('is-open');
     toplink.setAttribute('aria-expanded', 'true');
@@ -559,6 +622,12 @@ NAV_JS = """
     layout();
   }
 
+  if(shopLink && shopRollout){
+    shopLink.addEventListener('click', function(){
+      shopRollout.classList.contains('is-open') ? shutShop() : openShop();
+      layout();
+    });
+  }
   if(toplink && rollout){
     toplink.addEventListener('click', function(){
       if(window.location.pathname !== '/'){ window.location.href = '/?open=scroll'; return; }
@@ -674,7 +743,8 @@ document.querySelectorAll('img').forEach(function(i){
 def nav_js():
     labels = {"all": "All"}
     labels.update({k: lab for lab, k in SECTIONS})
-    return NAV_JS.replace("__LABELS__", json.dumps(labels, ensure_ascii=False))
+    return (NAV_JS.replace("__LABELS__", json.dumps(labels, ensure_ascii=False))
+                  .replace("__ICONS__", json.dumps(ICONS, ensure_ascii=False)))
 
 # ---------------------------------------------------------------- footer
 # Ported from squarespace-block-signal-footer.html. Same silhouette:
@@ -793,7 +863,7 @@ document.querySelectorAll('.signal-footer-jump[data-jump="scroll"]').forEach(fun
 
 def page(*, title, desc, canonical, body, domain, jsonld=None,
          og_image=None, og_type="website", prev_url=None, next_url=None,
-         nav_current=None, issueline=""):
+         nav_current=None):
     base = f"https://{domain}"
     head = [
         '<!doctype html>', '<html lang="en">', '<head>',
@@ -833,7 +903,7 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
         cls = ' class="navsub"' if sub else ""
         return f'<a href="{href}"{cls}{cur}>{label}</a>'
 
-    mast = nav_html(domain) + issueline
+    mast = nav_html(domain)
 
     foot = footer_html(domain) + IMG_FALLBACK_JS + nav_js() + FOOTER_JS + "</body></html>"
 
@@ -841,58 +911,79 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
             + '<main class="container">' + body + "</main>" + foot)
 
 # ---------------------------------------------------------------- blocks
+# Markup mirrors the Signal content block's own structure and class
+# names, so the two pages share one stylesheet in all but name.
 
-def issue_line(issue, *, paging="", running=True):
-    right = (f'<div class="right">A Running Record of Findings from the Internet '
-             f'/ <b>{e(issue["dateLabel"])}</b></div>') if running else ""
-    return (f'<div class="issueline"><div class="container"><div class="inner">'
-            f'<span class="mark"><span class="dot"></span>'
-            f'<span class="label">RSS / Signal</span></span>'
-            f'{right}{paging}</div></div></div>')
+ICONS = {
+ "design-arch": '<svg class="signal-cat-icon" viewBox="0 0 72 72" aria-hidden="true"><polyline points="16.83 7.99 22.34 33.06 55.17 33.06" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><polyline points="55.17 64.01 55.17 39.57 22.21 39.57 16.83 64.01" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+ "craft": '<svg class="signal-cat-icon" viewBox="0 0 72 72" aria-hidden="true"><path d="M14 58L38 34" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><rect x="34" y="10" width="28" height="16" rx="3" transform="rotate(45 48 18)" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/></svg>',
+ "sound-vinyl": '<svg class="signal-cat-icon" viewBox="0 0 72 72" aria-hidden="true"><g><circle cx="35.91" cy="36.34" r="26.75" fill="none" stroke="currentColor" stroke-width="5" stroke-miterlimit="10"/><path d="M46.49,20.65c5.03,3.4,8.34,9.16,8.34,15.69" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.33,52.02c-5.03-3.4-8.34-9.16-8.34-15.69" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M35.91,26.73c-5.3,0-9.61,4.3-9.61,9.61s4.3,9.61,9.61,9.61,9.61-4.3,9.61-9.61-4.3-9.61-9.61-9.61ZM35.91,38.02c-.93,0-1.68-.75-1.68-1.68s.75-1.68,1.68-1.68,1.68.75,1.68,1.68-.75,1.68-1.68,1.68Z" fill="currentColor"/></svg>',
+ "collecting": '<svg class="signal-cat-icon" viewBox="0 0 72 72" aria-hidden="true"><polygon points="36,9 61,23 36,37 11,23" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/><polyline points="11,23 11,49 36,63 36,37" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/><polyline points="61,23 61,49 36,63" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/></svg>',
+ "archives": '<svg class="signal-cat-icon" viewBox="0 0 72 72" aria-hidden="true"><polyline points="9,27 36,11 63,27" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1="59" x2="65" y2="59" stroke="currentColor" stroke-width="5" stroke-linecap="round"/><line x1="17" y1="31" x2="17" y2="53" stroke="currentColor" stroke-width="5" stroke-linecap="round"/><line x1="31" y1="31" x2="31" y2="53" stroke="currentColor" stroke-width="5" stroke-linecap="round"/><line x1="43" y1="31" x2="43" y2="53" stroke="currentColor" stroke-width="5" stroke-linecap="round"/><line x1="57" y1="31" x2="57" y2="53" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg>',
+ "photo-film": '<svg class="signal-cat-icon" viewBox="0 0 72 72" aria-hidden="true"><rect x="9" y="24" width="54" height="34" rx="4" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/><rect x="27" y="14" width="18" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/><circle cx="36" cy="41" r="11" fill="none" stroke="currentColor" stroke-width="5"/></svg>',
+}
 
-def hero_block(issue):
+ARROW = '<span class="signal-external-icon" aria-hidden="true">↗︎</span>'
+
+
+def row_html(a):
+    media = (f'<a class="signal-row-media" href="{e(a["url"])}" tabindex="-1" aria-hidden="true">'
+             f'<img src="{e(a["image"])}" alt="" loading="lazy"></a>') if a.get("image") else ""
+    ever = '<span class="signal-evergreen">Evergreen</span>' if a.get("evergreen") else ""
+    date = f' &middot; {e(a["date"])}' if a.get("date") else ""
+    return (f'<div class="signal-row">{media}'
+            f'<h5 class="signal-row-headline"><a href="{e(a["url"])}" target="_blank" rel="noopener">'
+            f'{e(a["headline"])} {ARROW}</a></h5>'
+            f'<time class="signal-row-date">{e(a["source"])}{date}{ever}</time></div>')
+
+
+def hero_block(issue, paging=""):
     h = issue["hero"]
-    lab = KEY_TO_LABEL.get(h.get("category"), "")
-    img = ""
+    media = ""
     if h.get("image"):
         cap = f'<figcaption>{e(h["caption"])}</figcaption>' if h.get("caption") else ""
-        img = (f'<figure><a href="{e(h["url"])}" rel="noopener"><img src="{e(h["image"])}" '
-               f'alt="{e(h.get("caption") or h["headline"])}" loading="eager"></a>{cap}</figure>')
-    return f"""<div class="hero"><div>
-<h1><a href="{e(h['url'])}" rel="noopener">{e(h['headline'])}</a></h1>
-<p class="dek">{e(h.get('dek',''))}</p>
-<div class="foot">
-<a class="read" href="{e(h['url'])}" rel="noopener">Read the story {ARROW}</a>
-<p class="byline">{e(h.get('byline',''))}</p>
+        media = (f'<figure class="signal-hero-media"><img src="{e(h["image"])}" '
+                 f'alt="{e(h.get("caption") or h["headline"])}">{cap}</figure>')
+    pag = f'<span class="signal-hero-paging">{paging}</span>' if paging else ""
+    note = ""
+    if issue.get("note"):
+        note = (f'<div class="signal-note"><h2>From the editor</h2>'
+                f'<p>{e(issue["note"])}</p></div>')
+    return f"""<section class="signal-hero">
+<div class="signal-hero-topline">
+<span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true"></span>RSS / Signal</span>
+<span class="signal-hero-date">A Running Record of Findings from the Internet / <span class="signal-hero-date-value">{e(issue['dateLabel'])}</span></span>
 </div>
-</div>{img}</div>"""
+<div class="signal-hero-grid">
+<div class="signal-hero-text">
+<h2 class="signal-hero-headline"><a class="signal-hero-link" href="{e(h['url'])}" target="_blank" rel="noopener">{e(h['headline'])}</a></h2>
+<p class="signal-hero-dek">{e(h.get('dek',''))}</p>
+<div class="signal-hero-meta">
+<a class="signal-hero-cta" href="{e(h['url'])}" target="_blank" rel="noopener">Read the story <span aria-hidden="true">↗︎</span></a>
+<span class="signal-hero-byline">{e(h.get('byline',''))}</span>
+</div>
+</div>
+{media}
+</div>{note}{pag}</section>"""
+
 
 def sections_block(issue):
-    out = ['<div class="cols">']
+    heads, cols = [], []
     for label, key in SECTIONS:
-        arts = issue["categories"].get(key, [])
-        if not arts:
-            continue
-        out.append(f'<section><div class="colhead">{GLYPHS.get(key,"")}'
-                   f'<span class="label">{e(label)}</span></div><ol class="items">')
-        for a in arts:
-            img = (f'<figure><a href="{e(a["url"])}" rel="noopener"><img src="{e(a["image"])}" '
-                   f'alt="{e(a["headline"])}" loading="lazy"></a></figure>') if a.get("image") else ""
-            ever = '<span class="ever">Evergreen</span>' if a.get("evergreen") else ""
-            date = f'<span>&middot;</span><span>{e(a["date"])}</span>' if a.get("date") else ""
-            out.append(
-                f'<li>{img}<h3><a href="{e(a["url"])}" rel="noopener">{e(a["headline"])}'
-                f'{ARROW}</a></h3>'
-                f'<p class="meta"><span class="src">{e(a["source"])}</span>{date}{ever}</p></li>')
-        out.append("</ol></section>")
-    out.append("</div>")
-    return "".join(out)
+        heads.append(f'<div class="signal-column-header" data-category="{key}">{ICONS.get(key,"")}'
+                     f'<h4 class="signal-column-title">{e(label)}</h4></div>')
+        rows = "".join(row_html(a) for a in issue["categories"].get(key, []))
+        cols.append(f'<div class="signal-column" data-category="{key}">'
+                    f'<div class="signal-column-list">{rows}</div></div>')
+    return ('<section class="signal-feed"><div class="signal-feed-grid">'
+            + "".join(heads) + "".join(cols) + "</div></section>")
+
 
 def subscribe_block(domain):
-    return f"""<div class="sub">
+    return f"""<div class="signal-sub">
 <h2>Follow Signal</h2>
 <p>A new issue every day. The feed carries each issue in full, so nothing is held back for the site.</p>
-<a class="btn" href="https://{domain}/feed.xml">Subscribe by RSS</a>
+<a class="signal-pagination-link" href="https://{domain}/feed.xml">Subscribe by RSS</a>
 </div>"""
 
 def issue_jsonld(issue, dt, url, domain):
@@ -941,19 +1032,15 @@ def render_issue(issue, dt, *, domain, prev=None, nxt=None, as_index=False):
                 f"led by {h['headline']}.", 300)
 
     paging = []
-    if nxt: paging.append(f'<a href="/issues/{slug(nxt)}/" rel="next">Next issue</a>')
-    if prev: paging.append(f'<a href="/issues/{slug(prev)}/" rel="prev">Previous issue</a>')
-    if as_index: paging.append('<a href="/archive/">All issues</a>')
-    pag = f'<div class="paging">{"".join(paging)}</div>' if paging else ""
+    if nxt: paging.append(f'<a href="/issues/{slug(nxt)}/" rel="next">Newer issue</a>')
+    if prev: paging.append(f'<a href="/issues/{slug(prev)}/" rel="prev">Older issue</a>')
+    paging.append('<a href="/archive/">All issues</a>')
+    pag = "".join(paging)
 
-    note = ""
-    if issue.get("note"):
-        note = f'<div class="note"><h2>From the editor</h2><p>{e(issue["note"])}</p></div>'
-
-    merged = ('<div id="merged-wrap" hidden><section class="merged-feed">'
-              '<div class="merged-head" id="merged-head"></div>'
-              '<div class="merged-grid" id="merged-grid"></div></section></div>') if as_index else ""
-    body = note + hero_block(issue) + sections_block(issue) + merged + subscribe_block(domain)
+    merged = ('<div id="merged-wrap" hidden><section class="signal-merged">'
+              '<div class="signal-column-header" id="merged-head"></div>'
+              '<div id="merged-grid"></div></section></div>') if as_index else ""
+    body = hero_block(issue, paging=pag) + sections_block(issue) + merged + subscribe_block(domain)
 
     return page(
         title=(f"Signal &middot; {issue['dateLabel']}" if not as_index
@@ -966,7 +1053,6 @@ def render_issue(issue, dt, *, domain, prev=None, nxt=None, as_index=False):
         prev_url=(f"https://{domain}/issues/{slug(prev)}/" if prev else None),
         next_url=(f"https://{domain}/issues/{slug(nxt)}/" if nxt else None),
         nav_current="today",
-        issueline=issue_line(issue, paging=pag),
     )
 
 def render_archive(pairs, domain):
@@ -976,8 +1062,8 @@ def render_archive(pairs, domain):
                     f'<span class="h">{e(trim(issue["hero"]["headline"], 90))}</span></a></li>')
     total = sum(1 + sum(len(v) for v in i["categories"].values()) for i, _ in pairs)
     body = (f'<div class="prose"><h1>Archive</h1>'
-            f'<p>{len(pairs)} issues, {total} pieces, newest first.</p></div>'
-            f'<ul class="arch">{"".join(rows)}</ul>')
+            f'<p class="prose-intro">{len(pairs)} issues, {total} pieces, newest first.</p></div>'
+            f'<ul class="signal-arch">{"".join(rows)}</ul>')
     return page(title="Signal archive, every issue",
                 desc=f"Every issue of Signal. {len(pairs)} daily editions, {total} pieces of writing "
                      f"on design, art, sound, collecting, history and film.",
