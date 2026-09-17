@@ -226,8 +226,10 @@ img{display:block; max-width:100%}
 .signal-pagination-link:only-child{margin-left:auto; margin-right:auto}
 .signal-hero-date-value a{color:inherit; border-bottom:1px solid transparent; transition:border-color .15s ease, color .15s ease}
 .signal-hero-date-value a:hover{color:var(--signal); border-color:var(--signal)}
-/* Each stacked issue is its own article, separated by a rule. */
-.signal-issue + .signal-issue{border-top:1px solid var(--rule-soft); margin-top:8px; padding-top:8px}
+/* Stacked issues need no divider of their own: .signal-hero already
+   opens with a full-width black rule, which is exactly how the
+   /rsssignal block separates one issue from the next. Adding a
+   second, lighter line here put two rules in the same seam. */
 .signal-pagination-link{font-size:13px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; border-bottom:1px solid var(--ink); padding-bottom:3px; transition:border-color .15s ease, color .15s ease}
 .signal-pagination-link:hover{border-color:var(--signal); color:var(--signal)}
 
