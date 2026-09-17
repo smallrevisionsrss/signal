@@ -33,6 +33,11 @@ SHOP_URL  = "https://www.smallrevisions.com"
 # Google Search Console ownership. Keep this: removing it un-verifies
 # the property and the sitemap stops being accepted.
 GSC_VERIFY = "kFPZfxmZVRVFninZCFa9nUyYcgQ3X1Xb5mG99A4zh3E"
+# IndexNow. The key is proved by hosting it as a text file at the site
+# root, so the build writes that file and the workflow pings the API
+# after each deploy. Self-generated keys are valid per the spec; this
+# one is 32 hex characters.
+INDEXNOW_KEY = "182a146f131abb081b50fb231b669a70"
 TAGLINE   = "A daily edit of writing on design, art, sound, collecting, history and film."
 DESCRIPTION = (
     "Signal is a daily digest from Small Revisions. Each issue gathers "
@@ -1506,6 +1511,25 @@ def build(data_file, out_dir, domain):
     (out / "robots.txt").write_text(render_robots(domain), encoding="utf-8")
     (out / "404.html").write_text(render_404(domain), encoding="utf-8")
     shutil.copyfile(data_file, out / "signal-issues-data.json")
+    (out / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
+
+    # What a new issue actually changes: the home page, the new issue's own
+    # page, the issue that just lost the "newest" slot, the archive, the
+    # subscribe page's recent list, and every listing page, because the
+    # whole run shifts by one. Written for the workflow to post to IndexNow.
+    changed = [f"https://{domain}/", f"https://{domain}/archive/",
+               f"https://{domain}/subscribe/", f"https://{domain}/feed.xml"]
+    changed += [f"https://{domain}/page/{n}/" for n in range(2, total_pages + 1)]
+    changed += [f"https://{domain}/issues/{slug(dt)}/" for _, dt in pairs[:2]]
+    # Written as the exact POST body, so the workflow only has to send it.
+    # The key is public by design in IndexNow, hosted at the root as proof.
+    (out / "indexnow.json").write_text(json.dumps({
+        "host": domain,
+        "key": INDEXNOW_KEY,
+        "keyLocation": f"https://{domain}/{INDEXNOW_KEY}.txt",
+        "urlList": changed,
+    }, indent=2), encoding="utf-8")
+
     (out / "CNAME").write_text(domain + "\n", encoding="utf-8")
     (out / ".nojekyll").write_text("", encoding="utf-8")
 
