@@ -485,11 +485,10 @@ def nav_html(domain):
 <button type="button" class="mainnav-announce-close" id="mainnav-announce-close" aria-label="Dismiss announcement">&times;</button>
 </div></div></div>
 <div class="mainnav-row"><div class="container"><div class="mainnav-inner">
-<a class="mainnav-logo" href="/"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
+<a class="mainnav-logo" href="{SHOP_URL}"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
 <div class="mainnav-bottom-row">
 <nav class="mainnav-links" id="mainnav-links" aria-label="Main">
-<button type="button" class="mainnav-toplink" data-group="shop" aria-expanded="false">Shop</button>
-<div class="mainnav-rollout" id="shop-rollout"><div class="mainnav-rollout-inner">{shop}</div></div>
+<a class="mainnav-toplink" href="{SHOP_URL}/all" data-group="shop">Shop</a>
 <button type="button" class="mainnav-toplink" data-group="scroll" aria-expanded="false">Signal</button>
 <div class="mainnav-rollout" id="scroll-rollout" role="tablist" aria-label="Filter stories by section">
 <div class="mainnav-rollout-inner">{tabs}</div>
@@ -517,8 +516,6 @@ NAV_JS = """
   var spacer = document.getElementById('mainnav-spacer');
   var toplink = document.querySelector('.mainnav-toplink[data-group="scroll"]');
   var rollout = document.getElementById('scroll-rollout');
-  var shopLink = document.querySelector('.mainnav-toplink[data-group="shop"]');
-  var shopRollout = document.getElementById('shop-rollout');
   var links = document.getElementById('mainnav-links');
   var toggle = document.getElementById('mainnav-toggle');
   var input = document.getElementById('search-input');
@@ -650,21 +647,7 @@ NAV_JS = """
     }
   }
 
-  function shutShop(){
-    if(!shopRollout) return;
-    shopRollout.classList.remove('is-open');
-    shopLink.classList.remove('is-open');
-    shopLink.setAttribute('aria-expanded', 'false');
-  }
-  function openShop(){
-    closeRollout();
-    shopRollout.classList.add('is-open');
-    shopLink.classList.add('is-open');
-    shopLink.setAttribute('aria-expanded', 'true');
-    layout();
-  }
   function openRollout(){
-    shutShop();
     rollout.classList.add('is-open');
     toplink.classList.add('is-open');
     toplink.setAttribute('aria-expanded', 'true');
@@ -683,12 +666,6 @@ NAV_JS = """
     layout();
   }
 
-  if(shopLink && shopRollout){
-    shopLink.addEventListener('click', function(){
-      shopRollout.classList.contains('is-open') ? shutShop() : openShop();
-      layout();
-    });
-  }
   if(toplink && rollout){
     toplink.addEventListener('click', function(){
       if(window.location.pathname !== '/'){ window.location.href = '/?open=scroll'; return; }
@@ -893,7 +870,7 @@ def footer_html(domain):
     return f"""<footer class="signal-footer">
 <div class="container">
 <div class="signal-footer-row">
-<a class="signal-footer-logo" href="/"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
+<a class="signal-footer-logo" href="{SHOP_URL}"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
 <nav class="signal-footer-links" aria-label="Footer">
 <a href="{SHOP_URL}/all" class="signal-footer-jump">Shop</a>
 <a href="#" class="signal-footer-jump" data-jump="scroll">Signal</a>
