@@ -212,7 +212,6 @@ img{display:block; max-width:100%}
 .signal-row-headline a:hover{opacity:.6}
 .signal-external-icon{font-family:var(--sans); font-size:.72em; color:var(--ink-faint); vertical-align:super}
 .signal-row-date{display:block; margin-top:8px; font-size:12.5px; font-weight:500; font-family:var(--sans); color:var(--ink-faint)}
-.signal-evergreen{font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--signal); border:1px solid var(--signal); padding:1px 5px; margin-left:8px}
 
 /* merged filter view --------------------------------------------- */
 .signal-merged{padding-top:8px; padding-bottom:64px}
@@ -929,12 +928,11 @@ ARROW = '<span class="signal-external-icon" aria-hidden="true">↗︎</span>'
 def row_html(a):
     media = (f'<a class="signal-row-media" href="{e(a["url"])}" tabindex="-1" aria-hidden="true">'
              f'<img src="{e(a["image"])}" alt="" loading="lazy"></a>') if a.get("image") else ""
-    ever = '<span class="signal-evergreen">Evergreen</span>' if a.get("evergreen") else ""
     date = f' &middot; {e(a["date"])}' if a.get("date") else ""
     return (f'<div class="signal-row">{media}'
             f'<h5 class="signal-row-headline"><a href="{e(a["url"])}" target="_blank" rel="noopener">'
             f'{e(a["headline"])} {ARROW}</a></h5>'
-            f'<time class="signal-row-date">{e(a["source"])}{date}{ever}</time></div>')
+            f'<time class="signal-row-date">{e(a["source"])}{date}</time></div>')
 
 
 def hero_block(issue, paging=""):
