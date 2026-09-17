@@ -104,7 +104,9 @@ CSS = """
   --sans:'Instrument Sans','Helvetica Neue',Arial,sans-serif;
 }
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
+html{-webkit-text-size-adjust:100%; background:var(--bg); color-scheme:light}
+/* Both sites paint the same cream immediately, so a move between
+   them never flashes the browser's default white. */
 body{
   margin:0; background:var(--bg); color:var(--ink);
   font-family:var(--sans);
@@ -473,7 +475,7 @@ def nav_html(domain):
 <nav class="mainnav-links" id="mainnav-links" aria-label="Main">
 <button type="button" class="mainnav-toplink" data-group="shop" aria-expanded="false">Shop</button>
 <div class="mainnav-rollout" id="shop-rollout"><div class="mainnav-rollout-inner">{shop}</div></div>
-<button type="button" class="mainnav-toplink" data-group="scroll" aria-expanded="false">RSS / Signal</button>
+<button type="button" class="mainnav-toplink" data-group="scroll" aria-expanded="false">Signal</button>
 <div class="mainnav-rollout" id="scroll-rollout" role="tablist" aria-label="Filter stories by section">
 <div class="mainnav-rollout-inner">{tabs}</div>
 </div>
@@ -767,6 +769,18 @@ NAV_JS = """
 # requests. Drop a refused figure rather than show a broken box.
 # Progressive enhancement only: every headline, source and link is
 # already in the served HTML.
+# Chrome prefetches on hover, so by the time the click lands the next
+# document is already in memory and swaps in without a loading frame.
+# signal.smallrevisions.com and www.smallrevisions.com share one
+# registrable domain, which is what makes the cross-origin rule legal.
+SPECULATION = """<script type="speculationrules">
+{"prefetch":[
+ {"where":{"href_matches":"/*"},"eagerness":"moderate"},
+ {"where":{"href_matches":"https://www.smallrevisions.com/*"},"eagerness":"moderate"}
+]}
+</script>"""
+
+
 IMG_FALLBACK_JS = """
 <script>
 function signalDropImage(i){
@@ -867,7 +881,7 @@ def footer_html(domain):
 <a class="signal-footer-logo" href="/"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
 <nav class="signal-footer-links" aria-label="Footer">
 <a href="{SHOP_URL}/all" class="signal-footer-jump">Shop</a>
-<a href="#" class="signal-footer-jump" data-jump="scroll">RSS / Signal</a>
+<a href="#" class="signal-footer-jump" data-jump="scroll">Signal</a>
 <a href="/archive/">Archive</a>
 <a href="/about/">About</a>
 <a href="{SHOP_URL}/contact">Contact</a>
@@ -917,6 +931,11 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
         f'<meta name="description" content="{e(desc)}">',
         f'<link rel="canonical" href="{e(canonical)}">',
         '<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">',
+        '<meta name="theme-color" content="#f9f7f0">',
+        # The shop is a different origin on the same site. Opening the
+        # connection early removes the DNS, TCP and TLS wait from the click.
+        f'<link rel="preconnect" href="{SHOP_URL}">',
+        f'<link rel="dns-prefetch" href="{SHOP_URL}">',
         f'<meta property="og:site_name" content="{e(SITE_NAME)}">',
         f'<meta property="og:title" content="{e(title)}">',
         f'<meta property="og:description" content="{e(desc)}">',
@@ -934,6 +953,7 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
     head += [
         f'<link rel="alternate" type="application/rss+xml" title="{e(SITE_NAME)}" href="{base}/feed.xml">',
         FONTS,
+        SPECULATION,
         f'<style>{CSS}{NAV_CSS}{FOOTER_CSS}</style>',
     ]
     if jsonld:
@@ -999,7 +1019,7 @@ def hero_block(issue, paging="", issue_url=None):
                 if issue_url else e(issue["dateLabel"]))
     return f"""<section class="signal-hero">
 <div class="signal-hero-topline">
-<span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true"></span>RSS / Signal</span>
+<span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true"></span>Signal</span>
 <span class="signal-hero-date">A Running Record of Findings from the Internet / <span class="signal-hero-date-value">{datemark}</span></span>
 </div>
 <div class="signal-hero-grid">
@@ -1222,7 +1242,7 @@ def render_archive(pairs, domain):
                 desc=f"Every issue of Signal. {len(pairs)} daily editions, {total} pieces of writing "
                      f"on design, art, sound, collecting, history and film.",
                 canonical=f"https://{domain}/archive/", body=body, domain=domain,
-                nav_current="archive",
+                nav_current="archive", og_image=pairs[0][0]["hero"].get("image"),
                 jsonld={"@context": "https://schema.org", "@type": "CollectionPage",
                         "name": "Signal archive", "url": f"https://{domain}/archive/"})
 
@@ -1291,7 +1311,7 @@ no payment for placement.</li>
                 desc="How Signal is edited: the circulation test, cadence-tiered recency, "
                      "the six sections, and the rules that never bend.",
                 canonical=f"https://{domain}/about/", body=body, domain=domain,
-                nav_current="about",
+                nav_current="about", og_image=pairs[0][0]["hero"].get("image"),
                 jsonld={"@context": "https://schema.org", "@type": "AboutPage",
                         "name": "About Signal", "url": f"https://{domain}/about/",
                         "publisher": {"@type": "Organization", "name": PUBLISHER, "url": SHOP_URL}})
