@@ -674,8 +674,16 @@ NAV_JS = """
     document.querySelectorAll('.signal-tab').forEach(function(t){
       t.addEventListener('click', function(){ setFilter(t.getAttribute('data-filter')); });
     });
-    if(new URLSearchParams(window.location.search).get('open') === 'scroll'){
+    /* The filter bar opens on arrival, on All, so the six sections are
+       visible without a click. Listing pages only: an issue page has no
+       merged container, so a tab clicked there would hide the issue and
+       have nowhere to render, leaving the page blank. There the toplink
+       keeps sending you home with ?open=scroll instead. */
+    if(mergedWrap){
       openRollout();
+    }
+    if(new URLSearchParams(window.location.search).get('open') === 'scroll'){
+      if(!rollout.classList.contains('is-open')) openRollout();
       history.replaceState(null, document.title, window.location.pathname);
     }
   }
