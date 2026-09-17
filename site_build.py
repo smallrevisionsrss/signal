@@ -256,6 +256,10 @@ img{display:block; max-width:100%}
 .prose-intro{font-size:13px; font-weight:500; color:var(--ink-faint); letter-spacing:.02em; margin-bottom:28px}
 
 /* subscribe ------------------------------------------------------- */
+.feedurl{display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin:0 0 20px}
+.feedurl code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:14px; background:#fff; border:1px solid var(--rule-soft); padding:9px 12px; overflow-wrap:anywhere}
+.feedcopy{font-family:inherit; font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--ink); background:none; border:0; border-bottom:1px solid var(--ink); padding:0 0 3px; cursor:pointer}
+.feedcopy:hover{color:var(--signal); border-color:var(--signal)}
 .signal-sub{padding:28px 0 0; border-top:1px solid var(--rule);
   display:grid; grid-template-columns:repeat(3,1fr); column-gap:32px; align-items:center}
 .signal-sub-text{grid-column:1 / 3}
@@ -1056,7 +1060,7 @@ def subscribe_block(domain):
 <div class="signal-sub-text">
 <h2>Follow Signal</h2>
 <p>Findings across Design, Arts &amp; Culture, Sound, Collecting, Document &amp; Film, gathered each morning. Picked up wherever they were left.</p>
-<a class="signal-pagination-link" href="https://{domain}/feed.xml">Subscribe by RSS</a>
+<a class="signal-pagination-link" href="/subscribe/">Subscribe by RSS</a>
 </div>
 <figure class="signal-sub-media"><img src="{SUB_IMAGE}" alt="Small Revisions crate in primary colors" width="2500" height="1678" loading="lazy"></figure>
 </div>"""
@@ -1325,6 +1329,58 @@ no payment for placement.</li>
 
 # ---------------------------------------------------------------- feeds
 
+def render_subscribe(pairs, domain):
+    """A readable page in front of the feed.
+
+    Pointing the button straight at feed.xml showed a wall of XML, because
+    no browser ships a feed reader any more. The usual dodge, an XSL
+    stylesheet on the feed, is not worth building: Chrome removes XSLT in
+    version 158 on 17 November 2026, so it would break within weeks.
+    Chrome's own guidance is this shape instead, an HTML page for people
+    and a <link rel="alternate"> in the head for readers, which every page
+    here already carries."""
+    base = f"https://{domain}"
+    recent = "".join(
+        f'<li><a href="/issues/{slug(dt)}/"><span class="d">{e(i["dateLabel"])}</span>'
+        f'<span class="h">{e(trim(i["hero"]["headline"], 80))}</span></a></li>'
+        for i, dt in pairs[:5])
+    body = f"""<div class="prose">
+<h1>Subscribe</h1>
+<p>Signal publishes one issue a morning and the feed carries each one whole, so nothing
+is held back for the site. Paste this address into any reader.</p>
+<div class="feedurl">
+<code id="feedurl">{base}/feed.xml</code>
+<button type="button" class="feedcopy" id="feedcopy">Copy</button>
+</div>
+<p>If you do not keep a reader, <a href="{base}/feed.xml">the feed itself is here</a>.
+It will look like code in a browser, which is what a feed is: a file written for
+software to read rather than a person.</p>
+<h2>The last five issues</h2>
+</div>
+<ul class="signal-arch">{recent}</ul>
+<div class="prose"><p><a href="/archive/">All {len(pairs)} issues</a> &middot;
+<a href="/about/">What gets in, and why</a></p></div>
+<script>
+(function(){{
+  var b = document.getElementById('feedcopy'), u = document.getElementById('feedurl');
+  if(!b || !u || !navigator.clipboard) {{ if(b) b.hidden = true; return; }}
+  b.addEventListener('click', function(){{
+    navigator.clipboard.writeText(u.textContent.trim()).then(function(){{
+      var was = b.textContent; b.textContent = 'Copied';
+      setTimeout(function(){{ b.textContent = was; }}, 1600);
+    }});
+  }});
+}})();
+</script>"""
+    return page(title="Subscribe to Signal",
+                desc=f"Signal publishes one issue every morning, carried whole in the feed. "
+                     f"{len(pairs)} issues so far.",
+                canonical=f"{base}/subscribe/", body=body, domain=domain,
+                nav_current="subscribe", og_image=pairs[0][0]["hero"].get("image"),
+                jsonld={"@context": "https://schema.org", "@type": "WebPage",
+                        "name": "Subscribe to Signal", "url": f"{base}/subscribe/"})
+
+
 def render_feed(pairs, domain, limit=30):
     base = f"https://{domain}"
     items = []
@@ -1371,7 +1427,8 @@ def render_sitemap(pairs, domain):
     total_pages = max(1, -(-len(pairs) // PER_PAGE))
     urls = [(f"{base}/", pairs[0][1], "daily", "1.0"),
             (f"{base}/archive/", pairs[0][1], "daily", "0.7"),
-            (f"{base}/about/", pairs[0][1], "monthly", "0.6")]
+            (f"{base}/about/", pairs[0][1], "monthly", "0.6"),
+            (f"{base}/subscribe/", pairs[0][1], "monthly", "0.5")]
     # Later pages of the scroll, each one a real URL a crawler can walk.
     urls += [(f"{base}/page/{n}/", pairs[(n - 1) * PER_PAGE][1], "weekly", "0.6")
              for n in range(2, total_pages + 1)]
@@ -1434,8 +1491,9 @@ def build(data_file, out_dir, domain):
             d.mkdir(parents=True, exist_ok=True)
             (d / "index.html").write_text(html, encoding="utf-8")
 
-    for sub, content in (("archive", render_archive(pairs, domain)),
-                         ("about",   render_about(pairs, domain))):
+    for sub, content in (("archive",   render_archive(pairs, domain)),
+                         ("about",     render_about(pairs, domain)),
+                         ("subscribe", render_subscribe(pairs, domain))):
         (out / sub).mkdir(exist_ok=True)
         (out / sub / "index.html").write_text(content, encoding="utf-8")
 
