@@ -224,7 +224,10 @@ img{display:block; max-width:100%}
 .signal-merged-count{font-size:12.5px; font-weight:500; color:var(--ink-faint); margin-left:auto}
 
 /* pagination ------------------------------------------------------ */
-.signal-pagination{display:flex; justify-content:space-between; align-items:center; gap:24px; padding:24px 0 64px; border-top:1px solid var(--rule-soft)}
+/* No rule of its own: the feed above ends on its own hairline and the
+   subscribe block below opens with the black one, so a third line
+   here just stacked two rules in the same gap. */
+.signal-pagination{display:flex; justify-content:space-between; align-items:center; gap:24px; padding:24px 0 48px}
 .signal-pagination-link:only-child{margin-left:auto; margin-right:auto}
 .signal-hero-date-value a{color:inherit; border-bottom:1px solid transparent; transition:border-color .15s ease, color .15s ease}
 .signal-hero-date-value a:hover{color:var(--signal); border-color:var(--signal)}
@@ -253,9 +256,15 @@ img{display:block; max-width:100%}
 .prose-intro{font-size:13px; font-weight:500; color:var(--ink-faint); letter-spacing:.02em; margin-bottom:28px}
 
 /* subscribe ------------------------------------------------------- */
-.signal-sub{padding:28px 0 0; border-top:1px solid var(--rule)}
+.signal-sub{padding:28px 0 0; border-top:1px solid var(--rule);
+  display:grid; grid-template-columns:repeat(3,1fr); column-gap:32px; align-items:center}
+.signal-sub-text{grid-column:1 / 3}
 .signal-sub h2{font-family:var(--serif); font-weight:400; font-size:1.5rem; margin-bottom:8px}
 .signal-sub p{color:var(--ink-soft); font-size:1.05rem; line-height:1.55; margin-bottom:18px; max-width:58ch}
+/* A cut-out product shot on a transparent ground, so it is never cropped
+   and never given the dark backing the editorial images carry. */
+.signal-sub-media{grid-column:3; margin:0; justify-self:end; width:100%}
+.signal-sub-media img{width:100%; height:auto; display:block; object-fit:contain}
 
 @media (max-width:900px){
   .signal-hero-grid{grid-template-columns:1fr; gap:28px}
@@ -269,6 +278,9 @@ img{display:block; max-width:100%}
   .signal-column-header[data-category="design-arch"]{margin-top:0 !important}
   .signal-column{padding:0 !important}
   .signal-column::before{display:none}
+  .signal-sub{grid-template-columns:1fr; row-gap:24px}
+  .signal-sub-text{grid-column:1}
+  .signal-sub-media{grid-column:1; justify-self:start; max-width:360px}
   .signal-merged .signal-column-list{display:block}
   .signal-filter-col + .signal-filter-col{border-left:none}
   .signal-merged .signal-column-list .signal-row{margin-left:0; margin-right:0}
@@ -276,6 +288,9 @@ img{display:block; max-width:100%}
 @media (max-width:520px){
   .container{padding:0 18px}
   .signal-hero-dek{max-width:none}
+  .signal-sub{grid-template-columns:1fr; row-gap:24px}
+  .signal-sub-text{grid-column:1}
+  .signal-sub-media{grid-column:1; justify-self:start; max-width:320px}
   /* The topline is one line at desktop width; at phone width the
      eyebrow and the standing line stack rather than crowd. */
   .signal-hero-topline{display:block}
@@ -1047,11 +1062,18 @@ def sections_block(issue):
             + "".join(heads) + "".join(cols) + "</div></section>")
 
 
+SUB_IMAGE = ("https://images.squarespace-cdn.com/content/64be819738a72b038cb035d4/"
+             "ebfc1be6-2cf0-4c7a-b166-5a8889130af7/Crate+-+Primary+Colors.png")
+
+
 def subscribe_block(domain):
     return f"""<div class="signal-sub">
+<div class="signal-sub-text">
 <h2>Follow Signal</h2>
 <p>Findings across Design, Arts &amp; Culture, Sound, Collecting, Document &amp; Film, gathered each morning. Picked up wherever they were left.</p>
 <a class="signal-pagination-link" href="https://{domain}/feed.xml">Subscribe by RSS</a>
+</div>
+<figure class="signal-sub-media"><img src="{SUB_IMAGE}" alt="Small Revisions crate in primary colors" width="2500" height="1678" loading="lazy"></figure>
 </div>"""
 
 def issue_jsonld(issue, dt, url, domain):
