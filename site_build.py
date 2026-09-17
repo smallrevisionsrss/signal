@@ -1050,7 +1050,7 @@ def sections_block(issue):
 def subscribe_block(domain):
     return f"""<div class="signal-sub">
 <h2>Follow Signal</h2>
-<p>A new issue every day. The feed carries each issue in full, so nothing is held back for the site.</p>
+<p>Findings across Design, Arts &amp; Culture, Sound, Collecting, Document &amp; Film, gathered each morning. Picked up wherever they were left.</p>
 <a class="signal-pagination-link" href="https://{domain}/feed.xml">Subscribe by RSS</a>
 </div>"""
 
