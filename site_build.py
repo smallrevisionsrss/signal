@@ -30,6 +30,11 @@ from pathlib import Path
 SITE_NAME = "Signal"
 PUBLISHER = "Small Revisions"
 SHOP_URL  = "https://www.smallrevisions.com"
+# The design studio. Signal and the shop both point here; the studio is
+# the only property that was previously a terminus, linking out to the
+# shop but never linked to from anywhere. Separate registrable domain,
+# so no prefetch and rel=noopener on every link out.
+STUDIO_URL = "https://www.mcswain.studio"
 # Google Search Console ownership. Keep this: removing it un-verifies
 # the property and the sitemap stops being accepted.
 GSC_VERIFY = "kFPZfxmZVRVFninZCFa9nUyYcgQ3X1Xb5mG99A4zh3E"
@@ -502,6 +507,7 @@ def nav_html(domain):
 <nav class="mainnav-links" id="mainnav-links" aria-label="Main">
 <a class="mainnav-toplink" href="{SHOP_URL}/all" data-group="shop">Shop</a>
 <button type="button" class="mainnav-toplink" data-group="scroll" aria-expanded="false">Signal</button>
+<a class="mainnav-toplink" href="{STUDIO_URL}" data-group="studio" rel="noopener">Studio</a>
 <div class="mainnav-rollout" id="scroll-rollout" role="tablist" aria-label="Filter stories by section">
 <div class="mainnav-rollout-inner">{tabs}</div>
 </div>
@@ -623,7 +629,8 @@ NAV_JS = """
     return '<div class="signal-row' + (item.image ? ' has-media' : '') + '">' + imageHTML +
       '<h5 class="signal-row-headline"><a href="' + esc(item.url) + '" target="_blank" rel="noopener">' +
       esc(item.headline) + ' <span class="signal-external-icon" aria-hidden="true">\u2197\ufe0e</span></a></h5>' +
-      '<time class="signal-row-date">' + esc(item.source) + ' \u00b7 ' + esc(item.date) + '</time></div>';
+      '<time class="signal-row-date">' + esc(item.source) +
+      (item.date ? ' \u00b7 ' + esc(item.date) : '') + '</time></div>';
   }
 
   function renderMerged(key){
@@ -893,6 +900,7 @@ def footer_html(domain):
 <a class="signal-footer-logo" href="{SHOP_URL}"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
 <nav class="signal-footer-links" aria-label="Footer">
 <a href="{SHOP_URL}/all" class="signal-footer-jump">Shop</a>
+<a href="{STUDIO_URL}" class="signal-footer-jump" rel="noopener">Studio</a>
 <a href="#" class="signal-footer-jump" data-jump="scroll">Signal</a>
 <a href="/archive/">Archive</a>
 <a href="/about/">About</a>
