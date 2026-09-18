@@ -917,8 +917,8 @@ def footer_html(domain):
 <a class="signal-footer-logo" href="{SHOP_URL}"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="154" height="63"></a>
 <nav class="signal-footer-links" aria-label="Footer">
 <a href="{SHOP_URL}/all" class="signal-footer-jump">Shop</a>
-<a href="{STUDIO_URL}" class="signal-footer-jump" rel="noopener">Studio</a>
 <a href="#" class="signal-footer-jump" data-jump="scroll">Signal</a>
+<a href="{STUDIO_URL}" class="signal-footer-jump" rel="noopener">Studio</a>
 <a href="/archive/">Archive</a>
 <a href="/about/">About</a>
 <a href="{SHOP_URL}/contact">Contact</a>
