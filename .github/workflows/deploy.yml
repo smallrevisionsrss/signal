@@ -46,6 +46,14 @@ jobs:
           test -f _site/sitemap.xml
           test -f _site/robots.txt
           test -f _site/CNAME
+          test -f _site/182a146f131abb081b50fb231b669a70.txt
+          test -f _site/indexnow.json
+          # Self-hosted assets. site_build.py falls back to the old remote
+          # URLs when these are missing, which keeps a local run working but
+          # would silently ship a build depending on a retired repo and the
+          # shop's CDN again. Fail here instead, loudly.
+          test -f _site/assets/logo.svg
+          test -f _site/assets/crate.png
           python3 - <<'PY'
           import json, re, glob, sys
           import xml.etree.ElementTree as ET
@@ -85,3 +93,42 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Tell IndexNow the moment the new issue is live. After deploy on purpose:
+  # pinging before the pages are served would send the crawler to yesterday's
+  # copy. Bing, Yandex and the other participating engines share one endpoint.
+  notify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for the new pages to be served
+        run: sleep 45
+
+      - name: Ping IndexNow
+        run: |
+          set -euo pipefail
+          KEY=182a146f131abb081b50fb231b669a70
+          HOST=signal.smallrevisions.com
+
+          SERVED=$(curl -fsS "https://$HOST/$KEY.txt" || echo MISSING)
+          if [ "$SERVED" != "$KEY" ]; then
+            echo "key file not served correctly (got: $SERVED)"
+            exit 1
+          fi
+
+          curl -fsS "https://$HOST/indexnow.json" -o /tmp/indexnow.json
+          echo "submitting:"
+          cat /tmp/indexnow.json
+
+          CODE=$(curl -sS -o /tmp/indexnow.out -w '%{http_code}' \
+            -X POST 'https://api.indexnow.org/IndexNow' \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            --data @/tmp/indexnow.json)
+
+          echo "IndexNow responded $CODE"
+          cat /tmp/indexnow.out || true
+
+          case "$CODE" in
+            200|202) echo "submitted" ;;
+            *) echo "IndexNow rejected the submission"; exit 1 ;;
+          esac
