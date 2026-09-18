@@ -282,6 +282,15 @@ img{display:block; max-width:100%}
    and never given the dark backing the editorial images carry. */
 .signal-sub-media{grid-column:3; margin:0; justify-self:end; width:100%}
 .signal-sub-media img{width:100%; height:auto; display:block; object-fit:contain}
+/* Colophon. One line naming who compiles this, set quiet and given no
+   rule above it — the two hairlines that used to sit at the foot of an
+   issue were both removed on request, and this is not an excuse to put
+   one back. It states a fact and links the studio; it does not sell. */
+.signal-colophon{padding:26px 0 44px; font-size:13px; line-height:1.5;
+  color:var(--ink-faint); letter-spacing:.01em}
+.signal-colophon a{color:var(--ink-soft); border-bottom:1px solid var(--rule-soft);
+  padding-bottom:1px; transition:color .15s ease, border-color .15s ease}
+.signal-colophon a:hover{color:var(--ink); border-color:var(--ink)}
 
 @media (max-width:900px){
   .signal-hero-grid{grid-template-columns:1fr; gap:28px}
@@ -1098,7 +1107,8 @@ def subscribe_block(domain):
 <a class="signal-pagination-link" href="/subscribe/">Subscribe by RSS</a>
 </div>
 <figure class="signal-sub-media"><img src="{SUB_IMAGE}" alt="Small Revisions crate in primary colors" width="1000" height="671" loading="lazy"></figure>
-</div>"""
+</div>
+<p class="signal-colophon">Signal is compiled each morning by <a href="{STUDIO_URL}" rel="noopener">McSwain</a>, a design studio in New York.</p>"""
 
 def issue_jsonld(issue, dt, url, domain):
     arts = list(issue_articles(issue))
