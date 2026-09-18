@@ -333,23 +333,28 @@ img{display:block; max-width:100%}
 # Assets the site owns. Anything dropped into assets/ beside this script is
 # copied to _site/assets/ and served from our own domain.
 #
-# Why this is a preference rather than a switch: the logo used to load from
-# raw.githubusercontent.com/smallrevisionsrss/srrss, a repo being retired, and
-# the crate from the shop's Squarespace CDN. Neither is covered by the build's
-# sanity checks, so losing either would blank an image on all 60 pages without
-# failing anything. asset() prefers a committed local file and falls back to the
-# old remote URL when it is absent, so there is no flag day: drop the file in and
-# the next build switches over on its own.
+# These used to load from raw.githubusercontent.com (a repo now retired) and the
+# shop's Squarespace CDN. Both are gone: the files live in assets/ and are served
+# from our own domain.
+#
+# There was briefly a fallback to those old URLs, so the switchover needed no flag
+# day. It is deliberately removed. A fallback is only worth having if the thing it
+# falls back TO still works, and once the old repo is archived it does not — it
+# would simply trade one broken image for another, quietly. The workflow now runs
+# `test -f _site/assets/logo.svg` and `crate.png`, so a missing asset fails the
+# deploy outright. Loud beats silent; asset() warns for the local case, where
+# there is no CI to catch it.
 ASSET_DIR = Path(__file__).resolve().parent / "assets"
 
 
-def asset(name, fallback):
-    return f"/assets/{name}" if (ASSET_DIR / name).is_file() else fallback
+def asset(name):
+    if not (ASSET_DIR / name).is_file():
+        print(f"WARNING: assets/{name} is missing - pages will link a broken image",
+              file=sys.stderr)
+    return f"/assets/{name}"
 
 
-LOGO = asset("logo.svg",
-             "https://raw.githubusercontent.com/smallrevisionsrss/srrss/"
-             "refs/heads/main/Small%20Revisions%20-%20Dymo%20Label%20-%20Knockout%20-%20Black.svg")
+LOGO = asset("logo.svg")
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
@@ -1100,9 +1105,7 @@ def sections_block(issue):
             + "".join(heads) + "".join(cols) + "</div></section>")
 
 
-SUB_IMAGE = asset("crate.png",
-                  "https://images.squarespace-cdn.com/content/64be819738a72b038cb035d4/"
-                  "ebfc1be6-2cf0-4c7a-b166-5a8889130af7/Crate+-+Primary+Colors.png")
+SUB_IMAGE = asset("crate.png")
 
 
 def subscribe_block(domain):
@@ -1582,8 +1585,8 @@ def build(data_file, out_dir, domain):
         served = sorted(p.name for p in (out / "assets").iterdir() if p.is_file())
         print("self-hosted assets:", ", ".join(served) if served else "(none)")
     else:
-        print("self-hosted assets: none - logo and crate still load from "
-              "raw.githubusercontent.com and the Squarespace CDN")
+        print("self-hosted assets: NONE - assets/ is missing entirely; "
+              "every page will link broken images", file=sys.stderr)
 
     total = sum(1 + sum(len(v) for v in i["categories"].values()) for i, _ in pairs)
     files = sum(1 for _ in out.rglob("*") if _.is_file())
