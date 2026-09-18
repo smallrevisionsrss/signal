@@ -1,5 +1,181 @@
 [
   {
+    "dateLabel": "September 18, 2026",
+    "hero": {
+      "headline": "He Built the Orchestra, Then Walked Out of It",
+      "dek": "Robert Ames co-founded the London Contemporary Orchestra and spent eighteen years conducting it. He has now left, and in this conversation he explains what the classical training pipeline costs before anyone earns anything from it, why the players who can afford to stay are increasingly the ones who never needed the work, and what he thinks an orchestra is actually for once you stop assuming it should exist.",
+      "byline": "By Jeffrey Arlo Brown · VAN Magazine",
+      "category": "sound-vinyl",
+      "image": "https://van-magazine.com/wp-content/uploads/2026/09/robert-ames.jpg",
+      "caption": "London, September 2026",
+      "url": "https://van-magazine.com/mag/robert-ames/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "An Architect Rearranged Her Own Compact Paris Apartment",
+          "source": "Remodelista",
+          "date": "Sep 18",
+          "url": "https://www.remodelista.com/posts/saba-ghorbanlinejad-paris-apartment-renovation/"
+        },
+        {
+          "headline": "A Los Angeles Studio on Designing Houses Around Geometry and Tight Budgets",
+          "source": "Archinect",
+          "date": "Sep 15",
+          "url": "https://archinect.com/features/article/150558653/we-love-thinking-about-houses-and-housing-in-la-a-conversation-with-now-here"
+        },
+        {
+          "headline": "The Apple Veteran Rebuilding the Screens Inside GM's Trucks",
+          "source": "Fast Company",
+          "date": "Sep 15",
+          "url": "https://www.fastcompany.com/91607221/an-apple-alum-revamped-gms-truck-interface-for-the-screen-fatigue-era",
+          "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-91607221-GM-new-car-interface.jpg"
+        },
+        {
+          "headline": "He Made a Print Only Games Newspaper and Got It Onto a New York Newsstand",
+          "source": "Design Observer",
+          "date": "Sep 14",
+          "url": "https://designobserver.com/ira-blossom-created-a-games-only-print-only-newspaper-and-its-sold-at-a-newsstand-in-new-york-city/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Karoline Vitto on Curve Models, Weight Loss Drugs and Who Is Actually Buying",
+          "source": "Hypebae",
+          "date": "Sep 16",
+          "url": "https://hypebae.com/2026/9/the-body-issue-karoline-vitto-curve-models-consumer-demand-interview",
+          "image": "https://bae.hypebeast.com/files/2026/09/16/Single-Image-9.jpg"
+        },
+        {
+          "headline": "Inside New Language, the Whitechapel Tattoo Collective",
+          "source": "Dazed",
+          "date": "Sep 18",
+          "url": "https://www.dazeddigital.com/beauty/article/70977/1/whitechapel-new-language-east-london-new-school-tattoo-collective"
+        },
+        {
+          "headline": "A Group Show About Place, Walked Room by Room in Athens",
+          "source": "Canvas",
+          "date": "Sep 16",
+          "url": "https://canvasonline.com/a-question-of-place-group-show-at-the-national-museum-of-contemporary-art-athens-em%cf%83t/"
+        },
+        {
+          "headline": "Embroidering Other People's Signatures, and What They Come to Mean",
+          "source": "Garland Magazine",
+          "date": "Sep 1",
+          "url": "https://garlandmag.com/article/threads-that-remember/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "David Kalmusky on Running a Music Row Studio and Training the Engineers Who Staff It",
+          "source": "Mix",
+          "date": "Sep 17",
+          "url": "https://www.mixonline.com/recording/facilities/david-kalmusky-addicted-to-music-making-part-4"
+        },
+        {
+          "headline": "Three Days at Voodoo Village, Where the Castle Grounds Set the Pace",
+          "source": "Crack Magazine",
+          "date": "Sep 18",
+          "url": "https://crackmagazine.net/article/long-reads/voodoo-village-2026-festival-review/",
+          "image": "https://crackmagazine.net/wp-content/uploads/2026/09/Voodoovillage2026-8-CRACK-MAGAZINE-Desktop-Parallax-3.jpg"
+        },
+        {
+          "headline": "Inside the Montreal Room Where Shakira's Dai Dai Was Produced",
+          "source": "Sound On Sound",
+          "date": "Oct 2026",
+          "url": "https://www.soundonsound.com/techniques/inside-track-shakira-dai-dai"
+        },
+        {
+          "headline": "Bun B's 1996 Verse on Murder, and What It Set For Southern Rap",
+          "source": "Hearing Things",
+          "date": "Sep 14",
+          "url": "https://www.hearingthings.co/the-most-consequential-southern-rap-verse-ever-recorded/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Inside the Cinema Museum, and the Fight to Buy the Workhouse It Lives In",
+          "source": "Spitalfields Life",
+          "date": "Sep 17",
+          "url": "https://spitalfieldslife.com/2026/09/17/at-the-cinema-museum/"
+        },
+        {
+          "headline": "A Brazilian Photographer's Bag, From His Grandmother's Gift to a Zeiss Ikon",
+          "source": "Japan Camera Hunter",
+          "date": "Sep 8",
+          "url": "https://www.japancamerahunter.com/2026/09/in-your-bag-1787-patric-alfred-haroldo-buehler/",
+          "image": "https://www.japancamerahunter.com/wp-content/uploads/2026/09/image01.jpg"
+        },
+        {
+          "headline": "Nothing Comes Out Before Nine at a New Hampshire Tailgate Antiques Market",
+          "source": "Antiques and The Arts Weekly",
+          "date": "Sep 15",
+          "url": "https://antiquesandthearts.com/tailgating-for-treasures-at-flying-pig-antiques/"
+        },
+        {
+          "headline": "Johnny Marr on the Guitars He Loved and Is About to Lose at Auction",
+          "source": "Guitar World",
+          "date": "Sep 8",
+          "url": "https://www.guitarworld.com/artists/guitarists/johnny-marr-auction-interview-2026"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The First Virtual World Ran on a Commodore 64",
+          "source": "Works in Progress",
+          "date": "Sep 8",
+          "url": "https://worksinprogress.co/issue/virtual-worlds/"
+        },
+        {
+          "headline": "Two Hundred Hours of Work Went Into a Single Egyptian Wig",
+          "source": "British Museum",
+          "date": "Aug 28",
+          "url": "https://www.britishmuseum.org/blog/wigs-and-hairstyles-ancient-egypt"
+        },
+        {
+          "headline": "An 1878 Memoir Quietly Rewrote the Life of Laura Bridgman",
+          "source": "Circulating Now",
+          "date": "Sep 3",
+          "url": "https://circulatingnow.nlm.nih.gov/2026/09/03/the-life-and-education-of-laura-dewey-bridgman-the-deaf-dumb-and-blind-girl-1878/"
+        },
+        {
+          "headline": "One Activist's Papers Rebuild a Forgotten Solidarity Network for Oman",
+          "source": "History Workshop",
+          "date": "Sep 15",
+          "url": "https://www.historyworkshop.org.uk/activism-solidarity/an-archive-of-solidarity/",
+          "image": "https://www.historyworkshop.org.uk/wp-content/uploads/2026/09/Fig-1-rotated-e1789232782969.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "A Toronto Premiere That Only Finds Its Look in the Final Reel",
+          "source": "Cineuropa",
+          "date": "Sep 17",
+          "url": "https://cineuropa.org/en/newsdetail/495535",
+          "image": "https://cineuropa.org/imgCache/2026/09/17/1789646523895_1780x1000_0x0x0x0_1789646531890.jpg"
+        },
+        {
+          "headline": "John Smith on Fifty Years of Making Pictures Argue With Words",
+          "source": "Sabzian",
+          "date": "Sep 16",
+          "url": "https://www.sabzian.be/text/this-thing-called-language"
+        },
+        {
+          "headline": "A Music Video Remakes The Breakfast Club and Quietly Drops Its Only Poor Kid",
+          "source": "Bright Lights Film Journal",
+          "date": "Sep 17",
+          "url": "https://brightlightsfilm.com/the-jock-the-nerd-the-dork-and-the-popular-kid-shuras-whats-it-gonna-be-john-hughes-and-queer-nostalgia/"
+        },
+        {
+          "headline": "A 1917 Fire Safety Film Surfaced in a Maryland Library and Was Brought Back",
+          "source": "UL Research Institutes",
+          "date": "Aug 25",
+          "url": "https://ul.org/news/how-a-silent-film-helped-make-industrial-america-and-the-film-industry-safer/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 17, 2026",
     "hero": {
       "headline": "The Dog Veronese Was Ordered to Paint Out, and Refused",
