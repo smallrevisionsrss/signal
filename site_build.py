@@ -525,7 +525,6 @@ def nav_html(domain):
 <nav class="mainnav-links" id="mainnav-links" aria-label="Main">
 <a class="mainnav-toplink" href="{SHOP_URL}/all" data-group="shop">Shop</a>
 <button type="button" class="mainnav-toplink" data-group="scroll" aria-expanded="false">Signal</button>
-<a class="mainnav-toplink" href="{STUDIO_URL}" data-group="studio" rel="noopener">Studio</a>
 <div class="mainnav-rollout" id="scroll-rollout" role="tablist" aria-label="Filter stories by section">
 <div class="mainnav-rollout-inner">{tabs}</div>
 </div>
