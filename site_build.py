@@ -1020,7 +1020,7 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
     # in — that block only renders on issue and listing pages, which left
     # archive, about, subscribe and 404 without it. Here it is on all 60.
     colophon = ('<p class="signal-colophon">Signal is compiled each morning by '
-                '<a href="{STUDIO_URL}" rel="noopener">McSwain</a>, '
+                f'<a href="{STUDIO_URL}" rel="noopener">McSwain</a>, '
                 'a design studio in New York.</p>')
     foot = footer_html(domain) + IMG_FALLBACK_JS + nav_js() + FOOTER_JS + "</body></html>"
 
