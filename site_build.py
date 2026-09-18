@@ -131,6 +131,15 @@ img{display:block; max-width:100%}
 [hidden]{display:none !important}
 :focus-visible{outline:2px solid var(--signal); outline-offset:3px}
 .container{max-width:1440px; margin:0 auto; padding:0 24px}
+/* Gutters. box-sizing is border-box, so this padding sits INSIDE the 1440
+   cap rather than outside it. On any display wider than 1440 the cap leaves
+   its own generous margin and the padding is irrelevant; at exactly 1440 the
+   cap binds, the margin is zero, and the 24px padding is the entire gutter.
+   That is the MacBook Pro case and it read as cramped: 24px on a laptop
+   against 264px on a 1920 monitor. Doubled from 1024px up, which is the
+   range where the cap can bind; phones and tablets keep their own smaller
+   values below. Costs 48px of content width at the widest, ~16px per column. */
+@media (min-width:1024px){ .container{padding:0 48px} }
 
 /* hero ----------------------------------------------------------- */
 .signal-hero{border-top:1px solid var(--rule); padding-top:28px; padding-bottom:24px}
