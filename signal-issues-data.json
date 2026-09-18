@@ -151,8 +151,7 @@
           "headline": "A Toronto Premiere That Only Finds Its Look in the Final Reel",
           "source": "Cineuropa",
           "date": "Sep 17",
-          "url": "https://cineuropa.org/en/newsdetail/495535",
-          "image": "https://cineuropa.org/imgCache/2026/09/17/1789646523895_1780x1000_0x0x0x0_1789646531890.jpg"
+          "url": "https://cineuropa.org/en/newsdetail/495535"
         },
         {
           "headline": "John Smith on Fifty Years of Making Pictures Argue With Words",
@@ -161,16 +160,17 @@
           "url": "https://www.sabzian.be/text/this-thing-called-language"
         },
         {
+          "headline": "A 1917 Fire Safety Film Surfaced in a Maryland Library and Was Brought Back",
+          "source": "UL Research Institutes",
+          "date": "Aug 25",
+          "url": "https://ul.org/news/how-a-silent-film-helped-make-industrial-america-and-the-film-industry-safer/",
+          "image": "https://ul.org/wp-content/uploads/2026/08/Film-at-UofM-1440x810.png"
+        },
+        {
           "headline": "A Music Video Remakes The Breakfast Club and Quietly Drops Its Only Poor Kid",
           "source": "Bright Lights Film Journal",
           "date": "Sep 17",
           "url": "https://brightlightsfilm.com/the-jock-the-nerd-the-dork-and-the-popular-kid-shuras-whats-it-gonna-be-john-hughes-and-queer-nostalgia/"
-        },
-        {
-          "headline": "A 1917 Fire Safety Film Surfaced in a Maryland Library and Was Brought Back",
-          "source": "UL Research Institutes",
-          "date": "Aug 25",
-          "url": "https://ul.org/news/how-a-silent-film-helped-make-industrial-america-and-the-film-industry-safer/"
         }
       ]
     }
