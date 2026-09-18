@@ -1016,10 +1016,16 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
 
     mast = nav_html(domain)
 
+    # Colophon belongs to the page, not to the subscribe block it started
+    # in — that block only renders on issue and listing pages, which left
+    # archive, about, subscribe and 404 without it. Here it is on all 60.
+    colophon = ('<p class="signal-colophon">Signal is compiled each morning by '
+                '<a href="{STUDIO_URL}" rel="noopener">McSwain</a>, '
+                'a design studio in New York.</p>')
     foot = footer_html(domain) + IMG_FALLBACK_JS + nav_js() + FOOTER_JS + "</body></html>"
 
     return ("\n".join(head) + mast
-            + '<main class="container">' + body + "</main>" + foot)
+            + '<main class="container">' + body + colophon + "</main>" + foot)
 
 # ---------------------------------------------------------------- blocks
 # Markup mirrors the Signal content block's own structure and class
@@ -1107,8 +1113,7 @@ def subscribe_block(domain):
 <a class="signal-pagination-link" href="/subscribe/">Subscribe by RSS</a>
 </div>
 <figure class="signal-sub-media"><img src="{SUB_IMAGE}" alt="Small Revisions crate in primary colors" width="1000" height="671" loading="lazy"></figure>
-</div>
-<p class="signal-colophon">Signal is compiled each morning by <a href="{STUDIO_URL}" rel="noopener">McSwain</a>, a design studio in New York.</p>"""
+</div>"""
 
 def issue_jsonld(issue, dt, url, domain):
     arts = list(issue_articles(issue))
