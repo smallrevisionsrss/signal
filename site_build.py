@@ -321,8 +321,26 @@ img{display:block; max-width:100%}
 
 # ---------------------------------------------------------------- shell
 
-LOGO = ("https://raw.githubusercontent.com/smallrevisionsrss/srrss/"
-        "refs/heads/main/Small%20Revisions%20-%20Dymo%20Label%20-%20Knockout%20-%20Black.svg")
+# Assets the site owns. Anything dropped into assets/ beside this script is
+# copied to _site/assets/ and served from our own domain.
+#
+# Why this is a preference rather than a switch: the logo used to load from
+# raw.githubusercontent.com/smallrevisionsrss/srrss, a repo being retired, and
+# the crate from the shop's Squarespace CDN. Neither is covered by the build's
+# sanity checks, so losing either would blank an image on all 60 pages without
+# failing anything. asset() prefers a committed local file and falls back to the
+# old remote URL when it is absent, so there is no flag day: drop the file in and
+# the next build switches over on its own.
+ASSET_DIR = Path(__file__).resolve().parent / "assets"
+
+
+def asset(name, fallback):
+    return f"/assets/{name}" if (ASSET_DIR / name).is_file() else fallback
+
+
+LOGO = asset("logo.svg",
+             "https://raw.githubusercontent.com/smallrevisionsrss/srrss/"
+             "refs/heads/main/Small%20Revisions%20-%20Dymo%20Label%20-%20Knockout%20-%20Black.svg")
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
@@ -502,7 +520,7 @@ def nav_html(domain):
 <button type="button" class="mainnav-announce-close" id="mainnav-announce-close" aria-label="Dismiss announcement">&times;</button>
 </div></div></div>
 <div class="mainnav-row"><div class="container"><div class="mainnav-inner">
-<a class="mainnav-logo" href="{SHOP_URL}"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
+<a class="mainnav-logo" href="{SHOP_URL}"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="154" height="63"></a>
 <div class="mainnav-bottom-row">
 <nav class="mainnav-links" id="mainnav-links" aria-label="Main">
 <a class="mainnav-toplink" href="{SHOP_URL}/all" data-group="shop">Shop</a>
@@ -897,7 +915,7 @@ def footer_html(domain):
     return f"""<footer class="signal-footer">
 <div class="container">
 <div class="signal-footer-row">
-<a class="signal-footer-logo" href="{SHOP_URL}"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="220" height="63"></a>
+<a class="signal-footer-logo" href="{SHOP_URL}"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="154" height="63"></a>
 <nav class="signal-footer-links" aria-label="Footer">
 <a href="{SHOP_URL}/all" class="signal-footer-jump">Shop</a>
 <a href="{STUDIO_URL}" class="signal-footer-jump" rel="noopener">Studio</a>
@@ -1068,8 +1086,9 @@ def sections_block(issue):
             + "".join(heads) + "".join(cols) + "</div></section>")
 
 
-SUB_IMAGE = ("https://images.squarespace-cdn.com/content/64be819738a72b038cb035d4/"
-             "ebfc1be6-2cf0-4c7a-b166-5a8889130af7/Crate+-+Primary+Colors.png")
+SUB_IMAGE = asset("crate.png",
+                  "https://images.squarespace-cdn.com/content/64be819738a72b038cb035d4/"
+                  "ebfc1be6-2cf0-4c7a-b166-5a8889130af7/Crate+-+Primary+Colors.png")
 
 
 def subscribe_block(domain):
@@ -1079,7 +1098,7 @@ def subscribe_block(domain):
 <p>Findings across Design, Arts &amp; Culture, Sound, Collecting, Document &amp; Film, gathered each morning. Picked up wherever they were left.</p>
 <a class="signal-pagination-link" href="/subscribe/">Subscribe by RSS</a>
 </div>
-<figure class="signal-sub-media"><img src="{SUB_IMAGE}" alt="Small Revisions crate in primary colors" width="2500" height="1678" loading="lazy"></figure>
+<figure class="signal-sub-media"><img src="{SUB_IMAGE}" alt="Small Revisions crate in primary colors" width="1000" height="671" loading="lazy"></figure>
 </div>"""
 
 def issue_jsonld(issue, dt, url, domain):
@@ -1540,6 +1559,17 @@ def build(data_file, out_dir, domain):
 
     (out / "CNAME").write_text(domain + "\n", encoding="utf-8")
     (out / ".nojekyll").write_text("", encoding="utf-8")
+
+    # Ship whatever the repo owns. Dotfiles are skipped so .gitkeep can hold
+    # the folder in git without being published.
+    if ASSET_DIR.is_dir():
+        shutil.copytree(ASSET_DIR, out / "assets", dirs_exist_ok=True,
+                        ignore=shutil.ignore_patterns(".*"))
+        served = sorted(p.name for p in (out / "assets").iterdir() if p.is_file())
+        print("self-hosted assets:", ", ".join(served) if served else "(none)")
+    else:
+        print("self-hosted assets: none - logo and crate still load from "
+              "raw.githubusercontent.com and the Squarespace CDN")
 
     total = sum(1 + sum(len(v) for v in i["categories"].values()) for i, _ in pairs)
     files = sum(1 for _ in out.rglob("*") if _.is_file())
