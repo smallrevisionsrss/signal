@@ -43,6 +43,46 @@ GSC_VERIFY = "kFPZfxmZVRVFninZCFa9nUyYcgQ3X1Xb5mG99A4zh3E"
 # after each deploy. Self-generated keys are valid per the spec; this
 # one is 32 hex characters.
 INDEXNOW_KEY = "182a146f131abb081b50fb231b669a70"
+
+# ---------------------------------------------------------------- analytics
+# Signal ran with NO analytics of any kind until 19 Sep 2026. Squarespace's
+# dashboard covers smallrevisions.com only and cannot see this subdomain at all,
+# so the whole findability effort - the server-rendered pages, the sitemap, the
+# IndexNow pings, the category surface - was unmeasurable. That is the gap this
+# closes. Optimising anything before this was guesswork.
+#
+# Off until a token is set: an empty ANALYTICS_ID emits nothing at all, so the
+# build keeps working unchanged and switches on by itself once the value lands.
+# Same no-flag-day shape as asset().
+#
+# Both providers are COOKIELESS, so no consent banner is needed and nothing
+# about the reading experience changes.
+#
+#   "cloudflare"  ANALYTICS_ID = the beacon token from
+#                 Cloudflare dashboard > Web Analytics > Add a site. Free.
+#   "plausible"   ANALYTICS_ID = the bare domain, signal.smallrevisions.com
+#
+# THE ID IS NOT A SECRET. It is a public site identifier that ships inside the
+# page source and is readable by every visitor. Committing it to this public
+# repo is expected and carries no risk; do not treat it like an API key.
+ANALYTICS_PROVIDER = "cloudflare"
+ANALYTICS_ID = "0286586b1b3242d19acb5933f9cd79c1"
+
+
+def analytics_tag():
+    if not ANALYTICS_ID:
+        return ""
+    if ANALYTICS_PROVIDER == "cloudflare":
+        # type="module" is what Cloudflare itself issues; module scripts defer by
+        # default, so this does not block rendering. Kept identical to their
+        # snippet rather than paraphrased, so it cannot drift from what they test.
+        return ('<script type="module" '
+                'src="https://static.cloudflareinsights.com/beacon.min.js" '
+                f'data-cf-beacon=\'{{"token": "{ANALYTICS_ID}"}}\'></script>')
+    if ANALYTICS_PROVIDER == "plausible":
+        return (f'<script defer data-domain="{ANALYTICS_ID}" '
+                'src="https://plausible.io/js/script.js"></script>')
+    raise SystemExit(f"unknown ANALYTICS_PROVIDER: {ANALYTICS_PROVIDER!r}")
 TAGLINE   = "A daily edit of writing on design, art, sound, collecting, history and film."
 DESCRIPTION = (
     "Signal is a daily digest from Small Revisions. Each issue gathers "
@@ -1045,7 +1085,8 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
     colophon = ('<p class="signal-colophon">Signal is compiled each morning by '
                 f'<a href="{STUDIO_URL}" rel="noopener">McSwain</a>, '
                 'a design studio in New York.</p>')
-    foot = footer_html(domain) + IMG_FALLBACK_JS + nav_js() + FOOTER_JS + "</body></html>"
+    foot = (footer_html(domain) + IMG_FALLBACK_JS + nav_js() + FOOTER_JS
+            + analytics_tag() + "</body></html>")
 
     return ("\n".join(head) + mast
             + '<main class="container">' + body + colophon + "</main>" + foot)
