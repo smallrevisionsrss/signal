@@ -990,7 +990,12 @@ def footer_html(domain):
 <nav class="signal-footer-links" aria-label="Footer">
 <a href="{SHOP_URL}/all" class="signal-footer-jump">Shop</a>
 <a href="#" class="signal-footer-jump" data-jump="scroll">Signal</a>
-<a href="{STUDIO_URL}" class="signal-footer-jump" rel="noopener">Studio</a>
+<!-- No .signal-footer-jump class. That class is what the CSS below uses to
+     mean "top-level, stays black"; it belongs to Shop and Signal only.
+     Studio is a quiet link and takes the faint treatment like Archive,
+     About, Contact and Terms. Dropping the class is safe: the only script
+     that reads it is scoped to [data-jump="scroll"], which is Signal. -->
+<a href="{STUDIO_URL}" rel="noopener">Studio</a>
 <a href="/archive/">Archive</a>
 <a href="/about/">About</a>
 <a href="{SHOP_URL}/contact">Contact</a>
