@@ -160,6 +160,12 @@ img{display:block; max-width:100%}
 
 .signal-hero-grid{display:grid; grid-template-columns:repeat(3,1fr); column-gap:0; align-items:center}
 .signal-hero-text{grid-column:1; padding-right:40px; display:flex; flex-direction:column; gap:20px}
+/* Hero with no usable image. The media figure is hidden by the fallback script,
+   which would otherwise leave the text stranded in the first of three columns
+   with two thirds of the row empty. Let it run the full width instead. */
+.signal-hero.noimg .signal-hero-grid{grid-template-columns:1fr}
+.signal-hero.noimg .signal-hero-text{grid-column:1; padding-right:0}
+.signal-hero.noimg .signal-hero-dek{max-width:72ch}
 .signal-hero-headline{
   font-family:var(--serif); font-weight:400;
   font-size:clamp(1.5rem,.64rem + 2.25vw,2.625rem);
@@ -845,7 +851,10 @@ IMG_FALLBACK_JS = """
 function signalDropImage(i){
   var f = i.closest('figure') || i;
   f.style.display = 'none';
-  var hero = i.closest('.hero');
+  // .signal-hero, not .hero. This selector was wrong from the start, so the
+  // hero never reflowed when its image failed; it just left a hole where the
+  // picture should be. Same stale-class bug as the old showIssue().
+  var hero = i.closest('.signal-hero');
   if (hero) { hero.classList.add('noimg'); }
 }
 document.querySelectorAll('img').forEach(function(i){
