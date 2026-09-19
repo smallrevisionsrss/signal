@@ -1,5 +1,180 @@
 [
   {
+    "dateLabel": "September 19, 2026",
+    "hero": {
+      "headline": "The Pictures Cheyco Leidmann Insists Are Not Photographs",
+      "dek": "Leidmann has spent forty years making images so saturated they look like they were built rather than taken, and he has always refused the word photograph for them. Jonas Cuenin traces the work from the Foxy Lady pictures of the early eighties through to the later Silicon series, and pins down the method behind the colour: it was done in the camera, on slide film, with no correction afterwards.",
+      "byline": "By Jonas Cuenin · Blind Magazine",
+      "category": "photo-film",
+      "image": "https://www.blind-magazine.com/wp-content/uploads/2026/09/leidmann-cheyco-foxy-lady-downtown-la-g-vign-1-1024x683.jpg",
+      "url": "https://www.blind-magazine.com/en/stories/cheyco-leidmann-the-red-that-bleeds-the-gold-that-burns/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Designing a Children's Game Out of the Geometry of a Beehive",
+          "source": "Core77",
+          "date": "Sep 17",
+          "url": "https://www.core77.com/posts/145386/From-Hexagon-to-Hive-Designing-Play-Through-the-Geometry-of-Bees"
+        },
+        {
+          "headline": "A Passivhaus Retrofit That Announces Itself in Stepped Brick",
+          "source": "RIBA Journal",
+          "date": "Sep 16",
+          "url": "https://www.ribaj.com/buildings/corbel-house-extension-rock-architects-passivhaus/"
+        },
+        {
+          "headline": "Eight Designers Name the Magazine Covers That Shaped Them",
+          "source": "Eye",
+          "date": "Sep 16",
+          "url": "https://eyemagazine.com/blog/post/covers-that-count"
+        },
+        {
+          "headline": "Chandigarh at Seventy Three, and the City That Outgrew Its Plan",
+          "source": "Common Edge",
+          "date": "Sep 16",
+          "url": "https://commonedge.org/chandigarh-at-73-how-a-city-outgrew-its-utopia/",
+          "image": "https://commonedge.org/wp-content/uploads/2026/09/Palace_of_Assembly_Chandigarh_2006-1000x430.jpg"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Taryn Simon's Guggenheim Show Leaves the Question of Blame Open",
+          "source": "Hyperallergic",
+          "date": "Sep 18",
+          "url": "https://hyperallergic.com/no-one-is-accountable-in-taryn-simons-detective-story/"
+        },
+        {
+          "headline": "What Monsieur Klein Understands About Art Dealing Under Occupation",
+          "source": "Apollo",
+          "date": "Sep 18",
+          "url": "https://apollo-magazine.com/monsieur-klein-film-joseph-losey-alain-delon-art-occupied-france/",
+          "image": "https://apollo-magazine.com/wp-content/uploads/2026/09/lead-Mr-Klein-Screen-Grab-Restored-version-4K-3591x2160-005CAP-RESTORATION-4K-jpg.jpg"
+        },
+        {
+          "headline": "Lindsay Walt Paints Without a Method or a Teacher",
+          "source": "Two Coats of Paint",
+          "date": "Sep 17",
+          "url": "https://twocoatsofpaint.com/2026/09/lindsay-walt-no-guru-no-method-no-teacher.html"
+        },
+        {
+          "headline": "Marie Schubert Casts Wigs in Bronze and Guts a Sports Car",
+          "source": "Frieze",
+          "date": "Sep 18",
+          "url": "https://www.frieze.com/article/marie-schubert-exuvie-2026-review"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "North Macedonia's Leftfield Scene Runs Without Clubs, Labels or Funding",
+          "source": "The Quietus",
+          "date": "Sep 18",
+          "url": "https://thequietus.com/quietus-reviews/quietus-international/north-macedonia-experimental-music-review-stotrojka-mrtov-konj/"
+        },
+        {
+          "headline": "She Recorded the Album Inside a Turkish Cave Church",
+          "source": "Bandcamp Daily",
+          "date": "Sep 18",
+          "url": "https://daily.bandcamp.com/features/laurentius-the-profit-interview"
+        },
+        {
+          "headline": "A Night of Improvisation at Roulette, Heard Up Close",
+          "source": "I CARE IF YOU LISTEN",
+          "date": "Sep 18",
+          "url": "https://icareifyoulisten.com/2026/09/review-raven-chacon-tashi-dorji-alex-zhang-hungtai-leo-chang-at-roulette/",
+          "image": "https://icareifyoulisten.com/wp-content/uploads/sites/3/2026/09/leo-chang-at-roulette-2026-courtesy-of-venue-1440px.jpg"
+        },
+        {
+          "headline": "Fifty Years Behind the 606 Club, Told by the Man Who Runs It",
+          "source": "UK Jazz News",
+          "date": "Sep 19",
+          "url": "https://ukjazznews.com/steve-rubie-celebrates-50-years-running-the-606/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Bose Prototype Lexus, Found in Pieces Behind a Repair Shop",
+          "source": "The Autopian",
+          "date": "Sep 18",
+          "url": "https://www.theautopian.com/how-i-found-a-multi-million-dollar-prototype-lexus-torn-apart-in-a-random-parking-lot/",
+          "image": "https://images-stag.jazelc.com/uploads/theautopian-m2en/Bose-lexus-first-sighting-TS3.png"
+        },
+        {
+          "headline": "The 1922 High Relief Peace Dollar and the Experiment That Changed the Series",
+          "source": "CoinWeek",
+          "date": "Sep 17",
+          "url": "https://coinweek.com/1922-high-relief-peace-dollar-the-mint-experiment-that-changed-the-series/"
+        },
+        {
+          "headline": "What Actually Happened With the Air Bakin Recall in 1997",
+          "source": "Sneaker History",
+          "date": "Sep 5",
+          "url": "https://sneakerhistory.com/nike-air-bakin-1997-logo-controversy/"
+        },
+        {
+          "headline": "The Souvenir Neckties From the Stamp Show That Took Over New York",
+          "source": "National Postal Museum",
+          "date": "Sep 14",
+          "url": "https://postalmuseum.si.edu/the-1947-centenary-international-philatelic-exhibition-that-took-over-new-york-city-and-its-souvenir"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Mapping Six Thousand Indonesian Texts Without Flattening Any of Them",
+          "source": "The Digital Orientalist",
+          "date": "Sep 18",
+          "url": "https://digitalorientalist.com/2026/09/18/texts-in-their-right-places-a-situated-reading-of-a-situated-literature/"
+        },
+        {
+          "headline": "One 1783 Letter to Abigail, and What It Shows About the Peace Treaty",
+          "source": "The Beehive",
+          "date": "Sep 18",
+          "url": "https://www.masshist.org/beehiveblog/2026/09/privacy-was-their-ambition-john-adams-and-the-anglo-american-peace-treaty-of-1783/"
+        },
+        {
+          "headline": "Cree Knowledge Inside an English Chart of Hudson Bay, 1685",
+          "source": "British Library",
+          "date": "Sep 14",
+          "url": "https://www.bl.uk/stories/blogs/posts/charting-indigenous-lands-and-waterways",
+          "image": "https://www.bl.uk/images/v5dwkion/production/ab5433dd54acb520e8ba4630157c7674577c350d-640x448.jpg"
+        },
+        {
+          "headline": "Engelbert Kaempfer's Japan, Read From the Library's Own New Copy",
+          "source": "Linda Hall Library",
+          "date": "Sep 16",
+          "url": "https://www.lindahall.org/about/news/scientist-of-the-day/engelbert-kaempfer/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "John Wilson on Turning a Documentary About Concrete Into a Feature",
+          "source": "Reverse Shot",
+          "date": "Sep 18",
+          "url": "https://reverseshot.org/interviews/entry/3490/john_wilson"
+        },
+        {
+          "headline": "Building and Lighting Thirty Thousand Square Feet of Yellow Nowhere",
+          "source": "American Cinematographer",
+          "date": "Sep 17",
+          "url": "https://theasc.com/article/backrooms-cinematography-cox/",
+          "image": "https://theasc.com/wp-content/uploads/2026/09/https___cdn.sanity.io_images_xq1bjtf4_production_e245923817e6c5241c330a7af2bc71a910020417-1547x1031-1.jpg"
+        },
+        {
+          "headline": "The Overlooked Films of Haydee Caillot",
+          "source": "Screen Slate",
+          "date": "Sep 16",
+          "url": "https://www.screenslate.com/articles/films-haydee-caillot"
+        },
+        {
+          "headline": "John Smith on Language, Sound, and What a Shot Can Be Made to Mean",
+          "source": "Sabzian",
+          "date": "Sep 16",
+          "url": "https://sabzian.be/text/this-thing-called-language"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 18, 2026",
     "hero": {
       "headline": "He Built the Orchestra, Then Walked Out of It",
