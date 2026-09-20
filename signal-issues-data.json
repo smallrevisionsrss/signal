@@ -1,5 +1,180 @@
 [
   {
+    "dateLabel": "September 20, 2026",
+    "hero": {
+      "headline": "Every Preference Survey Since 1990 Favours Traditional Architecture",
+      "dek": "Robert Kwolek assembles the visual preference survey literature, from the method's 1979 origin in Metuchen, New Jersey, through to studies run since 2020 that use AI image editing to hold everything but style constant. Across that body of work traditional buildings are preferred by margins of 60 to 90 per cent, and the margin holds across age, gender, politics, class and nationality. His closing problem is the gap between that consistency and a profession whose schools teach modernism and whose commissions go contemporary.",
+      "byline": "By Robert Kwolek · Works in Progress",
+      "category": "design-arch",
+      "image": "https://assets.worksinprogress.co/wp-content/uploads/2026/09/The_Eye_Of_The_Beholder_Feature_Image_03-1-scaled.jpg",
+      "url": "https://worksinprogress.co/issue/do-people-prefer-traditional-architecture/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Bury St Edmunds, Photographed in 1952 and Again in 2026",
+          "source": "A London Inheritance",
+          "date": "Sep 20",
+          "url": "https://alondoninheritance.com/cycling-around-britain/bury-st-edmunds-1952-and-2026/"
+        },
+        {
+          "headline": "3XN on Prying Public Waterfront Out of Private Development",
+          "source": "Metropolis",
+          "date": "Sep 16",
+          "url": "https://metropolismag.com/profiles/3xn-designs-at-the-public-edge/",
+          "image": "https://metropolismag.com/wp-content/uploads/2026/09/3XN_Aqualuna_07-2400x1350-1.jpg"
+        },
+        {
+          "headline": "A Textile Designer's Islington Warehouse, Furnished From Barbican Habits",
+          "source": "The Modern House",
+          "date": "Sep 16",
+          "url": "https://themodernhouse.com/journal/open-house-purley-place"
+        },
+        {
+          "headline": "Twenty 1797 Etchings of Cottages London Later Swallowed",
+          "source": "Spitalfields Life",
+          "date": "Sep 20",
+          "url": "https://spitalfieldslife.com/2026/09/20/john-thomas-smiths-rural-cottages-iiii/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Mildred Howard on Fifty Years of Layering History Into Objects",
+          "source": "BOMB",
+          "date": "Sep 14",
+          "url": "https://bombmagazine.org/articles/2026/09/14/mildred-howard-by-max-blue/"
+        },
+        {
+          "headline": "A Fiber Show Assembled From Helene's Aftermath in Marshall",
+          "source": "Burnaway",
+          "date": "Sep 10",
+          "url": "https://burnaway.org/daily/holding-together-at-madison-county-arts-council-marshall/"
+        },
+        {
+          "headline": "Aneta Regel Works Rock and Stoneware Into Vessels That Hold Nothing",
+          "source": "Ceramics Now",
+          "date": "Sep 7",
+          "url": "https://www.ceramicsnow.org/articles/beneath-the-skin-aneta-regel-at-sarah-myerscough-gallery/"
+        },
+        {
+          "headline": "Bert Yarborough Paints Twenty Feet of Time for MacMillan Pier",
+          "source": "The Provincetown Independent",
+          "date": "Sep 16",
+          "url": "https://provincetownindependent.org/arts-minds/2026/09/16/bert-yarborough-goes-epic/",
+          "image": "https://cdn.provincetownindependent.org/2026/09/Storer-Bert-Yarborough-photo-3-calligraphic-mark.jpeg"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Adam Wiltzie Built an Album From Johannsson's Archived Tape Loops",
+          "source": "CDM",
+          "date": "Sep 18",
+          "url": "https://cdm.link/adam-wiltzie-johann-johannsson-friendship/",
+          "image": "https://cdm.link/app/uploads/2026/09/tape-work-COPY_7_ADAM-WILTZIE_FRIENDSHIP-SURVIVAL-GUIDE_MIXING.jpg"
+        },
+        {
+          "headline": "Finn Loxbo Recorded Eight Acoustic Pieces Live, Without Overdubs",
+          "source": "The Quietus",
+          "date": "Sep 17",
+          "url": "https://thequietus.com/quietus-reviews/album-of-the-week/tripping-the-light-fantastic-lummernikt-by-finn-loxbo-review/"
+        },
+        {
+          "headline": "Jakob Lehmann Conducts Rossini's Petite Messe at Alexandra Palace",
+          "source": "Bachtrack",
+          "date": "Sep 19",
+          "url": "https://bachtrack.com/review-rossini-petite-messe-solennelle-lehmann-monteverdi-choir-alexandra-palace-london-september-2026"
+        },
+        {
+          "headline": "The Jet Black Berries' 1985 Album, Resequenced and Improved",
+          "source": "theartsdesk.com",
+          "date": "Sep 20",
+          "url": "https://theartsdesk.com/new-music/music-reissues-weekly-jet-black-berries-sundown-venus"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Bird Banders, Photographed Beside Renaissance Angels Holding Birds",
+          "source": "Collector Daily",
+          "date": "Sep 18",
+          "url": "https://collectordaily.com/barbara-bosworth-birds-and-other-angels/"
+        },
+        {
+          "headline": "The Leitz Patents Behind the First Leica's Focal Plane Shutter",
+          "source": "Leica Society International",
+          "date": "Sep 3",
+          "url": "https://leicasocietyinternational.org/blog/leica-binoculars-3t7km"
+        },
+        {
+          "headline": "Michael Hickcox on Independents, Patek Philippe and IWC",
+          "source": "A Collected Man",
+          "evergreen": true,
+          "url": "https://www.acollectedman.com/blogs/journal/my-watch-with-michael-hickox",
+          "image": "https://www.acollectedman.com/cdn/shop/articles/MH-06_eaadbd9c-dcef-4b0e-a4f0-41153487ce81.jpg"
+        },
+        {
+          "headline": "Eight Thousand Five Hundred Cat Books, Kept in Ohio",
+          "source": "Rare Book Hub",
+          "date": "Sep 2026",
+          "url": "https://www.rarebookhub.com/articles/4125"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Trudeau Landed by Helicopter at the PEI Ark in 1976",
+          "source": "NiCHE",
+          "date": "Sep 18",
+          "url": "https://niche-canada.org/2026/09/18/pei-the-spirit-of-76-pt-3-opening-the-ark/",
+          "image": "https://niche-canada.org/wp-content/uploads/2026/09/Ark-1976-09-20-Todd-crowd.jpg"
+        },
+        {
+          "headline": "Emerson, Thoreau and Fuller Made Concord a Second Revolution",
+          "source": "Engelsberg Ideas",
+          "date": "Sep 18",
+          "url": "https://engelsbergideas.com/essays/concords-second-revolution/"
+        },
+        {
+          "headline": "Basque Sheepherders Carried the Picon Punch Into Nevada",
+          "source": "Smithsonian Folklife",
+          "date": "Sep 3",
+          "url": "https://folklife.si.edu/magazine/picon-punch-basque-americans"
+        },
+        {
+          "headline": "A Filmmaker Found a Grimoire While Reading Shakespeare's Prompt Books",
+          "source": "Folger Shakespeare Library",
+          "date": "Sep 8",
+          "url": "https://www.folger.edu/blogs/collation/how-to-conjure-demons/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Patricio Guzmán Gave Images to Chile's Silenced Stories",
+          "source": "POV Magazine",
+          "date": "Sep 18",
+          "url": "https://povmagazine.com/there-is-no-history-of-cinema-without-patricio-guzman/"
+        },
+        {
+          "headline": "Aardman Built a Halloween Shaun the Sheep Without Frightening Anyone",
+          "source": "Cartoon Brew",
+          "date": "Sep 17",
+          "url": "https://www.cartoonbrew.com/feature-film/shaun-the-sheep-filmmakers-interview-266679.html"
+        },
+        {
+          "headline": "John Wilson on Shooting His First Feature Alone",
+          "source": "Documentary Magazine",
+          "date": "Sep 18",
+          "url": "https://www.documentary.org/online-feature/solid-foundation-filmmaker-john-wilson-talks-about-shooting-solo-and-many-plot"
+        },
+        {
+          "headline": "Sophy Romvari on the Limits of Restaging Her Own Childhood",
+          "source": "Sight and Sound",
+          "date": "Sep 17",
+          "url": "https://www.bfi.org.uk/sight-and-sound/interviews/i-realised-any-attempt-replicate-going-be-failure-sophy-romvari-blue-heron",
+          "image": "https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2026-09/Nanaimo+-+Sophy+Romvari+%28Robb+McCaghren%29.jpg/1200x630-cropped/Nanaimo+-+Sophy+Romvari+%28Robb+McCaghren%29.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 19, 2026",
     "hero": {
       "headline": "What Monsieur Klein Understands About Art Dealing Under Occupation",
