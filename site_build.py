@@ -1069,7 +1069,7 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
         f'<link rel="alternate" type="application/rss+xml" title="{e(SITE_NAME)}" href="{base}/feed.xml">',
         FONTS,
         SPECULATION,
-        f'<style>{CSS}{NAV_CSS}{FOOTER_CSS}</style>',
+        f'<style>{CSS}{NAV_CSS}{FOOTER_CSS}{ARTICLE_CSS}</style>',
     ]
     if jsonld:
         head.append('<script type="application/ld+json">'
@@ -1539,7 +1539,7 @@ def render_feed(pairs, domain, limit=30):
 </rss>
 """
 
-def render_sitemap(pairs, domain):
+def render_sitemap(pairs, domain, arts=()):
     base = f"https://{domain}"
     total_pages = max(1, -(-len(pairs) // PER_PAGE))
     urls = [(f"{base}/", pairs[0][1], "daily", "1.0"),
@@ -1550,6 +1550,9 @@ def render_sitemap(pairs, domain):
     urls += [(f"{base}/page/{n}/", pairs[(n - 1) * PER_PAGE][1], "weekly", "0.6")
              for n in range(2, total_pages + 1)]
     urls += [(f"{base}/issues/{slug(dt)}/", dt, "yearly", "0.8") for _, dt in pairs]
+    if arts:
+        urls.append((f"{base}/writing/", arts[0]["_dt"], "weekly", "0.7"))
+        urls += [(f"{base}/writing/{a['slug']}/", a["_dt"], "monthly", "0.8") for a in arts]
     rows = "".join(
         f"<url><loc>{u}</loc><lastmod>{dt.strftime('%Y-%m-%d')}</lastmod>"
         f"<changefreq>{cf}</changefreq><priority>{pr}</priority></url>\n"
@@ -1580,6 +1583,264 @@ def render_404(domain):
 
 # ---------------------------------------------------------------- main
 
+# ------------------------------------------------------------- articles
+# Signal's own writing, kept in its own data file so the issue builder's
+# invariants are untouched. An article is just a URL to the rest of the
+# system, so dedup, source uniqueness and the rolling cap keep working
+# unchanged if one is ever cited in an issue. Whether a given piece has
+# earned that is an editorial question, not a build one: the flag
+# `issue_eligible` records the answer and nothing here overrides it.
+
+ARTICLES_FILE = Path(__file__).resolve().parent / "signal-articles.json"
+
+ARTICLE_CSS = """
+.signal-article{padding:0 0 72px}
+.signal-article-grid{display:grid;grid-template-columns:minmax(0,68ch) minmax(0,1fr);
+  gap:72px;align-items:start}
+@media (max-width:1023px){.signal-article-grid{grid-template-columns:1fr;gap:48px}}
+.signal-article-eyebrow{font-family:var(--sans);font-size:13px;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--cat);margin:48px 0 18px}
+.signal-article-hed{font-family:var(--serif);font-weight:400;
+  font-size:clamp(1.9rem,1.2rem + 2vw,2.625rem);line-height:1.12;letter-spacing:-.01em;
+  color:var(--ink);max-width:20ch;margin:0 0 20px}
+.signal-article-standfirst{font-family:var(--sans);font-size:1.15rem;line-height:1.55;
+  color:var(--ink-soft);max-width:46ch;margin:0 0 30px}
+.signal-article-byline{font-family:var(--sans);font-size:13px;letter-spacing:.04em;
+  color:var(--ink-faint);border-top:1px solid var(--rule);
+  border-bottom:1px solid var(--rule-soft);padding:12px 0;margin:0 0 40px}
+.signal-article-figure{margin:0 0 40px}
+.signal-article-figure img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.signal-article-body p{font-family:var(--sans);font-size:1.0625rem;line-height:1.66;
+  color:var(--ink);max-width:68ch;margin:0 0 1.3em}
+.signal-article-pull{font-family:var(--serif);font-size:1.55rem;line-height:1.26;
+  color:var(--ink);max-width:30ch;margin:2.2em 0;padding-top:20px;
+  border-top:2px solid var(--signal)}
+.signal-article-rail{position:sticky;top:28px}
+.signal-article-sources{margin:56px 0 0;padding-top:24px;border-top:1px solid var(--rule)}
+.signal-article-note{font-family:var(--sans);font-size:13px;line-height:1.6;
+  color:var(--ink-faint);max-width:68ch;margin:40px 0 0;padding-top:18px;
+  border-top:1px solid var(--rule-soft)}
+.signal-writing-list{margin:40px 0 0}
+.signal-fig{margin:0 0 40px}
+.signal-fig--full{grid-column:1 / -1}
+.signal-fig img{width:100%;display:block;background:var(--rule-soft)}
+.signal-fig--crop img{aspect-ratio:4/3;object-fit:cover}
+.signal-fig--wide img{aspect-ratio:16/9;object-fit:cover}
+.signal-figcap{font-family:var(--sans);font-size:12.5px;line-height:1.5;
+  color:var(--ink-faint);margin:10px 0 0;max-width:68ch}
+.signal-figcap b{font-weight:500;color:var(--ink-soft)}
+.signal-figcap a{color:var(--ink-faint);text-decoration:underline;
+  text-underline-offset:2px;text-decoration-thickness:.5px}
+.signal-figcap a:hover{color:var(--ink)}
+.signal-figcap .sep{color:var(--rule-soft);padding:0 .45em}
+.signal-plate{aspect-ratio:4/3;background:var(--cat);color:#f4f2ec;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:clamp(20px,4vw,44px);position:relative;overflow:hidden}
+.signal-plate::before{content:"";position:absolute;top:clamp(20px,4vw,44px);
+  left:clamp(20px,4vw,44px);width:34px;height:3px;background:var(--signal)}
+.signal-plate-line{font-family:var(--serif);font-weight:400;
+  font-size:clamp(1.35rem,.7rem + 2.1vw,2.5rem);line-height:1.1;
+  letter-spacing:-.01em;margin:0}
+.signal-plate-meta{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:clamp(10px,.5rem + .35vw,12px);letter-spacing:.13em;
+  text-transform:uppercase;color:#a9b2c4;margin:18px 0 0;line-height:1.9}
+"""
+
+
+def load_articles():
+    if not ARTICLES_FILE.is_file():
+        return []
+    arts = json.load(open(ARTICLES_FILE, encoding="utf-8"))
+    bad = []
+    for a in arts:
+        a["_dt"] = datetime.strptime(a["date"], "%Y-%m-%d").date()
+        s = a.get("slug", "?")
+
+        # Every article carries a hero. A piece with no opening image reads as
+        # a draft next to the rest of the site, so this fails the build rather
+        # than shipping one.
+        h = a.get("hero")
+        if not h:
+            bad.append(f"{s}: no hero")
+        elif h.get("kind") == "plate":
+            if not h.get("lines"):
+                bad.append(f"{s}: plate hero has no lines")
+        elif not h.get("src"):
+            bad.append(f"{s}: hero has no src")
+
+        figs = [f for f in a.get("body", []) if f.get("type") == "figure"]
+        for f in ([h] if h else []) + figs:
+            if f.get("kind") == "plate":
+                continue
+            src = f.get("src", "")
+            if "?" in src:
+                bad.append(f"{s}: image carries a query string: {src}")
+            if not f.get("alt"):
+                bad.append(f"{s}: image has no alt text: {src}")
+            # Somebody else's picture needs attribution. Our own does not.
+            if not src.startswith("/assets/") and not f.get("credit"):
+                bad.append(f"{s}: third party image with no credit: {src}")
+    if bad:
+        raise SystemExit("FAILED, article data is not publishable:\n  - "
+                         + "\n  - ".join(bad))
+    return sorted(arts, key=lambda a: a["_dt"], reverse=True)
+
+
+def article_rail(article, pairs, limit=5):
+    """Rows from the archive in the same section, so a piece visibly sits on
+    the material it came out of. This is the one thing a Signal article can
+    do that a post on any other site cannot."""
+    cat = article.get("category")
+    seen, rows = set(), []
+    for issue, dt in pairs:
+        for a in issue.get("categories", {}).get(cat, []):
+            if a["url"] in seen:
+                continue
+            seen.add(a["url"])
+            rows.append({k: v for k, v in a.items() if k != "image"})
+            if len(rows) >= limit:
+                break
+        if len(rows) >= limit:
+            break
+    if not rows:
+        return ""
+    return ('<aside class="signal-article-rail">'
+            f'<h2 class="signal-column-title">From the archive</h2>'
+            '<div class="signal-column-list">'
+            + "".join(row_html(r) for r in rows) + "</div></aside>")
+
+
+
+def credit_line(f):
+    """Caption, credit and provenance for one image. Credit is not optional
+    decoration: an article that shows somebody else's picture says whose it
+    is and, where there is one, links the place it came from."""
+    bits = []
+    if f.get("caption"):
+        bits.append(e(f["caption"]))
+    if f.get("credit"):
+        c = e(f["credit"])
+        if f.get("credit_url"):
+            c = f'<a href="{e(f["credit_url"])}" target="_blank" rel="noopener">{c}</a>'
+        bits.append(f"<b>{c}</b>")
+    if f.get("source_url"):
+        label = e(f.get("source_label") or "Source")
+        bits.append(f'<a href="{e(f["source_url"])}" target="_blank" rel="noopener">{label}</a>')
+    if not bits:
+        return ""
+    return ('<figcaption class="signal-figcap">'
+            + '<span class="sep">&middot;</span>'.join(bits) + "</figcaption>")
+
+
+def figure_html(f, *, full=False):
+    """An image block. `fit` is crop (4:3, the site default), wide (16:9) or
+    native. Images for Signal's own writing should be self hosted under
+    /assets/writing/ rather than hotlinked: a hotlinked picture is one
+    publisher's cache rule away from a blank space, which is exactly how the
+    19 September hero broke."""
+    fit = f.get("fit", "crop")
+    cls = "signal-fig" + (" signal-fig--full" if full else "")
+    cls += {"crop": " signal-fig--crop", "wide": " signal-fig--wide"}.get(fit, "")
+    if f.get("kind") == "plate":
+        inner = ('<div class="signal-plate">'
+                 + "".join(f'<p class="signal-plate-line">{e(l)}</p>'
+                           for l in f.get("lines", []))
+                 + (f'<p class="signal-plate-meta">'
+                    + "<br>".join(e(m) for m in f.get("meta", [])) + "</p>"
+                    if f.get("meta") else "")
+                 + "</div>")
+    else:
+        inner = (f'<img src="{e(f["src"])}" alt="{e(f.get("alt", ""))}" loading="lazy">')
+    return f'<figure class="{cls}">{inner}{credit_line(f)}</figure>'
+
+def article_url(a, domain):
+    return f"https://{domain}/writing/{a['slug']}/"
+
+
+def render_article(a, pairs, domain):
+    dt = a["_dt"]
+    nice = dt.strftime("%B %-d, %Y") if os.name != "nt" else dt.strftime("%B %d, %Y")
+    hero = a.get("hero")
+    blocks = []
+    for b in a.get("body", []):
+        if b["type"] == "pull":
+            blocks.append(f'<p class="signal-article-pull">{e(b["text"])}</p>')
+        elif b["type"] == "figure":
+            blocks.append(figure_html(b))
+        else:
+            blocks.append(f'<p>{e(b["text"])}</p>')
+
+    def cite(items, heading, note=None):
+        if not items:
+            return ""
+        rows = "".join(row_html({"headline": i["title"], "source": i.get("publisher", ""),
+                                 "url": i["url"]}) for i in items)
+        n = f'<p class="signal-article-note">{e(note)}</p>' if note else ""
+        return (f'<div class="signal-article-sources">'
+                f'<h2 class="signal-column-title">{heading}</h2>'
+                f'<div class="signal-column-list">{rows}</div>{n}</div>')
+
+    note = ""
+    if a.get("editorial_note"):
+        note = f'<p class="signal-article-note">{e(a["editorial_note"])}</p>'
+
+    left = ('<article class="signal-article">'
+            f'<p class="signal-article-eyebrow">{e(a.get("eyebrow", "Signal"))}</p>'
+            f'<h1 class="signal-article-hed">{e(a["title"])}</h1>'
+            f'<p class="signal-article-standfirst">{e(a["standfirst"])}</p>'
+            f'<p class="signal-article-byline">By {e(a["byline"])} &middot; {e(nice)}</p>'
+            + figure_html(hero)
+            + '<div class="signal-article-body">' + "".join(blocks) + '</div>'
+            + cite(a.get("sources"), "Sources")
+            + cite(a.get("further"), "Further", a.get("further_note"))
+            + note + '</article>')
+
+    body = ('<div class="signal-article-grid">' + left
+            + article_rail(a, pairs) + '</div>')
+
+    url = article_url(a, domain)
+    ld = {"@context": "https://schema.org", "@type": "Article",
+          "headline": a["title"], "description": a["standfirst"],
+          "datePublished": a["date"], "dateModified": a["date"],
+          "mainEntityOfPage": {"@type": "WebPage", "@id": url},
+          "author": {"@type": "Organization", "name": a["byline"],
+                     "url": f"https://{domain}/"},
+          "publisher": {"@type": "Organization", "name": "Small Revisions",
+                        "url": SHOP_URL},
+          "isAccessibleForFree": True}
+    hero_src = hero.get("src") if hero.get("kind") != "plate" else None
+    if hero_src:
+        ld["image"] = hero_src
+
+    return page(title=f'{a["title"]} \u00b7 Signal', desc=a["standfirst"],
+                canonical=url, body=body, domain=domain, jsonld=ld,
+                og_image=hero_src, og_type="article")
+
+
+def render_writing_index(arts, domain):
+    if not arts:
+        rows = '<p class="signal-article-note">Nothing here yet.</p>'
+    else:
+        rows = "".join(
+            row_html({"headline": a["title"], "source": a["byline"],
+                      "date": a["_dt"].strftime("%b %-d"),
+                      "url": f"/writing/{a['slug']}/"}) for a in arts)
+    body = ('<article class="signal-article">'
+            '<p class="signal-article-eyebrow">Signal</p>'
+            '<h1 class="signal-article-hed">Writing</h1>'
+            '<p class="signal-article-standfirst">Occasional pieces written here '
+            'rather than found elsewhere. Everything else on this site is a link '
+            'to somebody else\u2019s work.</p>'
+            f'<div class="signal-writing-list"><div class="signal-column-list">{rows}</div></div>'
+            '</article>')
+    return page(title="Writing \u00b7 Signal",
+                desc="Occasional pieces written by Signal rather than gathered from elsewhere.",
+                canonical=f"https://{domain}/writing/", body=body, domain=domain,
+                jsonld={"@context": "https://schema.org", "@type": "CollectionPage",
+                        "name": "Signal Writing",
+                        "url": f"https://{domain}/writing/"})
+
+
 def build(data_file, out_dir, domain):
     data = json.load(open(data_file))
     pairs = sorted(((i, parse_label(i["dateLabel"])) for i in data),
@@ -1608,6 +1869,17 @@ def build(data_file, out_dir, domain):
             d.mkdir(parents=True, exist_ok=True)
             (d / "index.html").write_text(html, encoding="utf-8")
 
+    arts = load_articles()
+    if arts:
+        (out / "writing").mkdir(exist_ok=True)
+        (out / "writing" / "index.html").write_text(
+            render_writing_index(arts, domain), encoding="utf-8")
+        for a in arts:
+            d = out / "writing" / a["slug"]
+            d.mkdir(parents=True, exist_ok=True)
+            (d / "index.html").write_text(
+                render_article(a, pairs, domain), encoding="utf-8")
+
     for sub, content in (("archive",   render_archive(pairs, domain)),
                          ("about",     render_about(pairs, domain)),
                          ("subscribe", render_subscribe(pairs, domain))):
@@ -1615,7 +1887,7 @@ def build(data_file, out_dir, domain):
         (out / sub / "index.html").write_text(content, encoding="utf-8")
 
     (out / "feed.xml").write_text(render_feed(pairs, domain), encoding="utf-8")
-    (out / "sitemap.xml").write_text(render_sitemap(pairs, domain), encoding="utf-8")
+    (out / "sitemap.xml").write_text(render_sitemap(pairs, domain, arts), encoding="utf-8")
     (out / "robots.txt").write_text(render_robots(domain), encoding="utf-8")
     (out / "404.html").write_text(render_404(domain), encoding="utf-8")
     shutil.copyfile(data_file, out / "signal-issues-data.json")
@@ -1629,6 +1901,9 @@ def build(data_file, out_dir, domain):
                f"https://{domain}/subscribe/", f"https://{domain}/feed.xml"]
     changed += [f"https://{domain}/page/{n}/" for n in range(2, total_pages + 1)]
     changed += [f"https://{domain}/issues/{slug(dt)}/" for _, dt in pairs[:2]]
+    if arts:
+        changed.append(f"https://{domain}/writing/")
+        changed += [f"https://{domain}/writing/{a['slug']}/" for a in arts[:3]]
     # Written as the exact POST body, so the workflow only has to send it.
     # The key is public by design in IndexNow, hosted at the root as proof.
     (out / "indexnow.json").write_text(json.dumps({

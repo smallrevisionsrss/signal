@@ -1,5 +1,180 @@
 [
   {
+    "dateLabel": "September 21, 2026",
+    "hero": {
+      "headline": "Fifty Years Photographing Dioramas, and the Last One in Colour",
+      "dek": "Hiroshi Sugimoto began photographing the habitat groups at the American Museum of Natural History in 1975, on a premise he found at the start: a diorama reads as convincingly alive through a lens and not to the eye. Zoe Lescaze follows the project to its close in the autumn of 2025, sets it against Carl Akeley's conservation driven taxidermy and against museums swapping habitat groups for interactive displays, and reports that the final shoot was his first in colour, where a bird sanctuary group that had held its camouflage in black and white gave the birds up.",
+      "byline": "By Zoe Lescaze · Aperture",
+      "category": "photo-film",
+      "image": "https://aperture.org/wp-content/uploads/2026/09/264MAG019_Sugimoto_HR.jpg",
+      "url": "https://aperture.org/editorial/the-artist-who-spent-fifty-years-bringing-museum-dioramas-back-to-life/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Timaru Mansion Becomes a Gallery With Boat Builder Chimneys",
+          "source": "Indesign Live",
+          "date": "Sep 17",
+          "url": "https://www.indesignlive.com/projects/isa-aigantighe-art-gallery",
+          "image": "https://cdn.indesignlive.com/wp-content/uploads/v2/2026/09/unnamed-file.jpg"
+        },
+        {
+          "headline": "Transit Agencies Are Writing Plant Palettes Into Their Guidelines",
+          "source": "Landscape Architecture Magazine",
+          "date": "Sep 9",
+          "url": "https://landscapearchitecturemagazine.org/metro-plant-palettes"
+        },
+        {
+          "headline": "Wedge Gave a Toothpaste Art Deco Type and Costume Jewellery",
+          "source": "BP&O",
+          "date": "Sep 18",
+          "url": "https://bpando.org/2026/09/18/wedge-bastet-toothpaste-brand-identity-packaging-design/"
+        },
+        {
+          "headline": "Alexandre Veillon Bolts Industrial Frames Onto Inherited Porcelain",
+          "source": "industrialkonzept",
+          "date": "Sep 9",
+          "url": "https://industrialkonzept.com/blogs/editorial/alexandre-veillon-and-the-future-of-forgotten-objects"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Aaron Esh Spent a Hundred Hours on One Organza Coat",
+          "source": "AnOther",
+          "date": "Sep 19",
+          "url": "https://www.anothermag.com/fashion-beauty/17484/aaron-esh-spring-summer-2027-ss27-review-interview"
+        },
+        {
+          "headline": "Benjamin Orlow Coils Clay With No Plan and Lets It Crack",
+          "source": "Sculpture",
+          "date": "Sep 18",
+          "url": "https://sculpturemagazine.art/beyond-explanations-a-conversation-with-benjamin-orlow/"
+        },
+        {
+          "headline": "Keerat Kaur's Gouache Hangs Beside the Kapany Collection",
+          "source": "Momus",
+          "date": "Sep 17",
+          "url": "https://momus.ca/2026/09/17/hypnotic-strategies-upended-hierarchies-keerat-kaur-at-the-montreal-museum-of-fine-arts/",
+          "image": "https://momus.ca/wp-content/uploads/2026/09/KAU_0007-1024x683.png"
+        },
+        {
+          "headline": "Francesca Odell Shot the Welsh Valleys, Then Left Photography",
+          "source": "British Journal of Photography",
+          "date": "Sep 20",
+          "url": "https://www.1854.photography/2026/09/francesca-odell/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Apartment House Plays Feldman's Centenary at LSO St Luke's",
+          "source": "Seen and Heard International",
+          "date": "Sep 20",
+          "url": "https://seenandheard-international.com/2026/09/at-lso-st-lukes-super-virtuoso-performances-of-feldmans-music-were-celebrated/"
+        },
+        {
+          "headline": "Fourteen Mix Engineers Name the Session Files That Ruin Mixes",
+          "source": "Production Expert",
+          "date": "Sep 16",
+          "url": "https://www.production-expert.com/production-expert-1/mix-sessions-from-hell-the-session-prep-mistakes-mixers-hate",
+          "image": "https://static1.squarespace.com/static/54d696e5e4b05ca7b54cff5c/t/6a9af145ff4b1c22ab2fb618/1788539250827/Bad+Sessions.webp"
+        },
+        {
+          "headline": "A 1958 Fender Bandmaster, Rewired on the Repair Bench",
+          "source": "Premier Guitar",
+          "date": "Sep 17",
+          "url": "https://www.premierguitar.com/pro-advice/on-the-bench/on-the-bench-1958-fender-bandmaster"
+        },
+        {
+          "headline": "Ervin Omsk Built Twenty Seven Minutes From Synth and Recorder",
+          "source": "a closer listen",
+          "date": "Sep 19",
+          "url": "https://acloserlisten.com/2026/09/19/sand-in-the-gears-an-interview-with-ervin-omsk/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Museum's iPods, Accessioned as Evidence of Digital Play",
+          "source": "The Strong National Museum of Play",
+          "date": "Sep 18",
+          "url": "https://www.museumofplay.org/blog/iplay/"
+        },
+        {
+          "headline": "Jim Austin Revises His Own Ultrasonic Record Cleaning Method",
+          "source": "Stereophile",
+          "date": "Sep 16",
+          "url": "https://www.stereophile.com/content/shifting-gears-my-final-word-record-cleaning"
+        },
+        {
+          "headline": "Eighteen Books Tracking How Publishers Repackaged Black Writers",
+          "source": "Fine Books & Collections",
+          "evergreen": true,
+          "url": "https://www.finebooksmagazine.com/fine-books-news/book-collector-kierra-duncan-multiple-editions-black-diasporic-writers"
+        },
+        {
+          "headline": "Five Coins Track Victoria's Hair Across a Sixty Four Year Reign",
+          "source": "Delcampe Blog",
+          "date": "Sep 14",
+          "url": "https://blog.delcampe.net/en/victoria-the-story-of-a-reign-and-the-art-of-hairstyling/",
+          "image": "https://blog.delcampe.net/wp-content/uploads/2026/09/162_001.jpg"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Seismology's Centre Moved to the Pacific Rim After 1906",
+          "source": "Perspectives on History",
+          "date": "Sep 17",
+          "url": "https://www.historians.org/perspectives-article/seismic-pacific/"
+        },
+        {
+          "headline": "Rachel Carson's Drafts and Letters, Read at the Beinecke",
+          "source": "Environmental History Now",
+          "date": "Sep 16",
+          "url": "https://envhistnow.com/2026/09/16/silent-springs-windswept-seas-notes-from-the-beineckes-rachel-carson-exhibit/",
+          "image": "https://envhistnow.com/wp-content/uploads/2026/09/Silent-Springs-8-scaled.jpg"
+        },
+        {
+          "headline": "Milwaukee Teenagers Filmed Their Own Neighbourhood in 1994",
+          "source": "The Metropole",
+          "date": "Sep 17",
+          "url": "https://themetropole.blog/2026/09/17/turning-the-camera-on-the-city-women-youth-and-a-media-revolution-in-milwaukee/"
+        },
+        {
+          "headline": "Renee Richards' Interview Transcripts Sat in Box Three",
+          "source": "The Devil's Tale",
+          "date": "Aug 26",
+          "url": "https://blogs.library.duke.edu/rubenstein/2026/08/26/profiles-in-research-julie-kliegman-on-finding-renee-richards/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Jackie Raynal Made a Rule and Broke It Twice",
+          "source": "Ultra Dogme",
+          "date": "Sep 15",
+          "url": "https://ultradogme.com/2026/09/15/deux-fois/"
+        },
+        {
+          "headline": "Fifty Four Photographs From an American Teacher's Last Classrooms",
+          "source": "PhotoBook Journal",
+          "date": "Sep 18",
+          "url": "https://photobookjournal.com/2026/09/18/hans-hickerson-far-from-finland/"
+        },
+        {
+          "headline": "Winona Ryder Built an Archetype Out of Adolescence",
+          "source": "Metrograph",
+          "date": "Sep 17",
+          "url": "https://metrograph.com/cracked-actor-winona-ryder/",
+          "image": "https://metrograph.com/wp-content/uploads/2026/09/winonaryderheader.png"
+        },
+        {
+          "headline": "NHK Built a Sensor Whose Pixels Change Jobs",
+          "source": "ProVideo Coalition",
+          "date": "Sep 19",
+          "url": "https://www.provideocoalition.com/better-sensor-has-more-pixels-per-pixel/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 20, 2026",
     "hero": {
       "headline": "Every Preference Survey Since 1990 Favours Traditional Architecture",
