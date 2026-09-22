@@ -79,6 +79,121 @@ jobs:
           sys.exit(1 if bad else 0)
           PY
 
+
+      - name: Install image check deps
+        run: pip install --quiet requests pillow
+
+      - name: Validate images
+        run: |
+          python3 - <<'PY'
+          # Checks every image Signal serves from a publisher's server.
+          #
+          # NOTE ON WHAT IS FATAL AND WHAT IS NOT. This check could not be run
+          # green before it was committed: it was written in an environment with
+          # no egress to publisher domains, so its network path is unproven.
+          # It is therefore deliberately asymmetric.
+          #
+          #   fatal   404, 410, a non-image content type, a ratio outside the
+          #           crop band. These mean the DATA is wrong, and no network
+          #           condition produces them.
+          #   warn    403, 429, timeouts, connection errors. A CDN refusing a
+          #           GitHub Actions IP looks identical to a dead image from
+          #           here, and readers may see the picture perfectly well.
+          #           Failing the deploy on these would block shipping over
+          #           somebody else's bot rules.
+          #
+          # If the warnings turn out to be reliable in practice, promote 403 to
+          # fatal. Do not promote it on a hunch.
+          import json, sys, io, concurrent.futures as cf
+          import requests
+          from PIL import Image
+
+          CATS = ["design-arch","craft","sound-vinyl","collecting","archives","photo-film"]
+          data = json.load(open('signal-issues-data.json', encoding='utf-8'))
+
+          def images(issue):
+              out = []
+              h = issue.get('hero') or {}
+              if h.get('image'): out.append(('hero', h['image'], h.get('url','')))
+              for c in CATS:
+                  for i, p in enumerate(issue.get('categories',{}).get(c,[])):
+                      if p.get('image'): out.append((f'{c}-{i}', p['image'], p.get('url','')))
+              return out
+
+          # A real browser User-Agent and a Referer from the article the image
+          # belongs to. Without both, CDNs that serve the image happily on the
+          # publisher's own page refuse it here, and the check reports a break
+          # no reader ever sees.
+          UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
+                '(KHTML, like Gecko) Chrome/128.0 Safari/537.36')
+          FATAL_CODES = {404, 410}
+
+          def probe(job):
+              label, url, ref = job
+              hdrs = {'User-Agent': UA, 'Accept': 'image/avif,image/webp,image/*,*/*;q=0.8'}
+              if ref: hdrs['Referer'] = ref
+              try:
+                  r = requests.get(url, headers=hdrs, timeout=25, stream=True)
+              except Exception as e:
+                  return label, url, 'warn', f'network: {type(e).__name__}', None
+              if r.status_code in FATAL_CODES:
+                  return label, url, 'fatal', f'HTTP {r.status_code}', None
+              if r.status_code != 200:
+                  return label, url, 'warn', f'HTTP {r.status_code}', None
+              ctype = r.headers.get('Content-Type','')
+              if not ctype.startswith('image/'):
+                  return label, url, 'fatal', f'not an image: {ctype[:50]}', None
+              try:
+                  blob = r.raw.read(400_000, decode_content=True)
+                  dims = Image.open(io.BytesIO(blob)).size
+              except Exception:
+                  dims = None   # truncated read, not a fault in the data
+              if dims:
+                  w, h = dims
+                  ratio = w / h if h else 0
+                  # Signal crops 4:3 from the centre. Outside 1.2-2.4 the crop
+                  # takes a slice that was never composed to stand alone.
+                  if not 1.2 <= ratio <= 2.4:
+                      return label, url, 'fatal', f'{w}x{h} ratio {ratio:.2f} outside 1.2-2.4', dims
+              return label, url, 'ok', ctype, dims
+
+          def run(jobs):
+              with cf.ThreadPoolExecutor(max_workers=12) as ex:
+                  return list(ex.map(probe, jobs))
+
+          newest, older = data[0], data[1:]
+          fatal = warned = 0
+
+          print(f"== {newest['dateLabel']} ==")
+          for label, url, verdict, detail, dims in run(images(newest)):
+              if verdict == 'fatal':
+                  print(f"  FAIL  {label}: {detail}\n        {url}"); fatal += 1
+              elif verdict == 'warn':
+                  print(f"  warn  {label}: {detail}\n        {url}"); warned += 1
+              else:
+                  d = f'{dims[0]}x{dims[1]}' if dims else ''
+                  print(f"  ok    {label}  {d}")
+
+          older_jobs = [j for iss in older for j in images(iss)]
+          print(f"\n== archive, {len(older_jobs)} images, reported only ==")
+          arch_fatal = arch_warn = 0
+          for label, url, verdict, detail, _ in run(older_jobs):
+              if verdict == 'fatal':
+                  print(f"  dead  {label}: {detail}\n        {url}"); arch_fatal += 1
+              elif verdict == 'warn':
+                  arch_warn += 1
+          print(f"{arch_fatal} dead, {arch_warn} unreachable, "
+                f"{len(older_jobs)-arch_fatal-arch_warn} fine.")
+
+          if fatal:
+              print(f"\nFAIL: {fatal} image problem(s) in the newest issue. Not deploying.")
+              sys.exit(1)
+          if warned:
+              print(f"\n{warned} image(s) in the newest issue could not be reached from CI. "
+                    f"Open signal-images-<date>.html in a browser before trusting that.")
+          print("\nnewest issue: no dead images, no bad crops.")
+          PY
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
