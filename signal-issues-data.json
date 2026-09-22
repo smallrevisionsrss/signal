@@ -1,10 +1,206 @@
 [
   {
+    "dateLabel": "September 22, 2026",
+    "hero": {
+      "headline": "A Photographer Reads the Mississippi Delta as an Archive",
+      "dek": "Mickell Carter interviews the photographic artist Vanessa Charlot about In the Shadow of Cotton and Blood, her study of Black women, photography and the afterlife of slavery. Charlot, who teaches at the University of Mississippi, reads Jeanne Moutoussamy-Ashe's Daufuskie Island alongside her own series Down in the Delta, and argues that Black women photographers have worked as theorists and archivists rather than documentarians, making pictures that carry an argument about what the record leaves out. The Delta itself, she says, should be treated as a living epistemic site rather than a place people left behind.",
+      "byline": "By Mickell Carter · Black Perspectives",
+      "category": "archives",
+      "image": "https://cdn.aaihs.org/wp-content/uploads/2026/08/Charlot_Picking-cotton-dreams300-scaled.jpg",
+      "url": "https://www.aaihs.org/photographing-the-afterlife-of-slavery/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "The Four Jails New York Is Building to Close Rikers Island",
+          "source": "Dezeen",
+          "byline": "Ellen Eberhardt",
+          "date": "Sep 21",
+          "url": "https://www.dezeen.com/2026/09/21/design-new-york-city-borough-based-jail-program/"
+        },
+        {
+          "headline": "A Dolphin Meme Set the Visual Direction for Zara Larsson's Fourth Album",
+          "source": "It's Nice That",
+          "byline": "Gary Grimes",
+          "date": "Sep 21",
+          "url": "https://www.itsnicethat.com/articles/zara-larsson-gary-grimes-culture-column-210926"
+        },
+        {
+          "headline": "A Portsea House Built to Take the Southern Ocean's Weather",
+          "source": "Yellowtrace",
+          "byline": "Team Yellowtrace",
+          "date": "Sep 21",
+          "url": "https://www.yellowtrace.com.au/studio-kennon-wildcoast-portsea-house-australian-architecture/",
+          "image": "https://assets.yellowtrace.com.au/wp-content/uploads/2026/09/10121457/Yellowtrace-Studio-Kennon-Wildcoast-Portsea-House-Australian-Architecture-594x400.jpg"
+        },
+        {
+          "headline": "Fluxetype Sets a Catalogue of Gennady Zubkov's Collages",
+          "source": "type.today",
+          "date": "Sep 22",
+          "url": "https://type.today/en/journal/things-we-see-before-us"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Joyce Polance Painted Her Therapist Nineteen Times With Her Fingers",
+          "source": "Art Spiel",
+          "byline": "Etty Yaniv",
+          "date": "Sep 22",
+          "url": "https://artspiel.org/joyce-polance-the-patient-looks-back-portraits-of-my-therapist/"
+        },
+        {
+          "headline": "Yves Saint Laurent Seen Through the Photographers Who Shot Him",
+          "source": "The Brooklyn Rail",
+          "byline": "Killian Wright-Jackson",
+          "date": "Sep 9",
+          "url": "https://brooklynrail.org/2026/09/artseen/yves-saint-laurent-and-photography/",
+          "image": "https://studio.brooklynrail.org/assets/dbc1f343-6a31-4040-94fb-690d945dcb8b.jpg"
+        },
+        {
+          "headline": "Elena Serafimova Found Soviet Freedom in Six Hundred Square Meters",
+          "source": "BOOOOOOOM",
+          "date": "Sep 21",
+          "url": "https://www.booooooom.com/2026/09/21/in-the-shadow-of-an-old-apple-tree-by-photographer-elena-serafimova/"
+        },
+        {
+          "headline": "What the Whitney and the Brooklyn Museum Pay, and What Workers Want",
+          "source": "Cultbytes",
+          "byline": "Anna Mikaela Ekstrand",
+          "date": "Sep 15",
+          "url": "https://cultbytes.com/will-strike-authorization-effect-fall-shows-at-the-whitney-brooklyn-museum-and-afam/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Maddy Prior and June Tabor's Silly Sisters Turns Fifty",
+          "source": "Aquarium Drunkard",
+          "byline": "Justin Gage",
+          "date": "Sep 21",
+          "url": "https://aquariumdrunkard.com/2026/09/21/maddy-prior-june-tabors-silly-sisters-at-50/"
+        },
+        {
+          "headline": "Joe Boles Recorded Seattle's Clubs With a Neumann Hidden in the Curtains",
+          "source": "Tape Op",
+          "byline": "Alex Kostelnik",
+          "evergreen": true,
+          "url": "https://tapeop.com/interviews/175/joe-boles"
+        },
+        {
+          "headline": "A 1932 Song Outlived the Film It Was Written For",
+          "source": "Movie Music UK",
+          "byline": "Craig Lysy",
+          "date": "Sep 21",
+          "url": "https://moviemusicuk.us/2026/09/21/gli-uomini-che-mascalzoni-what-scoundrels-men-are-cesare-andrea-bixio/"
+        },
+        {
+          "headline": "Operabase Changes Hands Again and Opera Houses Are Nervous",
+          "source": "VAN Magazine",
+          "byline": "Ema Katrovas",
+          "date": "Sep 10",
+          "url": "https://van-magazine.com/mag/operabase-future-siren-servers/",
+          "image": "https://van-magazine.com/wp-content/uploads/2026/09/operabase-future-siren-servers.jpg"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A 1985 Pitfall II Licence May Be the Earliest EULA in Games",
+          "source": "Video Game History Foundation",
+          "byline": "Robin Kunimune",
+          "date": "Sep 11",
+          "url": "https://gamehistory.org/episode-163-the-complexities-of-eulas/"
+        },
+        {
+          "headline": "Hasbro's Think-a-Tron Answered Three Hundred Questions From Punch Cards",
+          "source": "Toy Tales",
+          "byline": "Todd Coopee",
+          "date": "Sep 21",
+          "url": "https://toytales.ca/think-tron-hasbro-1960/",
+          "image": "https://toytales.ca/wp-content/uploads/2016/05/DCS_4274-1000x650.png"
+        },
+        {
+          "headline": "Forty Years of Tramp Art and Memory Jars in a Fort Davis Store",
+          "source": "Glasstire",
+          "byline": "Amanda Holstien",
+          "date": "Sep 16",
+          "url": "https://glasstire.com/2026/09/16/touching-history-tramp-art-and-folk-sculpture-at-webbs-fair-and-square-fort-davis/"
+        },
+        {
+          "headline": "Twenty Two Advertising Stamps Pulled From an Album of Thousands",
+          "source": "Present & Correct",
+          "evergreen": true,
+          "url": "https://www.presentandcorrect.com/blogs/blog/werbemarke"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The Commons Waited Ten Days to Name Its Speaker in 1426",
+          "source": "The History of Parliament",
+          "byline": "Simon Payling",
+          "date": "Sep 22",
+          "url": "https://historyofparliament.com/2026/09/22/sir-richard-vernon-as-speaker/"
+        },
+        {
+          "headline": "A Flying Squirrel and a Clove of Garlic in the Man'yoshu",
+          "source": "Leiden Special Collections Blog",
+          "byline": "Nina Farizova",
+          "date": "Sep 15",
+          "url": "https://www.leidenspecialcollectionsblog.nl/articles/flying-squirrels-and-delicious-garlic-animals-and-plants-in-an-illuminated-early-modern-miscellany-of-ancient-japanese-poetry"
+        },
+        {
+          "headline": "A Flap Book Turned Adam Into Eve Into a Mermaid",
+          "source": "The Public Domain Review",
+          "byline": "Mathilde Montpetit",
+          "date": "Sep 10",
+          "url": "https://publicdomainreview.org/collection/metamorphosis-early-modern-flap-book/"
+        },
+        {
+          "headline": "Thirty Two Cattle Brands Were Cut Into a Texas Building in 1926",
+          "source": "Not Even Past",
+          "byline": "José Roberto Campos Cordero",
+          "date": "Sep 16",
+          "url": "https://notevenpast.org/garrison-hall-cattle-brands/",
+          "image": "https://notevenpast.org/wp-content/uploads/2026/09/Garrison-Hall-today-2-1024x772.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Linda Alterwitz Photographed Inflammation in 130 Vaccinated Arms",
+          "source": "Lenscratch",
+          "byline": "Aline Smithson",
+          "date": "Sep 21",
+          "url": "https://lenscratch.com/2026/09/linda-alterwitz-4/",
+          "image": "https://lenscratch.com/wp-content/uploads/2026/09/15_Isabella_1_Day.jpg"
+        },
+        {
+          "headline": "Suwa Shin Knocked on Five Hundred Doors to Ask for a Shower",
+          "source": "Fisheye Magazine",
+          "byline": "Marie Baranger",
+          "date": "Sep 19",
+          "url": "https://fisheyemagazine.fr/article/suwa-shin-be-nu/"
+        },
+        {
+          "headline": "Logan Harmon Coaxed ORWO's Copy Film Down to EI 80",
+          "source": "35mmc",
+          "byline": "Logan Harmon",
+          "date": "Sep 20",
+          "url": "https://www.35mmc.com/20/09/2026/orwo-tf-12d-controlling-contrast/"
+        },
+        {
+          "headline": "Evangelion Abandoned Its Robots for the Last Two Episodes",
+          "source": "The Criterion Collection",
+          "byline": "Jonathan R. Lack",
+          "date": "Sep 21",
+          "url": "https://www.criterion.com/current/posts/9281-the-inner-worlds-of-neon-genesis-evangelion"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 21, 2026",
     "hero": {
       "headline": "Fifty Years Photographing Dioramas, and the Last One in Colour",
-      "dek": "Hiroshi Sugimoto began photographing the habitat groups at the American Museum of Natural History in 1975, on a premise he found at the start: a diorama reads as convincingly alive through a lens and not to the eye. Zoe Lescaze follows the project to its close in the autumn of 2025, sets it against Carl Akeley's conservation driven taxidermy and against museums swapping habitat groups for interactive displays, and reports that the final shoot was his first in colour, where a bird sanctuary group that had held its camouflage in black and white gave the birds up.",
-      "byline": "By Zoe Lescaze · Aperture",
+      "dek": "Hiroshi Sugimoto began photographing the habitat groups at the American Museum of Natural History in 1975, on a premise he found at the start: a diorama reads as convincingly alive through a lens and not to the eye. Zoë Lescaze follows the project to its close in the autumn of 2025, sets it against Carl Akeley's conservation driven taxidermy and against museums swapping habitat groups for interactive displays, and reports that the final shoot was his first in colour, where a bird sanctuary group that had held its camouflage in black and white gave the birds up.",
+      "byline": "By Zoë Lescaze · Aperture",
       "category": "photo-film",
       "image": "https://aperture.org/wp-content/uploads/2026/09/264MAG019_Sugimoto_HR.jpg",
       "url": "https://aperture.org/editorial/the-artist-who-spent-fifty-years-bringing-museum-dioramas-back-to-life/"
