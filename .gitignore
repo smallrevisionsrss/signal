@@ -1,0 +1,4 @@
+# Scratch from Claude sessions: screenshots, preview HTML, nothing the site reads.
+Claude outputs/
+__pycache__/
+*.pyc
