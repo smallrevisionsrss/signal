@@ -1112,13 +1112,25 @@ ICONS = {
 ARROW = '<span class="signal-external-icon" aria-hidden="true">↗︎</span>'
 
 
-def row_html(a):
+SITE_HOST = "signal.smallrevisions.com"   # set from --domain in build()
+
+
+def is_own(url):
+    """A link to a page on this site, i.e. one of Signal's own pieces."""
+    u = url or ""
+    return u.startswith("/") or u.startswith(f"https://{SITE_HOST}/")
+
+
+def row_html(a, internal=False):
+    internal = internal or is_own(a.get("url"))
     media = (f'<a class="signal-row-media" href="{e(a["url"])}" tabindex="-1" aria-hidden="true">'
              f'<img src="{e(a["image"])}" alt="" loading="lazy"></a>') if a.get("image") else ""
     date = f' &middot; {e(a["date"])}' if a.get("date") else ""
     return (f'<div class="signal-row">{media}'
-            f'<h5 class="signal-row-headline"><a href="{e(a["url"])}" target="_blank" rel="noopener">'
-            f'{e(a["headline"])} {ARROW}</a></h5>'
+            f'<h5 class="signal-row-headline"><a href="{e(a["url"])}"'
+            + ('>' + e(a["headline"]) if internal else
+               f' target="_blank" rel="noopener">{e(a["headline"])} {ARROW}')
+            + '</a></h5>'
             f'<time class="signal-row-date">{e(a["source"])}{date}</time></div>')
 
 
@@ -1139,6 +1151,9 @@ def hero_block(issue, paging="", issue_url=None):
     # page. It inherits its colour, so it reads as the same plain text.
     datemark = (f'<a href="{e(issue_url)}">{e(issue["dateLabel"])}</a>'
                 if issue_url else e(issue["dateLabel"]))
+    # Signal's own piece as hero opens here, not in a new tab.
+    ext = "" if is_own(h.get("url")) else ' target="_blank" rel="noopener"'
+    arrow = "" if is_own(h.get("url")) else ' <span aria-hidden="true">↗︎</span>'
     return f"""<section class="signal-hero">
 <div class="signal-hero-topline">
 <span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true"></span>Signal</span>
@@ -1146,10 +1161,10 @@ def hero_block(issue, paging="", issue_url=None):
 </div>
 <div class="signal-hero-grid">
 <div class="signal-hero-text">
-<h2 class="signal-hero-headline"><a class="signal-hero-link" href="{e(h['url'])}" target="_blank" rel="noopener">{e(h['headline'])}</a></h2>
+<h2 class="signal-hero-headline"><a class="signal-hero-link" href="{e(h['url'])}"{ext}>{e(h['headline'])}</a></h2>
 <p class="signal-hero-dek">{e(h.get('dek',''))}</p>
 <div class="signal-hero-meta">
-<a class="signal-hero-cta" href="{e(h['url'])}" target="_blank" rel="noopener">Read the story <span aria-hidden="true">↗︎</span></a>
+<a class="signal-hero-cta" href="{e(h['url'])}"{ext}>Read the story{arrow}</a>
 <span class="signal-hero-byline">{e(h.get('byline',''))}</span>
 </div>
 </div>
@@ -1594,33 +1609,54 @@ def render_404(domain):
 ARTICLES_FILE = Path(__file__).resolve().parent / "signal-articles.json"
 
 ARTICLE_CSS = """
-.signal-article{padding:0 0 72px}
-.signal-article-grid{display:grid;grid-template-columns:minmax(0,68ch) minmax(0,1fr);
-  gap:72px;align-items:start}
-@media (max-width:1023px){.signal-article-grid{grid-template-columns:1fr;gap:48px}}
-.signal-article-eyebrow{font-family:var(--sans);font-size:13px;font-weight:700;
-  letter-spacing:.1em;text-transform:uppercase;color:var(--cat);margin:48px 0 18px}
-.signal-article-hed{font-family:var(--serif);font-weight:400;
-  font-size:clamp(1.9rem,1.2rem + 2vw,2.625rem);line-height:1.12;letter-spacing:-.01em;
-  color:var(--ink);max-width:20ch;margin:0 0 20px}
-.signal-article-standfirst{font-family:var(--sans);font-size:1.15rem;line-height:1.55;
-  color:var(--ink-soft);max-width:46ch;margin:0 0 30px}
-.signal-article-byline{font-family:var(--sans);font-size:13px;letter-spacing:.04em;
-  color:var(--ink-faint);border-top:1px solid var(--rule);
-  border-bottom:1px solid var(--rule-soft);padding:12px 0;margin:0 0 40px}
-.signal-article-figure{margin:0 0 40px}
-.signal-article-figure img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+/* Signal writing. Assembled from the issue page's own parts rather than a
+   look of its own: the hero's black rule and topline, the feed's column
+   headers with their black underline, the hairline column divider, and
+   rows. An article should read as one more page of the same paper. */
+.signal-article-head{padding-bottom:24px}
+.signal-article-head .signal-hero-headline{margin:0 0 20px}
+.signal-article-head .signal-hero-dek{max-width:60ch;margin:0 0 20px}
+.signal-article-head .signal-hero-date a{color:inherit;border-bottom:1px solid transparent;
+  transition:border-color .15s ease,color .15s ease}
+.signal-article-head .signal-hero-date a:hover{color:var(--signal);border-color:var(--signal)}
+
+/* Same geometry as .signal-feed-grid: three equal columns, 32px inner
+   padding, pulled out by 32px so the rules meet the container edges. */
+.signal-article-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  column-gap:0;margin:0 -32px;width:calc(100% + 64px);padding:8px 0 64px;
+  grid-template-areas:"hm hm hr" "lm lm lr";align-items:start}
+.signal-article-grid>.signal-column-header{margin:0 32px 4px;align-self:stretch}
+.signal-article-grid>.signal-column-header.is-main{grid-area:hm}
+.signal-article-grid>.signal-column-header.is-rail{grid-area:hr}
+.signal-article-main{grid-area:lm;padding:0 32px;min-width:0}
+.signal-article-rail{grid-area:lr;position:relative;padding:0 32px;min-width:0;align-self:stretch}
+.signal-article-rail::before{content:"";position:absolute;top:32px;bottom:0;left:0;
+  width:1px;background:var(--rule-soft)}
+.signal-article-rail .signal-column-header{margin:32px 0 4px}
+.signal-article-listnote{font-size:12.5px;line-height:1.55;font-weight:500;
+  color:var(--ink-faint);padding:18px 0 0;border-top:1px solid var(--rule-soft)}
+
+.signal-article-main>.signal-fig:first-child{margin-top:22px}
 .signal-article-body p{font-family:var(--sans);font-size:1.0625rem;line-height:1.66;
   color:var(--ink);max-width:68ch;margin:0 0 1.3em}
-.signal-article-pull{font-family:var(--serif);font-size:1.55rem;line-height:1.26;
-  color:var(--ink);max-width:30ch;margin:2.2em 0;padding-top:20px;
-  border-top:2px solid var(--signal)}
-.signal-article-rail{position:sticky;top:28px}
-.signal-article-sources{margin:56px 0 0;padding-top:24px;border-top:1px solid var(--rule)}
-.signal-article-note{font-family:var(--sans);font-size:13px;line-height:1.6;
-  color:var(--ink-faint);max-width:68ch;margin:40px 0 0;padding-top:18px;
-  border-top:1px solid var(--rule-soft)}
-.signal-writing-list{margin:40px 0 0}
+/* A pull quote is set like a row headline, between the two rules the
+   feed already uses: black above, as under a column title, hairline below. */
+.signal-article-body .signal-article-pull{font-family:var(--serif);font-weight:400;
+  font-size:clamp(1.4rem,1.1rem + .9vw,1.75rem);line-height:1.2;letter-spacing:-.005em;
+  color:var(--ink);max-width:30ch;margin:36px 0;padding:20px 0 22px;
+  border-top:1px solid var(--rule);border-bottom:1px solid var(--rule-soft)}
+.signal-article-main .signal-note{margin:40px 0 0}
+
+@media (max-width:900px){
+  .signal-article-grid{grid-template-columns:1fr;margin:0;width:100%;
+    grid-template-areas:"hm" "lm" "hr" "lr"}
+  .signal-article-grid>.signal-column-header{margin:0 0 4px}
+  .signal-article-grid>.signal-column-header.is-rail{margin-top:48px}
+  .signal-article-main,.signal-article-rail{padding:0}
+  .signal-article-rail::before{display:none}
+  .signal-article-rail .signal-column-header{margin-top:28px}
+}
+.signal-writing-list{padding:8px 0 64px}
 .signal-fig{margin:0 0 40px}
 .signal-fig--full{grid-column:1 / -1}
 .signal-fig img{width:100%;display:block;background:var(--rule-soft)}
@@ -1704,10 +1740,8 @@ def article_rail(article, pairs, limit=5):
             break
     if not rows:
         return ""
-    return ('<aside class="signal-article-rail">'
-            f'<h2 class="signal-column-title">From the archive</h2>'
-            '<div class="signal-column-list">'
-            + "".join(row_html(r) for r in rows) + "</div></aside>")
+    return ('<div class="signal-column-list">'
+            + "".join(row_html(r) for r in rows) + "</div>")
 
 
 
@@ -1770,33 +1804,64 @@ def render_article(a, pairs, domain):
         else:
             blocks.append(f'<p>{e(b["text"])}</p>')
 
-    def cite(items, heading, note=None):
-        if not items:
-            return ""
+    def header(label, cls, key=None):
+        icon = ICONS.get(key, "") if key else ""
+        return (f'<div class="signal-column-header {cls}"'
+                + (f' data-category="{key}"' if key else "") + f'>{icon}'
+                f'<h2 class="signal-column-title">{e(label)}</h2></div>')
+
+    def cite(items, note=None):
         rows = "".join(row_html({"headline": i["title"], "source": i.get("publisher", ""),
                                  "url": i["url"]}) for i in items)
-        n = f'<p class="signal-article-note">{e(note)}</p>' if note else ""
-        return (f'<div class="signal-article-sources">'
-                f'<h2 class="signal-column-title">{heading}</h2>'
-                f'<div class="signal-column-list">{rows}</div>{n}</div>')
+        n = f'<p class="signal-article-listnote">{e(note)}</p>' if note else ""
+        return f'<div class="signal-column-list">{rows}</div>{n}'
 
     note = ""
     if a.get("editorial_note"):
-        note = f'<p class="signal-article-note">{e(a["editorial_note"])}</p>'
+        note = (f'<div class="signal-note"><h2>A note on this piece</h2>'
+                f'<p>{e(a["editorial_note"])}</p></div>')
 
-    left = ('<article class="signal-article">'
-            f'<p class="signal-article-eyebrow">{e(a.get("eyebrow", "Signal"))}</p>'
-            f'<h1 class="signal-article-hed">{e(a["title"])}</h1>'
-            f'<p class="signal-article-standfirst">{e(a["standfirst"])}</p>'
-            f'<p class="signal-article-byline">By {e(a["byline"])} &middot; {e(nice)}</p>'
-            + figure_html(hero)
+    cat = a.get("category")
+    cat_label = KEY_TO_LABEL.get(cat, "Signal")
+
+    # Opens exactly like an issue: black rule, pulsing Signal eyebrow, the
+    # standing line and date on the right, then a full width headline.
+    head = f"""<section class="signal-hero signal-article-head">
+<div class="signal-hero-topline">
+<span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true"></span>{e(a.get("eyebrow", "Signal"))}</span>
+<span class="signal-hero-date"><a href="/writing/">Signal Writing</a> / <span class="signal-hero-date-value">{e(nice)}</span></span>
+</div>
+<h1 class="signal-hero-headline">{e(a["title"])}</h1>
+<p class="signal-hero-dek">{e(a["standfirst"])}</p>
+<div class="signal-hero-meta"><span class="signal-hero-byline">By {e(a["byline"])}</span></div>
+</section>"""
+
+    main = ('<article class="signal-article-main">' + figure_html(hero)
             + '<div class="signal-article-body">' + "".join(blocks) + '</div>'
-            + cite(a.get("sources"), "Sources")
-            + cite(a.get("further"), "Further", a.get("further_note"))
             + note + '</article>')
 
-    body = ('<div class="signal-article-grid">' + left
-            + article_rail(a, pairs) + '</div>')
+    # Right hand column: whichever of Sources, Further and From the archive
+    # exist, in that order. The first one's header sits in the header row
+    # beside the article's, the way the feed's three headers line up; the
+    # rest stack below it the way the second row of sections does.
+    sections = []
+    if a.get("sources"):
+        sections.append(("Sources", None, cite(a["sources"])))
+    if a.get("further"):
+        sections.append(("Further", None, cite(a["further"], a.get("further_note"))))
+    archive = article_rail(a, pairs)
+    if archive:
+        sections.append(("From the archive", None, archive))
+
+    rail_head, rail = "", ""
+    if sections:
+        rail_head = header(sections[0][0], "is-rail", sections[0][1])
+        rail = ('<aside class="signal-article-rail">' + sections[0][2]
+                + "".join(header(lab, "", key) + html_ for lab, key, html_ in sections[1:])
+                + '</aside>')
+
+    body = (head + '<div class="signal-article-grid">'
+            + header(cat_label, "is-main", cat) + rail_head + main + rail + '</div>')
 
     url = article_url(a, domain)
     ld = {"@context": "https://schema.org", "@type": "Article",
@@ -1809,6 +1874,9 @@ def render_article(a, pairs, domain):
                         "url": SHOP_URL},
           "isAccessibleForFree": True}
     hero_src = hero.get("src") if hero.get("kind") != "plate" else None
+    # og:image and JSON-LD need an absolute URL; self-hosted heroes are site-relative.
+    if hero_src and hero_src.startswith("/"):
+        hero_src = f"https://{domain}{hero_src}"
     if hero_src:
         ld["image"] = hero_src
 
@@ -1819,20 +1887,25 @@ def render_article(a, pairs, domain):
 
 def render_writing_index(arts, domain):
     if not arts:
-        rows = '<p class="signal-article-note">Nothing here yet.</p>'
+        rows = '<p class="signal-article-listnote">Nothing here yet.</p>'
     else:
         rows = "".join(
             row_html({"headline": a["title"], "source": a["byline"],
-                      "date": a["_dt"].strftime("%b %-d"),
-                      "url": f"/writing/{a['slug']}/"}) for a in arts)
-    body = ('<article class="signal-article">'
-            '<p class="signal-article-eyebrow">Signal</p>'
-            '<h1 class="signal-article-hed">Writing</h1>'
-            '<p class="signal-article-standfirst">Occasional pieces written here '
-            'rather than found elsewhere. Everything else on this site is a link '
-            'to somebody else\u2019s work.</p>'
-            f'<div class="signal-writing-list"><div class="signal-column-list">{rows}</div></div>'
-            '</article>')
+                      "date": a["_dt"].strftime("%b %-d") if os.name != "nt"
+                              else a["_dt"].strftime("%b %d"),
+                      "url": f"/writing/{a['slug']}/"}, internal=True) for a in arts)
+    body = ('<section class="signal-hero signal-article-head">'
+            '<div class="signal-hero-topline">'
+            '<span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true"></span>Signal</span>'
+            '<span class="signal-hero-date">Occasional Pieces Written Here</span></div>'
+            '<h1 class="signal-hero-headline">Writing</h1>'
+            '<p class="signal-hero-dek">Occasional pieces written here rather than found '
+            'elsewhere. Everything else on this site is a link to somebody else\u2019s work.</p>'
+            '</section>'
+            '<div class="signal-article-grid signal-writing-list">'
+            '<div class="signal-column-header is-main"><h2 class="signal-column-title">All pieces</h2></div>'
+            f'<div class="signal-article-main"><div class="signal-column-list">{rows}</div></div>'
+            '</div>')
     return page(title="Writing \u00b7 Signal",
                 desc="Occasional pieces written by Signal rather than gathered from elsewhere.",
                 canonical=f"https://{domain}/writing/", body=body, domain=domain,
@@ -1841,10 +1914,55 @@ def render_writing_index(arts, domain):
                         "url": f"https://{domain}/writing/"})
 
 
+def check_signal_pieces(pairs, arts):
+    """The limits WRITING.md sets on Signal's own pieces, enforced so they
+    cannot drift. A Signal piece is any hero or row whose url is one of our
+    /writing/ pages, or whose source is "Signal". The build fails if:
+      - it points at no article, or at one not marked issue_eligible;
+      - an issue carries more than one;
+      - a Signal hero comes within 30 days of the previous Signal hero.
+    Without these the paper slowly becomes about itself."""
+    by_slug = {a["slug"]: a for a in arts}
+    bad, heroes = [], []
+    for issue, dt in pairs:
+        label = issue.get("dateLabel", str(dt))
+        items = [("hero", issue.get("hero") or {})]
+        items += [(k, r) for k, rows in issue.get("categories", {}).items() for r in rows]
+        mine = []
+        for where, it in items:
+            url = it.get("url", "")
+            src = (it.get("source") or "").strip()
+            if not (is_own(url) and "/writing/" in url) and src != "Signal":
+                continue
+            m = re.search(r"/writing/([^/?#]+)/?", url)
+            art = by_slug.get(m.group(1)) if m else None
+            if not art:
+                bad.append(f"{label}: Signal piece in {where} links to no article: {url or '(no url)'}")
+            elif not art.get("issue_eligible"):
+                bad.append(f"{label}: '{art['slug']}' is in {where} but not marked issue_eligible")
+            mine.append(where)
+            if where == "hero":
+                heroes.append((dt, label))
+        if len(mine) > 1:
+            bad.append(f"{label}: {len(mine)} Signal pieces ({', '.join(mine)}); the limit is one per issue")
+    heroes.sort()
+    for (d1, l1), (d2, l2) in zip(heroes, heroes[1:]):
+        if (d2 - d1).days < 30:
+            bad.append(f"{l2}: Signal hero only {(d2 - d1).days} days after {l1}; the limit is once a month")
+    if bad:
+        raise SystemExit("FAILED, Signal's own pieces break the issue limits:\n  - "
+                         + "\n  - ".join(bad))
+
+
 def build(data_file, out_dir, domain):
+    global SITE_HOST
+    SITE_HOST = domain
     data = json.load(open(data_file))
     pairs = sorted(((i, parse_label(i["dateLabel"])) for i in data),
                    key=lambda p: p[1], reverse=True)
+    # Checked before anything is written, so a bad issue never half-builds.
+    arts = load_articles()
+    check_signal_pieces(pairs, arts)
 
     out = Path(out_dir)
     if out.exists():
@@ -1869,7 +1987,6 @@ def build(data_file, out_dir, domain):
             d.mkdir(parents=True, exist_ok=True)
             (d / "index.html").write_text(html, encoding="utf-8")
 
-    arts = load_articles()
     if arts:
         (out / "writing").mkdir(exist_ok=True)
         (out / "writing" / "index.html").write_text(

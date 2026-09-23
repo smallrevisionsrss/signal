@@ -2,3 +2,11 @@
 Claude outputs/
 __pycache__/
 *.pyc
+
+# Signal's own articles are written and reviewed here but NOT published yet.
+# site_build.py skips /writing/ entirely when signal-articles.json is absent,
+# so keeping this file out of the repo is what keeps the articles offline.
+# To publish: delete these three lines, git add signal-articles.json assets/writing,
+# and push. Nothing else needs changing.
+signal-articles.json
+assets/writing/

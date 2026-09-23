@@ -134,22 +134,30 @@ should be the one the piece genuinely belongs to.
 
 ## `issue_eligible`
 
-A flag, not a gate. Nothing in the build reads it; it records an editorial
-judgement so the reason survives the conversation it was made in.
+Whether a piece may run in an issue. Setting it is the editor's call; the
+build checks it.
 
-An article is eligible for an issue slot only if it would pass the same tests
-Signal applies to everybody else. In practice that means the **circulation
-test**: could another outlet have written this from the same press release, or
-from the same Wikipedia page? A piece assembled from secondary sources fails,
-and running it anyway means Signal publishing in its own paper something it
-would reject from any other masthead.
+A Signal piece enters an issue as an ordinary row in its section, with the
+source `Signal` and the url of its page here, so dedup, source uniqueness and
+the rolling cap all keep working unchanged:
 
-When a piece is eligible, it enters an issue as an ordinary row with the source
-`Signal`, so dedup, source uniqueness and the rolling cap all keep working
-unchanged. Two further limits, which nothing enforces and which matter:
+```json
+{ "headline": "The Gray Behind Your Eyes", "source": "Signal", "byline": "Signal",
+  "date": "Sep 22", "url": "https://signal.smallrevisions.com/writing/eigengrau/" }
+```
 
-- **No more than one Signal piece per issue.**
-- **Never the hero more than once a month.**
+It can also be an issue's hero, with the same url. Either way it opens on the
+site rather than in a new tab, and carries no ↗.
+
+Three limits, **enforced by the build**, which fails before writing anything
+if an issue breaks one:
+
+- **The piece must exist here and be marked `issue_eligible: true`.** A row
+  with source `Signal`, or a url under `/writing/`, that points anywhere else
+  fails.
+- **No more than one Signal piece per issue**, hero and rows counted together.
+- **Never the hero more than once a month**: a Signal hero within 30 days of
+  the previous one fails.
 
 Without them the paper slowly becomes about itself, which is the exact thing the
 rolling cap exists to prevent for every other publication on the list.
