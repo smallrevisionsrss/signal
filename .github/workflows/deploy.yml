@@ -137,12 +137,12 @@ jobs:
               except Exception as e:
                   return label, url, 'warn', f'network: {type(e).__name__}', None
               if r.status_code in FATAL_CODES:
-                  return label, url, 'fatal', f'HTTP {r.status_code}', None
+                  return label, url, 'gone', f'HTTP {r.status_code}', None
               if r.status_code != 200:
                   return label, url, 'warn', f'HTTP {r.status_code}', None
               ctype = r.headers.get('Content-Type','')
               if not ctype.startswith('image/'):
-                  return label, url, 'fatal', f'not an image: {ctype[:50]}', None
+                  return label, url, 'notimage', f'not an image: {ctype[:50]}', None
               try:
                   blob = r.raw.read(400_000, decode_content=True)
                   dims = Image.open(io.BytesIO(blob)).size
@@ -154,7 +154,7 @@ jobs:
                   # Signal crops 4:3 from the centre. Outside 1.2-2.4 the crop
                   # takes a slice that was never composed to stand alone.
                   if not 1.2 <= ratio <= 2.4:
-                      return label, url, 'fatal', f'{w}x{h} ratio {ratio:.2f} outside 1.2-2.4', dims
+                      return label, url, 'ratio', f'{w}x{h} ratio {ratio:.2f} outside 1.2-2.4', dims
               return label, url, 'ok', ctype, dims
 
           def run(jobs):
@@ -164,9 +164,10 @@ jobs:
           newest, older = data[0], data[1:]
           fatal = warned = 0
 
+          FATAL = ('gone', 'notimage', 'ratio')
           print(f"== {newest['dateLabel']} ==")
           for label, url, verdict, detail, dims in run(images(newest)):
-              if verdict == 'fatal':
+              if verdict in FATAL:
                   print(f"  FAIL  {label}: {detail}\n        {url}"); fatal += 1
               elif verdict == 'warn':
                   print(f"  warn  {label}: {detail}\n        {url}"); warned += 1
@@ -174,16 +175,31 @@ jobs:
                   d = f'{dims[0]}x{dims[1]}' if dims else ''
                   print(f"  ok    {label}  {d}")
 
+          # The archive block reports BY REASON. The first version of this
+          # printed "dead" for every fatal verdict, so 63 portrait and square
+          # pictures - which load perfectly well and are merely the wrong shape
+          # for a 4:3 crop - were indistinguishable from genuine 404s. The
+          # number nobody could read was the one that mattered.
           older_jobs = [j for iss in older for j in images(iss)]
           print(f"\n== archive, {len(older_jobs)} images, reported only ==")
-          arch_fatal = arch_warn = 0
+          by = {'gone': [], 'notimage': [], 'ratio': [], 'warn': []}
           for label, url, verdict, detail, _ in run(older_jobs):
-              if verdict == 'fatal':
-                  print(f"  dead  {label}: {detail}\n        {url}"); arch_fatal += 1
-              elif verdict == 'warn':
-                  arch_warn += 1
-          print(f"{arch_fatal} dead, {arch_warn} unreachable, "
-                f"{len(older_jobs)-arch_fatal-arch_warn} fine.")
+              if verdict in by:
+                  by[verdict].append((label, detail, url))
+          for key, title in (('gone', 'GONE - 404 or 410, the picture is not there'),
+                             ('notimage', 'NOT AN IMAGE - wrong content type'),
+                             ('ratio', 'WRONG SHAPE - loads fine, outside the 1.2-2.4 crop band'),
+                             ('warn', 'UNREACHABLE FROM CI - may be fine for readers')):
+              rows = by[key]
+              print(f"\n  -- {title}: {len(rows)}")
+              for label, detail, url in rows[:40]:
+                  print(f"     {label}: {detail}\n       {url}")
+              if len(rows) > 40:
+                  print(f"     ... and {len(rows)-40} more")
+          fine = len(older_jobs) - sum(len(v) for v in by.values())
+          print(f"\n  archive totals: {len(by['gone'])} gone, "
+                f"{len(by['notimage'])} not an image, {len(by['ratio'])} wrong shape, "
+                f"{len(by['warn'])} unreachable, {fine} fine.")
 
           if fatal:
               print(f"\nFAIL: {fatal} image problem(s) in the newest issue. Not deploying.")
