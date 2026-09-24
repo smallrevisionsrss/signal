@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "September 24, 2026",
+    "hero": {
+      "headline": "American Librarians Opened a Reading Room in Paris in 1918",
+      "dek": "The American Library Association raised five million dollars for its Library War Service and pushed more than ten million books and magazines out to soldiers across five thousand locations, thirty six of them purpose built camp libraries. April White follows that effort to 10 rue de l'Elysee in Paris, where a reading room of more than seven thousand titles opened on 29 August 1918. Photographs held by the American Library in Paris show the circulation desk, the shipping department and the staff, among them Mary Josephine Booth, forty two that year, who handed out magazines to departing soldiers and then went home to Illinois for twenty five more years.",
+      "byline": "By April White · JSTOR Daily",
+      "category": "archives",
+      "image": "https://daily.jstor.org/wp-content/uploads/2026/09/building_a_library_in_wartime_paris_3_1050x700.jpg",
+      "url": "https://daily.jstor.org/building-a-library-in-wartime-paris/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Roof Cavity Found Mid Build Reshaped a 1914 Perth House",
+          "source": "est living",
+          "byline": "Megan Rawson",
+          "date": "Sep 22",
+          "url": "https://estliving.com/rosewood-state-of-kin/"
+        },
+        {
+          "headline": "Oslo's Architecture Triennale Moved Into a Gothic Brick Church",
+          "source": "ArchDaily",
+          "byline": "Eduardo Souza",
+          "date": "Sep 23",
+          "url": "https://www.archdaily.com/1185601/nature-as-a-starting-point-lessons-from-the-oslo-architecture-triennale-2026",
+          "image": "https://images.adsttc.com/media/images/6ab2/cad7/e78f/b301/883c/eef8/large_jpg/what-if-nature-comes-first-inside-the-oslo-architecture-triennale-2026_2.jpg"
+        },
+        {
+          "headline": "Mexico's Labelling Rules Took the Cartoon Churros Off the Box",
+          "source": "The Dieline",
+          "byline": "Bill McCool",
+          "date": "Sep 22",
+          "url": "https://thedieline.com/moises-visuals-doesnt-let-mexicos-packaging-rules-hold-sobre-masas-design-back/"
+        },
+        {
+          "headline": "Studio Blackburn Folded a C and an H Into a House for Sunderland",
+          "source": "Creative Boom",
+          "byline": "Katy Cowan",
+          "date": "Sep 22",
+          "url": "https://www.creativeboom.com/work/studio-blackburn-gives-sunderland-a-new-living-room-with-its-identity-for-culture-house/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "The Met Puts Krasner and Pollock in the Same Room",
+          "source": "Cultured",
+          "byline": "Julia Halperin",
+          "date": "Sep 23",
+          "url": "https://www.culturedmag.com/article/2026/09/23/art-lee-krasner-jackson-pollock-met-museum/"
+        },
+        {
+          "headline": "Retrofete Built a Burnout Fabric From a Print Found in Paris",
+          "source": "DSCENE",
+          "byline": "Jana Kostic",
+          "date": "Sep 18",
+          "url": "https://www.designscene.net/2026/09/retrofete-fw26-interview.html"
+        },
+        {
+          "headline": "Park Kwang-Jin Shows Forty Years of Painting at Ninety One",
+          "source": "Whitewall",
+          "byline": "Erica Silverman",
+          "date": "Sep 21",
+          "url": "https://whitewall.art/art/park-kwang-jin-listening-to-the-landscape/",
+          "image": "https://whitewall.art/wp-content/uploads/2026/09/Park-Kwang-Jin-PKJ-Install-01.jpg"
+        },
+        {
+          "headline": "Oscar Oiwa Paints Japanese Sweets Growing in Fields",
+          "source": "Whitehot Magazine",
+          "byline": "Natsumi Goldsfish",
+          "date": "Sep 23",
+          "url": "https://whitehotmagazine.com/articles/supplemental-sublime-at-goca-gallery/8055"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "GA-20 and Charlie Musselwhite Cut Blues Now in Five Days at Rare Signals",
+          "source": "Relix",
+          "byline": "Dean Budnick",
+          "date": "Sep 17",
+          "url": "https://relix.com/features/detail/in-the-now-ga-20-and-charlie-musselwhite-attest-to-the-vigor-and-vitality-of-the-blues",
+          "image": "https://lede-admin.relix.com/wp-content/uploads/sites/74/2026/09/Elizabeth_Ellenwood_DSC2843.jpg"
+        },
+        {
+          "headline": "Ortofon Cut the Stylus Hole Into a Diamond Cantilever With a Laser",
+          "source": "Stereophile",
+          "byline": "Michael Trei",
+          "date": "Sep 23",
+          "url": "https://www.stereophile.com/content/spin-doctor-41-diamonds-are-forever-ortofon-vertex-cartridge"
+        },
+        {
+          "headline": "Wilco Built the Opening Track of Yankee Hotel Foxtrot to Come Apart",
+          "source": "Paste",
+          "byline": "Hayden Merrick",
+          "date": "Sep 23",
+          "url": "https://www.pastemagazine.com/music/wilco/wilco-yankee-hotel-foxtrot-i-am-trying-to-break-your-heart-2026"
+        },
+        {
+          "headline": "Koji Kondo Wrote Ocarina of Time to Assemble Itself in Eight-Bar Pieces",
+          "source": "Clash",
+          "byline": "Sam Walker-Smart",
+          "date": "Sep 23",
+          "url": "https://www.clashmusic.com/features/echoes-of-hyrule-ocarina-of-times-enduring-musical-legacy/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Fifty Pieces of Victorian Hairwork Leave a Closed Missouri Museum for Brooklyn",
+          "source": "The Art Newspaper",
+          "byline": "Eve M. Kahn",
+          "date": "Sep 24",
+          "url": "https://www.theartnewspaper.com/2026/09/24/hairwork-collection-leilas-hair-museum-morbid-anatomy-brooklyn"
+        },
+        {
+          "headline": "A 1907 Binding Set With a Hundred and Ninety Amethysts",
+          "source": "Smithsonian Libraries and Archives",
+          "byline": "Michelle Jackson-Beckett",
+          "date": "Sep 14",
+          "url": "https://www.smithsonianmag.com/blogs/smithsonian-libraries-and-archives/2026/09/14/did-you-know-the-smithsonian-has-a-extremely-rare-book-covered-in-amethysts/"
+        },
+        {
+          "headline": "Nine Machines for Nine Console Generations, From the Odyssey to the PS5",
+          "source": "Bitmap Books",
+          "byline": "Faith Johnson",
+          "date": "Sep 5",
+          "url": "https://www.bitmapbooks.com/blogs/news/visualising-nine-generations-of-consoles"
+        },
+        {
+          "headline": "Rolf and Mette Hay Open the House Where They Keep What They Collected",
+          "source": "Wallpaper*",
+          "byline": "Ali Morris",
+          "date": "Sep 18",
+          "url": "https://www.wallpaper.com/design-interiors/the-stuff-that-surrounds-you-rolf-and-mette-hay",
+          "image": "https://cdn.mos.cms.futurecdn.net/fj6W6A78tQafFnzS8cJrm-1920-80.png"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Cypriot Hermit Cut His Own Cave in 1159 and Was Never Left Alone",
+          "source": "Atlas Obscura",
+          "byline": "Auriane Reze-Duclos",
+          "date": "Sep 17",
+          "url": "https://www.atlasobscura.com/articles/posts/agios-neophytos-the-hermit-people-couldnt-manage-to-leave-alone",
+          "image": "https://img.atlasobscura.com/hc40ITrhuUhOjIM7jJEgPrlJZXOVZTDFtkszvBCyWxk/rs:fill:1200:630/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cnNhL2NyZWF0b3Jf/YXJ0aWNsZXMvMjAy/Ni8wOS0xNy9jMTE2/Njk3YS1hNWE0LTQx/OTUtOGE3Yy1lMWU3/MGIzMjk5NDhfSWtv/bmUtQWdpb3NfTmVv/Znl0b3MuanBn.jpg"
+        },
+        {
+          "headline": "Cicero Called It Probabilia and Meant Something Harder Than Doubt",
+          "source": "Aeon",
+          "byline": "Massimo Pigliucci",
+          "date": "Sep 21",
+          "url": "https://aeon.co/essays/a-good-sceptic-has-more-than-doubt-and-less-than-certainty"
+        },
+        {
+          "headline": "Mississippian Potters Kept Their Clay Recipe Secret in Tampa Bay",
+          "source": "Nautilus",
+          "byline": "Jake Currie",
+          "date": "Sep 22",
+          "url": "https://nautil.us/the-mysterious-migrant-potters-of-ancient-tampa-bay-1285200"
+        },
+        {
+          "headline": "A Carpenter Cut Tight Joints Into an Egyptian Coffin in 680 BCE",
+          "source": "Hyperallergic",
+          "byline": "Nageen Shaikh",
+          "date": "Sep 23",
+          "url": "https://hyperallergic.com/the-unsung-craftspeople-who-built-ancient-egypt/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Joe Hart Photographed a Month of Mexico's Independent Lucha Libre",
+          "source": "It's Nice That",
+          "byline": "Paul Moore",
+          "date": "Sep 23",
+          "url": "https://www.itsnicethat.com/articles/joe-hart-aspirantes-photography-project-230926"
+        },
+        {
+          "headline": "Adam Rifkin Spent Forty Years Getting His Mother's Western Made",
+          "source": "Talkhouse",
+          "byline": "Adam Rifkin",
+          "date": "Sep 18",
+          "url": "https://talkhouse.com/the-little-train-that-finally-came-home"
+        },
+        {
+          "headline": "Evan dos Santos Shoots Fashion on a Nikon F3 and a Mamiya 645",
+          "source": "Amateur Photographer",
+          "byline": "Jessica Miller",
+          "date": "Sep 19",
+          "url": "https://amateurphotographer.com/technique/interviews/these-intriguing-film-photographs-offer-a-fresh-edgy-take-on-fashion-imagery-you-should-definitely-check-them-out-today/",
+          "image": "https://amateurphotographer.com/wp-content/uploads/sites/7/2026/09/Evan-dos-santos-feature.png"
+        },
+        {
+          "headline": "Pig Iron Works Put Twenty Seven Photographers Into One Book",
+          "source": "Booooooom",
+          "date": "Sep 22",
+          "url": "https://www.booooooom.com/2026/09/22/handover-by-pig-iron-works/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 23, 2026",
     "hero": {
       "headline": "Steven Heller Gives Away the NASA Archive He Started at Nine",
