@@ -1084,12 +1084,11 @@ def page(*, title, desc, canonical, body, domain, jsonld=None,
 
     mast = nav_html(domain)
 
-    # Colophon belongs to the page, not to the subscribe block it started
-    # in — that block only renders on issue and listing pages, which left
-    # archive, about, subscribe and 404 without it. Here it is on all 60.
-    colophon = ('<p class="signal-colophon">Signal is compiled each morning by '
-                f'<a href="{STUDIO_URL}" rel="noopener">McSwain</a>, '
-                'a design studio in New York.</p>')
+    # Colophon removed 24 Sep 2026 at the editor's request. It read "Signal is
+    # compiled each morning by McSwain, a design studio in New York" and sat on
+    # every page. STUDIO_URL is still used by the footer, so the studio is still
+    # linked from the site; this was the per-page line, not the only one.
+    colophon = ''
     foot = (footer_html(domain) + IMG_FALLBACK_JS + nav_js() + FOOTER_JS
             + analytics_tag() + "</body></html>")
 
@@ -1609,54 +1608,74 @@ def render_404(domain):
 ARTICLES_FILE = Path(__file__).resolve().parent / "signal-articles.json"
 
 ARTICLE_CSS = """
-/* Signal writing. Assembled from the issue page's own parts rather than a
-   look of its own: the hero's black rule and topline, the feed's column
-   headers with their black underline, the hairline column divider, and
-   rows. An article should read as one more page of the same paper. */
-.signal-article-head{padding-bottom:24px}
-.signal-article-head .signal-hero-headline{margin:0 0 20px}
-.signal-article-head .signal-hero-dek{max-width:60ch;margin:0 0 20px}
-.signal-article-head .signal-hero-date a{color:inherit;border-bottom:1px solid transparent;
-  transition:border-color .15s ease,color .15s ease}
-.signal-article-head .signal-hero-date a:hover{color:var(--signal);border-color:var(--signal)}
-
-/* Same geometry as .signal-feed-grid: three equal columns, 32px inner
-   padding, pulled out by 32px so the rules meet the container edges. */
-.signal-article-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
-  column-gap:0;margin:0 -32px;width:calc(100% + 64px);padding:8px 0 64px;
-  grid-template-areas:"hm hm hr" "lm lm lr";align-items:start}
-.signal-article-grid>.signal-column-header{margin:0 32px 4px;align-self:stretch}
-.signal-article-grid>.signal-column-header.is-main{grid-area:hm}
-.signal-article-grid>.signal-column-header.is-rail{grid-area:hr}
-.signal-article-main{grid-area:lm;padding:0 32px;min-width:0}
-.signal-article-rail{grid-area:lr;position:relative;padding:0 32px;min-width:0;align-self:stretch}
-.signal-article-rail::before{content:"";position:absolute;top:32px;bottom:0;left:0;
-  width:1px;background:var(--rule-soft)}
-.signal-article-rail .signal-column-header{margin:32px 0 4px}
-.signal-article-listnote{font-size:12.5px;line-height:1.55;font-weight:500;
-  color:var(--ink-faint);padding:18px 0 0;border-top:1px solid var(--rule-soft)}
-
-.signal-article-main>.signal-fig:first-child{margin-top:22px}
+/* Header restyled 24 Sep 2026 to match the issue pages: the rule sits directly
+   under the nav, and beneath it the dotted Signal eyebrow on the left with the
+   dateline hard right, exactly as .signal-hero/.signal-hero-topline do it. The
+   eyebrow and dot classes are the site's own, reused rather than duplicated. */
+.signal-article{padding:0 0 72px}
+/* The rule lives on the TOPLINE, not on .signal-article. The article is the
+   left column of a 68ch grid, so a rule on it stopped short of the page; the
+   topline is lifted out of the grid and sits straight in .container, which is
+   how .signal-hero does it on the issue pages. Same full bleed, date hard
+   right against the container edge. */
+.signal-article-topline{display:flex; align-items:center; justify-content:space-between;
+  gap:20px; border-top:1px solid var(--rule); padding-top:28px; margin-bottom:36px}
+.signal-article-dateline{font-family:var(--sans); font-size:13px; font-weight:500;
+  color:var(--ink-faint); letter-spacing:.02em; text-align:right}
+.signal-article-dateline b{font-weight:500; color:var(--ink)}
+@media (max-width:640px){.signal-article-topline{flex-direction:column;
+  align-items:flex-start; gap:10px} .signal-article-dateline{text-align:left}}
+/* The site's column system is repeat(3,1fr) - see .signal-hero-grid and
+   .signal-feed-grid. This grid used to be minmax(0,68ch) + 1fr, a fixed text
+   measure that never grew, so the article stayed the same width on a 1440px
+   screen as on a 1024px one while the rail swallowed the difference. Now it is
+   the same three fluid columns as everything else, the article spanning two of
+   them and the rail taking the third. The gutter is padding on the article
+   rather than a grid gap, which is how .signal-hero-text does it. */
+.signal-article-grid{display:grid; grid-template-columns:repeat(3,1fr);
+  column-gap:0; align-items:start}
+.signal-article-grid > .signal-article{grid-column:1 / span 2; padding-right:40px}
+.signal-article-grid > .signal-article-rail{grid-column:3}
+@media (max-width:1023px){
+  .signal-article-grid{grid-template-columns:1fr; row-gap:48px}
+  .signal-article-grid > .signal-article{grid-column:1; padding-right:0}
+  .signal-article-grid > .signal-article-rail{grid-column:1}
+}
+.signal-article-eyebrow{font-family:var(--sans);font-size:13px;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--cat);margin:48px 0 18px}
+.signal-article-hed{font-family:var(--serif);font-weight:400;
+  font-size:clamp(1.9rem,1.2rem + 2vw,2.625rem);line-height:1.12;letter-spacing:-.01em;
+  color:var(--ink);max-width:20ch;margin:0 0 20px}
+.signal-article-standfirst{font-family:var(--sans);font-size:1.15rem;line-height:1.55;
+  color:var(--ink-soft);max-width:46ch;margin:0 0 30px}
+/* The standalone byline line is gone: the byline moved into the topline
+   dateline on 24 Sep 2026, so it now reads "By Signal / 20 September" up beside
+   the eyebrow rather than sitting on its own between standfirst and hero. */
+.signal-article-figure{margin:0 0 40px}
+.signal-article-figure img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
 .signal-article-body p{font-family:var(--sans);font-size:1.0625rem;line-height:1.66;
   color:var(--ink);max-width:68ch;margin:0 0 1.3em}
-/* A pull quote is set like a row headline, between the two rules the
-   feed already uses: black above, as under a column title, hairline below. */
-.signal-article-body .signal-article-pull{font-family:var(--serif);font-weight:400;
-  font-size:clamp(1.4rem,1.1rem + .9vw,1.75rem);line-height:1.2;letter-spacing:-.005em;
-  color:var(--ink);max-width:30ch;margin:36px 0;padding:20px 0 22px;
-  border-top:1px solid var(--rule);border-bottom:1px solid var(--rule-soft)}
-.signal-article-main .signal-note{margin:40px 0 0}
-
-@media (max-width:900px){
-  .signal-article-grid{grid-template-columns:1fr;margin:0;width:100%;
-    grid-template-areas:"hm" "lm" "hr" "lr"}
-  .signal-article-grid>.signal-column-header{margin:0 0 4px}
-  .signal-article-grid>.signal-column-header.is-rail{margin-top:48px}
-  .signal-article-main,.signal-article-rail{padding:0}
-  .signal-article-rail::before{display:none}
-  .signal-article-rail .signal-column-header{margin-top:28px}
-}
-.signal-writing-list{padding:8px 0 64px}
+.signal-article-pull{font-family:var(--serif);font-size:1.55rem;line-height:1.26;
+  color:var(--ink);max-width:30ch;margin:2.2em 0;padding-top:20px;
+  border-top:2px solid var(--signal)}
+.signal-article-rail{position:sticky;top:28px}
+/* Hairline under the rail heading only. .signal-column-title is shared with the
+   issue pages' category headings and with Sources/Further, so this is scoped to
+   the rail rather than added to the token; the others were not asked for and a
+   rule under every one of them would restripe the issue pages. --rule-soft is
+   the lighter of the two rule tokens (#dedcd6 against #111111). */
+.signal-article-rail .signal-column-title{display:block;
+  border-bottom:1px solid var(--rule-soft); padding-bottom:12px; margin:0 0 4px}
+.signal-article-sources{margin:56px 0 0;padding-top:24px;border-top:1px solid var(--rule)}
+/* Inside the rail these are stacked blocks, not a coda to a long article, so
+   they drop the heavy top rule and the 56px gap. The hairline under each
+   heading comes from the .signal-article-rail .signal-column-title rule. */
+.signal-article-rail .signal-article-sources{margin:0 0 36px; padding-top:0; border-top:0}
+.signal-article-rail .signal-article-sources:last-child{margin-bottom:0}
+.signal-article-note{font-family:var(--sans);font-size:13px;line-height:1.6;
+  color:var(--ink-faint);max-width:68ch;margin:40px 0 0;padding-top:18px;
+  border-top:1px solid var(--rule-soft)}
+.signal-writing-list{margin:40px 0 0}
 .signal-fig{margin:0 0 40px}
 .signal-fig--full{grid-column:1 / -1}
 .signal-fig img{width:100%;display:block;background:var(--rule-soft)}
@@ -1722,7 +1741,7 @@ def load_articles():
     return sorted(arts, key=lambda a: a["_dt"], reverse=True)
 
 
-def article_rail(article, pairs, limit=5):
+def article_rail(article, pairs, limit=5, wrap=True):
     """Rows from the archive in the same section, so a piece visibly sits on
     the material it came out of. This is the one thing a Signal article can
     do that a post on any other site cannot."""
@@ -1740,8 +1759,13 @@ def article_rail(article, pairs, limit=5):
             break
     if not rows:
         return ""
-    return ('<div class="signal-column-list">'
-            + "".join(row_html(r) for r in rows) + "</div>")
+    inner = (f'<div class="signal-article-sources">'
+             f'<h2 class="signal-column-title">From the archive</h2>'
+             '<div class="signal-column-list">'
+             + "".join(row_html(r) for r in rows) + '</div></div>')
+    # wrap=False when the caller supplies the <aside> itself, because the rail
+    # now holds Sources and Further above these rows.
+    return ('<aside class="signal-article-rail">' + inner + '</aside>') if wrap else inner
 
 
 
@@ -1804,64 +1828,46 @@ def render_article(a, pairs, domain):
         else:
             blocks.append(f'<p>{e(b["text"])}</p>')
 
-    def header(label, cls, key=None):
-        icon = ICONS.get(key, "") if key else ""
-        return (f'<div class="signal-column-header {cls}"'
-                + (f' data-category="{key}"' if key else "") + f'>{icon}'
-                f'<h2 class="signal-column-title">{e(label)}</h2></div>')
-
-    def cite(items, note=None):
+    def cite(items, heading, note=None):
+        if not items:
+            return ""
         rows = "".join(row_html({"headline": i["title"], "source": i.get("publisher", ""),
                                  "url": i["url"]}) for i in items)
-        n = f'<p class="signal-article-listnote">{e(note)}</p>' if note else ""
-        return f'<div class="signal-column-list">{rows}</div>{n}'
+        n = f'<p class="signal-article-note">{e(note)}</p>' if note else ""
+        return (f'<div class="signal-article-sources">'
+                f'<h2 class="signal-column-title">{heading}</h2>'
+                f'<div class="signal-column-list">{rows}</div>{n}</div>')
 
     note = ""
     if a.get("editorial_note"):
-        note = (f'<div class="signal-note"><h2>A note on this piece</h2>'
-                f'<p>{e(a["editorial_note"])}</p></div>')
+        note = f'<p class="signal-article-note">{e(a["editorial_note"])}</p>'
 
-    cat = a.get("category")
-    cat_label = KEY_TO_LABEL.get(cat, "Signal")
+    topline = ('<div class="signal-article-topline">'
+               '<span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true">'
+               f'</span>{e(a.get("eyebrow", "Signal"))}</span>'
+               f'<span class="signal-article-dateline">By {e(a["byline"])} / '
+               f'<b>{e(nice)}</b></span>'
+               '</div>')
 
-    # Opens exactly like an issue: black rule, pulsing Signal eyebrow, the
-    # standing line and date on the right, then a full width headline.
-    head = f"""<section class="signal-hero signal-article-head">
-<div class="signal-hero-topline">
-<span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true"></span>{e(a.get("eyebrow", "Signal"))}</span>
-<span class="signal-hero-date"><a href="/writing/">Signal Writing</a> / <span class="signal-hero-date-value">{e(nice)}</span></span>
-</div>
-<h1 class="signal-hero-headline">{e(a["title"])}</h1>
-<p class="signal-hero-dek">{e(a["standfirst"])}</p>
-<div class="signal-hero-meta"><span class="signal-hero-byline">By {e(a["byline"])}</span></div>
-</section>"""
-
-    main = ('<article class="signal-article-main">' + figure_html(hero)
+    left = ('<article class="signal-article">'
+            f'<h1 class="signal-article-hed">{e(a["title"])}</h1>'
+            f'<p class="signal-article-standfirst">{e(a["standfirst"])}</p>'
+            + figure_html(hero)
             + '<div class="signal-article-body">' + "".join(blocks) + '</div>'
             + note + '</article>')
 
-    # Right hand column: whichever of Sources, Further and From the archive
-    # exist, in that order. The first one's header sits in the header row
-    # beside the article's, the way the feed's three headers line up; the
-    # rest stack below it the way the second row of sections does.
-    sections = []
-    if a.get("sources"):
-        sections.append(("Sources", None, cite(a["sources"])))
-    if a.get("further"):
-        sections.append(("Further", None, cite(a["further"], a.get("further_note"))))
-    archive = article_rail(a, pairs)
-    if archive:
-        sections.append(("From the archive", None, archive))
+    # Sources and Further moved into the rail on 24 Sep 2026. They are apparatus
+    # rather than argument, and they were pushing the end of the piece a long way
+    # down the page while the third column sat empty beside it. The rail now
+    # carries all three blocks; the archive rows stay last because they are the
+    # one thing here no other site could assemble.
+    rail = ('<aside class="signal-article-rail">'
+            + cite(a.get("sources"), "Sources")
+            + cite(a.get("further"), "Further", a.get("further_note"))
+            + article_rail(a, pairs, wrap=False)
+            + '</aside>')
 
-    rail_head, rail = "", ""
-    if sections:
-        rail_head = header(sections[0][0], "is-rail", sections[0][1])
-        rail = ('<aside class="signal-article-rail">' + sections[0][2]
-                + "".join(header(lab, "", key) + html_ for lab, key, html_ in sections[1:])
-                + '</aside>')
-
-    body = (head + '<div class="signal-article-grid">'
-            + header(cat_label, "is-main", cat) + rail_head + main + rail + '</div>')
+    body = (topline + '<div class="signal-article-grid">' + left + rail + '</div>')
 
     url = article_url(a, domain)
     ld = {"@context": "https://schema.org", "@type": "Article",
@@ -1887,25 +1893,25 @@ def render_article(a, pairs, domain):
 
 def render_writing_index(arts, domain):
     if not arts:
-        rows = '<p class="signal-article-listnote">Nothing here yet.</p>'
+        rows = '<p class="signal-article-note">Nothing here yet.</p>'
     else:
         rows = "".join(
             row_html({"headline": a["title"], "source": a["byline"],
                       "date": a["_dt"].strftime("%b %-d") if os.name != "nt"
                               else a["_dt"].strftime("%b %d"),
                       "url": f"/writing/{a['slug']}/"}, internal=True) for a in arts)
-    body = ('<section class="signal-hero signal-article-head">'
-            '<div class="signal-hero-topline">'
-            '<span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true"></span>Signal</span>'
-            '<span class="signal-hero-date">Occasional Pieces Written Here</span></div>'
-            '<h1 class="signal-hero-headline">Writing</h1>'
-            '<p class="signal-hero-dek">Occasional pieces written here rather than found '
-            'elsewhere. Everything else on this site is a link to somebody else\u2019s work.</p>'
-            '</section>'
-            '<div class="signal-article-grid signal-writing-list">'
-            '<div class="signal-column-header is-main"><h2 class="signal-column-title">All pieces</h2></div>'
-            f'<div class="signal-article-main"><div class="signal-column-list">{rows}</div></div>'
-            '</div>')
+    body = ('<article class="signal-article">'
+            '<div class="signal-article-topline">'
+            '<span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true">'
+            '</span>Signal</span>'
+            '<span class="signal-article-dateline">Occasional Pieces Written Here</span>'
+            '</div>'
+            '<h1 class="signal-article-hed">Writing</h1>'
+            '<p class="signal-article-standfirst">Occasional pieces written here '
+            'rather than found elsewhere. Everything else on this site is a link '
+            'to somebody else\u2019s work.</p>'
+            f'<div class="signal-writing-list"><div class="signal-column-list">{rows}</div></div>'
+            '</article>')
     return page(title="Writing \u00b7 Signal",
                 desc="Occasional pieces written by Signal rather than gathered from elsewhere.",
                 canonical=f"https://{domain}/writing/", body=body, domain=domain,
@@ -1954,6 +1960,32 @@ def check_signal_pieces(pairs, arts):
                          + "\n  - ".join(bad))
 
 
+def issue_slugs(pairs):
+    """Every article slug an issue actually carries.
+
+    Publication rule, set 24 Sep 2026: a Signal piece goes live only once an
+    issue carries it. Writing one is not publishing it. Until an issue runs the
+    row, the page does not exist — no /writing/<slug>/, no row on /writing/,
+    nothing in the sitemap or the feed — so nothing can be found by a crawler,
+    a share or a guessed URL before the paper has actually run it.
+
+    Same detection as check_signal_pieces: a row is ours if its url is one of
+    our /writing/ pages, or its source is "Signal".
+    """
+    out = set()
+    for issue, _dt in pairs:
+        items = [issue.get("hero") or {}]
+        items += [r for rows in issue.get("categories", {}).values() for r in rows]
+        for it in items:
+            url = it.get("url", "")
+            if not (is_own(url) and "/writing/" in url) and (it.get("source") or "").strip() != "Signal":
+                continue
+            m = re.search(r"/writing/([^/?#]+)/?", url)
+            if m:
+                out.add(m.group(1))
+    return out
+
+
 def build(data_file, out_dir, domain):
     global SITE_HOST
     SITE_HOST = domain
@@ -1961,8 +1993,14 @@ def build(data_file, out_dir, domain):
     pairs = sorted(((i, parse_label(i["dateLabel"])) for i in data),
                    key=lambda p: p[1], reverse=True)
     # Checked before anything is written, so a bad issue never half-builds.
-    arts = load_articles()
-    check_signal_pieces(pairs, arts)
+    # load_articles() validates every article in the file, published or not, so
+    # a piece still waiting for a slot cannot quietly rot; issue_slugs() then
+    # decides which of them the site is allowed to publish.
+    all_arts = load_articles()
+    check_signal_pieces(pairs, all_arts)
+    live = issue_slugs(pairs)
+    arts = [a for a in all_arts if a["slug"] in live]
+    held = [a["slug"] for a in all_arts if a["slug"] not in live]
 
     out = Path(out_dir)
     if out.exists():
@@ -2049,6 +2087,12 @@ def build(data_file, out_dir, domain):
     print(f"built {len(pairs)} issues over {total_pages} pages of {PER_PAGE}, "
           f"{total} pieces, {files} files -> {out}")
     print(f"newest: {pairs[0][0]['dateLabel']}   oldest: {pairs[-1][0]['dateLabel']}")
+    # Said out loud every build, because a piece can sit written and unpublished
+    # for weeks and the only thing that would otherwise show it is its absence.
+    if arts:
+        print("writing, live: " + ", ".join(a["slug"] for a in arts))
+    if held:
+        print("writing, held back until an issue carries them: " + ", ".join(held))
     return pairs
 
 

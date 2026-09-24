@@ -8,6 +8,51 @@ build simply skips the whole section.
 
 ---
 
+## The page
+
+Settled 24 September 2026 on the Death piece, and it is the template for every
+self-written article from here. Nothing about it is per-article; the layout
+comes out of `site_build.py` and every piece in `signal-articles.json` gets it.
+
+It uses the site's own three-column grid, `repeat(3, 1fr)`, the same one behind
+`.signal-hero-grid` and `.signal-feed-grid`. So the article column and the
+picture above it hold **two columns of three** at any screen width, lining up
+exactly with the issue pages rather than sitting at some measure of their own.
+
+From the top:
+
+| | |
+|---|---|
+| **Nav** | Signal wordmark with the red dot, the section underneath, date on the right |
+| **Rule** | Full bleed, tight under the nav — the same first rule the issues have |
+| **Topline** | Eyebrow and dateline, lifted out of the grid so the rule runs the full width |
+| **Headline, standfirst, hero, body** | Columns 1–2, 40px of air on the right |
+| **Rail** | Column 3: **Sources**, then **Further**, then **From the archive** |
+
+The rail order matters and was arrived at by moving it: citations sit level with
+the top of the piece where they can be read while reading, and the archive rows
+sit under them rather than above. Only the rail's column titles carry the
+hairline (`--rule-soft`), so the article column stays clean.
+
+Byline is **Small Revisions**, not Signal. No colophon, no "written from
+secondary sources" note, no rights boilerplate — those came off on 24 September
+and should not come back; anything that needs saying about provenance goes in
+`_image_provenance` on the article, which is a record for us, not for the page.
+
+### Checking one before it ships
+
+The built page pulls its pictures from `/assets/`, which only resolves on the
+live site, so opening the built file off disk shows the layout with every
+picture broken. `make_article_preview.py` inlines them as data URIs and drops
+the analytics beacon, giving one file that can be opened anywhere:
+
+```
+python3 site_build.py
+python3 make_article_preview.py --all        # or: eigengrau
+```
+
+---
+
 ## Images
 
 **Every article must carry a hero. The build fails without one**, the same way
@@ -109,7 +154,7 @@ There is no limit on how many. A plate works inline too: give the block
   "eyebrow": "Signal",
   "category": "sound-vinyl",
   "date": "2026-09-20",
-  "byline": "Signal",
+  "byline": "Small Revisions",
   "hero": { … },
   "issue_eligible": false,
   "editorial_note": "Shown in small type at the foot of the page.",
@@ -132,32 +177,58 @@ should be the one the piece genuinely belongs to.
 
 ---
 
-## `issue_eligible`
+## Publication: an issue is what puts a piece live
 
-Whether a piece may run in an issue. Setting it is the editor's call; the
-build checks it.
+**Set 24 September 2026. Writing a piece is not publishing it.** A Signal
+article goes live only once an issue carries it as a row or as the hero.
 
-A Signal piece enters an issue as an ordinary row in its section, with the
-source `Signal` and the url of its page here, so dedup, source uniqueness and
-the rolling cap all keep working unchanged:
+`build()` enforces this. It loads and validates every article in the file, then
+publishes only the slugs some issue actually references:
 
-```json
-{ "headline": "The Gray Behind Your Eyes", "source": "Signal", "byline": "Signal",
-  "date": "Sep 22", "url": "https://signal.smallrevisions.com/writing/eigengrau/" }
+- carried by an issue → `/writing/<slug>/` is built, it gets a row on
+  `/writing/`, and it enters the sitemap
+- not carried → **no page at all.** Not unlinked, not `noindex`: absent. There
+  is nothing for a crawler to find, nothing for a guessed URL to hit, and
+  nothing to share early by accident
+
+Every build says which is which, so a piece cannot sit forgotten:
+
+```
+writing, live: eigengrau
+writing, held back until an issue carries them: death-politicians-in-my-eyes
 ```
 
-It can also be an issue's hero, with the same url. Either way it opens on the
-site rather than in a new tab, and carries no ↗.
+Two ways to put a piece in an issue, and the build detects both: give the row
+`"url": "/writing/<slug>/"`, or set `"source": "Signal"`. A row pointing at a
+slug that does not exist fails the build, so a typo cannot quietly publish
+nothing.
 
-Three limits, **enforced by the build**, which fails before writing anything
-if an issue breaks one:
+This replaces `.gitignore` as the mechanism. Keeping `signal-articles.json` out
+of the repo hides everything at once, including a piece that is ready; the gate
+is per-article and survives the file being committed.
 
-- **The piece must exist here and be marked `issue_eligible: true`.** A row
-  with source `Signal`, or a url under `/writing/`, that points anywhere else
-  fails.
-- **No more than one Signal piece per issue**, hero and rows counted together.
-- **Never the hero more than once a month**: a Signal hero within 30 days of
-  the previous one fails.
+---
+
+## `issue_eligible`
+
+A flag, not a gate — the gate is the issue itself, above. This records the
+editorial judgement so the reason survives the conversation it was made in, and
+`check_signal_pieces()` fails the build if an issue carries a piece that was
+never marked eligible.
+
+An article is eligible for an issue slot only if it would pass the same tests
+Signal applies to everybody else. In practice that means the **circulation
+test**: could another outlet have written this from the same press release, or
+from the same Wikipedia page? A piece assembled from secondary sources fails,
+and running it anyway means Signal publishing in its own paper something it
+would reject from any other masthead.
+
+When a piece is eligible, it enters an issue as an ordinary row with the source
+`Signal`, so dedup, source uniqueness and the rolling cap all keep working
+unchanged. Two further limits, which nothing enforces and which matter:
+
+- **No more than one Signal piece per issue.**
+- **Never the hero more than once a month.**
 
 Without them the paper slowly becomes about itself, which is the exact thing the
 rolling cap exists to prevent for every other publication on the list.
