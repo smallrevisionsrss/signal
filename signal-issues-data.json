@@ -1,5 +1,202 @@
 [
   {
+    "dateLabel": "September 25, 2026",
+    "hero": {
+      "headline": "Lucifer Played Thirteen Gigs a Week and Never Released a Record",
+      "dek": "Klemen Breznikar reconstructs the Australian hard rock band Lucifer from the people who were in it. They played Western Australia at a rate of as many as thirteen gigs a week, supported Queen at Perth Entertainment Centre on 11 April 1976, and got as far as Armstrong Studios in Melbourne with Vanda and Young being courted as producers, before the earnings went, along with the truck, the lighting rig, the instruments and Tom Matthews's Les Paul. The masters stayed at the studio. Fifty years on, the band's only official record arrived on 18 September, fourteen tracks pulled off front of house mixing desks and cassettes nobody meant to sell.",
+      "byline": "By Klemen Breznikar · It's Psychedelic Baby Magazine",
+      "category": "sound-vinyl",
+      "image": "https://www.psychedelicbabymag.com/wp-content/uploads/2026/09/Lucifer.jpg",
+      "url": "https://www.psychedelicbabymag.com/2026/09/lucifer-interview.html"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "GM Built a Two Seat Electric Commuter in 1969 and Shelved It",
+          "source": "Hackaday",
+          "byline": "Navarre Bartz",
+          "date": "Sep 24",
+          "url": "https://hackaday.com/2026/09/24/gms-experimental-ev-from-1969/",
+          "image": "https://hackaday.com/wp-content/uploads/2026/09/wide-1969_XP-512E_front-side.jpg"
+        },
+        {
+          "headline": "Wartime Shortage Is Taking the Colour Off Japanese Snack Packaging",
+          "source": "Graphéine",
+          "date": "Sep 22",
+          "url": "https://grapheine.com/en/magazine/war-impact-design/"
+        },
+        {
+          "headline": "Two Concave Concrete Bays Turn a Sydney Laneway Back Into a Street",
+          "source": "Yatzer",
+          "date": "Sep 25",
+          "url": "https://www.yatzer.com/denj-lane-sydney-carter-williamson-architects"
+        },
+        {
+          "headline": "A Mass Timber Museum in Quebec Holds Forty Thousand Cast Iron Objects",
+          "source": "Architectural Record",
+          "byline": "David Sokol",
+          "date": "Sep 22",
+          "url": "https://www.architecturalrecord.com/articles/18418-a-mass-timber-museum-in-quebec-showcases-cast-iron-artifacts"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Betty Moody Has Kept a Houston Gallery Open Since 1975",
+          "source": "Glasstire",
+          "byline": "Chris Becker",
+          "date": "Sep 23",
+          "url": "https://glasstire.com/2026/09/23/living-a-life-with-art-a-conversation-with-betty-moody/"
+        },
+        {
+          "headline": "Lee Miller Stands on Both Sides of the Camera in Chicago",
+          "source": "Newcity Art",
+          "byline": "Susan Aurinko",
+          "date": "Sep 23",
+          "url": "https://art.newcity.com/2026/09/23/lee-miller-on-both-sides-of-the-camera/"
+        },
+        {
+          "headline": "Ed Atkins Filmed a Cardboard Stage Set Coming Apart in Seoul",
+          "source": "Ocula",
+          "byline": "Julieta Caldas",
+          "date": "Sep 20",
+          "url": "https://ocula.com/magazine/conversations/ed-atkins-gladstone-seoul-september-2026/"
+        },
+        {
+          "headline": "Two-Person Saws and Axe Throwing at a Sierra Nevada Logging Jamboree",
+          "source": "35mmc",
+          "byline": "Jeffery Luhn",
+          "date": "Sep 24",
+          "url": "https://www.35mmc.com/24/09/2026/logging-jamboree/",
+          "image": "https://www.35mmc.com/wp-content/uploads/2026/08/Copy_6925-copy-scaled.jpg"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Grandmaster Flash Sets His Tables at Thirty Seven Inches",
+          "source": "AnalogPlanet",
+          "byline": "Mike Mettler",
+          "date": "Sep 23",
+          "url": "https://www.analogplanet.com/content/grandmaster-flash-pioneering-art-turntablism-quik-mix-theory-and-his-new-book-birth-culture"
+        },
+        {
+          "headline": "Barry Rudolph Puts a Seventeen Millimetre Capsule on a Snare",
+          "source": "Mix",
+          "byline": "Barry Rudolph",
+          "date": "Sep 24",
+          "url": "https://www.mixonline.com/technology/news-products/mojave-audio-ma-c-microphone-a-mix-real-world-review",
+          "image": "https://www.mixonline.com/wp-content/uploads/2026/09/2026-09-24-Review-Mojave-Audio-MA-MAIN.jpg"
+        },
+        {
+          "headline": "Marty Ehrlich and Tim Berne Remember Julius Hemphill",
+          "source": "All About Jazz",
+          "byline": "Dave Kaufman",
+          "date": "Sep 20",
+          "url": "https://www.allaboutjazz.com/julius-hemphill-marty-ehrlich-and-tim-berne-remember-a-musical-visionary"
+        },
+        {
+          "headline": "Deja Voodoo Put Out Twenty Eight Records on Og Music",
+          "source": "Perfect Sound Forever",
+          "byline": "Mike Chamberlain",
+          "evergreen": true,
+          "url": "https://www.furious.com/perfect/dejavoodoo.html"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The High Chest du Pont Won From Hearst for Forty Four Thousand Dollars",
+          "source": "Antiques and The Arts Weekly",
+          "byline": "Madelia Hickman Ring",
+          "date": "Sep 22",
+          "url": "https://antiquesandthearts.com/winterthur-museum-library-garden-the-making-of-a-masterpiece/"
+        },
+        {
+          "headline": "Three Circles of Envy, Charted by a Collector of Blanket Chests",
+          "source": "Maine Antique Digest",
+          "byline": "Baron Perlman",
+          "date": "Sep 25",
+          "url": "https://www.maineantiquedigest.com/stories/envy/10666"
+        },
+        {
+          "headline": "Collecting the Helmets From a War That Only Happened on Screen",
+          "source": "Military Trader",
+          "byline": "Peter Suciu",
+          "date": "Sep 14",
+          "url": "https://www.militarytrader.com/richard-iii-1995-film-military-uniforms-mk4-helmets",
+          "image": "https://www.militarytrader.com/uploads/2026/09/RichardIII-4.jpg"
+        },
+        {
+          "headline": "Margaret Stillwell Compiled the Incunabula Census Before Goff Did",
+          "source": "The Book Collector",
+          "byline": "Rhiannon Knol",
+          "date": "Sep 7",
+          "url": "https://thebookcollector.co.uk/friends-and-subtle-enemies-some-american-early-bookwomen-of-the-20th-century/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Ten Books at Princeton Carry Timothy Alden's Initials",
+          "source": "Notabilia",
+          "byline": "Stephen Ferguson",
+          "date": "Sep 7",
+          "url": "https://notabilia.blogs.princeton.edu/2026/09/07/timothy-alden-1736-1839-his-books-%e2%9d%a7/"
+        },
+        {
+          "headline": "A Travelling Science Library Reached Sixty Six Schools in 1955",
+          "source": "Science History Institute",
+          "byline": "Judith Kaplan",
+          "date": "Sep 10",
+          "url": "https://www.sciencehistory.org/collections/blog/the-kids-corner/",
+          "image": "https://www.sciencehistory.org/wp-content/uploads/2026/09/kids_books_museum_hero-scaled.jpg"
+        },
+        {
+          "headline": "Soviet Marxists Were Not the Technological Determinists Everyone Assumed",
+          "source": "JHI Blog",
+          "byline": "D. W. Kamish",
+          "date": "Sep 21",
+          "url": "https://www.jhiblog.org/2026/09/21/determinism-or-voluntarism/"
+        },
+        {
+          "headline": "Laki Erupted in 1783 and the Hunger Reached Paris",
+          "source": "Age of Revolutions",
+          "byline": "Charlton Yingling and Marissa Yingling",
+          "date": "Sep 14",
+          "url": "https://ageofrevolutions.com/2026/09/14/three-volcanoes-two-revolutions-one-mountain-and-the-emotional-environment/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Peter Hujar Marked the Frames He Wanted in Red Wax Pencil",
+          "source": "Huck",
+          "byline": "Miss Rosen",
+          "date": "Sep 18",
+          "url": "https://www.huckmag.com/article/peter-hujar-contact-sheets"
+        },
+        {
+          "headline": "Jason Fulford Overlaid Pairs of Negatives and Kept Fifty Four",
+          "source": "Blind Magazine",
+          "byline": "Guénola Pellen",
+          "date": "Sep 20",
+          "url": "https://www.blind-magazine.com/news/two-images-are-better-than-one/"
+        },
+        {
+          "headline": "Japan's Y2K Horror Boom Left Its Strangest Hybrids Behind",
+          "source": "Little White Lies",
+          "byline": "James Balmont",
+          "date": "Sep 24",
+          "url": "https://lwlies.com/in-conversation/crazy-lips-gore-from-outer-space"
+        },
+        {
+          "headline": "Xin Yumeng Made a Hit Animated Film Inside Architecture Software",
+          "source": "Animation Obsessive",
+          "byline": "Animation Obsessive Staff",
+          "date": "Sep 25",
+          "url": "https://animationobsessive.substack.com/p/niu-lai-and-animated-trash-in-china",
+          "image": "https://substack-post-media.s3.amazonaws.com/public/images/097aaa38-be88-4d48-91ff-4031ba13aee3_963x500.png"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 24, 2026",
     "hero": {
       "headline": "American Librarians Opened a Reading Room in Paris in 1918",
