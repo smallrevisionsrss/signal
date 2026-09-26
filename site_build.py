@@ -1565,8 +1565,8 @@ def render_sitemap(pairs, domain, arts=()):
              for n in range(2, total_pages + 1)]
     urls += [(f"{base}/issues/{slug(dt)}/", dt, "yearly", "0.8") for _, dt in pairs]
     if arts:
-        urls.append((f"{base}/writing/", arts[0]["_dt"], "weekly", "0.7"))
-        urls += [(f"{base}/writing/{a['slug']}/", a["_dt"], "monthly", "0.8") for a in arts]
+        urls.append((f"{base}/features/", arts[0]["_dt"], "weekly", "0.7"))
+        urls += [(f"{base}/features/{a['slug']}/", a["_dt"], "monthly", "0.8") for a in arts]
     rows = "".join(
         f"<url><loc>{u}</loc><lastmod>{dt.strftime('%Y-%m-%d')}</lastmod>"
         f"<changefreq>{cf}</changefreq><priority>{pr}</priority></url>\n"
@@ -1655,7 +1655,10 @@ ARTICLE_CSS = """
 .signal-article-figure img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
 .signal-article-body p{font-family:var(--sans);font-size:1.0625rem;line-height:1.66;
   color:var(--ink);max-width:68ch;margin:0 0 1.3em}
-.signal-article-pull{font-family:var(--serif);font-size:1.55rem;line-height:1.26;
+/* Scoped under .signal-article-body so it outranks the body paragraph rule
+   above; as a bare class it lost to `.signal-article-body p` and every pull
+   quote rendered as an ordinary paragraph with a red line over it. */
+.signal-article-body .signal-article-pull{font-family:var(--serif);font-size:1.55rem;line-height:1.26;
   color:var(--ink);max-width:30ch;margin:2.2em 0;padding-top:20px;
   border-top:2px solid var(--signal)}
 .signal-article-rail{position:sticky;top:28px}
@@ -1681,6 +1684,16 @@ ARTICLE_CSS = """
 .signal-fig img{width:100%;display:block;background:var(--rule-soft)}
 .signal-fig--crop img{aspect-ratio:4/3;object-fit:cover}
 .signal-fig--wide img{aspect-ratio:16/9;object-fit:cover}
+/* fit: narrow. For portrait pictures, which at full column width run well over
+   a screen tall. Kept at its own shape, capped at 560px, left aligned with
+   the text. */
+.signal-fig--narrow{max-width:560px}
+/* Links inside article text. The site resets a{} to inherit with no underline,
+   which is right for rows and nav but makes a link in running prose invisible. */
+.signal-article-body a{text-decoration:underline;text-underline-offset:3px;
+  text-decoration-thickness:1px;text-decoration-color:var(--rule-soft);
+  transition:text-decoration-color .15s ease}
+.signal-article-body a:hover{text-decoration-color:var(--signal)}
 .signal-figcap{font-family:var(--sans);font-size:12.5px;line-height:1.5;
   color:var(--ink-faint);margin:10px 0 0;max-width:68ch}
 .signal-figcap b{font-weight:500;color:var(--ink-soft)}
@@ -1746,7 +1759,10 @@ def article_rail(article, pairs, limit=5, wrap=True):
     the material it came out of. This is the one thing a Signal article can
     do that a post on any other site cannot."""
     cat = article.get("category")
-    seen, rows = set(), []
+    # The piece's own issue row sits in the same section, so without this the
+    # article would list itself under From the archive.
+    seen, rows = {f"/features/{article['slug']}/",
+                  f"https://{SITE_HOST}/features/{article['slug']}/"}, []
     for issue, dt in pairs:
         for a in issue.get("categories", {}).get(cat, []):
             if a["url"] in seen:
@@ -1793,12 +1809,13 @@ def credit_line(f):
 def figure_html(f, *, full=False):
     """An image block. `fit` is crop (4:3, the site default), wide (16:9) or
     native. Images for Signal's own writing should be self hosted under
-    /assets/writing/ rather than hotlinked: a hotlinked picture is one
+    /assets/features/ rather than hotlinked: a hotlinked picture is one
     publisher's cache rule away from a blank space, which is exactly how the
     19 September hero broke."""
     fit = f.get("fit", "crop")
     cls = "signal-fig" + (" signal-fig--full" if full else "")
-    cls += {"crop": " signal-fig--crop", "wide": " signal-fig--wide"}.get(fit, "")
+    cls += {"crop": " signal-fig--crop", "wide": " signal-fig--wide",
+            "narrow": " signal-fig--narrow"}.get(fit, "")
     if f.get("kind") == "plate":
         inner = ('<div class="signal-plate">'
                  + "".join(f'<p class="signal-plate-line">{e(l)}</p>'
@@ -1811,8 +1828,22 @@ def figure_html(f, *, full=False):
         inner = (f'<img src="{e(f["src"])}" alt="{e(f.get("alt", ""))}" loading="lazy">')
     return f'<figure class="{cls}">{inner}{credit_line(f)}</figure>'
 
+LINK_RE = re.compile(r"\[([^\]]+)\]\(((?:https?://|/)[^)\s]+)\)")
+
+def rich(text):
+    """Article text, escaped, with [words](url) turned into links. Only http(s)
+    and site-relative URLs are recognised, so nothing else in the text can
+    become markup. External links open in a new tab, like every other link
+    that leaves the site; our own stay in the tab."""
+    def link(m):
+        words, url = m.group(1), html.unescape(m.group(2))
+        ext = "" if is_own(url) else ' target="_blank" rel="noopener"'
+        return f'<a href="{e(url)}"{ext}>{words}</a>'
+    return LINK_RE.sub(link, e(text))
+
+
 def article_url(a, domain):
-    return f"https://{domain}/writing/{a['slug']}/"
+    return f"https://{domain}/features/{a['slug']}/"
 
 
 def render_article(a, pairs, domain):
@@ -1822,11 +1853,11 @@ def render_article(a, pairs, domain):
     blocks = []
     for b in a.get("body", []):
         if b["type"] == "pull":
-            blocks.append(f'<p class="signal-article-pull">{e(b["text"])}</p>')
+            blocks.append(f'<p class="signal-article-pull">{rich(b["text"])}</p>')
         elif b["type"] == "figure":
             blocks.append(figure_html(b))
         else:
-            blocks.append(f'<p>{e(b["text"])}</p>')
+            blocks.append(f'<p>{rich(b["text"])}</p>')
 
     def cite(items, heading, note=None):
         if not items:
@@ -1899,31 +1930,31 @@ def render_writing_index(arts, domain):
             row_html({"headline": a["title"], "source": a["byline"],
                       "date": a["_dt"].strftime("%b %-d") if os.name != "nt"
                               else a["_dt"].strftime("%b %d"),
-                      "url": f"/writing/{a['slug']}/"}, internal=True) for a in arts)
+                      "url": f"/features/{a['slug']}/"}, internal=True) for a in arts)
     body = ('<article class="signal-article">'
             '<div class="signal-article-topline">'
             '<span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true">'
             '</span>Signal</span>'
             '<span class="signal-article-dateline">Occasional Pieces Written Here</span>'
             '</div>'
-            '<h1 class="signal-article-hed">Writing</h1>'
+            '<h1 class="signal-article-hed">Features</h1>'
             '<p class="signal-article-standfirst">Occasional pieces written here '
             'rather than found elsewhere. Everything else on this site is a link '
             'to somebody else\u2019s work.</p>'
             f'<div class="signal-writing-list"><div class="signal-column-list">{rows}</div></div>'
             '</article>')
-    return page(title="Writing \u00b7 Signal",
+    return page(title="Features \u00b7 Signal",
                 desc="Occasional pieces written by Signal rather than gathered from elsewhere.",
-                canonical=f"https://{domain}/writing/", body=body, domain=domain,
+                canonical=f"https://{domain}/features/", body=body, domain=domain,
                 jsonld={"@context": "https://schema.org", "@type": "CollectionPage",
-                        "name": "Signal Writing",
-                        "url": f"https://{domain}/writing/"})
+                        "name": "Signal Features",
+                        "url": f"https://{domain}/features/"})
 
 
 def check_signal_pieces(pairs, arts):
     """The limits WRITING.md sets on Signal's own pieces, enforced so they
     cannot drift. A Signal piece is any hero or row whose url is one of our
-    /writing/ pages, or whose source is "Signal". The build fails if:
+    /features/ pages, or whose source is "Signal". The build fails if:
       - it points at no article, or at one not marked issue_eligible;
       - an issue carries more than one;
       - a Signal hero comes within 30 days of the previous Signal hero.
@@ -1938,9 +1969,9 @@ def check_signal_pieces(pairs, arts):
         for where, it in items:
             url = it.get("url", "")
             src = (it.get("source") or "").strip()
-            if not (is_own(url) and "/writing/" in url) and src != "Signal":
+            if not (is_own(url) and "/features/" in url) and src != "Signal":
                 continue
-            m = re.search(r"/writing/([^/?#]+)/?", url)
+            m = re.search(r"/features/([^/?#]+)/?", url)
             art = by_slug.get(m.group(1)) if m else None
             if not art:
                 bad.append(f"{label}: Signal piece in {where} links to no article: {url or '(no url)'}")
@@ -1965,12 +1996,12 @@ def issue_slugs(pairs):
 
     Publication rule, set 24 Sep 2026: a Signal piece goes live only once an
     issue carries it. Writing one is not publishing it. Until an issue runs the
-    row, the page does not exist — no /writing/<slug>/, no row on /writing/,
+    row, the page does not exist — no /features/<slug>/, no row on /features/,
     nothing in the sitemap or the feed — so nothing can be found by a crawler,
     a share or a guessed URL before the paper has actually run it.
 
     Same detection as check_signal_pieces: a row is ours if its url is one of
-    our /writing/ pages, or its source is "Signal".
+    our /features/ pages, or its source is "Signal".
     """
     out = set()
     for issue, _dt in pairs:
@@ -1978,9 +2009,9 @@ def issue_slugs(pairs):
         items += [r for rows in issue.get("categories", {}).values() for r in rows]
         for it in items:
             url = it.get("url", "")
-            if not (is_own(url) and "/writing/" in url) and (it.get("source") or "").strip() != "Signal":
+            if not (is_own(url) and "/features/" in url) and (it.get("source") or "").strip() != "Signal":
                 continue
-            m = re.search(r"/writing/([^/?#]+)/?", url)
+            m = re.search(r"/features/([^/?#]+)/?", url)
             if m:
                 out.add(m.group(1))
     return out
@@ -2000,7 +2031,18 @@ def build(data_file, out_dir, domain):
     check_signal_pieces(pairs, all_arts)
     live = issue_slugs(pairs)
     arts = [a for a in all_arts if a["slug"] in live]
-    held = [a["slug"] for a in all_arts if a["slug"] not in live]
+    # The one exception to the rule above, added 26 Sep 2026 for the Parker Fly:
+    # `"live_before_issue": true` builds the page ahead of the issue that will
+    # carry it, so it can be shared the day before. It is built UNLINKED: no
+    # row on /features/, not in the sitemap, not sent to IndexNow, and marked
+    # noindex, so it can only be reached by its address. Once an issue carries
+    # it, it is an ordinary live piece and the flag does nothing. Only an
+    # issue-eligible piece may use it. Remove the flag when it is no longer
+    # needed rather than leaving it set.
+    early = [a for a in all_arts if a["slug"] not in live
+             and a.get("live_before_issue") and a.get("issue_eligible")]
+    held = [a["slug"] for a in all_arts if a["slug"] not in live
+            and a not in early]
 
     out = Path(out_dir)
     if out.exists():
@@ -2026,14 +2068,23 @@ def build(data_file, out_dir, domain):
             (d / "index.html").write_text(html, encoding="utf-8")
 
     if arts:
-        (out / "writing").mkdir(exist_ok=True)
-        (out / "writing" / "index.html").write_text(
+        (out / "features").mkdir(exist_ok=True)
+        (out / "features" / "index.html").write_text(
             render_writing_index(arts, domain), encoding="utf-8")
         for a in arts:
-            d = out / "writing" / a["slug"]
+            d = out / "features" / a["slug"]
             d.mkdir(parents=True, exist_ok=True)
             (d / "index.html").write_text(
                 render_article(a, pairs, domain), encoding="utf-8")
+
+    for a in early:
+        d = out / "features" / a["slug"]
+        d.mkdir(parents=True, exist_ok=True)
+        page_html = render_article(a, pairs, domain)
+        page_html = page_html.replace(
+            '<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">',
+            '<meta name="robots" content="noindex,follow,max-image-preview:large">', 1)
+        (d / "index.html").write_text(page_html, encoding="utf-8")
 
     for sub, content in (("archive",   render_archive(pairs, domain)),
                          ("about",     render_about(pairs, domain)),
@@ -2057,8 +2108,8 @@ def build(data_file, out_dir, domain):
     changed += [f"https://{domain}/page/{n}/" for n in range(2, total_pages + 1)]
     changed += [f"https://{domain}/issues/{slug(dt)}/" for _, dt in pairs[:2]]
     if arts:
-        changed.append(f"https://{domain}/writing/")
-        changed += [f"https://{domain}/writing/{a['slug']}/" for a in arts[:3]]
+        changed.append(f"https://{domain}/features/")
+        changed += [f"https://{domain}/features/{a['slug']}/" for a in arts[:3]]
     # Written as the exact POST body, so the workflow only has to send it.
     # The key is public by design in IndexNow, hosted at the root as proof.
     (out / "indexnow.json").write_text(json.dumps({
@@ -2090,9 +2141,12 @@ def build(data_file, out_dir, domain):
     # Said out loud every build, because a piece can sit written and unpublished
     # for weeks and the only thing that would otherwise show it is its absence.
     if arts:
-        print("writing, live: " + ", ".join(a["slug"] for a in arts))
+        print("features, live: " + ", ".join(a["slug"] for a in arts))
+    if early:
+        print("features, live ahead of their issue (unlinked, noindex): "
+              + ", ".join(a["slug"] for a in early))
     if held:
-        print("writing, held back until an issue carries them: " + ", ".join(held))
+        print("features, held back until an issue carries them: " + ", ".join(held))
     return pairs
 
 

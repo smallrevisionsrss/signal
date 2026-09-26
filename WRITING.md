@@ -1,9 +1,14 @@
 # Signal's own writing
 
+**Renamed 26 September 2026:** pieces publish under `/features/`, not
+`/writing/`. Nothing had gone live under the old path, so no redirects were
+needed. Older articles whose images sit in `assets/writing/` still work, since
+the whole `assets/` folder is copied into the site.
+
 Articles live in `signal-articles.json` at the repo root, separate from
 `signal-issues-data.json` so the issue builder's invariants are untouched.
 `site_build.py` picks them up automatically and publishes them at
-`/writing/<slug>/`, with an index at `/writing/`. If the file is absent the
+`/features/<slug>/`, with an index at `/features/`. If the file is absent the
 build simply skips the whole section.
 
 ---
@@ -71,8 +76,8 @@ Five rules are enforced at build time. Each one raises and stops the build:
 
 ### Self host what you can
 
-Put article images in `assets/writing/` and reference them as
-`/assets/writing/<file>`. Hotlinking is how the 19 September hero broke: the
+Put article images in `assets/features/` and reference them as
+`/assets/features/<file>`. Hotlinking is how the 19 September hero broke: the
 publisher's host refused a cross origin request and the page showed a gap.
 Images under `/assets/` are also exempt from the credit rule, because they are
 ours.
@@ -82,7 +87,7 @@ ours.
 ```json
 "hero": {
   "kind": "image",
-  "src": "/assets/writing/tryangle-45.jpg",
+  "src": "/assets/features/tryangle-45.jpg",
   "alt": "A seven inch single on the Tryangle label, sleeveless, on a table",
   "caption": "The original pressing, photographed in a collector's kitchen.",
   "credit": "Name of photographer",
@@ -94,7 +99,9 @@ ours.
 ```
 
 `fit` is `crop` (4:3, the site default and what every issue image uses), `wide`
-(16:9) or `native` (whatever shape the file is). Use `crop` unless there is a
+(16:9), `native` (whatever shape the file is, full column width) or `narrow`
+(its own shape, capped at 560px: for portrait pictures, which otherwise run
+over a screen tall). Use `crop` unless there is a
 reason not to: it matches the rest of the site.
 
 `caption`, `credit`, `credit_url`, `source_url` and `source_label` are all
@@ -132,7 +139,7 @@ hero:
 
 ```json
 { "type": "figure",
-  "src": "/assets/writing/united-sound.jpg",
+  "src": "/assets/features/united-sound.jpg",
   "alt": "The control room at United Sound Systems",
   "caption": "United Sound Systems, Detroit.",
   "credit": "Name", "credit_url": "https://…",
@@ -175,6 +182,12 @@ should be the one the piece genuinely belongs to.
 
 `sources` and `further` render as Signal rows, so citations look like the paper.
 
+### Links in the text
+
+Paragraphs and pull quotes take `[words](url)` for a link. Only `https://`,
+`http://` and site-relative `/…` URLs are recognised; anything else stays as
+plain text. Links off the site open in a new tab.
+
 ---
 
 ## Publication: an issue is what puts a piece live
@@ -185,8 +198,8 @@ article goes live only once an issue carries it as a row or as the hero.
 `build()` enforces this. It loads and validates every article in the file, then
 publishes only the slugs some issue actually references:
 
-- carried by an issue → `/writing/<slug>/` is built, it gets a row on
-  `/writing/`, and it enters the sitemap
+- carried by an issue → `/features/<slug>/` is built, it gets a row on
+  `/features/`, and it enters the sitemap
 - not carried → **no page at all.** Not unlinked, not `noindex`: absent. There
   is nothing for a crawler to find, nothing for a guessed URL to hit, and
   nothing to share early by accident
@@ -199,9 +212,18 @@ writing, held back until an issue carries them: death-politicians-in-my-eyes
 ```
 
 Two ways to put a piece in an issue, and the build detects both: give the row
-`"url": "/writing/<slug>/"`, or set `"source": "Signal"`. A row pointing at a
+`"url": "/features/<slug>/"`, or set `"source": "Signal"`. A row pointing at a
 slug that does not exist fails the build, so a typo cannot quietly publish
 nothing.
+
+**One exception, `live_before_issue`** (added 26 September 2026 for the
+Parker Fly). Set `"live_before_issue": true` on an issue-eligible article and
+the build publishes its page before any issue carries it, so it can be shared
+the day before it runs. The page is **unlinked**: no row on `/features/`, not
+in the sitemap, not sent to IndexNow, and marked `noindex`. It can only be
+reached by its address. The build prints it as "live ahead of their issue".
+Once an issue carries it, it becomes an ordinary live piece and the flag does
+nothing; take the flag off then rather than leaving it set.
 
 This replaces `.gitignore` as the mechanism. Keeping `signal-articles.json` out
 of the repo hides everything at once, including a piece that is ready; the gate

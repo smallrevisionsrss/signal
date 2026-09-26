@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Turn a built /writing/ page into one standalone HTML file.
+"""Turn a built /features/ page into one standalone HTML file.
 
 The page as built pulls its pictures from /assets/, which only resolves on the
 live site. Opening the built file straight off disk gives you the layout with
@@ -25,7 +25,7 @@ def data_uri(path: pathlib.Path) -> str:
 
 
 def inline(slug: str, site: pathlib.Path, out_dir: pathlib.Path) -> pathlib.Path:
-    src = site / "writing" / slug / "index.html"
+    src = site / "features" / slug / "index.html"
     if not src.is_file():
         sys.exit(f"not built: {src}\n"
                  f"Run site_build.py first. Note that an article only builds once an "
@@ -63,7 +63,7 @@ def main():
     a = ap.parse_args()
 
     site = pathlib.Path(a.site)
-    writing = site / "writing"
+    writing = site / "features"
     slugs = a.slugs
     if a.all:
         if not writing.is_dir():
