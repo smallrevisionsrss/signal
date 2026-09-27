@@ -1389,74 +1389,44 @@ def render_archive(pairs, domain):
                         "name": "Signal archive", "url": f"https://{domain}/archive/"})
 
 def render_about(pairs, domain):
-    total = sum(1 + sum(len(v) for v in i["categories"].values()) for i, _ in pairs)
-    srcs = set()
-    for i, _ in pairs:
-        srcs.add(i["hero"].get("byline", "").split("·")[-1].strip())
-        for _, a in issue_articles(i):
-            srcs.add(a["source"])
+    """Signal's /about/ page, made a duplicate of smallrevisions.com/about.
+
+    Replaced 27 Sep 2026 at the editor's request. What was here before was the
+    only public statement of how the paper is edited: the circulation test, the
+    cadence-tiered recency rule, what each of the six sections covers, and the
+    four rules that never bend. It is deliberately gone rather than mislaid, and
+    it is still in git history if it is ever wanted back.
+
+    Duplicate content: the same copy now sits on two hostnames and a search
+    engine will pick one of them to show. Nothing here declares which. To
+    concede the page to the shop, change the canonical below to
+    SHOP_URL + "/about" - that drops Signal's /about/ out of the index, which
+    is a real decision rather than a tidy-up.
+    """
     body = f"""<div class="prose">
-<h1>About Signal</h1>
-<p>Signal is a daily edit of writing on design, art and culture, sound, collecting,
-history and film, published by <a href="{SHOP_URL}">Small Revisions</a>, an independent
-publishing label and retailer in New York City.</p>
-<p>Every issue carries twenty four pieces, four in each of six sections, plus one lead
-article. To date there are {len(pairs)} issues and {total} pieces drawn from
-{len(srcs)} publications.</p>
-
-<h2>What gets in</h2>
-<p>One question decides it: could another outlet have written this from the same press
-release? If the answer is yes, it is circulated and a reader who follows the field has
-already met it. What Signal looks for is the opposite, writing that required somebody to
-go somewhere, interview someone, handle the object, read the archive, or remember
-something first hand.</p>
-<p>That rules out most of what fills a feed: exhibition and product announcements,
-reworded press releases, brand collaborations, roundups of other people's roundups,
-trend pieces, wire copy. It rules in reported pieces, interviews with a real transcript,
-process and technique writing, institutions writing about their own collections,
-obituaries carrying first hand memory, close readings of one object or one record or one
-building, corrections to accepted accounts, and writing translated from another language.</p>
-
-<h2>How recency is judged</h2>
-<p>Not by a fixed window. A site posting five times a day always has something from this
-morning, and a museum journal publishing twice a month almost never does, so a flat rule
-selects for publishing frequency and reads like quality. Instead each source is measured
-against its own cadence: for a daily publication Signal takes the last three days, for a
-monthly one the current piece. The principle is to take whatever is currently that
-publisher's newest work. Anything pegged to an event keeps the tight window regardless.</p>
-<p>One article per issue may run at any age if it is still true, marked <em>evergreen</em>.</p>
-
-<h2>The sections</h2>
-<p>An article's section is decided by what it is about and what the writer actually did,
-never by which publication ran it. <strong>Design</strong> covers product, graphic,
-architecture and interiors, one each. <strong>Arts &amp; Culture</strong> covers art,
-photography, fashion and subculture. <strong>Sound</strong> is anything music related,
-from live performance and composers to instruments, producers, sound installation and
-film scores. <strong>Collecting</strong> is any collected thing, however unlikely.
-<strong>Document</strong> is the recorded past examined by someone who went and looked.
-<strong>Film</strong> is moving image.</p>
-
-<h2>Rules that never bend</h2>
-<ul>
-<li>Every date is confirmed on the article's own page, never an index or a search result.</li>
-<li>No link ever runs twice, anywhere in the archive.</li>
-<li>No publication appears twice in one issue, or more than twice across six issues.</li>
-<li>Links go to the real, unaltered source. Signal takes no affiliate revenue and accepts
-no payment for placement.</li>
-</ul>
-
-<h2>Reading it</h2>
-<p>A new issue every day at <a href="https://{domain}/">{domain}</a>. The
-<a href="https://{domain}/feed.xml">RSS feed</a> carries each issue in full.</p>
+<h1>About</h1>
+<p><strong>Small Revisions</strong> is an independent publishing label &amp;
+retailer established by Frederick McSwain &amp; Jane Smarovozova of
+<a href="{STUDIO_URL}" rel="noopener">McSwain Studio</a>. They lifted the brand
+moniker directly from an old Dymo label; found adhered to a discarded bundle of
+books, records, &amp; office supplies on a New York City sidewalk. True to its
+name, Small Revisions is &ldquo;a subtle reminder to disrupt routines, expand
+perspectives, &amp; reconnect with individual passions.&rdquo; Curated to
+encourage creativity &amp; enhance the work-life balance, the shop captures a
+design-focused assortment of objects, art, books, vinyl, &amp;
+limited-editions.</p>
 </div>"""
-    return page(title="About Signal, how it is edited",
-                desc="How Signal is edited: the circulation test, cadence-tiered recency, "
-                     "the six sections, and the rules that never bend.",
+    return page(title="About · Small Revisions",
+                desc="Small Revisions is an independent publishing label and retailer "
+                     "established by Frederick McSwain and Jane Smarovozova of "
+                     "McSwain Studio.",
                 canonical=f"https://{domain}/about/", body=body, domain=domain,
                 nav_current="about", og_image=pairs[0][0]["hero"].get("image"),
                 jsonld={"@context": "https://schema.org", "@type": "AboutPage",
-                        "name": "About Signal", "url": f"https://{domain}/about/",
-                        "publisher": {"@type": "Organization", "name": PUBLISHER, "url": SHOP_URL}})
+                        "name": "About Small Revisions",
+                        "url": f"https://{domain}/about/",
+                        "publisher": {"@type": "Organization", "name": PUBLISHER,
+                                      "url": SHOP_URL}})
 
 # ---------------------------------------------------------------- feeds
 
@@ -1490,7 +1460,7 @@ software to read rather than a person.</p>
 </div>
 <ul class="signal-arch">{recent}</ul>
 <div class="prose"><p><a href="/archive/">All {len(pairs)} issues</a> &middot;
-<a href="/about/">What gets in, and why</a></p></div>
+<a href="/about/">About</a></p></div>
 <script>
 (function(){{
   var b = document.getElementById('feedcopy'), u = document.getElementById('feedurl');
