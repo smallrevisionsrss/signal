@@ -1,5 +1,202 @@
 [
   {
+    "dateLabel": "September 27, 2026",
+    "hero": {
+      "headline": "A 1941 Barragan And Cetto Studio Block Reopens As A Gallery",
+      "dek": "Luis Barragan and Max Cetto built the Edificio para Artistas in Mexico City between 1939 and 1941, a block of live-work units for painters at a hinge point in Mexican modernism. Roberto Ortiz de Landazuri walks through the apartment the painter Juan Soriano occupied, now reopened as PARA A Gallery, and treats its double-height rooms, mezzanines and steel-framed windows as working equipment rather than period style. What emerges is a hybrid plan in which habitation, production, storage, display and informal gathering were all designed to overlap, and a gallery that inherited that arrangement intact.",
+      "byline": "By Roberto Ortiz de Landazuri · ArchEyes",
+      "category": "design-arch",
+      "image": "https://archeyes.com/wp-content/uploads/2026/09/historic-modernist-facade-steel-windows-vintage-car-para-a-edificio-para-artistas-luis-barragan-max-cetto-archeyes-1-Topaz-Gigapixel-2x-scale.jpg",
+      "url": "https://archeyes.com/juan-sorianos-former-studio-in-luis-barragan-and-max-cettos-edificio-para-artistas-now-para-a-gallery/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Wilesco Has Been Selling Desktop Steam Engines As Kits Since 1950",
+          "source": "Silodrome",
+          "byline": "Ben Branch",
+          "date": "Sep 27",
+          "url": "https://silodrome.com/wilesco-d9-steam-engine/"
+        },
+        {
+          "headline": "Saul Bass Drew Three Hundred Posters Before Kubrick Picked One",
+          "source": "Poster House",
+          "byline": "Adam Howard",
+          "date": "Sep 24",
+          "url": "https://posterhouse.org/blog/saul-bass-the-shining/"
+        },
+        {
+          "headline": "An Artist Built A Fifty Square Metre Home Behind A Newcastle House",
+          "source": "The Design Files",
+          "byline": "Christina Karras",
+          "date": "Sep 24",
+          "url": "https://thedesignfiles.net/2026/09/interiors-madeline-jovicic-newcastle"
+        },
+        {
+          "headline": "Five New Listening Rooms Were Planned Around Silence First",
+          "source": "Design Milk",
+          "byline": "Adrian Madlener",
+          "date": "Sep 23",
+          "url": "https://design-milk.com/design-forward-listening-rooms/",
+          "image": "https://design-milk.com/images/2026/09/connorrancan-9207.jpg"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Jane Brown Developed Her Photographs in Eucalyptus Oil",
+          "source": "Garland Magazine",
+          "byline": "Jane E. Brown",
+          "date": "Sep 1",
+          "url": "https://garlandmag.com/article/jane-brown/"
+        },
+        {
+          "headline": "Dataland's AI Museum Left a Fourteen Year Old Unimpressed",
+          "source": "Artillery Magazine",
+          "byline": "Milosh Soberman",
+          "date": "Sep 26",
+          "url": "https://artillerymag.com/dataland/",
+          "image": "https://artillerymag.com/wp-content/uploads/2026/09/PXL_20260616_203140655.RAW-01.jpg"
+        },
+        {
+          "headline": "Rubinacci Moved Thirty Five Tailors Out of Naples",
+          "source": "Permanent Style",
+          "date": "Sep 25",
+          "url": "https://www.permanentstyle.com/2026/09/the-varied-tailoring-of-rubinacci-today.html"
+        },
+        {
+          "headline": "The Art bell hooks Kept Hangs Together in Boone",
+          "source": "Burnaway",
+          "byline": "Topher Lineberry",
+          "date": "Sep 23",
+          "url": "https://burnaway.org/daily/belonging-to-place-bell-hooks-boone/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Gorgatron Cut Turmoil Across Four Cities With Two New Members",
+          "source": "Decibel Magazine",
+          "byline": "Kevin Stewart-Panko",
+          "date": "Sep 17",
+          "url": "https://www.decibelmagazine.com/2026/09/17/catching-up-on-all-the-moves-gorgatron-are-making/"
+        },
+        {
+          "headline": "Anton Newcombe and Josefin Ohrn Trace Where Their Records Come From",
+          "source": "Talkhouse",
+          "byline": "Josefin Öhrn",
+          "date": "Sep 25",
+          "url": "https://talkhouse.com/anton-newcombe-and-josefin-ohrn-are-inspired-by-everything"
+        },
+        {
+          "headline": "Chris Frisina Sold a Hundred Watercolors to Fund the Next Lou Hazel Album",
+          "source": "INDY Week",
+          "byline": "Nick McGregor",
+          "date": "Sep 21",
+          "url": "https://indyweek.com/news/culture/music/lou-hazel-chris-frisina-music-durham/",
+          "image": "https://indyweek.com/wp-content/uploads/2026/09/INDY-LOU-HAZEL_9-scaled.jpg"
+        },
+        {
+          "headline": "Four and a Half Pounds of Future",
+          "source": "Signal",
+          "byline": "Small Revisions",
+          "date": "Sep 26",
+          "url": "https://signal.smallrevisions.com/features/parker-fly/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The Smithsonian Displays Aircraft Guns From the Lewis to the Minigun",
+          "source": "The Armourers Bench",
+          "date": "Aug 30",
+          "url": "https://armourersbench.com/2026/08/30/aircraft-machine-guns-smithsonian-national-air-space-museum/",
+          "image": "https://armourersbench.com/wp-content/uploads/2026/08/pxl_20250819_191214935-copy.jpg"
+        },
+        {
+          "headline": "An Architect in Scottsbluff Has Kept More Than Four Hundred Jeeps",
+          "source": "The Autopian",
+          "byline": "David Tracy",
+          "date": "Sep 17",
+          "url": "https://www.theautopian.com/nebraska-public-media-just-discovered-the-greatest-jeep-collection-in-the-world/"
+        },
+        {
+          "headline": "Nobody Can Find a Trace of the Company That Built the Merica Flex",
+          "source": "Mike Eckman",
+          "byline": "Mike Eckman",
+          "date": "Sep 18",
+          "url": "https://mikeeckman.com/2026/09/merica-flex-model-2-1953/"
+        },
+        {
+          "headline": "A Bootleg Farrah Fawcett Doll and a Snuffleupagus Rug Surface on eBay",
+          "source": "Plaid Stallions",
+          "byline": "Mantooth",
+          "date": "Sep 24",
+          "url": "https://plaidstallions.com/reboot/5-awesome-things-on-ebay-this-week-219/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Rena Struggles Wrote to Massachusetts After the Blitz Took Her Mother",
+          "source": "Massachusetts Historical Society",
+          "byline": "Susan Martin",
+          "date": "Sep 18",
+          "url": "https://www.masshist.org/beehiveblog/2026/09/you-have-no-home-to-come-to-rena-struggles-through-the-london-blitz/"
+        },
+        {
+          "headline": "Fifty Years On, I Claudius Still Sets How Rome's First Family Is Read",
+          "source": "Engelsberg Ideas",
+          "byline": "Paul Lay",
+          "date": "Sep 23",
+          "url": "https://engelsbergideas.com/notebook/the-rise-and-fall-of-romes-first-family/"
+        },
+        {
+          "headline": "Alfred Vail Built the Register That Took Morse's First Message",
+          "source": "Linda Hall Library",
+          "byline": "William B. Ashworth, Jr.",
+          "date": "Sep 25",
+          "url": "https://www.lindahall.org/about/news/scientist-of-the-day/alfred-vail",
+          "image": "https://assets-us-01.kc-usercontent.com:443/9dd25524-761a-000d-d79f-86a5086d4774/41303708-b7da-461b-a2a8-88d08ecb9334/vail1.jpg"
+        },
+        {
+          "headline": "Vermont's Phi Beta Kappa Chapter Argued in 1875 Over Two Women",
+          "source": "The American Scholar",
+          "byline": "Augustine Sedgewick",
+          "date": "Sep 8",
+          "url": "https://theamericanscholar.org/the-two-ladies-of-vermont/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Larry Weinstein Filmed Kurt Weill's Songs in a Toronto Warehouse",
+          "source": "POV Magazine",
+          "byline": "Pat Mullen",
+          "date": "Sep 26",
+          "url": "https://povmagazine.com/larry-weinsteins-september-songs-plays-as-fresh-as-ever/"
+        },
+        {
+          "headline": "Thomas Ruff Enlarged JPEGs of 9/11 Until the Pixel Blocks Showed",
+          "source": "Collector Daily",
+          "byline": "Loring Knoblauch",
+          "date": "Sep 25",
+          "url": "https://collectordaily.com/thomas-ruff-jpegs-ny-david-zwirner/",
+          "image": "https://collectordaily.com/wp-content/uploads/2026/09/IMG_1737.jpeg"
+        },
+        {
+          "headline": "Roosje Klap Put Thinking Hands in a Former Tobacco Factory",
+          "source": "British Journal of Photography",
+          "byline": "Diane Smyth",
+          "date": "Sep 25",
+          "url": "https://www.1854.photography/2026/09/thea-hands/"
+        },
+        {
+          "headline": "Paul Greengrass Shoots Handheld Because Documentaries Had No Dolly Track",
+          "source": "The Credits",
+          "byline": "Andria Moore",
+          "date": "Sep 21",
+          "url": "https://www.motionpictures.org/2026/09/from-plague-to-protest-writer-director-paul-greengrass-finds-urgent-relevance-in-his-andrew-garfield-led-the-uprising/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 26, 2026",
     "hero": {
       "headline": "Melissa Auf der Maur Shot Nearly Ten Thousand Frames on Tour With Hole",
