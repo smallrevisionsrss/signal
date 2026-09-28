@@ -1,5 +1,201 @@
 [
   {
+    "dateLabel": "September 28, 2026",
+    "hero": {
+      "headline": "Reporting From the Zine Tent at the New York Art Book Fair",
+      "dek": "Lakshmi Rivera Amin walked the twentieth New York Art Book Fair at MoMA PS1 and filed from the outdoor zine tent rather than the main hall, where more than three hundred exhibitors were showing. She interviewed Jenna Hamed, Aya Krisht and Rhonda Khalifeh of the Book Arts Solidarity Network about MAKEREADY, a risograph publication made with artists in Gaza and South Lebanon, and got Hamed on the record on how the cross-border production actually works. What comes back is a report on small press labour and what it costs to make a book across a closed border, rather than the fair roundup the occasion invites.",
+      "byline": "By Lakshmi Rivera Amin · Hyperallergic",
+      "category": "craft",
+      "image": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/09/image-54-1.png",
+      "url": "https://hyperallergic.com/no-one-is-reading-except-at-the-new-york-art-book-fair/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Peter Saville and Nick Knight on How the Coming Up Sleeve Was Built",
+          "source": "Creative Review",
+          "byline": "Adam Woodward",
+          "date": "Sep 25",
+          "url": "https://www.creativereview.co.uk/oral-history-suede-coming-up-album-cover-peter-saville-nick-knight/"
+        },
+        {
+          "headline": "Walking the 1746 Edge of London From Buckingham Gate to Constitution Hill",
+          "source": "A London Inheritance",
+          "date": "Sep 27",
+          "url": "https://alondoninheritance.com/rocque-ring/walking-the-rocque-ring-part-3-buckingham-gate-house-and-palace-to-constitution-hill/",
+          "image": "https://alondoninheritance.com/wp-content/uploads/2026/09/Rocque-Ring-33.jpg"
+        },
+        {
+          "headline": "Valve's Steam Frame Opens Easily Until You Try to Reach the Fan",
+          "source": "iFixit",
+          "byline": "Elizabeth Chamberlain",
+          "date": "Sep 23",
+          "url": "https://www.ifixit.com/News/119488/steam-frame-teardown-were-fans-except-of-the-fan"
+        },
+        {
+          "headline": "Two Dutch Designers Paint Antique Cabinets With Television Static",
+          "source": "PIN-UP",
+          "byline": "Emmett Byrne",
+          "evergreen": true,
+          "url": "https://www.pinupmagazine.org/articles/dutch-duo-freeling-waters-breathes-new-life-into-classic-vernacular"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Denis Boulze Pulled His First Book Out of Forty Years of Contact Sheets",
+          "source": "Blind Magazine",
+          "byline": "Jonas Cuénin",
+          "date": "Sep 21",
+          "url": "https://www.blind-magazine.com/stories/denis-boulze-and-the-sweet-life-of-cliches/",
+          "image": "https://www.blind-magazine.com/wp-content/uploads/2026/09/11-1-scaled.jpg"
+        },
+        {
+          "headline": "Ottessa Moshfegh Calls Joseph Yaeger and Neither Lets the Other Off",
+          "source": "Interview Magazine",
+          "byline": "Ottessa Moshfegh",
+          "date": "Sep 18",
+          "url": "https://www.interviewmagazine.com/column/in-conversation/joseph-yaeger-ottessa-moshfegh-gladstone"
+        },
+        {
+          "headline": "Two Weeks With the Last Members of the Colony Room",
+          "source": "Plaster Magazine",
+          "byline": "Phoebe Hennell",
+          "date": "Sep 17",
+          "url": "https://plastermagazine.com/features/colony-room-club-refuses-to-die/"
+        },
+        {
+          "headline": "A Photographer Shot His Portrait Series Through the Hatch of His Own Roof",
+          "source": "Huck",
+          "byline": "Anthony Stockdale",
+          "date": "Sep 23",
+          "url": "https://www.huckmag.com/article/portraits-gay-bears-big-boys-on-roof"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A Tuareg Punk Group Dropped the Drummer and Rebuilt Around Drones",
+          "source": "a closer listen",
+          "byline": "Gianmarco Del Re",
+          "date": "Sep 27",
+          "url": "https://acloserlisten.com/2026/09/27/takaat-is-noise-vol-3/"
+        },
+        {
+          "headline": "Paul Dunmall Played Meditations in a Birmingham Club for the Coltrane Centenary",
+          "source": "UK Jazz News",
+          "byline": "John Watson",
+          "date": "Sep 25",
+          "url": "https://ukjazznews.com/john-coltrane-100th-anniversary-concert-in-birmingham/"
+        },
+        {
+          "headline": "The Rio Band That Cut a Psych Record Under the Dictatorship and Vanished",
+          "source": "It's Psychedelic Baby Magazine",
+          "byline": "Patrícia Marcondes de Barros",
+          "date": "Sep 25",
+          "url": "https://www.psychedelicbabymag.com/2026/09/modulo-1000-interview.html"
+        },
+        {
+          "headline": "Do Orchestral Fellowships Actually Get Black Musicians Into Orchestras",
+          "source": "VAN Magazine",
+          "byline": "Hannah Edgar",
+          "date": "Sep 24",
+          "url": "https://van-magazine.com/mag/do-orchestral-fellowships-help-black-musicians/",
+          "image": "https://van-magazine.com/wp-content/uploads/2026/09/do-orchestral-fellowships-help-black-musicians.jpg"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "What a Cleaned Coin Is Worth, and Who Can Authenticate a Short Snorter",
+          "source": "Numismatic News",
+          "byline": "Richard Giedroyc",
+          "date": "Sep 26",
+          "url": "https://www.numismaticnews.net/coinclinic-the-price-of-cleaned-coins"
+        },
+        {
+          "headline": "A Collector on Forty Years of Buying Artists Everyone Else Passed Over",
+          "source": "Apollo",
+          "date": "Sep 15",
+          "url": "https://apollo-magazine.com/beth-rudin-dewoody-collector-interview/"
+        },
+        {
+          "headline": "The 1978 Catalogue That Sold Batman Stunt Planes and Squirting Phasers",
+          "source": "Plaid Stallions",
+          "evergreen": true,
+          "url": "http://plaidstallions.com/racktoys/AHI/78.html"
+        },
+        {
+          "headline": "Two Watchmakers on How the Bulgari and Vianney Halter Piece Got Made",
+          "source": "SJX Watches",
+          "byline": "Yannick Nardin",
+          "date": "Sep 25",
+          "url": "https://watchesbysjx.com/2026/09/fabrizio-buonamassa-stigliani-vianney-halter-interview.html",
+          "image": "https://watchesbysjx.com/wp-content/uploads/2026/09/Fabrizio-Buonamassa-Stigliani-bulgari-Vianney-Halter-portrait-3x2-header-1.jpg"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The Baron Who Patented a Kiln and Then Became the First American Cremated in One",
+          "source": "Hagley Museum and Library",
+          "byline": "Chris Cascio",
+          "date": "Sep 25",
+          "url": "https://www.hagley.org/librarynews/baking-bricks-bodies"
+        },
+        {
+          "headline": "Rebuilding a 1510 Book of Hours Printed on Parchment and Bound in Blue Velvet",
+          "source": "University of Oregon Special Collections",
+          "byline": "Katarina Stiller",
+          "date": "Sep 18",
+          "url": "https://blogs.uoregon.edu/scua/2026/09/18/conservation-corner-something-old-new-borrowed-and-blue/",
+          "image": "https://blogs.uoregon.edu/scua/files/2026/09/BX2080.A2_1510_AT_001-e1789753781163-1024x594.jpg"
+        },
+        {
+          "headline": "Three Photographs of the Twin Towers, Taken in 1983, 2001 and 2002",
+          "source": "National Museum of American History",
+          "byline": "Shannon Perich",
+          "date": "Sep 9",
+          "url": "https://www.smithsonianmag.com/blogs/national-museum-american-history/2026/09/09/the-twin-towers-in-three-photographs/"
+        },
+        {
+          "headline": "What a Provenance Researcher Actually Does All Day",
+          "source": "National Museum of Asian Art",
+          "byline": "Helena Guzik and Joanna M. Gohmann",
+          "evergreen": true,
+          "url": "https://asia.si.edu/whats-on/blog/posts/object-history-sleuths-meet-a-provenance-researcher/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Gregory Markopoulos Edited The Illiac Passion Inside the Camera",
+          "source": "Metrograph Journal",
+          "byline": "Phil Coldiron",
+          "date": "Sep 25",
+          "url": "https://metrograph.com/the-illiac-passion/",
+          "image": "https://metrograph.com/wp-content/uploads/2026/09/The-Illiac-Passion.jpg"
+        },
+        {
+          "headline": "Ishmael Bernal's Restored A Speck in the Water Makes the Island a Character",
+          "source": "Screen Slate",
+          "byline": "Mick Gaw",
+          "date": "Sep 25",
+          "url": "https://www.screenslate.com/articles/speck-water"
+        },
+        {
+          "headline": "Five Directors on What They Took From Robert Bresson",
+          "source": "Sight and Sound",
+          "byline": "Michael Brooke",
+          "date": "Sep 24",
+          "url": "https://www.bfi.org.uk/sight-and-sound/interviews/bresson-olivier-assayas-paul-schrader-aki-kaurismaki-more-discuss-french-director"
+        },
+        {
+          "headline": "Dennis Lim on How The Secret Agent Was Built From Split Screens",
+          "source": "The Criterion Collection",
+          "byline": "Dennis Lim",
+          "date": "Sep 23",
+          "url": "https://www.criterion.com/current/posts/9287-the-secret-agent-left-out-of-history"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 27, 2026",
     "hero": {
       "headline": "A 1941 Barragan And Cetto Studio Block Reopens As A Gallery",
