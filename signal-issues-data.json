@@ -2,12 +2,12 @@
   {
     "dateLabel": "September 29, 2026",
     "hero": {
-      "headline": "Bassam Tariq Staged Every Fight to Do a Different Job",
-      "dek": "Brandon Streussnig gets Tariq to take Your Mother Your Mother Your Mother apart at the level of craft, starting with the action coordinator Adam Hart and the decision that no two fights should carry the same narrative weight. Tariq explains the inverted framing he uses to mark a descent, how the parable register was built with the composer Son Lux and the editor Cam McLauchlin, and why he refused the ending that would have delivered catharsis. It is a full transcript about how the thing was made rather than what it means.",
-      "byline": "By Brandon Streussnig · In Review Online",
-      "category": "photo-film",
-      "image": "https://inreviewonline.com/wp-content/uploads/2026/09/bassam-tariq-headshot.png",
-      "url": "https://inreviewonline.com/2026/09/28/into-the-darkest-part-of-the-night-bassam-tariq-interview/"
+      "headline": "Tom Overton Spent Years Inside John Berger's Papers",
+      "dek": "Overton was John Berger's archivist and editor, and Scott Schomburg gets him to describe what that access did to the man who wrote Ways of Seeing. The conversation runs from the 1972 Booker speech, where Berger gave half the prize money to the British Black Panthers, through to the ordinary business of handling a dead writer's boxes and deciding what a paper trail is actually evidence of. It is a working account of the archive as a place rather than a metaphor.",
+      "byline": "By Scott Schomburg · The Paris Review",
+      "category": "craft",
+      "image": "https://www.theparisreview.org/blog/wp-content/uploads/2026/09/john-berger-in-london-1024x682.jpg",
+      "url": "https://www.theparisreview.org/blog/2026/09/24/john-berger-deaths-secretary-a-conversation-with-tom-overton/"
     },
     "categories": {
       "design-arch": [
@@ -41,19 +41,12 @@
       ],
       "craft": [
         {
-          "headline": "Tom Overton Spent Years Inside John Berger's Papers",
-          "source": "The Paris Review",
-          "byline": "Scott Schomburg",
-          "date": "Sep 24",
-          "url": "https://www.theparisreview.org/blog/2026/09/24/john-berger-deaths-secretary-a-conversation-with-tom-overton/",
-          "image": "https://www.theparisreview.org/blog/wp-content/uploads/2026/09/john-berger-in-london-1024x682.jpg"
-        },
-        {
           "headline": "A Conservator Opened a Butterfly Book Nobody at the Met Had Looked At",
           "source": "The Metropolitan Museum of Art",
           "byline": "Clare Manias",
           "date": "Sep 23",
-          "url": "https://www.metmuseum.org/perspectives/library-mood-altering-book"
+          "url": "https://www.metmuseum.org/perspectives/library-mood-altering-book",
+          "image": "https://cdn.sanity.io/images/cctd4ker/production/ac697e82ed33095c25a7c9e286f656ec96253525-1920x1280.jpg"
         },
         {
           "headline": "Embroidery Reaches Monumental Scale by Accumulation, One Stitch at a Time",
@@ -67,6 +60,13 @@
           "byline": "Tyler Nesler",
           "date": "Sep 17",
           "url": "https://interlocutorinterviews.com/constructing-new-systems-of-authorship-jesse-draxler-on-his-collaborative-project-tongue-of-angels/"
+        },
+        {
+          "headline": "Four Hundred Punk and Activist Zines in a London Library, Opened One by One",
+          "source": "Iniva",
+          "byline": "Naomi Hart",
+          "evergreen": true,
+          "url": "https://iniva.org/behind-the-display-punk-zines/"
         }
       ],
       "sound-vinyl": [
