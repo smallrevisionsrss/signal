@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "September 30, 2026",
+    "hero": {
+      "headline": "Jose Giovanni Wrote French Crime Cinema After a Commuted Death Sentence",
+      "dek": "Giovanni was born Joseph Damiani, joined a Nazi-affiliated outfit in 1944, and had a death sentence for triple murder commuted to life before he became one of the defining writer-directors of French crime cinema. Max Borg reports from San Sebastian, where a full retrospective ran that he argues could not now be mounted in France, and works through why the criminal past is not separable from the writing. The piece was built in the room, including a conversation with a Cahiers du Cinema critic, rather than from the festival's own material.",
+      "byline": "By Max Borg · Crooked Marquee",
+      "category": "photo-film",
+      "image": "https://crookedmarquee.com/wp-content/uploads/2026/09/Jose-Giovanni.jpg",
+      "url": "https://crookedmarquee.com/the-life-and-crimes-of-jose-giovanni/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Cooper Hewitt Table Credited to Elsie de Wolfe Turns Out to Be Jean-Michel Frank's",
+          "source": "Design History Society",
+          "byline": "Sara Shields-Rivard",
+          "date": "Sep 30",
+          "url": "https://www.designhistorysociety.org/blog/view/provocative-objects-an-art-deco-chair-and-table-reattributed"
+        },
+        {
+          "headline": "Two Artists Spend a Day With the V&A's Dismantled Cochin Ceiling",
+          "source": "V&A Blog",
+          "byline": "Ekta Sunil Raheja",
+          "date": "Sep 29",
+          "url": "https://www.vam.ac.uk/blog/caring-for-our-collections/a-way-of-looking-our-first-encounter-with-the-cochin-ceiling",
+          "image": "https://www.vam.ac.uk/blog/wp-content/uploads/1-158.jpg"
+        },
+        {
+          "headline": "Warren Lehrer Drew a Book About Grief and Let the Type Carry It",
+          "source": "PRINT Magazine",
+          "byline": "Steven Heller",
+          "date": "Sep 29",
+          "url": "https://www.printmag.com/daily-heller/the-daily-heller-visualizing-a-book/"
+        },
+        {
+          "headline": "A Japanese Sign Painter Rebuilt the Near Extinct Craft of Chipping Glass",
+          "source": "BLAG Magazine",
+          "byline": "Tom Koch",
+          "date": "Sep 24",
+          "url": "https://bl.ag/unpredictable-precision-bringing-gluechipping-back-to-japan/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Zhi Wei Paints So Thinly You Cannot Tell the Paint From the Cloth",
+          "source": "ArtReview",
+          "byline": "Yuwen Jiang",
+          "date": "Sep 29",
+          "url": "https://artreview.com/zhi-wei-folly-at-beijing-commune-review-yuwen-jiang/"
+        },
+        {
+          "headline": "Suleman Aqeel Khilji on Deciding When a Painting Has Been Looked at Enough",
+          "source": "Elephant",
+          "byline": "Jaya Gataaura",
+          "date": "Sep 25",
+          "url": "https://elephant.art/i-want-to-beat-my-previous-show-suleman-aqeel-khilji-on-painting-what-he-sees/"
+        },
+        {
+          "headline": "What a Funded Year in the Studio Actually Produced, Technique by Technique",
+          "source": "Ceramic Review",
+          "byline": "Cormac Lehnen",
+          "date": "Sep 22",
+          "url": "https://www.ceramicreview.com/articles/time-to-reflect-developing-your-creative-practice-with-arts-council-england-funding/"
+        },
+        {
+          "headline": "Adda Farcus on Collecting Objects for a Show About Climate Grief",
+          "source": "Sixty Inches From Center",
+          "byline": "Jessica Ott",
+          "date": "Sep 17",
+          "url": "https://sixtyinchesfromcenter.org/room-tone-an-interview-with-adda-farcus/",
+          "image": "https://sixtyinchesfromcenter.org/wp-content/uploads/2026/08/featured-scaled.jpg"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "An Hour of Conversation and Music With the Composer Enno Poppe",
+          "source": "5:4",
+          "byline": "Simon Cummings",
+          "date": "Sep 27",
+          "url": "https://5against4.com/2026/09/27/the-dialogues-enno-poppe/",
+          "image": "https://5against4.com/wp-content/uploads/2026/09/dialogue10_ennopoppe_FI.jpg"
+        },
+        {
+          "headline": "Roy Hall on Fifty Years of Importing Turntables and Arguing With Distributors",
+          "source": "Copper",
+          "byline": "Frank Doris",
+          "date": "Sep 7",
+          "url": "https://www.psaudio.com/blogs/copper/a-life-in-high-end-audio-the-roy-hall-interview-part-one"
+        },
+        {
+          "headline": "A Toronto Pianist Rebuilds Her Own Material After Leaving a Tradition Behind",
+          "source": "The WholeNote",
+          "byline": "Lucas Hung",
+          "date": "Sep 29",
+          "url": "https://www.thewholenote.com/index.php/newsroom/feature-stories/34755-reclaiming-her-personal-truth-rebecca-hass-singing-the-land"
+        },
+        {
+          "headline": "Two Hundred Pages on a Cylinder Brand That Refused to Break",
+          "source": "Mainspring Press",
+          "byline": "Allan Sutton",
+          "date": "Sep 4",
+          "url": "https://mainspringpress.org/2026/09/04/free-download-now-available-indestructible-cylinders-a-history-and-cylinderography-new-expanded-third-edition/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A 1929 Parisian Toy Nanny Carriage and the Luxury House That Built It",
+          "source": "Antique Toy World",
+          "byline": "Cor van Schaijk",
+          "date": "Sep 28",
+          "url": "https://www.antiquetoyworld.com/voiture-nounou-poupon-from-1929-by-cor-van-schaijk/"
+        },
+        {
+          "headline": "Of the 606 LE Monaros Built in 1976, Twenty Six Burned in a Warehouse Fire",
+          "source": "Australian Motor Heritage Foundation",
+          "byline": "David Burrell",
+          "date": "Sep 30",
+          "url": "https://motorheritage.org.au/1976-hx-holden-few-celebrations/",
+          "image": "https://motorheritage.org.au/wp-content/uploads/HX1.jpg"
+        },
+        {
+          "headline": "Fifty Cheat Codes Pulled Out of a FIFA 96 Cartridge, Correcting Decades of Wrong Ones",
+          "source": "SEGAbits",
+          "byline": "Bo",
+          "date": "Sep 23",
+          "url": "https://segabits.com/blog/2026/09/23/under-the-microscope-fifa-soccer-96/"
+        },
+        {
+          "headline": "Recapping a Micromega CD-10 That Came Back Still Refusing Discs",
+          "source": "Jestine Yong",
+          "byline": "Jestine Yong",
+          "date": "Sep 26",
+          "url": "https://jestineyong.com/solved-erratic-problems-in-micromega-cd-10-silver-cd-player/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "How Long Royal Society Fellows Kept Trying to Turn Lead Into Gold",
+          "source": "The Royal Society",
+          "byline": "Ainsley Vinall",
+          "date": "Sep 30",
+          "url": "https://royalsociety.org/blog/2026/09/alchemical-reactions/"
+        },
+        {
+          "headline": "Lois Hideko Niiya Founded Salt Lake City's Japanese Church of Christ",
+          "source": "Utah Historical Society",
+          "byline": "Emma Webb",
+          "date": "Sep 29",
+          "url": "https://history.utah.gov/blog/lois-hideko-niiya-the-force-behind-the-japanese-church-of-christ/"
+        },
+        {
+          "headline": "Conserving Sig Arno's Oil Portrait of His Wife Kitty",
+          "source": "History Nebraska",
+          "byline": "Lillian Nelms",
+          "date": "Sep 29",
+          "url": "https://history.nebraska.gov/spotlight-on-a-star-conserving-the-art-of-actor-sig-arno/",
+          "image": "https://history.nebraska.gov/wp-content/uploads/2026/09/Blog-Post-2026.018-Kitty-Arno_Page_2_Image_0001-1024x581.jpg"
+        },
+        {
+          "headline": "The Two Thousand Micro Moths George Gibbs Gave Te Papa Before He Died",
+          "source": "Te Papa",
+          "byline": "Juliette Fuehrhop",
+          "date": "Sep 29",
+          "url": "https://blog.tepapa.govt.nz/2026/09/29/the-illuminating-work-of-george-gibbs-and-his-shimmering-micro-moths/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "What UCLA's Film Students Actually Shot Between 1965 and 1970",
+          "source": "UCLA Film & Television Archive",
+          "byline": "Jackie Forsyte",
+          "date": "Sep 1",
+          "url": "https://www.cinema.ucla.edu/blog/viewing-student-films-is-like-participating-in-a-revolution"
+        },
+        {
+          "headline": "An 1899 Dutch Cocoa Commercial in Which a Doctor Cures a Patient With the Product",
+          "source": "Movies Silently",
+          "date": "Sep 28",
+          "url": "https://moviessilently.com/2026/09/28/the-sick-civil-servant-or-van-houtens-new-chocolate-sensation-1899/"
+        },
+        {
+          "headline": "Derek Smith on What Radiance's 4K Restoration of The Inugami Family Recovers",
+          "source": "Slant Magazine",
+          "byline": "Derek Smith",
+          "date": "Sep 26",
+          "url": "https://www.slantmagazine.com/dvd/the-inugami-family-blu-ray-review-ichikawa-kon/"
+        },
+        {
+          "headline": "Mark Bakowski Built Two Different Hulks and Choreographed the Fight Between Them",
+          "source": "The Art of VFX",
+          "byline": "Vincent Frei",
+          "date": "Sep 29",
+          "url": "https://www.artofvfx.com/spider-man-brand-new-day-mark-bakowski-vfx-supervisor-ilm/",
+          "image": "https://www.artofvfx.com/wp-content/uploads/2026/09/SpiderMan_BrandNewDay_ILM_ITW_06A.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 29, 2026",
     "hero": {
       "headline": "Tom Overton Spent Years Inside John Berger's Papers",
