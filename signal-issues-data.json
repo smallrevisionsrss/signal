@@ -1,5 +1,201 @@
 [
   {
+    "dateLabel": "October 1, 2026",
+    "hero": {
+      "headline": "Lesbian Audiences Turned the 1970s Vampire Film Into Camp",
+      "dek": "Katie Rife argues that lesbian viewers in the first years of gay liberation took two films made for men, Roy Ward Baker's The Vampire Lovers and Harry Kumel's Daughters of Darkness, and read them against the grain. A monster built out of male anxiety about female sexuality became one of the only available images of desire on a screen. Rife works through the scholarship of Andrea Weiss and Bonnie Zimmerman, reads the performances of Ingrid Pitt and Delphine Seyrig closely, and brings in Mikaela Clements on what those figures still offer. It is a reception history built on what audiences did with the films rather than on what the films intended.",
+      "byline": "By Katie Rife · The Brooklyn Rail",
+      "category": "photo-film",
+      "image": "https://studio.brooklynrail.org/assets/f016b636-f4cd-47a4-bd21-069e3bc235f0.jpg",
+      "url": "https://brooklynrail.org/2026/10/film/undead-in-lavender/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Katerina Knight Grows the Materials She Stitches With",
+          "source": "Selvedge",
+          "date": "Oct 1",
+          "url": "https://www.selvedge.org/blogs/selvedge/stitching-with-nature-katerina-knight-on-sewing-and-growing"
+        },
+        {
+          "headline": "Kenneth Kortemeier on What Simplicity Demanded of Bill Coperthwaite's Tools",
+          "source": "Mortise & Tenon Magazine",
+          "date": "Sep 24",
+          "url": "https://www.mortiseandtenonmag.com/blogs/blog/podcast-83-coperthwaite-on-simplicity-with-kenneth-kortemeier"
+        },
+        {
+          "headline": "Jette Scheib on Designing for Light and Daily Use",
+          "source": "smow Journal",
+          "date": "Sep 15",
+          "url": "https://www.smow.com/blog/2026/09/form-light-and-everyday-life-a-conversation-with-jette-scheib/",
+          "image": "https://www.smow.de/blog/wp-content/uploads/2026/09/Design-ohne-Titel-4.jpg"
+        },
+        {
+          "headline": "Testing an American Grown Tung Oil on His Own Tool Handles",
+          "source": "Popular Woodworking",
+          "byline": "Yoav Liberman",
+          "date": "Sep 28",
+          "url": "https://www.popularwoodworking.com/finishing/the-u-s-grown-finish-testing-tallahassee-tung-oil-in-the-shop/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "A Walk Through Hamburger Bahnhof's Show About Care as a Material",
+          "source": "Berlin Art Link",
+          "byline": "Charlotte Alex",
+          "date": "Sep 29",
+          "url": "https://www.berlinartlink.com/2026/09/29/matter-of-care-care-of-matter-materialistin-hamburger-bahnhof-exhibition-review/"
+        },
+        {
+          "headline": "Twenty Four Vienna Galleries Were Given One Theme, and It Was Love",
+          "source": "e-flux Criticism",
+          "byline": "George MacBeth",
+          "date": "Sep 24",
+          "url": "https://www.e-flux.com/criticism/6782473/curated-by-2026-love",
+          "image": "https://images-eflux.b-cdn.net/assets/03e7a920-b7fe-464e-92fa-9fb37c2a3903.jpg"
+        },
+        {
+          "headline": "Abdulnasser Gharem on Football, Sportswashing and Buying an Audience",
+          "source": "Monopol",
+          "byline": "Elke Buhr",
+          "date": "Sep 28",
+          "url": "https://www.monopol-magazin.de/interview-abdulnasser-gharem"
+        },
+        {
+          "headline": "Reading Pope.L's Works on Paper Up Close",
+          "source": "Burlington Contemporary",
+          "byline": "Kat Carril",
+          "date": "Sep 18",
+          "url": "https://contemporary.burlington.org.uk/reviews/reviews/certainly-an-act-works-on-paper-by-pope-l"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Biita Houdei Wrote One Synth Patch Per Song and Cut the Album in Ten Days",
+          "source": "KLOF Mag",
+          "byline": "Danny Neill",
+          "date": "Sep 30",
+          "url": "https://klofmag.com/2026/09/biita-houdei-this-bed-was-made-for-me/"
+        },
+        {
+          "headline": "Dick Gaughan's BBC Tapes Catch Him Between Two Bands",
+          "source": "Spiral Earth",
+          "byline": "Simon Jones",
+          "date": "Sep 20",
+          "url": "https://spiralearth.co.uk/live-at-the-bbc-1972-79-dick-gaughan/"
+        },
+        {
+          "headline": "Six Unaccompanied Works for Two Voices, From Saariaho to Norse Runes",
+          "source": "Sequenza21",
+          "byline": "Paul Muller",
+          "date": "Sep 28",
+          "url": "https://www.sequenza21.com/2026/09/susan-narucki-kirsten-ashley-wiest-new-music-for-two-voices/"
+        },
+        {
+          "headline": "One Sample of Network Timing Error Pulls a Line Array Out of Alignment",
+          "source": "ProSoundWeb",
+          "byline": "Bodo Felusch",
+          "date": "Sep 30",
+          "url": "https://www.prosoundweb.com/precision-in-the-network-acoustic-coherence-at-the-intersection-of-waveguide-mechanics-synchronization/",
+          "image": "https://www.prosoundweb.com/wp-content/uploads/2026/09/Prescision-in-network-cover.png"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "From Ole Worm's Cabinet to Barnum's Hall, the Long Habit of Collecting Oddities",
+          "source": "Journal of Antiques & Collectibles",
+          "byline": "Nick Boschetto",
+          "date": "Sep 28",
+          "url": "https://journalofantiques.com/digital-publications/joac-magazine/objects-beyond-the-ordinary-collecting-curiosities-and-oddities-from-wonder-rooms-to-sideshow-relics/",
+          "image": "https://journalofantiques.com/wp-content/uploads/2026/09/Musei_Wormiani_Historia-1024x814.jpg"
+        },
+        {
+          "headline": "New York's Lost Ballparks, Read Off the Postcards That Sold Them",
+          "source": "Postcard History",
+          "byline": "Hy Mariampolski",
+          "date": "Oct 1",
+          "url": "https://postcardhistory.net/2026/10/take-me-out-to-the-old-ballgame/"
+        },
+        {
+          "headline": "The 1792 Half Disme Whose Rittenhouse Pedigree Was Invented Over the Phone",
+          "source": "The E-Sylum",
+          "byline": "Pete Smith",
+          "date": "Sep 27",
+          "url": "https://www.coinbooks.org/v29/esylum_v29n39.html"
+        },
+        {
+          "headline": "India's Tavor Needed a Longer Receiver Because of Its Own Cartridge",
+          "source": "Forgotten Weapons",
+          "byline": "Ian McCollum",
+          "date": "Sep 30",
+          "url": "https://www.forgottenweapons.com/indias-unique-x95-tavor-zittara-i-did-not-expect-the-magazine/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Rachael Webb Was a Trans Marxist Councillor in Lambeth, and the Left Forgot Her",
+          "source": "History Workshop",
+          "byline": "Rebecca Jane Morgan",
+          "date": "Sep 24",
+          "url": "https://www.historyworkshop.org.uk/activism-solidarity/rachael-webb-the-forgotten-trans-marxist/"
+        },
+        {
+          "headline": "One Week of Cheshire Court Papers From 1787, Read Document by Document",
+          "source": "Legal History Miscellany",
+          "byline": "Cassie Watson",
+          "date": "Sep 18",
+          "url": "https://legalhistorymiscellany.com/2026/09/18/when-friends-teeth-fall-out-crime-and-punishment-in-cheshire-1787/"
+        },
+        {
+          "headline": "Irene Jessie Young's Bletchley Papers and a Notebook of Words to Remember Always",
+          "source": "Edinburgh University Archives",
+          "byline": "Nancy Britten",
+          "date": "Sep 3",
+          "url": "https://libraryblogs.is.ed.ac.uk/edinburghuniversityarchives/2026/09/03/love-loss-and-literature-cataloguing-the-papers-of-irene-jessie-young/"
+        },
+        {
+          "headline": "Robert Russell Surveyed Melbourne Before the Grid, Then Painted It From Memory",
+          "source": "State Library Victoria",
+          "byline": "Sarah Ryan",
+          "date": "Sep 11",
+          "url": "https://blogs.slv.vic.gov.au/such-was-life/cities-towns/early-views-of-melbourne-by-robert-russell/",
+          "image": "https://blogs.slv.vic.gov.au/wp-content/uploads/2026/07/ma200108-001_DisplayCopy-1024x780.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Lee Kirk Rehearsed His Actors to Improvise, Then Staged a Real Concert",
+          "source": "No Film School",
+          "byline": "GG Hawkins",
+          "date": "Sep 30",
+          "url": "https://nofilmschool.com/lee-kirk-on-directing-actors-and-the-making-of-nimrods"
+        },
+        {
+          "headline": "Adam Elliot Found Colour in a Nearly Monochrome Palette",
+          "source": "High on Films",
+          "byline": "David Morgan Brown",
+          "date": "Oct 1",
+          "url": "https://www.highonfilms.com/mary-and-max-2009-movie-review/",
+          "image": "https://www.highonfilms.com/wp-content/uploads/2026/10/Mary-and-Max-2009-hof.jpg"
+        },
+        {
+          "headline": "Connie He Trained a Model on Her Own Paintings to Animate Her Short",
+          "source": "Motionographer",
+          "byline": "Jesse Rylander",
+          "date": "Sep 28",
+          "url": "https://motionographer.com/2026/09/28/dear-upstairs-neighbors-how-connie-he-taught-a-machine-to-see-the-way-she-draws/"
+        },
+        {
+          "headline": "Zhang Yimou Built Raise the Red Lantern Out of Colour, Framing and Silence",
+          "source": "Asian Movie Pulse",
+          "byline": "Panos Kotzathanasis",
+          "date": "Oct 1",
+          "url": "https://asianmoviepulse.com/2026/10/raise-the-red-lantern-1991/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "September 30, 2026",
     "hero": {
       "headline": "Jose Giovanni Wrote French Crime Cinema After a Commuted Death Sentence",
