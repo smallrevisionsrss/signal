@@ -153,11 +153,87 @@ CSS = """
   --signal:#ff3b2f;
   --dot:#fa4616;
   --cat:#152035;
+  /* Added 2 Oct 2026 for dark mode. These four were hardcoded in the rules
+     below, which meant the dark block could not reach them and they would have
+     stayed light-mode values on a dark page: a white chip, a navy plate that
+     vanished, and so on. Values here are exactly what was inlined before, so
+     light mode is byte-for-byte unchanged. */
+  --surface:#ffffff;        /* the feed URL chip */
+  --img-backing:#111111;    /* behind a picture while it loads */
+  --plate-bg:#152035;       /* the plate was background:var(--cat) */
+  --plate-ink:#f4f2ec;
+  --plate-meta:#a9b2c4;
+  /* The announce bar and the footer bottom bar are INVERTED surfaces: dark
+     slabs on a light page, painted with background:var(--ink). Flipping --ink
+     for dark mode inverted the inversion and turned both into bright cream
+     bars across the top and bottom of a dark page. They get their own tokens
+     so they stay a band in both modes. Values here are exactly what they
+     resolved to before, so light mode does not move. */
+  --invert-bg:#111111;
+  --invert-ink:#f9f7f0;
+  --invert-ink-soft:rgba(249,247,240,.7);
   --serif:'Newsreader', Georgia, serif;
   --sans:'Instrument Sans','Helvetica Neue',Arial,sans-serif;
 }
+
+/* ============================================================== dark mode ===
+   Added 2 Oct 2026. The site had none before this: html carried
+   color-scheme:light outright.
+
+   The brief was "background #16161D, text in the current background, do they
+   almost flip." Almost is the operative word, and it is doing real work. Three
+   tokens cannot make the trip, and every value below was derived by measuring
+   what the token is worth against the page in light mode and reproducing that
+   same relationship against #16161D, rather than by inverting a hex.
+
+   WHAT FLIPS CLEANLY
+     --ink and --bg trade places. 16.79:1, against 17.62:1 in light. The red
+     is left exactly as it is and gets better in the dark: 5.07:1 here against
+     3.31:1 on cream, so links and the dot are more legible, not less.
+
+   WHAT CANNOT FLIP, AND WHY
+     --rule is #111111 in light, the same value as --ink. Flipping it would
+     put a hairline at 16.79:1, as bright as body text, and light-on-dark
+     already reads heavier than the reverse at equal contrast. It is set to
+     3.37:1 instead: still clearly a rule, not a glowing wire. This is the one
+     deliberate departure from the measured match.
+
+     --cat is #152035, a dark navy. Against #16161D it measures 1.11:1, which
+     is to say invisible: every category heading would have disappeared. It
+     becomes a cool off-white.
+
+     --ink-soft at #4c4c4c measures 2.10:1 on this background and fails
+     outright. Matched to its light-mode 8.01:1 instead.
+
+   --ink-faint is the one value that is NOT a faithful match: 4.74:1 here
+   against 3.03:1 in light. The light value fails WCAG AA for small text, and
+   reproducing that failure in a new mode seemed the wrong kind of fidelity.
+   Say the word and #646464 restores the exact match.
+
+   The plate keeps its own tokens rather than riding on --cat, which is why
+   --plate-* exist at all: --cat has to go light here, and a plate inheriting
+   that would have become a pale box with pale text on it.
+   ========================================================================= */
+@media (prefers-color-scheme: dark){
+  :root{
+    --ink:#f9f7f0;          /* 16.79:1 on the page */
+    --bg:#16161d;
+    --ink-soft:#adaba3;     /*  7.83:1, matching light's 8.01 */
+    --ink-faint:#85837c;    /*  4.74:1, deliberately above light's 3.03 */
+    --rule:#6a6a74;         /*  3.37:1, deliberately below a true flip */
+    --rule-soft:#2b2b33;    /*  1.28:1, matching light exactly */
+    --cat:#c9d2e6;          /* 11.87:1 */
+    --surface:#1e1e26;      /* was #ffffff, a white chip on a dark page */
+    --img-backing:#0f0f14;
+    --plate-bg:#212838;     /* lifted off the page so the plate still reads */
+    --invert-bg:#20202a;    /* a lifted band, NOT a cream slab: see the note
+                               above the token definition */
+    /* --signal, --dot, --plate-ink and --plate-meta are deliberately not
+       overridden: all four already work on this background. */
+  }
+}
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%; background:var(--bg); color-scheme:light}
+html{-webkit-text-size-adjust:100%; background:var(--bg); color-scheme:light dark}
 /* Both sites paint the same cream immediately, so a move between
    them never flashes the browser's default white. */
 body{
@@ -219,7 +295,7 @@ img{display:block; max-width:100%}
 .signal-hero-cta:hover{border-color:var(--signal); color:var(--signal)}
 .signal-hero-byline{font-size:13px; color:var(--ink-faint); font-weight:500}
 .signal-hero-media{position:relative; grid-column:2 / 4; margin:0}
-.signal-hero-media img{width:100%; aspect-ratio:4/3; object-fit:cover; background:#111; border:1px solid var(--rule-soft)}
+.signal-hero-media img{width:100%; aspect-ratio:4/3; object-fit:cover; background:var(--img-backing); border:1px solid var(--rule-soft)}
 .signal-hero-media figcaption{
   position:absolute; right:14px; bottom:14px; padding:4px 9px;
   font-size:12px; color:#fff; letter-spacing:.02em;
@@ -273,7 +349,7 @@ img{display:block; max-width:100%}
 .signal-row{padding:18px 0; border-bottom:1px solid var(--rule-soft)}
 .signal-row:last-child{border-bottom:none}
 .signal-row-media{display:block; width:100%; aspect-ratio:4/3; margin-bottom:14px}
-.signal-row-media img{width:100%; height:100%; object-fit:cover; display:block; background:#111; border:1px solid var(--rule-soft)}
+.signal-row-media img{width:100%; height:100%; object-fit:cover; display:block; background:var(--img-backing); border:1px solid var(--rule-soft)}
 .signal-row-headline{
   font-family:var(--serif); font-weight:500;
   /* 1.25 was set for Instrument Serif, which carries a smaller x-height.
@@ -337,7 +413,7 @@ img{display:block; max-width:100%}
 
 /* subscribe ------------------------------------------------------- */
 .feedurl{display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin:0 0 20px}
-.feedurl code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:14px; background:#fff; border:1px solid var(--rule-soft); padding:9px 12px; overflow-wrap:anywhere}
+.feedurl code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:14px; background:var(--surface); border:1px solid var(--rule-soft); padding:9px 12px; overflow-wrap:anywhere}
 .feedcopy{font-family:inherit; font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--ink); background:none; border:0; border-bottom:1px solid var(--ink); padding:0 0 3px; cursor:pointer}
 .feedcopy:hover{color:var(--signal); border-color:var(--signal)}
 .signal-sub{padding:28px 0 0; border-top:1px solid var(--rule);
@@ -454,13 +530,13 @@ NAV_CSS = """
 .mainnav-fixed{position:fixed; top:0; left:0; right:0; z-index:20; background:var(--bg)}
 .mainnav-spacer{width:100%}
 
-.mainnav-announce{background:var(--ink); border-bottom:1px solid var(--ink)}
+.mainnav-announce{background:var(--invert-bg); border-bottom:1px solid var(--invert-bg)}
 .mainnav-announce-row{position:relative; display:flex; align-items:center; justify-content:center; padding:10px 40px; text-align:center}
-.mainnav-announce-text{font-size:13px; color:rgba(249,247,240,.7); margin:0}
-.mainnav-announce-text a{font-weight:700; color:var(--bg); border-bottom:1px solid var(--bg); padding-bottom:1px; transition:border-color .15s ease, color .15s ease}
+.mainnav-announce-text{font-size:13px; color:var(--invert-ink-soft); margin:0}
+.mainnav-announce-text a{font-weight:700; color:var(--invert-ink); border-bottom:1px solid var(--invert-ink); padding-bottom:1px; transition:border-color .15s ease, color .15s ease}
 .mainnav-announce-text a:hover{border-color:var(--signal); color:var(--signal)}
-.mainnav-announce-close{position:absolute; right:24px; top:50%; transform:translateY(-50%); background:none; border:none; cursor:pointer; padding:4px; font-size:16px; line-height:1; color:rgba(249,247,240,.7); transition:color .15s ease}
-.mainnav-announce-close:hover{color:var(--bg)}
+.mainnav-announce-close{position:absolute; right:24px; top:50%; transform:translateY(-50%); background:none; border:none; cursor:pointer; padding:4px; font-size:16px; line-height:1; color:var(--invert-ink-soft); transition:color .15s ease}
+.mainnav-announce-close:hover{color:var(--invert-ink)}
 .mainnav-announce.is-dismissed{display:none}
 
 .mainnav-inner{display:flex; align-items:center; gap:24px; padding:20px 0}
@@ -968,9 +1044,9 @@ FOOTER_CSS = """
 .signal-footer-social a:hover{color:var(--ink); border-color:var(--ink)}
 .signal-footer-social svg{width:12px; height:12px; display:block}
 
-.signal-footer-bottom-bar{background:var(--ink)}
+.signal-footer-bottom-bar{background:var(--invert-bg)}
 .signal-footer-bottom{padding:10px 0; display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:8px 16px}
-.signal-footer-copy{font-size:11px; color:rgba(249,247,240,.7); letter-spacing:.02em}
+.signal-footer-copy{font-size:11px; color:var(--invert-ink-soft); letter-spacing:.02em}
 
 @media (max-width:760px){
   .signal-footer-row{padding:28px 0; align-items:flex-start}
@@ -1692,7 +1768,7 @@ ARTICLE_CSS = """
   text-underline-offset:2px;text-decoration-thickness:.5px}
 .signal-figcap a:hover{color:var(--ink)}
 .signal-figcap .sep{color:var(--rule-soft);padding:0 .45em}
-.signal-plate{aspect-ratio:4/3;background:var(--cat);color:#f4f2ec;
+.signal-plate{aspect-ratio:4/3;background:var(--plate-bg);color:var(--plate-ink);
   display:flex;flex-direction:column;justify-content:flex-end;
   padding:clamp(20px,4vw,44px);position:relative;overflow:hidden}
 .signal-plate::before{content:"";position:absolute;top:clamp(20px,4vw,44px);
@@ -1702,7 +1778,7 @@ ARTICLE_CSS = """
   letter-spacing:-.01em;margin:0}
 .signal-plate-meta{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
   font-size:clamp(10px,.5rem + .35vw,12px);letter-spacing:.13em;
-  text-transform:uppercase;color:#a9b2c4;margin:18px 0 0;line-height:1.9}
+  text-transform:uppercase;color:var(--plate-meta);margin:18px 0 0;line-height:1.9}
 """
 
 
