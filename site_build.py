@@ -220,9 +220,14 @@ CSS = """
     --bg:#16161d;
     --ink-soft:#adaba3;     /*  7.83:1, matching light's 8.01 */
     --ink-faint:#85837c;    /*  4.74:1, deliberately above light's 3.03 */
-    --rule:#6a6a74;         /*  3.37:1, deliberately below a true flip */
-    --rule-soft:#2b2b33;    /*  1.28:1, matching light exactly */
-    --cat:#c9d2e6;          /* 11.87:1 */
+    /* Both rules are now the CREAM's own hue, scaled down, so R>G>B holds
+       and the blue cast is gone. Values are unchanged: 3.38:1 and 1.27:1. */
+    --rule:#6c6b68;         /*  3.38:1, deliberately below a true flip */
+    --rule-soft:#2c2b2a;    /*  1.27:1, matching light exactly */
+    --cat:#f9f7f0;          /* same as the ink. The first pass used a cool
+                               off-white at 11.87:1 and it read as light blue
+                               against a warm cream page: +29 blue over red,
+                               where the cream itself is -9. */
     --surface:#1e1e26;      /* was #ffffff, a white chip on a dark page */
     --img-backing:#0f0f14;
     --plate-bg:#212838;     /* lifted off the page so the plate still reads */
