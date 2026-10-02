@@ -1,4 +1,4 @@
-  name: Build and deploy Signal
+name: Build and deploy Signal
 
 # Rebuilds the static site whenever the data or the generator changes,
 # and deploys it to GitHub Pages at signal.smallrevisions.com.
@@ -11,8 +11,6 @@ on:
       - 'signal-articles.json'
       - 'site_build.py'
       - 'assets/**'
-      - '.github/workflows/deploy.yml'
-      - 'site_build.py'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
