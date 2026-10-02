@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 2, 2026",
+    "hero": {
+      "headline": "The Scout Was Built Out of Its Director's Own Years Scouting Locations",
+      "dek": "Paula Gonzalez-Nasser drew her first feature from the years she spent finding locations for other people's films, and she and Mimi Davila take it apart with Matt Delman. They explain why the opening shot deliberately hides the protagonist from the audience, and how Davila built the performance by folding her own temperament into the director's working life. Much of the conversation is about the Fifth Floor collective, whose deliberately informal structure made the film possible without a conventional production hierarchy. It closes on credit and recognition for the below-the-line workers the film is quietly about.",
+      "byline": "By Matt Delman · Hammer to Nail",
+      "category": "photo-film",
+      "image": "https://www.hammertonail.com/wp-content/uploads/2026/09/TheScout_Nasser-Davila.jpg",
+      "url": "https://www.hammertonail.com/interviews/nasser-davila/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Street Found 1984 Honda CRX, Read Back Against Its Original Road Test",
+          "source": "Curbside Classic",
+          "byline": "Paul Niedermeyer",
+          "date": "Sep 30",
+          "url": "https://www.curbsideclassic.com/curbside-classics-asian/curbside-classic-1984-1987-honda-crx/",
+          "image": "https://www.curbsideclassic.com/wp-content/uploads/2020/09/CC-423-030-c.jpg"
+        },
+        {
+          "headline": "A Sardinian Official Argues a Master Plan Has No Power of Its Own",
+          "source": "Common Edge",
+          "byline": "Roberto Deriu",
+          "date": "Sep 29",
+          "url": "https://commonedge.org/who-shapes-the-territory-or-why-urban-planning-does-not-exist/"
+        },
+        {
+          "headline": "Her Chart About Overlooked Women Scientists Did Not Spread, So She Took It Apart",
+          "source": "Nightingale",
+          "byline": "Lauriane Mouysset",
+          "date": "Sep 30",
+          "url": "https://nightingaledvs.com/a-sa-place/"
+        },
+        {
+          "headline": "Those Iron Stars Bolted to Old Brick Walls Are Anchors, Not Ornament",
+          "source": "The Craftsman Blog",
+          "byline": "Scott Sidler",
+          "date": "Sep 21",
+          "url": "https://thecraftsmanblog.com/the-ultimate-guide-to-pattress-plates/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Camilla Low's Wax Sculptures Are Burning Themselves Out of Shape in Oslo",
+          "source": "Kunstkritikk",
+          "byline": "Johanne Edvarda B. Slaatta",
+          "date": "Oct 1",
+          "url": "https://kunstkritikk.no/levende-lys/"
+        },
+        {
+          "headline": "Three Artists Talk Through the Oksana Show at a Warsaw Foundation",
+          "source": "Szum",
+          "byline": "Antek Markiewicz",
+          "date": "Oct 2",
+          "url": "https://magazynszum.pl/na-ostrzu-noza-rozmowy-z-jackiem-markiewiczem-katya-shadkovska-i-markiem-sobczykiem-wokol-oksana-wystawy-w-fundacji-mammal/",
+          "image": "https://magazynszum.pl/wp-content/uploads/2026/10/oksana-1440x1080.jpeg"
+        },
+        {
+          "headline": "A Missal From About 1200 Anchors the Walters' Saint Francis Show",
+          "source": "BmoreArt",
+          "byline": "Kerr Houston",
+          "date": "Sep 28",
+          "url": "https://bmoreart.com/2026/09/follow-me-divine-inspiration-at-the-walters.html"
+        },
+        {
+          "headline": "Thomas Struth Talks Through His Own Photographs at the Jeu de Paume",
+          "source": "Fisheye Magazine",
+          "byline": "Fabrice Laroche",
+          "date": "Sep 30",
+          "url": "https://fisheyemagazine.fr/article/le-7-a-9-de-chanel-thomas-struth/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Brandon Seabrook and Bill Frisell Play One Guitar Between Them",
+          "source": "Something Else!",
+          "byline": "S. Victor Aaron",
+          "date": "Oct 1",
+          "url": "https://somethingelsereviews.com/2026/10/01/brandon-seabrook-feat-bill-frisell-utility-modern-2026/"
+        },
+        {
+          "headline": "Sixty Years of Freak Out! Pressings Traced Back to One Norwegian Tape",
+          "source": "Tracking Angle",
+          "byline": "Frank Wonneberg",
+          "date": "Sep 29",
+          "url": "https://trackingangle.com/music/a-true-monument-like-stonehenge"
+        },
+        {
+          "headline": "JPEGMAFIA Brought a Live Band to the Warfield and Kept Resetting the Set",
+          "source": "RIFF Magazine",
+          "byline": "Aaron Lee",
+          "date": "Oct 1",
+          "url": "https://riffmagazine.com/reviews/jpegmafia-20260930/",
+          "image": "https://riffmedia.s3.us-east-2.amazonaws.com/wp-content/uploads/2026/10/01014747/jpegmafia-riff-22.jpg"
+        },
+        {
+          "headline": "A Critic Argues Himself Round to Meredith Monk's Realms",
+          "source": "The Arts Fuse",
+          "byline": "John Tamilio III",
+          "date": "Sep 28",
+          "url": "https://artsfuse.org/334940/classical-album-review-meredith-monks-realms-a-portal-into-music-without-form/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Forty Years On, He Built the Short M1A He Could Never Buy",
+          "source": "The Armory Life",
+          "byline": "Mike Humphries",
+          "date": "Oct 1",
+          "url": "https://www.thearmorylife.com/m1a-a1-bush-rifle/",
+          "image": "https://www.thearmorylife.com/wp-content/uploads/2026/10/M1A-A1-Bush-Rifle.jpg"
+        },
+        {
+          "headline": "What a Silk Embroidered Surcoat Says About Rank in Nineteenth Century Uzbekistan",
+          "source": "HALI",
+          "byline": "Ben Evans",
+          "date": "Oct 1",
+          "url": "https://www.hali.com/editorial/silk-and-splendour-a-man-s-surcoat-from-uzbekistan"
+        },
+        {
+          "headline": "Two Cataloguers Put Numbers on Three Thousand Objects in a Maine House",
+          "source": "Historic New England",
+          "byline": "Shelley Amarante",
+          "date": "Sep 28",
+          "url": "https://www.historicnewengland.org/collections-unboxed-bowman-cataloguing-project/"
+        },
+        {
+          "headline": "Who Carved the Hercules That Stood on USS Constitution's Bow",
+          "source": "USS Constitution Museum",
+          "byline": "Carl Herzog",
+          "date": "Sep 15",
+          "url": "https://ussconstitutionmuseum.org/2026/09/15/herculean-creators"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Federal Education Records Show What Native American Schooling Left Out",
+          "source": "British Library",
+          "byline": "Dinos Pappas",
+          "date": "Sep 28",
+          "url": "https://www.bl.uk/stories/blogs/posts/a-nation-is-coming"
+        },
+        {
+          "headline": "Norwich Built a Grand Roller Skating Rink in 1876 and the Craze Collapsed Within a Year",
+          "source": "Norfolk Record Office",
+          "byline": "Francesca Nelson",
+          "date": "Sep 23",
+          "url": "https://norfolkrecordofficeblog.org/2026/09/23/roller-skating-in-norwich-part-1/",
+          "image": "https://norfolkrecordofficeblog.org/wp-content/uploads/2026/06/nowich-skating-rink-001.-image-from-the-south-asia-collection-wesbite.png"
+        },
+        {
+          "headline": "Fourteen Irish Election Handbills, 1922 to 1948, Catalogued at Queen's",
+          "source": "Queen's University Belfast Special Collections",
+          "byline": "Eva Isherwood Wallace",
+          "date": "Sep 23",
+          "url": "https://blogs.qub.ac.uk/specialcollections/ms-108-irish-electoral-ephemera-1922-1948/"
+        },
+        {
+          "headline": "A Georgian Caricaturist Drew Medicine as a Sequence of Assaults on the Patient",
+          "source": "Circulating Now",
+          "byline": "Ben Richardson",
+          "date": "Oct 1",
+          "url": "https://circulatingnow.nlm.nih.gov/2026/10/01/james-gillray-and-georgian-medical-satire"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Amir Bar-Lev on Filming the Race to Climb K2 in Winter",
+          "source": "The Moveable Fest",
+          "byline": "Stephen Saito",
+          "date": "Oct 1",
+          "url": "https://moveablefest.com/amir-bar-lev-last-first-winter-k2/"
+        },
+        {
+          "headline": "Criterion Cut Its Crying Game Restoration From the Original Camera Negative",
+          "source": "Moviejawn",
+          "byline": "Kirk Stevens",
+          "date": "Sep 29",
+          "url": "https://www.moviejawn.com/home/2026/9/29/disc-dispatch-the-crying-game"
+        },
+        {
+          "headline": "Sandra Wollner Builds a Film Out of the Fragments a Dead Teenager Leaves Behind",
+          "source": "Reverse Shot",
+          "byline": "Sam Bodrojan",
+          "date": "Sep 29",
+          "url": "https://reverseshot.org/reviews/entry/3496/everytime"
+        },
+        {
+          "headline": "Elia Kazan Filmed Only the Last Quarter of Steinbeck's Novel",
+          "source": "Crooked Marquee",
+          "byline": "Sara Batkie",
+          "date": "Sep 30",
+          "url": "https://crookedmarquee.com/its-just-the-good-and-the-bad-in-elia-kazans-east-of-eden/",
+          "image": "https://crookedmarquee.com/wp-content/uploads/2026/09/east1.png"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 1, 2026",
     "hero": {
       "headline": "Lesbian Audiences Turned the 1970s Vampire Film Into Camp",
