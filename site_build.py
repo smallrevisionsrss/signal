@@ -276,11 +276,23 @@ img{display:block; max-width:100%}
 .signal-row-media img{width:100%; height:100%; object-fit:cover; display:block; background:#111; border:1px solid var(--rule-soft)}
 .signal-row-headline{
   font-family:var(--serif); font-weight:500;
-  font-size:clamp(1.15rem,.95rem + .7vw,1.4rem); line-height:1.25;
+  /* 1.25 was set for Instrument Serif, which carries a smaller x-height.
+     Newsreader 500 sits taller in the same box, so a two or three line row
+     headline read loose at that value. 1.125 closes the lines up; at the real
+     384px measure the descenders still clear the line below. Changed 2 Oct 2026. */
+  font-size:clamp(1.15rem,.95rem + .7vw,1.4rem); line-height:1.125;
 }
 .signal-row-headline a{transition:opacity .15s ease}
 .signal-row-headline a:hover{opacity:.6}
-.signal-external-icon{font-family:var(--sans); font-size:.72em; color:var(--ink-faint); vertical-align:super}
+/* The arrow is offset by relative positioning, NOT vertical-align:super.
+   Measured 2 Oct 2026: super raised it out of the content box, so the browser
+   grew that line to 28.67px against 25.2px for every other line, and a three
+   line headline showed one loose gap. Relative positioning is paint-only and
+   leaves the line box alone. line-height:1 keeps the smaller glyph from
+   setting its own taller line. */
+.signal-external-icon{font-family:var(--sans); font-size:.72em;
+  color:var(--ink-faint); position:relative; top:-.42em; line-height:1;
+  vertical-align:baseline}
 .signal-row-date{display:block; margin-top:8px; font-size:12.5px; font-weight:500; font-family:var(--sans); color:var(--ink-faint)}
 
 /* merged filter view --------------------------------------------- */
@@ -429,7 +441,6 @@ GLYPHS = {
  "photo-film":  '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="M7 5v14M17 5v14M3 12h18"/></svg>',
 }
 
-ARROW = '<span class="arw" aria-hidden="true">&#8599;</span>'
 
 # ---------------------------------------------------------------- nav
 # Ported from Small Revisions' own header code injection so the two
@@ -715,7 +726,7 @@ NAV_JS = """
       '<img src="' + esc(item.image) + '" alt="" loading="lazy"></a>' : '';
     return '<div class="signal-row' + (item.image ? ' has-media' : '') + '">' + imageHTML +
       '<h5 class="signal-row-headline"><a href="' + esc(item.url) + '" target="_blank" rel="noopener">' +
-      esc(item.headline) + ' <span class="signal-external-icon" aria-hidden="true">\u2197\ufe0e</span></a></h5>' +
+      esc(item.headline) + '&nbsp;<span class="signal-external-icon" aria-hidden="true">\u2197\ufe0e</span></a></h5>' +
       '<time class="signal-row-date">' + esc(item.source) +
       (item.date ? ' \u00b7 ' + esc(item.date) : '') + '</time></div>';
   }
@@ -1129,7 +1140,7 @@ def row_html(a, internal=False):
     return (f'<div class="signal-row">{media}'
             f'<h5 class="signal-row-headline"><a href="{e(a["url"])}"'
             + ('>' + e(a["headline"]) if internal else
-               f' target="_blank" rel="noopener">{e(a["headline"])} {ARROW}')
+               f' target="_blank" rel="noopener">{e(a["headline"])}&nbsp;{ARROW}')
             + '</a></h5>'
             f'<time class="signal-row-date">{e(a["source"])}{date}</time></div>')
 
