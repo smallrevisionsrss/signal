@@ -153,7 +153,7 @@ CSS = """
   --signal:#ff3b2f;
   --dot:#fa4616;
   --cat:#152035;
-  --serif:'Instrument Serif', Georgia, serif;
+  --serif:'Newsreader', Georgia, serif;
   --sans:'Instrument Sans','Helvetica Neue',Arial,sans-serif;
 }
 *{box-sizing:border-box}
@@ -207,7 +207,7 @@ img{display:block; max-width:100%}
 .signal-hero.noimg .signal-hero-text{grid-column:1; padding-right:0}
 .signal-hero.noimg .signal-hero-dek{max-width:72ch}
 .signal-hero-headline{
-  font-family:var(--serif); font-weight:400;
+  font-family:var(--serif); font-weight:500;
   font-size:clamp(1.5rem,.64rem + 2.25vw,2.625rem);
   line-height:1.05; letter-spacing:-.01em;
 }
@@ -275,7 +275,7 @@ img{display:block; max-width:100%}
 .signal-row-media{display:block; width:100%; aspect-ratio:4/3; margin-bottom:14px}
 .signal-row-media img{width:100%; height:100%; object-fit:cover; display:block; background:#111; border:1px solid var(--rule-soft)}
 .signal-row-headline{
-  font-family:var(--serif); font-weight:400;
+  font-family:var(--serif); font-weight:500;
   font-size:clamp(1.15rem,.95rem + .7vw,1.4rem); line-height:1.25;
 }
 .signal-row-headline a{transition:opacity .15s ease}
@@ -311,12 +311,12 @@ img{display:block; max-width:100%}
 .signal-arch li{border-bottom:1px solid var(--rule-soft)}
 .signal-arch a{display:flex; flex-wrap:wrap; gap:6px 20px; align-items:baseline; padding:18px 2px; transition:opacity .15s ease}
 .signal-arch a:hover{opacity:.6}
-.signal-arch .d{font-family:var(--serif); font-size:1.4rem; min-width:11em}
+.signal-arch .d{font-family:var(--serif); font-weight:500; font-size:1.4rem; min-width:11em}
 .signal-arch .h{color:var(--ink-faint); font-size:14px; flex:1 1 280px}
 
 .prose{max-width:68ch; padding-top:28px}
-.prose h1{font-family:var(--serif); font-weight:400; font-size:clamp(1.9rem,1.2rem+2vw,2.625rem); line-height:1.05; letter-spacing:-.01em; margin-bottom:12px}
-.prose h2{font-family:var(--serif); font-weight:400; font-size:1.5rem; margin:36px 0 10px}
+.prose h1{font-family:var(--serif); font-weight:500; font-size:clamp(1.9rem,1.2rem+2vw,2.625rem); line-height:1.05; letter-spacing:-.01em; margin-bottom:12px}
+.prose h2{font-family:var(--serif); font-weight:500; font-size:1.5rem; margin:36px 0 10px}
 .prose p,.prose li{font-size:1.05rem; line-height:1.6; color:var(--ink-soft); margin-bottom:14px}
 .prose strong{color:var(--ink); font-weight:600}
 .prose a{color:var(--signal); border-bottom:1px solid var(--signal)}
@@ -331,7 +331,7 @@ img{display:block; max-width:100%}
 .signal-sub{padding:28px 0 0; border-top:1px solid var(--rule);
   display:grid; grid-template-columns:repeat(3,1fr); column-gap:32px; align-items:center}
 .signal-sub-text{grid-column:1 / 3}
-.signal-sub h2{font-family:var(--serif); font-weight:400; font-size:1.5rem; margin-bottom:8px}
+.signal-sub h2{font-family:var(--serif); font-weight:500; font-size:1.5rem; margin-bottom:8px}
 .signal-sub p{color:var(--ink-soft); font-size:1.05rem; line-height:1.55; margin-bottom:18px; max-width:58ch}
 /* A cut-out product shot on a transparent ground, so it is never cropped
    and never given the dark backing the editorial images carry. */
@@ -415,7 +415,8 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?'
          'family=Instrument+Sans:ital,wght@0,400..700;1,400..700'
-         '&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">')
+         '&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600'
+         '&display=swap" rel="stylesheet">')
 
 # One line-art glyph per section, echoing the marks beside the column
 # headings on smallrevisions.com/rsssignal.
@@ -1613,7 +1614,7 @@ ARTICLE_CSS = """
 }
 .signal-article-eyebrow{font-family:var(--sans);font-size:13px;font-weight:700;
   letter-spacing:.1em;text-transform:uppercase;color:var(--cat);margin:48px 0 18px}
-.signal-article-hed{font-family:var(--serif);font-weight:400;
+.signal-article-hed{font-family:var(--serif);font-weight:500;
   font-size:clamp(1.9rem,1.2rem + 2vw,2.625rem);line-height:1.12;letter-spacing:-.01em;
   color:var(--ink);max-width:20ch;margin:0 0 20px}
 .signal-article-standfirst{font-family:var(--sans);font-size:1.15rem;line-height:1.55;
@@ -1628,7 +1629,7 @@ ARTICLE_CSS = """
 /* Scoped under .signal-article-body so it outranks the body paragraph rule
    above; as a bare class it lost to `.signal-article-body p` and every pull
    quote rendered as an ordinary paragraph with a red line over it. */
-.signal-article-body .signal-article-pull{font-family:var(--serif);font-size:1.55rem;line-height:1.26;
+.signal-article-body .signal-article-pull{font-family:var(--serif); font-weight:500;font-size:1.55rem;line-height:1.26;
   color:var(--ink);max-width:30ch;margin:2.2em 0;padding-top:20px;
   border-top:2px solid var(--signal)}
 .signal-article-rail{position:sticky;top:28px}
@@ -1676,7 +1677,7 @@ ARTICLE_CSS = """
   padding:clamp(20px,4vw,44px);position:relative;overflow:hidden}
 .signal-plate::before{content:"";position:absolute;top:clamp(20px,4vw,44px);
   left:clamp(20px,4vw,44px);width:34px;height:3px;background:var(--signal)}
-.signal-plate-line{font-family:var(--serif);font-weight:400;
+.signal-plate-line{font-family:var(--serif);font-weight:500;
   font-size:clamp(1.35rem,.7rem + 2.1vw,2.5rem);line-height:1.1;
   letter-spacing:-.01em;margin:0}
 .signal-plate-meta{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
