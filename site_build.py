@@ -1625,8 +1625,13 @@ ARTICLE_CSS = """
 }
 .signal-article-eyebrow{font-family:var(--sans);font-size:13px;font-weight:700;
   letter-spacing:.1em;text-transform:uppercase;color:var(--cat);margin:48px 0 18px}
+/* 1.12 against the issue hero's 1.05 at the identical 42px ceiling: same
+   font, same weight, same size, same job, two different leadings, which showed
+   as soon as both were Newsreader. Matched to the hero. Parker Fly runs to four
+   lines here and Newsreader's ink extent is .881em at this size, so 1.05 still
+   leaves 7px of clear space. Changed 2 Oct 2026. */
 .signal-article-hed{font-family:var(--serif);font-weight:500;
-  font-size:clamp(1.9rem,1.2rem + 2vw,2.625rem);line-height:1.12;letter-spacing:-.01em;
+  font-size:clamp(1.9rem,1.2rem + 2vw,2.625rem);line-height:1.05;letter-spacing:-.01em;
   color:var(--ink);max-width:20ch;margin:0 0 20px}
 .signal-article-standfirst{font-family:var(--sans);font-size:1.15rem;line-height:1.55;
   color:var(--ink-soft);max-width:46ch;margin:0 0 30px}
@@ -1640,7 +1645,11 @@ ARTICLE_CSS = """
 /* Scoped under .signal-article-body so it outranks the body paragraph rule
    above; as a bare class it lost to `.signal-article-body p` and every pull
    quote rendered as an ordinary paragraph with a red line over it. */
-.signal-article-body .signal-article-pull{font-family:var(--serif); font-weight:500;font-size:1.55rem;line-height:1.26;
+/* 1.26 -> 1.12, which is the row headlines' optical tightness rather than
+   their raw number: Newsreader's ascender-to-descender ink is .887em at this
+   size and .893em at the rows' 22.4px, so matching clearance rather than ratio
+   is what makes the two read alike. Changed 2 Oct 2026. */
+.signal-article-body .signal-article-pull{font-family:var(--serif); font-weight:500;font-size:1.55rem;line-height:1.12;
   color:var(--ink);max-width:30ch;margin:2.2em 0;padding-top:20px;
   border-top:2px solid var(--signal)}
 .signal-article-rail{position:sticky;top:28px}
