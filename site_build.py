@@ -220,10 +220,25 @@ CSS = """
     --bg:#16161d;
     --ink-soft:#adaba3;     /*  7.83:1, matching light's 8.01 */
     --ink-faint:#85837c;    /*  4.74:1, deliberately above light's 3.03 */
-    /* Both rules are now the CREAM's own hue, scaled down, so R>G>B holds
-       and the blue cast is gone. Values are unchanged: 3.38:1 and 1.27:1. */
-    --rule:#6c6b68;         /*  3.38:1, deliberately below a true flip */
-    --rule-soft:#2c2b2a;    /*  1.27:1, matching light exactly */
+    /* Both rules carry the same visual weight they have in light mode, and
+       both sit on the CREAM's own hue so nothing reads blue.
+
+       These are two different jobs and they are NOT interchangeable.
+       --rule is the structural line: 6 uses, the top of the hero, the
+       underline beneath a category heading, the article topline, Sources.
+       In light mode it is #111111, full ink strength, 17.62:1 — a firm
+       black rule. --rule-soft is the quiet one: 24 uses, every row divider,
+       every image border, the column separators, at 1.28:1 in light.
+
+       An earlier pass set --rule to 3.37:1, reasoning that light-on-dark
+       halates. Rendered side by side that just made the structure vanish,
+       and it was not what light mode does. Matched properly now.
+
+       Worth recording for next time: setting BOTH to full brightness was
+       also tried, and it turns the 24 dividers into a wireframe. The fix
+       was never "brighter rules", it was "the right rule, brighter". */
+    --rule:#f9f7f0;         /* 16.79:1 against light's 17.62:1 */
+    --rule-soft:#2c2b2a;    /*  1.27:1 against light's 1.28:1 */
     --cat:#f9f7f0;          /* same as the ink. The first pass used a cool
                                off-white at 11.87:1 and it read as light blue
                                against a warm cream page: +29 blue over red,
