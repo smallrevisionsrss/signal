@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 3, 2026",
+    "hero": {
+      "headline": "The National Theatre Turned Fifty, and Its Critics Were Looking at the Wrong Thing",
+      "dek": "Denys Lasdun's concrete complex on the South Bank is fifty, and Will Wiles goes through it as a piece of civic machinery rather than a monument to be defended or attacked. He is interested in the board formed concrete, the terraces, and above all in the way the foyers leak out into the city, arguing that the relationship between the building and the street is effectively the fourth theatre. The anniversary is the peg; the reading of the building is the piece.",
+      "byline": "By Will Wiles · Apollo",
+      "category": "design-arch",
+      "image": "https://apollo-magazine.com/wp-content/uploads/2026/09/LEAD-National-Theatre-Jan-2015-2-photo-by-Philip-Vile.jpg",
+      "url": "https://apollo-magazine.com/national-theatre-london-denys-lasdun-50/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Renault Built the Scenic in Sheet Steel Because the Composites Cost Too Much",
+          "source": "Driven to Write",
+          "byline": "Eoin Doyle",
+          "date": "Oct 1",
+          "url": "https://driventowrite.com/2026/10/01/la-route-scenic-episode-two/"
+        },
+        {
+          "headline": "He Spent a Career on Places Rather Than Buildings",
+          "source": "RIBA Journal",
+          "byline": "Josephine Smit",
+          "date": "Oct 2",
+          "url": "https://www.ribaj.com/intelligence/profile-jason-prior/"
+        },
+        {
+          "headline": "A Thin Strip of Planting on the Olympic Park Fringe, Visited",
+          "source": "ianVisits",
+          "byline": "Ian Mansfield",
+          "date": "Oct 1",
+          "url": "https://www.ianvisits.co.uk/articles/londons-pocket-parks-stratford-insect-garden-e20-92703/"
+        },
+        {
+          "headline": "How Much a Board Will Move Across a Year, Worked Out in Inches",
+          "source": "Fine Woodworking",
+          "byline": "Dan Bollock",
+          "date": "Oct 2",
+          "url": "https://www.finewoodworking.com/2026/10/02/wood-moves-but-how-much",
+          "image": "https://images.finewoodworking.com/app/uploads/2026/09/02104013/Why-Wood-Moves-16_9.png"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Two Artists Built a Mirage Out of Machine Vision in Gwangju",
+          "source": "Something Curated",
+          "byline": "Keshav Anand",
+          "date": "Sep 17",
+          "url": "https://somethingcurated.com/2026/09/17/peruvian-pavilion-at-the-16th-gwangju-biennale/",
+          "image": "https://somethingcurated.com/wp-content/uploads/2026/09/AntiProduction-I-II-One-In-All-Despues.-2026-installation-view-16th-Gwangju-Biennale-Photo-by-Hwang-Inho-1-scaled.jpg"
+        },
+        {
+          "headline": "Forty One Former Residents Go Public About the Tom of Finland Foundation",
+          "source": "Hyperallergic",
+          "byline": "Matt Stromberg",
+          "date": "Oct 2",
+          "url": "https://hyperallergic.com/queer-artists-say-tom-of-finland-foundation-has-lost-its-way/"
+        },
+        {
+          "headline": "He Paints Portraits of People No Likeness Survives Of",
+          "source": "Frieze",
+          "byline": "Dalton Paula and Livia Russell",
+          "date": "Oct 1",
+          "url": "https://www.frieze.com/article/work-progress-dalton-paula"
+        },
+        {
+          "headline": "The Rain Is Dissolving Peru's Mud Built Archaeology",
+          "source": "The Art Newspaper",
+          "byline": "Constanza Ontiveros Valdes",
+          "date": "Oct 1",
+          "url": "https://theartnewspaper.com/2026/10/01/strongest-el-nino-in-decades-threatens-perus-adobe-heritage"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Ten Records That Carry Steve Reich Out of the Concert Hall",
+          "source": "The Quietus",
+          "byline": "Sean Kitching",
+          "date": "Oct 3",
+          "url": "https://thequietus.com/interviews/strange-world-of/steve-reich-best-music/"
+        },
+        {
+          "headline": "An Actor Who Could Not Sing, and Seven and a Half Minutes of Jimmy Webb",
+          "source": "The Vinyl District",
+          "byline": "Michael H. Little",
+          "date": "Oct 1",
+          "url": "https://www.thevinyldistrict.com/storefront/graded-on-a-curve-richard-harris-macarthur-park-2/"
+        },
+        {
+          "headline": "Samir LanGus Carries the Sintir From Agadir to New York",
+          "source": "The Brooklyn Rail",
+          "byline": "Isabelle Valtchanov",
+          "date": "Sep 23",
+          "url": "https://brooklynrail.org/2026/10/music/samir-langus-with-isabelle-bella-valtchanov/",
+          "image": "https://studio.brooklynrail.org/assets/dc4ca6a4-0cbf-4816-a685-29ca8d70f236.jpeg"
+        },
+        {
+          "headline": "Five Hundred Copies, and Thirty Years of Nobody Listening",
+          "source": "Small Revisions",
+          "byline": "Small Revisions",
+          "date": "Sep 20",
+          "url": "https://signal.smallrevisions.com/features/death-politicians-in-my-eyes/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "She Photographed the Men Who Keep the Bikes They Can No Longer Ride",
+          "source": "The Vintagent",
+          "byline": "Charlotte Croney",
+          "date": "Sep 29",
+          "url": "https://thevintagent.com/2026/09/29/still-running-the-grampian-motorcycle-club/"
+        },
+        {
+          "headline": "A Camera Repairer Is Trying to List Every Film Camera Ever Made",
+          "source": "Kosmo Foto",
+          "byline": "Stephen Dowling",
+          "date": "Sep 30",
+          "url": "https://kosmofoto.com/2026/09/ppp-cameras-unveils-new-website-aiming-to-list-every-film-camera-ever-made/"
+        },
+        {
+          "headline": "A Tabletop Pinball Kit, Played Properly Before Anyone Could Buy One",
+          "source": "Pinball News",
+          "byline": "Martin Ayub",
+          "date": "Sep 30",
+          "url": "https://pinballnews.com/site/2026/09/30/dinosaur-lab",
+          "image": "https://www.pinballnews.com/site/wp-content/uploads/games/dinosaur-lab/00-dunosaur-lab.jpg"
+        },
+        {
+          "headline": "The Official Sent to Inventory Brittany's Confiscated Property, Read Closely",
+          "source": "Rare Book Hub",
+          "byline": "Thibault Ehrengardt",
+          "evergreen": true,
+          "url": "https://www.rarebookhub.com/articles/4141"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "She Is a Hundred and Five and She Was at Cable Street",
+          "source": "Spitalfields Life",
+          "byline": "The Gentle Author",
+          "date": "Oct 3",
+          "url": "https://spitalfieldslife.com/2026/10/03/beattie-orwell-veteran-of-the-battle-of-cable-st/"
+        },
+        {
+          "headline": "Three Incompatible Stories About the Fabian Society, Tested Against the Boxes",
+          "source": "LSE History",
+          "byline": "Michael Weatherburn",
+          "evergreen": true,
+          "url": "https://blogs.lse.ac.uk/lsehistory/2026/09/16/three-versions-of-fabian-society-history-a-lesson-in-historiography/",
+          "image": "https://blogsmedia.lse.ac.uk/blogs.dir/65/files/2026/08/fabian-society-archives-scaled.jpg"
+        },
+        {
+          "headline": "A Reference Specialist Follows the Grid Through Her Own Division",
+          "source": "Library of Congress",
+          "byline": "Kate Phillips",
+          "date": "Oct 2",
+          "url": "https://blogs.loc.gov/picturethis/2026/10/navigating-the-grid/"
+        },
+        {
+          "headline": "A Reader Flew Four Thousand Miles and Found the Book by Accident",
+          "source": "Essex Record Office",
+          "byline": "Neil Wiffen",
+          "date": "Sep 25",
+          "url": "https://www.essexrecordofficeblog.co.uk/the-serendipity-of-the-searchroom-oh-and-waltham-forest/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Fifteen Years of Filming Artists Talking, and What the Camera Keeps",
+          "source": "Gagosian Quarterly",
+          "byline": "Toby Kidd",
+          "date": "Sep 24",
+          "url": "https://gagosian.com/quarterly/2026/09/24/interview-louisiana-channel-marc-christoph-wagner-and-toby-kidd/",
+          "image": "https://gagosian.com/media/images/quarterly/interview-louisiana-channel-marc-christoph-wagner-and-toby-kidd/ZukerOz3XlH9_1200x1200.jpg"
+        },
+        {
+          "headline": "A Second Edition Five Years On, and the White Space That Breaks It",
+          "source": "Conscientious Photography Magazine",
+          "byline": "Jorg Colberg",
+          "date": "Sep 20",
+          "url": "https://cphmag.com/at-night-gardens-grow/"
+        },
+        {
+          "headline": "Rebuilding the Smell of Nancy Rexroth's Darkroom",
+          "source": "Scent Made Digital",
+          "byline": "M Dougherty",
+          "date": "Sep 24",
+          "url": "https://mxmdougherty.substack.com/p/secrets-of-the-darkroom"
+        },
+        {
+          "headline": "Stephen Lighthill on Fifty Years Behind the Camera",
+          "source": "Cinematography World",
+          "byline": "Kirsty Hazlewood",
+          "evergreen": true,
+          "url": "https://www.cinematography.world/stephen-lighthill-asc-an-education-in-cinematography/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 2, 2026",
     "hero": {
       "headline": "His Professor Collapsed in Stockholm, So He Delivered the Nobel Lecture Himself",
