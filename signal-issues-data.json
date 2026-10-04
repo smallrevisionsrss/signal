@@ -1,5 +1,202 @@
 [
   {
+    "dateLabel": "October 4, 2026",
+    "hero": {
+      "headline": "The Network Said She Had No Television Credits, So He Hired Her Anyway",
+      "dek": "Showrunner Nick Antosca pushed to put Celiana Cardenas behind the camera on AMC's Cape Fear over network objections that she had never shot television, and the two of them walk through what they built once he won the argument. Cardenas is specific about the tools and the reasoning: the Alexa 35 for its saturation and contrast, and atmosphere made on set with wet-downs rather than rescued later in the grade. It is a craft conversation with the hiring fight left in rather than edited out.",
+      "byline": "By Katie Kasperson · Definition Magazine",
+      "category": "photo-film",
+      "image": "https://api.definitionmagazine.com/wp-content/uploads/2026/08/CelianaCapeFear-Large-e1787651630436.jpeg",
+      "url": "https://definitionmagazine.com/features/dynamic-duos-nick-antosca-celiana-cardenas-amc/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A 1961 Advertising Column on Burgstrasse, Read Letter by Letter",
+          "source": "Fonts In Use",
+          "byline": "Ralf Herrmann",
+          "date": "Oct 3",
+          "url": "https://fontsinuse.com/uses/80430/litfasssaeule-east-berlin"
+        },
+        {
+          "headline": "A Pizza Identity in Black and White, and the Spacing That Makes It Funny",
+          "source": "BP&O",
+          "byline": "Emily Gosling",
+          "date": "Oct 1",
+          "url": "https://bpando.org/2026/10/01/vrints-kolsteren-napoli-on-the-road-pizza-restaurant-brand-identity-design/",
+          "image": "https://bpando.org/wp-content/uploads/Vrints-Kolsteren-NotR-napoli-on-the-road-brand-identity-design-bpo-review-pizza-1.png"
+        },
+        {
+          "headline": "Oil, Then Wax, and Never Sand a Vintage Plane",
+          "source": "Wood and Shop",
+          "byline": "Joshua Farnsworth",
+          "date": "Oct 1",
+          "url": "https://woodandshop.com/apply-wood-finish-to-a-wooden-hand-plane/"
+        },
+        {
+          "headline": "They Drove a 1970 Lancia to a Dairy to See What Both Were For",
+          "source": "Petrolicious",
+          "byline": "Todd Brown",
+          "date": "Oct 2",
+          "url": "https://petrolicious.com/blogs/articles/long-way-to-churchtown-lancia-flavia"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Two Melbourne Shows Argue With Each Other About Appropriation",
+          "source": "Memo Review",
+          "byline": "Rex Butler",
+          "date": "Oct 3",
+          "url": "https://www.memoreview.net/reviews/margaret-preston-and-gordon-bennett-home-decor-re-view-after-margaret-preston-by-rex-butler"
+        },
+        {
+          "headline": "Open Calls Push the Cost and the Admin Onto the Applicant",
+          "source": "Art Jewelry Forum",
+          "byline": "Tom Iriks",
+          "date": "Sep 28",
+          "url": "https://artjewelryforum.org/articles/are-open-calls-as-open-as-they-claim_auth-tom-iriks_authnatl-belgium_9-28-2026/"
+        },
+        {
+          "headline": "She Remakes Discarded Electronics as Artefacts of a Future Civilisation",
+          "source": "Klimt02",
+          "byline": "Alexandra Bujenita",
+          "date": "Sep 28",
+          "url": "https://klimt02.net/forum/interviews/interview-romanian-jewelry-week-fangjing-hu-alexandra-bujenita"
+        },
+        {
+          "headline": "The Shelving Holds the Meaning, and the Firing Flaws Resist It",
+          "source": "Ceramics Now",
+          "byline": "Anisio Veloso",
+          "date": "Oct 2",
+          "url": "https://www.ceramicsnow.org/articles/edmund-de-waals-rain-diary-and-the-afterlife-of-the-vessel/",
+          "image": "https://www.ceramicsnow.org/wp-content/uploads/2026/10/0edmund-de-waal-at-gana-art-center.jpg"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Seven Microphones Flown From the Catwalks So the Room Stays Audible",
+          "source": "Mix",
+          "byline": "Mix Staff",
+          "date": "Sep 29",
+          "url": "https://www.mixonline.com/recording/miking-jalc-performances-for-sonic-honesty",
+          "image": "https://www.mixonline.com/wp-content/uploads/2026/09/2026-09-29-Schoeps-Linc-Ctr.jpg"
+        },
+        {
+          "headline": "A Coltrane Session From 1967, Heard as Chamber Free Jazz",
+          "source": "The Free Jazz Collective",
+          "byline": "Klaus Kitzinger",
+          "date": "Oct 3",
+          "url": "https://www.freejazzblog.org/2026/10/john-coltrane-100-stellar-regions.html"
+        },
+        {
+          "headline": "A College Radio Trade Sheet With a CD Glued Into Every Issue",
+          "source": "In Sheep's Clothing",
+          "date": "Sep 28",
+          "url": "https://insheepsclothinghifi.com/cmj-new-music-monthly-and-the-analog-machinery-of-discovery/"
+        },
+        {
+          "headline": "She Builds Texture Against Rhythm and Will Not Use a Formula",
+          "source": "CDM",
+          "byline": "Peter Kirn",
+          "date": "Sep 30",
+          "url": "https://cdm.link/anastasia-kristensen-bestiarium-sombre-interview/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Ganjifa Deck Where Vishnu's Ten Avatars Became Ten Indian Birds",
+          "source": "World of Playing Cards",
+          "byline": "Lev Golinkin",
+          "date": "Oct 3",
+          "url": "https://www.wopc.co.uk/india/sawantwadi-palace-bird-ganjifa"
+        },
+        {
+          "headline": "Why a Museum Bags Board Game Pieces Differently From Hobbyists",
+          "source": "The Strong National Museum of Play",
+          "byline": "Mirek Stolee",
+          "date": "Sep 25",
+          "url": "https://www.museumofplay.org/blog/bagging-board-games-for-fun-and-nonprofit/"
+        },
+        {
+          "headline": "He Weighed the 1974 Aluminum Cent and It Came In Five Hundredths Heavy",
+          "source": "Coin World",
+          "byline": "Paul Gilkes",
+          "date": "Sep 28",
+          "url": "https://www.coinworld.com/news/us-coins/disappointment-from-novelty-item"
+        },
+        {
+          "headline": "Thirteen Omegas, Written Down as Found, on a Scottish Golf Course",
+          "source": "Oracle Time",
+          "byline": "Michael Sonsino",
+          "date": "Oct 3",
+          "url": "https://oracleoftime.com/watch-spotting-omegas-at-archerfield-golf-course/",
+          "image": "https://oracleoftime.com/wp-content/uploads/2026/10/Omega-Watchspotting-Featured.jpg"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The Catalogue Was Wrong, and the Answer Was in the Book's Own Sheets",
+          "source": "UCL Special Collections",
+          "byline": "Sarah Pipkin",
+          "date": "Sep 14",
+          "url": "https://blogs.ucl.ac.uk/special-collections/2026/09/14/tracing-the-origins-of-the-workes-of-that-famous-chirurgion-ambrose-parey/"
+        },
+        {
+          "headline": "Ten Expedition Diaries, Transcribed to Ninety Six Percent Accuracy",
+          "source": "Archives Hub",
+          "byline": "Jane Ronson",
+          "date": "Sep 16",
+          "url": "https://blog.archiveshub.jisc.ac.uk/2026/09/16/royal-botanic-garden-edinburgh-archives-the-major-george-sherriff-diary-digitisation-project/"
+        },
+        {
+          "headline": "A Cork Cutter's Shop, Irn-Bru, and What the Canal Side Factory Was Before",
+          "source": "Historic Environment Scotland",
+          "byline": "Meg Elliott",
+          "date": "Sep 23",
+          "url": "https://blog.historicenvironment.scot/2026/09/from-ag-barr-to-heritage-skills-the-history-behind-falkirks-new-centre-of-excellence/",
+          "image": "https://blog.historicenvironment.scot/wp-content/uploads/2026/09/blog-covers-5.png"
+        },
+        {
+          "headline": "He Went Back Into the 1666 Gazette and Several Received Figures Did Not Hold",
+          "source": "History's Newsstand",
+          "byline": "Guy Heilenman",
+          "date": "Sep 28",
+          "url": "https://blog.rarenewspapers.com/a-truth-a-story-a-myth-a-discovery-what-to-do-with-a-1666-london-gazette/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Giving Form to Testimony You Are Not Allowed to Film",
+          "source": "Documentary",
+          "byline": "Sonya Vseliubska",
+          "date": "Oct 1",
+          "url": "https://www.documentary.org/online-feature/freedom-luxury-andrei-kutsila-giving-voice-and-form-belarusian-dissent-letters"
+        },
+        {
+          "headline": "He Photographed a Resort Coast Out of Season and Let the Blur Do the Work",
+          "source": "Positive Magazine",
+          "date": "Sep 24",
+          "url": "https://www.positive-magazine.com/falsche-bewegung-roberto-cavazzuti/",
+          "image": "https://www.positive-magazine.com/wp-content/uploads/2026/09/roberto_cavazzuti_positivemagazine_01.jpg"
+        },
+        {
+          "headline": "A Film That Refuses the Reconciliation Arc It Is Expected to Deliver",
+          "source": "Ultra Dogme",
+          "byline": "Matene Toure",
+          "date": "Sep 30",
+          "url": "https://ultradogme.com/2026/09/30/bouchra/"
+        },
+        {
+          "headline": "Limestone Quarrying, Tourism, and a Book That Argues Through Its Sequencing",
+          "source": "PhotoBook Journal",
+          "byline": "Matt Schneider",
+          "date": "Oct 2",
+          "url": "https://photobookjournal.com/2026/10/02/marcin-piekalkiewicz-built-on-sand-on-maltas-construction-boom/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 3, 2026",
     "hero": {
       "headline": "The National Theatre Turned Fifty, and Its Critics Were Looking at the Wrong Thing",
