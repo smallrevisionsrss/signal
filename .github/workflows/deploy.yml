@@ -55,6 +55,7 @@ jobs:
           # would silently ship a build depending on a retired repo and the
           # shop's CDN again. Fail here instead, loudly.
           test -f _site/assets/logo.svg
+          test -f _site/assets/logo-dark.svg
           test -f _site/assets/crate.png
           python3 - <<'PY'
           import json, re, glob, sys

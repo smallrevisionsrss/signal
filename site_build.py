@@ -519,6 +519,34 @@ def asset(name):
 
 LOGO = asset("logo.svg")
 
+# The wordmark is a black plate with the letters knocked OUT of it. On a dark
+# page that inverts twice: the plate disappears into the background and the
+# letters fill with it, so the mark reads as an outline of nothing. CSS cannot
+# fix it, because the file ships through <img> and the page's styles do not
+# reach inside. So there is a second drawing, made the other way round — a
+# lifted charcoal plate, cream hairline, cream letters.
+#
+# Same artwork at the same size. Its viewBox is 216.28x88.81 against the light
+# file's 502x205.85, which is a ratio of 2.4353 against 2.4387: a fifth of a
+# pixel at the 63px height both are set to. Overlaid at 63px the two register
+# on top of each other.
+#
+# <picture> does the switching rather than a second <img> hidden with CSS,
+# because the browser evaluates the media query BEFORE it fetches: exactly one
+# file is downloaded, and flipping the OS theme swaps it with no reload. The
+# <img> inside stays the light file, which is what anything that ignores
+# <source> falls back to.
+LOGO_DARK = asset("logo-dark.svg")
+
+
+def logo_img():
+    """The wordmark, light or dark by the reader's OS setting. See above."""
+    return ('<picture>'
+            f'<source srcset="{LOGO_DARK}" media="(prefers-color-scheme: dark)">'
+            f'<img src="{LOGO}" alt="{e(PUBLISHER)}" width="154" height="63">'
+            '</picture>')
+
+
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?'
@@ -562,6 +590,7 @@ NAV_CSS = """
 .mainnav-inner{display:flex; align-items:center; gap:24px; padding:20px 0}
 .mainnav-logo{display:block; flex:none; transition:opacity .15s ease}
 .mainnav-logo:hover{opacity:.6}
+.mainnav-logo picture{display:block}
 .mainnav-logo img{display:block; height:63px; width:auto}
 .mainnav-bottom-row{display:flex; align-items:center; justify-content:space-between; gap:24px; flex:1; min-width:0}
 .mainnav-links{display:flex; align-items:center; flex:1; min-width:0}
@@ -697,7 +726,7 @@ def nav_html(domain):
 <button type="button" class="mainnav-announce-close" id="mainnav-announce-close" aria-label="Dismiss announcement">&times;</button>
 </div></div></div>
 <div class="mainnav-row"><div class="container"><div class="mainnav-inner">
-<a class="mainnav-logo" href="{SHOP_URL}"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="154" height="63"></a>
+<a class="mainnav-logo" href="{SHOP_URL}">{logo_img()}</a>
 <div class="mainnav-bottom-row">
 <nav class="mainnav-links" id="mainnav-links" aria-label="Main">
 <a class="mainnav-toplink" href="{SHOP_URL}/all" data-group="shop">Shop</a>
@@ -1035,6 +1064,7 @@ FOOTER_CSS = """
 .signal-footer-row{padding:35px 0; display:flex; align-items:center; flex-wrap:wrap; gap:16px 24px}
 .signal-footer-logo{display:block; flex:none; transition:opacity .15s ease}
 .signal-footer-logo:hover{opacity:.6}
+.signal-footer-logo picture{display:block}
 .signal-footer-logo img{display:block; height:63px; width:auto}
 
 .signal-footer-links{display:flex; flex-wrap:wrap; align-items:center; gap:20px; flex:1; min-width:0}
@@ -1094,7 +1124,7 @@ def footer_html(domain):
     return f"""<footer class="signal-footer">
 <div class="container">
 <div class="signal-footer-row">
-<a class="signal-footer-logo" href="{SHOP_URL}"><img src="{LOGO}" alt="{e(PUBLISHER)}" width="154" height="63"></a>
+<a class="signal-footer-logo" href="{SHOP_URL}">{logo_img()}</a>
 <nav class="signal-footer-links" aria-label="Footer">
 <a href="{SHOP_URL}/all" class="signal-footer-jump">Shop</a>
 <a href="#" class="signal-footer-jump" data-jump="scroll">Signal</a>
