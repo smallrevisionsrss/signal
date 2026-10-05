@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 5, 2026",
+    "hero": {
+      "headline": "A Year in the Lab Working Out How to Repair a Blue That Resists Repair",
+      "dek": "Yves Klein's International Klein Blue swallows light, which is exactly what makes it almost impossible to conserve: the matte surface defeats instrumental colour reading, so a damaged Blue Venus has to be matched by eye. James Hughes spent a year reconstructing how the pigment was made in order to work out how it could be mended, mixing synthetic ultramarine into adhesive, altering particle size by scraping and grinding and sifting, and spraying plaster mock-ups until the repair disappeared. The piece ends on before and after details of the shoulder, and on an argument for the smallest intervention that works.",
+      "byline": "By James Hughes · The Metropolitan Museum of Art",
+      "category": "design-arch",
+      "image": "https://cdn.sanity.io/images/cctd4ker/production/23dba42e66c184602b373ff0bc7eb8c103af2e2e-5120x3757.jpg",
+      "url": "https://www.metmuseum.org/en/essays/object-conservation-ethical-technical-treatment-yves-klein-blue-venus-sculpture"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "They Gutted a Point Loma Midcentury for 786 Thousand and Kept Only the Ceilings",
+          "source": "Dwell",
+          "byline": "Kelly Dawson",
+          "date": "Oct 2",
+          "url": "https://www.dwell.com/article/budget-breakdown-byrne-midcentury-renovation-whit-at-home-san-diego-676ecc16",
+          "image": "https://images.dwell.com/photos-6133431940611203072/7508623019001999360-large/the-vaulted-ceilings-in-the-main-living-areas-were-the-only-things-we-really-wanted-to-preserve-says-designer-whit-solomon-everything-else-had-to-go.jpg"
+        },
+        {
+          "headline": "Nine Years Rebuilding the Lumieres' 1907 Colour Process, Starch Grain by Starch Grain",
+          "source": "The Vintagent",
+          "byline": "Paul d'Orleans",
+          "date": "Oct 3",
+          "url": "https://thevintagent.com/2026/10/02/bringing-autochrome-back-to-life/"
+        },
+        {
+          "headline": "A Plain Civic Library That Earned Its Listing by Being Used",
+          "source": "Twentieth Century Society",
+          "byline": "Clare St George",
+          "evergreen": true,
+          "url": "https://c20society.org.uk/building-of-the-month/paddington-library-westminster"
+        },
+        {
+          "headline": "The German Cup Gets Its First Visual Rebrand in a Decade",
+          "source": "Slanted",
+          "byline": "Samira Niedermayer",
+          "date": "Sep 28",
+          "url": "https://www.slanted.de/the-dfb-pokal-reimagined/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "A Survey of Alaia's Africa That Never Quite Reaches Africa",
+          "source": "The Costume Society",
+          "byline": "Dolla Merrillees",
+          "date": "Oct 4",
+          "url": "https://costumesociety.org.uk/blog/post/the-luxurious-cashmere-shawl-a-cold-weather-essential-for-the-fashionable-nineteenth-century-lady"
+        },
+        {
+          "headline": "He Calls Himself the Interpreter of the Process Rather Than Its Author",
+          "source": "Artribune",
+          "byline": "Ludovica Palmieri",
+          "date": "Oct 2",
+          "url": "https://www.artribune.com/arti-visive/arte-contemporanea/2026/10/angelo-cricchi-intervista-mostra-roma/"
+        },
+        {
+          "headline": "Belarusian Artists in Warsaw, Against the Statistics and the Headlines",
+          "source": "Contemporary Lynx",
+          "byline": "Sonia Witak",
+          "date": "Oct 5",
+          "url": "https://contemporarylynx.co.uk/memory-and-belonging-in-hidden-narratives-at-galeria-promocyjna-in-warsaw",
+          "image": "https://contemporarylynx.co.uk/wp-content/uploads/2026/10/Yuliya-Tsviatkova-In-the-animals-skin-2025-film-still-dzieki-uprzejmosci-artystki-1-scaled.jpg"
+        },
+        {
+          "headline": "What the X-Rays Found Underneath the Blinding of Samson",
+          "source": "Stadel Stories",
+          "byline": "Elisabeth Pallentin",
+          "date": "Oct 1",
+          "url": "https://stories.staedelmuseum.de/de/preserving-rembrandt-for-future-generations"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A Period St Matthew Passion Built on Chamber Forces in Edinburgh",
+          "source": "Bachtrack",
+          "byline": "Simon Thompson",
+          "date": "Oct 2",
+          "url": "https://bachtrack.com/review-scottish-chamber-orchestra-bach-st-matthew-passion-emelyanychev-scottish-chamber-orchestra-october-2026"
+        },
+        {
+          "headline": "An Outdoor Salvant Set Where the Stagecraft Was the Argument",
+          "source": "San Francisco Classical Voice",
+          "byline": "Shiriel King Abramson",
+          "date": "Oct 4",
+          "url": "https://www.sfcv.org/articles/review/cecile-mclorin-salvant-warms-chilly-night-orinda"
+        },
+        {
+          "headline": "He Compared the Tape to His Own 1970 Pressings and Showed the Matrix Numbers",
+          "source": "The Reel-to-Reel Rambler",
+          "byline": "Dave Denyer",
+          "date": "Sep 25",
+          "url": "https://thereeltoreelrambler.com/2026/09/25/black-sabbaths-black-sabbath-and-paranoid-on-tape-from-rhino-high-fidelity/"
+        },
+        {
+          "headline": "Steinway's Soundboards Run Through a Fight Over Old Growth Logging",
+          "source": "VAN Magazine",
+          "byline": "Jordan Silversmith",
+          "date": "Oct 1",
+          "url": "https://van-magazine.com/mag/steinway-soundboard-wood-tongass/",
+          "image": "https://van-magazine.com/wp-content/uploads/2026/10/steinway-soundboard-wood-tongass.jpg"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Fellow Reads One Library's 23 Million Items as a Shelving Problem",
+          "source": "Library of Congress",
+          "byline": "Kristina Grooms",
+          "date": "Oct 5",
+          "url": "https://blogs.loc.gov/preservation/2026/10/perspectives-from-the-stacks-an-interview-with-cmds-michael-coventry/"
+        },
+        {
+          "headline": "He Is Cataloguing Every Film Camera Ever Made and Is Still in the A's",
+          "source": "DPReview",
+          "byline": "Abby Ferguson",
+          "date": "Oct 2",
+          "url": "https://www.dpreview.com/news/one-camera-restorers-ambitious-plan-to-catalog-every-film-camera-ever-made/",
+          "image": "https://www.dpreview.com/wp-content/uploads/2026/10/E-GN-camera-index-Adox-Adrette-I-16x9-Lead-1.jpg"
+        },
+        {
+          "headline": "A KAWS Estimated at Two Hundred Thousand Went for One Point One Million",
+          "source": "Puck",
+          "byline": "Marion Maneker",
+          "date": "Oct 2",
+          "url": "https://puck.news/hong-kong-auction-results-2026-art-market-recap/"
+        },
+        {
+          "headline": "Mattel Turned Patent Litigation Into a Competitive Instrument",
+          "source": "Business History Review",
+          "byline": "Valeria Giacomin and Marina Nicoli",
+          "date": "Oct 1",
+          "url": "https://www.cambridge.org/core/journals/business-history-review/article/inside-the-dollhouse-litigation-corporate-power-and-competition-in-the-american-midtwentieth-century-toy-industry/204E8EEF35A28F77A81E8F268C2B5121"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Museum's Gift Shop Books, Read Against 150 Years in Its Own Library",
+          "source": "Science History Institute",
+          "byline": "Judith Kaplan",
+          "date": "Sep 10",
+          "url": "https://www.sciencehistory.org/collections/blog/the-kids-corner/",
+          "image": "https://www.sciencehistory.org/wp-content/uploads/2026/09/kids_books_museum_hero-scaled.jpg"
+        },
+        {
+          "headline": "Germinal Choice Started as Socialism and Ended as a Sperm Bank",
+          "source": "American Philosophical Society",
+          "byline": "Fern Rice",
+          "date": "Sep 21",
+          "url": "https://www.amphilsoc.org/news/hermann-muller-and-intellectual-history-germinal-choice"
+        },
+        {
+          "headline": "A Socialist Magazine's Cartoons Made Birth Control a Question of Self Determination",
+          "source": "Newberry Library",
+          "byline": "Ruby Hayden and Margaret Storey",
+          "evergreen": true,
+          "url": "https://www.newberry.org/blog/the-masses"
+        },
+        {
+          "headline": "Sidney Used the Bracket Better Than Anyone, Then Broke Off Mid Sentence on One",
+          "source": "The Public Domain Review",
+          "byline": "Florence Hazrat",
+          "date": "Sep 30",
+          "url": "https://publicdomainreview.org/essay/philip-sidney-and-the-extreme-disgraces-of-the-parenthesis/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Opening Days at Pordenone, Judged on the Prints and the Accompaniment",
+          "source": "Silent London",
+          "byline": "Pamela Hutchinson",
+          "date": "Oct 4",
+          "url": "https://silentlondon.co.uk/2026/10/04/le-giornate-del-cinema-muto-2026-pordenone-post-no-2/"
+        },
+        {
+          "headline": "Decades Photographing One Shoreline, and What That Does to a Practice",
+          "source": "On Landscape",
+          "byline": "Charlotte Parkin",
+          "date": "Sep 29",
+          "url": "https://www.onlandscape.co.uk/2026/09/craig-blacklock-part-2/"
+        },
+        {
+          "headline": "The Degraded, Rephotographed Image Is the Film's Actual Argument",
+          "source": "Film Obsessive",
+          "byline": "Lucio Reis Filho",
+          "date": "Oct 4",
+          "url": "https://filmobsessive.com/film/film-analysis/begotten-still-lurks-at-the-threshold/",
+          "image": "https://filmobsessive.com/wp-content/uploads/2026/10/featured.jpg"
+        },
+        {
+          "headline": "The First Full Accounting of a Body of Work Made on a Plastic Toy Camera",
+          "source": "Cincinnati Magazine",
+          "byline": "Peyton Ann Hodge",
+          "date": "Oct 5",
+          "url": "https://www.cincinnatimagazine.com/article/nancy-rexroth/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 4, 2026",
     "hero": {
       "headline": "The Network Said She Had No Television Credits, So He Hired Her Anyway",
