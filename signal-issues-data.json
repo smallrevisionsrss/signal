@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 6, 2026",
+    "hero": {
+      "headline": "Five Thousand Game Magazines In, the Hard Part Is Making Them Findable",
+      "dek": "The Video Game History Foundation's digital archive passed five thousand magazines, which Phil Salvador puts at roughly 600,000 pages, or a hundred feet of shelf if you stacked it. The interesting half of the post is not the number but the cataloguing behind it: a Japanese language pilot beginning with Neo Geo Freak, text recognition built specifically for Japanese type rather than borrowed from English, and major articles indexed in English by hand so that a researcher who cannot read Japanese can still find them. Salvador also counts more than five hundred Wikipedia citations now pointing into the archive, which is the closest thing there is to a measure of whether any of this worked.",
+      "byline": "By Phil Salvador · Video Game History Foundation",
+      "category": "collecting",
+      "image": "https://gamehistory.org/wp-content/uploads/2026/09/5Kcollage-1.jpg",
+      "url": "https://gamehistory.org/5k-magazines/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "SANAA Hung a Church, a Library and a Gym Off One Continuous Roof",
+          "source": "ArchEyes",
+          "byline": "ArchEyes Team",
+          "date": "Oct 5",
+          "url": "https://archeyes.com/grace-farms-by-sanaa-river-building-in-new-canaan-connecticut/"
+        },
+        {
+          "headline": "A Manhattan Church Stayed Put by Building an Office Tower Above Itself",
+          "source": "Metropolis",
+          "byline": "Diana Budds",
+          "date": "Sep 29",
+          "url": "https://metropolismag.com/projects/how-a-hybrid-building-helped-an-historic-manhattan-congregation-remain-in-place/",
+          "image": "https://metropolismag.com/wp-content/uploads/2026/09/16-125-West-57th-scaled.jpg"
+        },
+        {
+          "headline": "Ten Years of a Type School, Read Through the Typefaces Its Students Drew",
+          "source": "Letterform Archive",
+          "byline": "Angela Riechers",
+          "date": "Oct 1",
+          "url": "https://letterformarchive.org/news/type-for-all-10-years-of-type-west-exhibition/"
+        },
+        {
+          "headline": "A Sofa Engineered From the Frame Out So It Can Be Taken Apart Again",
+          "source": "Indesignlive",
+          "byline": "Alice Blackwood",
+          "date": "Sep 30",
+          "url": "https://www.indesignlive.com/articles/bachli-array-snohetta"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Flood Damaged Negatives in Her Mother's House Became a Book About Girlhood",
+          "source": "AnOther",
+          "byline": "Madeleine Rothery",
+          "date": "Oct 6",
+          "url": "https://www.anothermag.com/art-photography/17548/angela-hill-elizabeth-idea-books"
+        },
+        {
+          "headline": "Conservators Found Pink, Blue and Yellow Paper Underneath Redon's Blacks",
+          "source": "LACMA Unframed",
+          "byline": "Michelle Sullivan, Lucia Elledge and Danielle Canter",
+          "date": "Sep 23",
+          "url": "https://unframed.lacma.org/2026/09/23/colorful-story-odilon-redon-drawing-papers"
+        },
+        {
+          "headline": "Leiko Ikemura Is Pouring Paint Now, and It Reads Closer to Frankenthaler",
+          "source": "Flash Art",
+          "byline": "Philipp Hindahl",
+          "date": "Oct 5",
+          "url": "https://flash---art.com/2026/10/leiko-ikemura/",
+          "image": "https://flash---art.com/wp-content/uploads/2026/10/LI_S_14_C_optimized_1500-1024x768.jpg"
+        },
+        {
+          "headline": "Fifteen Years of Moriah Evans, Ending in a Copy of the Raft of the Medusa",
+          "source": "Momus",
+          "byline": "Ethan Philbrick",
+          "date": "Oct 2",
+          "url": "https://momus.ca/2026/10/02/life-is-dance-dance-is-death-life-is-dance-with-death-the-art-of-moriah-evans/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A Slovak Post Punk Band Recorded in State Studios Without Permission",
+          "source": "Bandcamp Daily",
+          "byline": "Michal Wieczorek",
+          "date": "Oct 5",
+          "url": "https://daily.bandcamp.com/features/matkovia-1982-1986-feature",
+          "image": "https://f4.bcbits.com/img/0047788412_171.jpg"
+        },
+        {
+          "headline": "Whole Lotta Love Was Built Across Three Studios and Two Continents",
+          "source": "Louder",
+          "byline": "Dave Lewis",
+          "date": "Oct 6",
+          "url": "https://www.loudersound.com/bands-artists/led-zeppelins-whole-lotta-love"
+        },
+        {
+          "headline": "Forty Years of Jin Hi Kim's Komungo, Gathered Onto Nine Discs",
+          "source": "Point of Departure",
+          "byline": "Bill Shoemaker",
+          "evergreen": true,
+          "url": "https://www.pointofdeparture.org/PoD96/PoD96PageOne.html"
+        },
+        {
+          "headline": "Three Generations of One California Family Playing Son Jarocho",
+          "source": "Smithsonian Folklife",
+          "byline": "Daniel Sheehy",
+          "date": "Sep 15",
+          "url": "https://folklife.si.edu/magazine/hermanos-herrera"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The Mego Toys That Never Shipped, Read Off a 1980 Dealer Order Form",
+          "source": "Mego Museum",
+          "byline": "Brain",
+          "date": "Sep 29",
+          "url": "https://www.megomuseum.com/lost-toys-of-the-mego-1980-order-form/",
+          "image": "https://www.megomuseum.com/wp-content/uploads/2026/09/losttoys.jpg"
+        },
+        {
+          "headline": "One Bronze Age Button, and Only Nineteen Others Like It on Record",
+          "source": "The Past",
+          "byline": "Kathryn Krakowka",
+          "date": "Oct 1",
+          "url": "https://the-past.com/shorts/objects/finds-tray-bronze-age-button/"
+        },
+        {
+          "headline": "A Museum Director on the 1937 Letters Between Disney and a Cemetery Founder",
+          "source": "Toy Tales",
+          "byline": "Joanna Hauser",
+          "date": "Oct 2",
+          "url": "https://toytales.ca/james-fishburne-forest-lawn-museum/"
+        },
+        {
+          "headline": "Wedding Postcards as a Record of What Brides Actually Wore",
+          "source": "Delcampe",
+          "byline": "Heloise",
+          "date": "Sep 28",
+          "url": "https://blog.delcampe.net/en/wedding-postcards-a-nostalgic-and-historical-collection/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Six Weeks in 1918 When the Royal Flying Corps Tried to Take a College",
+          "source": "University of Reading",
+          "byline": "Brian Richards",
+          "date": "Oct 1",
+          "url": "https://blogs.reading.ac.uk/tales-from-the-archives/2026/10/01/hopes-of-becoming-a-university-put-at-risk/"
+        },
+        {
+          "headline": "A Dating App's Filters and the Counsellor Whose Papers Explain Them",
+          "source": "Nursing Clio",
+          "byline": "Abigail G. Cramer",
+          "date": "Oct 1",
+          "url": "https://nursingclio.org/2026/10/01/the-keeper-of-modern-us-eugenics-how-ai-matchmaking-perpetuates-eugenic-love/"
+        },
+        {
+          "headline": "The 1852 Catalogue That Was the Whole of Utah's First Library",
+          "source": "J. Willard Marriott Library",
+          "byline": "Theadora Soter",
+          "date": "Sep 18",
+          "url": "https://blog.lib.utah.edu/we-recommend-utah-territorial-library-catalog-1852/"
+        },
+        {
+          "headline": "What a Soda Museum's Curators Do to Keep the Company Legends Honest",
+          "source": "Not Even Past",
+          "byline": "Danielle Sanchez",
+          "date": "Sep 24",
+          "url": "https://notevenpast.org/curating-history-dr-pepper-preservation-and-public-trust/",
+          "image": "https://notevenpast.org/wp-content/uploads/2026/09/Danielle-Sanchez-Dr.-Pepper-banner-1-scaled.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Radu Jude on Remaking a Bunuel Film With an iPhone and Generative Tools",
+          "source": "Sabzian",
+          "byline": "Flavia Dima",
+          "date": "Sep 30",
+          "url": "https://sabzian.be/text/adaptation-as-dialectics"
+        },
+        {
+          "headline": "How One Photographer Files Twenty Years of Negatives, Scans and Prints",
+          "source": "35mmc",
+          "byline": "Sroyon",
+          "date": "Oct 5",
+          "url": "https://www.35mmc.com/05/10/2026/how-i-organize-my-film-negatives-scans-and-darkroom-prints/",
+          "image": "https://www.35mmc.com/wp-content/uploads/2023/09/header-1-2.jpg"
+        },
+        {
+          "headline": "Faking Stop Motion in CG, Down to the Thumbprints and the Dried Glue",
+          "source": "Cartoon Brew",
+          "byline": "J.D. Linville Jr",
+          "date": "Oct 5",
+          "url": "https://www.cartoonbrew.com/animators/tales-from-outer-suburbia-flying-bark-australia-267434.html"
+        },
+        {
+          "headline": "Twenty Years of Pushed Tri-X at Gig Volume, Turned Into a Boxed Set",
+          "source": "Kosmo Foto",
+          "byline": "Stephen Dowling",
+          "date": "Oct 4",
+          "url": "https://kosmofoto.com/2026/10/turning-old-concert-shots-into-tour-merch-buffalo-tom-live-frames-2007-2011/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 5, 2026",
     "hero": {
       "headline": "A Year in the Lab Working Out How to Repair a Blue That Resists Repair",
