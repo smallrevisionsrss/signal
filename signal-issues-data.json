@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 7, 2026",
+    "hero": {
+      "headline": "Stephen Shore on What Walker Evans Was Actually Doing When He Looked",
+      "dek": "Shore takes apart another photographer's seeing rather than his pictures, working from Evans's frames and from the remarks Evans made to Leslie George Katz in 1971. What he is after is the particular quality of attention behind the work, the decision about where to stand and what to let into the edge of the frame, and he traces what he carried out of that into his own practice. It is one working photographer explaining what another one taught him, which is a rarer thing than a critic explaining either of them.",
+      "byline": "By Stephen Shore · Aperture",
+      "category": "craft",
+      "image": "https://aperture.org/wp-content/uploads/2026/09/264MAG020_Notebook_Shore_HR.jpg",
+      "url": "https://aperture.org/editorial/stephen-shore-on-how-to-sharpen-your-minds-eye/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Seventy Years of Making Bricks, and It Starts by Reading an Old Wall",
+          "source": "Spitalfields Life",
+          "byline": "The Gentle Author",
+          "date": "Oct 6",
+          "url": "https://spitalfieldslife.com/2026/10/06/peter-minter-brickmaker-iii/"
+        },
+        {
+          "headline": "Reading a Drawing When Nobody Knows Who Drew It",
+          "source": "Drawing Matter",
+          "byline": "Qing Tang",
+          "date": "Oct 5",
+          "url": "https://drawingmatter.org/polyconal-system-projected-into-the-unknown/"
+        },
+        {
+          "headline": "What Britain and the Netherlands Built for the Tenants They Did Not Want",
+          "source": "Municipal Dreams",
+          "byline": "John Boughton",
+          "date": "Oct 6",
+          "url": "https://municipaldreams.wordpress.com/2026/10/06/15923/",
+          "image": "https://municipaldreams.wordpress.com/wp-content/uploads/2026/09/zomerhof-daily-life-1.jpg"
+        },
+        {
+          "headline": "Charles Holden Gave Seven Stations One Front and Varied It Seven Ways",
+          "source": "Modernism in Metro-Land",
+          "byline": "Josh Abbott",
+          "date": "Sep 3",
+          "url": "https://www.modernism-in-metroland.co.uk/blog/due-south-the-northern-line-extension-1926"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Corridor's Brand Director Walks the Racks and Explains Where the Fading Comes From",
+          "source": "InsideHook",
+          "byline": "Christopher Fenimore",
+          "date": "Oct 6",
+          "url": "https://www.insidehook.com/style-commentary/corridor-bijan-shahvali-vintage-eye-modern-menswear",
+          "image": "https://www.insidehook.com/wp-content/uploads/2026/10/Issue_6_3x2_protagonist-1.jpg"
+        },
+        {
+          "headline": "A Norwegian Weaver Put Her Grandmother's Rose Garden Into a Ten Foot Tapestry",
+          "source": "The Vessel",
+          "byline": "Adine Lexow",
+          "evergreen": true,
+          "url": "https://vessel-magazine.no/issues/11/garden/frida-hansen-garden"
+        },
+        {
+          "headline": "Designing an Exhibition's Letters Without Copying the Carving",
+          "source": "Te Papa",
+          "byline": "Toka Tamihere",
+          "date": "Sep 10",
+          "url": "https://blog.tepapa.govt.nz/2026/09/10/carving-out-an-exhibition-designing-colours-forms-and-typefaces/"
+        },
+        {
+          "headline": "Uzbek Textiles in Doha, and the Argument the Hang Is Making",
+          "source": "HALI",
+          "byline": "Hali",
+          "date": "Sep 25",
+          "url": "https://www.hali.com/editorial/uzbekistan-in-doha"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Three Early Music Teachers Argue Outreach Is Not the Same as Education",
+          "source": "Early Music America",
+          "byline": "Miyo Aoki, Shulamit Kleinerman and Marylin Winkle",
+          "date": "Oct 5",
+          "url": "https://www.earlymusicamerica.org/emag-feature/outreach-is-not-education/"
+        },
+        {
+          "headline": "The Glasgow Band That Broke Up on Christmas Day 1999 Has Made Another Record",
+          "source": "Bandcamp Daily",
+          "byline": "Erick Bradshaw",
+          "date": "Oct 5",
+          "url": "https://daily.bandcamp.com/features/the-yummy-fur-everybody-talks-about-the-weather-feature",
+          "image": "https://f4.bcbits.com/img/0047788374_171.jpg"
+        },
+        {
+          "headline": "A Lost 1964 Reel of the Seekers Turns Up in Judith Durham's Estate",
+          "source": "National Film and Sound Archive of Australia",
+          "byline": "Simon Smith",
+          "date": "Sep 16",
+          "url": "https://www.nfsa.gov.au/stories/articles/the-seekers-earliest-surviving-television-appearance"
+        },
+        {
+          "headline": "Fourteen Players in One Room, and a Producer Who Kept the Leakage",
+          "source": "Sound On Sound",
+          "byline": "Joe Matera",
+          "evergreen": true,
+          "url": "https://www.soundonsound.com/techniques/how-got-sound-martin-terefe"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Saab Bought as the Sensible Second Car, and Sold for Being One",
+          "source": "Curbside Classic",
+          "byline": "Neil Osborn",
+          "date": "Oct 7",
+          "url": "https://www.curbsideclassic.com/cars-of-a-lifetime/my-1994-saab-900se-turbo-oops-we-cant-be-right-every-time/"
+        },
+        {
+          "headline": "Three Rug Collectors Talk About the Chase, in a Back Room in Manhattan",
+          "source": "Jozan",
+          "byline": "Zach Zaman",
+          "date": "Oct 1",
+          "url": "https://www.jozan.net/the-thrill-of-the-hunt-collectors-in-conversation/",
+          "image": "https://www.jozan.net/wp-content/uploads/2026/09/Mike-Mary-Jo-and-Bruce.jpg"
+        },
+        {
+          "headline": "Dry Plates Bring Back a Victorian Process Without the Collodion Mess",
+          "source": "Shoot It With Film",
+          "byline": "Alec Pain",
+          "date": "Oct 2",
+          "url": "https://shootitwithfilm.com/is-dry-plate-photography-the-new-wet-plate/"
+        },
+        {
+          "headline": "An American VZ200 Gets a Serial Port and a Second Life",
+          "source": "Old Vintage Computing Research",
+          "byline": "Cameron Kaiser",
+          "date": "Sep 12",
+          "url": "https://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Bridgend Printer Writes Home From America",
+          "source": "Glamorgan Archives",
+          "byline": "Glamorgan Archives",
+          "date": "Sep 11",
+          "url": "https://glamarchives.wordpress.com/2026/09/11/the-american-declaration-of-independence-1776/"
+        },
+        {
+          "headline": "The Harveian Librarian on a Composer Who Set His Own Operation to Music",
+          "source": "Royal College of Physicians",
+          "byline": "Anita K Simonds",
+          "date": "Sep 28",
+          "url": "https://history.rcp.ac.uk/blog/marin-marais-composer-baroque-medical-tableaus-artist-patient"
+        },
+        {
+          "headline": "A Century of Hill Climbing, Found in the County Record Office",
+          "source": "Gloucestershire Archives",
+          "byline": "Briony Penfold",
+          "date": "Sep 16",
+          "url": "https://gloucestershirearchives.wordpress.com/2026/09/16/prescott-and-more-a-century-of-motorsport-in-gloucestershire/",
+          "image": "https://gloucestershirearchives.wordpress.com/wp-content/uploads/2026/07/d13226.1.jpeg"
+        },
+        {
+          "headline": "What a Scribe Wrote After He Finished Copying",
+          "source": "Qatar Digital Library",
+          "byline": "Bink Hallum and Hassan Abdulrazzak",
+          "evergreen": true,
+          "url": "https://qdl.qa/en/part-1-reading-ends-manuscripts-how-colophons-reveal-scribal-worlds"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "A Sequel That Only Makes Sense If You Saw the First Film",
+          "source": "In Review Online",
+          "byline": "Chris Cassingham",
+          "date": "Oct 5",
+          "url": "https://inreviewonline.com/2026/10/05/what-cant-be-mentioned-review/"
+        },
+        {
+          "headline": "What CGI Took From Cinema, and What That Might Free Cinema to Do",
+          "source": "Sabzian",
+          "byline": "Erika Balsom",
+          "date": "Sep 23",
+          "url": "https://sabzian.be/text/a-world-beyond-control"
+        },
+        {
+          "headline": "A Photographer on What He Deliberately Leaves Out of the Frame",
+          "source": "The Eye of Photography",
+          "byline": "Carole Schmitz",
+          "date": "Oct 5",
+          "url": "https://loeildelaphotographie.com/en/the-questionnaire-jerome-trichet-by-carole-schmitz/"
+        },
+        {
+          "headline": "How a Muted Palette and a Narrower Frame Change an Austen Adaptation",
+          "source": "National Science and Media Museum",
+          "byline": "Freya Elliott",
+          "date": "Oct 5",
+          "url": "https://blog.scienceandmediamuseum.org.uk/review-sense-and-sensibility-2026/",
+          "image": "https://blog.scienceandmediamuseum.org.uk/wp-content/uploads/sites/10/2026/10/SSBD.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 6, 2026",
     "hero": {
       "headline": "Five Thousand Game Magazines In, the Hard Part Is Making Them Findable",
