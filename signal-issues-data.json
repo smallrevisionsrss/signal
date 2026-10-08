@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 8, 2026",
+    "hero": {
+      "headline": "Why Alvar Aalto Put a Radiator Directly Under a Semicircular Window",
+      "dek": "Tsukamoto Laboratory went to Aalto's 1925 Workers' Club in Jyvaskyla and measured the entrance and the stair landing, and found a double layered, subdivided semicircular window sitting directly above an underfloor radiator. The piece reads that window as a working device rather than a motif: what the layering does to the light, what the heat source does to the air in the stairwell, and why the two were put together. It is an excerpt from a long running Japanese field survey of windows, translated into English, and it is the sort of thing that exists only because a university laboratory went and measured a building nobody had thought to measure.",
+      "byline": "By Yoshiharu Tsukamoto Laboratory · Window Research Institute",
+      "category": "design-arch",
+      "image": "https://madoken.jp/wp/wp-content/uploads/2024/06/IMG_2986-1800x1200.jpg",
+      "url": "https://madoken.jp/en/series/42980/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Nobody in Construction Will Say Who Owns a Building's Carbon",
+          "source": "Buildings and Cities",
+          "byline": "Ian Cooper",
+          "date": "Sep 30",
+          "url": "https://www.buildingsandcities.org/insights/commentaries/who-responsible-climate-change.html"
+        },
+        {
+          "headline": "Two Architects Argue You Do Not Need to Visit San Cataldo",
+          "source": "Drawing Matter",
+          "byline": "Luis Callejas and Julia Spackman",
+          "date": "Oct 2",
+          "url": "https://drawingmatter.org/snapshots-of-aldo-rossis-san-cataldo-cemetery/"
+        },
+        {
+          "headline": "A Woodworker on Why He Still Draws Every Design by Hand",
+          "source": "Paul Sellers",
+          "byline": "Paul Sellers",
+          "date": "Sep 19",
+          "url": "https://paulsellers.com/2026/09/my-work-of-art/"
+        },
+        {
+          "headline": "How to Use Eighty Per Cent Less PVA on Bookcloth",
+          "source": "Jeff Peachey",
+          "byline": "Jeff Peachey",
+          "evergreen": true,
+          "url": "https://jeffpeachey.com/2026/04/06/layered-adhesives-how-to-reduce-pva-use-by-80-on-paper-backed-bookcloth/",
+          "image": "https://jeffpeachey.com/wp-content/uploads/2026/04/img_7617.jpg"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "A West African Manuscript's Blue Pages Lead Back to a British Paper Mill",
+          "source": "The Book and Paper Gathering",
+          "byline": "Jannis Kostelnik",
+          "date": "Oct 8",
+          "url": "https://thebookandpapergathering.org/2026/10/08/britannia-in-blue-a-west-african-manuscript-and-its-blue-folios-part-2/"
+        },
+        {
+          "headline": "A Swiss Painter Mills Away His Own Paint to Get at Geology",
+          "source": "The Brooklyn Rail",
+          "byline": "Invar-Torre Hollaus",
+          "date": "Oct 7",
+          "url": "https://brooklynrail.org/2026/10/artseen/patrick-rohner-faltungen/",
+          "image": "https://studio.brooklynrail.org/assets/5634759b-ada2-448f-baf6-eca519692973.jpg"
+        },
+        {
+          "headline": "A Curator Goes to Margilan and Watches the Atlas Being Woven",
+          "source": "TRC Leiden",
+          "byline": "Augusta de Gunzbourg",
+          "date": "Sep 25",
+          "url": "https://www.trcleiden.trc-leiden.nl/trc/index.php/en/blog/1881-exploring-uzbekistan-s-ikat-atlas-and-textile-traditions-2"
+        },
+        {
+          "headline": "A Willow Weaver Explains Why She Cuts in Winter",
+          "source": "The Vessel",
+          "byline": "Inger Fure Grotting",
+          "evergreen": true,
+          "url": "https://vessel-magazine.no/issues/11/garden/q-a-with-kristine-tr%C3%A6land"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A New Cello Concerto Lands in Portland and the Soloist Sings Through It",
+          "source": "Oregon ArtsWatch",
+          "byline": "James Bash",
+          "date": "Oct 7",
+          "url": "https://www.orartswatch.org/we-must-celebrate-the-new-as-well-as-the-old-abel-selaocoe-performs-jessie-montgomerys-these-righteous-paths-with-oregon-symphony/",
+          "image": "https://www.orartswatch.org/wp-content/uploads/2026/10/IMG_8671.jpeg"
+        },
+        {
+          "headline": "The Witches Carry the Met's New Macbeth",
+          "source": "Seen and Heard International",
+          "byline": "Edward Sava-Segal",
+          "date": "Oct 7",
+          "url": "https://seenandheard-international.com/2026/10/witches-loom-over-the-metropolitan-operas-new-macbeth/"
+        },
+        {
+          "headline": "The Organ Builder Explains His Own Opus 50",
+          "source": "The Diapason",
+          "byline": "Fredrick Bahr",
+          "date": "Sep 15",
+          "url": "https://www.thediapason.com/content/cover-feature-buzard-opus-50"
+        },
+        {
+          "headline": "Taking the Piano Off Michael Coleman's 78s",
+          "source": "Irish Traditional Music Archive",
+          "byline": "David Lennon",
+          "evergreen": true,
+          "url": "https://www.itma.ie/blog/ai-michael-coleman-recordings-part-2/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Two Argus A2B Cameras Bought, Shot and Sold Again",
+          "source": "Down the Road",
+          "byline": "Jim Grey",
+          "date": "Oct 5",
+          "url": "https://blog.jimgrey.net/2026/10/05/argus-a2b-review/"
+        },
+        {
+          "headline": "A Forgotten PlayStation Fighter With an RPG Bolted Onto It",
+          "source": "Hardcore Gaming 101",
+          "byline": "Kurt Kalata",
+          "date": "Sep 27",
+          "url": "https://www.hardcoregaming101.net/abalaburn/"
+        },
+        {
+          "headline": "How French Sign Painter Portfolios Shaped a Box of Postcards",
+          "source": "Letterform Archive",
+          "byline": "Lucie Parker",
+          "date": "Oct 5",
+          "url": "https://letterformarchive.org/news/inside-boutiques-magnifiques/",
+          "image": "https://letterformarchive.org/wp-content/uploads/2026/09/Boutiques_banner-web.jpg"
+        },
+        {
+          "headline": "Four Corroded Pushers and a Repainted Hand Bring a 1964 Seiko Back",
+          "source": "Adventures in Amateur Watch Fettling",
+          "byline": "Martin",
+          "evergreen": true,
+          "url": "https://adventuresinamateurwatchfettling.com/2026/08/16/a-big-fish-part-4-the-seiko-5718-8000-casing-parts-movement-loose-ends-and-final-assembly/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Ship Full of Fools From 1494, With Its First Owner's Notes in the Margins",
+          "source": "Staatsbibliothek zu Berlin",
+          "byline": "Thomas Parschik",
+          "date": "Oct 7",
+          "url": "https://blog.sbb.berlin/ein-schiff-mit-narren-angefuellt/",
+          "image": "https://blog.sbb.berlin/wp-content/uploads/Narrenschiff-1.jpg"
+        },
+        {
+          "headline": "A Javanese Chronicle Drawn Inside a Fortress, and How It Left the Palace",
+          "source": "Leiden Special Collections",
+          "byline": "Verena Meyer",
+          "date": "Oct 5",
+          "url": "https://www.leidenspecialcollectionsblog.nl/articles/enclosing-knowledge-and-power-a-pusaka-manuscript-from-yogyakarta-central-java"
+        },
+        {
+          "headline": "A Letter From 1844 and a Woman Chasing Her Share of a Reading Estate",
+          "source": "Royal Berkshire Archives",
+          "byline": "Emily Forster",
+          "date": "Oct 2",
+          "url": "https://www.royalberkshirearchives.org.uk/blog/passd-home-victorian-heir-hunters"
+        },
+        {
+          "headline": "Rusted Staples, Rolled Blueprints, and a Small Town Paper Made Searchable",
+          "source": "Illuminations",
+          "byline": "Olivia Daemer",
+          "date": "Sep 14",
+          "url": "https://fsuspecialcollections.wordpress.com/2026/09/14/from-storage-to-searchable-modernizing-the-flagler-enterprise-collection/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Nine Temples in One Day, and a Thai Debut That Watches Closely",
+          "source": "ScreenAnarchy",
+          "byline": "Dustin Chang",
+          "date": "Oct 7",
+          "url": "https://screenanarchy.com/2026/10/new-york-2026-review-9-temples-to-heaven-obtaining-merits.html"
+        },
+        {
+          "headline": "Two Diane Lane Films and What Happens to Women at Forty",
+          "source": "Bright Wall/Dark Room",
+          "byline": "Lindsey Romain",
+          "date": "Oct 5",
+          "url": "https://brightwalldarkroom.com/2026/10/05/what-are-four-walls-anyway",
+          "image": "https://www.brightwalldarkroom.com/wp-content/uploads/2026/10/BWDR_Unfaithful_Tuscan_Sun_r1v2.jpg"
+        },
+        {
+          "headline": "A Nine Year Old Malambo Dancer Walks Into Buenos Aires",
+          "source": "Micropsia",
+          "byline": "Diego Lerer",
+          "date": "Oct 5",
+          "url": "https://www.micropsiacine.com/2026/10/estrenos-online-critica-de-el-tren-fluvial-de-lorenzo-ferro-y-lucas-a-vignale-sala-lugones-y-malba/"
+        },
+        {
+          "headline": "A Tokyo Composer Turns His Camera on Five Parisians",
+          "source": "IMA ONLINE",
+          "byline": "Keiichiro Shibuya",
+          "date": "Sep 29",
+          "url": "https://imaonline.jp/articles/style/keiichiroshibuya_humanity2/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 7, 2026",
     "hero": {
       "headline": "Stephen Shore on What Walker Evans Was Actually Doing When He Looked",
