@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 9, 2026",
+    "hero": {
+      "headline": "Boston Stages William Tell for the First Time in 150 Years",
+      "dek": "Boston Lyric Opera marked its fiftieth anniversary with the first staged Guillaume Tell in the city in over 150 years, sung in French and trimmed from roughly four hours of music to two and a half. Montagu James itemises what went, the Act I and III ballets, the Act II hunters' chorus, the Mathilde and Arnold duet, and notes these cuts were milder than most. He is specific about the singing, with Konu Kim's effortless Asile hereditaire the standout and George Gagnidze's Tell a mixed evening of muffled diction redeemed by one convincing Sois immobile, and he is unpersuaded by the dystopian staging's Alpine postcard projections and CGI storm. The argument underneath is about programming: that a regional company builds an audience faster on an ambitious neglected work than on another run at the canon.",
+      "byline": "By Montagu James · Parterre Box",
+      "category": "sound-vinyl",
+      "image": "https://parterre.com/wp-content/uploads/2026/10/NinaYoshidaNelsenl.asHedwigeisconcernedforhusbandWilliamTellsGeorgeGagnidzeurgetofightinBostonLyricOperasWILLIAMTELL-PHOTObyNileScottStudios-e1791420799592.jpg",
+      "url": "https://parterre.com/2026/10/08/tell-me-something-good/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "What Five Front Doors Say About the Houses Behind Them",
+          "source": "Historic New England",
+          "byline": "Sophie Kolakowski",
+          "date": "Oct 8",
+          "url": "https://www.historicnewengland.org/the-front-door-to-history/",
+          "image": "https://d2ubebvuvmcv9y.cloudfront.net/main/wp-content/uploads/2026/10/06011802/blog_10082026_1-1-scaled.jpg"
+        },
+        {
+          "headline": "Two Domestic Worlds Folded Into Forty Four Square Metres in Lisbon",
+          "source": "Yellowtrace",
+          "byline": "Team Yellowtrace",
+          "date": "Oct 6",
+          "url": "https://www.yellowtrace.com.au/bureau-lilac-apartment-lisbon-compact-living/"
+        },
+        {
+          "headline": "How a 1960s IMAX Camera Was Rebuilt to Film From the Space Shuttle",
+          "source": "Air & Space Quarterly",
+          "byline": "Jennifer Levasseur",
+          "date": "Sep 30",
+          "url": "https://airandspace.si.edu/air-and-space-quarterly/issue-20/imax-space-shuttle-camera"
+        },
+        {
+          "headline": "Testing the Open Source Apps Trying to Pull Photoshop Apart",
+          "source": "Tedium",
+          "byline": "Ernie Smith",
+          "date": "Oct 8",
+          "url": "https://tedium.co/2026/10/08/artcraft-vibe-coding-creative-cloud-remake/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Giorgio Griffa's Thin Paint and Bare Canvas, Seen at the Clark",
+          "source": "Two Coats of Paint",
+          "byline": "Franklin Einspruch",
+          "date": "Oct 7",
+          "url": "https://twocoatsofpaint.com/2026/10/giorgio-griffa-the-painted-road.html"
+        },
+        {
+          "headline": "A Grandfather's Soviet Cameras, and the Moskva That Got Used",
+          "source": "35mmc",
+          "byline": "Jeffery Luhn",
+          "date": "Oct 8",
+          "url": "https://www.35mmc.com/08/10/2026/mockva-moskva-mockba-moscow-whatever-grandpa-genrikh-his-cameras-and-portraits/",
+          "image": "https://www.35mmc.com/wp-content/uploads/2026/09/Henry-BW-alt-scaled.jpg"
+        },
+        {
+          "headline": "Inside the Making of a Texas Show About Cowpeas, Floods and Bird Strikes",
+          "source": "Glasstire",
+          "byline": "Jonathan Hopson",
+          "date": "Oct 7",
+          "url": "https://glasstire.com/2026/10/07/review-an-engine-of-persistence-how-to-grow-the-cowpea-at-uts-visual-arts-center-austin/"
+        },
+        {
+          "headline": "The Curator Who Built an Art Route Between Salt Lake City and Mexico City",
+          "source": "Southwest Contemporary",
+          "byline": "Ana Estrada",
+          "date": "Oct 6",
+          "url": "https://southwestcontemporary.com/peter-hay-proartes-mexico/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Fulu Miziki Rebuilt Their Scrap Instruments After Leaving Kinshasa",
+          "source": "Afropop Worldwide",
+          "byline": "Banning Eyre",
+          "date": "Oct 6",
+          "url": "https://www.afropop.org/articles/fulu-miziki-goes-global"
+        },
+        {
+          "headline": "A Drummer on Learning to Improvise, and Working Free From Berlin",
+          "source": "Jazz Right Now",
+          "byline": "Cisco Bradley",
+          "date": "Sep 21",
+          "url": "https://www.jazzrightnow.com/interview-drummer-joe-hertenstein/"
+        },
+        {
+          "headline": "A Composer on Just Intonation and a Premiere Called Bad Decisions",
+          "source": "I Care If You Listen",
+          "byline": "Jacob Kopcienski",
+          "date": "Oct 6",
+          "url": "https://icareifyoulisten.com/2026/10/5-questions-to-juri-seo-composer/",
+          "image": "https://icareifyoulisten.com/wp-content/uploads/sites/3/2026/10/juri-seo-photo-by-joanna-malecka-photography-1440px.jpg"
+        },
+        {
+          "headline": "At Fifty, James Ehnes Turns Toward Chamber Music",
+          "source": "Strings",
+          "byline": "Thomas May",
+          "evergreen": true,
+          "url": "https://stringsmagazine.com/at-50-james-ehnes-is-turning-toward-chamber-music-long-term-collaboration-and-a-renewed-focus-on-what-matters-most/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Collector's 1973 Jensen Interceptor, Driven and Taken Apart in His Garage",
+          "source": "Petrolicious",
+          "byline": "David Marvier",
+          "date": "Oct 6",
+          "url": "https://petrolicious.com/blogs/articles/jensen-interceptor-mk-iii-italian-style-american-muscle-english-craft",
+          "image": "https://petrolicious.com/cdn/shop/articles/JENSEN-2026-0257.jpg"
+        },
+        {
+          "headline": "Dealers, Uranium Glass and Paperweights at the Cape Cod Glass Show",
+          "source": "Antiques & The Arts Weekly",
+          "byline": "Andrea Valluzzo",
+          "date": "Oct 6",
+          "url": "https://antiquesandthearts.com/cape-cod-glass-show-is-like-a-pop-up-museum"
+        },
+        {
+          "headline": "An Archivist Opens the Colour Charts, From 1915 Textiles to DuPont Lucite",
+          "source": "Hagley Museum and Library",
+          "byline": "Diane E. Bockrath",
+          "date": "Sep 25",
+          "url": "https://www.hagley.org/librarynews/consult-color-chart"
+        },
+        {
+          "headline": "Sega of America's Former Group Vice President on the Genesis Years",
+          "source": "Sega-16",
+          "byline": "Ken Horowitz",
+          "date": "Sep 28",
+          "url": "https://www.sega-16.com/2026/09/interview-doug-glen-former-soa-group-vp/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Duke Conservator Teaches the Folds and Seals Emily Dickinson Used",
+          "source": "Preservation Underground",
+          "byline": "Henry Hebert",
+          "date": "Oct 6",
+          "url": "https://blogs.library.duke.edu/preservation/2026/10/06/learning-to-love-letterlocking/"
+        },
+        {
+          "headline": "A Boston Schoolmistress Sold Embroidery Patterns in 1742, and Her Designs Outlived Her",
+          "source": "Vita Brevis",
+          "byline": "Annaliese Arnsten",
+          "date": "Oct 5",
+          "url": "https://vitabrevis.americanancestors.org/from-a-gravestone-to-the-grindstone"
+        },
+        {
+          "headline": "Inside a Biographer's Papers, With the Suppressed Draft and an Unpublished Novel",
+          "source": "Bodleian Archives and Manuscripts",
+          "byline": "Lilly Wilcox",
+          "evergreen": true,
+          "url": "https://blogs.bodleian.ox.ac.uk/archivesandmanuscripts/2026/08/07/new-catalogue-the-archive-of-victoria-glendinning/",
+          "image": "https://blogs.bodleian.ox.ac.uk/archivesandmanuscripts/wp-content/uploads/sites/161/2026/08/Suppresed-Cry-Manuscript-scaled.jpg"
+        },
+        {
+          "headline": "What Black Teachers in Segregated Schools Said With the Way They Dressed",
+          "source": "Black Perspectives",
+          "byline": "Derrick P. Alridge",
+          "date": "Oct 8",
+          "url": "https://www.aaihs.org/black-ivy-in-the-classroom-how-black-teachers-used-style-as-pedagogy/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Hassan Hajjaj's Portraits of Musicians, in Frames He Builds Himself",
+          "source": "Blind Magazine",
+          "byline": "Guenola Pellen",
+          "date": "Oct 8",
+          "url": "https://www.blind-magazine.com/news/hassan-hajjaj-the-eye-that-grooves/"
+        },
+        {
+          "headline": "Primetime Turns To Catch a Predator Into a Study of Its Own Machinery",
+          "source": "Debordements",
+          "byline": "Elyas Chaib-eddour Sekimi",
+          "date": "Oct 6",
+          "url": "https://debordements.fr/primetime-lance-oppenheim/",
+          "image": "https://debordements.fr/wp-content/uploads/2026/10/bft_r1_rec709_g24_150_3840x2160_0094699.2e999433-05ec-41b2-a6db-c7a3fd42ca6e-scaled-e1791311154718.jpg"
+        },
+        {
+          "headline": "Eyes Wide Shut, Defended as Kubrick's Most Personal Film",
+          "source": "Bright Lights Film Journal",
+          "byline": "Jonathan Kirshner",
+          "date": "Oct 5",
+          "url": "https://brightlightsfilm.com/personal-and-profound-on-kubricks-late-masterpiece-eyes-wide-shut/"
+        },
+        {
+          "headline": "A Photobook Made Among Storm Chasers, and Who Gets to Take the Risk",
+          "source": "Fisheye Magazine",
+          "byline": "Lou Tsatsas",
+          "date": "Oct 7",
+          "url": "https://fisheyemagazine.fr/article/blinded-by-your-grace-sarah-chaplin-espenon/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 8, 2026",
     "hero": {
       "headline": "Why Alvar Aalto Put a Radiator Directly Under a Semicircular Window",
