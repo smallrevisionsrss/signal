@@ -34,14 +34,15 @@ def inline(slug: str, site: pathlib.Path, out_dir: pathlib.Path) -> pathlib.Path
     missing = []
 
     def swap(m):
-        rel = m.group(1)
+        rel = m.group(2)
         f = site / rel.lstrip("/")
         if not f.is_file():
             missing.append(rel)
             return m.group(0)
-        return f'src="{data_uri(f)}"'
+        return f'{m.group(1)}="{data_uri(f)}"'
 
-    page = re.sub(r'src="(/assets/[^"]+)"', swap, page)
+    # poster= too, so a video's still frame survives off disk.
+    page = re.sub(r'(src|poster)="(/assets/[^"]+)"', swap, page)
     # The analytics beacon is the site's business, not the preview's, and it
     # makes a file opened from disk reach out to the network for no reason.
     page = re.sub(r'<script[^>]*cloudflareinsights[^>]*>.*?</script>', '',

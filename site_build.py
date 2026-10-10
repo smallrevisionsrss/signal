@@ -1799,6 +1799,7 @@ ARTICLE_CSS = """
 .signal-fig{margin:0 0 40px}
 .signal-fig--full{grid-column:1 / -1}
 .signal-fig img{width:100%;display:block;background:var(--rule-soft)}
+.signal-fig video{width:100%;display:block;background:var(--rule-soft)}
 .signal-fig--crop img{aspect-ratio:4/3;object-fit:cover}
 .signal-fig--wide img{aspect-ratio:16/9;object-fit:cover}
 /* fit: narrow. For portrait pictures, which at full column width run well over
@@ -1941,6 +1942,14 @@ def figure_html(f, *, full=False):
                     + "<br>".join(e(m) for m in f.get("meta", [])) + "</p>"
                     if f.get("meta") else "")
                  + "</div>")
+    elif f.get("kind") == "video":
+        # A short silent loop, added 10 Oct 2026. Muted and playsinline are what
+        # let browsers, phones included, start it without a tap; the poster is
+        # what shows before it loads and for anyone with autoplay off. The file
+        # should carry no audio track at all, not just be muted.
+        poster = f' poster="{e(f["poster"])}"' if f.get("poster") else ""
+        inner = (f'<video src="{e(f["src"])}"{poster} autoplay muted loop playsinline '
+                 f'preload="metadata" aria-label="{e(f.get("alt", ""))}"></video>')
     else:
         inner = (f'<img src="{e(f["src"])}" alt="{e(f.get("alt", ""))}" loading="lazy">')
     return f'<figure class="{cls}">{inner}{credit_line(f)}</figure>'
