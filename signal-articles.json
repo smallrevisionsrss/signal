@@ -385,5 +385,237 @@
       }
     ],
     "_eligibility_note": "Published unlinked on 26 September 2026 and carried in the 27 September issue as a deliberate one-off test of the features format. It is assembled largely from secondary sources and would not pass the circulation test on its own; the call to run it anyway was the editor's, made knowingly."
+  },
+  {
+    "slug": "teenage-engineering-department-store",
+    "title": "Teenage Engineering’s Real Product Was Always the Company",
+    "standfirst": "Teenage Engineering has opened a department store on Lafayette Street, and its founder has just said he plans to stop making synthesizers. For twenty years the company has built objects arguing that the object is not the point. He has finally said it out loud.",
+    "eyebrow": "Signal",
+    "category": "design-arch",
+    "date": "2026-10-10",
+    "byline": "Small Revisions",
+    "hero": {
+      "kind": "image",
+      "src": "/assets/features/te-store-sign.jpg",
+      "alt": "A black box sign on a brick facade, lettered in white: Teenage Engineering Department Store, 216 Lafayette St, New York.",
+      "caption": "The sign over the door at 216 Lafayette Street.",
+      "fit": "crop",
+      "credit": "Jane Smarovozova"
+    },
+    "issue_eligible": true,
+    "body": [
+      {
+        "type": "p",
+        "text": "On the upper floor of Teenage Engineering’s new shop at 216 Lafayette Street, there is a working production line. The company’s own staff installed it, and for several weeks after the opening a visitor can walk up and assemble an EP-133 K.O. II sampler by hand."
+      },
+      {
+        "type": "p",
+        "text": "Think about what that is. A shop with a production line in it is not selling the sampler. It is selling the half hour in which you built the sampler. The object you carry out is a receipt."
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/te-production-line.jpg",
+        "alt": "Visitors in a white-painted brick room under a long pitched skylight, watching staff at a row of workbenches with assembly and test machines, lamps and monitors.",
+        "caption": "The production line upstairs, under the skylight.",
+        "fit": "narrow",
+        "credit": "Frederick McSwain"
+      },
+      {
+        "type": "p",
+        "text": "The store opened to invited guests on October 7th and to everyone else this week. Six thousand square feet across two floors, which is the technicality on which the company calls it a department store, a joke delivered with a completely straight face. There was no outside architect: Teenage Engineering designed and built the place itself, fittings included. Upstairs there are workshops and tutorials run by its own people. On the opening night Lykke Li played, and the performance was cut straight to vinyl in the room, on the company’s own machine."
+      },
+      {
+        "type": "figure",
+        "kind": "video",
+        "src": "/assets/features/te-lathe.mp4",
+        "poster": "/assets/features/te-lathe-poster.jpg",
+        "alt": "Seen from above, a man in a cap and headphones stands at a black vinyl cutting lathe as a clear record turns on its platter, while a visitor in a denim jacket watches.",
+        "caption": "Cutting vinyl in the room",
+        "fit": "narrow",
+        "credit": "Frederick McSwain"
+      },
+      {
+        "type": "pull",
+        "text": "Almost nothing about that is retail. It is a building that sells the company."
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/te-speakers.jpg",
+        "alt": "A row of OB-4 Magic Radios with carry handles in cream, grey, yellow, orange and red on a long white shelf, in front of lit panels showing a large speaker graphic. Beyond them, a wall of glazed white relief tiles with hands, umbrellas, triangles and discs.",
+        "caption": "OB-4 Magic Radios",
+        "fit": "narrow",
+        "credit": "Jane Smarovozova"
+      },
+      {
+        "type": "p",
+        "text": "Two days earlier, Highsnobiety had published [an interview](https://www.highsnobiety.com/p/teenage-engineering-interview/) by Lukas Mauve with Jesper Kouthoofd, who co-founded Teenage Engineering in 2005 and runs it. Mauve had gone to the Stockholm headquarters and sat with him on black floor chairs, and came away with the sentence that caught fire on the internet inside a day: during a reorganisation last autumn, Kouthoofd told his staff he plans to stop making synthesizers."
+      },
+      {
+        "type": "p",
+        "text": "“Everyone was like, ‘What are you talking about?’” he said."
+      },
+      {
+        "type": "p",
+        "text": "It sounds like a contradiction: a company opens a store the same week its founder says he is done with synthesizers. It isn’t. The store and the interview say the same thing, one in a building and one out loud. Kouthoofd put it more plainly than anyone has since: “I’ve come to the conclusion that, for us, the products aren’t the business.” The real value, he said, “lies in the company as a whole.”"
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/te-campaign-wall.jpg",
+        "alt": "A large backlit print of two young men in dark jackets standing in front of stacked racks of glowing equipment, mounted on a wall of the store above a dark rubber floor. A folded stroller stands in front of it.",
+        "caption": "Stroller parking at the entry banner",
+        "fit": "crop",
+        "credit": "Frederick McSwain"
+      },
+      {
+        "type": "p",
+        "text": "Teenage Engineering was founded in Stockholm in 2005 by Kouthoofd, David Eriksson, Jens Rudberg and David Möllerstedt. Three of them had just spent four years running a games company, Netbabyworld. Möllerstedt had run the audio department at EA DICE. Kouthoofd had also been one of the founders of Acne Studios. The company that would define two decades of music hardware came out of video games and fashion, and not out of instrument manufacturing, which is the first clue that the instruments were never the plan."
+      },
+      {
+        "type": "p",
+        "text": "The OP-1 was built in his garage, shown at NAMM in 2010 and shipping in 2011: a slab of aluminium the size of a paperback, a one-octave keyboard of plastic nubs, a tiny colour screen, and no ancestor anywhere in the synthesizer world. It won a Design S award in 2012 and came second at Georgia Tech’s Guthman competition in 2014."
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/te-op1.jpg",
+        "alt": "The original Teenage Engineering OP-1 seen from above: a slim pale grey aluminium body with a speaker grille, a small black screen showing a tape reel, four coloured knobs in blue, green, white and orange, rows of round buttons and a two-octave keyboard of flat grey keys.",
+        "caption": "The original OP-1, first shipped in 2011.",
+        "credit": "Teenage Engineering",
+        "credit_url": "https://teenage.engineering/products/op-1",
+        "fit": "wide"
+      },
+      {
+        "type": "p",
+        "text": "It travelled further than anyone expected. Beck, Jean-Michel Jarre, Depeche Mode and Bon Iver all used one, and by the company’s [own account](https://teenage.engineering/products/op-1/original/anniversary/made-on-op-1) the lead on Usher’s “Scream” was made on it. Hans Zimmer played the Interstellar theme on an OP-1 beside a 1903 Bechstein piano. San Francisco’s Museum of Modern Art keeps one in its permanent collection."
+      },
+      {
+        "type": "p",
+        "text": "Kouthoofd has always described it as a protest, specifically against making music on a laptop. He is also disarmingly blunt about who buys one: “99% percent of people who buy synths don’t use them as a productive tool for making music.” He calls the OP-1 therapy, entertainment, a hobby. The first version shipped without an undo button, which is either a defect or the entire thesis."
+      },
+      {
+        "type": "p",
+        "text": "What followed reads less like a product line than a run of position papers."
+      },
+      {
+        "type": "p",
+        "text": "The OD-11 in 2014, a wireless speaker built on a 1974 Sonab design and made with the Stig Carlsson Foundation: a reissue as a critical argument. The Pocket Operators from 2015, calculator-sized instruments with the circuit board left bare and no case at all, made with the fashion label Cheap Monday and sold for a fraction of an OP-1."
+      },
+      {
+        "type": "p",
+        "text": "The I-1 for The Impossible Project in 2016, the OP-Z in 2018, and the IKEA FREKVENS range the same year, modular speakers and lights at IKEA prices. The crank on Panic’s Playdate in 2019, probably the most widely owned piece of Teenage Engineering design in the world. The OB-4 in 2020, a radio that continuously records what it plays so you can scrub back through hours of broadcast."
+      },
+      {
+        "type": "p",
+        "text": "The entire visual language of Nothing from 2021, then the TX-6 and OP-1 field in 2022, the TP-7 and EP-133 K.O. II in 2023, the OP-XY and the Rabbit r1 in 2024, the EP-40 Riddim and the EP-2350 Ting microphone in 2025."
+      },
+      {
+        "type": "p",
+        "text": "Speakers, radios, cameras, headphones, mixers, recorders, microphones, a games console crank, a phone company’s design identity, an aluminium toy car. The synthesizers were never the business. They were the most famous department of it, which turns out to be a different thing, and a more dangerous one."
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/te-wood-figures.jpg",
+        "alt": "A lightbox showing a row of small wooden CH-8 Choir figures, each with a speaker or microphone grille, with the real figures lined up on a shelf beneath it against white-painted brick.",
+        "caption": "CH-8 Choir",
+        "fit": "narrow",
+        "credit": "Frederick McSwain"
+      },
+      {
+        "type": "p",
+        "text": "The clearest case is the Computer-2. Kouthoofd wanted the PC case to sell for ten dollars and was told that was impossible, because it cost ten dollars to make. So the company gave it away free, which removed the argument rather than winning it. He is explicit that this is the method: “I want to make objects that comment on, or raise questions about, why we accept things as they are.” And, flatly, “We shouldn’t make profits out of the products.”"
+      },
+      {
+        "type": "p",
+        "text": "That is a strange thing for a chief executive to say about a company with roughly a hundred employees and about 46 million dollars in annual revenue. He says it anyway. He concedes the company has “a lot of haters,” partly on price, partly because it sets out to “disturb people’s minds.” He describes the firm as a “democratic organism” that nonetheless needs “a strong voice that can say yes or no,” and he is that voice, personally deciding which prototypes ship. His stated goal for the place is that nobody there is ever bored. “What’s the point of going to work, if it isn’t fun?”"
+      },
+      {
+        "type": "p",
+        "text": "Here is where the theme closes on itself. What Kouthoofd gave Mauve was a statement of philosophy. What the press printed was a product announcement."
+      },
+      {
+        "type": "p",
+        "text": "Look at what is missing from the interview. There is no company statement; he told his own staff something internally and then repeated it to a journalist. There is no timeline, and the only timing he offers points the other way, at projects that will not surface for five to ten years. There is no list of what counts as a synthesizer, which at this catalogue is a serious problem: the OP-XY is a sequencer, the EP-133 is a sampler, and the line between those and a synth is a category the company has spent twenty years refusing. And there is nothing about the existing range, no discontinuation, no last order date, no word on support. The flat claim that the OP-1 is “no exception” is the writer’s framing, not a quotation."
+      },
+      {
+        "type": "p",
+        "text": "Then watch it travel. Highsnobiety’s headline said “is going to stop.” Resident Advisor’s said “to stop making synthesisers.” Gearnews softened it to “wants to stop.” Others hardened it into “says it’s done” and “to cease synth production,” asserting a corporate decision nobody has reported. Peter Kirn at [CDM](https://cdm.link/end-of-teenage-synths/) was the only one to push: he asked Teenage Engineering for comment and got nothing, says the larger technology outlets got nothing either, and offers the obvious alternative reading, that Kouthoofd may have reorganised the synthesizer division rather than abolished it. His verdict is that it is “unclear whether we should even worry about that statement.”"
+      },
+      {
+        "type": "p",
+        "text": "An intention described once in a Stockholm office became, inside twenty-four hours, a discontinuation notice. The industry could not hear “the products aren’t the business” as anything other than “the products are ending.”"
+      },
+      {
+        "type": "p",
+        "text": "Which is exactly his complaint, demonstrated at speed and at scale. For twenty years Teenage Engineering has been mistaken for a synthesizer manufacturer that happens to have good taste. Kouthoofd’s view is that it is a company whose output happens, sometimes, to be synthesizers."
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/te-patch-panel.jpg",
+        "alt": "A visitor in headphones and a long olive coat patches cables into a large synthesizer panel mounted on a tilted aluminium stand on wheels.",
+        "caption": "Patch panel on the upper floor",
+        "fit": "narrow",
+        "credit": "Frederick McSwain"
+      },
+      {
+        "type": "p",
+        "text": "So the shop on Lafayette Street is not a monument to the objects, and the timing is not awkward. It is a six thousand square foot room with no outside architect, a stage where a performance becomes a physical record while you watch, a floor of workshops teaching you to use things you need not buy, and a production line where you build the product yourself."
+      },
+      {
+        "type": "p",
+        "text": "None of it moves units. All of it sells the company. The store is the argument, already built, and not waiting for the synthesizer question to be settled."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Teenage Engineering Opens First Store In New York",
+        "publisher": "Sonic State",
+        "url": "https://sonicstate.com/news/2026/10/08/teenage-engineering-opens-first-store-in-new-york"
+      },
+      {
+        "title": "Teenage Engineering Is Going to Stop Making Synths",
+        "publisher": "Highsnobiety",
+        "url": "https://www.highsnobiety.com/p/teenage-engineering-interview/"
+      },
+      {
+        "title": "teenage engineering might quit synths, but parody can't quit them",
+        "publisher": "CDM",
+        "url": "https://cdm.link/end-of-teenage-synths/"
+      },
+      {
+        "title": "Teenage Engineering will stop making synths to focus on... whatever it feels like",
+        "publisher": "Engadget",
+        "url": "https://www.engadget.com/2280912/teenage-engineering-will-stop-making-synths-to-focus-on-whatever-else-it-wants-to-do/"
+      },
+      {
+        "title": "Teenage Engineering co-founder says the company will stop making synths, and reveals the true meaning of the OP-1",
+        "publisher": "MusicRadar",
+        "url": "https://tech.yahoo.com/audio/articles/teenage-engineering-co-founder-says-141445767.html"
+      },
+      {
+        "title": "Teenage Engineering to stop making synthesisers",
+        "publisher": "Resident Advisor",
+        "url": "https://ra.co/news/82034"
+      },
+      {
+        "title": "Teenage Engineering Wants to Stop Making Synths",
+        "publisher": "Gearnews",
+        "url": "https://www.gearnews.com/teenage-engineering-wants-to-stop-making-synths/"
+      },
+      {
+        "title": "Teenage Engineering",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Teenage_Engineering"
+      },
+      {
+        "title": "made on OP-1",
+        "publisher": "Teenage Engineering",
+        "url": "https://teenage.engineering/products/op-1/original/anniversary/made-on-op-1"
+      },
+      {
+        "title": "Teenage Engineering OP-1",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Teenage_Engineering_OP-1"
+      }
+    ],
+    "live_before_issue": true
   }
 ]
