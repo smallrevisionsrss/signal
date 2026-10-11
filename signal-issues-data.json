@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 11, 2026",
+    "hero": {
+      "headline": "The Ecological Future Is Being Drawn as a Luxury Resort",
+      "dek": "Solarpunk renderings promise architecture's green future and keep arriving as glossy, organic, frictionless places that look like somewhere you would pay to stay. Aaron Betsky reads them against Robida's flying houses, Callenbach's Ecotopia, Wakanda and the coal works at Zollverein, and argues that steampunk had the more honest model all along: visibly salvaged, visibly imperfect, built out of what the last century left behind rather than rendered as if nothing had been used up.",
+      "byline": "By Aaron Betsky · Architect Magazine",
+      "category": "design-arch",
+      "image": "https://www.architectmagazine.com/wp-content/uploads/sites/5/2026/10/Screenshot-2026-10-09-at-12.47.32-PM.jpg",
+      "url": "https://www.architectmagazine.com/design/why-does-the-future-of-architecture-look-like-a-luxury-resort/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Kevin McCloud Says New British Houses Are Getting More Playful",
+          "source": "Dezeen",
+          "byline": "Jane Englefield",
+          "date": "Oct 8",
+          "url": "https://www.dezeen.com/2026/10/08/residential-architecture-playful-kevin-mccloud-interviews/",
+          "image": "https://static.dezeen.com/uploads/2026/10/kevin-mccloud-hero-1.jpg"
+        },
+        {
+          "headline": "A Robot Warehouse Holds the Books So Omaha's New Library Can Hold People",
+          "source": "Architectural Record",
+          "byline": "Patrick Templeton",
+          "date": "Oct 9",
+          "url": "https://www.architecturalrecord.com/articles/18433-a-robotic-storage-system-makes-room-for-expanded-programs-at-hdrs-new-main-branch-library-in-omaha"
+        },
+        {
+          "headline": "Inside the Paris Match Picture Archive, Opened to Visitors for the First Time",
+          "source": "Creative Review",
+          "byline": "Jean Grogan",
+          "date": "Oct 8",
+          "url": "https://www.creativereview.co.uk/paris-match-archives-lvmh-journees-particulieres/"
+        },
+        {
+          "headline": "A 1664 Garden Sketchbook and Victorian Photographs of Amoy, Read as Datasets",
+          "source": "Canadian Centre for Architecture",
+          "byline": "Jonas Danen and Ruoqi Yu",
+          "evergreen": true,
+          "url": "https://www.cca.qc.ca/en/articles/105897/synthetic"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Jip Schalkx Prints Photographs on Glass to Argue With the Feed",
+          "source": "1854 Photography",
+          "byline": "Marigold Warner",
+          "date": "Oct 8",
+          "url": "https://www.1854.photography/2026/10/jip-schalkx-on-social-media-self-branding-and-our-hybrid-social-reality/"
+        },
+        {
+          "headline": "Eight Photographs, One Dark Room, and a Critic Who Counted Them",
+          "source": "Collector Daily",
+          "byline": "Loring Knoblauch",
+          "date": "Oct 9",
+          "url": "https://collectordaily.com/mark-armijo-mcknight-cut-the-world-klaus-von-nichtssagend/",
+          "image": "https://collectordaily.com/wp-content/uploads/2026/09/IMG_1552.jpeg"
+        },
+        {
+          "headline": "Woo Jin Joo Builds Myths Out of Fibre and Found Objects",
+          "source": "Colossal",
+          "byline": "Grace Ebert",
+          "date": "Oct 8",
+          "url": "https://www.thisiscolossal.com/2026/10/woo-jin-joo-mixed-media-sculptures/"
+        },
+        {
+          "headline": "Fleeces From Breeds Almost Nobody Farms, and the Spinners Still Using Them",
+          "source": "Craftsmanship Magazine",
+          "byline": "Erika Zambello",
+          "evergreen": true,
+          "url": "https://craftsmanship.net/field-notes/rare-sheep-rich-yarns/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "The Baritone Who Rebuilt His Singing Around Nineteenth Century Technique",
+          "source": "Limelight",
+          "byline": "Clive Paget",
+          "date": "Oct 9",
+          "url": "https://limelight-arts.com.au/features/david-greco-opens-up-on-vocal-technique-19th-century-style/"
+        },
+        {
+          "headline": "A Critic Who Nearly Skipped the Concert on the Barnsley Youth Choir",
+          "source": "The Arts Desk",
+          "byline": "Bernard Hughes",
+          "date": "Oct 11",
+          "url": "https://theartsdesk.com/classical-music/interview-mat-wright-incredible-success-barnsley-youth-choir"
+        },
+        {
+          "headline": "Two Nights in Stuttgart, and a Lucia That Split the Party",
+          "source": "Parterre Box",
+          "byline": "Ben Miller",
+          "date": "Oct 9",
+          "url": "https://parterre.com/2026/10/09/e-avanti-a-lei-tremava-tutta-stoccarda/",
+          "image": "https://parterre.com/wp-content/uploads/2026/10/11-2-scaled-e1791512673137.jpg"
+        },
+        {
+          "headline": "A Sampler That Behaves Like a Modular Rig Gets Another Free Overhaul",
+          "source": "Synth Anatomy",
+          "byline": "Synth Anatomy",
+          "date": "Oct 8",
+          "url": "https://synthanatomy.com/2026/10/uvi-falcon-2027-review-hybrid-workstation.html"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The 1948 Ansco Titan, a Folding Camera Almost Nobody Bought",
+          "source": "mike eckman dot com",
+          "byline": "Mike Eckman",
+          "date": "Sep 29",
+          "url": "https://mikeeckman.com/2026/09/ansco-titan-1948/",
+          "image": "https://mikeeckman.com/wp-content/uploads/2026/04/TitanandCommander-1-1024x684.jpg"
+        },
+        {
+          "headline": "Commodore Copied Atari's Joystick Twice, and the Second Try Explains the First",
+          "source": "The Silicon Underground",
+          "byline": "Dave Farquhar",
+          "date": "Oct 9",
+          "url": "https://dfarq.homeip.net/commodores-knockoff-atari-joystick-from-1982/"
+        },
+        {
+          "headline": "What Painters of the American South Saw in the Mail",
+          "source": "National Postal Museum",
+          "byline": "Daniel Piazza",
+          "date": "Oct 7",
+          "url": "https://postalmuseum.si.edu/looking-at-the-post-through-southern-art"
+        },
+        {
+          "headline": "A Bibliographer's Forged Pamphlets and the Reputations They Rewrote",
+          "source": "Rylands Collections",
+          "byline": "Rylands Collections",
+          "date": "Oct 9",
+          "url": "https://rylandscollections.com/2026/10/09/the-dead-tell-no-tales/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The 1883 Contract Plan for the Forth Bridge, in Scotland's National Record",
+          "source": "National Records of Scotland",
+          "byline": "Ross",
+          "date": "Oct 2",
+          "url": "https://blog.nrscotland.gov.uk/2026/10/02/plan-of-the-forth-bridge-1883/"
+        },
+        {
+          "headline": "No Working VCR Left in the Building, So the Archivist Wired In a Camcorder",
+          "source": "Science History Institute",
+          "byline": "Sarah Newhouse",
+          "date": "Oct 8",
+          "url": "https://www.sciencehistory.org/collections/blog/tales-from-the-tape/"
+        },
+        {
+          "headline": "A Beer Garden, Its Angry Neighbours, and the File That Kept Them All",
+          "source": "Seattle Municipal Archives",
+          "byline": "Seattle Municipal Archives",
+          "date": "Oct 1",
+          "url": "https://primarysources.seattle.gov/2026/10/01/october-find-of-the-month-boisterous-conduct/"
+        },
+        {
+          "headline": "A Library Plants a Garden, Then Goes Back to Its Own Shelves to Read It",
+          "source": "Clements Library",
+          "byline": "Samantha Hamilton",
+          "date": "Oct 7",
+          "url": "https://clements.umich.edu/blog-native-plant-garden/",
+          "image": "https://clements.umich.edu/wp-content/uploads/2026/10/Native-Plant-Garden.png"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "The Cinematographer on Lighting a Room Where Nobody Believes Themselves",
+          "source": "The Credits",
+          "byline": "Susannah Edelbaum",
+          "date": "Oct 9",
+          "url": "https://www.motionpictures.org/2026/10/the-testimony-jeff-cronenweth-on-lighting-power-doubt-control-in-the-social-reckoning/"
+        },
+        {
+          "headline": "The Soviet Director Who Finished Her Husband's Films and Then Outgrew Them",
+          "source": "Metrograph Journal",
+          "byline": "Alena Lodkina",
+          "date": "Oct 2",
+          "url": "https://metrograph.com/yuliya-solntseva/",
+          "image": "https://metrograph.com/wp-content/uploads/2026/09/yulina__header.png"
+        },
+        {
+          "headline": "Chris Shields on Building a Horror Film Around One Small Trick",
+          "source": "Screen Slate",
+          "byline": "A. S. Hamrah",
+          "date": "Oct 9",
+          "url": "https://www.screenslate.com/articles/little-machine-thats-creating-magic-trick-interview-chris-shields-about-morbid-weekend"
+        },
+        {
+          "headline": "What Disney Got Away With in Dumbo, Eighty Five Years On",
+          "source": "Cartoon Research",
+          "byline": "Michael Lyons",
+          "date": "Oct 9",
+          "url": "https://cartoonresearch.com/index.php/the-85th-anniversary-of-dumbo/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 10, 2026",
     "hero": {
       "headline": "Teenage Engineering's Real Product Was Always the Company",
