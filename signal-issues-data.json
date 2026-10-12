@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 12, 2026",
+    "hero": {
+      "headline": "Burnished Clay, and Coral Where the Head Should Be",
+      "dek": "Maria Carolina Baulo sits down with the Argentine sculptor Daiana Ares and gets her through the whole process in her own language: how she burnishes ceramic by hand until it holds light, why paper pulp behaves differently from clay, and what happens when a figure out of classical myth is finished with a piece of coral instead of a face. A labelled transcript, published in Spanish, about objects small enough to hold.",
+      "byline": "By María Carolina Baulo · Sculpture",
+      "category": "craft",
+      "image": "https://sculpturemagazine.art/wp-content/uploads/2026/10/Cupido-Psique-y-la-decepcion.-Cer24.jpg",
+      "url": "https://sculpturemagazine.art/pensamiento-hibrido-una-conversacion-con-daiana-ares/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A New Hampshire Millwork Shop Built Its Trade on PVC Instead of Wood",
+          "source": "Woodshop News",
+          "byline": "Jennifer Hicks",
+          "date": "Oct 8",
+          "url": "https://www.woodshopnews.com/beyond-wood-whitewoods-millwork-specialty",
+          "image": "https://www.woodshopnews.com/uploads/2026/10/Whitewood_Print-4-Large.jpeg"
+        },
+        {
+          "headline": "MoMA Looks Again at the Public Buildings of Newly Independent West Africa",
+          "source": "PIN-UP",
+          "byline": "Suleman Anaya",
+          "evergreen": true,
+          "url": "https://www.pinupmagazine.org/articles/modern-mandate-postcolonial-west-africa"
+        },
+        {
+          "headline": "In 1937 France's Three Biggest Carmakers Styled the Same Cheap Sedan Three Ways",
+          "source": "Car Style Critic",
+          "byline": "Donald Pittenger",
+          "date": "Oct 12",
+          "url": "https://carstylecritic.blogspot.com/2026/10/frances-big-three-styling-variations.html"
+        },
+        {
+          "headline": "Inside the Melbourne Studio of Studio Shand",
+          "source": "ArchitectureAU",
+          "byline": "Cassie Hansen",
+          "date": "Oct 9",
+          "url": "https://architectureau.com/articles/where-we-work-studio-shand/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Four Mournful Rooms in Middlesbrough, and the Best Turner Prize in Years",
+          "source": "Apollo",
+          "byline": "Robert Barry",
+          "date": "Oct 9",
+          "url": "https://apollo-magazine.com/turner-prize-2026-middlesbrough-review/"
+        },
+        {
+          "headline": "Eleven Graduating Artists in a Glass Room in Leicester, Seen One Object at a Time",
+          "source": "Corridor8",
+          "byline": "Poppy Jones-Little",
+          "date": "Oct 10",
+          "url": "https://corridor8.co.uk/article/tend-ma-contemporary-art-practice-degree-show/",
+          "image": "https://corridor8.co.uk/wp-content/uploads/2026/10/Overview-1-scaled.jpg"
+        },
+        {
+          "headline": "An Artist on Casting a Shoe Anvil, and on the Gaps Between Her Languages",
+          "source": "BOMB",
+          "byline": "Sophie Golub",
+          "date": "Oct 12",
+          "url": "https://bombmagazine.org/articles/2026/10/12/marié-nobematsu-le-gassic-by-sophie-golub/"
+        },
+        {
+          "headline": "A Photographer Argues for the Unstaged Picture, and a Reviewer Tests It",
+          "source": "PhotoBook Journal",
+          "byline": "Hans Hickerson",
+          "date": "Oct 8",
+          "url": "https://photobookjournal.com/2026/10/08/neil-selkirk-why-photographs/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A Conductor Argues for Neglected American Music at Jordan Hall",
+          "source": "The Boston Musical Intelligencer",
+          "byline": "Brian Bell",
+          "date": "Oct 11",
+          "url": "https://classical-scene.com/2026/10/11/american-rarities/"
+        },
+        {
+          "headline": "A New Zealand Composer on How He Made Water Music",
+          "source": "Foxy Digitalis",
+          "byline": "Brad Rose",
+          "date": "Oct 7",
+          "url": "https://foxydigitalis.zone/2026/10/07/four-sparrows-and-a-bee-with-kraus/"
+        },
+        {
+          "headline": "Two Days of Ragtime at the Sutter Creek Festival in California",
+          "source": "The Syncopated Times",
+          "byline": "Jared Szabo and Paul Orsi",
+          "date": "Sep 30",
+          "url": "https://syncopatedtimes.com/world-class-syncopation-at-2026-historic-sutter-creek-ragtime-festival/",
+          "image": "https://syncopatedtimes.com/wp-content/uploads/2026/09/Charlie-Judkins-and-Lauren-Sansaricq-at-Sutter-Creek-2026-John-Reed-Torres-crop.jpg"
+        },
+        {
+          "headline": "A Pianist in Dublin Plays Bach and Rachmaninov His Own Way",
+          "source": "The Journal of Music",
+          "byline": "James Camien McGuiggan",
+          "date": "Oct 8",
+          "url": "https://www.journalofmusic.com/reviews/carter-johnson-and-question-interpretation-0"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "How One Box of Wedgwood Becomes a Catalogue Record",
+          "source": "V&A Blog",
+          "byline": "Heather Densham",
+          "date": "Oct 5",
+          "url": "https://www.vam.ac.uk/blog/museum-life/cataloguing-wedgwood-step-by-step"
+        },
+        {
+          "headline": "Copper Firebox Sides Formed and Cylinders Bored for Locomotive 76077",
+          "source": "Toddington Standard Locomotive",
+          "byline": "Andrew Meredith",
+          "date": "Sep 18",
+          "url": "https://standard76077.com/workshop-update-september-2026/",
+          "image": "https://standard76077.com/wp-content/uploads/2026/09/Photo-3-New-copper-sides-being-formed-at-Leaky-Finders-1024x768.jpg"
+        },
+        {
+          "headline": "The Two Smallest American Buffalo Gold Coins, and Why Collectors Walk Past Them",
+          "source": "Numismatic News",
+          "byline": "Mark Benvenuto",
+          "date": "Oct 10",
+          "url": "https://numismaticnews.net/beyond-the-mainstream-the-smallest-two-american-buffaloes"
+        },
+        {
+          "headline": "A Lost 1983 Atari Advert Surfaces Inside a Baseball Broadcast",
+          "source": "The Arcade Blogger",
+          "byline": "Tony",
+          "date": "Sep 28",
+          "url": "https://arcadeblogger.com/2026/09/28/atari-xevious-tv-arcade-commercial-finally-unearthed/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Two Free Black Virginians at Lafayette's 1824 Richmond Welcome",
+          "source": "Library of Virginia",
+          "byline": "Lee Ann Timreck",
+          "date": "Oct 7",
+          "url": "https://uncommonwealth.lva.virginia.gov/blog/2026/10/07/lafayette-unfulfilled-promise/",
+          "image": "https://uncommonwealth.lva.virginia.gov/wp-content/uploads/2026/10/16_0097-001-Lafayette-8x10-1-scaled-e1791293312975.jpg"
+        },
+        {
+          "headline": "A Cataloguer Cleans Up Her Records in Bulk and Hits a Size Limit",
+          "source": "Heythrop Library",
+          "byline": "Amelia Leventhal",
+          "date": "Oct 9",
+          "url": "https://heythroplibrary.co.uk/2026/10/09/second-officers-log-2/"
+        },
+        {
+          "headline": "The Liverpool Campaigner Whose Papers Trace Fifty Years of Anti-Racist Work",
+          "source": "Manuscripts and More",
+          "byline": "Janaya Pickett",
+          "date": "Oct 1",
+          "url": "https://manuscriptsandmore.liverpool.ac.uk/who-was-dorothy-kuya/"
+        },
+        {
+          "headline": "Mapping What a Dress Collection Never Collected",
+          "source": "Collections Trust",
+          "byline": "Collections Trust",
+          "date": "Sep 29",
+          "url": "https://collectionstrust.org.uk/blog/a-museum-of-uncollected-things-addressing-gaps-in-the-collection/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "A First Time Director on How Antidepressants Shaped His Debut Feature",
+          "source": "Talkhouse",
+          "byline": "Chris Merola",
+          "date": "Oct 7",
+          "url": "https://talkhouse.com/two-halves-of-a-chalky-white-pill"
+        },
+        {
+          "headline": "Aaron Sorkin Goes Back to Facebook and the Subject Has Already Outrun Him",
+          "source": "critic.de",
+          "byline": "Robert Wagner",
+          "date": "Oct 9",
+          "url": "https://www.critic.de/film/the-social-reckoning-20296/"
+        },
+        {
+          "headline": "Two French Critics on What This Year's Films Get Wrong About the Occupation",
+          "source": "Critikat",
+          "byline": "Josué Morel and Adrien Mitterrand Munch",
+          "date": "Oct 6",
+          "url": "https://www.critikat.com/panorama/table-ronde/le-cinema-francais-face-aux-fantomes-de-loccupation/"
+        },
+        {
+          "headline": "Alex Karpovsky's First Feature in a Decade Turns a Beach Rental Into Dark Comedy",
+          "source": "Hammer to Nail",
+          "byline": "Christopher Llewellyn Reed",
+          "date": "Oct 9",
+          "url": "https://www.hammertonail.com/reviews/riptides/",
+          "image": "https://www.hammertonail.com/wp-content/uploads/2026/10/RIPTIDES-still.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 11, 2026",
     "hero": {
       "headline": "The Ecological Future Is Being Drawn as a Luxury Resort",
