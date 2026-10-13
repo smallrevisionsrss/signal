@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 13, 2026",
+    "hero": {
+      "headline": "A Four Inch Lion, Made Around 1100, Read Like a Sentence",
+      "dek": "The Metropolitan Museum asked the novelist Guadalupe Nettel to look at one small enamelled plaque of the winged lion of Saint Mark, made around 1100 for an abbey in southern France, and she gives it the kind of attention a writer gives a line she is not sure about yet. An institution writing about a single object in its own collection, by someone with no stake in the catalogue, which turns out to be the most useful kind of looking there is.",
+      "byline": "By Guadalupe Nettel · The Metropolitan Museum of Art",
+      "category": "craft",
+      "image": "https://cdn.sanity.io/images/cctd4ker/production/c64e256ff6edaf4a10ffbad0940bd68671653dd7-1520x1105.png",
+      "url": "https://www.metmuseum.org/perspectives/the-winged-lion-of-saint-mark"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Two New Los Angeles Museums Are Built to Pull Crowds, and Only One Works",
+          "source": "Azure",
+          "byline": "Eric Mutrie",
+          "date": "Oct 12",
+          "url": "https://www.azuremagazine.com/article/los-angeles-museums-lacma-geffen-lucas/",
+          "image": "https://www.azuremagazine.com/wp-content/uploads/2026/09/Azure-LAMuseums-Lucas-Lead.jpg"
+        },
+        {
+          "headline": "What the Official Wildfire Recovery Counts Leave Out in Altadena",
+          "source": "Places Journal",
+          "byline": "Nicole Lambrou",
+          "date": "Oct 6",
+          "url": "https://placesjournal.org/article/what-the-count-misses-wildfire-recovery/"
+        },
+        {
+          "headline": "Three Car Design Chiefs on Whether You Can Set Out to Make an Icon",
+          "source": "Car Design News",
+          "byline": "Car Design News",
+          "date": "Oct 13",
+          "url": "https://www.cardesignnews.com/designers/can-you-design-an-automotive-icon-cadillac-dodge-and-calty-designers-on-creating-cars-that-endure/2750632"
+        },
+        {
+          "headline": "The National Gallery Rebuilt the Frames Around Four Veronese Paintings",
+          "source": "The Frame Blog",
+          "byline": "The Frame Blog",
+          "date": "Sep 15",
+          "url": "https://theframeblog.com/2026/09/15/reframing-veroneses-allegories-of-love/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "An Artist Who Builds From Memory Explains Why He Wants It Unreliable",
+          "source": "Ocula",
+          "byline": "Maja Renfer",
+          "date": "Oct 11",
+          "url": "https://ocula.com/magazine/conversations/rafik-greiss-berlin-memory-kw/"
+        },
+        {
+          "headline": "Bronze Poured From Computed Forms, Seen in a Pennsylvania Studio",
+          "source": "Art Spiel",
+          "byline": "William Corwin",
+          "date": "Oct 12",
+          "url": "https://artspiel.org/searching-for-the-philosophers-stone-paul-highams-data-sculpture/",
+          "image": "https://artspiel.org/wp-content/uploads/2026/10/Paul-Higham-Installation-view-of-Data-Sculpture-with-Generative-Koch-Jacks-undated-and-Cerberus-with-Generative-Spores-2026-2000x1200.jpeg"
+        },
+        {
+          "headline": "A Potter Explains the Funeral Ceramics She Makes for the Dead",
+          "source": "Ceramic Review",
+          "byline": "Rosie McLachlan",
+          "date": "Oct 5",
+          "url": "https://www.ceramicreview.com/uncategorized/vessels-for-ghosts/"
+        },
+        {
+          "headline": "An Artist Spends a Year Sorting Fifty Years of a Feminist Bookshop's Paperwork",
+          "source": "The Provincetown Independent",
+          "byline": "Elspeth Slayter",
+          "date": "Oct 7",
+          "url": "https://provincetownindependent.org/community/people/2026/10/07/a-shop-as-archive/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "The Raconteurs Play Together Again on Jack White's Second Night",
+          "source": "Nashville Scene",
+          "byline": "Logan Butts",
+          "date": "Oct 12",
+          "url": "https://www.nashvillescene.com/music/thespin/jack-white-nashville-the-truth-show-review-2026/article_c30493c4-9f3f-49c9-8d60-a985f714341b.html"
+        },
+        {
+          "headline": "Second Report From the Warsaw Autumn New Music Festival",
+          "source": "5:4",
+          "byline": "Simon Cummings",
+          "date": "Oct 9",
+          "url": "https://5against4.com/2026/10/09/warsaw-autumn-2026-part-2/"
+        },
+        {
+          "headline": "A Close Listen to Greg Freeman's New Album All Set the Bone",
+          "source": "Seven Days",
+          "byline": "Chris Farnsworth",
+          "date": "Oct 7",
+          "url": "https://www.sevendaysvt.com/music/albums/album-review-greg-freeman-all-set-the-bone/",
+          "image": "https://www.sevendaysvt.com/wp-content/uploads/2026/10/music1-2.jpg"
+        },
+        {
+          "headline": "A Producer Names Every Plugin That Got the Record to Sound Like That",
+          "source": "Magnetic Magazine",
+          "byline": "Will Vance",
+          "date": "Oct 12",
+          "url": "https://magneticmag.com/2026/10/how-it-was-made-dukes-keep-u-safe/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Five Pictures Made With a Leica Built in 1933",
+          "source": "35mmc",
+          "byline": "Cem Eren",
+          "date": "Oct 11",
+          "url": "https://www.35mmc.com/11/10/2026/5-frames-with-a-1933-leica-ii/"
+        },
+        {
+          "headline": "A Blackpool Tram Is Carrying Passengers Again in Suffolk",
+          "source": "British Trams Online",
+          "byline": "Gareth Prior",
+          "date": "Oct 11",
+          "url": "https://www.britishtramsonline.co.uk/news/?p=64942"
+        },
+        {
+          "headline": "A Home Built 1930s Aeroplane With a Ford Car Engine, Examined Part by Part",
+          "source": "Vintage Aviation News",
+          "byline": "Randy Malmstrom",
+          "date": "Oct 11",
+          "url": "https://vintageaviationnews.com/warbird-articles/randys-vintage-profiles-pietenpol-sky-scout-n1933a.html",
+          "image": "https://vintageaviationnews.com/wp-content/uploads/642223331_26864150033185966_5987831717808047359_n-1024x768.jpg"
+        },
+        {
+          "headline": "Repairing a Museum's Medium Wave Transmitter After a Lightning Strike",
+          "source": "Deutsches Museum Blog",
+          "byline": "Luise Allendorf-Hoefer",
+          "date": "Oct 2",
+          "url": "https://blog.deutsches-museum.de/radio-eule-unter-hochspannung"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Putting an AI Transcriber to Work on a Victorian Birdwatcher's Notebooks",
+          "source": "Biodiversity Heritage Library",
+          "byline": "Joe deVeer",
+          "date": "Oct 8",
+          "url": "https://blog.biodiversitylibrary.org/2026/10/collections-as-data"
+        },
+        {
+          "headline": "A Telephone Company Paid to Film Ohio's Only Witchcraft Trial",
+          "source": "Hagley Museum and Library",
+          "byline": "Ona Coughlan",
+          "date": "Sep 25",
+          "url": "https://www.hagley.org/librarynews/ohio-story-witchcraft"
+        },
+        {
+          "headline": "Four Years of Paging, Reshelving and Building Cases in a Reading Room",
+          "source": "William and Mary Libraries",
+          "byline": "Sierra Manja",
+          "evergreen": true,
+          "url": "https://libraries.wm.edu/blog/reflections-special-collections-student-assistant-sierra-manja-class-2026-0"
+        },
+        {
+          "headline": "Civil War Officers Kept Writing Down the Battles That Never Happened",
+          "source": "Massachusetts Historical Society",
+          "byline": "Ella Starkman-Hynes",
+          "date": "Sep 18",
+          "url": "https://www.masshist.org/beehiveblog/2026/09/what-if/",
+          "image": "https://www.masshist.org/beehiveblog/wp-content/uploads/2026/09/Starkman-Hynes-2-1024x566.png"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "A New Documentary Reopens What the Record Left Out of Terry Fox's Run",
+          "source": "POV Magazine",
+          "byline": "Liam Lacey",
+          "date": "Oct 6",
+          "url": "https://povmagazine.com/the-never-ending-marathon-of-terry-fox/"
+        },
+        {
+          "headline": "Laika's Stop Motion Wildwood Builds a Forest Worth Getting Lost In",
+          "source": "Loud and Clear Reviews",
+          "byline": "Clotilde Chinnici",
+          "date": "Oct 12",
+          "url": "https://loudandclearreviews.com/wildwood-film-review/",
+          "image": "https://loudandclearreviews.com/wp-content/uploads/2026/09/wildwood.webp"
+        },
+        {
+          "headline": "Two Irish Filmmakers on Putting Online Radicalisation Inside One Front Room",
+          "source": "Film Ireland",
+          "byline": "Shannon Cotter",
+          "date": "Oct 9",
+          "url": "https://www.filmireland.net/article-no-one-sees-themselves-as-a-villain-alan-hopkins-michael-mullen-on-exploring-big-themes/"
+        },
+        {
+          "headline": "A Documentary Counts the Dead That No Government Recorded",
+          "source": "The Arts Fuse",
+          "byline": "Jeremy Ray Jewell",
+          "date": "Oct 12",
+          "url": "https://artsfuse.org/335742/film-review-strangers-and-their-babies-the-people-the-world-didnt-count/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 12, 2026",
     "hero": {
       "headline": "Burnished Clay, and Coral Where the Head Should Be",
