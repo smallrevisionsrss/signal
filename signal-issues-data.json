@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 14, 2026",
+    "hero": {
+      "headline": "Two Musicians Who Had Never Met Take Apart the Record They Made in Pieces",
+      "dek": "Savannah Harris and Nicole McCabe had never been in a room together before All Together Now, and Talkhouse let them interview each other about how it got built: chord progressions and motifs handed over by Zahn, bass parts run through an octave pedal, six or seven sessions at his house, drums cut at Bunker in Brooklyn mostly in one day off rough mixes, and a chart sketched by hand for Monstera so the hits would land. Harris also says plainly what the method cost, which is the in-the-room feel, and that is the part a release could never produce.",
+      "byline": "By Savannah Harris and Nicole McCabe · Talkhouse",
+      "category": "sound-vinyl",
+      "image": "https://lede-admin.talkhouse.com/wp-content/uploads/sites/73/2026/10/260613_SavannahHarris-NicoleMcCabe-Film_010-copy-e1791820246858.jpg",
+      "url": "https://talkhouse.com/savannah-harris-and-nicole-mccabe-never-met-before-all-together-now"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "An Eighty Inch Cherry Cabinet, Eight Inches Deep, Built to Finish a Kitchen",
+          "source": "Lost Art Press",
+          "byline": "Fitz",
+          "date": "Oct 13",
+          "url": "https://blog.lostartpress.com/2026/10/13/a-tall-drink-of-a-cabinet/"
+        },
+        {
+          "headline": "A Set of Thames Stairs in Bermondsey, Now Locked Behind a Gate",
+          "source": "A London Inheritance",
+          "byline": "A London Inheritance",
+          "date": "Oct 11",
+          "url": "https://alondoninheritance.com/the-thames/east-lane-stairs-bermondsey/",
+          "image": "https://alondoninheritance.com/wp-content/uploads/2026/10/East-Lane-Stairs-1-scaled.jpg"
+        },
+        {
+          "headline": "Four London Addresses Numbered 1066, Found and Visited One by One",
+          "source": "Diamond Geezer",
+          "byline": "Diamond Geezer",
+          "date": "Oct 14",
+          "url": "https://diamondgeezer.blogspot.com/2026/10/1066-london-road.html"
+        },
+        {
+          "headline": "What Flood Survivors in Southern Brazil Built When the Standard Shelter Did Not Fit",
+          "source": "e-flux Architecture",
+          "byline": "Vitoria M. Kavanami and Victoria M. S. Santos",
+          "evergreen": true,
+          "url": "https://www.e-flux.com/architecture/humanitarianism/6783073/modalities-of-the-provisional-rearticulating-the-global-shelter-imaginary-in-brazil/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Dayanita Singh on Making Her Own Archive Inside a Venice State Archive",
+          "source": "Aperture",
+          "byline": "Sarah Meister",
+          "date": "Oct 9",
+          "url": "https://aperture.org/editorial/dayanita-singh-dreams-of-archives/"
+        },
+        {
+          "headline": "How Two New Mexico Santeros Carve and Paint Their Saints",
+          "source": "Smithsonian Folklife Magazine",
+          "byline": "Joshua Kurtz",
+          "date": "Sep 25",
+          "url": "https://folklife.si.edu/magazine/santeros-nicolas-otero-ruben-gallegos"
+        },
+        {
+          "headline": "The Clark's New Curator on Taking On the Tavitian Collection",
+          "source": "Antiques & The Arts Weekly",
+          "byline": "Andrea Valluzzo",
+          "date": "Oct 6",
+          "url": "https://antiquesandthearts.com/qa-lara-yeager-crasselt/"
+        },
+        {
+          "headline": "An Intern Walks Through How the Quincy House Online Tour Got Built",
+          "source": "Historic New England",
+          "byline": "Historic New England",
+          "date": "Oct 13",
+          "url": "https://www.historicnewengland.org/next-gen-museum-leaders-carlos-cueva-caro/",
+          "image": "https://d2ubebvuvmcv9y.cloudfront.net/main/wp-content/uploads/2026/09/03133359/IMLS-Carlos-scaled.jpg"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A Writer Keeps Going Back to the Chant Singer Who Made a Career Out of a Harmonium",
+          "source": "Rock and Roll Globe",
+          "byline": "Carey Allan",
+          "date": "Oct 11",
+          "url": "https://rockandrollglobe.com/rock/krishna-das-have-harmonium-will-travel/",
+          "image": "https://rockandrollglobe.com/wp-content/uploads/2026/10/Krishna-Das-rnrg-splash-page-.jpg"
+        },
+        {
+          "headline": "A Memphis Songwriter Narrates Both Sides of the Argument She Had With Herself",
+          "source": "Memphis Flyer",
+          "byline": "Alex Greene",
+          "date": "Oct 14",
+          "url": "https://www.memphisflyer.com/im-full-of-contradictions/"
+        },
+        {
+          "headline": "Five Hours of Parsifal at Covent Garden, Written Up the Same Evening",
+          "source": "Boulezian",
+          "byline": "Mark Berry",
+          "date": "Oct 5",
+          "url": "https://boulezian.blogspot.com/2026/10/parsifal-royal-opera-4-october-2026.html"
+        },
+        {
+          "headline": "A Guitarist Takes Her Own Arrangement of an Old Irish Song Apart",
+          "source": "Acoustic Guitar",
+          "byline": "Laura Snowden",
+          "date": "Oct 7",
+          "url": "https://acousticguitar.com/learn-laura-snowdens-melody-driven-arrangement-of-the-traditional-irish-folk-song-carrickfergus/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "What Five Thousand Dollars Buys on a 2014 BMW i3, Fault by Fault",
+          "source": "The Autopian",
+          "byline": "David Tracy",
+          "date": "Oct 12",
+          "url": "https://www.theautopian.com/heres-everything-wrong-with-my-5000-bmw-i3/"
+        },
+        {
+          "headline": "An Unrestored 1951 Sunbeam, and the Second One Rebuilt From a Box of Parts",
+          "source": "Motorcycle Classics",
+          "byline": "James Adam Bolton",
+          "date": "Oct 9",
+          "url": "https://www.motorcycleclassics.com/classic-british-motorcycles/1951-sunbeam-s7-zm0z26ndzbro/"
+        },
+        {
+          "headline": "The 1975 All in One Desktop Computer That Computing History Forgot",
+          "source": "Computer History Museum",
+          "byline": "Ben Zotto",
+          "date": "Oct 10",
+          "url": "https://computerhistory.org/blog/sphere-microcomputer-rediscovered/",
+          "image": "https://live-comp-history-museum.pantheonsite.io/wp-content/uploads/2026/10/dick-mason-calstate-san-marcos.jpg"
+        },
+        {
+          "headline": "A Barely Used 2007 MacBook Pro, Opened Up and Repasted",
+          "source": "Low End Mac",
+          "byline": "Mark Sokolovsky",
+          "date": "Oct 10",
+          "url": "https://lowendmac.com/2026/unboxing-a-15-inch-2007-macbook-pro/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Theatre Ticket From 1769 and the Note Written on the Back of It",
+          "source": "Dorset History Centre",
+          "byline": "Dorset History Centre",
+          "date": "Oct 2",
+          "url": "https://news.dorsetcouncil.gov.uk/dorset-history-centre-blog/2026/10/02/5328/"
+        },
+        {
+          "headline": "An Oral History Tape, a Re-election Handbill, and the First Filipino Led Union",
+          "source": "Washington State Archives",
+          "byline": "Washington State Archives",
+          "date": "Oct 2",
+          "url": "https://digitalarchives.wa.gov/News/View/201"
+        },
+        {
+          "headline": "Minimal Intervention on a Damp Damaged Notebook From the 1500s",
+          "source": "Surrey History Centre",
+          "byline": "Surrey History Centre",
+          "evergreen": true,
+          "url": "https://www.surreycc.gov.uk/culture-and-leisure/history-centre/marvels/conserving-an-early-16th-century-clergymans-notebook"
+        },
+        {
+          "headline": "The Letter Where Alice Sheldon Told Her Agent She Was James Tiptree Jr",
+          "source": "Kenneth Spencer Research Library",
+          "byline": "Centi Newby",
+          "date": "Oct 13",
+          "url": "https://blogs.lib.ku.edu/spencer/the-secret-of-james-tiptree-jr/",
+          "image": "https://blogs.lib.ku.edu/spencer/wp-content/uploads/2026/10/Coll455_b120_f012_PH_066a-1024x710.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "In 1912 a Studio Made a Film About Itself and Left a Record of Its Own Lot",
+          "source": "Movies Silently",
+          "byline": "Fritzi Kramer",
+          "date": "Oct 12",
+          "url": "https://moviessilently.com/2026/10/12/a-vitagraph-romance-1912-a-silent-film-review/",
+          "image": "https://moviessilently.com/wp-content/uploads/2026/10/vitagraph-romance-header.jpg"
+        },
+        {
+          "headline": "A Festival's New Director Makes the Case for Programming It From a Resort",
+          "source": "DMovies",
+          "byline": "Victor Fraga",
+          "date": "Oct 8",
+          "url": "https://dmovies.org/2026/10/08/our-dirty-questions-to-andrew-mohsen/"
+        },
+        {
+          "headline": "The 1978 Film That Treats a Single Sound as a Lethal Weapon",
+          "source": "The Criterion Collection",
+          "byline": "Leo Goldsmith",
+          "date": "Oct 13",
+          "url": "https://www.criterion.com/current/posts/9306-the-shout-sound-and-fury"
+        },
+        {
+          "headline": "A Documentary About Skiing Everest's North Face, and the Climber Who Did Not Come Back",
+          "source": "Eye For Film",
+          "byline": "Paul Risker",
+          "date": "Oct 14",
+          "url": "https://www.eyeforfilm.co.uk/review/everest-the-other-side-2026-film-review-by-paul-risker"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 13, 2026",
     "hero": {
       "headline": "A Four Inch Lion, Made Around 1100, Read Like a Sentence",
