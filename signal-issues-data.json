@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 15, 2026",
+    "hero": {
+      "headline": "What British and American Mapmakers Put on the Mosquito Coast, and What They Left Off",
+      "dek": "Leonardo Santamaria Montero spent a fellowship in the British Library's collections and came out with three named shelfmarks: Samuel Field's 1740 draught of the Mosquito Shore, Jefferys' West-Indian Atlas of 1775, Faden's Yucatan sheet of 1787. The maps agree on where the coastline runs and disagree on who lives along it, and that disagreement is the part that tells you what each mapmaker was for.",
+      "byline": "By Leonardo Santamaria Montero · British Library",
+      "category": "archives",
+      "image": "https://www.bl.uk/images/v5dwkion/production/a15ff12485452fc1796955408746e4f123953f1d-3968x3024.jpg/thomas-jefferys-west-indian-atlas.jpg",
+      "url": "https://www.bl.uk/stories/blogs/posts/images-of-the-miskito-kingdom"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Fairmount Park Sheep Barn From 1879 Is Now the Shop That Repairs the Park's Windows",
+          "source": "Hidden City Philadelphia",
+          "byline": "Kyle Bagenstose",
+          "date": "Oct 9",
+          "url": "https://hiddencityphila.org/2026/10/havent-you-herd-a-fairmount-park-sheep-barn-finds-new-life-as-a-preservation-workshop/",
+          "image": "https://hiddencityphila.org/wp-content/uploads/2026/10/Exterior-1.jpg"
+        },
+        {
+          "headline": "Seventy Years of Sicilian Travel Posters Keep Drawing the Same Cart and Lemon Tree",
+          "source": "Poster House",
+          "byline": "B.A. Van Sise",
+          "date": "Oct 8",
+          "url": "https://posterhouse.org/blog/the-sicilian-defense/"
+        },
+        {
+          "headline": "Dutch Water Engineering Is Built to Push Water Out, and the Country Is Running Short",
+          "source": "Failed Architecture",
+          "byline": "Maria Mazzanti",
+          "date": "Oct 8",
+          "url": "https://failedarchitecture.com/thirst/"
+        },
+        {
+          "headline": "A Sign Painter Researched France's Lettering Trade in Paris Libraries and Made a Book",
+          "source": "BLAG Magazine",
+          "byline": "BLAG Magazine",
+          "date": "Oct 15",
+          "url": "https://bl.ag/chatting-with-morgane-come-author-of-la-peinture-en-lettres/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "A 1959 Kodak Rangefinder Whose Aperture Cannot Be Set Directly, Shot With One Roll",
+          "source": "mike eckman dot com",
+          "byline": "Mike Eckman",
+          "date": "Oct 13",
+          "url": "https://mikeeckman.com/2026/10/kodak-retina-iis-type-024-1959/"
+        },
+        {
+          "headline": "Photographs of the Woman Who Watched for Fires From a New Hampshire Tower in 1943",
+          "source": "Library of Congress",
+          "byline": "Melissa Lindberg",
+          "date": "Oct 8",
+          "url": "https://blogs.loc.gov/picturethis/2026/10/a-fire-lookout-in-the-white-mountains/"
+        },
+        {
+          "headline": "How One Photographer Soups Film and Overlaps Frames to Get Softer Pictures",
+          "source": "Shoot It With Film",
+          "byline": "Angela Izzo",
+          "date": "Oct 9",
+          "url": "https://shootitwithfilm.com/creating-dreamier-images-on-film/",
+          "image": "https://shootitwithfilm.com/wp-content/uploads/2026/10/Creating-Dreamier-Images-on-Film-by-Angela-Izzo-on-Shoot-It-With-Film-20.jpg"
+        },
+        {
+          "headline": "Two Artists Fill the German Pavilion in Venice With Furniture, Glass and War Memory",
+          "source": "Burlington Contemporary",
+          "byline": "Yi Ting Lee",
+          "date": "Oct 14",
+          "url": "https://contemporary.burlington.org.uk/reviews/reviews/henrike-naumann-and-sung-tieu-ruin"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A 1962 Gibson Falcon Taken Apart to Explain Why Two Versions Sound Different",
+          "source": "Vintage Guitar",
+          "byline": "Dave Hunter",
+          "date": "Oct 14",
+          "url": "https://www.vintageguitar.com/92048/classics-gibson-falcon-ga-19rvt/"
+        },
+        {
+          "headline": "Two Ensembles Play Bill Dixon's Music at Cafe Oto on His 101st Birthday",
+          "source": "UK Jazz News",
+          "byline": "Geoff Winston",
+          "date": "Oct 12",
+          "url": "https://ukjazznews.com/bill-dixon-101-at-cafe-oto/",
+          "image": "https://ukjazznews.b-cdn.net/wp-content/uploads/2026/10/Dixon-101_IMG_2080_rtch4_SAM-conducts-orch-res.jpg"
+        },
+        {
+          "headline": "An Archive Photographs the Paper Sleeves That Came With a Box of Brazilian 78s",
+          "source": "The ARChive of Contemporary Music",
+          "byline": "B. George",
+          "date": "Sep 23",
+          "url": "https://arcmusic.org/blog/brasilian-78-sleeves/"
+        },
+        {
+          "headline": "A Composer on the Software He Wrote Himself and the Speaker Arrays He Writes For",
+          "source": "Perfect Sound Forever",
+          "byline": "Daniel Barbiero",
+          "evergreen": true,
+          "url": "https://www.furious.com/perfect/ericlyon.html"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Collector Explains Twelve Years of Buying One Label's Collaboration Sneakers",
+          "source": "Sneaker Freaker",
+          "byline": "Gabriel Rojas",
+          "date": "Oct 14",
+          "url": "https://www.sneakerfreaker.com/features/collector-spotlight-danial-hession-kith-collection-interview",
+          "image": "https://cdn.sanity.io/images/c1chvb1i/production/a740498a8ddc7d25d05258b7377a728c8afb2330-1980x1320.png"
+        },
+        {
+          "headline": "What the Die Cracks on a 1799 Silver Dollar Tell a Grader",
+          "source": "CoinWeek",
+          "byline": "CoinWeek",
+          "date": "Oct 12",
+          "url": "https://coinweek.com/1799-draped-bust-silver-dollar-a-survivor-from-george-washingtons-final-year"
+        },
+        {
+          "headline": "A Postcard Collector Corrects Who Survived an 1889 Shipwreck",
+          "source": "Postcard History",
+          "byline": "Ray Hahn",
+          "date": "Oct 13",
+          "url": "https://postcardhistory.net/2026/10/eighty-hours-of-horror/"
+        },
+        {
+          "headline": "A Victorian Silver Propelling Pencil, and Why Its Lead No Longer Fits",
+          "source": "Fountain Pen Chronicles",
+          "byline": "Danny Watts",
+          "date": "Oct 12",
+          "url": "https://fountainpenchronicles.blog/2026/10/12/gotta-new-pencil/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The Engineer Who Turned Shaft Positions Into Binary, Read From His Own Papers",
+          "source": "IET Archives",
+          "byline": "Peter Barker and Asha Gage",
+          "date": "Oct 12",
+          "url": "https://ietarchivesblog.org/2026/10/12/the-story-of-a-pioneer-in-post-war-digital-engineering-and-innovation/"
+        },
+        {
+          "headline": "A Portland Projectionist Kept a Logbook, and the War Turns Up in the Margins",
+          "source": "University of Oregon Special Collections",
+          "byline": "Lily Russel",
+          "date": "Oct 6",
+          "url": "https://blogs.uoregon.edu/scua/2026/10/06/written-in-the-margin-wwii-through-the-eyes-of-a-projectionist/"
+        },
+        {
+          "headline": "A 1993 Typescript on How the NIH Learned to Count Its Own Trials",
+          "source": "Circulating Now",
+          "byline": "Christopher Phillips",
+          "date": "Oct 8",
+          "url": "https://circulatingnow.nlm.nih.gov/2026/10/08/health-by-the-numbers-nih-and-the-biostatistics-revolution/"
+        },
+        {
+          "headline": "A 1939 Draft Report Describes What Norwich Did for Its Unemployed",
+          "source": "Norfolk Record Office",
+          "byline": "Rocky Hage",
+          "date": "Oct 14",
+          "url": "https://norfolkrecordofficeblog.org/2026/10/14/title-the-norwich-unemployed-welfare-association-a-brief-history/",
+          "image": "https://norfolkrecordofficeblog.org/wp-content/uploads/2026/06/image.jpeg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "A Director and an Organiser on Filming the Last Thirteen Years of Harry Belafonte",
+          "source": "The Moveable Fest",
+          "byline": "Stephen Saito",
+          "date": "Oct 14",
+          "url": "https://moveablefest.com/suzanne-rostock-and-carmen-perez-following-harry/"
+        },
+        {
+          "headline": "A Five and a Half Hour Film About Borges That Turns Out to Be About Its Director",
+          "source": "Reverse Shot",
+          "byline": "Jeff Reichert",
+          "date": "Oct 14",
+          "url": "https://reverseshot.org/reviews/entry/3520/life_of_borges"
+        },
+        {
+          "headline": "William Greaves Filmed Harlem Renaissance Figures Talking in 1972, and It Is Out Now",
+          "source": "InSession Film",
+          "byline": "Dave Giannini",
+          "date": "Oct 13",
+          "url": "https://insessionfilm.com/movie-review-once-upon-a-time-in-harlem/",
+          "image": "https://insessionfilm.com/wp-content/uploads/2026/10/image-69.png"
+        },
+        {
+          "headline": "A Diver Swallowed by a Sperm Whale, and a Film That Counts Down His Air",
+          "source": "Slant Magazine",
+          "byline": "Rocco T. Thompson",
+          "date": "Oct 14",
+          "url": "https://www.slantmagazine.com/film/whalefall-review-austin-abrams-josh-brolin/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 14, 2026",
     "hero": {
       "headline": "Two Musicians Who Had Never Met Take Apart the Record They Made in Pieces",
