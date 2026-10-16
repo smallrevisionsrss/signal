@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 16, 2026",
+    "hero": {
+      "headline": "A 1971 Album Nobody Released for Fifty Years, Explained by the Man Who Made It",
+      "dek": "Mourning Phase recorded one album at Eden Studios in August 1971 and it sat unreleased until Seelie Court put it out in 2021, half a century later. Owen Knight accounts for the gap himself, from the Lamplight Club in Wallasey to an original acetate that reportedly changed hands on Discogs, and the photographs running with it are his own.",
+      "byline": "By Klemen Breznikar · It's Psychedelic Baby Magazine",
+      "category": "sound-vinyl",
+      "image": "https://www.psychedelicbabymag.com/wp-content/uploads/2026/10/Mourning-Phase-The-Lamplight-Club-Photos-1.jpg",
+      "url": "https://www.psychedelicbabymag.com/2026/10/mourning-phase-owen-knight-interview.html"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Spitalfields Synagogue That Rarely Opens, Seen From Inside on an Open Day",
+          "source": "ianVisits",
+          "byline": "Ian Mansfield",
+          "date": "Oct 15",
+          "url": "https://www.ianvisits.co.uk/articles/visiting-sandys-row-synagogue-spitalfields-93268/"
+        },
+        {
+          "headline": "A Cabinetmaker Explains What Each Board Made Him Change After He Cut It",
+          "source": "Fine Woodworking",
+          "byline": "Stevan Hartung",
+          "date": "Oct 9",
+          "url": "https://www.finewoodworking.com/2026/10/09/the-allure-of-the-wall-cabinet-part-2",
+          "image": "https://images.finewoodworking.com/app/uploads/2026/10/06193421/Allure-of-Wall-Cabinet-Part-2-16_9.png"
+        },
+        {
+          "headline": "A Victorian Power Station in Oxford Reopens as a Business School Teaching Building",
+          "source": "RIBA Journal",
+          "byline": "Tim Abrahams",
+          "date": "Oct 13",
+          "url": "https://www.ribaj.com/buildings/global-leadership-centre-said-business-school-john-macaslan-partners-oxford/"
+        },
+        {
+          "headline": "Home Modified Citroen 2CVs at a Club Meet, Looked At One by One",
+          "source": "Driven to Write",
+          "byline": "Fred G. Eger",
+          "date": "Oct 10",
+          "url": "https://driventowrite.com/2026/10/10/lets-go-duck-hunting-part-two/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "A Chicago Comics Anthology Gets a Museum Show, and a Critic Says It Stops Short",
+          "source": "Newcity Art",
+          "byline": "Elisa Shoenberger",
+          "date": "Oct 14",
+          "url": "https://art.newcity.com/2026/10/14/linework-traces-chicagos-illustrative-history/"
+        },
+        {
+          "headline": "A Furniture Maker Argues That Inches and Fractions Beat Millimetres at the Bench",
+          "source": "Paul Sellers",
+          "byline": "Paul Sellers",
+          "date": "Oct 12",
+          "url": "https://paulsellers.com/2026/10/inches-i-like/"
+        },
+        {
+          "headline": "An Artist on Building a Studio and a Practice Around a Disabled Body",
+          "source": "Sixty Inches From Center",
+          "byline": "cherry sarah kaufman",
+          "date": "Oct 11",
+          "url": "https://sixtyinchesfromcenter.org/disabled-sanctuary-interview-with-reveca-torres/",
+          "image": "https://sixtyinchesfromcenter.org/wp-content/uploads/2026/10/unnamed-28.jpg"
+        },
+        {
+          "headline": "An Artist Asks Galleries to Post Work to Disabled Audiences Instead of Streaming It",
+          "source": "Frieze",
+          "byline": "Jamila Prowse",
+          "date": "Oct 15",
+          "url": "https://www.frieze.com/article/i-want-exhibition-can-hold-in-hands-opinion"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "How Two Montreal Street Festivals Designed Their Spatial Sound Systems",
+          "source": "ProSoundWeb",
+          "byline": "Kevin Young",
+          "date": "Oct 14",
+          "url": "https://www.prosoundweb.com/sonic-potential-delving-into-the-unique-spatial-sound-system-design-at-two-major-montreal-street-festivals/",
+          "image": "https://www.prosoundweb.com/wp-content/uploads/2026/10/Screenshot-2026-10-14-100320.png"
+        },
+        {
+          "headline": "Fifteen Years of Threadgill, Iyer and Prieto, Heard Live and on Record",
+          "source": "The Arts Fuse",
+          "byline": "Jon Garelick",
+          "date": "Oct 16",
+          "url": "https://artsfuse.org/335934/concert-and-album-review-threadgill-iyer-and-prieto-fifteen-years-one-distinctive-voice/"
+        },
+        {
+          "headline": "Edison's Kinetophone, and the Seven Years It Took to Fail",
+          "source": "Mainspring Press",
+          "byline": "Allan Sutton",
+          "date": "Sep 30",
+          "url": "https://mainspringpress.org/2026/09/30/talking-pictures-a-fact-a-reality-the-story-of-edisons-kinetophone-1910-1917/"
+        },
+        {
+          "headline": "Sheffield Trip Hop on RESET, Heard Track by Track",
+          "source": "a closer listen",
+          "byline": "Richard Allen",
+          "date": "Oct 16",
+          "url": "https://acloserlisten.com/2026/10/16/audus-reset/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Moto Guzzi's Archive Shows Italy's Cult of Speed Was Built Before Fascism Claimed It",
+          "source": "The Vintagent",
+          "byline": "Wendy Pojmann",
+          "date": "Oct 11",
+          "url": "https://thevintagent.com/2026/10/11/futurism-fascism-and-italys-culture-of-speed/",
+          "image": "https://thevintagent.com/dev/wp-content/uploads/2026/10/1925.MotoGuzzi.OHC_.250.HockenheimMuseumArchive-1024x799.jpg"
+        },
+        {
+          "headline": "Spearhead Industries Put the Madballs Faces on Rubber Masks and Slime Balls",
+          "source": "Plaid Stallions",
+          "byline": "Mantooth",
+          "date": "Oct 11",
+          "url": "https://plaidstallions.com/reboot/madballs-rubber-masks-by-spearhead-industries/"
+        },
+        {
+          "headline": "Why Wartime Jefferson Nickels Peel, Read With X-Ray Fluorescence",
+          "source": "The E-Sylum",
+          "byline": "John Lorenzo",
+          "date": "Oct 11",
+          "url": "https://www.coinbooks.org/v29/esylum_v29n41.html"
+        },
+        {
+          "headline": "An 1863 Massachusetts Letter That Followed a Whaling Ship to New Zealand",
+          "source": "Postal History Sunday",
+          "byline": "Rob Faux",
+          "date": "Oct 11",
+          "url": "https://postalhistorysunday.substack.com/p/big-fish"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Welsh Scholar's 438 Old Books Carry Other People's Names in the Margins",
+          "source": "National Library of Wales",
+          "byline": "Eluned Gramich",
+          "date": "Oct 14",
+          "url": "https://www.library.wales/news/article/the-true-owner-of-this-book-the-griffith-john-williams-collection"
+        },
+        {
+          "headline": "Walking the Western Edge of London as John Rocque Drew It in 1746",
+          "source": "A London Inheritance",
+          "byline": "A London Inheritance",
+          "date": "Oct 4",
+          "url": "https://alondoninheritance.com/rocque-ring/walking-the-rocque-ring-part-4-hyde-park-corner-wellington-arch-a-missing-horse-and-an-elephant/",
+          "image": "https://alondoninheritance.com/wp-content/uploads/2026/10/Rocque-Ring-4-22-1024x565.jpg"
+        },
+        {
+          "headline": "A Whitechapel Photographer's Record of Streets Demolished After the War",
+          "source": "Spitalfields Life",
+          "byline": "The Gentle Author",
+          "date": "Oct 16",
+          "url": "https://spitalfieldslife.com/2026/10/16/a-lost-corner-of-whitechapel-iii/"
+        },
+        {
+          "headline": "Two Volumes of 1880s Press Cuttings Repaired Page by Page",
+          "source": "Queen Mary University of London",
+          "byline": "Queen Mary University of London",
+          "evergreen": true,
+          "url": "https://www.qmul.ac.uk/library/archives/news/conservation-news--peoples-palace-press-cuttings-given-new-lease-of-life.html"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "The Richard Corben Comic Miyazaki Wanted to Adapt in 1980",
+          "source": "Animation Obsessive",
+          "byline": "Animation Obsessive Staff",
+          "date": "Oct 12",
+          "url": "https://animationobsessive.substack.com/p/an-unmade-film-shaped-hayao-miyazaki"
+        },
+        {
+          "headline": "A Review of the New Sense and Sensibility, Measured Against the 1995 Film",
+          "source": "Moviejawn",
+          "byline": "Melissa Strong",
+          "date": "Oct 16",
+          "url": "https://www.moviejawn.com/home/2026/10/16/sense-and-sensibility-2026-review"
+        },
+        {
+          "headline": "John Wilson's Documentary About Concrete, and the Jokes He Finds in It",
+          "source": "PopMatters",
+          "byline": "Richard Stimac",
+          "date": "Oct 15",
+          "url": "https://www.popmatters.com/the-history-of-concrete-wilson"
+        },
+        {
+          "headline": "A Review of the Elizabeth Holmes Documentary Shot in the Month Before Prison",
+          "source": "High on Films",
+          "byline": "Julian Malandruccolo",
+          "date": "Oct 16",
+          "url": "https://www.highonfilms.com/you-can-see-everything-2026-documentary-review/",
+          "image": "https://www.highonfilms.com/wp-content/uploads/2026/10/You-Can-See-Everything-2026.webp"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 15, 2026",
     "hero": {
       "headline": "What British and American Mapmakers Put on the Mosquito Coast, and What They Left Off",
