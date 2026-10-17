@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 17, 2026",
+    "hero": {
+      "headline": "A Documentary Maker on Filming Rajasthan Women Who Took Their Work Fight to the Village Council",
+      "dek": "In a full question and answer transcript, Kallol Mukherjee explains how Herland began as a welfare film for the Ibtada Foundation's rural employment programme and turned into something else once the women it followed walked into the panchayat and were dismissed by the village head as illiterate. He talks about choosing not to film Bhagyashree when she broke down, about refusing to make the men into caricatures, and about the film's premiere at the DOKer documentary festival in Moscow.",
+      "byline": "By Dipankar Sarkar · Vague Visages",
+      "category": "photo-film",
+      "image": "https://vaguevisages.com/wp-content/uploads/2026/10/Herland-Interview-Kallol-Mukherjee-Movie-Film-Two.jpeg",
+      "url": "https://vaguevisages.com/2026/10/14/herland-interview-kallol-mukherjee-movie-film/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Salvage Firm's Rules for Building Kitchens and Bathrooms From Reclaimed Stone",
+          "source": "Remodelista",
+          "byline": "Margot Guralnick",
+          "date": "Oct 16",
+          "url": "https://www.remodelista.com/posts/how-to-use-reclaimed-stone-in-interiors-tips-from-retrouvius/",
+          "image": "https://www.remodelista.com/wp-content/uploads/2026/10/8-retrouvius-otta-phyllite-tt-00075-lores.jpg"
+        },
+        {
+          "headline": "San Antonio's Mission Drive-In, From Parking Lot Theatre to Public Plaza",
+          "source": "Docomomo US",
+          "byline": "Sonya Sehgal",
+          "date": "Oct 15",
+          "url": "https://www.docomomo-us.org/news/the-mission-drive-in-recreation-architecture-and-access-in-mid-century-san-antonio"
+        },
+        {
+          "headline": "A Designer Restores a 1926 Shoe Factory in Mallorca Without Making It Look New",
+          "source": "Freunde von Freunden",
+          "byline": "Nella Beljan",
+          "date": "Sep 24",
+          "url": "https://www.freundevonfreunden.com/stories/on-finding-happiness-a-portrait-of-a-designer-matthias-dietz/"
+        },
+        {
+          "headline": "David Rudnick and Arsenal's Studio on Drawing Rocastle, a Blackletter Typeface",
+          "source": "It's Nice That",
+          "byline": "Olivia Hingley",
+          "date": "Oct 12",
+          "url": "https://www.itsnicethat.com/features/david-rudnick-johnnie-campbell-arsenal-rocastle-typeface-graphic-design-spotlight-121026"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Liz Larner on Plastics, Porcelain and a Madrone Branch",
+          "source": "Studio International",
+          "byline": "Joe Lloyd",
+          "date": "Oct 15",
+          "url": "https://www.studiointernational.com/index.php/liz-larner-interview-a-hard-line-to-bend-camden-art-centre-london"
+        },
+        {
+          "headline": "Inside the San Francisco Salon That Buys Forgotten Artists' Estates Whole",
+          "source": "Mission Local",
+          "byline": "Julie Zigoris",
+          "date": "Oct 16",
+          "url": "https://missionlocal.org/2026/10/san-franciscos-lost-art-salon-finds-forgotten-20th-century-artists/",
+          "image": "https://missionlocal.org/wp-content/uploads/2026/10/image-9.jpeg"
+        },
+        {
+          "headline": "A Photographer Restages the Basque Witch Trials With Her Own Family",
+          "source": "Lenscratch",
+          "byline": "Michael Honegger",
+          "date": "Oct 15",
+          "url": "http://lenscratch.com/2026/10/bego-anton-all-of-them-witches/"
+        },
+        {
+          "headline": "The Black Soldier at the Head of Mantegna's Triumphs of Caesar",
+          "source": "The National Gallery",
+          "byline": "Wendy Shearer",
+          "evergreen": true,
+          "url": "https://www.nationalgallery.org.uk/paintings/picture-of-the-month/picture-of-the-month-october-2026"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A 1967 Monk Nonet Concert Finally Released, and the Case Against Splitting It in Two",
+          "source": "All About Jazz",
+          "byline": "Jack Kenny",
+          "date": "Oct 15",
+          "url": "https://www.allaboutjazz.com/thelonious-monk-live-in-paris-1967-volume-two-thelonious-monk-rhythm-a-ning-entertainment"
+        },
+        {
+          "headline": "A Pianist on Improvising Alongside George Lewis's Two Machine Partners",
+          "source": "Planet Hugill",
+          "byline": "Zubin Kanga",
+          "date": "Oct 15",
+          "url": "https://www.planethugill.com/2026/10/what-does-it-feel-like-to-improvise.html"
+        },
+        {
+          "headline": "Tape Loops, SuperCollider and Free Jazz Across Two Nights in One Riga Hall",
+          "source": "The Quietus",
+          "byline": "Daryl Worthington",
+          "date": "Oct 14",
+          "url": "https://thequietus.com/quietus-reviews/live-reviews/skanu-mezs-review-2026/",
+          "image": "https://thequietus.com/app/uploads/2026/10/Skanu-Mezs-2026-Arturs-Pavlovs-Foto_0586-1024x683.jpg"
+        },
+        {
+          "headline": "The Sinatra Music Society, Down to One Branch, Meets in a Leeds Village Hall",
+          "source": "Jazz Journal",
+          "byline": "Leon Nock",
+          "date": "Oct 16",
+          "url": "https://jazzjournal.co.uk/2026/10/16/one-more-for-the-road-the-sinatra-music-society-lives/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The Developer Building a Browsable Museum of N64 and PlayStation Models",
+          "source": "Time Extension",
+          "byline": "Jack Yarwood",
+          "date": "Oct 13",
+          "url": "https://www.timeextension.com/features/interview-i-wanted-something-instant-we-spoke-to-the-creator-of-the-digital-museum-that-lets-players-view-thousands-of-n64-and-ps1-models",
+          "image": "https://images.timeextension.com/507d1ab438f9d/1280x720.jpg"
+        },
+        {
+          "headline": "A Collector Has Kept a 1961 Royal Canadian Mint Box Sealed Since 1964",
+          "source": "Canadian Coin News",
+          "byline": "Jim Szeplaki",
+          "date": "Oct 13",
+          "url": "https://canadiancoinnews.com/two-unusual-finds-at-inaugural-show/"
+        },
+        {
+          "headline": "A Curator Looks Back at Seventy Five Years of the Old Car Festival",
+          "source": "The Henry Ford",
+          "byline": "Matt Anderson",
+          "date": "Oct 15",
+          "url": "https://www.thehenryford.org/collections/explore/articles/2026/celebrating-75-years-of-old-car-festival"
+        },
+        {
+          "headline": "A Lions Fan Sells Thirty Six Years of Memorabilia After Losing the Friend Who Started It",
+          "source": "ClickOnDetroit",
+          "byline": "Jay Scott Smith",
+          "date": "Oct 14",
+          "url": "https://clickondetroit.com/news/local/2026/10/14/lifelong-lions-fan-selling-massive-collection-after-death-of-close-friend"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The Diary of Marsh's First Keeper, Read Among Huguenot Refugee Writing",
+          "source": "Marsh's Library",
+          "byline": "Dan Rafiqi",
+          "date": "Oct 16",
+          "url": "https://marshlibrary.ie/contextualising-elie-bouhereaus-diary/"
+        },
+        {
+          "headline": "The Royal Society's Own Records of Its Ties to the Closing Academy of Natural Sciences",
+          "source": "The Royal Society",
+          "byline": "Jon Bushell",
+          "date": "Oct 13",
+          "url": "https://royalsociety.org/blog/2026/10/closed-cases/"
+        },
+        {
+          "headline": "Women in Dairying, Traced Through Inscribed Books in the MERL Library",
+          "source": "The Museum of English Rural Life",
+          "byline": "Claudia",
+          "date": "Oct 13",
+          "url": "https://merl.reading.ac.uk/news-and-views/women-in-dairying-from-dairymaids-to-leading-scientists/",
+          "image": "https://merl.reading.ac.uk/wp-content/uploads/sites/10/2026/10/FR-DX1984-3_001-1.jpg"
+        },
+        {
+          "headline": "Four Royal Bindings at Chetham's, From Matthias Corvinus to Elizabeth I",
+          "source": "Chetham's Library",
+          "byline": "Emma Nelson",
+          "evergreen": true,
+          "url": "https://library.chethams.com/blog/fit-for-a-king-royal-bindings-in-chethams-library/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "A Lithuanian Director Built a Soviet Lift Around the I Ching",
+          "source": "Cineuropa",
+          "byline": "Mariana Hristova",
+          "date": "Oct 15",
+          "url": "https://cineuropa.org/en/interview/496189/"
+        },
+        {
+          "headline": "Meena Kumari Holds Pakeezah Together Against Its Own Director",
+          "source": "BFI",
+          "byline": "Nasheed Qamar Faruqi",
+          "date": "Oct 16",
+          "url": "https://www.bfi.org.uk/features/revisiting-pakeezah-hindi-cinemas-great-tragedy-desire-entrapment"
+        },
+        {
+          "headline": "A Cinematographer on Lighting a Tunnel of Holographic Wallpaper on Film",
+          "source": "Pushing Pixels",
+          "byline": "Kirill Grouchnikov",
+          "date": "Oct 1",
+          "url": "https://www.pushing-pixels.org/2026/10/01/cinematography-of-i-live-here-now-interview-with-aron-meinhardt.html"
+        },
+        {
+          "headline": "A Coyote Pelt and an Unpermitted Desert Road Went Into Making American Muscle",
+          "source": "MovieMaker Magazine",
+          "byline": "Joel Veach",
+          "date": "Oct 15",
+          "url": "https://www.moviemaker.com/american-muscle-joel-veach/",
+          "image": "https://www.moviemaker.com/wp-content/uploads/2026/10/American-Muscle.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 16, 2026",
     "hero": {
       "headline": "A 1971 Album Nobody Released for Fifty Years, Explained by the Man Who Made It",
