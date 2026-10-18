@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "October 18, 2026",
+    "hero": {
+      "headline": "Ten Artists Take Up the Clay of a Cirebon Pottery Village Overshadowed by Tyre Recycling",
+      "dek": "Adam Sudewo reviews (Mem)Bangun dari Tanah at Sanggar Ikhtiar in Sitiwinangun, a village in Cirebon that has made pottery since the thirteenth century with a paddle-and-anvil method called getak winangun. Since the 1970s a used-tyre recycling industry has overshadowed the craft, and housing and industry have closed off the local clay. Ten artists from Cirebon, Bandung and Makassar worked with the village's terracotta, among them Iftikhar A. Rajwie, whose Neo Heritage is six smoke-fired earthenware sculptures. Sudewo ends by calling the craft a living language, at least in a gallery.",
+      "byline": "By Adam Sudewo · ArtReview",
+      "category": "craft",
+      "image": "https://backend.artreview.com/wp-content/uploads/2026/09/IMGL8603-2048x1365.jpg",
+      "url": "https://artreview.com/membangun-dari-tanah-at-sanggar-ikhtiar-kabupaten-cirebon-review-adam-sudewo/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Fellow Reads Ornament Across the Buildings of the East Balkan Borderlands",
+          "source": "Society of Architectural Historians",
+          "byline": "Aleksander (Olek) Musiał",
+          "date": "Oct 8",
+          "url": "https://sah.org/2026/10/08/mediation-patterns-cultural-dialogue-through-architectural-ornaments-of-east-balkan-borderlands/",
+          "image": "https://sah.org/wp-content/uploads/2026/10/20_Mediation_patterns.jpg"
+        },
+        {
+          "headline": "An Architect Redraws the Flat Above His Own in a Camberwell Georgian Terrace",
+          "source": "The Modern House",
+          "byline": "Sophie Sims",
+          "date": "Oct 13",
+          "url": "https://themodernhouse.com/journal/my-modern-house-the-flat-above"
+        },
+        {
+          "headline": "Inside the Programme of Type Paris Now 26, From One of Its Panellists",
+          "source": "Eye",
+          "byline": "John L. Walters",
+          "date": "Oct 14",
+          "url": "https://www.eyemagazine.com/blog/post/type-on-a-summers-day"
+        },
+        {
+          "headline": "Why Old Laptop Mainboards So Rarely Become Desktop Computers",
+          "source": "iFixit",
+          "byline": "Charlie Sorrel",
+          "date": "Oct 15",
+          "url": "https://www.ifixit.com/News/119691/why-isnt-everyone-turning-their-old-laptops-into-mini-desktop-pcs"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Tech's Hunger for Taste Meets Calder and O'Keeffe in Palo Alto",
+          "source": "Spike Art Magazine",
+          "byline": "Adina Glickstein",
+          "date": "Oct 14",
+          "url": "https://spikeartmagazine.com/articles/user-error-eternal-september-taste"
+        },
+        {
+          "headline": "Ryan Lanji Remembers the Night an Art Fair Afterparty Went to Electrowerkz",
+          "source": "Elephant",
+          "byline": "Ryan Lanji",
+          "date": "Oct 14",
+          "url": "https://elephant.art/let-me-write-down-what-i-remember-before-it-disappears-ryan-lanjis-stream-of-consciousness/",
+          "image": "https://elephant.art/wp-content/uploads/2026/10/IMG_8548.jpg"
+        },
+        {
+          "headline": "A Writer's Diary of the Tamagotchi She Came to Resent",
+          "source": "The Paris Review",
+          "byline": "Angie Sijun Lou",
+          "date": "Oct 14",
+          "url": "https://www.theparisreview.org/blog/2026/10/14/tamagotchi-diary-angie-sijun-lou/"
+        },
+        {
+          "headline": "Colin Pantall Reads Gabrielle Duplantier's Photobook PÂLE",
+          "source": "PhMuseum",
+          "byline": "Colin Pantall",
+          "date": "Oct 8",
+          "url": "https://phmuseum.com/news/photobook-review-pale-by-gabrielle-duplantier"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "One of David S. Ware's Final Interviews, Published in English for the First Time",
+          "source": "PopMatters",
+          "byline": "Tony Aramini",
+          "date": "Oct 15",
+          "url": "https://www.popmatters.com/david-s-ware-interview-2012"
+        },
+        {
+          "headline": "Mannveira's Second Album Vesöld Is Lean Icelandic Black Metal",
+          "source": "No Clean Singing",
+          "byline": "Daniel Barkasi",
+          "date": "Oct 16",
+          "url": "https://www.nocleansinging.com/2026/10/16/mannveira-vesold/"
+        },
+        {
+          "headline": "Alan Pierson on Staging Music for 18 Musicians at Fifty",
+          "source": "The Brooklyn Rail",
+          "byline": "George Grella",
+          "date": "Oct 6",
+          "url": "https://brooklynrail.org/2026/10/music/alan-pierson-with-george-grella/",
+          "image": "https://studio.brooklynrail.org/assets/83b1028c-4d20-4900-9c26-7c3e3adca094.jpg"
+        },
+        {
+          "headline": "Ian Brennan's Field Methods for Recording the Hidden Musics Series",
+          "source": "Tape Op",
+          "byline": "Ian Brennan",
+          "evergreen": true,
+          "url": "https://tapeop.com/interviews/175/hidden-musics"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Helen Sunderland-Cohen on Keeping Historic Maps, Fictional Maps and Contemporary Art",
+          "source": "The Art Newspaper",
+          "byline": "Caroline Roux",
+          "date": "Oct 16",
+          "url": "https://www.theartnewspaper.com/2026/10/16/collector-helen-sunderland-cohen-what-she-has-bought-and-why",
+          "image": "https://cdn.sanity.io/images/cxgd3urn/production/d6020b6b21dbe450c5536ba1f857e1042553dd79-1772x1181.jpg"
+        },
+        {
+          "headline": "A Belgian Family Builds the Porsche Type 114 That Never Left the Drawing Board",
+          "source": "Classic Driver",
+          "byline": "Thomas Imhof",
+          "date": "Oct 18",
+          "url": "https://www.classicdriver.com/en/article/cars/how-a-stillborn-porsche-pioneer-was-brought-life-after-80-years"
+        },
+        {
+          "headline": "A Physician-Philatelist Traces the First Twelve Years of HIV Through Postage Stamps",
+          "source": "Health in Stamps",
+          "date": "Oct 17",
+          "url": "https://healthinstamps.com/first-twelve-years-of-hiv-philately/"
+        },
+        {
+          "headline": "The Smithsonian's 1952 Topps Mickey Mantle Card and How It Became the Hobby's Grail",
+          "source": "Smithsonian Magazine",
+          "byline": "John Lingan",
+          "evergreen": true,
+          "url": "https://www.smithsonianmag.com/smithsonian-institution/pack-baseball-cards-included-mickey-mantle-corner-store-today-probably-sothebys-180989281/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The Jumping Frenchmen of Maine and the Neurologists Who Came to Watch",
+          "source": "The Public Domain Review",
+          "byline": "Ross Bullen",
+          "date": "Oct 14",
+          "url": "https://publicdomainreview.org/essay/the-jumping-frenchmen-of-maine/"
+        },
+        {
+          "headline": "Jacques Gamelin's 1779 Anatomy Book of Muscles and Dancing Skeletons",
+          "source": "Library of Congress",
+          "byline": "Michael North",
+          "date": "Oct 14",
+          "url": "https://blogs.loc.gov/bibliomania/2026/10/14/jacques-gamelins-artistic-anatomy/"
+        },
+        {
+          "headline": "Hundreds of Painted and Drilled Animal Bones Turn Up After a Wildfire on Crow Hill",
+          "source": "Historic Environment Scotland",
+          "byline": "Kelsi McDaniel",
+          "date": "Oct 15",
+          "url": "https://blog.historicenvironment.scot/2026/10/the-curious-case-of-the-crow-hill-bones/"
+        },
+        {
+          "headline": "Edward Everett Hale and the Brick Moon That Imagined Satellite Navigation in 1869",
+          "source": "The MIT Press Reader",
+          "byline": "Alexander MacDonald",
+          "date": "Oct 15",
+          "url": "https://thereader.mitpress.mit.edu/the-teenagers-who-imagined-gps-before-the-civil-war/",
+          "image": "https://thereader.mitpress.mit.edu/wp-content/uploads/2026/09/final-final-brick-moon.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Matthew Rankin Built a Brian Mulroney Film From 80,000 Pieces of Archive",
+          "source": "Documentary",
+          "byline": "Vadim Rizov",
+          "date": "Oct 15",
+          "url": "https://www.documentary.org/online-feature/historical-records-matthew-rankin-ladies-and-gentlemen-brian-mulroney-and-obviously"
+        },
+        {
+          "headline": "Tudor Vladimir Panduru on Shooting Mungiu's Fjord Around Norway's Hjørundfjord",
+          "source": "British Cinematographer",
+          "byline": "James Mottram",
+          "date": "Oct 9",
+          "url": "https://britishcinematographer.co.uk/tudor-vladimir-panduru-rsc-fjord/",
+          "image": "https://britishcinematographer.co.uk/wp-content/uploads/2026/10/fjord.jpg"
+        },
+        {
+          "headline": "How Beast Games' Editors Cut Two Petabytes From 200 Cameras",
+          "source": "CineMontage",
+          "byline": "Kristin Marguerite Doidge",
+          "date": "Oct 13",
+          "url": "https://cinemontage.org/how-the-editing-team-tamed-all-the-footage-for-the-newly-unionized-beast-games/"
+        },
+        {
+          "headline": "Carol Morley's 7 Miles Out Follows a Girl Growing Up Poor in Late Seventies Stockport",
+          "source": "Little White Lies",
+          "byline": "David Jenkins",
+          "date": "Oct 17",
+          "url": "https://lwlies.com/bfi-london-film-festival/7-miles-out-first-look-review"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 17, 2026",
     "hero": {
       "headline": "A Documentary Maker on Filming Rajasthan Women Who Took Their Work Fight to the Village Council",
