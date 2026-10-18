@@ -848,7 +848,7 @@ NAV_JS = """
   function renderRowHTML(item){
     var imageHTML = item.image ?
       '<a class="signal-row-media" href="' + esc(item.url) + '" tabindex="-1" aria-hidden="true">' +
-      '<img src="' + esc(item.image) + '" alt="" loading="lazy"></a>' : '';
+      '<img src="' + esc(item.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer"></a>' : '';
     return '<div class="signal-row' + (item.image ? ' has-media' : '') + '">' + imageHTML +
       '<h5 class="signal-row-headline"><a href="' + esc(item.url) + '" target="_blank" rel="noopener">' +
       esc(item.headline) + '&nbsp;<span class="signal-external-icon" aria-hidden="true">\u2197\ufe0e</span></a></h5>' +
@@ -1258,10 +1258,17 @@ def is_own(url):
     return u.startswith("/") or u.startswith(f"https://{SITE_HOST}/")
 
 
+# Publisher images are requested with no Referer. Some publishers refuse any
+# image request whose Referer is another site (hotlink protection) while serving
+# the same file to a request that carries none, which is what a reader opening
+# the file directly sends. The deploy's image check sends the article as Referer,
+# so it cannot see this failure. Found 18 October 2026: the SAH and then the
+# Common Edge Design images loaded nowhere on the live site. Outbound links keep
+# their Referer, so publishers still see the traffic Signal sends them.
 def row_html(a, internal=False):
     internal = internal or is_own(a.get("url"))
     media = (f'<a class="signal-row-media" href="{e(a["url"])}" tabindex="-1" aria-hidden="true">'
-             f'<img src="{e(a["image"])}" alt="" loading="lazy"></a>') if a.get("image") else ""
+             f'<img src="{e(a["image"])}" alt="" loading="lazy" referrerpolicy="no-referrer"></a>') if a.get("image") else ""
     date = f' &middot; {e(a["date"])}' if a.get("date") else ""
     return (f'<div class="signal-row">{media}'
             f'<h5 class="signal-row-headline"><a href="{e(a["url"])}"'
@@ -1276,7 +1283,7 @@ def hero_block(issue, paging="", issue_url=None):
     media = ""
     if h.get("image"):
         cap = f'<figcaption>{e(h["caption"])}</figcaption>' if h.get("caption") else ""
-        media = (f'<figure class="signal-hero-media"><img src="{e(h["image"])}" '
+        media = (f'<figure class="signal-hero-media"><img src="{e(h["image"])}" referrerpolicy="no-referrer" '
                  f'alt="{e(h.get("caption") or h["headline"])}">{cap}</figure>')
     pag = f'<span class="signal-hero-paging">{paging}</span>' if paging else ""
     note = ""
