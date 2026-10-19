@@ -1,5 +1,201 @@
 [
   {
+    "dateLabel": "October 19, 2026",
+    "hero": {
+      "headline": "A São Paulo Bakery's Identity Draws on Japanese Brazilian Shop Lettering",
+      "dek": "Lisa Cain looks at Estudio CRU's identity for Mirá, a São Paulo bakery that joins Japanese and Brazilian baking. She grounds it in Brazil's Japanese diaspora, more than two million people and the largest outside Japan, whose families adapted home methods to local ingredients, pickling papaya, watermelon and chayote. The identity sets Nikkei Maru, a typeface inspired by the lettering on immigrant-run shops, restaurants and hotels, against oversized Latin type and earthy colours. Cain's argument is that fusion branding usually lines up two countries' symbols, where this one shows how the traditions actually came together.",
+      "byline": "By Lisa Cain · BP&O",
+      "category": "design-arch",
+      "image": "https://bpando.org/wp-content/uploads/mira0-scaled-1.png",
+      "url": "https://bpando.org/2026/10/14/kneading-east-and-west/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "UC Berkeley's New Computing Building Is Planned Around Chance Encounters",
+          "source": "Metropolis",
+          "byline": "Lydia Lee",
+          "date": "Oct 8",
+          "url": "https://metropolismag.com/projects/uc-berkeleys-newest-building-is-all-about-human-interactions/",
+          "image": "https://metropolismag.com/wp-content/uploads/2026/10/04_UCB-Gateway_Ema-Peter-2.jpg"
+        },
+        {
+          "headline": "Student Designs Imagine Tennis Courts as Public Space Under a Bridge and in Floodwater",
+          "source": "Landscape Architecture Magazine",
+          "byline": "Joe Adler",
+          "date": "Sep 30",
+          "url": "https://landscapearchitecturemagazine.org/usta-future-courts"
+        },
+        {
+          "headline": "Inside a 1980s Harris Filter Chip That Uses Capacitors as Resistors",
+          "source": "Ken Shirriff's blog",
+          "byline": "Ken Shirriff",
+          "evergreen": true,
+          "url": "https://www.righto.com/2026/10/ML10-switched-capacitor-filter.html"
+        },
+        {
+          "headline": "Bertone's 1981 Mazda MX-81 Aria Swapped the Steering Wheel for a Sliding Belt",
+          "source": "Classic Driver",
+          "byline": "Thomas Imhof",
+          "date": "Oct 15",
+          "url": "https://classicdriver.com/en/article/cars/bertone-and-mazda-tried-reinvent-steering-wheel-concept"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "A Queer Arcana at Palm Springs Art Museum Shows Art Made Through Magic",
+          "source": "Momus",
+          "byline": "Jamie Ross",
+          "date": "Oct 15",
+          "url": "http://momus.ca/2026/10/15/raw-unruly-rituals-collaborating-with-the-spirits-at-palm-springs-art-museum/"
+        },
+        {
+          "headline": "Maria Pasenau's Self-Portraits Fill a Trondheim Gallery With Peephole Boxes",
+          "source": "Kunstkritikk",
+          "byline": "Tommy Olsson",
+          "date": "Oct 7",
+          "url": "https://kunstkritikk.com/it-will-always-be-the-devil-staring-back-from-the-other-side-of-the-lens/",
+          "image": "https://cdn.kunstkritikk.no/uploads/2026/10/IMG_1168-978x652.jpg"
+        },
+        {
+          "headline": "Marie-Caroline Locquet Makes Jewellery Designed to Be Unwearable",
+          "source": "Art Jewelry Forum",
+          "date": "Oct 12",
+          "url": "https://artjewelryforum.org/interviews/touching-base-with-marie-caroline-locquet_natl-france_10-12-2026/"
+        },
+        {
+          "headline": "Rebecca Mezoff on Weaving Gradations of Hue and Value in Tapestry",
+          "source": "Rebecca Mezoff",
+          "byline": "Rebecca Mezoff",
+          "date": "Oct 15",
+          "url": "https://rebeccamezoff.com/blog/2026/10/12/gradations-in-tapestry-weaving"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A Book on Producer Tom Wilson Reads 1966 as Pop's Crisis of Authenticity",
+          "source": "Tracking Angle",
+          "byline": "Joseph W. Washek",
+          "date": "Oct 16",
+          "url": "https://trackingangle.com/features/everything-is-everything"
+        },
+        {
+          "headline": "Nameless Sound's Free Improvisation Workshops and Home Concerts in Houston",
+          "source": "Sounding Out!",
+          "date": "Sep 21",
+          "url": "https://soundstudiesblog.com/2026/09/21/so-amplifies-nameless-sound/"
+        },
+        {
+          "headline": "Poem Rocket Trace Their Records From an Alphabet City Studio to a Shelved 1999 EP",
+          "source": "IDIOTEQ",
+          "byline": "Karol Kamiński",
+          "date": "Oct 18",
+          "url": "https://idioteq.com/new-york-art-rock-outsiders-poem-rocket-on-felix-culpa/",
+          "image": "https://idioteq.com/wp-content/uploads/2026/10/poem-rocket-photo-by-andrew-nelson-1995-retouched.jpg"
+        },
+        {
+          "headline": "Florida Atlantic's Sound Archive on the Latin Rhythm in A Night in Tunisia and Manteca",
+          "source": "FAU Recorded Sound Archives",
+          "byline": "Jenny Sanchez",
+          "date": "Oct 12",
+          "url": "https://rsa.fau.edu/blog/collections/jazz-collection/the-latin-pulse-of-jazz-dizzy-gillespies-a-night-in-tunisia-and-manteca/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Tokyo Street Photographer Jeff Austin Empties His Frayed Canvas Camera Bag",
+          "source": "Japan Camera Hunter",
+          "byline": "Bellamy",
+          "date": "Oct 19",
+          "url": "https://www.japancamerahunter.com/2026/10/in-your-bag-1788-tokyo-forgeries-jeff-austin/",
+          "image": "https://www.japancamerahunter.com/wp-content/uploads/2026/10/in_your_bag_jeff_austin_-2-3.jpg"
+        },
+        {
+          "headline": "Christopher de Hamel Recalls the Teenage Years That Made Him a Manuscript Man",
+          "source": "The Book Collector",
+          "byline": "Sheila Markham",
+          "date": "Oct 16",
+          "url": "https://thebookcollector.co.uk/book-review-the-migrants-a-memoir-with-manuscripts/"
+        },
+        {
+          "headline": "A Hot Rodder Backdates His Roadster's Shocks Before Jimmy's Old Car Picnic",
+          "source": "The Jalopy Journal",
+          "byline": "J.Ukrop",
+          "date": "Oct 16",
+          "url": "https://www.jalopyjournal.com/?p=66120"
+        },
+        {
+          "headline": "A Retired Engineer and the 600,000-Token Database He Needs Someone to Inherit",
+          "source": "Inconspicuous Consumption",
+          "byline": "Paul Lukas",
+          "evergreen": true,
+          "url": "https://www.inconspicuous.info/p/collection-agency-a-more-inconspicuous"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The Black Watch Catalogues the Papers of Hamish Mann, a Poet Killed at Arras",
+          "source": "Archives Hub",
+          "byline": "Jane Ronson",
+          "date": "Oct 2",
+          "url": "https://blog.archiveshub.jisc.ac.uk/2026/10/02/the-black-watch-museums-special-exhibition-sing-o-sad-heart/"
+        },
+        {
+          "headline": "Three Children's Book Illustrators and the Other Jobs Their Papers Reveal",
+          "source": "UConn Archives & Special Collections",
+          "byline": "Laura Smith",
+          "date": "Oct 13",
+          "url": "https://blogs.lib.uconn.edu/archives/2026/10/13/three-illustrators-and-their-multi-hyphenate-careers/"
+        },
+        {
+          "headline": "Ursula Sims-Williams Retires After Fifty-Three Years With the Silk Road Manuscripts",
+          "source": "International Dunhuang Programme",
+          "date": "Oct 16",
+          "url": "https://idp.bl.uk/blog/celebrating-the-career-of-ursula-sims-williams/",
+          "image": "https://idp.bl.uk/wp-content/uploads/2026/10/Photo1280-115_cropped.jpg"
+        },
+        {
+          "headline": "A 1911 Letter in the Texas State Archives Becomes a Song About a Silk Mill Girl",
+          "source": "Not Even Past",
+          "byline": "Timmy Vilgiate",
+          "date": "Oct 7",
+          "url": "https://notevenpast.org/meg-laurens-songs-from-the-archive/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Powell and Pressburger's Gone to Earth Returns in Its Restored Cut at the London Film Festival",
+          "source": "FilmHounds",
+          "byline": "Matt Goddard",
+          "date": "Oct 19",
+          "url": "https://filmhounds.co.uk/2026/10/19/gone-to-earth-london-film-festival-2026-review/"
+        },
+        {
+          "headline": "Cristian Mungiu's Fjord Sets a Romanian Family Against Norway's Child Welfare System",
+          "source": "The Upcoming",
+          "byline": "Selina Sondermann",
+          "date": "Oct 17",
+          "url": "https://www.theupcoming.co.uk/2026/10/17/london-film-festival-2026-fjord-review/",
+          "image": "https://www.theupcoming.co.uk/wp-content/uploads/2026/05/FJORD-204424-2-H-2026-1-1280x721.webp"
+        },
+        {
+          "headline": "James Benning's Eight Bridges and Markus Schleinzer's Rose at the Chicago International Film Festival",
+          "source": "Third Coast Review",
+          "byline": "Lisa Trifone",
+          "date": "Oct 18",
+          "url": "https://thirdcoastreview.com/film-tv/2026/10/18/dispatch-62nd-chicago-film-fest-3"
+        },
+        {
+          "headline": "Mariano Llinás on Building a Five-Hour Borges Documentary From Letters, Drafts and Places",
+          "source": "Film Comment",
+          "byline": "Jordan Cronk",
+          "evergreen": true,
+          "url": "https://www.filmcomment.com/article/interview-mariano-llinas-on-life-of-jorge-luis-borges/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 18, 2026",
     "hero": {
       "headline": "Ten Artists Take Up the Clay of a Cirebon Pottery Village Overshadowed by Tyre Recycling",
