@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "October 20, 2026",
+    "hero": {
+      "headline": "A Fourteenth Century Dante Commentator Retells the Death of King Arthur",
+      "dek": "Christopher Berard and Morris Tichenor translate the gloss that Benvenuto da Imola, a scholar lecturing in Bologna, wrote on Inferno XXXII.61-62 in his Latin commentary on Dante, composed between 1373 and 1388. Working from Boccaccio's chapter on Arthur and the Geoffrey of Monmouth tradition, Benvenuto tells the whole story: Arthur king at about fifteen, his wars against the Saxons and in Norway, Denmark and Gaul, the Round Table and its laws, the refused Roman tribute, Mordred's seizure of Guinevere, battles at Richborough and Winchester, the duel in which each man wounds the other, and Arthur carried to Avalon.",
+      "byline": "By Christopher Berard and Morris Tichenor · Medievalists.net",
+      "category": "archives",
+      "image": "https://www.medievalists.net/wp-content/uploads/2026/10/medieval26101810.jpg",
+      "url": "https://www.medievalists.net/2026/10/king-arthur-medieval-italian/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "How the Maltese Cross Stop-Work Keeps a Watch's Mainspring in Its Steady Range",
+          "source": "SJX Watches",
+          "byline": "David Ichim",
+          "date": "Oct 19",
+          "url": "https://watchesbysjx.com/2026/10/insight-maltese-cross.html",
+          "image": "https://watchesbysjx.com/wp-content/uploads/2026/09/Cleguer-Maltese-Cross-stopwork-3x2-centred-header-4.jpg"
+        },
+        {
+          "headline": "Sarah Henley Restores an 1802 New Hampshire Farmhouse Room by Room for Her Family",
+          "source": "1stDibs Introspective",
+          "byline": "Erika Heet",
+          "date": "Oct 18",
+          "url": "https://www.1stdibs.com/introspective-magazine/henley-design/"
+        },
+        {
+          "headline": "The Women Who Shaped Indian Furniture, Textiles and Interiors Between 1947 and 1990",
+          "source": "Design History Society",
+          "byline": "Arpna Gupta",
+          "date": "Oct 8",
+          "url": "https://www.designhistorysociety.org/blog/view/crafting-furniture-in-the-global-south-where-were-the-women-in-indian-design"
+        },
+        {
+          "headline": "Identifying the French Typefaces on Postwar French Tourism Posters",
+          "source": "Fonts In Use",
+          "byline": "Florian Hardwig",
+          "evergreen": true,
+          "url": "https://fontsinuse.com/uses/33844/french-tourism-posters-1950s-1960s"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "John Yau on David Reed's Paintings of 2013 to 2026 at Rodder",
+          "source": "Hyperallergic",
+          "byline": "John Yau",
+          "date": "Oct 19",
+          "url": "https://hyperallergic.com/david-reed-went-where-lichtenstein-wouldnt/"
+        },
+        {
+          "headline": "Michelle Vossen Weaves Soft Sensors That Answer Touch With Sound and Light",
+          "source": "Fiber Art Now",
+          "byline": "Cami Smith",
+          "evergreen": true,
+          "url": "https://www.fiberartnow.net/blog/michelle-vossen/",
+          "image": "https://fiber-art-now.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/09/25161449/Vossen-Control-Freaks-2.webp"
+        },
+        {
+          "headline": "Nail Technicians Compete Under UV Lamps at Nailympia in London's Docklands",
+          "source": "i-D",
+          "byline": "Charlie Kwai",
+          "date": "Oct 13",
+          "url": "https://i-d.co/article/nailympia-london-2026/"
+        },
+        {
+          "headline": "Dede Arisekola Takes Her Menswear Label Holy One From Central Saint Martins to Lagos",
+          "source": "Guzangs",
+          "byline": "Iyanuoluwa Osatimehin",
+          "date": "Oct 14",
+          "url": "https://guzangs.com/dede-arisekola-holy-one/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Er Nie Scored The Big Road With Work Songs, Timing Them by Metronome on Location",
+          "source": "Movie Music UK",
+          "byline": "Craig Lysy",
+          "date": "Oct 19",
+          "url": "https://moviemusicuk.us/2026/10/19/the-big-road-er-nie/"
+        },
+        {
+          "headline": "ENO Stages Du Yun's Angel's Bone With Three Live Camera Operators at the Coliseum",
+          "source": "Bachtrack",
+          "byline": "David Karlin",
+          "date": "Oct 17",
+          "url": "https://bachtrack.com/review-angels-bone-du-yun-vavrek-english-national-opera-london-october-2026"
+        },
+        {
+          "headline": "Alcest's Neige on Riff Memos, Reincarnation and a Classical Album With Nicolas Horvath",
+          "source": "Decibel",
+          "byline": "Chris Dick",
+          "date": "Oct 19",
+          "url": "https://www.decibelmagazine.com/2026/10/19/alcest/",
+          "image": "https://www.decibelmagazine.com/wp-content/uploads/2026/10/alcest_blackgaze_decibel_2026.jpg"
+        },
+        {
+          "headline": "A Musicologist Weighs Alexander Rosenblatt's History of Christian Music in Jerusalem",
+          "source": "Early Music America",
+          "byline": "Alon Schab",
+          "date": "Oct 12",
+          "url": "https://www.earlymusicamerica.org/web-articles/soundscapes-of-the-holy-land/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Fountain Pen Collector's London Pen Show Haul, From a Sheaffer Balance II to a Sacless Swan",
+          "source": "Rupert Arzeian",
+          "byline": "Rupert Arzeian",
+          "date": "Oct 13",
+          "url": "https://rupertarzeian.com/2026/10/13/the-london-autumn-pen-show-2026-my-haul/"
+        },
+        {
+          "headline": "An Amazon Developer Turns His Garage Into a Working Computer Museum",
+          "source": "GeekWire",
+          "byline": "Kurt Schlosser",
+          "date": "Oct 16",
+          "url": "https://www.geekwire.com/2026/retro-tech-meets-modern-ai-inside-an-amazon-developers-garage-turned-working-computer-museum/",
+          "image": "https://cdn.geekwire.com/wp-content/uploads/2026/10/darko1-1260x945.jpeg"
+        },
+        {
+          "headline": "A Collector's Alpha Micro Eagle 300 Stops Booting After a SCSI Disk Swap",
+          "source": "Old Vintage Computing Research",
+          "date": "Oct 11",
+          "url": "https://oldvcr.blogspot.com/2026/10/refurb-weekend-ii-alpha-micro-eagle-300.html"
+        },
+        {
+          "headline": "A New York Teenager Collects Books and Objects on Death and Mourning",
+          "source": "Fine Books & Collections",
+          "byline": "Nate Pedersen",
+          "evergreen": true,
+          "url": "https://www.finebooksmagazine.com/fine-books-news/book-collector-kaveh-bahar-death-mourning-and-attachment"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Kim Il Sung Built North Korea's Personality Cult From His Presbyterian Childhood",
+          "source": "Engelsberg Ideas",
+          "byline": "Jonathan Cheng",
+          "date": "Oct 19",
+          "url": "https://engelsbergideas.com/notebook/the-christian-genesis-of-north-koreas-personality-cult/",
+          "image": "https://engelsbergideas.com/wp-content/uploads/2026/10/North-Korea-Christian.jpg"
+        },
+        {
+          "headline": "Some Fifty 1944 Photographs of Black American Airmen Stationed at Petworth",
+          "source": "West Sussex Record Office",
+          "byline": "Alice Millard",
+          "date": "Oct 1",
+          "url": "https://westsussexrecordofficeblog.com/2026/10/01/the-black-servicemen-of-the-9th-us-air-force-in-petworth-1944/"
+        },
+        {
+          "headline": "The Florentine Convent That Took In Women Leaving Prostitution, From 1330",
+          "source": "Historical Transactions",
+          "byline": "Gillian Jack",
+          "date": "Oct 15",
+          "url": "https://blog.royalhistsoc.org/2026/10/15/prostitution-repentance-and-social-welfare-in-renaissance-florence/"
+        },
+        {
+          "headline": "Pressed Flowers, Field Diaries and the Language of Flowers in North Yorkshire's Archives",
+          "source": "North Yorkshire County Record Office",
+          "byline": "Gwyneth Endersby",
+          "date": "Oct 2",
+          "url": "https://nycroblog.com/2026/10/02/botanical-notes/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Joel Crawford and Januel Mercado Built DreamWorks' Forgotten Island From Filipino Folklore",
+          "source": "Skwigly",
+          "byline": "Ryan Gaur",
+          "date": "Oct 16",
+          "url": "https://www.skwigly.co.uk/joel-crawford-januel-mercado-forgotten-island/"
+        },
+        {
+          "headline": "Souleymane Cissé's Yeelen Asks to Be Entered Rather Than Explained",
+          "source": "Sabzian",
+          "byline": "Vedant Srinivas",
+          "date": "Oct 14",
+          "url": "https://sabzian.be/text/the-world-begins-its-turn"
+        },
+        {
+          "headline": "Joseph Nobile Recalls Shooting Closer to Home on 16mm Between Manila and New York",
+          "source": "Offscreen",
+          "byline": "Donato Totaro",
+          "evergreen": true,
+          "url": "https://offscreen.com/view/closer-to-home-joseph-nobile"
+        },
+        {
+          "headline": "Emmanuel Lubezki Shot Iñárritu's Digger on a Rebuilt VistaVision Camera at f/8",
+          "source": "Definition",
+          "byline": "Oliver Webb",
+          "date": "Oct 17",
+          "url": "https://definitionmagazine.com/features/digger-emmanuel-lubezki-interview/",
+          "image": "https://api.definitionmagazine.com/wp-content/uploads/2026/10/rev-1-judy_r1_v6.0m_260717_DCDM_g1055_stills_0805_005_rec709_gamma_2-4_20260806.0089938_High_Res_JPEG-scaled-e1792163115461.jpeg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 19, 2026",
     "hero": {
       "headline": "A São Paulo Bakery's Identity Draws on Japanese Brazilian Shop Lettering",
