@@ -1,5 +1,202 @@
 [
   {
+    "dateLabel": "October 21, 2026",
+    "hero": {
+      "headline": "Tori Wrånes Talks Through Her Sailcloth and Bronze Figures in the Nordic Pavilion",
+      "dek": "John Gayer talks with Tori Wrånes about her work in the Nordic Countries Pavilion at the 61st Venice Biennale, where How Many Angels Can Dance on the Head of a Pin, shared with Klara Kristalova and Benjamin Orlow, runs through November 22. Her largest piece there, Human Lace, joins eight or more figures in sailcloth and bronze. The sails had crossed the Atlantic many times before she learned to stitch them with sail needles, which she likens to sewing with a knife. The birds are sand cast, the hands lost wax, and a foghorn from the city where she grew up sounds once an hour.",
+      "byline": "By John Gayer · Sculpture",
+      "category": "craft",
+      "image": "https://sculpturemagazine.art/wp-content/uploads/2026/10/3b-TW-In-Minor-Keys-the-zippers-mass-scaled.jpg",
+      "url": "https://sculpturemagazine.art/the-brain-is-in-the-belly-a-conversation-with-tori-wranes/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Travelling Fellow Reads Cross-Cultural Messages in the Ornament of Bulgaria, Romania and Hungary",
+          "source": "Society of Architectural Historians",
+          "byline": "Aleksander (Olek) Musiał",
+          "date": "Oct 8",
+          "url": "https://sah.org/2026/10/08/mediation-patterns-cultural-dialogue-through-architectural-ornaments-of-east-balkan-borderlands/",
+          "image": "https://sah.org/wp-content/uploads/2026/10/20_Mediation_patterns.jpg"
+        },
+        {
+          "headline": "How a Bay Area Graffiti Writer Helped Build Letterform Archive's Graffiti Collection",
+          "source": "Letterform Archive",
+          "byline": "Stephen Coles",
+          "date": "Oct 19",
+          "url": "https://letterformarchive.org/news/an-undercover-look-at-letterform-archives-graffiti-collection/"
+        },
+        {
+          "headline": "A Plastics Museum Looks at Four British Radio Makers, From Bush and EKCO to Freeplay and Pure",
+          "source": "Museum of Design in Plastics",
+          "byline": "Louise Dennis",
+          "date": "Oct 14",
+          "url": "https://www.modip.ac.uk/blog/2026/10/britain-made-it-radios-etc"
+        },
+        {
+          "headline": "A Milan-Inspired Princes Hill Victorian Gets a Different Colour in Every Room",
+          "source": "The Design Files",
+          "byline": "Christina Savopoulos",
+          "date": "Oct 20",
+          "url": "https://thedesignfiles.net/2026/10/interiors-milanese-pied-a-terre-studio-tali-roth"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Leiden's Textile Research Centre Goes Through Its 300-Plus Pairs of Gloves, Mittens and Gauntlets",
+          "source": "Textile Research Centre",
+          "byline": "Emilie Lambert",
+          "date": "Oct 17",
+          "url": "https://www.trcleiden.trc-leiden.nl/trc/index.php/en/blog/1887-a-history-of-gloves"
+        },
+        {
+          "headline": "A Critic Reviews Batima Zaurbekova's Tapestries From 1969 to 2026 at the Kasteyev Museum in Almaty",
+          "source": "Canvas",
+          "byline": "Elise Morton",
+          "date": "Oct 15",
+          "url": "https://canvasonline.com/a-life-in-thread-batima-zaurbekova-at-the-abylkhan-kasteyev-national-museum-of-arts-of-the-republic-of-kazakhstan/",
+          "image": "https://canvasonline.com/wp-content/uploads/2026/10/batima-1140-5--1024x683.jpg"
+        },
+        {
+          "headline": "A Jewellery Scholar Follows the Diamond Ring From Pliny to Art Deco",
+          "source": "Klimt02",
+          "byline": "Julia Wild",
+          "date": "Oct 19",
+          "url": "https://klimt02.net/forum/articles/binding-matter-dark-substance-bright-sentiment-julia-wild"
+        },
+        {
+          "headline": "Spike Waltzer Recalls Going From Hollywood Paparazzo to Photographer of Los Angeles Punk",
+          "source": "IMA",
+          "byline": "IMA",
+          "date": "Oct 17",
+          "url": "https://imaonline.jp/articles/interview/Spike_Waltzer/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Habibi Funk Collects the City Pop Beirut Made During the Civil War",
+          "source": "Bandcamp Daily",
+          "byline": "Samuel Tornow",
+          "date": "Oct 19",
+          "url": "https://daily.bandcamp.com/album-of-the-day/various-artists-beirut-city-pop-review"
+        },
+        {
+          "headline": "Steve Davis Looks Back on Fifty Years Selling Hi-Fi and Co-Founding AXPONA",
+          "source": "Stereophile",
+          "byline": "Julie Mullins",
+          "date": "Oct 19",
+          "url": "http://www.stereophile.com/content/re-tales-71-its-musical-life-steve-daviss-50-year-career"
+        },
+        {
+          "headline": "Dai Fujikura's Beehive Piece Amber Alchemy Gets Its UK Premiere Ahead of Mahler's Second",
+          "source": "musicOMH",
+          "byline": "Barry Creasy",
+          "date": "Oct 20",
+          "url": "https://www.musicomh.com/classical/reviews-classical/lso-pappano-review-fujikura-amber-alchemy-mahler-second-barbican-hall",
+          "image": "https://www.musicomh.com/wp-content/uploads/2026/10/LSO-Pappano-Barbican-1.jpg"
+        },
+        {
+          "headline": "Marie Pieprzownik Cuts Lacquers From Analogue Tape on a Neumann VMS80 in Paris",
+          "source": "Women in Vinyl",
+          "evergreen": true,
+          "url": "https://womeninvinyl.com/profiles/marie-pieprzownik-mastering-vinyl-cutting-engineer"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Curator Finds the Carvings on a 15th-Century Saddle Look Like Narwhal Tooth, Not Elephant Ivory",
+          "source": "Deutsches Historisches Museum",
+          "byline": "Antje Nützmann",
+          "date": "Oct 16",
+          "url": "https://www.dhm.de/journal/en/post/what-does-a-luxurious-saddle-have-to-do-with-a-unicorn",
+          "image": "https://www.dhm.de/journal/fileadmin/_processed_/3/9/csm_Prunksattel_rechte_Seite__wei%C3%9Fer_Hintergrund_W1010__109__b36d8c1a1f.jpeg"
+        },
+        {
+          "headline": "A Met Paper Conservator Saves a Water-Damaged Tiffany Design for a Havana Conservatory",
+          "source": "The Metropolitan Museum of Art",
+          "date": "Oct 14",
+          "url": "https://www.metmuseum.org/en/perspectives/conservation-stories-tiffany-gilded-age-drawing"
+        },
+        {
+          "headline": "A Curator Looks Back on 37 Years of Collecting for The Strong Museum of Play",
+          "source": "The Strong National Museum of Play",
+          "byline": "Chris Bensch",
+          "evergreen": true,
+          "url": "https://www.museumofplay.org/blog/adventures-in-collecting/"
+        },
+        {
+          "headline": "How Five Colours of Signal Flags Tied Welsh Ports to World Trade",
+          "source": "Amgueddfa Cymru – Museum Wales",
+          "byline": "Dafydd Newton-Evans",
+          "date": "Oct 19",
+          "url": "https://museum.wales/blog/2954/A-Colourful-Language-of-the-Sea-How-Flags-Connected-Wales-to-the-World/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Conserving a Gilt Leather Cover Made by a Less Practiced Hand for a 1614 Bouquet Sacré",
+          "source": "Harvard Library Preservation Services",
+          "byline": "Kelli Piotrowski and Anne McLain",
+          "date": "Oct 1",
+          "url": "https://preservation.library.harvard.edu/news/2026/10/binding-beauty"
+        },
+        {
+          "headline": "Seven Mulberry Leaves and a Bundle of Silk Found Inside an 18th Century Book",
+          "source": "British Library",
+          "byline": "Ayse Kaya",
+          "date": "Oct 20",
+          "url": "https://www.bl.uk/stories/blogs/posts/seven-mulberry-leaves-silk-and-a-surprise-in-the-stacks",
+          "image": "https://www.bl.uk/images/v5dwkion/production/4314427a5fab9bd4e1f9732dcf79b093db23ff5d-4032x3024.jpg/dried-mulberry-leaves-in-book.jpg"
+        },
+        {
+          "headline": "A Berlin Barrel Organ Maker Who Built an Instrument for The Threepenny Opera",
+          "source": "Staatsbibliothek zu Berlin",
+          "byline": "Thomas Parschik",
+          "date": "Oct 19",
+          "url": "https://blog.sbb.berlin/italienische-drehorgeln-made-in-berlin-costruzione-di-organetti-italiani-made-in-berlin/"
+        },
+        {
+          "headline": "How Thomas J. Wise's Forged Stevenson Pamphlet Was Denounced as a Piracy in 1898, and Survived",
+          "source": "Rylands Collections",
+          "byline": "Ellesse Patterson",
+          "date": "Oct 16",
+          "url": "https://rylandscollections.com/2026/10/16/an-undiscoverable-secret-the-afterlives-of-thomas-j-wises-forgeries/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "DNEG Built Wile E. Coyote in 3D and Shaded Him to Look Like a Cel Drawing for Coyote vs. Acme",
+          "source": "The Art of VFX",
+          "byline": "Vincent Frei",
+          "date": "Oct 20",
+          "url": "https://www.artofvfx.com/coyote-vs-acme-alexander-seaman-vfx-supervisor-and-keith-roberts-animation-director-dneg/"
+        },
+        {
+          "headline": "Masao Adachi's Films Are Better Read as Surrealism Than Agitprop, Argues the Author of a New Book",
+          "source": "MUBI Notebook",
+          "byline": "William Andrews",
+          "date": "Oct 20",
+          "url": "https://mubi.com/en/notebook/posts/masao-adachi-demystifying-a-legend"
+        },
+        {
+          "headline": "The Whistle Tells a True Story of a Doctor in a Nazi Prison Without a Word of Dialogue",
+          "source": "Animation World Network",
+          "byline": "Victoria Davis",
+          "date": "Oct 14",
+          "url": "https://www.awn.com/animationworld/whistle-greg-franklins-wordless-short-finds-hope-nazi-prison"
+        },
+        {
+          "headline": "Sam Levy Shot The Only Living Pickpocket in New York on Super Baltar Lenses",
+          "source": "Cinematography World",
+          "byline": "Iain Blair",
+          "date": "Oct 9",
+          "url": "https://www.cinematography.world/dp-sam-levy-shoots-the-only-living-pickpocket-in-new-york/",
+          "image": "https://www.cinematography.world/wp-content/uploads/2026/10/cuv9oyw46The_Only_Living_Pickpocket_in_New_York-Still_1.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 20, 2026",
     "hero": {
       "headline": "A Fourteenth Century Dante Commentator Retells the Death of King Arthur",
