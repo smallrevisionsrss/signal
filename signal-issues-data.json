@@ -1,5 +1,201 @@
 [
   {
+    "dateLabel": "October 22, 2026",
+    "hero": {
+      "headline": "Colin Williamson's Photographs of Japanese Game Culture Enter the Video Game History Foundation Archive",
+      "dek": "Colin Williamson was a game journalist embedded in Japan from 1999 through the mid-2000s, writing for IGN, Official U.S. PlayStation Magazine and PC Gamer. The Video Game History Foundation has added his photography collection to its digital archive, where the images are freely accessible. Shot on what was then a new digital camera, the hundreds of photos cover Tokyo Game Show, Nintendo's Space World 2000, Akihabara game stores and Sega's Kyoto Joypolis arcade. They include the Shenmue booth at TGS Autumn 1999 and the 2005 Electroplankton launch, where Shigeru Miyamoto and Satoru Iwata joined Toshio Iwai.",
+      "byline": "By Phil Salvador · Video Game History Foundation",
+      "category": "collecting",
+      "image": "https://gamehistory.org/wp-content/uploads/2026/10/williamson_Akihabara-game-store-exterior-1.jpg",
+      "url": "https://gamehistory.org/williamson-photos/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Vermont's First Dedicated Tourism Brand Borrows From Road Signs and the State Seal",
+          "source": "BP&O",
+          "byline": "Emily Gosling",
+          "date": "Oct 15",
+          "url": "https://bpando.org/2026/10/15/dnco-vermont-state-tourism-brand-identity/",
+          "image": "https://bpando.org/wp-content/uploads/vermont-dnco-logo-bpo-review-.jpeg"
+        },
+        {
+          "headline": "The 1975 Altair Catalogue Offered a Computer for Just Over $600",
+          "source": "Hackaday",
+          "byline": "Al Williams",
+          "date": "Oct 21",
+          "url": "https://hackaday.com/2026/10/21/the-age-of-altair/"
+        },
+        {
+          "headline": "Florence Knoll Treated the Office Interior as an Architectural Problem",
+          "source": "Salone del Mobile.Milano",
+          "date": "Oct 21",
+          "url": "https://www.salonemilano.it/en/articles/florence-knoll-modern-office-design-legacy"
+        },
+        {
+          "headline": "Making Mistakes Impossible With a Dummy Battery and a Flag on a Roll Bar",
+          "source": "Core77",
+          "byline": "Rain Noe",
+          "evergreen": true,
+          "url": "https://www.core77.com/posts/145636/Poka-Yoke-Idiot-Proof-Design"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Duro Olowu Reads the Kuba Skirts and His Grandfather's Robe at the Met",
+          "source": "The Metropolitan Museum of Art",
+          "byline": "Duro Olowu",
+          "date": "Oct 20",
+          "url": "https://www.metmuseum.org/perspectives/what-fashion-reveals-duro-olowu"
+        },
+        {
+          "headline": "A Second Roll of 25-Year-Old Konica Infrared, Shot Through a Red Filter",
+          "source": "35mmc",
+          "byline": "Mark Ellerby",
+          "date": "Oct 22",
+          "url": "https://www.35mmc.com/22/10/2026/konica-infrared-film-second-try-a-year-later/",
+          "image": "https://www.35mmc.com/wp-content/uploads/2026/09/000037610002-scaled.jpg"
+        },
+        {
+          "headline": "Finishing the Table a Former Colleague's Late Husband Had Started",
+          "source": "Fine Woodworking",
+          "byline": "Rick Price",
+          "date": "Oct 20",
+          "url": "https://www.finewoodworking.com/2026/10/20/sharing-a-table"
+        },
+        {
+          "headline": "William Kentridge's New Film Starts From a Johannesburg Gas Explosion",
+          "source": "Plaster",
+          "byline": "Annabel Downes",
+          "date": "Oct 9",
+          "url": "https://plastermagazine.com/interviews/william-kentridge-isnt-planning-on-stopping-anytime-soon/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Jarboe Records Ideas on Her Phone the Moment They Arrive",
+          "source": "The Creative Independent",
+          "byline": "J. Bennett",
+          "date": "Oct 16",
+          "url": "https://thecreativeindependent.com/people/musician-jarboe-on-capturing-ideas-as-soon-as-they-happen/"
+        },
+        {
+          "headline": "Cecil Taylor's 1979 Albuquerque Concert, Taped for NPR and Never Aired, Comes Out on Two LPs",
+          "source": "The Vinyl District",
+          "byline": "Joseph Neff",
+          "date": "Oct 21",
+          "url": "https://www.thevinyldistrict.com/storefront/graded-on-a-curve-cecil-taylor-live-at-the-kimo-theater-albuquerque-1979/"
+        },
+        {
+          "headline": "One Saturday of Live Music in Chicago, From Experimental Sound Studio's Garden to the Green Mill",
+          "source": "I CARE IF YOU LISTEN",
+          "byline": "Hannah Edgar",
+          "date": "Oct 21",
+          "url": "https://icareifyoulisten.com/2026/10/what-a-day-of-live-music-in-chicago-sounds-like/",
+          "image": "https://icareifyoulisten.com/wp-content/uploads/sites/3/2026/10/carl-stone-and-lou-mallozzi-photo-by-alex-inglizian-1440px.jpeg"
+        },
+        {
+          "headline": "Tushrik Fredericks Danced in the Circles of a Johannesburg House Club as a Teenager",
+          "source": "Afropop Worldwide",
+          "byline": "Bella Valtchanov",
+          "date": "Oct 15",
+          "url": "https://www.afropop.org/articles/tushrik-fredericks-from-johannesburgs-dance-floors-to-the-stage"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The Sebring Class-Winning Alfa Romeo TZ That Has Never Been Restored",
+          "source": "Petrolicious",
+          "byline": "Kris Clewell",
+          "evergreen": true,
+          "url": "https://petrolicious.com/blogs/articles/miles-collier-1964-alfa-romeo-tz-sebring",
+          "image": "https://petrolicious.com/cdn/shop/articles/2015-012BURN-b19_1.29_0027_copy_5b9955c4-d1c8-4ea5-a6bc-f66bb59295fb.jpg"
+        },
+        {
+          "headline": "Comics, Postcards and Halloween Cards at the Fall Allentown Paper Show",
+          "source": "Antiques & The Arts Weekly",
+          "byline": "Kiersten Busch",
+          "date": "Oct 20",
+          "url": "https://antiquesandthearts.com/allentown-paper-show-is-a-forever-fall-favorite/"
+        },
+        {
+          "headline": "Ffolliot Gray's Double-Pendulum Duo Clock Is Still Ticking a Century On",
+          "source": "Antiquarian Horological Society",
+          "byline": "Kirsten Tambling",
+          "date": "Oct 13",
+          "url": "https://www.ahsoc.org/blog/happy-birthday-to-the-duo/"
+        },
+        {
+          "headline": "A Book Collector Argues That Collecting Is a Game of Imperfect Information",
+          "source": "Scriptorium Philosophia",
+          "byline": "Hilarius Bookbinder",
+          "date": "Oct 8",
+          "url": "https://hilariusbookbinder.substack.com/p/collecting-as-an-imperfect-information"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Jewish Charity's Deli Trained Young People With Learning Difficulties to Cater",
+          "source": "Royal Berkshire Archives",
+          "date": "Oct 2",
+          "url": "https://www.royalberkshirearchives.org.uk/blog/serving-opportunity"
+        },
+        {
+          "headline": "Over 3,300 Court of Orphans Inventories List What Dead Londoners Owned",
+          "source": "The London Archives",
+          "evergreen": true,
+          "url": "https://www.thelondonarchives.org/blog/the-probate-inventories-of-the-court-of-orphans"
+        },
+        {
+          "headline": "Clara Barton's Successor Sent Every Member of Congress 30 Statements Against Her",
+          "source": "The Devil's Tale",
+          "byline": "Jared Marrotte",
+          "date": "Oct 13",
+          "url": "https://blogs.library.duke.edu/rubenstein/2026/10/13/the-scrutiny-of-clara-barton-heroine-or-not/",
+          "image": "https://blogs.library.duke.edu/rubenstein/files/2026/10/cover_image-scaled.jpeg"
+        },
+        {
+          "headline": "Two Wedgwood Majolica Workers Who Each Served Half a Century",
+          "source": "V&A Blog",
+          "byline": "Antonia Plummer",
+          "date": "Oct 19",
+          "url": "https://www.vam.ac.uk/blog/museum-life/meet-the-majolica-makers"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Arrow Restores The Frighteners in 4K From the Camera Negative, Both Cuts Included",
+          "source": "Film Obsessive",
+          "byline": "Steven Seighman",
+          "date": "Oct 20",
+          "url": "https://filmobsessive.com/film/film-features/physical-media/arrow-scares-up-a-winner-with-the-frighteners-on-4k/"
+        },
+        {
+          "headline": "The Unusual History of PG-13 Animated Features",
+          "source": "Cartoon Brew",
+          "byline": "Vincent Alexander",
+          "date": "Oct 21",
+          "url": "https://www.cartoonbrew.com/cartoon-study/pg-13-animated-feature-history-268220.html"
+        },
+        {
+          "headline": "Justine Waddell Adapted Virginia Woolf's Night and Day Around a Turn-of-the-Century Astronomer",
+          "source": "Sloan Science & Film",
+          "byline": "Sonia Shechet Epstein",
+          "date": "Oct 1",
+          "url": "https://scienceandfilm.org/articles/virginia-woolfs-night-and-day/"
+        },
+        {
+          "headline": "Warner Bros Restores Ken Russell's Original Cut of The Devils for a Limited Theatrical Run",
+          "source": "Crooked Marquee",
+          "byline": "Craig J. Clark",
+          "date": "Oct 19",
+          "url": "https://crookedmarquee.com/the-devils-in-the-details/",
+          "image": "https://crookedmarquee.com/wp-content/uploads/2026/10/devils1.jpeg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 21, 2026",
     "hero": {
       "headline": "Tori Wrånes Talks Through Her Sailcloth and Bronze Figures in the Nordic Pavilion",
