@@ -1,5 +1,201 @@
 [
   {
+    "dateLabel": "October 23, 2026",
+    "hero": {
+      "headline": "An Organist Plays and Ranks All 606 Hymns in the New English Hymnal",
+      "dek": "Maddie Lay, an Oxford-based arts writer and part-time church organist, spent a month playing through all 606 entries in the New English Hymnal and ranked every one. Its ancestor, the English Hymnal of 1906, was compiled by Percy Dearmer and Ralph Vaughan Williams, and was initially banned by the Archbishop of Canterbury, lest it dethrone the popular Hymns Ancient and Modern. The 1986 revision kept roughly two-thirds of the original numbers and added about a hundred more. Lay ranks them from the depths of hell to the heights of heaven, as a guide to which hymns deepen worship and which can be safely ignored.",
+      "byline": "By Maddie Lay · VAN Magazine",
+      "category": "sound-vinyl",
+      "image": "https://van-magazine.com/wp-content/uploads/2026/10/every-new-english-hymnal-hymn-ranked.jpg",
+      "url": "https://van-magazine.com/mag/every-new-english-hymnal-hymn-ranked/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Sag Harbor Garden Built for a Client Who Wanted No Lawn",
+          "source": "Gardenista",
+          "byline": "Laura Fenton",
+          "date": "Oct 20",
+          "url": "https://www.gardenista.com/posts/landscape-design-visit-sag-harbor-garden-brought-back-life/",
+          "image": "https://www.gardenista.com/wp-content/uploads/2026/10/landelier-landscape-atelier-sag-harbor-2-1536x1066.jpg"
+        },
+        {
+          "headline": "The Lettering on Space Shuttle Discovery Has an Upside-Down S",
+          "source": "The Autopian",
+          "byline": "Jason Torchinsky",
+          "date": "Oct 22",
+          "url": "https://www.theautopian.com/a-typography-geek-pointed-out-something-about-the-space-shuttle-discovery-and-now-i-cant-unsee-it/"
+        },
+        {
+          "headline": "SEA Marks 30 Years With a Book and Says None of Its Logos Has Been Redesigned",
+          "source": "Creative Boom",
+          "byline": "Katy Cowan",
+          "date": "Oct 21",
+          "url": "https://www.creativeboom.com/insight/sea-turns-30/"
+        },
+        {
+          "headline": "Carl Hansen & Son's Chief Executive on Wegner, Timber and Copies of the Wishbone Chair",
+          "source": "smow Journal",
+          "evergreen": true,
+          "url": "https://www.smow.com/blog/2026/06/between-aperitivo-and-soft-ice-cream-interview-with-knud-erik-hansen/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Inside the Los Angeles Scene Kid Revival",
+          "source": "Huck",
+          "byline": "Anna Zanes",
+          "date": "Oct 22",
+          "url": "https://www.huckmag.com/article/inside-the-los-angeles-scene-kid-revival"
+        },
+        {
+          "headline": "Twenty-Eight Artists Answer the Question of Belonging in Clay at Officine Saffi in Milan",
+          "source": "Ceramics Now",
+          "byline": "Katherina Perlongo",
+          "date": "Oct 19",
+          "url": "https://www.ceramicsnow.org/articles/twenty-eight-forms-of-belonging-the-6th-officine-saffi-award/",
+          "image": "https://www.ceramicsnow.org/wp-content/uploads/2026/10/0Officine-Saffi-Award-6_Installation-views_courtesy-Fondazione-Officine-Saffi_20-1-1.jpg"
+        },
+        {
+          "headline": "Frida Orupabo Turns the Archive's Gaze Back on the Viewer in Lisbon",
+          "source": "Flash Art",
+          "byline": "Carolina Quintela",
+          "date": "Oct 22",
+          "url": "https://flash---art.com/article/frida-orupabo-mac-ccb/"
+        },
+        {
+          "headline": "Schoolgirls Were Making American Landscapes Before the Painters Were",
+          "source": "Selvedge",
+          "date": "Oct 22",
+          "url": "https://www.selvedge.org/blogs/selvedge/the-girls-who-stitched-america-s-landscape"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Brussels' DIY Dance Renaissance Meets Closures and Bureaucracy",
+          "source": "Resident Advisor",
+          "byline": "Bella Aquilina",
+          "date": "Oct 14",
+          "url": "https://ra.co/features/4526"
+        },
+        {
+          "headline": "John Griswold Painted Phoebe Bridgers's Gibson Without Erasing Its Wear",
+          "source": "Hyperallergic",
+          "byline": "Sophia Lebowitz",
+          "date": "Oct 22",
+          "url": "https://hyperallergic.com/meet-the-painter-adorning-phoebe-bridgerss-guitars/"
+        },
+        {
+          "headline": "The Star Room Boys' Athens Debut Gets Its First Vinyl Release",
+          "source": "Americana Highways",
+          "byline": "Abraham Smith",
+          "date": "Oct 21",
+          "url": "https://americanahighways.org/2026/10/21/interview-dave-marr-of-the-star-room-boys/",
+          "image": "https://americanahighways.org/wp-content/uploads/2026/10/Star-Room-Boys-at-40-watt.png"
+        },
+        {
+          "headline": "Carl Stone Learned Collage Dubbing Records on Three Turntables at Once",
+          "source": "Sound On Sound",
+          "byline": "Robin Rimbaud",
+          "evergreen": true,
+          "url": "https://www.soundonsound.com/people/carl-stone"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The Royal College of Physicians' Portrait of William Harvey Returns After Frame Conservation",
+          "source": "Royal College of Physicians",
+          "byline": "Gail Chapman",
+          "date": "Oct 16",
+          "url": "https://history.rcp.ac.uk/blog/william-harvey-returns-dorchester-library"
+        },
+        {
+          "headline": "Spitalfields Life Seeks the Owner of Joan Beales's Tavistock Hotel Mural Panels",
+          "source": "Spitalfields Life",
+          "byline": "the gentle author",
+          "date": "Oct 20",
+          "url": "https://spitalfieldslife.com/2026/10/20/joan-beales-illustrator/",
+          "image": "https://spitalfieldslife.com/wp-content/uploads/2026/10/img_e3873-600x398.jpeg"
+        },
+        {
+          "headline": "Why Ideal's 'MC' Kit Car Was Likely Issued Before Its 'MG'",
+          "source": "Antique Toy World",
+          "byline": "Steve Butler",
+          "date": "Sep 28",
+          "url": "https://www.antiquetoyworld.com/plastic-predecessors-by-steve-butler/"
+        },
+        {
+          "headline": "Ryan Cobham Has Almost 100 Kenner Super Powers Figures",
+          "source": "Toy Tales",
+          "byline": "Joanna Hauser",
+          "evergreen": true,
+          "url": "https://toytales.ca/ryan-cobham-kenner-super-powers/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Scholar Argues a French Ship at Paphos in 1707 Was Loading Terebinth Resin, Not Tar",
+          "source": "The Ancient Near East Today",
+          "byline": "Nassos Papalexandrou",
+          "date": "Oct 22",
+          "url": "https://anetoday.org/hanna-diyab-cyprus-travels/",
+          "image": "https://anetoday.org/wp-content/uploads/2026/10/Papalexandrou_Fig2.jpg"
+        },
+        {
+          "headline": "Robert Hood, Artist of Franklin's First Overland Expedition, Was Murdered in His Tent in October 1821",
+          "source": "Linda Hall Library",
+          "byline": "William B. Ashworth, Jr.",
+          "date": "Oct 21",
+          "url": "https://www.lindahall.org/about/news/scientist-of-the-day/robert-hood/"
+        },
+        {
+          "headline": "A Placement Student Reads Explore York's Photographs of Stonebow, the Road Cut Through York in 1955",
+          "source": "Explore York",
+          "date": "Oct 22",
+          "url": "https://citymakinghistory.org/2026/10/22/stonebow-in-focus/"
+        },
+        {
+          "headline": "Queen's University Belfast Opens 14 Boxes of John Alderdice's Alliance Party Papers From 1985 to 1992",
+          "source": "Queen's University Belfast Special Collections",
+          "byline": "Eva Isherwood Wallace",
+          "date": "Sep 24",
+          "url": "https://blogs.qub.ac.uk/specialcollections/alderdice-collection-19851992-ms-88-2/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Eleanor Coppola's Posthumously Completed Film Records the Making of Marie Antoinette",
+          "source": "In Review Online",
+          "byline": "Joseph Dimacchia",
+          "date": "Oct 23",
+          "url": "https://inreviewonline.com/2026/10/23/making-marie-antoinette-review/"
+        },
+        {
+          "headline": "How DNEG Animated Wile E. Coyote to Move Like a Hand-Drawn Cartoon",
+          "source": "Animation Scoop",
+          "byline": "Bill Desowitz",
+          "date": "Oct 19",
+          "url": "https://www.animationscoop.com/animation-supervisor-ben-anderson-on-treating-coyote-vs-acme-like-a-2d-chuck-jones/"
+        },
+        {
+          "headline": "Michael Chaiken on Assembling Criterion's Complete Kubrick Set",
+          "source": "The Film Stage",
+          "byline": "Nick Newman",
+          "date": "Oct 20",
+          "url": "https://thefilmstage.com/he-wanted-the-films-to-survive-michael-chaiken-on-assembling-the-complete-kubrick/",
+          "image": "https://thefilmstage.com/wp-content/uploads/2026/10/Shining_image_04-1200x644.jpg"
+        },
+        {
+          "headline": "A New Book Reads Calm Inside the Fight Scenes of Martial Arts Cinema",
+          "source": "Bright Lights Film Journal",
+          "byline": "Kyle Barrowman",
+          "date": "Oct 20",
+          "url": "https://brightlightsfilm.com/fists-of-tranquility-review-of-martial-arts-ecology-by-wayne-wong/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 22, 2026",
     "hero": {
       "headline": "Colin Williamson's Photographs of Japanese Game Culture Enter the Video Game History Foundation Archive",
