@@ -1,5 +1,201 @@
 [
   {
+    "dateLabel": "October 24, 2026",
+    "hero": {
+      "headline": "Why Cinema Was John Berger's Medium, From Ways of Seeing to His Films With Alain Tanner",
+      "dek": "Timed to the centenary of John Berger's birth, Carlos Valladares argues that cinema was 'the Berger medium par excellence,' because it makes the spectator a collaborator in the telling. He traces the critic from a 1936 diary entry recording a solo viewing of Modern Times, through his 1965 Picasso monograph and 'The Moment of Cubism,' which he links to montage, to the novel G. and Ways of Seeing. The essay's heart is Berger's trilogy with Alain Tanner: La salamandre, Middle of the World and Jonah Who Will Be 25 in the Year 2000, read through Miou-Miou's cashier Marie, arrested and deported for giving groceries away.",
+      "byline": "By Carlos Valladares · The Brooklyn Rail",
+      "category": "photo-film",
+      "image": "https://studio.brooklynrail.org/assets/a9341217-3799-438b-98bb-89cf8c1225dc.jpg",
+      "url": "https://brooklynrail.org/2026/10/film/john-berger-and-the-cinema/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "How a Window Made to Look Ordinary Let Prisoners at New York's House of D Talk to the Street",
+          "source": "99% Invisible",
+          "date": "Oct 23",
+          "url": "https://99percentinvisible.org/episode/100-objects-021-window-from-the-house-of-d/",
+          "image": "https://99percentinvisible.org/wp-content/uploads/2026/09/021-100objects-window-1920x1080-1-728x410.png"
+        },
+        {
+          "headline": "A Civil Servant Maps 42,840 GPS Pings From Railway Ticket Checkers Onto a Digital Ikat Saree",
+          "source": "Nightingale",
+          "byline": "Anirudh Pamar",
+          "date": "Oct 23",
+          "url": "https://nightingaledvs.com/an-ikat-narrative-of-railway-workforce-mobility/"
+        },
+        {
+          "headline": "Le Monde Béryl's First Shop Uses Peekaboo Cabinet Doors and Foot-Level Mirrors on the Upper East Side",
+          "source": "Wallpaper*",
+          "byline": "Anna Fixsen",
+          "date": "Oct 23",
+          "url": "https://www.wallpaper.com/design-interiors/interior-design/le-monde-beryl-nyc-flagship-store"
+        },
+        {
+          "headline": "Why Savannah's Cast-Iron Downspouts End in the Mouth of a Fish",
+          "source": "The Craftsman Blog",
+          "byline": "Scott Sidler",
+          "date": "Oct 12",
+          "url": "https://thecraftsmanblog.com/the-story-behind-savannahs-fish-downspouts/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Brice Marden's Gagosian Retrospective Makes Him the Odd Man Out Among Today's Political Art",
+          "source": "Two Coats of Paint",
+          "byline": "David Carrier",
+          "date": "Oct 24",
+          "url": "https://twocoatsofpaint.com/2026/10/brice-mardens-throwback-splendor.html"
+        },
+        {
+          "headline": "Guest Room Skateboards' Owners on Quitting Sponsors and Skating for Fun, Not Content",
+          "source": "Quartersnacks",
+          "byline": "Greg Navarro",
+          "date": "Oct 20",
+          "url": "https://quartersnacks.com/2026/10/guest-room-an-interview-with-jeff-cecere-caleb-mcneely/",
+          "image": "https://quartersnacks.com/wp-content/uploads/2026/10/20261003-OCTOBER-GUEST-ROOM-001-scaled.jpg"
+        },
+        {
+          "headline": "Aya Fujioka's Here Goes River Walks Hiroshima in Loose, Tender Snapshots",
+          "source": "Conscientious Photography Magazine",
+          "byline": "Jörg Colberg",
+          "date": "Oct 18",
+          "url": "https://cphmag.com/river-blood/"
+        },
+        {
+          "headline": "Prisoners Have Always Found Ways to Wear a Uniform Against Its Purpose",
+          "source": "Vestoj",
+          "byline": "Anja Aronowsky Cronberg",
+          "date": "Oct 24",
+          "url": "https://vestoj.com/docile-bodies/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Gayageum Player DoYeon Kim on Leading Tyshawn Sorey and Mat Maneri on Her Debut",
+          "source": "The Free Jazz Collective",
+          "byline": "David Cristol",
+          "date": "Oct 23",
+          "url": "https://www.freejazzblog.org/2026/10/other-galaxies-interview-with-doyeon-kim.html"
+        },
+        {
+          "headline": "Light Conductor Built Sequence Three From Live Synth Jams on a Juno-60 and Prophet VS",
+          "source": "Echoes And Dust",
+          "byline": "Gavin Brown",
+          "date": "Oct 21",
+          "url": "https://echoesanddust.com/2026/10/stephen-ramsay-from-light-conductor/"
+        },
+        {
+          "headline": "A Kanazawa Museum Built on One Shop Owner's 540 Phonographs Demonstrates Them Three Times a Day",
+          "source": "Copper",
+          "byline": "Sebastian Polcyn",
+          "date": "Oct 5",
+          "url": "https://www.psaudio.com/blogs/copper/the-kanazawa-phonograph-museum-music-from-a-time-capsule",
+          "image": "https://www.psaudio.com/cdn/shop/articles/kanazawa-phonograph-museum-header_235_137befcd-4e00-48e1-8933-7ffd8a52ea36.jpg"
+        },
+        {
+          "headline": "Arjen Gorter Anchored Willem Breuker's Kollektief for 35 Years and Played the Bimhuis Opening Night",
+          "source": "Point of Departure",
+          "byline": "Andrey Henkin",
+          "evergreen": true,
+          "url": "https://pointofdeparture.org/PoD96/PoD96Henkin.html"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Peter Helck's Reference Photographs Behind His Packard and Mack Truck Advertisements",
+          "source": "VanderbiltCupRaces.com",
+          "byline": "Gram Spina",
+          "date": "Oct 17",
+          "url": "https://www.vanderbiltcupraces.com/blog/article/instagram_report_peter_helck_advertising_and_art_part_3_packard_and_mack_trucks"
+        },
+        {
+          "headline": "An Eight-Lens Japanese Camera That Shot Eight Instant Pictures on One Sheet",
+          "source": "mike eckman dot com",
+          "date": "Oct 20",
+          "url": "https://mikeeckman.com/2026/10/acmel-sequence-8-1972/",
+          "image": "https://mikeeckman.com/wp-content/uploads/2026/02/AcmelSequence8-1a-1024x684.jpg"
+        },
+        {
+          "headline": "Bill McFarland Kept His Great-Grandfather's Trunks of Nitrate Films, and One Held a Lost Méliès",
+          "source": "Library of Congress",
+          "byline": "Jason Evans Groth",
+          "date": "Jul 2, 2026",
+          "url": "https://blogs.loc.gov/now-see-hear/2026/07/melies-in-michigan-an-interview-with-bill-mcfarland-the-donor-who-saved-a-foundational-lost-film/"
+        },
+        {
+          "headline": "An HSNY Librarian on Coins Shaped Like Watches and Watches Made From Coins",
+          "source": "Horological Society of New York",
+          "byline": "St John Karp",
+          "evergreen": true,
+          "url": "https://hs-ny.org/news/2026/7/6/reading-time-at-hsny-money-is-time"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "There Is No Evidence Jenkins Ever Showed His Ear to the Commons",
+          "source": "The History of Parliament",
+          "date": "Oct 21",
+          "url": "https://historyofparliament.com/2026/10/21/the-war-of-jenkins-ear-1739-42/"
+        },
+        {
+          "headline": "Good Roads Could Carry American Empire Only So Far",
+          "source": "Distillations",
+          "byline": "Jayson Maurice Porter",
+          "date": "Oct 15",
+          "url": "https://www.sciencehistory.org/stories/magazine/not-so-fast/"
+        },
+        {
+          "headline": "Rock Fights Outside Panyu Villages Had to Draw Blood Each New Year",
+          "source": "Perspectives on History",
+          "byline": "Robert Antony",
+          "date": "Oct 14",
+          "url": "https://www.historians.org/perspectives-article/rock-fights/",
+          "image": "https://www.historians.org/wp-content/uploads/2026/10/RockFight.jpg"
+        },
+        {
+          "headline": "Why the Newberry Owns Two Different Copies of Catesby's Natural History",
+          "source": "Newberry Library",
+          "byline": "Bob Dolgan",
+          "evergreen": true,
+          "url": "https://www.newberry.org/blog/seeing-double-why-does-the-newberry-own-two-copies-of-mark-catesbys-natural-history"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Kogonada on Making ZI in Hong Kong With a Bolex and the Music of Ryuichi Sakamoto",
+          "source": "Metrograph",
+          "byline": "Robert Daniels",
+          "date": "Oct 23",
+          "url": "https://metrograph.com/kogonada-zi-film/",
+          "image": "https://metrograph.com/wp-content/uploads/2026/10/kognada.png"
+        },
+        {
+          "headline": "Heat Read as Michael Mann's Film About Two Men in Midlife Crisis",
+          "source": "Bright Wall/Dark Room",
+          "byline": "Sarah Welch-Larson",
+          "date": "Oct 14",
+          "url": "https://www.brightwalldarkroom.com/2026/10/14/crisis-in-blue-heat/"
+        },
+        {
+          "headline": "Bedknobs and Broomsticks at 55, With Ward Kimball's Animation and 23 Minutes Cut Before Release",
+          "source": "Cartoon Research",
+          "byline": "Michael Lyons",
+          "date": "Oct 23",
+          "url": "https://cartoonresearch.com/index.php/the-55th-anniversary-of-bedknobs-and-broomsticks/"
+        },
+        {
+          "headline": "Super 8 Gave Brazilian Filmmakers a Way Around the Dictatorship's Censors",
+          "source": "Senses of Cinema",
+          "byline": "Letícia Longo",
+          "evergreen": true,
+          "url": "https://www.sensesofcinema.com/2026/feature-articles/grain-rebellion-and-the-radical-uses-of-super-8-in-brazil/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 23, 2026",
     "hero": {
       "headline": "An Organist Plays and Ranks All 606 Hymns in the New English Hymnal",
