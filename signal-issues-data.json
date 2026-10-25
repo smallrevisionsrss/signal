@@ -1,5 +1,201 @@
 [
   {
+    "dateLabel": "October 25, 2026",
+    "hero": {
+      "headline": "Inside Church Rate Corner, a Late Baillie Scott House in Cambridge",
+      "dek": "William Fawcett visits Church Rate Corner, a late masterpiece by the Arts-and-Crafts architect M. H. Baillie Scott, set in central Cambridge with no street frontage. Designed in 1924 for Marjorie Duckett as her married home with Arthur Sewell, who died in 1926, it later housed Joan and Stanley Bennett for more than 50 years and now belongs to Michael Nedo and Gillian Moore, only its third owners. Photographed by Will Pryce, the piece walks the almost symmetrical garden front, the south-facing rooms, the plain timber stair and oak-board doors, and a gravity-fed heating system still in operation. Diane Haigh, the author's late wife, was conservation architect for its 1992 restoration.",
+      "byline": "By William Fawcett · Country Life",
+      "category": "design-arch",
+      "image": "https://cdn.mos.cms.futurecdn.net/vDpDqnu7H2SwiGPX7dMduE-2500-80.jpg",
+      "url": "https://www.countrylife.co.uk/architecture/church-rate-corner-cambridge"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "How 1,288 Acrylic Panels Make the Kunsthaus Graz Read as One Blue Mass",
+          "source": "ArchEyes",
+          "byline": "Adrian Vale",
+          "date": "Oct 24",
+          "url": "https://archeyes.com/kunsthaus-graz-by-peter-cook-and-colin-fournier-contemporary-art-museum-in-austria/",
+          "image": "https://archeyes.com/wp-content/uploads/2026/10/friendly-alien-blue-bubble-nozzles-graz-rooftops-kunsthaus-graz-spacelab-cook-fournier-christian-plach-archeyes.jpg"
+        },
+        {
+          "headline": "A Draughtsman Left His Fingerprints on the Whitechapel Gallery Drawing",
+          "source": "Drawing Matter",
+          "byline": "John Carpenter",
+          "date": "Oct 19",
+          "url": "https://drawingmatter.org/hatching-memories/"
+        },
+        {
+          "headline": "Nineteen Modern Tombs in Milan's Monumental Cemetery, From Ponti to BBPR",
+          "source": "Domus",
+          "byline": "Carla Tozzi",
+          "date": "Oct 23",
+          "url": "https://www.domusweb.it/en/architecture/gallery/2026/10/21/monumental-cemetery-milan-art-modern-architecture.html"
+        },
+        {
+          "headline": "Carlo Scarpa's Villa Ottolenghi Is Dug Into a Lake Garda Vineyard",
+          "source": "The Twentieth Century Society",
+          "byline": "Irma Delmonte",
+          "evergreen": true,
+          "url": "https://c20society.org.uk/building-of-the-month/villa-ottolenghi-lake-garda-verona-italy"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Matthew Connors Spent Twelve Years Photographing Cities That Have Much in Common",
+          "source": "British Journal of Photography",
+          "byline": "Diane Smyth",
+          "date": "Oct 24",
+          "url": "https://www.1854.photography/2026/10/matthew-connors-confronts-a-challenging-modern-world-in-the-axe-will-survive-the-master/"
+        },
+        {
+          "headline": "John Flaxman's Plaster Models Make the Case for a Neglected Neoclassical Master",
+          "source": "Apollo",
+          "byline": "Brigid von Preussen",
+          "date": "Oct 24",
+          "url": "https://apollo-magazine.com/john-flaxman-sculptor-neoclassical-bicentenary-university-college-london/",
+          "image": "https://apollo-magazine.com/wp-content/uploads/2026/09/LEAD-Apollo_flaxmangallery0960.jpg"
+        },
+        {
+          "headline": "Thirty Photographers Spent a Month Shooting Alana Jessica Martin",
+          "source": "Interview Magazine",
+          "byline": "Ryan McGinley",
+          "date": "Oct 21",
+          "url": "https://www.interviewmagazine.com/art/alana-jessica-martin-ryan-mcginley-all-about-alana-exhibit-photography"
+        },
+        {
+          "headline": "Four Photographs From the V&A Collection Stop Tennis Long Enough to See It",
+          "source": "V&A Blog",
+          "byline": "Abhidha Niphade",
+          "date": "Oct 5",
+          "url": "https://www.vam.ac.uk/blog/museum-life/framing-the-game-tennis-through-the-va-collection"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Ex Cathedra Surround St Martin-in-the-Fields for Tallis's Forty-Part Spem in Alium",
+          "source": "theartsdesk.com",
+          "byline": "Rachel Halliburton",
+          "date": "Oct 23",
+          "url": "https://theartsdesk.com/classical-music/40-parts-spem-alium-ex-cathedra-st-martin-fields-review-transcendent-testimony-talliss-continued"
+        },
+        {
+          "headline": "Jacques Greene Explains How a Club Track Is Built for the DJ",
+          "source": "Hearing Things",
+          "byline": "Andy Cush",
+          "date": "Oct 21",
+          "url": "https://www.hearingthings.co/let-jacques-greene-teach-you-how-to-dj/"
+        },
+        {
+          "headline": "Shovel Dance Collective Pulverise Old Reels and Splice Penny Whistle With Static on Their Third Album",
+          "source": "KLOF Mag",
+          "byline": "Alex Neilson",
+          "date": "Oct 22",
+          "url": "https://klofmag.com/2026/10/shovel-dance-collective-everything-in-readiness/",
+          "image": "https://klofmag.com/wp-content/uploads/2026/10/Shovel-Dance-Collective-by-Brad-Gilbert-01-1.jpg"
+        },
+        {
+          "headline": "Norwegian Grind Band Beaten to Death Fold Reggaeton, Sax and Folk Into Their Seventh Album",
+          "source": "Angry Metal Guy",
+          "byline": "Dolphin Whisperer",
+          "date": "Oct 23",
+          "url": "https://www.angrymetalguy.com/beaten-to-death-vntrve-review/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Collector Tracks Down the Victorian Velvet Cuffs She Left at a Detroit Flea Market",
+          "source": "The Magazine ANTIQUES",
+          "byline": "Christine Hope Hildebrand",
+          "date": "Oct 15",
+          "url": "https://www.themagazineantiques.com/article/flea-bite-missed-connections/",
+          "image": "https://www.themagazineantiques.com/wp-content/uploads/2026/10/2R3A2364-1024x683.jpg"
+        },
+        {
+          "headline": "How Australian Car Ads Were Copied From Overseas Brochures",
+          "source": "Australian Motor Heritage Foundation",
+          "byline": "David Burrell",
+          "date": "Oct 21",
+          "url": "https://motorheritage.org.au/copy-cat-ads-part-6/"
+        },
+        {
+          "headline": "Three Replica Hornbooks Hide Inside Cardiff's Copy of an 1897 History",
+          "source": "Cardiff University Special Collections and Archives",
+          "byline": "Ken Gibb",
+          "date": "Oct 19",
+          "url": "https://scolarcardiff.wordpress.com/2026/10/19/the-hidden-hornbook-a-handy-educational-tool-from-the-middle-ages/"
+        },
+        {
+          "headline": "Winterthur's Conservators Go Back to the Specialists Henry Francis du Pont Hired Before It Opened",
+          "source": "Winterthur",
+          "byline": "Molly Mapstone",
+          "date": "Oct 19",
+          "url": "https://www.winterthur.org/a-winterthur-history-of-art-conservation/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Essex Record Office Shows Its Colchester Oyster Feast Programmes",
+          "source": "Essex Record Office",
+          "date": "Oct 23",
+          "url": "https://www.essexrecordofficeblog.co.uk/an-oyster-feast-beneath-the-waters-of-the-colne/"
+        },
+        {
+          "headline": "Spanish and Indigenous Writers Saw Different Ants in Sixteenth-Century New Spain",
+          "source": "NiCHE",
+          "byline": "Elise Milburn",
+          "date": "Oct 23",
+          "url": "https://niche-canada.org/2026/10/23/plagues-pest-and-place-markers/"
+        },
+        {
+          "headline": "Penn Looks at an Italian Copy of the Rhetorica ad Herennium",
+          "source": "Unique at Penn",
+          "date": "Oct 19",
+          "url": "https://uniqueatpenn.wordpress.com/2026/10/19/coffee-with-a-codex-rhetoric-ms-codex-1630/"
+        },
+        {
+          "headline": "Cardiff City Paid Arthur Fish One Pound a Week in 1914",
+          "source": "Glamorgan Archives",
+          "byline": "Tony Peters",
+          "date": "Oct 8",
+          "url": "https://glamarchives.wordpress.com/2026/10/08/playing-for-cardiff-city-for-1-a-week/",
+          "image": "https://glamarchives.wordpress.com/wp-content/uploads/2026/10/d1026-6-western-league-cup.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Sky Hopinka Filmed a Three-Day Powwow Without a Single Retake",
+          "source": "Talkhouse",
+          "byline": "Sky Hopinka",
+          "date": "Oct 23",
+          "url": "https://talkhouse.com/a-love-letter-to-powwows"
+        },
+        {
+          "headline": "Olivia Colman's Fisherwoman Orders a Husband Woven From Wicker",
+          "source": "Hammer to Nail",
+          "byline": "Christopher Reed",
+          "date": "Oct 22",
+          "url": "https://www.hammertonail.com/reviews/wicker/",
+          "image": "https://www.hammertonail.com/wp-content/uploads/2026/10/wicker.png"
+        },
+        {
+          "headline": "A Thai Producer Spent Nine Years Getting 9 Temples to Heaven Made",
+          "source": "Asian Movie Pulse",
+          "byline": "Panos Kotzathanasis",
+          "date": "Oct 24",
+          "url": "https://asianmoviepulse.com/2026/10/kissada-kamyoung-interview/"
+        },
+        {
+          "headline": "Brussels' Cinematek Names Its Library for Bordwell and Thompson, Who First Worked There in 1979",
+          "source": "Observations on film art",
+          "date": "Oct 14",
+          "url": "https://www.davidbordwell.net/blog/2026/10/14/cinephiles-honored-by-cinephiles/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 24, 2026",
     "hero": {
       "headline": "Why Cinema Was John Berger's Medium, From Ways of Seeing to His Films With Alain Tanner",
