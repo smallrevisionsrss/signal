@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "October 26, 2026",
+    "hero": {
+      "headline": "Henry Wessel's Career Laid Out in Prints and Books at the Grolier Club",
+      "dek": "Loring Knoblauch reviews Henry Wessel: Photographs and Books at the Grolier Club in New York, on view until November 14. The show gathers 53 black-and-white and color photographs by Wessel, drawn entirely from the collection of Jack Gray, once his student at the San Francisco Art Institute. Gray owns the entire 27-image Incidents set from 2012, which Wessel called fictional analogies, leaving the viewer to make sense of the possibilities. Glass cases intermingle prints with magazines, books and maquettes. With no comprehensive institutional retrospective since Wessel died in 2018, Knoblauch finds the show expands beyond his early California work to Richmond houses, Los Angeles at night and Las Vegas.",
+      "byline": "By Loring Knoblauch · Collector Daily",
+      "category": "craft",
+      "image": "https://collectordaily.com/wp-content/uploads/2026/10/IMG_1858.jpeg",
+      "url": "https://collectordaily.com/henry-wessel-photographs-and-books-grolier-club/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Far Studio Scales Down an Expansive Philadelphia Family Home",
+          "source": "Livingetc",
+          "byline": "Emma J Page",
+          "date": "Oct 25",
+          "url": "https://www.livingetc.com/features/far-studio-philadelphia-home",
+          "image": "https://cdn.mos.cms.futurecdn.net/Soks7sQwCJTLjtdcPYYVXj-2560-80.jpg"
+        },
+        {
+          "headline": "Diller Scofidio + Renfro Take the Texas Metal Shed as the Model for Rice University's Arts Hub",
+          "source": "Architectural Record",
+          "byline": "Patrick Templeton",
+          "date": "Oct 23",
+          "url": "https://www.architecturalrecord.com/articles/18479-diller-scofidio-renfro-reimagines-the-humble-metal-shed-as-an-arts-hub-at-rice-university"
+        },
+        {
+          "headline": "Show Not Show Turns a Dutch Design Week Press Dinner Into an Exhibition on Boardroom Power",
+          "source": "Dezeen",
+          "byline": "Rima Sabina Aouf",
+          "date": "Oct 25",
+          "url": "https://www.dezeen.com/2026/10/25/collectible-furniture-dutch-design-week-table-of-power/"
+        },
+        {
+          "headline": "How Penguin's Design Director Takes Books to Where Young Adults Already Are",
+          "source": "Design Week",
+          "byline": "Clare Dowdy",
+          "date": "Oct 23",
+          "url": "https://www.designweek.co.uk/derek-man-drives-the-design-thinking-behind-penguins-events/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Eighteen Photographers Take Over the Walls of Central Tokyo",
+          "source": "Blind Magazine",
+          "byline": "Aimie Eliot",
+          "date": "Oct 23",
+          "url": "https://www.blind-magazine.com/news/t3-photo-in-tokyo-fruitful-liaisons/"
+        },
+        {
+          "headline": "Kristina Rozhkova's Photobook Sets Human and Animal Bodies Side by Side",
+          "source": "ArtReview",
+          "byline": "Fi Churchman",
+          "date": "Oct 23",
+          "url": "https://artreview.com/gut-feeling-by-kristina-rozhkova-review-fi-churchman/",
+          "image": "https://backend.artreview.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-13.01.21-1230x868.jpg"
+        },
+        {
+          "headline": "Following a Kentucky Broom From the Broomcorn Field to the Home",
+          "source": "Garland Magazine",
+          "byline": "Nikki Beem",
+          "date": "Oct 1",
+          "url": "https://garlandmag.com/article/broomcorn/"
+        },
+        {
+          "headline": "Antoine De Winter Reveals Photographs of the Covered Rhone Glacier With Carbon From Its Surface",
+          "source": "Fisheye Magazine",
+          "byline": "Marie Baranger",
+          "date": "Oct 8",
+          "url": "https://fisheyemagazine.fr/article/blindfolded-antoine-de-winter/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Satoko Fujii on Writing for Her Orchestras and Composing Every Morning",
+          "source": "Something Else!",
+          "byline": "S. Victor Aaron",
+          "date": "Oct 23",
+          "url": "https://somethingelsereviews.com/2026/10/23/the-orchestral-side-of-satoko-fujii-something-else-interview-part-2-of-2/"
+        },
+        {
+          "headline": "landtitles Made an Ambient Record on an Offline MacBook Running Old Max/MSP",
+          "source": "Foxy Digitalis",
+          "byline": "Brad Rose",
+          "date": "Oct 22",
+          "url": "https://foxydigitalis.zone/2026/10/22/landtitles-knows-which-mistakes-to-keep/"
+        },
+        {
+          "headline": "Three Ensembles Play Reich's Music for 18 Musicians Back to Back at the Park Avenue Armory",
+          "source": "Sequenza21",
+          "byline": "Gail Wein",
+          "date": "Oct 17",
+          "url": "https://www.sequenza21.com/2026/10/review-steve-reichs-music-for-18-musicians-staged-variations-at-the-park-avenue-armory/",
+          "image": "https://www.sequenza21.com/wp-content/uploads/2026/10/Music_for_18_Musicians_13_1_optimized_1000.jpg"
+        },
+        {
+          "headline": "An Organbuilder Sorts Out What It Means to Restore, Renovate or Refurbish a Pipe Organ",
+          "source": "The Diapason",
+          "byline": "John Bishop",
+          "evergreen": true,
+          "url": "https://www.thediapason.com/content/wind-rebuild-renovate-and-restore"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "An Engineer Rebuilds a Cheap Zorki Rangefinder to Take Leica M Lenses",
+          "source": "35mmc",
+          "byline": "Kevin Saruwatari",
+          "date": "Oct 26",
+          "url": "https://www.35mmc.com/26/10/2026/changing-ltm-cameras-to-m-mount-and-learning-camera-repair-part-1/",
+          "image": "https://www.35mmc.com/wp-content/uploads/2026/08/DoneLeather.jpg"
+        },
+        {
+          "headline": "Beamish Reads 1950s Teenage Life Through Oral Histories and Its Costume Collection",
+          "source": "Beamish Museum",
+          "date": "Oct 12",
+          "url": "https://www.beamish.org.uk/news/life-as-a-1950s-teenager/"
+        },
+        {
+          "headline": "A Clock Collector Readies a 1930 Kienzle Clock as a Gift",
+          "source": "Antique and Vintage Clock",
+          "date": "Oct 26",
+          "url": "https://antiquevintageclock.com/2026/10/26/how-to-prepare-an-antique-clock-for-gifting/"
+        },
+        {
+          "headline": "HYT's Co-Founder Lucien Vouillamoz on Inventing a Watch That Tells Time in Liquid",
+          "source": "Oracle Time",
+          "byline": "Laura Powell",
+          "date": "Oct 24",
+          "url": "https://oracleoftime.com/lucien-vouillamoz-interview/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Hagley Librarian Dates an Undated Paris Pin Seller's Broadside",
+          "source": "Hagley Museum and Library",
+          "byline": "Alice Henderson Hanes",
+          "date": "Oct 23",
+          "url": "https://www.hagley.org/librarynews/french-pin-broadside"
+        },
+        {
+          "headline": "A Fourteen Year Old Rides to the Top of the Eiffel Tower in 1889 and Seals a Wish in Her Diary",
+          "source": "Massachusetts Historical Society",
+          "byline": "Susan Martin",
+          "date": "Oct 16",
+          "url": "https://www.masshist.org/beehiveblog/2026/10/the-diaries-of-henrietta-maria-schroeder-stout-part-vii/",
+          "image": "https://www.masshist.org/beehiveblog/wp-content/uploads/2026/10/henrietta15-1024x768.jpg"
+        },
+        {
+          "headline": "A Forty Stanza Song Sheet Gives the Murder of Count Floris V in Full",
+          "source": "Leiden Special Collections Blog",
+          "byline": "Wim van Anrooij",
+          "date": "Mar 25, 2026",
+          "evergreen": true,
+          "url": "https://www.leidenspecialcollectionsblog.nl/articles/the-murder-of-floris-v-sung-the-donation-of-a-16th-century-song-sheet"
+        },
+        {
+          "headline": "An Exeter Volunteer Builds a Wartime Exhibition From a Blitz Account and Bomb Damage Photographs",
+          "source": "University of Exeter Special Collections",
+          "byline": "Katie Gray",
+          "date": "Sep 29",
+          "url": "https://specialcollections.exeter.ac.uk/2026/09/29/from-archive-to-exhibition-researching-exeters-wartime-past-through-special-collections/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "David Cairns on Men of the Lightship and the Cutting of Stewart McAllister",
+          "source": "Shadowplay",
+          "byline": "David Cairns",
+          "date": "Oct 23",
+          "url": "https://dcairns.wordpress.com/2026/10/23/east-dudgeon-on-the-high-seas-or-vice-versa/"
+        },
+        {
+          "headline": "Three Films From the Woodstock Film Festival as Meira Blaustein Retires",
+          "source": "The Arts Fuse",
+          "byline": "Peg Aloi",
+          "date": "Oct 24",
+          "url": "https://artsfuse.org/336403/woodstock-film-festival-2026-dispatch-1-love-is-tricky/"
+        },
+        {
+          "headline": "Paolo Strippoli on Horror as Cinema's Most Noble Genre",
+          "source": "ScreenAnarchy",
+          "byline": "Kyle Logan",
+          "date": "Oct 23",
+          "url": "https://screenanarchy.com/2026/10/chicago-2026-interview-the-spiral-writerdirector-paolo-strippoli-on-nobility-of-horror-and-cinemas-n.html"
+        },
+        {
+          "headline": "Ariana Martinez Rewatches Peggy Sue Got Married at Forty",
+          "source": "The Brooklyn Rail",
+          "byline": "Ariana Martinez",
+          "evergreen": true,
+          "url": "https://brooklynrail.org/2026/10/film/head-in-the-clouds-peggy-sue-got-married-at-forty/",
+          "image": "https://studio.brooklynrail.org/assets/a3ac3c23-0755-4d60-8165-a6c0447d5af6.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 25, 2026",
     "hero": {
       "headline": "Inside Church Rate Corner, a Late Baillie Scott House in Cambridge",
