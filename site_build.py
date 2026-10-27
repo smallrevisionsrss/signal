@@ -918,7 +918,16 @@ NAV_JS = """
       rollout.classList.contains('is-open') ? closeRollout() : openRollout();
     });
     document.querySelectorAll('.signal-tab').forEach(function(t){
-      t.addEventListener('click', function(){ setFilter(t.getAttribute('data-filter')); });
+      t.addEventListener('click', function(){
+        setFilter(t.getAttribute('data-filter'));
+        /* On a phone the open menu covers most of the screen, so a
+           section pick closes it and the filtered stories show. */
+        if(links && links.classList.contains('is-open')){
+          links.classList.remove('is-open');
+          if(toggle) toggle.setAttribute('aria-expanded', 'false');
+          layout();
+        }
+      });
     });
     /* The filter bar opens on arrival, on All, so the six sections are
        visible without a click. Listing pages only: an issue page has no
