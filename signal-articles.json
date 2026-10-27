@@ -616,5 +616,101 @@
         "url": "https://en.wikipedia.org/wiki/Teenage_Engineering_OP-1"
       }
     ]
+  },
+  {
+    "slug": "art-of-manga-brooklyn-museum",
+    "title": "The Rhythm of the Grid: Art of Manga Teaches You to Read in Sequence",
+    "standfirst": "More than 600 original manga drawings have come to the Brooklyn Museum, hung to be read right to left. Seen side by side, they show how panel, line and rhythm turn still black-and-white pages into cinematic worlds.",
+    "eyebrow": "Signal",
+    "category": "craft",
+    "date": "2026-10-27",
+    "byline": "Small Revisions",
+    "hero": {
+      "kind": "image",
+      "src": "/assets/features/art-of-manga-one-piece.jpg",
+      "alt": "A framed colour print from One Piece: Luffy, Zoro, Nami, Sanji and Chopper in patterned kimono walk in a line beneath red-and-white paper umbrellas, against a gold ground with a twisting pine and cherry blossom. The characters 花道 sit in a box in the top left corner above the One Piece logo.",
+      "caption": "An art print from One Piece by Oda Eiichiro, in the closing section of the show.",
+      "credit": "Frederick McSwain",
+      "fit": "native"
+    },
+    "issue_eligible": false,
+    "body": [
+      {
+        "type": "p",
+        "text": "Few exhibitions offer a chance to experience an art form backwards. Opening October 3, 2026, at the Brooklyn Museum, Art of Manga brings together more than 600 original drawings, including never-before-seen sketches from some of Japan’s best-selling manga series, offering rare insight into the craft behind a global cultural phenomenon."
+      },
+      {
+        "type": "p",
+        "text": "The experience begins in a room designed like an oversized manga page, introducing visitors to the medium’s distinctive visual language. Following a right-to-left path, the exhibition reveals how artists use line, framing and composition to convey movement, sound and emotion, transforming still, black-and-white drawings into cinematic worlds."
+      },
+      {
+        "type": "pull",
+        "text": "Seen side by side, the drawings demonstrate how panel size, spacing, and rhythm shape the reader’s experience."
+      },
+      {
+        "type": "p",
+        "text": "The exhibition features eight celebrated mangaka, or manga artists, including Araki Hirohiko (JoJo’s Bizarre Adventure), Oda Eiichiro (One Piece), Takahashi Rumiko (Inuyasha) and Yoshinaga Fumi (Ōoku: The Inner Chambers). Each section reveals a different approach to storytelling, from the exaggerated humor of Akatsuka Fujio to the intricate drama of historical fiction. Seen side by side, the drawings demonstrate how panel size, spacing, and rhythm shape the reader’s experience."
+      },
+      {
+        "type": "p",
+        "text": "What makes the show especially compelling is its focus on the creative process. These original drawings, rarely seen outside the publishing industry, reveal the artists’ distinctive linework, revisions, and even editors’ annotations. Some works have never been exhibited before, offering an intimate look at the craftsmanship and collaboration behind stories enjoyed by millions."
+      },
+      {
+        "type": "p",
+        "text": "At the heart of the exhibition, a reading library of manga volumes supplied by Kinokuniya invites visitors to pick up a book and explore the medium firsthand. The show concludes with art prints from One Piece, The Rose of Versailles and Bleach, alongside works from Keiichi Tanaami’s collaboration with Akatsuka Fujio."
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/art-of-manga-kinokuniya.jpg",
+        "alt": "A tall wooden bookcase headed with a navy Kinokuniya Books sign, its shelves packed with rows of manga volumes in bright spines. At the right edge a visitor reaches for the shelf, and framed black-and-white drawings hang on the gallery wall behind.",
+        "caption": "The Kinokuniya shelves, where visitors can take down a volume and read.",
+        "credit": "Frederick McSwain",
+        "fit": "narrow"
+      },
+      {
+        "type": "p",
+        "text": "Organized by the Fine Arts Museums of San Francisco, where it debuted at the de Young in 2025, Art of Manga makes its East Coast debut at the Brooklyn Museum, where it runs through January 31, 2027. A companion exhibition, Manga Before Manga, explores the art form’s roots in the museum’s Great Hall."
+      },
+      {
+        "type": "p",
+        "text": "Timed-entry tickets start at $30 and include general museum admission. Located at 200 Eastern Parkway, the museum is a short walk from the 2/3 train."
+      },
+      {
+        "type": "p",
+        "text": "More than a celebration of manga’s worldwide popularity, the exhibition offers a rare opportunity to see how its most iconic stories take shape. Arrive with an open mind, and the visual language of manga begins to reveal itself, one panel at a time."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Art of Manga",
+        "publisher": "Brooklyn Museum",
+        "url": "https://www.brooklynmuseum.org/exhibitions/manga"
+      },
+      {
+        "title": "The Brooklyn Museum Presents Art of Manga",
+        "publisher": "Brooklyn Museum",
+        "url": "https://www.brooklynmuseum.org/press/art-of-manga"
+      },
+      {
+        "title": "Brooklyn Museum's new exhibit 'Art of Manga' spotlights hundreds of hand-drawn works",
+        "publisher": "amNewYork",
+        "url": "https://www.amny.com/entertainment/brooklyn-museum-art-of-manga-japanese-comics-graphic-novels/"
+      },
+      {
+        "title": "Art of Manga Comes to the Brooklyn Museum: What Families Need to Know",
+        "publisher": "Brooklyn Bridge Parents",
+        "url": "https://brooklynbridgeparents.com/art-of-manga-brooklyn-museum/"
+      },
+      {
+        "title": "Art of Manga Exhibition Makes East Coast Debut at the Brooklyn Museum",
+        "publisher": "AniTrendz",
+        "url": "https://www.anitrendz.com/news/2026/05/28/art-of-manga-exhibition-makes-east-coast-debut-at-the-brooklyn-museum-in-october-2026"
+      },
+      {
+        "title": "The Brooklyn Museum announces 2026 fall exhibitions",
+        "publisher": "Time Out New York",
+        "url": "https://www.timeout.com/newyork/news/the-brooklyn-museum-announces-2026-fall-exhibitions-including-a-manga-takeover-and-50-new-european-masterpieces-082626"
+      }
+    ]
   }
 ]
