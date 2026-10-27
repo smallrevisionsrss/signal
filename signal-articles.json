@@ -627,11 +627,11 @@
     "byline": "Small Revisions",
     "hero": {
       "kind": "image",
-      "src": "/assets/features/art-of-manga-one-piece.jpg",
-      "alt": "A framed colour print from One Piece: Luffy, Zoro, Nami, Sanji and Chopper in patterned kimono walk in a line beneath red-and-white paper umbrellas, against a gold ground with a twisting pine and cherry blossom. The characters 花道 sit in a box in the top left corner above the One Piece logo.",
-      "caption": "An art print from One Piece by Oda Eiichiro, in the closing section of the show.",
-      "credit": "Frederick McSwain",
-      "fit": "native"
+      "src": "/assets/features/art-of-manga-title-wall.jpg",
+      "alt": "The exhibition title painted on a pale blue-green wall in heavy outlined letters: ART OF MANGA in peach, and マンガの芸術 in pink beneath it.",
+      "caption": "The exhibition’s title wall.",
+      "credit": "Jane Smarovozova",
+      "fit": "crop"
     },
     "issue_eligible": false,
     "body": [
@@ -648,12 +648,36 @@
         "text": "Seen side by side, the drawings demonstrate how panel size, spacing, and rhythm shape the reader’s experience."
       },
       {
+        "type": "figure",
+        "src": "/assets/features/art-of-manga-akatsuka-gallery.jpg",
+        "alt": "Visitors crowd a dim gallery whose black walls are ruled in a bright blue grid, like the panel borders of a manga page. Framed drawings hang in the squares, and a panel headed Akatsuka Fujio, with his name in Japanese in a speech bubble, stands at the centre.",
+        "caption": "The Akatsuka Fujio gallery, its walls ruled into panels.",
+        "credit": "Jane Smarovozova",
+        "fit": "wide"
+      },
+      {
         "type": "p",
         "text": "The exhibition features eight celebrated mangaka, or manga artists, including Araki Hirohiko (JoJo’s Bizarre Adventure), Oda Eiichiro (One Piece), Takahashi Rumiko (Inuyasha) and Yoshinaga Fumi (Ōoku: The Inner Chambers). Each section reveals a different approach to storytelling, from the exaggerated humor of Akatsuka Fujio to the intricate drama of historical fiction. Seen side by side, the drawings demonstrate how panel size, spacing, and rhythm shape the reader’s experience."
       },
       {
+        "type": "figure",
+        "src": "/assets/features/art-of-manga-gag-page.jpg",
+        "alt": "A framed black-and-white manga page of five panels: sheep leap a wooden fence, one with wings and one on a motorbike, and in the large bottom panel a whole flock streams over the fence above a figure asleep under a blanket, with sound effects written in katakana.",
+        "caption": "An original gag page, numbered 150 in the corner.",
+        "credit": "Jane Smarovozova",
+        "fit": "narrow"
+      },
+      {
         "type": "p",
         "text": "What makes the show especially compelling is its focus on the creative process. These original drawings, rarely seen outside the publishing industry, reveal the artists’ distinctive linework, revisions, and even editors’ annotations. Some works have never been exhibited before, offering an intimate look at the craftsmanship and collaboration behind stories enjoyed by millions."
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/art-of-manga-boxing-page.jpg",
+        "alt": "An original black-and-white manga page of a boxing match: two close-ups of fighters behind their gloves, a wide panel of one landing a punch in the ring, and below, a startled man in a bow tie beside a circle of blurred light. Small pencil numbers sit in the margins beside the panels.",
+        "caption": "An original boxing page, with pencilled numbers in the margin beside the panels.",
+        "credit": "Jane Smarovozova",
+        "fit": "narrow"
       },
       {
         "type": "p",
@@ -664,16 +688,40 @@
         "src": "/assets/features/art-of-manga-kinokuniya.jpg",
         "alt": "A tall wooden bookcase headed with a navy Kinokuniya Books sign, its shelves packed with rows of manga volumes in bright spines. At the right edge a visitor reaches for the shelf, and framed black-and-white drawings hang on the gallery wall behind.",
         "caption": "The Kinokuniya shelves, where visitors can take down a volume and read.",
-        "credit": "Frederick McSwain",
+        "credit": "Jane Smarovozova",
         "fit": "narrow"
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/art-of-manga-one-piece.jpg",
+        "alt": "A framed colour print from One Piece: Luffy, Zoro, Nami, Sanji and Chopper in patterned kimono walk in a line beneath red-and-white paper umbrellas, against a gold ground with a twisting pine and cherry blossom. The characters 花道 sit in a box in the top left corner above the One Piece logo.",
+        "caption": "An art print from One Piece by Oda Eiichiro, in the closing section of the show.",
+        "credit": "Jane Smarovozova",
+        "fit": "native"
       },
       {
         "type": "p",
         "text": "Organized by the Fine Arts Museums of San Francisco, where it debuted at the de Young in 2025, Art of Manga makes its East Coast debut at the Brooklyn Museum, where it runs through January 31, 2027. A companion exhibition, Manga Before Manga, explores the art form’s roots in the museum’s Great Hall."
       },
       {
+        "type": "figure",
+        "src": "/assets/features/art-of-manga-woodblock-book.jpg",
+        "alt": "Open woodblock-printed books lie in a long white vitrine, their pages illustrated in black ink, with labels printed on the case beside them.",
+        "caption": "Kitao Sekkosai’s Ehon Jitsugokyō, a woodblock-printed book of about 1770–80, from the Brooklyn Museum’s collection.",
+        "credit": "Jane Smarovozova",
+        "fit": "narrow"
+      },
+      {
         "type": "p",
         "text": "Timed-entry tickets start at $30 and include general museum admission. Located at 200 Eastern Parkway, the museum is a short walk from the 2/3 train."
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/art-of-manga-shop.jpg",
+        "alt": "Glass shelves in the museum shop stacked with blue-spined copies of the Art of Manga catalogue, one open on the lower shelf, beside rows of water bottles printed with Japanese lettering.",
+        "caption": "The exhibition catalogue in the museum shop.",
+        "credit": "Jane Smarovozova",
+        "fit": "narrow"
       },
       {
         "type": "p",
