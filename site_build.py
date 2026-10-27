@@ -1836,7 +1836,7 @@ ARTICLE_CSS = """
 .signal-writing-list{margin:40px 0 0}
 .signal-fig{margin:0 0 40px}
 .signal-fig--full{grid-column:1 / -1}
-.signal-fig img{width:100%;display:block;background:var(--rule-soft)}
+.signal-fig img{width:100%;height:auto;display:block;background:var(--rule-soft)}
 .signal-fig video{width:100%;display:block;background:var(--rule-soft)}
 .signal-fig--crop img{aspect-ratio:4/3;object-fit:cover}
 .signal-fig--wide img{aspect-ratio:16/9;object-fit:cover}
@@ -1962,7 +1962,42 @@ def credit_line(f):
             + '<span class="sep">&middot;</span>'.join(bits) + "</figcaption>")
 
 
-def figure_html(f, *, full=False):
+def image_size(src):
+    """Pixel size of a self-hosted JPEG or PNG, read from its header, or None.
+    Added 27 Oct 2026 so article images carry width and height: the browser
+    reserves the space before the file arrives and the text below stops jumping,
+    which Google counts against a page. Standard library only, because the
+    deploy installs Pillow after the build runs."""
+    if not src.startswith("/assets/"):
+        return None
+    path = ASSET_DIR / src[len("/assets/"):]
+    try:
+        data = path.read_bytes()
+    except OSError:
+        return None
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return int.from_bytes(data[16:20], "big"), int.from_bytes(data[20:24], "big")
+    if data[:2] != b"\xff\xd8":
+        return None
+    i = 2
+    while i + 9 < len(data):
+        if data[i] != 0xFF:
+            i += 1
+            continue
+        marker = data[i + 1]
+        if marker in (0xD8, 0x01) or 0xD0 <= marker <= 0xD7 or marker == 0xFF:
+            i += 1 if marker == 0xFF else 2
+            continue
+        length = int.from_bytes(data[i + 2:i + 4], "big")
+        if 0xC0 <= marker <= 0xCF and marker not in (0xC4, 0xC8, 0xCC):
+            h = int.from_bytes(data[i + 5:i + 7], "big")
+            w = int.from_bytes(data[i + 7:i + 9], "big")
+            return w, h
+        i += 2 + length
+    return None
+
+
+def figure_html(f, *, full=False, lead=False):
     """An image block. `fit` is crop (4:3, the site default), wide (16:9) or
     native. Images for Signal's own writing should be self hosted under
     /assets/features/ rather than hotlinked: a hotlinked picture is one
@@ -1989,7 +2024,12 @@ def figure_html(f, *, full=False):
         inner = (f'<video src="{e(f["src"])}"{poster} autoplay muted loop playsinline '
                  f'preload="metadata" aria-label="{e(f.get("alt", ""))}"></video>')
     else:
-        inner = (f'<img src="{e(f["src"])}" alt="{e(f.get("alt", ""))}" loading="lazy">')
+        size = image_size(f["src"])
+        dims = f' width="{size[0]}" height="{size[1]}"' if size else ""
+        # The hero is the first thing anyone sees, so it loads straight away;
+        # lazy loading it held back the page's largest picture.
+        load = 'loading="eager" fetchpriority="high"' if lead else 'loading="lazy"'
+        inner = (f'<img src="{e(f["src"])}" alt="{e(f.get("alt", ""))}"{dims} {load}>')
     return f'<figure class="{cls}">{inner}{credit_line(f)}</figure>'
 
 LINK_RE = re.compile(r"\[([^\]]+)\]\(((?:https?://|/)[^)\s]+)\)")
@@ -2047,7 +2087,7 @@ def render_article(a, pairs, domain):
     left = ('<article class="signal-article">'
             f'<h1 class="signal-article-hed">{e(a["title"])}</h1>'
             f'<p class="signal-article-standfirst">{e(a["standfirst"])}</p>'
-            + figure_html(hero)
+            + figure_html(hero, lead=True)
             + '<div class="signal-article-body">' + "".join(blocks) + '</div>'
             + note + '</article>')
 
@@ -2078,10 +2118,38 @@ def render_article(a, pairs, domain):
     # og:image and JSON-LD need an absolute URL; self-hosted heroes are site-relative.
     if hero_src and hero_src.startswith("/"):
         hero_src = f"https://{domain}{hero_src}"
-    if hero_src:
+    # Every picture in the piece goes into the JSON-LD with its credit, hero
+    # first, so image search can show who took it (27 Oct 2026).
+    images = []
+    for f in [hero] + [b for b in a.get("body", []) if b["type"] == "figure"]:
+        if f.get("kind") in ("plate", "video") or not f.get("src"):
+            continue
+        src = f["src"]
+        src = f"https://{domain}{src}" if src.startswith("/") else src
+        img = {"@type": "ImageObject", "contentUrl": src, "url": src}
+        if f.get("caption"):
+            img["caption"] = f["caption"]
+        if f.get("credit"):
+            img["creditText"] = f["credit"]
+            if "unknown" not in f["credit"].lower():
+                img["creator"] = {"@type": "Person", "name": f["credit"]}
+        size = image_size(f["src"])
+        if size:
+            img["width"], img["height"] = size
+        images.append(img)
+    if images:
+        ld["image"] = images
+    elif hero_src:
         ld["image"] = hero_src
+    # `about` describes what the piece is about in schema.org terms, an
+    # exhibition, a record, a building, and is passed through as written.
+    if a.get("about"):
+        ld["about"] = a["about"]
 
-    return page(title=f'{a["title"]} \u00b7 Signal', desc=a["standfirst"],
+    # `seo_title`, when set, is the title search results and share cards show;
+    # the headline on the page stays as written.
+    title = a.get("seo_title") or f'{a["title"]} \u00b7 Signal'
+    return page(title=title, desc=a["standfirst"],
                 canonical=url, body=body, domain=domain, jsonld=ld,
                 og_image=hero_src, og_type="article")
 

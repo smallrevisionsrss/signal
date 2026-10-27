@@ -620,11 +620,37 @@
   {
     "slug": "art-of-manga-brooklyn-museum",
     "title": "The Rhythm of the Grid: Art of Manga Teaches You to Read in Sequence",
+    "seo_title": "Art of Manga at the Brooklyn Museum: Original Manga Drawings · Signal",
     "standfirst": "More than 600 original manga drawings have come to the Brooklyn Museum, hung to be read right to left. Seen side by side, they show how panel, line and rhythm turn still black-and-white pages into cinematic worlds.",
     "eyebrow": "Signal",
     "category": "craft",
     "date": "2026-10-27",
     "byline": "Small Revisions",
+    "about": {
+      "@type": "ExhibitionEvent",
+      "name": "Art of Manga",
+      "startDate": "2026-10-03",
+      "endDate": "2027-01-31",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Museum",
+        "name": "Brooklyn Museum",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "200 Eastern Parkway",
+          "addressLocality": "Brooklyn",
+          "addressRegion": "NY",
+          "postalCode": "11238",
+          "addressCountry": "US"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Fine Arts Museums of San Francisco"
+      },
+      "url": "https://www.brooklynmuseum.org/exhibitions/manga"
+    },
     "hero": {
       "kind": "image",
       "src": "/assets/features/art-of-manga-title-wall.jpg",

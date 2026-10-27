@@ -182,6 +182,24 @@ should be the one the piece genuinely belongs to.
 
 `sources` and `further` render as Signal rows, so citations look like the paper.
 
+### Search
+
+Added 27 October 2026 on the Art of Manga piece. Two optional fields:
+
+- `seo_title` replaces the `<title>` and the share-card title. The headline on
+  the page stays as written. Use it when the headline is a line of writing
+  rather than the words people search for, and put the subject's own name in
+  it.
+- `about` is a schema.org object describing what the piece is about (an
+  `ExhibitionEvent`, a `MusicRecording`, a `Place`), passed into the page's
+  JSON-LD as written. For an exhibition, give the dates, the venue's address
+  and the organiser, so search can tie the piece to the show.
+
+Without anything set, the build now also gives every article image its width
+and height, loads the hero first rather than lazily, and lists every picture
+in the JSON-LD with its caption and credit. Self-hosted article photos carry
+the photographer's name in their XMP metadata too (`dc:creator`).
+
 ### Links in the text
 
 Paragraphs and pull quotes take `[words](url)` for a link. Only `https://`,
