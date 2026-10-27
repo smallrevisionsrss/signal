@@ -484,6 +484,10 @@ img{display:block; max-width:100%}
      eyebrow and the standing line stack rather than crowd. */
   .signal-hero-topline{display:block}
   .signal-hero-date{display:block; margin-top:8px}
+  /* The date drops to its own line under the standing line, whole, with
+     no slash, so it never breaks mid-date. */
+  .signal-hero-date-sep{display:none}
+  .signal-hero-date-value{display:block; margin-top:2px; white-space:nowrap}
 }
 @media (prefers-reduced-motion:reduce){
   .signal-dot{animation:none}
@@ -1301,7 +1305,7 @@ def hero_block(issue, paging="", issue_url=None):
     return f"""<section class="signal-hero">
 <div class="signal-hero-topline">
 <span class="signal-eyebrow"><span class="signal-dot" aria-hidden="true"></span>Signal</span>
-<span class="signal-hero-date">A Running Record of Findings from the Internet / <span class="signal-hero-date-value">{datemark}</span></span>
+<span class="signal-hero-date">A Running Record of Findings from the Internet<span class="signal-hero-date-sep"> / </span><span class="signal-hero-date-value">{datemark}</span></span>
 </div>
 <div class="signal-hero-grid">
 <div class="signal-hero-text">
