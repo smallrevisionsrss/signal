@@ -1,5 +1,200 @@
 [
   {
+    "dateLabel": "October 27, 2026",
+    "hero": {
+      "headline": "A Plan in National Records of Scotland Shows the Royal Army Wheeling Into Order at Culloden",
+      "dek": "Ross, writing on the National Records of Scotland blog, presents a plan of the order of the Battle of Culloden, fought on 16 April 1746, as the third in a series on striking and interesting items the archive holds. The plan marks the point at which the Royal army wheeled into order of battle, just south of Castle Stuart, turning towards Castle Dalcross. The battle set the King's army under William Augustus, Duke of Cumberland, against the Jacobite army under Charles Edward Stuart and lasted under an hour. About 1,250 Jacobites were killed, while the government force officially lost 50 men, with 259 wounded. The text comes from the archive's 2025 book Treasures of National Records of Scotland.",
+      "byline": "By Ross · National Records of Scotland",
+      "category": "archives",
+      "image": "https://blog.nrscotland.gov.uk/wp-content/uploads/2026/10/culloden-order-of-battle.png",
+      "url": "https://blog.nrscotland.gov.uk/2026/10/13/treasures-of-national-records-of-scotland-plan-of-the-order-at-the-battle-of-culloden/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Charles C. Mann Reads a New Cooktop Surface as the Latest Chapter in Porcelain's History",
+          "source": "Works in Progress",
+          "byline": "Charles C Mann",
+          "date": "Oct 14",
+          "url": "https://worksinprogress.co/issue/everything-rhymes-with-porcelain/",
+          "image": "https://assets.worksinprogress.co/wp-content/uploads/2026/10/Porcelein_Feature_Image_02-scaled.jpg"
+        },
+        {
+          "headline": "Elizabeth Farrelly Argues That Urban Utopias Threaten the City as a Public Realm",
+          "source": "ArchitectureAu",
+          "byline": "Elizabeth Farrelly",
+          "date": "Oct 26",
+          "url": "https://architectureau.com/articles/the-dream-or-hallucination-of-the-urban-utopia/"
+        },
+        {
+          "headline": "Rashida Ng Reviews MoMA's Architects of Liberation and Wants More on Who Built and Lived in It",
+          "source": "Places Journal",
+          "byline": "Rashida Ng",
+          "evergreen": true,
+          "url": "https://placesjournal.org/article/an-unfinished-liberation-modernism-in-western-africa-moma-review/"
+        },
+        {
+          "headline": "David Jonathan Ross Explains the Decisions Behind His Slight Chance Stencil Typeface",
+          "source": "DJR",
+          "byline": "David Jonathan Ross",
+          "date": "Oct 1",
+          "url": "https://djr.com/notes/slight-chance-stencil-font-of-the-month"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "At The Hepworth Wakefield, Mrinalini Mukherjee's Hemp, Clay and Bronze Sit Beside Four Pioneering Women Sculptors",
+          "source": "Sculpture",
+          "byline": "Beth Williamson",
+          "date": "Oct 21",
+          "url": "https://sculpturemagazine.art/mrinalini-mukherjee-unbound-forms-women-sculptors-of-india-and-bangladesh/"
+        },
+        {
+          "headline": "Tessa Boffin's Queer Photographic Archive Becomes a Living Presence in a Touring Exhibition",
+          "source": "Corridor8",
+          "byline": "Ruth Charnock",
+          "date": "Oct 21",
+          "url": "https://corridor8.co.uk/article/tessa-boffin-where-we-touch-the-archive/",
+          "image": "https://corridor8.co.uk/wp-content/uploads/2026/10/WhereWeTouchTheArchive-69-scaled.jpg"
+        },
+        {
+          "headline": "John Gossage Photographs Found Objects as Sculpture in a Book Dedicated to Anne Truitt",
+          "source": "PhotoBook Journal",
+          "byline": "Max Cavitch",
+          "date": "Oct 23",
+          "url": "https://photobookjournal.com/2026/10/23/john-gossage-an-abridged-dictionary-of-sculpture/"
+        },
+        {
+          "headline": "Lari Pittman on Working Alone, His Mother's Voice and a Fall From an Eight-Foot Ladder",
+          "source": "CULTURED",
+          "byline": "Schuyler Daffey",
+          "date": "Oct 26",
+          "url": "https://culturedmag.com/article/2026/10/26/art-lari-pittman-lehmann-maupin-exhibition-studio/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Six Scary Sea Songs for Halloween, Including Field Recordings by Lomax, Flanders, Creighton and Leach",
+          "source": "Library of Congress",
+          "byline": "Stephen Winick",
+          "date": "Oct 26",
+          "url": "https://blogs.loc.gov/folklife/2026/10/scary-sea-songs-for-halloween-2026"
+        },
+        {
+          "headline": "Alex Weiser on Setting Yiddish Poetry Ahead of His Clarinet Concerto's US Premiere at Carnegie Hall",
+          "source": "Seen and Heard International",
+          "byline": "Rick Perdian",
+          "date": "Oct 24",
+          "url": "https://seenandheard-international.com/2026/10/rick-perdian-in-conversation-with-composer-alex-weiser/"
+        },
+        {
+          "headline": "Joseph Trapanese Detuned an Orchestra and Turned the Violins to the Back of the Room to Score Whalefall",
+          "source": "ON THE SCORE",
+          "byline": "Dreldon",
+          "date": "Oct 20",
+          "url": "https://onthescore.com/joseph-trapanese-finds-himself-in-the-belly-of-a-whalefall/",
+          "image": "https://onthescore.com/wp-content/uploads/2026/10/Joseph-Trapanese-2019-Tim-Navis.jpg"
+        },
+        {
+          "headline": "Lisa Conway on Playing Live With a Reel to Reel Machine That Might Not Work",
+          "source": "Musicworks",
+          "byline": "Sara Constant",
+          "evergreen": true,
+          "url": "https://musicworks.ca/lisa-conway-musicworks-reel-to-reel/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Inside the Grolier Club, the Manhattan Club for Book Collectors Founded in 1884",
+          "source": "Apollo",
+          "byline": "Lauren Kane",
+          "date": "Oct 26",
+          "url": "https://apollo-magazine.com/grolier-club-new-york-thomas-phillipps-bibliophile/",
+          "image": "https://apollo-magazine.com/wp-content/uploads/2026/10/LEAD-GC-papermaking-press-images-from-Flickr-55506743227_17b54fd480_o.jpg"
+        },
+        {
+          "headline": "A Collector Sells 100 Pieces of the Houdini Collection He Spent Five Decades Building",
+          "source": "LAist",
+          "byline": "Adolfo Guzman-Lopez",
+          "date": "Oct 25",
+          "url": "https://laist.com/news/los-angeles-activities/houdini-collection-auction-los-angeles"
+        },
+        {
+          "headline": "A Living Dead Dolls Collector Examines and Repairs the Wonderland Hatter Sybil",
+          "source": "Teatime Tangents and Toys",
+          "date": "Oct 25",
+          "url": "https://teatimetangentsandtoys.blogspot.com/2026/10/hatter-madness-5-or-clinical-tea-party.html"
+        },
+        {
+          "headline": "Revs Institute Hangs the Original Body of Its 1957 Cooper-Climax Above the Chassis",
+          "source": "Revs Institute",
+          "evergreen": true,
+          "url": "https://revsinstitute.org/blog/new-cooper-display-highlights-mid-engine-success"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Late Medieval Writers Cast God and Kings as Keepers of Unreliable Clocks",
+          "source": "JHI Blog",
+          "byline": "Karl Peeter Valk",
+          "date": "Oct 19",
+          "url": "https://www.jhiblog.org/2026/10/19/clockwork-metaphors/"
+        },
+        {
+          "headline": "The Bronx Mansion a Pro-Slavery Merchant Built at Oak Point and a Cuban Patriot Bought",
+          "source": "Ephemeral New York",
+          "date": "Oct 19",
+          "url": "https://ephemeralnewyork.wordpress.com/2026/10/19/inside-new-yorks-spookiest-19th-century-mansion-dubbed-the-house-of-many-mysteries-before-it-was-abandoned/"
+        },
+        {
+          "headline": "A Doctoral Researcher Reads the Uncatalogued Papers of Feminist Librarian Claire Madden",
+          "source": "LSE History",
+          "byline": "Kelly Bosomworth",
+          "date": "Oct 21",
+          "url": "https://blogs.lse.ac.uk/lsehistory/2026/10/21/claire-madden-the-forgotten-feminist/",
+          "image": "https://blogsmedia.lse.ac.uk/blogs.dir/65/files/2026/10/Claire-and-Etian-Madden.jpeg"
+        },
+        {
+          "headline": "A Woods Hole Librarian Finds the Idea Behind 'Study Nature, Not Books' in a 1666 Journal Article",
+          "source": "Biodiversity Heritage Library",
+          "byline": "Matthew Person",
+          "date": "Oct 22",
+          "url": "https://blog.biodiversitylibrary.org/2026/10/study-nature-not-books"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "David Bolen Hid About Eight DV Cameras in New Orleans Houses and Printed Primetime to 16mm",
+          "source": "American Cinematographer",
+          "byline": "David Bolen",
+          "date": "Oct 21",
+          "url": "https://theasc.com/article/primetime-cinematography-bolen/"
+        },
+        {
+          "headline": "Vitagraph's 1907 Disintegrated Convict Escapes Jail as a Mannequin, a Rope and a Stack of Blocks",
+          "source": "Movies Silently",
+          "date": "Oct 26",
+          "url": "https://moviessilently.com/2026/10/26/the-disintegrated-convict-1907-a-silent-film-review/",
+          "image": "https://moviessilently.com/wp-content/uploads/2026/10/disintegrated-convict-header.jpg"
+        },
+        {
+          "headline": "Farouk Kannout Questions an ElevenLabs Credit on William Greaves's Once Upon a Time in Harlem",
+          "source": "Farouk Kannout",
+          "byline": "Farouk Kannout",
+          "date": "Oct 26",
+          "url": "https://faroukkannout.substack.com/p/2026-ciff-field-notes-2"
+        },
+        {
+          "headline": "A Lost 1924 Universal Melodrama Was Restored From a 16mm Show-at-Home Print",
+          "source": "Archival Spaces",
+          "byline": "Jan-Christopher Horak",
+          "date": "Oct 16",
+          "url": "https://archivalspaces.com/2026/10/16/410-the-slanderers-1924-restored/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 26, 2026",
     "hero": {
       "headline": "Henry Wessel's Career Laid Out in Prints and Books at the Grolier Club",
