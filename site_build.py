@@ -579,7 +579,13 @@ GLYPHS = {
 
 NAV_CSS = """
 /* fixed nav ------------------------------------------------------ */
-.mainnav-fixed{position:fixed; top:0; left:0; right:0; z-index:20; background:var(--bg)}
+.mainnav-fixed{position:fixed; top:0; left:0; right:0; z-index:20; background:var(--bg); transition:transform .25s ease}
+/* Once the page scrolls, the whole bar slides up by the announcement's
+   height, so the announcement tucks away above the viewport and the nav
+   row sits at the top. The bar keeps its height, so the spacer under it
+   never changes and the page does not jump. */
+.mainnav-fixed.is-scrolled{transform:translateY(calc(-1 * var(--announce-h, 0px)))}
+@media (prefers-reduced-motion:reduce){ .mainnav-fixed{transition:none} }
 .mainnav-spacer{width:100%}
 
 .mainnav-announce{background:var(--invert-bg); border-bottom:1px solid var(--invert-bg)}
@@ -679,8 +685,11 @@ NAV_CSS = """
 
 @media (max-width:1100px){ .merged-grid{grid-template-columns:repeat(2,minmax(0,1fr))} }
 @media (max-width:760px){
-  .mainnav-announce-row{padding:10px 44px}
-  .mainnav-announce-text{font-size:12px}
+  /* The announcement stays one line, "Order now" included. The text is
+     centred in the room left of the close button, which lines up over the
+     burger, and the type steps down a touch on narrower phones to fit. */
+  .mainnav-announce-row{padding:10px 40px 10px 0}
+  .mainnav-announce-text{font-size:clamp(9.5px, calc((100vw - 80px) / 25), 12px); white-space:nowrap}
   .mainnav-logo img{height:51.61px}
   .mainnav-links{display:none}
   .mainnav-toggle{display:block}
@@ -777,10 +786,18 @@ NAV_JS = """
     var cart = document.querySelector('.mainnav-icon-btn.cart');
     var row = close ? close.closest('.mainnav-announce-row') : null;
     if(!close || !cart || !row) return;
-    var r = row.getBoundingClientRect(), c = cart.getBoundingClientRect();
+    /* Over the cart on desktop; over the burger on phones, where the cart
+       sits too far in and the close button landed on "Order now". */
+    var target = (toggle && toggle.offsetParent) ? toggle : cart;
+    var r = row.getBoundingClientRect(), c = target.getBoundingClientRect();
     close.style.right = (r.right - (c.left + c.width/2) - close.offsetWidth/2) + 'px';
   }
-  function layout(){ reserve(); alignClose(); }
+  function collapse(){
+    if(!bar || !announce) return;
+    bar.style.setProperty('--announce-h', announce.offsetHeight + 'px');
+    bar.classList.toggle('is-scrolled', window.scrollY > 8);
+  }
+  function layout(){ reserve(); alignClose(); collapse(); }
 
   /* Filtering runs on top of server-rendered HTML, never instead of
      it. Crawlers get the full issue; this only rearranges it. */
@@ -1014,6 +1031,7 @@ NAV_JS = """
 
   layout();
   window.addEventListener('resize', layout);
+  window.addEventListener('scroll', collapse, {passive:true});
   if(document.fonts && document.fonts.ready) document.fonts.ready.then(layout);
 })();
 </script>
