@@ -1,5 +1,202 @@
 [
   {
+    "dateLabel": "October 28, 2026",
+    "hero": {
+      "headline": "Gulliver at 300, Seen Through a 1933 Pulp Story Set in the Year 3000",
+      "dek": "Tom Dillon, writing on the University of Liverpool's special collections blog, marks the 300th anniversary of Gulliver's Travels, first published on 28 October 1726, by turning to science fiction. Leslie F. Stone's \"Gulliver, 3000 A.D.\", printed in Wonder Stories in May 1933 with illustrations by Frank R. Paul, strands a space captain on Mars, where he is enslaved by six-inch green aliens and fights their enemies, six-inch copper aliens he names Lilliputians. Dillon reads the story as a critique of racism, notes that Swift both criticised colonialism and invested in the South Sea Company, and launches the library's digital exhibition Gulliver's Travels: Before and Beyond.",
+      "byline": "By Tom Dillon · Manuscripts and More",
+      "category": "archives",
+      "image": "https://manuscriptsandmore.liverpool.ac.uk/wp-content/uploads/2026/10/PX1000.S36.jpg",
+      "url": "https://manuscriptsandmore.liverpool.ac.uk/gullivers-travels-at-300-heres-to-the-next-3000/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Yoav Liberman Teaches Students to Flatten Live Edge Slabs With a Router Sled at a Massachusetts Craft School",
+          "source": "Popular Woodworking",
+          "byline": "Yoav Liberman",
+          "date": "Oct 27",
+          "url": "https://www.popularwoodworking.com/editors-blog/teaching-live-edge-part-1-craft-schools-big-slabs-and-student-projects/",
+          "image": "https://media.popularwoodworking.com/app/uploads/2026/10/26065548/img_20260809_063505_hdr.jpeg"
+        },
+        {
+          "headline": "A Footwear Designer Spent a Decade Photographing Paper Signs at Small Businesses",
+          "source": "PRINT Magazine",
+          "byline": "Charlotte Beach",
+          "evergreen": true,
+          "url": "https://www.printmag.com/publication-design/we-now-copy-all-fobs-celebrates-the-charm-and-ridiculousness-of-paper-signage-at-small-businesses/"
+        },
+        {
+          "headline": "How Peugeot Put the 205 GTI Into the Electric e-208 GTI Without Going Retro",
+          "source": "Car Design News",
+          "byline": "Freddie Holmes",
+          "date": "Oct 27",
+          "url": "https://cardesignnews.com/designers/peugeot-on-channelling-heritage-without-going-retro/2757851"
+        },
+        {
+          "headline": "Reading the Window Bands of Alvar Aalto's House of Culture in Helsinki",
+          "source": "Window Research Institute",
+          "byline": "Yoshiharu Tsukamoto Laboratory (Institute of Science Tokyo)",
+          "date": "Oct 13",
+          "url": "https://madoken.jp/en/series/43179/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Hannah Hallermann Sews With a Bow and Arrow at the Miettinen Collection in Berlin",
+          "source": "Monopol",
+          "byline": "Lisa-Marie Berndt",
+          "date": "Oct 26",
+          "url": "https://www.monopol-magazin.de/hannah-hallermann-miettinen-collection-edition-200-pfeile"
+        },
+        {
+          "headline": "Billy Adams Fires Each Piece Five Times and Removes Glaze After Every Firing",
+          "source": "Ceramic Review",
+          "evergreen": true,
+          "url": "https://www.ceramicreview.com/masterclass/masterclass-with-billy-adams/",
+          "image": "https://www.ceramicreview.com/wp-content/uploads/2026/10/CR_Billy-Adams_152-1118x744.jpg"
+        },
+        {
+          "headline": "Libby Rothfeld Shows Plaid Silhouettes of Men in Suits and Owala Thermos Lids at Bureau",
+          "source": "e-flux Criticism",
+          "byline": "Travis Diehl",
+          "date": "Oct 24",
+          "url": "https://www.e-flux.com/criticism/6782486/libby-rothfeld-s-the-world-is-not-enough"
+        },
+        {
+          "headline": "The ICA Boston Revisits One Show From Each of Its Nine Decades",
+          "source": "The Arts Fuse",
+          "byline": "Lauren Kaufmann",
+          "date": "Oct 27",
+          "url": "https://artsfuse.org/336556/visual-arts-review-a-museum-that-wont-act-its-age/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Samuel Adams's Second Violin Concerto, The Wheel, Comes Back to Where It Started",
+          "source": "San Francisco Classical Voice",
+          "byline": "Richard S. Ginell",
+          "date": "Oct 26",
+          "url": "https://www.sfcv.org/articles/review/elim-chan-and-karen-gomyo-set-wheel-spinning"
+        },
+        {
+          "headline": "Marc Weidenbaum on a Sardinian Drone Guitarist, a Hamburg Digitakt Player and a Solo Pedal Steel Guitarist",
+          "source": "Disquiet",
+          "byline": "Marc Weidenbaum",
+          "date": "Oct 25",
+          "url": "https://disquiet.com/2026/10/25/on-repeat-pedal-sampler-pedal-steel/"
+        },
+        {
+          "headline": "Suzanne Nance Left Portland Radio to Run Wexford Festival Opera, Which Has No Endowment",
+          "source": "Oregon ArtsWatch",
+          "byline": "James Bash",
+          "date": "Oct 26",
+          "url": "https://www.orartswatch.org/hitting-the-ground-running-with-suzanne-nance-at-wexford-festival-opera/",
+          "image": "https://www.orartswatch.org/wp-content/uploads/2026/10/IMG_2641.jpeg"
+        },
+        {
+          "headline": "Bob Bert Played a Drum Kit Made From a Car Gas Tank in Pussy Galore",
+          "source": "Perfect Sound Forever",
+          "byline": "John Wisniewski",
+          "evergreen": true,
+          "url": "https://www.furious.com/perfect/bobbert.html"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A 1969 Canadian Quarter Struck Over a British Gold Sovereign Sells for $28,125",
+          "source": "CoinWeek",
+          "date": "Oct 26",
+          "url": "https://coinweek.com/the-gold-quarter-that-shouldnt-exist-who-put-a-british-sovereign-in-a-canadian-mint-press/",
+          "image": "https://coinweek.com/wp-content/uploads/2026/10/gc_canadian_1969_gold_quarter_1200.webp"
+        },
+        {
+          "headline": "An 81 Year Old Lincoln Collector Puts 184 String Holders and a Life of Finds on Show",
+          "source": "KOLN 10/11 NOW",
+          "byline": "Kaitlyn Kelly/Flatwater Free Press",
+          "date": "Oct 27",
+          "url": "https://1011now.com/2026/10/27/level-surprise-lincoln-collector-showcases-lifes-worth-discoveries"
+        },
+        {
+          "headline": "A Sydney, Nova Scotia Man Kept the Cameras His Customers Threw Away and Now Has More Than 175",
+          "source": "CP24",
+          "byline": "Paul Hollingsworth",
+          "date": "Oct 26",
+          "url": "https://www.cp24.com/news/canada/2026/10/26/sydney-man-showcases-incredible-collection-of-over-175-vintage-cameras/"
+        },
+        {
+          "headline": "Mego Bought Science Fiction Licences to Protect Its Micronauts Line",
+          "source": "Mego Museum",
+          "byline": "Brain",
+          "date": "Oct 21",
+          "url": "https://www.megomuseum.com/vintage-mego-sf/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Jessie Carter Built and Ran Three Utah Airports, and Was Deputized to Keep a Military Contract",
+          "source": "Utah Historical Society",
+          "byline": "Megan Weiss",
+          "date": "Oct 14",
+          "url": "https://history.utah.gov/blog/jessie-carter/"
+        },
+        {
+          "headline": "Alexander's Cornbread Leads Buncombe County's Special Collections Manager Back to the Buncombe Turnpike",
+          "source": "Buncombe County Special Collections",
+          "byline": "Katherine Cutshall",
+          "date": "Oct 15",
+          "url": "https://specialcollections.buncombenc.gov/2026/10/15/alexanders-cornbread-offers-a-peek-into-the-past/"
+        },
+        {
+          "headline": "Three Witnesses to Witton Hall, the House One Visitor Called the Strangest She Ever Saw",
+          "source": "Norfolk Record Office",
+          "byline": "Anamika Bhattacharjee",
+          "date": "Oct 23",
+          "url": "https://norfolkrecordofficeblog.org/2026/10/23/a-daughter-a-visitor-and-a-professional-three-personal-perspectives-of-witton-hall/",
+          "image": "https://norfolkrecordofficeblog.org/wp-content/uploads/2026/10/fig1_30129028248178-witton_edit.png"
+        },
+        {
+          "headline": "A 1935 Pictorial Map Shows Southern California Edison's Electrical Service System",
+          "source": "Leventhal Map & Education Center",
+          "byline": "Patrick Ellis",
+          "date": "Sep 28",
+          "url": "https://www.leventhalmap.org/articles/edison-map-chat/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Cruel Hands Was Shot Like a Western on Leica R Glass Amid Australia's Bushfire Smoke",
+          "source": "No Film School",
+          "byline": "Jason Hellerman",
+          "date": "Oct 27",
+          "url": "https://nofilmschool.com/cruel-hands-western-imagery"
+        },
+        {
+          "headline": "Three Reverse Shot Critics Revisit The Old Dark House, Magic and The Woman in the Yard",
+          "source": "Reverse Shot",
+          "byline": "Michael Koresky, Justin Stewart, Chloe Lizotte",
+          "date": "Oct 24",
+          "url": "https://reverseshot.org/features/3524/pumpkins_xxi"
+        },
+        {
+          "headline": "King Vidor's Street Scene and the Long Afterlife of Elmer Rice's Brownstone Play",
+          "source": "Cineaste",
+          "byline": "Art Simon",
+          "evergreen": true,
+          "url": "https://www.cineaste.com/winter2026/a-mean-quarter-of-new-york-king-vidors-street-scene"
+        },
+        {
+          "headline": "Ashley Da-Lê Duong Scripted Every Camera Move to Film Her Father's Memoir of War and Revolution",
+          "source": "POV Magazine",
+          "byline": "Alice Shih",
+          "date": "Oct 26",
+          "url": "https://povmagazine.com/bas-book-and-the-search-for-home/",
+          "image": "https://povmagazine.com/wp-content/uploads/2026/10/BasBook_BTS_at-monitor_photobyMrinalDesai.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 27, 2026",
     "hero": {
       "headline": "A Plan in National Records of Scotland Shows the Royal Army Wheeling Into Order at Culloden",
