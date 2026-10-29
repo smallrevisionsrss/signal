@@ -689,7 +689,7 @@
         "type": "figure",
         "src": "/assets/features/art-of-manga-gag-page.jpg",
         "alt": "A framed black-and-white manga page of five panels: sheep leap a wooden fence, one with wings and one on a motorbike, and in the large bottom panel a whole flock streams over the fence above a figure asleep under a blanket, with sound effects written in katakana.",
-        "caption": "An original gag page, numbered 150 in the corner.",
+        "caption": "An original gag page by Akatsuka Fujio, Insomnia - Dreamland: Tensai Bakabon 1974",
         "credit": "Jane Smarovozova",
         "fit": "narrow"
       },
@@ -701,7 +701,7 @@
         "type": "figure",
         "src": "/assets/features/art-of-manga-boxing-page.jpg",
         "alt": "An original black-and-white manga page of a boxing match: two close-ups of fighters behind their gloves, a wide panel of one landing a punch in the ring, and below, a startled man in a bow tie beside a circle of blurred light. Small pencil numbers sit in the margins beside the panels.",
-        "caption": "An original boxing page, with pencilled numbers in the margin beside the panels.",
+        "caption": "Hand drawing from Ashita no Joe: Fighting for Tomorrow by Asao Takamori, Tetsuya Chiba, 1968",
         "credit": "Jane Smarovozova",
         "fit": "narrow"
       },
@@ -731,9 +731,17 @@
       },
       {
         "type": "figure",
-        "src": "/assets/features/art-of-manga-woodblock-book.jpg",
-        "alt": "Open woodblock-printed books lie in a long white vitrine, their pages illustrated in black ink, with labels printed on the case beside them.",
-        "caption": "Kitao Sekkosai’s Ehon Jitsugokyō, a woodblock-printed book of about 1770–80, from the Brooklyn Museum’s collection.",
+        "src": "/assets/features/art-of-manga-chiba-diary.jpg",
+        "alt": "An original colour manga page. In the large top panel a young man in round glasses, an orange cap and a green jacket stands in a narrow street of old wooden buildings and shop signs, with speech balloons in Japanese around him. Smaller panels below follow him through crowded lanes.",
+        "caption": "Hand drawing from A Diary of a Quiet Life by Chiba Tetsuya, 2015",
+        "credit": "Jane Smarovozova",
+        "fit": "narrow"
+      },
+      {
+        "type": "figure",
+        "src": "/assets/features/art-of-manga-steve-jobs.jpg",
+        "alt": "A vitrine of original drawings. In front, the ink drawing of Steve Jobs sitting cross-legged with an iMac in his lap lies beside the printed volume 5 cover that uses it, titled Steve Jobs in English and Japanese; pencilled and inked pages are laid out behind.",
+        "caption": "Cover illustration for volume 5 of Steve Jobs by Yamazaki Mari, 2016",
         "credit": "Jane Smarovozova",
         "fit": "narrow"
       },
@@ -745,7 +753,7 @@
         "type": "figure",
         "src": "/assets/features/art-of-manga-shop.jpg",
         "alt": "Glass shelves in the museum shop stacked with blue-spined copies of the Art of Manga catalogue, one open on the lower shelf, beside rows of water bottles printed with Japanese lettering.",
-        "caption": "The exhibition catalogue in the museum shop.",
+        "caption": "The exhibition catalogue from the Brooklyn Museum Gift Shop.",
         "credit": "Jane Smarovozova",
         "fit": "narrow"
       },
