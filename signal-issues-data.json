@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "October 29, 2026",
+    "hero": {
+      "headline": "Durham Launches a New Jazz Festival in a City That Has Struggled to Keep a Scene",
+      "dek": "Frank Graham reports from the inaugural Durham Jazz Festival, held 23 to 25 October in a city he says has long struggled to sustain a thriving jazz scene, partly because audiences travel to Newcastle instead. Founded as a not-for-profit venture by Alan Patrickson, John Lyons and Richard Turner, it ran around 25 events over three days at ten venues, from Claypath Delicatessen, with room for about 30, to the Assembly Rooms. Graham hears Maja Bugge and Dave Evans play from Sortland, Sebastian Rochford's Finding Ways, the Pete Roth Trio with Bill Bruford and a sold-out Knats, and names the one programme clash he hopes the organisers will fix.",
+      "byline": "By Frank Graham · UK Jazz News",
+      "category": "sound-vinyl",
+      "image": "https://ukjazznews.b-cdn.net/wp-content/uploads/2026/10/IMG_6218-scaled.jpeg",
+      "url": "https://ukjazznews.com/durham-jazz-festival-2026/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Inside the Montreal Restaurant Rooms Designed by Atelier Zébulon Perron",
+          "source": "Azure",
+          "byline": "Sydney Shilling",
+          "date": "Oct 27",
+          "url": "https://www.azuremagazine.com/article/montreal-restaurants-atelier-zebulon-perron/",
+          "image": "https://www.azuremagazine.com/wp-content/uploads/2026/10/Azure-Montreal-Restaurants-Zebulon-Perron-Hero.jpg"
+        },
+        {
+          "headline": "The London Museum's New Smithfield Home Puts a Window on the Thameslink Trains Below",
+          "source": "ianVisits",
+          "byline": "Ian Mansfield",
+          "date": "Oct 28",
+          "url": "https://www.ianvisits.co.uk/articles/one-month-to-go-until-london-museum-opens-its-new-smithfield-home-93627/"
+        },
+        {
+          "headline": "Buffalo Bill's Wild West Posters, and Who Got to Control the Picture",
+          "source": "Poster House",
+          "byline": "Brian Johnson",
+          "date": "Oct 22",
+          "url": "https://posterhouse.org/blog/post-no-buffalo-bills/"
+        },
+        {
+          "headline": "The Wired Prototype Behind Herman Miller's Aeron Chair",
+          "source": "The Henry Ford",
+          "date": "Oct 20, 2016",
+          "evergreen": true,
+          "url": "https://www.thehenryford.org/collections/explore/articles/sparking-innovation-aeron-chair"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Fiona Crisp Remembers Christine Borland, the Artist Who Worked With Skeletons, Death Masks and Flax",
+          "source": "Burlington Contemporary",
+          "byline": "Fiona Crisp",
+          "date": "Oct 28",
+          "url": "https://contemporary.burlington.org.uk/articles/articles/christine-borland-19652026"
+        },
+        {
+          "headline": "How Tina Barney's Mother, a 1930s Model, Shaped Her Fashion Photographs",
+          "source": "Aperture",
+          "byline": "Alistair O'Neill",
+          "date": "Oct 16",
+          "url": "https://aperture.org/editorial/how-tina-barneys-mother-schooled-her-in-fashion/",
+          "image": "https://aperture.org/wp-content/uploads/2026/10/tina-barney-lipstick-w-1-1024x576.jpg"
+        },
+        {
+          "headline": "A Collector's Warehouse in Konin Shows 211 Marek Chlanda Drawings",
+          "source": "Szum",
+          "byline": "Jakub Dąbrowski",
+          "date": "Oct 23",
+          "url": "https://magazynszum.pl/autobiografia-rysunkowa-marek-chlanda-w-magazynie-w-koninie/"
+        },
+        {
+          "headline": "Carrie Mae Weems Casts Herself as the Main Character of Her Photographs at C/O Berlin",
+          "source": "Berlin Art Link",
+          "byline": "Olivia Noss",
+          "date": "Oct 20",
+          "url": "https://www.berlinartlink.com/2026/10/20/carrie-mae-weems-co-berlin-exhibition-review/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Phil McDonald, Who Taped Revolver and Engineered Abbey Road, Has Died",
+          "source": "Mix",
+          "byline": "Clive Young",
+          "date": "Oct 27",
+          "url": "https://www.mixonline.com/news/beatles-engineer-phil-mcdonald-passes"
+        },
+        {
+          "headline": "Parsons Rewires a 1900 Steere Organ in Avon, New York",
+          "source": "Parsons Pipe Organ Builders",
+          "byline": "DBommelje",
+          "date": "Oct 14",
+          "url": "https://parsonsorgans.com/central-presbyterian-church-avon/"
+        },
+        {
+          "headline": "Shooglenifty's James Mackintosh Looks Back Over Thirty Six Years of Acid Croft",
+          "source": "Spiral Earth",
+          "byline": "Simon Jones",
+          "date": "Oct 6",
+          "url": "https://spiralearth.co.uk/thirty-six-years-of-croftwork/",
+          "image": "https://spiralearth.co.uk/wp-content/uploads/shoo-1.jpg"
+        },
+        {
+          "headline": "A Small Ontario Museum Digitises Its Reel-to-Reel Oral Histories In House",
+          "source": "Museum of Lennox & Addington",
+          "byline": "Heather Wilson",
+          "date": "Mar 27, 2026",
+          "evergreen": true,
+          "url": "https://countymuseum.ca/reel-to-reel-recordings/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Dubai Resident Turns His Family Home Into a Museum of Nearly Six Decades of Keepsakes",
+          "source": "The National",
+          "byline": "Nick Webster",
+          "date": "Oct 29",
+          "url": "https://www.thenationalnews.com/news/uae/2026/10/29/dubai-shaukat-ali-rana-home-museum-uae-history/"
+        },
+        {
+          "headline": "The Co-Founder of Radical Glasgow Tours Opens Her Collection of Left-Wing Print",
+          "source": "History Workshop",
+          "byline": "Katherine Mackinnon",
+          "date": "Oct 20",
+          "url": "https://www.historyworkshop.org.uk/material-culture/the-word-on-the-street/",
+          "image": "https://www.historyworkshop.org.uk/wp-content/uploads/2026/10/MacKinnon-4-e1792343538776.jpg"
+        },
+        {
+          "headline": "Nine of Hedda Hopper's Hats Sit in Their Original Boxes Behind a Los Angeles Record Shop",
+          "source": "Artillery Magazine",
+          "byline": "Greer Sinclair",
+          "date": "Sep 23",
+          "url": "https://artillerymag.com/the-hats-of-hedda-hopper/"
+        },
+        {
+          "headline": "Typewriter Collectors Keep the Clack Alive in a Digital Age",
+          "source": "The Christian Science Monitor",
+          "byline": "Victoria Hoffmann and Mackenzie Farkus",
+          "date": "Jun 23, 2026",
+          "evergreen": true,
+          "url": "https://www.csmonitor.com/USA/Society/2026/0623/typewriters-digital-era-analog"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A New Stone Timeline Marks Lost Hicks Hall on St John Street",
+          "source": "A London Inheritance",
+          "date": "Oct 25",
+          "url": "https://alondoninheritance.com/london-characters/a-thames-artist-and-the-new-hicks-hall-memorial/",
+          "image": "https://alondoninheritance.com/wp-content/uploads/2026/10/Hicks-Hall-memorial-13-scaled.jpg"
+        },
+        {
+          "headline": "Forged Letters and Fake Catholic Plots in Elizabethan England",
+          "source": "Legal History Miscellany",
+          "byline": "Krista J. Kesselring",
+          "date": "Oct 10",
+          "url": "https://legalhistorymiscellany.com/2026/10/10/worthy-to-be-put-in-holinsheds-chronicle/"
+        },
+        {
+          "headline": "Lynn Hunt on How Napoleon Built Authoritarian Rule From Democratic Tools",
+          "source": "Age of Revolutions",
+          "byline": "Lynn Hunt",
+          "date": "Oct 26",
+          "url": "https://ageofrevolutions.com/2026/10/26/napoleon-a-crowned-washington/"
+        },
+        {
+          "headline": "Thomas McKean's Library Company Share and His 1796 Borrowing Letter",
+          "source": "Library Company of Philadelphia",
+          "byline": "Dana Dorman",
+          "evergreen": true,
+          "url": "https://librarycompany.org/2026/10/28/shareholder-spotlight-thomas-mckean/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Paul Schrader at 80 on Mortality, Cheap Financing and Writing Taxi Driver as Therapy",
+          "source": "Interview Magazine",
+          "byline": "Rebekah Sherman-Myntti",
+          "date": "Oct 26",
+          "url": "https://www.interviewmagazine.com/film/paul-schrader-taxi-driver-basics-of-philosophy-rebekah-sherman-myntti-downtown-film-festival"
+        },
+        {
+          "headline": "How a Flash Animation Craze Gave China Its First Wave of Indie Animation",
+          "source": "Animation Obsessive",
+          "date": "Oct 23",
+          "url": "https://animationobsessive.substack.com/p/digital-graffiti"
+        },
+        {
+          "headline": "Chicago Film Archives on Five Nitrate Films It Is Saving, From a 1923 Wedding to a 1948 Sunbathers' Convention",
+          "source": "Chicago Film Archives",
+          "date": "Oct 8",
+          "url": "https://www.chicagofilmarchives.org/news/2026/10/nfpf-nitrate-films/",
+          "image": "https://www.chicagofilmarchives.org/wp-content/uploads/2026/10/nfpf2026-miss-illinois-newsreel-web.jpg"
+        },
+        {
+          "headline": "A Visit to Silver Salt Restoration as It Cleaned the 1958 Dracula Frame by Frame",
+          "source": "What Hi-Fi?",
+          "byline": "Robyn Quick",
+          "date": "Aug 7, 2026",
+          "evergreen": true,
+          "url": "https://www.whathifi.com/av/i-saw-the-4k-restoration-of-a-classic-horror-movie-and-i-will-never-take-the-process-for-granted-again"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 28, 2026",
     "hero": {
       "headline": "Gulliver at 300, Seen Through a 1933 Pulp Story Set in the Year 3000",
