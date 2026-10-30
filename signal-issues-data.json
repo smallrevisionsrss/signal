@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "October 30, 2026",
+    "hero": {
+      "headline": "The Rhythm of the Grid: Art of Manga Teaches You to Read in Sequence",
+      "dek": "More than 600 original manga drawings have come to the Brooklyn Museum, hung to be read right to left. Seen side by side, they show how panel, line and rhythm turn still black-and-white pages into cinematic worlds, from Akatsuka Fujio's gag pages and Chiba Tetsuya's boxing to Oda Eiichiro's One Piece, with a Kinokuniya reading room at the centre. Through January 31, 2027.",
+      "byline": "By Small Revisions · Small Revisions",
+      "category": "craft",
+      "image": "https://signal.smallrevisions.com/assets/features/art-of-manga-title-wall.jpg",
+      "url": "https://signal.smallrevisions.com/features/art-of-manga-brooklyn-museum/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Building Practitioners Say Buildings Are Seldom Evaluated Once People Move In",
+          "source": "Buildings and Cities",
+          "byline": "Ant Marsh, Kate van Someren, Lara Clarke and Tom Randall",
+          "date": "Oct 22",
+          "url": "https://www.buildingsandcities.org/insights/commentaries/practitioners-views-poe.html",
+          "image": "https://www.buildingsandcities.org/media/images/articles5/Marsh1LoRes.jpg"
+        },
+        {
+          "headline": "How a Couple Carved an Ensuite Bathroom Out of a Bedroom Corner",
+          "source": "Young House Love",
+          "byline": "Sherry Petersik",
+          "date": "Oct 26",
+          "url": "https://www.younghouselove.com/adding-a-second-bathroom/"
+        },
+        {
+          "headline": "Three Type Designers Review the Cyrillic in Six Google Fonts Families",
+          "source": "type.today",
+          "byline": "Mikhail Strukov, Yury Ostromentsky and Ilya Ruderman",
+          "date": "Oct 23",
+          "url": "https://type.today/en/journal/geo2"
+        },
+        {
+          "headline": "The Herman Miller Picnic Posters Behind the Eames Institute's Own Annual Series",
+          "source": "Eames Institute",
+          "byline": "Shonquis Moreno",
+          "evergreen": true,
+          "url": "https://www.eamesinstitute.org/stories/summer-picnic-poster-designs/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "At Tamworth's Textiles Triennial, the Jacquard Loom Appears as a Precursor to Computing",
+          "source": "Memo Review",
+          "byline": "Siobhan Seeneevassen",
+          "date": "Oct 30",
+          "url": "https://www.memoreview.net/reviews/6th-tamworth-textiles-triennial-nature-machine-by-siobhan-seeneevassen"
+        },
+        {
+          "headline": "Chicago Photographer Lali Khalid on Letting Her Sitters Choose How They Are Seen",
+          "source": "Sixty Inches From Center",
+          "byline": "Saadia Pervaiz",
+          "date": "Oct 20",
+          "url": "https://sixtyinchesfromcenter.org/the-distance-we-carry-mehreen-lali-khalid-on-photography-diaspora-and-representation/",
+          "image": "https://sixtyinchesfromcenter.org/wp-content/uploads/2026/10/TSC_7877-scaled.jpg"
+        },
+        {
+          "headline": "Nam June Paik's Friendly Robots, and What They Suggest About Living With AI",
+          "source": "Cincinnati Art Museum",
+          "byline": "Franck Mercurio",
+          "date": "Oct 23",
+          "url": "https://cincinnatiartmuseum.org/about/blog/nam-june-paik-robots/"
+        },
+        {
+          "headline": "Super-Veloz, the 1940s Spanish Type System That Built Letters From Modular Pieces",
+          "source": "Letterform Archive",
+          "byline": "Chris Westcott",
+          "date": "Oct 27",
+          "url": "https://letterformarchive.org/news/super-veloz-q-and-a/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Carmen Villain Built Memoria by Wearing Down Her Own Archived Recordings",
+          "source": "A Closer Listen",
+          "byline": "Gianmarco Del Re",
+          "date": "Oct 29",
+          "url": "https://acloserlisten.com/2026/10/29/carmen-villian-memoria/"
+        },
+        {
+          "headline": "Jazz Journal Reprints Its 1986 Review of Steve Lacy's Soprano Album on Candid",
+          "source": "Jazz Journal",
+          "date": "Oct 29",
+          "url": "https://jazzjournal.co.uk/2026/10/29/jj-10-86-steve-lacy-the-straight-horn-of/"
+        },
+        {
+          "headline": "At Semibreve in Braga, Marta Salogni Plays Reel-to-Reels in a Seminary Chapel and Fennesz Joins an Orchestra",
+          "source": "The Quietus",
+          "byline": "Pedro João Santos",
+          "date": "Oct 29",
+          "url": "https://thequietus.com/quietus-reviews/live-reviews/semibreve-festival-braga-2026-review/",
+          "image": "https://thequietus.com/app/uploads/2026/10/Malcolm-Pardon-_-Gustaf-Broms-1024x683.jpg"
+        },
+        {
+          "headline": "Kinshasa Bands Build Their Instruments From the City's Scrap",
+          "source": "Pan African Music",
+          "byline": "Jacques Denis",
+          "date": "Nov 7, 2025",
+          "evergreen": true,
+          "url": "https://pan-african-music.com/en/kinshasa-recycled-musique/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "An 1880 Patent Model Shows How Inventors Fought the Potato Bug",
+          "source": "Hagley Museum and Library",
+          "byline": "Chris Cascio",
+          "date": "Oct 23",
+          "url": "https://www.hagley.org/librarynews/thanksgiving-patent-model"
+        },
+        {
+          "headline": "A Te Papa Intern Reflects on Working With the Museum's Pacific Collections",
+          "source": "Te Papa",
+          "byline": "Daniel Kumar",
+          "date": "Oct 19",
+          "url": "https://blog.tepapa.govt.nz/2026/10/19/from-collections-to-stories-reflecting-on-work-integrated-learning-at-te-papa/",
+          "image": "https://blog.tepapa.govt.nz/wp-content/uploads/2026/10/MA_I371075_TePapa_Fijian-Curios_full.jpg"
+        },
+        {
+          "headline": "A Reader Spots Dansco's Work in the Franklin Mint Album in Rockwell's The Collector",
+          "source": "The E-Sylum",
+          "byline": "Justin Hinh",
+          "date": "Oct 25",
+          "url": "https://www.coinbooks.org/v29/esylum_v29n43.html"
+        },
+        {
+          "headline": "The Automatic Balances That Weighed Britain's Gold and Silver Coins",
+          "source": "Royal Mint Museum",
+          "evergreen": true,
+          "url": "https://www.royalmintmuseum.org.uk/journal/curators-corner/automatic-balance/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Wedding at Sea, Lucille Lortel's Late Birth Certificate and NYPD Surveillance Files in New York's Archives",
+          "source": "NYC Municipal Archives",
+          "byline": "Patricia Glowinski and Matthew Minor",
+          "date": "Oct 27",
+          "url": "https://www.archives.nyc/blog/2026/10/6/a-of-our-favorite-things-part2"
+        },
+        {
+          "headline": "How Chetham's Library's Books Have Been Bound and Rebound Since the 1650s",
+          "source": "Chetham's Library",
+          "byline": "Brigid Corrigan",
+          "date": "Oct 22",
+          "url": "https://library.chethams.com/blog/binding-books-for-chethams-library/"
+        },
+        {
+          "headline": "A Wiltshire Conservator Cleans Corrosion From Roman Lead Curse Tablets",
+          "source": "Wiltshire and Swindon History Centre",
+          "date": "Oct 26",
+          "url": "https://wshc.org.uk/roman-curse-tablets/",
+          "image": "https://wshc.org.uk/wp-content/uploads/2026/10/Picture2.jpg"
+        },
+        {
+          "headline": "Why Bladder Stones Plagued England for Centuries and Then Almost Vanished",
+          "source": "Royal College of Physicians",
+          "byline": "Anita K Simonds",
+          "date": "Oct 27",
+          "url": "https://history.rcp.ac.uk/blog/strange-story-bladder-stone-epidemic-virtual-disappearance"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "In The Calf Doll, a Haryana Farmer Makes a Doll From a Stillborn Calf's Hide So His Cow Will Milk",
+          "source": "Vague Visages",
+          "byline": "Dipankar Sarkar",
+          "date": "Oct 29",
+          "url": "https://vaguevisages.com/2026/10/29/the-calf-doll-review-amazon-apple-ankur-hooda-movie-film/",
+          "image": "https://vaguevisages.com/wp-content/uploads/2026/10/The-Calf-Doll-Review-Amazon-Apple-Ankur-Hooda-Movie-Film-Three-Cropped.jpg"
+        },
+        {
+          "headline": "Laika's Wildwood Is a Marvel of Handmade Stop-Motion, Held Back by Its Story",
+          "source": "Sight and Sound",
+          "byline": "Leigh Singer",
+          "date": "Oct 28",
+          "url": "https://www.bfi.org.uk/sight-and-sound/reviews/wildwood-laikas-ambitious-fantasy-shows-its-spellbinding-stop-motion-craft"
+        },
+        {
+          "headline": "How 1950s Theatres Sold The Beast From 20,000 Fathoms and Hammer's Frankenstein",
+          "source": "Greenbriar Picture Shows",
+          "byline": "John McElwee",
+          "date": "Oct 26",
+          "url": "http://greenbriarpictureshows.blogspot.com/2026/10/more-halloween-harvest-for-2026.html"
+        },
+        {
+          "headline": "Laida Lertxundi on Starting Films From a Landscape and Working With Non-Actors",
+          "source": "Another Gaze",
+          "byline": "Irene Rihuete",
+          "date": "Aug 31, 2026",
+          "evergreen": true,
+          "url": "https://www.anothergaze.com/a-conversation-with-laida-lertxundi/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 29, 2026",
     "hero": {
       "headline": "Durham Launches a New Jazz Festival in a City That Has Struggled to Keep a Scene",

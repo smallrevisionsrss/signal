@@ -2183,6 +2183,13 @@ def render_writing_index(arts, domain):
                         "url": f"https://{domain}/features/"})
 
 
+# Signal heroes the editor allowed inside the 30-day limit, by dateLabel, with the
+# reason. One date per entry; the limit still applies to every other issue.
+SIGNAL_HERO_EXCEPTIONS = {
+    "October 30, 2026": "Art of Manga, 20 days after Teenage Engineering; editor's call, 30 Oct 2026",
+}
+
+
 def check_signal_pieces(pairs, arts):
     """The limits WRITING.md sets on Signal's own pieces, enforced so they
     cannot drift. A Signal piece is any hero or row whose url is one of our
@@ -2216,7 +2223,7 @@ def check_signal_pieces(pairs, arts):
             bad.append(f"{label}: {len(mine)} Signal pieces ({', '.join(mine)}); the limit is one per issue")
     heroes.sort()
     for (d1, l1), (d2, l2) in zip(heroes, heroes[1:]):
-        if (d2 - d1).days < 30:
+        if (d2 - d1).days < 30 and l2 not in SIGNAL_HERO_EXCEPTIONS:
             bad.append(f"{l2}: Signal hero only {(d2 - d1).days} days after {l1}; the limit is once a month")
     if bad:
         raise SystemExit("FAILED, Signal's own pieces break the issue limits:\n  - "
