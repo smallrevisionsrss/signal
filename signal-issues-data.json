@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "October 31, 2026",
+    "hero": {
+      "headline": "Inside the UC Santa Barbara Lab Turning 78s Into Free Recordings",
+      "dek": "Dust-to-Digital spends a Friday morning at UC Santa Barbara with preservationist Ian Evans, touring the labs, cold vault and stacks of the archive that runs the Discography of American Historical Recordings, a database of more than 460,000 masters made during the 78rpm era. Dust-to-Digital's partnership with the university has put more than 10,471 recordings online free. In the Henri Temianka Audio Preservation Lab, Eric Ederer works through about twelve records an hour, around 4,500 this year, while students under associate editor Fran Smith decipher century-old Victor ledgers. A listener in Spain identified a test pressing UCSB knew only from old newspaper articles.",
+      "byline": "By Dust-to-Digital and April Ledbetter · Dust-to-Digital",
+      "category": "sound-vinyl",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/4d57489f-3e4d-4ffc-abd8-cedda96b4595_3024x2016.jpeg",
+      "url": "https://dusttodigital.substack.com/p/the-archive-where-our-preserved-recordings"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Monte Verità's Anarchist Commune Ended Up as a Modernist Hotel",
+          "source": "ARCHITECT",
+          "byline": "Aaron Betsky",
+          "date": "Oct 11, 2026",
+          "evergreen": true,
+          "url": "https://www.architectmagazine.com/design/monte-verita-architecture-utopia-modernist-hotel/",
+          "image": "https://www.architectmagazine.com/wp-content/uploads/sites/5/2026/10/Bauhaus-Hotel-1.jpeg"
+        },
+        {
+          "headline": "A2 Type Builds Four Typefaces From the Louisiana Museum's Printed Archive",
+          "source": "It's Nice That",
+          "byline": "Harry Bennett",
+          "date": "Oct 28",
+          "url": "https://www.itsnicethat.com/articles/a2-type-louisiana-museum-of-modern-art-graphic-design-project-281026"
+        },
+        {
+          "headline": "Amy Sacker Designed More Than 345 Book Covers in Boston",
+          "source": "Library of Congress",
+          "byline": "Leslie Long",
+          "date": "Oct 19",
+          "url": "https://blogs.loc.gov/preservation/2026/10/miss-amy-sackers-school-of-decorative-design-book-cover-designs-by-amy-maria-sacker-1872-1965/"
+        },
+        {
+          "headline": "Amsterdam and Maastricht Built Isolated Estates to Retrain Families Judged Antisocial",
+          "source": "Municipal Dreams",
+          "date": "Oct 13",
+          "url": "https://municipaldreams.wordpress.com/2026/10/13/woonschoolen-in-amsterdam-and-maastricht-in-the-interwar-and-postwar-era/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Aspen Golann Carves 17th-Century Embroidery Motifs Into Wooden Vessels",
+          "source": "Colossal",
+          "byline": "Kate Mothes",
+          "date": "Oct 30",
+          "url": "https://www.thisiscolossal.com/2026/10/aspen-golann-woodworking-embroidery-vessels-sculpture/"
+        },
+        {
+          "headline": "Curator Tarini Malik Pairs Mohammed Joha and Ala Younis on What Buildings Remember",
+          "source": "Elephant",
+          "byline": "Tarini Malik",
+          "date": "Oct 28",
+          "url": "https://elephant.art/tarini-malik-on-what-buildings-remember/",
+          "image": "https://elephant.art/wp-content/uploads/2026/10/Mohammed-Joha-No-Shelter-01-2026.jpg"
+        },
+        {
+          "headline": "Ramona Jingru Wang Asks Her Friends How They Would Live as Cyborgs",
+          "source": "Foam",
+          "byline": "Mirjam Kooiman",
+          "date": "Oct 29",
+          "url": "https://www.foam.org/articles/studio-visit-ramona-jingru-wang"
+        },
+        {
+          "headline": "In Uncool, Debora Brune Photographs 26 People With Disabilities",
+          "source": "Office Magazine",
+          "byline": "Nicky DeMarie",
+          "date": "Oct 27",
+          "url": "https://officemagazine.net/debora-brunes-photos-put-disability-foreground"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "An Archivist Assesses the Great 78 Project After the Takedowns",
+          "source": "The American Archivist Reviews Portal",
+          "byline": "Matt Testa",
+          "date": "Oct 6",
+          "url": "https://reviews.americanarchivist.org/2026/10/06/the-great-78-project/"
+        },
+        {
+          "headline": "A Shelburne Falls Church Sends Its 1883 Hook & Hastings Organ Out for a Year of Restoration",
+          "source": "Greenfield Recorder",
+          "byline": "Virginia Ray",
+          "date": "Oct 23",
+          "url": "https://recorder.com/2026/10/23/trinity-church-organ-restoration/"
+        },
+        {
+          "headline": "The Misfits Cut Static Age in Twenty Hours and Waited Eighteen Years to Release It",
+          "source": "Louder",
+          "byline": "Metal Hammer",
+          "date": "Apr 4, 2026",
+          "evergreen": true,
+          "url": "https://www.loudersound.com/music/albums/misfits-static-age-story-behind-the-album",
+          "image": "https://cdn.mos.cms.futurecdn.net/P5TfoGCbmr4jdYVxELBJfg-1280-80.jpg"
+        },
+        {
+          "headline": "Five basehead AI Tools Tested for Curating Sound Effects Metadata",
+          "source": "Creative Field Recording",
+          "byline": "Paul Virostek",
+          "date": "Oct 22",
+          "url": "https://www.creativefieldrecording.com/2026/10/22/basehead-ai-skills/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Restoring a Bauer 707 AM Broadcast Transmitter Rescued From a Station Clear-Out",
+          "source": "WhitakerAudio",
+          "date": "Oct 30",
+          "url": "https://whitakeraudio.com/2026/10/bauer-707-am-broadcast-transmitter/",
+          "image": "https://whitakeraudio.com/wp-content/uploads/2026/06/bauer-707-transmitter-02-1024x720.jpg"
+        },
+        {
+          "headline": "A Philadelphia Contractor Fills a Sharswood Rowhouse With Signs and Primitives",
+          "source": "The Philadelphia Inquirer",
+          "byline": "Zoe Rosenberg",
+          "date": "Oct 28",
+          "url": "https://www.inquirer.com/real-estate/home/a/rareco-vintage-store-art-collection-house-tour-flea-markets-20261028.html"
+        },
+        {
+          "headline": "Bringing Back a 1987 Philips AV7300 Tuner to Turn Retro Computer RF Into Composite Video",
+          "source": "Andrew Dorey",
+          "byline": "Andrew Dorey",
+          "date": "Oct 28",
+          "url": "https://andrewdorey.com/post/philips-av7300-tuner"
+        },
+        {
+          "headline": "Isabella Stewart Gardner's Egyptian Objects, From Desert Sand to a Possible Forgery",
+          "source": "Isabella Stewart Gardner Museum",
+          "byline": "Jen Thum",
+          "date": "Oct 13",
+          "url": "https://www.gardnermuseum.org/blog/encountering-ancient-egypt-gardner"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Medieval Plague Flea Turned Up Inside a 13th-Century Missal in Melbourne",
+          "source": "State Library Victoria",
+          "date": "Oct 30",
+          "url": "https://www.slv.vic.gov.au/stories/medieval-plague-flea-library-collection"
+        },
+        {
+          "headline": "The Women at the Edges of the Body Snatching Trade",
+          "source": "Royal College of Surgeons of England Library",
+          "byline": "Corinne Hogan",
+          "date": "Oct 21",
+          "url": "https://www.rcseng.ac.uk/library-and-publications/library/blog/women-in-the-shadows/"
+        },
+        {
+          "headline": "The Hull Truck Theatre Archive Gets Its First Box Listing",
+          "source": "Hull History Centre",
+          "byline": "Verity Minniti",
+          "date": "Oct 14",
+          "url": "https://hullhistorycentre.blogspot.com/2026/10/hull-truck-theatre-archive-project-act.html"
+        },
+        {
+          "headline": "A Worcestershire Family Archive Holds Henry Davies's Expedition Photographs From Burma and Yunnan",
+          "source": "Worcestershire Archive and Archaeology Service",
+          "byline": "Thomas Guise",
+          "date": "Oct 29",
+          "url": "https://www.explorethepast.co.uk/2026/10/the-shan-to-yunnan-the-travels-of-henry-r-davies-and-his-journeys-through-burma-myanmar-and-china/",
+          "image": "https://www.explorethepast.co.uk/wp-content/uploads/2026/09/BA4351_4_New-300x184.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Richard Donner's The Omen Still Knows How to Betray Its Catholic Imagery",
+          "source": "Los Angeles Review of Books",
+          "byline": "Greg Cwik",
+          "date": "Oct 30",
+          "url": "https://lareviewofbooks.org/article/omen-richard-donner-damien-antichrist-god-satan-horror/"
+        },
+        {
+          "headline": "Fielder and Oppenheim's Elizabeth Holmes Film Devolves Into Metafiction",
+          "source": "The Village Voice",
+          "byline": "Michael Atkinson",
+          "date": "Oct 16",
+          "url": "https://www.villagevoice.com/review-mendaciously-tantalizing-you-can-see-everything-devolves-into-metafictional-sludge/",
+          "image": "https://www.villagevoice.com/wp-content/uploads/2026/10/1_YCSE_fr_a24.jpg"
+        },
+        {
+          "headline": "A Book on Owen Roizman Shows How He Lit The Exorcist and The French Connection",
+          "source": "Films in Review",
+          "byline": "John Larkin",
+          "date": "Oct 29",
+          "url": "https://www.filmsinreview.com/post/owen-roizman-life-behind-the-camera"
+        },
+        {
+          "headline": "Restoring Doctor X, the First Horror Feature Shot Entirely in Colour",
+          "source": "UCLA Film & Television Archive",
+          "date": "Jul 12, 2021",
+          "evergreen": true,
+          "url": "https://cinema.ucla.edu/blog/restoring-doctor-x-the-first-all-technicolor-horror-feature/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 30, 2026",
     "hero": {
       "headline": "The Rhythm of the Grid: Art of Manga Teaches You to Read in Sequence",
