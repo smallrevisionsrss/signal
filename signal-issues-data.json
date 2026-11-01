@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "November 1, 2026",
+    "hero": {
+      "headline": "La Source Vive, a Copper Concert Hall Above Lake Geneva, Was Tuned With a Digital Twin",
+      "dek": "Kate Wagner examines La Source Vive, a 500-seat chamber music hall at Évian-les-Bains in the hills above Lake Geneva, designed by PCA-STREAM under Philippe Chiambaretta with interiors by Patrick Bouchain. Its oval, conical concrete shell was poured over timber formwork, finished in plaster and wrapped in a copper-clad timber outer structure. The late acoustician Albert Xu set most of the acoustic decisions, and a digital twin built with the META laboratory tested seats and baffles before construction, aiming for a reverberation time of 1.8 seconds.",
+      "byline": "By Kate Wagner · Metropolis",
+      "category": "design-arch",
+      "image": "https://metropolismag.com/wp-content/uploads/2026/10/01_LA-SOURCE-VIVE-%C2%A9SALEM-MOSTEFAOUI-POUR-PCA-STREAM-2400x1350-2.jpg",
+      "url": "https://metropolismag.com/projects/inside-pca-stream-unconventional-concert-hall/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Alen Kapetanovic Designs, Kerns and Masters Every SilverStag Typeface Himself",
+          "source": "TYPE01",
+          "byline": "Poppy Thaxter",
+          "date": "Oct 29",
+          "url": "https://type-01.com/silverstag-alen-kapetanovic-on-running-a-one-man-band-that-crafts-every-letter-by-hand/",
+          "image": "https://type-01.com/wp-content/uploads/2026/10/30-sltf-arcilla-variable-editorial-serif-font-family-by-silverstag-type-foundry.jpg"
+        },
+        {
+          "headline": "Tassilo von Grolman's Mono Classic Teapot Gives the Leaves Almost the Whole Pot",
+          "source": "industrialkonzept",
+          "date": "Oct 29",
+          "url": "https://industrialkonzept.com/blogs/editorial/mono-classic-teapot-grolman"
+        },
+        {
+          "headline": "A San Francisco Renter Remakes a 615-Square-Foot Apartment After a Breakup",
+          "source": "Apartment Therapy",
+          "byline": "Adrienne Breaux",
+          "date": "Oct 30",
+          "url": "https://www.apartmenttherapy.com/615-square-foot-san-francisco-apartment-37697189"
+        },
+        {
+          "headline": "Nara's 1908 Radial Prison Becomes a 48-Suite Hotel",
+          "source": "Interior Design",
+          "byline": "Elizabeth Fazarre",
+          "date": "Oct 13",
+          "url": "https://interiordesign.net/projects/the-hoshinoya-nara-prison-boutique-hotel/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Eric N. Mack Makes Collages From Kente Cloth, an Issey Miyake Sweater and Kimono Silk",
+          "source": "The Brooklyn Rail",
+          "byline": "Lilly Wei",
+          "date": "Oct 20",
+          "url": "https://brooklynrail.org/2026/10/artseen/eric-n-mack-you-red-the-shirt-off-my-back/"
+        },
+        {
+          "headline": "Seth Price on Chance, Duchamp and the Film Now in Its Eleventh Version",
+          "source": "Kunstkritikk",
+          "byline": "Stian Gabrielsen",
+          "date": "Oct 26",
+          "url": "https://kunstkritikk.com/the-first-task-is-to-keep-it-exciting-for-yourself/",
+          "image": "https://cdn.kunstkritikk.no/uploads/2026/10/portrett-seth-price.jpeg"
+        },
+        {
+          "headline": "Luigi and Iango Edit in Separate Rooms and Keep Choosing the Same Photograph",
+          "source": "Artribune",
+          "byline": "Manuela De Leonardis",
+          "date": "Oct 31",
+          "url": "https://artribune.com/arti-visive/fotografia/2026/10/intervista-luigi-iango"
+        },
+        {
+          "headline": "The Emaciated Stone Corpse in the Crypt at St John's Gate",
+          "source": "Spitalfields Life",
+          "byline": "The Gentle Author",
+          "date": "Oct 30",
+          "url": "https://spitalfieldslife.com/2026/10/30/the-dead-man-in-clerkenwell-iiii/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Kid Fourteen Goes From Beirut's Noise and Punk Bands to a Pop Record",
+          "source": "SceneNoise",
+          "byline": "Riham Issa",
+          "date": "Oct 31",
+          "url": "https://scenenoise.com/Features/Far-Away-and-Well-Adjusted-Kid-Fourteen-on-Finding-His-Anchor-in-Pop"
+        },
+        {
+          "headline": "Hana Stretton Built tiarn From Vocal Loops, Room Sound and a Synth Bought in Tokyo in 1991",
+          "source": "Tape Op",
+          "byline": "John Baccigaluppi",
+          "evergreen": true,
+          "url": "https://tapeop.com/interviews/176/hana-stretton"
+        },
+        {
+          "headline": "Kali Malone Recorded Burning Song on the Bach Organ at Leipzig's Thomaskirche",
+          "source": "Paste",
+          "byline": "aly eleanor",
+          "date": "Oct 30",
+          "url": "https://www.pastemagazine.com/music/kali-malone/kali-malone-interview-october-2026",
+          "image": "https://www.pastemagazine.com/wp-content/uploads/2026/10/30/Hi-Res-Image-Kali-Malone-by-Kingsley-Ifill-4-1-scaled.jpg"
+        },
+        {
+          "headline": "Great Falls Bend Sludge Riffs Into Dissonance on The Bite That Grows Up",
+          "source": "PopMatters",
+          "byline": "Spyros Stasis",
+          "date": "Oct 29",
+          "url": "https://www.popmatters.com/great-falls-bite-that-grows-up"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Renoir Would Tolerate Only Old Frames Carved in Hard Wood",
+          "source": "The Frame Blog",
+          "date": "Oct 31",
+          "url": "https://theframeblog.com/2026/10/31/renoir-love-and-frames/"
+        },
+        {
+          "headline": "Buffalo Bill's Fame Left Collectors Postcards, Posters, Photographs and Figurines",
+          "source": "Delcampe",
+          "date": "Oct 26",
+          "url": "https://blog.delcampe.net/en/buffalo-bill-from-wild-west-hero-to-collecting-icon/",
+          "image": "https://blog.delcampe.net/wp-content/uploads/2026/09/473_001.jpg"
+        },
+        {
+          "headline": "Salvador Alanis Reads Art Toronto as a School for New Collectors",
+          "source": "Atono",
+          "byline": "Salvador Alanis",
+          "date": "Oct 30",
+          "url": "https://atonocentre.substack.com/p/the-new-collectors-art-toronto-and"
+        },
+        {
+          "headline": "A 1636 London Book Wears German Boards Tooled in 1569",
+          "source": "Notabilia",
+          "byline": "Stephen Ferguson",
+          "date": "Aug 23, 2026",
+          "evergreen": true,
+          "url": "https://notabilia.blogs.princeton.edu/2026/08/23/18th-century-remboitage-binding-german-boards-dated-1569-covering-1636-london-imprint/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "An Archivist at The Strong Takes On Springbok's 1964 Jackson Pollock Puzzle",
+          "source": "The Strong National Museum of Play",
+          "byline": "Laura Boland",
+          "date": "Oct 30",
+          "url": "https://www.museumofplay.org/blog/the-worlds-most-difficult-jigsaw-puzzle/",
+          "image": "https://www.museumofplay.org/app/uploads/2026/10/LB_puzzleblog_image01-1-scaled.jpg"
+        },
+        {
+          "headline": "Mary Queen of Scots Annotated Her 1566 Jewel Inventory With Bequests in Case She Died in Childbirth",
+          "source": "National Records of Scotland",
+          "byline": "Ross",
+          "date": "Oct 30",
+          "url": "https://blog.nrscotland.gov.uk/2026/10/30/treasures-of-national-records-of-scotland-inventory-of-mary-queen-of-scots-1566/"
+        },
+        {
+          "headline": "An 1877 Letter Leads to William Carpenter, the Royal Society Fellow Who Fought Spiritualism",
+          "source": "The Royal Society",
+          "byline": "Keith Moore",
+          "date": "Oct 30",
+          "url": "https://royalsociety.org/blog/2026/10/spirited-away/"
+        },
+        {
+          "headline": "Five Student Chemistry Notebooks and a Thesis, 1821 to 1912, at the Science History Institute",
+          "source": "Science History Institute",
+          "byline": "Taylor Bailey",
+          "date": "Oct 22",
+          "url": "https://www.sciencehistory.org/collections/blog/between-the-lines-beyond-the-bench/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "The BFI Holds Three Reels of a Scottish Talkie That Beat The Jazz Singer by a Year",
+          "source": "BFI",
+          "byline": "Marc David Jacobs",
+          "date": "Oct 26",
+          "url": "https://www.bfi.org.uk/features/scotland-jazz-singer-till-bells-ring"
+        },
+        {
+          "headline": "William Greaves Spent Eight Years Learning His Craft at the National Film Board of Canada",
+          "source": "NFB Blog",
+          "byline": "Marc St-Pierre",
+          "date": "Oct 28",
+          "url": "https://blog.nfb.ca/blog/2026/10/28/william-greaves-at-the-nfb-where-it-all-began/"
+        },
+        {
+          "headline": "The 1928 Fall of the House of Usher Was Shot in a Rochester Stable",
+          "source": "The Public Domain Review",
+          "byline": "Mathilde Montpetit",
+          "date": "Apr 9, 2026",
+          "evergreen": true,
+          "url": "https://publicdomainreview.org/collection/fall-of-the-house-of-usher/"
+        },
+        {
+          "headline": "At the Viennale, Three Filmmakers Turn Video Game Worlds Into Places to Mourn",
+          "source": "Filmkrant",
+          "byline": "Roosje van der Kamp",
+          "date": "Oct 28",
+          "url": "https://filmkrant.nl/festivals/viennale-2026-nieuwe-werelden/",
+          "image": "https://filmkrant.nl/wp-content/uploads/2026/10/rehearsals-for-retirement.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "October 31, 2026",
     "hero": {
       "headline": "Inside the UC Santa Barbara Lab Turning 78s Into Free Recordings",
