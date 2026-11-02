@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "November 2, 2026",
+    "hero": {
+      "headline": "The Villagers of Rosny Who Fought Their Serfdom for 47 Years",
+      "dek": "Around 1179 the villagers of Rosny-sous-Bois, east of Paris, began contesting their status as serfs of the Abbey of St Genevieve, to which Louis VII had granted the village by 1163. A royal judgment went against them; Pope Lucius III confirmed it in 1182, then reversed himself. In 1219 they argued serfdom left them unable to find spouses and Honorius III ordered an inquiry, while the monks won a royal licence for a jail. By 1226, 89 household heads had given up. The account draws on a 1939 article by Marc Bloch and ends in 1246, when the monks gave up their lordship for 60 livres a year.",
+      "byline": "By Peter Konieczny · Medievalists.net",
+      "category": "archives",
+      "image": "https://www.medievalists.net/wp-content/uploads/2026/11/medieval26110101.jpg",
+      "url": "https://www.medievalists.net/2026/11/the-medieval-villagers-who-fought-for-their-freedom-for-47-years/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Studio Plutarco Turns a 1990s Madrid Flat Into a Tour of 1930s Modernist Villas",
+          "source": "Yatzer",
+          "byline": "Eric David",
+          "date": "Nov 1",
+          "url": "https://www.yatzer.com/villa-2030-studio-plutarco-madrid-spain",
+          "image": "https://media.yatzer.com/28-Villa-2030-Studio-Plutarco-Madrid-Spain-photo-German-Saiz-yatzer-1400x1050.jpg"
+        },
+        {
+          "headline": "A Mexican Sculptor's Concrete Sea Monsters Made a California Playground Worth Saving",
+          "source": "Docomomo US",
+          "byline": "Erika Barbosa",
+          "date": "Oct 15",
+          "url": "https://docomomo-us.org/news/adventures-in-pacific-modernism-the-concrete-whimsy-of-la-laguna-de-san-gabriel"
+        },
+        {
+          "headline": "Portland Woodworker Danny Moulder Builds Mid-Century Furniture in Sapele and Douglas Fir",
+          "source": "Atomic Ranch",
+          "byline": "Kye Cardinalis",
+          "date": "Oct 28",
+          "url": "https://www.atomic-ranch.com/uncategorized/oregon-craftsmanship-meets-mid-century-modern-furniture/"
+        },
+        {
+          "headline": "How a Blood-Spattered Union Jack Replaced the Vampire on A Heritage of Horror",
+          "source": "Fonts In Use",
+          "byline": "Florian Hardwig",
+          "date": "Oct 31",
+          "url": "https://fontsinuse.com/uses/81045/a-heritage-of-horror-the-english-gothic-cinem"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Raphaël Denis Rebuilds the Paintings Looted From Paul Rosenberg's Paris Gallery in Black Panels",
+          "source": "Whitehot Magazine",
+          "byline": "Brian Block",
+          "date": "Oct 29",
+          "url": "https://whitehotmagazine.com/articles/works-at-bienvenu-steinberg-c/8146"
+        },
+        {
+          "headline": "A Photographer, Her Father and Her Grandfather Share One Photobook About Tirol's Vanishing Glaciers",
+          "source": "C4 Journal",
+          "byline": "Kris Kozlowski Moore",
+          "date": "Oct 28",
+          "url": "https://c4journal.com/allmoslechner-when-white-blankets/",
+          "image": "https://c4journal.com/wp-content/uploads/2026/10/image00026.jpg"
+        },
+        {
+          "headline": "A LACMA Print Curator Follows the Dance of Death From Dürer to Dix",
+          "source": "Unframed (LACMA)",
+          "byline": "Claire Spadafora Baes",
+          "date": "Oct 30",
+          "url": "https://unframed.lacma.org/2026/10/30/grave-and-engraved-death-and-danse-macabre-print"
+        },
+        {
+          "headline": "Obianuju Toth on Packing Away Her Ankara Jewelry and Returning to Making",
+          "source": "AFRICANAH.ORG",
+          "byline": "Obianuju Toth",
+          "date": "Oct 18",
+          "url": "https://africanah.org/50402-2/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Mark Wastell and Charlotte Keeffe Improvise With a Warped Cymbal and a Flugelhorn in Shoreditch",
+          "source": "UK Jazz News",
+          "byline": "Geoff Winston",
+          "date": "Nov 1",
+          "url": "https://ukjazznews.com/mark-wastell-and-charlotte-keeffe-at-hundred-years-gallery/"
+        },
+        {
+          "headline": "Matthew Aucoin's Seventy-Minute Oratorio on Jorie Graham Poems Gets Its First Recording",
+          "source": "The Arts Fuse",
+          "byline": "Jonathan Blumhofer",
+          "date": "Nov 1",
+          "url": "https://artsfuse.org/336755/classical-album-review-matthew-aucoins-music-for-new-bodies-poses-big-questions-with-uneven-answers/"
+        },
+        {
+          "headline": "Developers From Plogue, Surge and Audio Damage Turn $40 Game Handhelds Into Music Machines",
+          "source": "CDM Create Digital Music",
+          "byline": "Peter Kirn",
+          "date": "Oct 30",
+          "url": "https://cdm.link/sndstation-linux-distro-for-game-handhelds/",
+          "image": "https://cdm.link/app/uploads/2026/10/d7f032fd-fa0d-44bf-b747-0b4ef56573fb.jpeg"
+        },
+        {
+          "headline": "Four Electric String Players on What They Pack to Survive a Tour",
+          "source": "Strings",
+          "byline": "David Templeton",
+          "evergreen": true,
+          "url": "https://stringsmagazine.com/road-warriors-electric-string-players-tour-tested-tips-for-traveling-with-gear/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A 1984 ManTech Colouring Book Barely Features ManTech",
+          "source": "Plaid Stallions",
+          "byline": "Mantooth",
+          "date": "Nov 1",
+          "url": "https://plaidstallions.com/reboot/colouring-book-theatre-mantech/",
+          "image": "https://plaidstallions.com/reboot/wp-content/uploads/2026/11/CBT.jpg"
+        },
+        {
+          "headline": "A Client's 20th-Century Furniture Collection Is Placed Room by Room in a Beverly Hills House",
+          "source": "1stDibs Introspective",
+          "byline": "Claudia Baillie",
+          "date": "Nov 1",
+          "url": "https://www.1stdibs.com/introspective-magazine/studio-m-haas/"
+        },
+        {
+          "headline": "Garance Primat Calls Collecting Less About Possession Than About Care",
+          "source": "TLmagazine",
+          "byline": "Blaire Dessent",
+          "date": "Oct 23",
+          "url": "https://tlmagazine.com/garance-primat-a-living-collection/"
+        },
+        {
+          "headline": "Nicholas Royle Retraces the Journeys of His Secondhand Books",
+          "source": "Fine Books & Collections",
+          "byline": "Alex Johnson",
+          "evergreen": true,
+          "url": "https://www.finebooksmagazine.com/issue/collector-nicholas-royle-retraces-journeys-his-books"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "How Pamphleteers Read the 1607 Bristol Channel Flood as a Warning From God",
+          "source": "The Public Domain Review",
+          "byline": "Erik Crnkovich",
+          "date": "Oct 28",
+          "url": "https://publicdomainreview.org/essay/wonderful-weather"
+        },
+        {
+          "headline": "A 1912 Rhyming Book Curse in an 1875 Missionary Prize at Rauner Library",
+          "source": "Rauner Special Collections Library",
+          "date": "Oct 30",
+          "url": "https://raunerlibrary.blogspot.com/2026/10/a-little-charity-maybe.html"
+        },
+        {
+          "headline": "Alexander Morrison Reviews Michael Khodarkovsky's History of the Steppe and Its Empires",
+          "source": "Engelsberg Ideas",
+          "byline": "Alexander Morrison",
+          "date": "Oct 30",
+          "url": "https://engelsbergideas.com/reviews/what-did-the-mongols-do-for-eurasia/",
+          "image": "https://engelsbergideas.com/wp-content/uploads/2026/10/Mikhail-Ivanovich-Avilov-The-Duel-of-Peresvet-and-Chelubey-at-the-Battle-of-Kulikovo.jpg"
+        },
+        {
+          "headline": "How Shanghai's Sing-Song Girls Lost Their Standing",
+          "source": "JSTOR Daily",
+          "byline": "H.M.A. Leow",
+          "date": "Oct 30",
+          "url": "https://daily.jstor.org/the-rise-and-fall-of-shanghais-sing-song-girls/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Ramsey Avery Built Whalefall's Sperm Whale Stomachs From Antibacterial Bedding Foam",
+          "source": "The Credits",
+          "byline": "Bryan Alkemeyer",
+          "date": "Nov 1",
+          "url": "https://www.motionpictures.org/2026/11/from-monterey-bay-to-a-whales-belly-production-designer-ramsey-averys-incredible-whalefall-design-challenge/"
+        },
+        {
+          "headline": "Kim Ji-yong Shot Lee Chang-dong's Possible Love With Mostly Natural Light",
+          "source": "Definition",
+          "byline": "Oliver Webb",
+          "date": "Oct 28",
+          "url": "https://definitionmagazine.com/features/possible-love-cinematographer-kim-ji-yong/"
+        },
+        {
+          "headline": "Chiara Magri on Training Twenty Animators a Year at Italy's National Film School",
+          "source": "Offscreen",
+          "byline": "Viktor Smolkin",
+          "evergreen": true,
+          "url": "https://offscreen.com/view/interview-with-artistic-director-chiara-magri"
+        },
+        {
+          "headline": "Lance Hammer Workshopped Queen at Sea With His Actors Eighteen Years After Ballast",
+          "source": "The Moveable Fest",
+          "byline": "Stephen Saito",
+          "date": "Oct 30",
+          "url": "https://moveablefest.com/lance-hammer-queen-at-sea/",
+          "image": "https://moveablefest.com/wp-content/uploads/2026/10/QueenatSeaLanceHammer.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 1, 2026",
     "hero": {
       "headline": "La Source Vive, a Copper Concert Hall Above Lake Geneva, Was Tuned With a Digital Twin",
