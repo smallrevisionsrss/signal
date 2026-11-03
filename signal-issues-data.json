@@ -1,5 +1,205 @@
 [
   {
+    "dateLabel": "November 3, 2026",
+    "hero": {
+      "headline": "Young Projects Designs Houses From Digital Models That Artisans Change by Hand",
+      "dek": "Young Projects, the Brooklyn studio Bryan Young founded in 2010 alongside Mallory Shure, treats fabrication and experiment as central to design. Work that starts as a digital inquiry often changes once it reaches an artisan's hands, and the studio welcomes the happy accidents. Laura Feinstein walks through the results: the Six Square House in Bridgehampton, which reimagines a 19th-century Hamptons barn type as six gabled 24-by-24-foot volumes around a courtyard; Casa las Olas in the Dominican Republic, roofed with 160 uniquely shaped scissor trusses; and its guest structure, the Glitch House, clad in more than 10,000 handmade encaustic cement tiles.",
+      "byline": "By Laura Feinstein · Metropolis",
+      "category": "design-arch",
+      "image": "https://metropolismag.com/wp-content/uploads/2026/10/SC2640_0805_041-2400x1350-1.jpg",
+      "url": "https://metropolismag.com/profiles/young-projects-designs-for-the-unknown/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "MORQ and Neometro Treat the Corridors of 49 Walsh Street as Rooms in Their Own Right",
+          "source": "Indesignlive",
+          "byline": "Dakota Bennett",
+          "date": "Nov 3",
+          "url": "https://www.indesignlive.com/articles/49-walsh-street-morq-neometro",
+          "image": "https://cdn.indesignlive.com/wp-content/uploads/v2/2026/11/NEO009-49-Walsh-044-MichaelPham-WebRes.jpg"
+        },
+        {
+          "headline": "Emile Claveau's Aluminium Front-Drive Descartes Found No Backers in Postwar France",
+          "source": "Driven to Write",
+          "byline": "Bruno V",
+          "date": "Nov 2",
+          "url": "https://driventowrite.com/2026/11/02/book-of-the-dead-claveau-part-2/"
+        },
+        {
+          "headline": "Don Chadwick Traces Five Chairs, From a Roto-Molded Knoll Prototype to the Ballo",
+          "source": "Interview Magazine",
+          "byline": "Jonathan Olivares",
+          "date": "Dec 19, 2018",
+          "evergreen": true,
+          "url": "https://www.interviewmagazine.com/culture/a-life-in-chairs-with-industrial-designer-don-chadwick"
+        },
+        {
+          "headline": "Karol Mularczyk Explains How Headline Lettering for a Jewellery Shop Grew Into the Yowza Type System",
+          "source": "Blaze Type",
+          "byline": "Sebastien Hayez",
+          "date": "Oct 14",
+          "url": "https://blazetype.eu/blog/yowza"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Tate Modern Arranges Its Ana Mendieta Survey by Place, Opening With The Cave",
+          "source": "Hyperallergic",
+          "byline": "Anna Souter",
+          "date": "Nov 2",
+          "url": "https://hyperallergic.com/ana-mendietas-lasting-imprint-on-art/"
+        },
+        {
+          "headline": "Viviane Sassen Tells IMA Why a Single Photograph Can Hold Many Meanings",
+          "source": "IMA ONLINE",
+          "byline": "Ivan Vartanian",
+          "date": "Oct 15",
+          "url": "https://imaonline.jp/articles/interview/Viviane_Sassen_myriads/",
+          "image": "https://imaonline.jp/wp-content/uploads/2026/10/fa34cfdda44d45170c84cda3a7081a68-1024x683.png"
+        },
+        {
+          "headline": "The Textile Research Centre Traces a History of Gloves Through Its More Than 300 Pairs",
+          "source": "Textile Research Centre",
+          "byline": "Emilie Lambert",
+          "date": "Oct 17",
+          "url": "https://www.trc-leiden.nl/trc/index.php/en/blog/1887-a-history-of-gloves"
+        },
+        {
+          "headline": "Street Photographer Junya Suzuki Looks for the Quiet After in Aesthetic of After",
+          "source": "Booooooom",
+          "date": "Oct 30",
+          "url": "https://www.booooooom.com/2026/10/30/aesthetic-of-after-by-photographer-junya-suzuki/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "GDP Quietly Walked Away From Rap, Then Came Back With His First Solo Album in 13 Years",
+          "source": "Bandcamp Daily",
+          "byline": "Blake Gillespie",
+          "date": "Nov 2",
+          "url": "https://daily.bandcamp.com/features/gdp-rapper-run-for-cover-interview"
+        },
+        {
+          "headline": "Organist Kåre Nordstoga Finishes Recording Bach's Organ Works, Played on Organs Across Several Countries",
+          "source": "15 Questions",
+          "date": "Oct 28",
+          "url": "https://15questions.net/interview/kare-nordstoga-about-interpretation/"
+        },
+        {
+          "headline": "Tim Sommer, Who Saw the Misfits in Their Prime, Calls Walk Among Us a Letdown",
+          "source": "Rock and Roll Globe",
+          "byline": "Tim Sommer",
+          "date": "Mar 29, 2022",
+          "evergreen": true,
+          "url": "https://rockandrollglobe.com/punk/misfits-or-martians-walk-among-us-turns-40/",
+          "image": "https://rockandrollglobe.com/wp-content/uploads/2022/03/Misfits-Walk-Among-Us-at-40-rnrg-splash-page-.jpg"
+        },
+        {
+          "headline": "Beethoven Carried Schiller's Ode to Joy for Decades Before It Became the Ninth",
+          "source": "The Marginalian",
+          "byline": "Maria Popova",
+          "date": "Nov 2",
+          "url": "https://www.themarginalian.org/2026/11/02/beethoven-ode-to-joy/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The Bowler Hat, Model Trains and Pin-Covered Plaster Fruit Sold From Magritte's Studio in 1987",
+          "source": "Sotheby's",
+          "byline": "James Haldane",
+          "date": "Oct 30",
+          "url": "https://www.sothebys.com/en/articles/going-going-gone-the-real-objects-of-magrittes-imaginary-world"
+        },
+        {
+          "headline": "A Swimming Automaton, a Lobster-Shell Man and a Doll-Sized Electric Chair From The Strong's Founding Collection",
+          "source": "The Strong National Museum of Play",
+          "byline": "Marli Simmons",
+          "date": "Oct 23",
+          "url": "https://www.museumofplay.org/blog/three-eerie-objects-from-the-museums-founding-collection/",
+          "image": "https://www.museumofplay.org/app/uploads/2026/10/Pic-1-1024x685.jpg"
+        },
+        {
+          "headline": "The Städel Buys Guido Reni's Earliest Secure Portrait, a Cardinal Its Former Owners Would Not Lend",
+          "source": "Städel Stories",
+          "byline": "Bastian Eclercy",
+          "date": "Oct 29",
+          "url": "https://stories.staedelmuseum.de/de/guido-reni-kardinal"
+        },
+        {
+          "headline": "A Dealer's Guide to Buying a First Antique Buddha",
+          "source": "Journal of Antiques & Collectibles",
+          "byline": "Peter Vredeveld",
+          "date": "Oct 30",
+          "url": "https://journalofantiques.com/antique-marketplace-news/educational-resources/choosing-your-first-antique-buddha/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Old Flatbush Farmhouses Photographed Around 1900, Then Again in the 1940s and Today",
+          "source": "New York Public Library",
+          "byline": "Kanisha Greaves",
+          "date": "Oct 30",
+          "url": "https://www.nypl.org/blog/2026/10/30/historical-views-brooklyns-past-old-flatbush"
+        },
+        {
+          "headline": "Samuel Insull Built an Electric Empire and Lost It After 1929",
+          "source": "Library of Congress",
+          "byline": "Ellen Terrell",
+          "date": "Oct 22",
+          "url": "https://blogs.loc.gov/inside_adams/2026/10/samuel-insull/"
+        },
+        {
+          "headline": "How Kansas Conservators Housed Parchment Documents With Hanging Wax Seals",
+          "source": "Kenneth Spencer Research Library",
+          "byline": "Whitney Baker",
+          "date": "Oct 28",
+          "url": "https://blogs.lib.ku.edu/spencer/housing-small-parchment-items-with-pendent-and-tongue-seals/",
+          "image": "https://blogs.lib.ku.edu/spencer/wp-content/uploads/2026/10/2_LocalizedHF_PendentSeals-1024x768.jpg"
+        },
+        {
+          "headline": "Edinburgh's Graphic Design Team Preserved Its IT Bulletins From CDs More Than 20 Years Old",
+          "source": "University of Edinburgh",
+          "byline": "Sonia Virdi",
+          "date": "Mar 11, 2025",
+          "evergreen": true,
+          "url": "https://blogs.ed.ac.uk/website-communications/graphic-design-at-the-university-of-edinburgh-a-legacy-preserved/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Matt King Went From Dishwashing in Los Angeles to Filming for Etnies and Emerica",
+          "source": "Jenkem Magazine",
+          "byline": "Ben Komins",
+          "date": "Oct 30",
+          "url": "https://www.jenkemmag.com/home/2026/10/30/matt-king-is-breathing-new-life-into-two-classic-skate-shoe-brands/",
+          "image": "https://cdn.jenkemmag.com/mediaAssetsMaster/2026/10/MATTKING-1024x614.png"
+        },
+        {
+          "headline": "Bill Douglas Recalls Paying for the Pictures With Jam Jars",
+          "source": "Sabzian",
+          "byline": "Bill Douglas",
+          "date": "Oct 21",
+          "url": "https://www.sabzian.be/text/palace-of-dreams"
+        },
+        {
+          "headline": "Johann Lurf Explains Why He Built a Camera to Shoot Forever...Forever in VistaRama65",
+          "source": "in70mm.com",
+          "byline": "Marcus Vetter",
+          "date": "Oct 23",
+          "url": "https://www.in70mm.com/presents/library/orphan/2026_forever/lurf/uk/index.htm"
+        },
+        {
+          "headline": "How Southern Censors, More Than Directors or Writers, Shaped Hollywood's Version of the South",
+          "source": "MUBI Notebook",
+          "byline": "Z. W. Lewis",
+          "date": "Nov 3",
+          "url": "https://mubi.com/en/notebook/posts/can-this-be-dixie-building-the-hollywood-south"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 2, 2026",
     "hero": {
       "headline": "The Villagers of Rosny Who Fought Their Serfdom for 47 Years",
