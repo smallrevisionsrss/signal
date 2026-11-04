@@ -1,5 +1,206 @@
 [
   {
+    "dateLabel": "November 4, 2026",
+    "hero": {
+      "headline": "Agatha Christie's Berkshire Years, Traced Through the County's Own Records",
+      "dek": "The Royal Berkshire Archives follows Agatha Christie through Berkshire using its own catalogued records. In the 1920s she and Archie Christie took a flat in a large Victorian house called Scotswood in Sunningdale so he could be near Sunningdale Golf Club, and the club's annual report records the couple beating Mr and Mrs Burberry at foursomes at the spring meeting of 1926. They moved to Styles, which Christie came to call an unlucky house, and she disappeared from it in December 1926. With Max Mallowan she bought Winterbrook House in Wallingford in 1934. She died in January 1976 and is buried at Cholsey, recorded in the parish register as of Winterbrook House.",
+      "byline": "By Royal Berkshire Archives · Royal Berkshire Archives",
+      "category": "archives",
+      "image": "https://www.royalberkshirearchives.org.uk/wp-content/uploads/2026/10/OS-XLVIII.15-004.jpg",
+      "url": "https://www.royalberkshirearchives.org.uk/blog/agatha-christies-berkshire"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "James Rojas Revisits the Downtown Los Angeles Streets Where Its Queer Social Life Once Happened",
+          "source": "Common Edge",
+          "byline": "James Rojas",
+          "date": "Oct 29",
+          "url": "https://commonedge.org/chasing-the-ghosts-of-downtown-los-angeles/",
+          "image": "https://commonedge.org/wp-content/uploads/2026/10/D71B7D72-C689-4A36-AA5A-D668F0DF34A2-e1793277751534-1000x625.png"
+        },
+        {
+          "headline": "Afraa Ahmed's Modular Home Outside Melbourne Doubles as a Prayer Room and a Place for Weddings",
+          "source": "The Design Files",
+          "byline": "Christina Karras",
+          "date": "Nov 3",
+          "url": "https://thedesignfiles.net/2026/11/homes-afraa-ahmed-melbourne"
+        },
+        {
+          "headline": "The Museum of Design in Plastics Goes Through the Vases, Boxes and Ashtrays in Its Fancy Goods Case",
+          "source": "MoDiP",
+          "byline": "Louise Dennis",
+          "date": "Oct 28",
+          "url": "https://www.modip.ac.uk/blog/2026/10/britain-made-it-fancy-goods"
+        },
+        {
+          "headline": "Swiss Music Magazine Zweikommasieben Marks 15 Years With an Issue the Size of a Cigarette Packet",
+          "source": "magCulture",
+          "byline": "Jeremy Leslie",
+          "date": "Nov 2",
+          "url": "https://magculture.com/blogs/journal/helena-julian-zweikommasieben"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "A Costume Society Reviewer Finds Tate Britain's 90s Art and Fashion, Guest Curated by Edward Enninful, Trades Depth for Breadth",
+          "source": "The Costume Society",
+          "byline": "Jane Francis",
+          "date": "Oct 19",
+          "url": "https://costumesociety.org.uk/blog/post/revisiting-90s-art-and-fashion-at-tate-britain"
+        },
+        {
+          "headline": "Photographing the Orange, Pink and Purple Rocks of Parys Mountain, an Old Copper Mine on Anglesey",
+          "source": "35mmc",
+          "byline": "Mark Ellerby",
+          "date": "Nov 4",
+          "url": "https://www.35mmc.com/04/11/2026/the-strange-landscape-of-parys-mountain/",
+          "image": "https://www.35mmc.com/wp-content/uploads/2026/10/P9230155-scaled.jpg"
+        },
+        {
+          "headline": "Volunteers Poured a Concrete Loop Through a Storm Overnight at a DIY Skate Festival in Näfels",
+          "source": "Confusion Magazine",
+          "byline": "Peter Murphy",
+          "date": "Nov 2",
+          "url": "https://www.confuzine.com/2026/11/02/habash-beton-fiesta-2026-a-diy-festival-at-skatepark-nafels-switzerland/"
+        },
+        {
+          "headline": "The Met Scanned Nine Real Bodies for Costume Art's Mannequins, and the Sitters Describe Seeing Themselves",
+          "source": "The Metropolitan Museum of Art",
+          "byline": "Stephanie Kramer",
+          "date": "Oct 26, 2026",
+          "evergreen": true,
+          "url": "https://www.metmuseum.org/perspectives/costume-art-mannequin-art"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Black Rock Bands in 1970s Rhodesia Played On Through Police Raids and Bans",
+          "source": "Afropop Worldwide",
+          "byline": "Tendai Brendon Kembo",
+          "date": "Oct 27",
+          "url": "https://www.afropop.org/articles/changamire-ndaneta-the-defiance-of-zimbabwean-rock-music-during-the-second-chimurenga"
+        },
+        {
+          "headline": "Deutsche Grammophon Recorded Reich's Drumming in Hamburg in 1974, and Why the New All-Analogue Reissue Could Not Go Back to the 16-Track Tapes",
+          "source": "Tracking Angle",
+          "byline": "Mark Ward",
+          "date": "Oct 31",
+          "url": "https://trackingangle.com/features/a-new-kind-of-music-celebrating-steve-reich-at-90-part-2-of-3-phasing-reality-in-drumming-etc"
+        },
+        {
+          "headline": "Kayvon Gordon Tried to Play a Three-Drummer Batá Section on One Kit, and the Takes in Between Became an Album",
+          "source": "I Care If You Listen",
+          "byline": "A. Kori Hill",
+          "date": "Nov 4",
+          "url": "https://icareifyoulisten.com/2026/11/5-questions-to-kayvon-gordon-drummer-composer/",
+          "image": "https://icareifyoulisten.com/wp-content/uploads/sites/3/2026/11/kayvon-gordon-courtesy-of-artist-1440px.jpg"
+        },
+        {
+          "headline": "Allan Sutton Finds No Evidence That Mamie Smith's Crazy Blues Sold a Million",
+          "source": "Mainspring Press",
+          "byline": "Allan Sutton",
+          "date": "Aug 5, 2026",
+          "evergreen": true,
+          "url": "https://mainspringpress.org/2026/08/05/the-facts-concerning-mamie-smith-and-crazy-blues/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Collector Pays a Record Price for an 1878 Staver Cast-Iron Implement Seat, Nearly Doubling Her Late Husband's Mark",
+          "source": "Farm Collector",
+          "byline": "Jeanine Kintigh and Tom Wilson",
+          "date": "Sep 8, 2026",
+          "evergreen": true,
+          "url": "https://www.farmcollector.com/community/jeanine-record-seat-zm0z26onzbro/",
+          "image": "https://ogden_images.s3.amazonaws.com/www.farmcollector.com/images/2026/09/08095538/Cast-Iron-Staver-Seat-lead-Record-Setting-Seat-FCMON2026.jpg"
+        },
+        {
+          "headline": "A Robert Davidson Haida Butterfly Mask Estimated at $2,000 to $4,000 Sells for $68,750 to a Collector Who Flew In to See It",
+          "source": "Antiques and The Arts Weekly",
+          "date": "Nov 2",
+          "url": "https://antiquesandthearts.com/haida-butterfly-mask-flies-at-everard/"
+        },
+        {
+          "headline": "A 1937 Rolls-Royce Phantom III Built for an Indian Prince, Later Portugal's State Car, Driven at Its Museum Home",
+          "source": "Classic & Sports Car",
+          "byline": "Richard Heseltine",
+          "date": "Nov 2",
+          "url": "https://www.classicandsportscar.com/features/rolls-royce-phantom-iii-royally-rewarding"
+        },
+        {
+          "headline": "Peter Kraus Remembers His Father's Cousin H. P. Kraus, the Difficult, Generous Rare-Book Dealer Who Survived Dachau and Buchenwald",
+          "source": "Rare Book Hub",
+          "byline": "Peter Kraus",
+          "date": "Nov 1",
+          "url": "https://www.rarebookhub.com/articles/4170"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A St Andrews Archivist Remembers Going Through Douglas Dunn's Letters With the Poet",
+          "source": "University of St Andrews",
+          "byline": "Maia Sheridan",
+          "date": "Nov 2",
+          "url": "https://university-collections.wp.st-andrews.ac.uk/2026/11/02/a-dedication-to-douglas-dunn/"
+        },
+        {
+          "headline": "Bone Analysis Suggests a Trebuchet Stone Killed a Medieval Man Buried at Stirling Castle",
+          "source": "Historic Environment Scotland",
+          "byline": "Jo Buckberry",
+          "date": "Oct 22",
+          "url": "https://blog.historicenvironment.scot/2026/10/what-killed-skeleton-150-solving-a-medieval-mystery-at-stirling-castle/"
+        },
+        {
+          "headline": "Mrs. Armstrong's 1844 Needlework Scrapbook, Handled at the V&A",
+          "source": "Modern Daily Knitting",
+          "byline": "Jeni Hankins",
+          "date": "Nov 3",
+          "url": "https://www.moderndailyknitting.com/community/mrs-armstrongs-amazing-scrapbook/"
+        },
+        {
+          "headline": "Students Reclassifying UCL's Artists' Books Weigh Whether a Glockenspiel Addendum to Born to Run Is One",
+          "source": "UCL Special Collections",
+          "byline": "Omoyemi Akintan",
+          "date": "Nov 4",
+          "url": "https://blogs.ucl.ac.uk/special-collections/2026/11/04/rethinking-artists-books-from-ucl-special-collections/",
+          "image": "https://blogs.ucl.ac.uk/special-collections/files/2026/11/IMG_4405-1024x768.jpeg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Eye Filmmuseum Restores the Films of Leonard Henny, a Dutch Sociologist Who Filmed 1960s American Protest",
+          "source": "Eye Filmmuseum",
+          "byline": "Simona Monizza and Nico de Klerk",
+          "date": "Nov 3",
+          "url": "https://www.eyefilm.nl/en/magazine/leonard-henny/1725888"
+        },
+        {
+          "headline": "A New York Series, Hold Everything Dear, Surveys the Films John Berger Made With Friends, From Alain Tanner to Timothy Neat",
+          "source": "Ultra Dogme",
+          "byline": "Sasha Frere-Jones",
+          "date": "Nov 3",
+          "url": "https://ultradogme.com/2026/11/03/john-berger-on-screen/",
+          "image": "https://ultradogme.com/wp-content/uploads/2026/11/john-berger.jpeg"
+        },
+        {
+          "headline": "Arnaud Hée on Frederick Wiseman's Obsession With History, and Interviewing Him a Month Before His Death",
+          "source": "Critikat",
+          "byline": "Marin Gérard",
+          "date": "Nov 3",
+          "url": "https://www.critikat.com/panorama/entretien/arnaud-hee-wiseman-est-obsede-et-habite-par-lhistoire/"
+        },
+        {
+          "headline": "Robert Aldrich's Characters Must Act Yet Rarely Save Themselves, and His Defeatist Cynicism May Be Why He Was Never Rediscovered",
+          "source": "critic.de",
+          "byline": "Pascal Ehrlich",
+          "date": "Nov 2",
+          "url": "https://www.critic.de/special/zum-handeln-verdammt-zum-sterben-bestimmt-kritik-4898/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 3, 2026",
     "hero": {
       "headline": "Young Projects Designs Houses From Digital Models That Artisans Change by Hand",
