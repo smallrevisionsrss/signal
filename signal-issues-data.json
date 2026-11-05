@@ -1,5 +1,206 @@
 [
   {
+    "dateLabel": "November 5, 2026",
+    "hero": {
+      "headline": "Two Critics Say Markus Schleinzer's Rose Strips the Catharina Linck Case of Its Queer History",
+      "dek": "Ainhoa Feodoroff and Leo Pinke review Rose, the third feature by Austrian director Markus Schleinzer, in which Sandra Hüller, who won the Berlinale's Silver Bear for the role, plays a woman who passes as a man in 17th century Germany after the Thirty Years' War. Rose takes over a ruined farm and marries a village woman, Suzanna, until a bee sting exposes her and a hasty trial condemns both women. The film is loosely inspired by Catharina Linck, executed in 1721 for sodomy, and the critics argue it waters down, if not removes, her queerness. They also set out the dispute in the FAZ between biographer Angela Steidele, who accused the film of betraying history and plagiarising her novel, and critic Andreas Kilb, who defended it.",
+      "byline": "By Ainhoa Feodoroff and Leo Pinke · Débordements",
+      "category": "photo-film",
+      "image": "https://debordements.fr/wp-content/uploads/2026/11/Image-4-e1793781102297.png",
+      "url": "https://debordements.fr/rose-markus-schleinzer/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Enville Hall's Flatpack Glass Palace Rose 60 Feet in Staffordshire Before Wartime Soldiers Used It for Demolition Practice",
+          "source": "Country Life",
+          "byline": "Melanie Bryan",
+          "date": "Nov 2",
+          "url": "https://www.countrylife.co.uk/architecture/staffordshires-fairytale-flatpack-glass-palace-destroyed-by-second-world-war-soldiers",
+          "image": "https://cdn.mos.cms.futurecdn.net/G2CNn3iWzJGfFhaPaeMhAA-2560-80.jpg"
+        },
+        {
+          "headline": "Gillian Levine Mocks the Promise of Artificial General Intelligence in a Thirteen Page Comic",
+          "source": "Eye",
+          "byline": "John L. Walters",
+          "date": "Oct 26",
+          "url": "https://www.eyemagazine.com/blog/post/tech-bro-takedown"
+        },
+        {
+          "headline": "The Porsche 914 Was a Mid-Engine Missed Opportunity Held Back by a Notchback Roof and Industrial Bumpers",
+          "source": "Indie Auto",
+          "byline": "Steve",
+          "date": "Oct 31",
+          "url": "https://www.indieauto.org/2026/10/31/porsche-914-reflected-an-interesting-theory-that-didnt-work-as-well-in-practice/"
+        },
+        {
+          "headline": "A Conservator Reads the Paint Layers of Historic New England's Houses, From a Round-Brush Stair Hall to a Man's Room",
+          "source": "Historic New England",
+          "date": "May 6, 2026",
+          "evergreen": true,
+          "url": "https://www.historicnewengland.org/?p=499787"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Albin Egger-Lienz, Who Died a Century Ago, Painted Tyrolean Peasants and the First World War",
+          "source": "The Eclectic Light Company",
+          "byline": "Howard Oakley",
+          "date": "Nov 4",
+          "url": "https://eclecticlight.co/2026/11/04/commemorating-the-death-of-albin-egger-lienz-work-and-war/"
+        },
+        {
+          "headline": "Bordeaux's Decorative Arts Museum Hangs Four Thousand Years of Ceramics by Colour, Material and Form",
+          "source": "Ceramics Now",
+          "byline": "Elodie Antoine",
+          "date": "Oct 26",
+          "url": "https://www.ceramicsnow.org/articles/ceramics-sensitive-bodies-ceramiques-corps-sensibles/",
+          "image": "https://www.ceramicsnow.org/wp-content/uploads/2026/10/7-Vue-expo-Ceramique-corps-sensibles_Galerie_Savoir-faire_Photo-Lysiane-Gauthier.jpg"
+        },
+        {
+          "headline": "Katherine Hubbard Sets Large Format Photographs Made With Her Mother in Open Wooden Frames at Studio Voltaire",
+          "source": "Studio International",
+          "byline": "Beth Williamson",
+          "date": "Nov 5",
+          "url": "https://www.studiointernational.com/katherine-hubbard-the-great-room-review-studio-voltaire-london/"
+        },
+        {
+          "headline": "Raman Spectroscopy Finds Linseed Oil and Carnauba Wax on Laura Gilpin's Platinum Prints",
+          "source": "Amon Carter Museum of American Art",
+          "byline": "Maria Cristina D'Amico and Ariadna Rodriguez Corte",
+          "date": "Jun 26, 2024",
+          "evergreen": true,
+          "url": "https://www.cartermuseum.org/blog/shedding-light-laura-gilpins-photographic-processes-collaboration-between-carter-and-ut-dallas"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Jelly Roll Morton's First Three Years of Recordings Gathered on Two Discs",
+          "source": "No Depression",
+          "byline": "Henry Carrigan",
+          "date": "Nov 4",
+          "url": "https://nodepression.org/album-review-a-new-must-have-compilation-highlights-jelly-roll-mortons-early-years/"
+        },
+        {
+          "headline": "Brooklyn Rider's Expansive Glass Programme Shrinks in a Small Prague Gallery",
+          "source": "Bachtrack",
+          "byline": "Frank Kuznik",
+          "date": "Nov 4",
+          "url": "https://bachtrack.com/review-brooklyn-rider-philip-glass-prague-november-2026"
+        },
+        {
+          "headline": "The Berlin Philharmonic Cancels Iván Fischer's Concerts Over Seating for Mahler's Fifth",
+          "source": "VAN Magazine",
+          "byline": "Hartmut Welscher",
+          "date": "Nov 2",
+          "url": "https://van-magazine.com/mag/ivan-fischer-berlin-philharmonic-seating-cancellation/",
+          "image": "https://van-magazine.com/wp-content/uploads/2026/11/ivan-fischer-berlin-philharmonic-seating-cancellation.jpg"
+        },
+        {
+          "headline": "David Watts Made the Reytons' Fourth Album From a Drum Loop and Sixty Ideas at Chairworks",
+          "source": "Sound On Sound",
+          "byline": "Paul Tingen",
+          "evergreen": true,
+          "url": "https://www.soundonsound.com/techniques/inside-track-reytons"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Two Engraving Errors Twenty Years Apart on the Annville National Bank's Face Plates",
+          "source": "Numismatic News",
+          "byline": "Peter Huntoon",
+          "date": "Nov 3",
+          "url": "https://www.numismaticnews.net/the-jinxed-face-plates-of-the-annville-national-bank"
+        },
+        {
+          "headline": "A Collector Keeps 672 Vintage Model Kits Sorted by Maker in Clear Tubs",
+          "source": "Toy Tales",
+          "byline": "Joanna Hauser",
+          "date": "Jan 9, 2026",
+          "evergreen": true,
+          "url": "https://toytales.ca/eric-vintage-model-kits/",
+          "image": "https://toytales.ca/wp-content/uploads/2026/01/collector-spotlight-Eric-1.jpg"
+        },
+        {
+          "headline": "A Writer's Circa 1985 Ebel Sport Chronograph Runs a New Old Stock Zenith El Primero",
+          "source": "aBlogtoWatch",
+          "byline": "Sean Lorentzen",
+          "date": "Nov 2",
+          "url": "https://www.ablogtowatch.com/time-machines-accidentally-ahead-of-the-investor-curve-with-the-ebel-sport-chronograph-el-primero-watch/"
+        },
+        {
+          "headline": "Old Photos of the Canberra Times Newsroom Show Mostly Olivetti Typewriters",
+          "source": "oz.Typewriter",
+          "byline": "Robert Messenger",
+          "date": "Oct 24",
+          "url": "https://oztypewriter.blogspot.com/2026/10/memories-of-typewriters-in-newsrooms.html"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Royal Berkshire Archives Catalogues the Barrington Papers, From a Rupture Cure Trial to a Diplomat's Marriage to an Alleged French Spy",
+          "source": "Royal Berkshire Archives",
+          "byline": "Emily Forster",
+          "date": "Nov 2",
+          "url": "https://www.royalberkshirearchives.org.uk/blog/just-catalogued-november-2026",
+          "image": "https://www.royalberkshirearchives.org.uk/wp-content/uploads/2026/10/D-EZ222-2-5-4-mill-720x577.jpg"
+        },
+        {
+          "headline": "A Plantation Plan and Family Photographs From Enriqueta Rylands's Cuban Relatives Reach the Library",
+          "source": "Rylands Blog",
+          "byline": "Elizabeth Gow",
+          "date": "Nov 4",
+          "url": "https://rylandscollections.com/2026/11/04/rylands-reflects-returning-to-the-reunion-deseada/"
+        },
+        {
+          "headline": "Edward Holden's 1897 Moon Atlas Was the One Redeeming Work of His Troubled Lick Observatory Years",
+          "source": "Linda Hall Library",
+          "byline": "William B. Ashworth, Jr.",
+          "date": "Nov 5",
+          "url": "https://www.lindahall.org/about/news/scientist-of-the-day/edward-holden/"
+        },
+        {
+          "headline": "Royal Flying Corps Cadets Left Gates Unlocked and Spilled Ink at Reading's College During the First World War",
+          "source": "University of Reading Special Collections",
+          "byline": "Brian Richards",
+          "date": "Oct 19",
+          "url": "https://blogs.reading.ac.uk/tales-from-the-archives/2026/10/19/dont-they-know-theres-a-war-on/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Faith and Conviction Drive Pete Postlethwaite's Characters, Thirty Years After Romeo + Juliet and Brassed Off",
+          "source": "Little White Lies",
+          "byline": "Will Palmer",
+          "date": "Nov 2",
+          "url": "https://www.lwlies.com/acting-up/pete-postlethwaite"
+        },
+        {
+          "headline": "Tinto Brass, Who Never Accepted Caligula as His Own, Dies at 93",
+          "source": "El cine de lo que yo te diga",
+          "byline": "Nacho Gonzalo",
+          "date": "Nov 4",
+          "url": "https://www.elcinedeloqueyotediga.net/diario/show/in-memoriam-tinto-brass-hedonista-y-erotomano"
+        },
+        {
+          "headline": "Albert Serra and Jean-Jacques Schuhl Talk Through the Contradictions of Ingrid Caven",
+          "source": "Film Comment",
+          "byline": "Jean-Jacques Schuhl and Albert Serra",
+          "evergreen": true,
+          "url": "https://www.filmcomment.com/article/print-out-a-portrait-in-our-own-way-albert-serra-ingrid-caven-jean-jacques-schul/"
+        },
+        {
+          "headline": "The Riverbank Sets a Gay Cleaner Against a Recife Church Whose Members Go Out at Night to Attack Men by the River",
+          "source": "Cinefilia Ritrovata",
+          "byline": "Alessandro Guatti",
+          "date": "Nov 3",
+          "url": "https://www.cinefiliaritrovata.it/the-riverbank-nella-societa-degli-uomini/",
+          "image": "https://www.cinefiliaritrovata.it/wp-content/uploads/2026/11/riverbank-1024x662-1.png"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 4, 2026",
     "hero": {
       "headline": "Agatha Christie's Berkshire Years, Traced Through the County's Own Records",
