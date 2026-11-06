@@ -1,5 +1,207 @@
 [
   {
+    "dateLabel": "November 6, 2026",
+    "hero": {
+      "headline": "Ka Baird and Chris Ryan Williams on Breath, Processed Flute and Trumpet",
+      "dek": "Composer MV Carbon interviews Ka Baird and Chris Ryan Williams, whose collaboration began when an organiser of Helsinki's We Jazz Festival suggested it, and who recall playing shows in a hotel suite with its bathroom as their green room. In a Q&A the three discuss the uncertain line between acoustic and electronic sound, Williams's trumpet run through processes and effects against Baird's processed voice and flute, and the breathy punctuation that runs through their new LP, Enthalpy. They also talk about sound felt physically, and Williams describes how visiting caves shaped his solo performances.",
+      "byline": "By MV Carbon · The Brooklyn Rail",
+      "category": "sound-vinyl",
+      "image": "https://studio.brooklynrail.org/assets/d947e979-6131-4b16-a12b-60f202388d45.jpg",
+      "url": "https://brooklynrail.org/2026/11/music/ka-baird-chris-ryan-williams-with-mv-carbon/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Andstudio Spent Ten Years Building a Global Design Studio From Vilnius",
+          "source": "Creative Boom",
+          "byline": "Tom May",
+          "date": "Nov 4",
+          "url": "https://www.creativeboom.com/insight/andstudios-augustinas-paukste-on-10-years-of-building-a-global-studio-from-vilnius/",
+          "image": "https://media.creativeboom.com/a66afe07-aeb2-4058-8266-f3e97829d798/conversions/fb0ebe0e32ffd1c0ffc6c8ebb26277e25dbb0b7f-medium.webp"
+        },
+        {
+          "headline": "Where in London Is Furthest From a Listed Building",
+          "source": "Diamond Geezer",
+          "byline": "diamond geezer",
+          "date": "Nov 4",
+          "url": "http://diamondgeezer.blogspot.com/2026/11/furthest-from-listed-building.html"
+        },
+        {
+          "headline": "Cristina Celestino on Layering Historic Atmospheres Into Furniture and Rooms",
+          "source": "Salone del Mobile.Milano",
+          "byline": "Giulia Zappa",
+          "date": "Nov 6",
+          "url": "https://www.salonemilano.it/en/articles/cristina-celestino-designer-interview"
+        },
+        {
+          "headline": "How Military Aircraft Camouflage Changed From the Albatros Lozenge to the Black F-117",
+          "source": "Air & Space Quarterly",
+          "byline": "Thomas Paone",
+          "date": "Jun 16, 2026",
+          "evergreen": true,
+          "url": "https://airandspace.si.edu/air-and-space-quarterly/issue-19/military-aircraft-camouflage"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Jan Dickey's Distemper and Cochineal Paintings Evoke Weathered Storefronts at D.D.D.D. Pictures",
+          "source": "Two Coats of Paint",
+          "byline": "Lucas Moran",
+          "date": "Nov 4",
+          "url": "https://twocoatsofpaint.com/2026/11/jan-dickey-bold-events.html"
+        },
+        {
+          "headline": "An Oslo Curator on the City's Artist-Run Art Institutions as the Welfare Ground Gives Way",
+          "source": "Flash Art",
+          "byline": "Abirami Logendran",
+          "date": "Nov 5",
+          "url": "https://flash---art.com/article/oslo-holding-ground/",
+          "image": "https://flash---art.com/wp-content/uploads/2026/11/DSCF2311-1-1024x683.jpg"
+        },
+        {
+          "headline": "Testing the Pentax-M 50mm f/1.7 on a Pentax MX With Cinema Film and Rodinal",
+          "source": "Analog.Cafe",
+          "byline": "Dmitri",
+          "date": "Nov 2",
+          "url": "https://www.analog.cafe/r/smc-pentax-m-117-50mm-kit-lens-review-c1pq"
+        },
+        {
+          "headline": "A Natural History Museum Conservation Assistant Turns Worn Nitrile Gloves Into Sand Weights",
+          "source": "The Book and Paper Gathering",
+          "byline": "Caitlin Jenkins",
+          "date": "Oct 29",
+          "url": "https://thebookandpapergathering.org/2026/10/29/all-hands-on-deck-repurposed-glove-weights/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Markus Müller's Globe Unity 60 Book Gathers Six Decades of the Orchestra's History",
+          "source": "The Free Jazz Collective",
+          "byline": "Paul Acquaro",
+          "date": "Nov 5",
+          "url": "https://www.freejazzblog.org/2026/11/markus-muller-globe-unity-60-fmp_02022932191.html"
+        },
+        {
+          "headline": "Free Dirt Records Marks Twenty Years With Unreleased Demos, B-Sides and Live Cuts",
+          "source": "The Vinyl District",
+          "byline": "Joseph Neff",
+          "date": "Nov 4",
+          "url": "https://www.thevinyldistrict.com/storefront/graded-on-a-curve-va-the-long-memory-20-years-of-free-dirt-records/"
+        },
+        {
+          "headline": "Seattle's Early Music Scene Rebuilds Itself Through Artist-Led Festivals and Salons",
+          "source": "Early Music America",
+          "byline": "Thomas May",
+          "date": "Oct 18",
+          "url": "https://www.earlymusicamerica.org/emag-feature/seattles-building-boom/",
+          "image": "https://www.earlymusicamerica.org/wp-content/uploads/2026/10/May-Seattle-tekla-large-750x500.jpg"
+        },
+        {
+          "headline": "Hilborne Roosevelt's Partly Battery-Powered Centennial Organ Lost Out to a Hook and Ended Up in a Church",
+          "source": "Journal of American Organbuilding",
+          "byline": "Scot Huntington",
+          "evergreen": true,
+          "url": "https://pipeorgan.org/wp-content/uploads/2026/10/41-4.pdf"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Junk Drawer of Old Compact Cameras, Priced Against the Point-and-Shoot Revival",
+          "source": "Macfilos",
+          "byline": "Mike Evans",
+          "date": "Nov 3",
+          "url": "https://www.macfilos.com/2026/11/03/vintage-digital-cameras-the-point-and-shoot-revival/",
+          "image": "https://www.macfilos.com/wp-content/uploads/2026/09/S1001323-Feature.jpg"
+        },
+        {
+          "headline": "Seven Versions of Cassandre's Normandie Poster, Shown Together for the First Time",
+          "source": "Swann Galleries",
+          "byline": "Nicholas D. Lowry",
+          "date": "Nov 3",
+          "url": "https://www.swanngalleries.com/news/vintage-posters/travel-posters/2026/11/a-m-cassandre-the-ss-normandie/"
+        },
+        {
+          "headline": "Mike Eckman Tests the Kowa Kallo 140, a Short-Lived Kowa Rangefinder Made for About Three Years",
+          "source": "mike eckman dot com",
+          "byline": "Mike Eckman",
+          "date": "Oct 30",
+          "url": "https://mikeeckman.com/2026/10/kowa-kallo-140-1959/"
+        },
+        {
+          "headline": "Typewriter Collector Richard Polt on Machines From Early Experiments to Postwar Portables",
+          "source": "Collectors Weekly",
+          "byline": "Maribeth Keane",
+          "date": "Oct 3, 2008",
+          "evergreen": true,
+          "url": "https://www.collectorsweekly.com/articles/an-interview-with-antique-and-vintage-typewriter-collector-richard-polt/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Robin Eagles Reads Gulliver's Travels as Political Satire and Follows How London's Papers Met It in 1726",
+          "source": "The History of Parliament",
+          "byline": "Robin Eagles",
+          "date": "Nov 6",
+          "url": "https://historyofparliament.com/2026/11/06/gullivers-travels/"
+        },
+        {
+          "headline": "The Houston Daily Post Reported the 1901 Spindletop Gusher Shooting Oil a Hundred Feet Into the Air",
+          "source": "History's Newsstand",
+          "byline": "GuyHeilenman",
+          "date": "Nov 6",
+          "url": "https://blog.rarenewspapers.com/top-tier-treasures-20th-century-the-spindletop-edition/"
+        },
+        {
+          "headline": "How the Garden Museum Built a Collection of Black Gardening History, Donor by Donor",
+          "source": "Garden Museum",
+          "byline": "Edward Adonteng",
+          "date": "Apr 23, 2026",
+          "evergreen": true,
+          "url": "https://www.gardenmuseum.org.uk/acquisitions-and-process-developing-the-museum-collection-of-black-gardening-history/",
+          "image": "https://www.gardenmuseum.org.uk/wp-content/uploads/2026/04/Hazel-GardineGM-1-scaled.jpg"
+        },
+        {
+          "headline": "Fog and Coal Smoke Over Old London in the Bishopsgate Institute's Glass Lantern Slides",
+          "source": "Spitalfields Life",
+          "byline": "the gentle author",
+          "date": "Nov 4",
+          "url": "https://spitalfieldslife.com/2026/11/04/the-fogs-smogs-of-old-london-iiii/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Ryûsuke Hamaguchi Makes the Case for Sho Miyake as a Young Master",
+          "source": "Metrograph Journal",
+          "byline": "Ryûsuke Hamaguchi",
+          "date": "Nov 4",
+          "url": "https://metrograph.com/sho-miyake-the-young-master/"
+        },
+        {
+          "headline": "Fincher's The Game Read as a Midlife Crisis That Ends in Rebirth",
+          "source": "Bright Wall/Dark Room",
+          "byline": "Russell Nichols",
+          "date": "Nov 2",
+          "url": "https://www.brightwalldarkroom.com/2026/11/02/your-application-was-rejected-the-game/"
+        },
+        {
+          "headline": "Nakahira Kō Made 48 Films in 20 Years, and Nearly All Remain Hard to See Outside Japan",
+          "source": "Senses of Cinema",
+          "byline": "Andy Lauer",
+          "evergreen": true,
+          "url": "https://www.sensesofcinema.com/2026/great-directors/nakahira-ko/"
+        },
+        {
+          "headline": "Yeon Sang-ho's Paradise Lost Takes On AI and Grief but Never Goes Deep Enough",
+          "source": "Loud And Clear Reviews",
+          "byline": "Joshua Stevens",
+          "date": "Nov 3",
+          "url": "https://loudandclearreviews.com/paradise-lost-review/",
+          "image": "https://loudandclearreviews.com/wp-content/uploads/2026/11/paradise-lost.webp"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 5, 2026",
     "hero": {
       "headline": "Two Critics Say Markus Schleinzer's Rose Strips the Catharina Linck Case of Its Queer History",
