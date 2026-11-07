@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "November 7, 2026",
+    "hero": {
+      "headline": "Two Iron-Bound Chests at Glenarm Castle Are Said to Come From the Armada Galleass Girona",
+      "dek": "On 26 October 1588 the galleass La Girona, of the Armada's Neapolitan squadron, was driven onto Lacada Point near the Giant's Causeway; of some 1,300 men aboard, only nine are said to have lived. Two iron-bound chests said to come from the wreck survive at Glenarm Castle, home of the Earls of Antrim. Sorley Boy MacDonnell took in the survivors and searched the wreck for cannon and treasure, and his family went on to win an earldom in 1620. John Goodall follows the chests from storing the family's deeds in the 17th and 18th centuries to holding the children's fancy dress today, with the 10th Earl, Randal McDonnell, telling the family history.",
+      "byline": "By John Goodall · Country Life",
+      "category": "collecting",
+      "image": "https://cdn.mos.cms.futurecdn.net/837tpxa5TY26XZszneMTo5-2237-80.jpg",
+      "url": "https://www.countrylife.co.uk/gardens-interiors/antiques-collecting/a-chest-that-survived-the-deadliest-shipwreck-of-the-spanish-armada-now-holding-fancy-dress-costumes-at-a-house-in-ireland"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Vacant 1923 Germantown Town Hall Gets a $13 Million Reuse Plan",
+          "source": "Hidden City Philadelphia",
+          "byline": "Kimberly Haas",
+          "date": "Nov 6",
+          "url": "https://hiddencityphila.org/2026/11/long-neglected-landmark-in-germantown-readies-for-reuse/",
+          "image": "https://hiddencityphila.org/wp-content/uploads/2026/11/Germantown-Town-Hall-1.jpg"
+        },
+        {
+          "headline": "A Barcelona Coffee Shop's Logo Is Real Ribbon, Folded by Hand and Photographed",
+          "source": "BP&O",
+          "byline": "Lisa Cain",
+          "date": "Nov 4",
+          "url": "https://bpando.org/2026/11/04/tied-with-care/"
+        },
+        {
+          "headline": "Isamu Noguchi Put a Light Bulb in a Gifu Paper Lantern and Made Akari",
+          "source": "Wallpaper*",
+          "byline": "Kelly Allen",
+          "date": "Nov 7",
+          "url": "https://www.wallpaper.com/design-interiors/lighting/isamu-noguchi-akari-history"
+        },
+        {
+          "headline": "Nine Defunct Multibrand Boutiques, From SEX to Opening Ceremony",
+          "source": "PIN-UP",
+          "date": "Nov 5",
+          "url": "https://www.pinupmagazine.org/articles/memento-multibrand"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Master Carver Nina Bilbey's Team Is Carving Caen Stone Replicas for Temple Church's West Door",
+          "source": "Apollo",
+          "byline": "Sophia Dumoulin",
+          "date": "Nov 6",
+          "url": "https://apollo-magazine.com/temple-church-london-restoration/"
+        },
+        {
+          "headline": "Katherine Hubbard Photographed Her Mother's Memory Loss With Two 4x5 Cameras and a Set of Mirrored Doors",
+          "source": "ASAP/Review",
+          "byline": "David Berridge",
+          "date": "Apr 6, 2026",
+          "evergreen": true,
+          "url": "https://asapjournal.com/feature/katherine-hubbards-the-great-room-and-beyond-oddkin-in-the-expanded-darkroom-of-the-photobook/",
+          "image": "https://asapjournal.com/wp-content/uploads/2026/04/figure5_JPG-scaled.jpg"
+        },
+        {
+          "headline": "Yu Nishimura Wants the Way Images Appear and Disappear in His Mind to Become the Painting",
+          "source": "Plaster Magazine",
+          "byline": "Annabel Downes",
+          "date": "Nov 4",
+          "url": "https://plastermagazine.com/interviews/self-contained-universe-of-yu-nishimura/"
+        },
+        {
+          "headline": "A Woodworker Sees the Schooner L.A. Dunton From the Inside as Mystic Seaport Rebuilds Her Hull",
+          "source": "Woodshop News",
+          "byline": "A.J. Hamler",
+          "date": "Nov 3",
+          "url": "https://www.woodshopnews.com/from-the-inside-out"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Nathan James Dearden's Debut Album Draws on Ten Years of Friendships From the National Youth Choir of Wales",
+          "source": "Planet Hugill",
+          "date": "Nov 7",
+          "url": "https://www.planethugill.com/2026/11/to-capture-fullness-of-what-choral.html"
+        },
+        {
+          "headline": "Children Loved the 1890s Phonograph Arcades of the Lower East Side, Where Records Played Through Ear Tubes",
+          "source": "The Syncopated Times",
+          "byline": "R.S. Baker",
+          "date": "Oct 31",
+          "url": "https://syncopatedtimes.com/the-ear-tube-era-of-coin-operated-phonographs/"
+        },
+        {
+          "headline": "The Mission Play God's Own Medicine in Full to Open a Four-Night 40th Anniversary London Residency",
+          "source": "Louder Than War",
+          "byline": "Nils van der Linden",
+          "date": "Nov 7",
+          "url": "https://louderthanwar.com/the-mission-o2-forum-kentish-town-london-live-review/",
+          "image": "https://louderthanwar.com/wp-content/uploads/2026/11/The-Mission-%C2%A9-Paul-Grace-6.jpg"
+        },
+        {
+          "headline": "Dan Erlewine Pulls the Square Truss Tube From a Martin D12-20, Resets the Neck and Glues the Bridge With Hot Hide Glue",
+          "source": "Vintage Guitar",
+          "byline": "Dan Erlewine",
+          "date": "Apr 22, 2026",
+          "evergreen": true,
+          "url": "https://www.vintageguitar.com/89239/dans-guitar-rx-a-64-d12-20-returns-to-glory/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A 76-Year-Old Radio Man in India Brings a 1964 Dutch Philips L4X25T Back to Shortwave",
+          "source": "Jestine Yong",
+          "byline": "Parasuraman Subramanian",
+          "date": "Nov 7",
+          "url": "https://jestineyong.com/the-thrill-of-working-on-1964-holland-made-philips-l4x25t-radio/"
+        },
+        {
+          "headline": "Six Apple Prototypes at the Computer History Museum, From a Birch Apple I Case to an iPod",
+          "source": "Computer History Museum",
+          "byline": "Hansen Hsu",
+          "date": "Mar 11, 2026",
+          "evergreen": true,
+          "url": "https://computerhistory.org/blog/apple-history-in-prototypes/",
+          "image": "https://computerhistory.org/wp-content/uploads/2026/02/chm_apple50_web_image2_960x540.jpg"
+        },
+        {
+          "headline": "A Collector Buys His First Parker 65 on eBay for Sixty Pounds and Finds Its Connector Was Never Glued",
+          "source": "Rupert Arzeian",
+          "byline": "Rupert Arzeian",
+          "date": "Oct 21",
+          "url": "https://rupertarzeian.com/2026/10/21/a-look-at-the-semi-vintage-parker-65-custom-fountain-pen/"
+        },
+        {
+          "headline": "Rolex's Explorer II 1655 Was Built to Tell Day From Night Underground, and Steve McQueen Never Wore One",
+          "source": "Wind Vintage",
+          "byline": "Mitch Clinard",
+          "date": "Nov 3",
+          "url": "https://www.windvintage.com/blog/the-rolex-explorer-ii-reference-1655-the-iconic-orange-hand-sports-watch"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Wareham Doctor's Notes on Some 250 Patients Fill a Book of Astrological Prophecies",
+          "source": "Dorset History Centre",
+          "date": "Nov 6",
+          "url": "https://news.dorsetcouncil.gov.uk/dorset-history-centre-blog/2026/11/06/the-patients-and-practices-of-nathaniel-bartlett-of-wareham/"
+        },
+        {
+          "headline": "Samira K. Mehta Shows How Religious Americans Helped Make Contraception Respectable",
+          "source": "Nursing Clio",
+          "byline": "Kelly O'Donnell",
+          "date": "Nov 4",
+          "url": "https://nursingclio.org/2026/11/04/review-of-god-bless-the-pill-the-surprising-history-of-contraception-and-sexuality-in-american-religion-by-samira-k-mehta-university-of-north-carolina-press-2026/"
+        },
+        {
+          "headline": "Ford Offered the Public a 1938 River Cruise From Westminster Pier to Its Dagenham Factory",
+          "source": "Essex Record Office",
+          "date": "Oct 12",
+          "url": "https://www.essexrecordofficeblog.co.uk/curiosity-cabinet-a-river-cruise-to-dagenham/",
+          "image": "https://www.essexrecordofficeblog.co.uk/wp-content/uploads/2026/10/PXL_20261001_084507729.jpg"
+        },
+        {
+          "headline": "Five Centuries of Student Complaints About Food in St John's College Records",
+          "source": "St John's College, Cambridge",
+          "date": "Jan 27, 2023",
+          "evergreen": true,
+          "url": "https://st-johns-college-cambridge.shorthandstories.com/27d3573b-1313-4f02-9a65-ca553e1c8b75/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Takahisa Zeze Went From the Four Heavenly Kings of Pink to a 155-Minute Biopic of the Three Men Behind Sukiyaki",
+          "source": "The Film Stage",
+          "byline": "Nick Newman",
+          "date": "Nov 4",
+          "url": "https://thefilmstage.com/i-know-something-secret-about-the-world-takahisa-zeze-on-sukiyaki-and-a-life-in-pink-film/",
+          "image": "https://thefilmstage.com/wp-content/uploads/2026/11/takahisa-zeze-1-1200x800.jpg"
+        },
+        {
+          "headline": "Babystar Is a Cold, Early-Lanthimos Chronicle of a Teenager Raised on Her Influencer Parents' Feed",
+          "source": "Micropsia",
+          "byline": "Diego Lerer",
+          "date": "Nov 4",
+          "url": "https://www.micropsiacine.com/2026/11/estrenos-critica-de-babystar-de-joscha-bongard/"
+        },
+        {
+          "headline": "Littermates Was Shot by a Crew of About a Dozen, Its Co-Director Lighting While the Writer Blocked",
+          "source": "Eye For Film",
+          "byline": "Jennie Kermode",
+          "date": "Nov 4",
+          "url": "https://www.eyeforfilm.co.uk/feature/2026-11-04-interview-with-michael-woloson-and-scott-tinkham-about-littermates-feature-story-by-jennie-kermode"
+        },
+        {
+          "headline": "A Record Store in Jacksonville, Illinois Became the Film School for the Director of Holler",
+          "source": "Talkhouse",
+          "byline": "Devin Smock",
+          "date": "Oct 21, 2026",
+          "evergreen": true,
+          "url": "https://talkhouse.com/the-record-store-that-accidentally-became-my-film-school"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 6, 2026",
     "hero": {
       "headline": "Ka Baird and Chris Ryan Williams on Breath, Processed Flute and Trumpet",
