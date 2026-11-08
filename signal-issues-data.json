@@ -1,5 +1,206 @@
 [
   {
+    "dateLabel": "November 8, 2026",
+    "hero": {
+      "headline": "Has Time Been Unkind to Charles Ray's Sculptures?",
+      "dek": "With an exhibition of Charles Ray at the Museum Fridericianum in Kassel, Mitch Speed asks whether his figurative sculpture reads differently now, against an art market bound up with extreme wealth and a new argument about machine fabrication. He looks closely at Oh! Charley, Charley, Charley..., Aluminum Girl, Boy with Frog, School Play and Clothes Pile, set against the earlier Plank Piece and Firetruck.",
+      "byline": "By Mitch Speed · ArtReview",
+      "category": "craft",
+      "image": "https://backend.artreview.com/wp-content/uploads/2026/11/Fridericianum_C_R_2026_photo_Nicolas_Wefers_023_Hi-copy-1230x923.jpg",
+      "url": "https://artreview.com/has-time-been-unkind-to-charles-rays-sculptures-fridericianum-kassel-feature-mitch-speed/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "AI Has Set Off a Data Center Building Boom, and Arup, Iron Mountain and Flexnode Are Trying to Make the Buildings Greener",
+          "source": "Metropolis",
+          "byline": "Wanda Lau",
+          "date": "Nov 3",
+          "url": "https://metropolismag.com/viewpoints/data-centers-rethinking-the-typology/",
+          "image": "https://metropolismag.com/wp-content/uploads/2026/10/Computational-Compost_2.-Credit-Tabakalera-scaled.jpg"
+        },
+        {
+          "headline": "Fieldwork Facility Designed Signs for V&A East That Can Be Taken Apart and Reused",
+          "source": "V&A Blog",
+          "byline": "Tasnia Yasmin",
+          "date": "Oct 26",
+          "url": "https://www.vam.ac.uk/blog/design-and-society/brand-new-museums-deserve-brand-new-approaches-to-wayfinding-with-fieldwork-facility"
+        },
+        {
+          "headline": "Interior Designer Roelfien Vos Made a New-Build House Near the Dutch Coast Feel as if It Had Evolved Over Time",
+          "source": "Livingetc",
+          "byline": "Sara Dal Zotto",
+          "date": "Nov 8",
+          "url": "https://www.livingetc.com/features/roelfien-vos-new-build"
+        },
+        {
+          "headline": "Michael Thonet's Decades of Experiments in Bending Beech Led to the No. 14, a Chair in Six Parts",
+          "source": "Domus",
+          "byline": "Jasper Morrison and Francesca Picchi",
+          "date": "Feb 7, 2020",
+          "evergreen": true,
+          "url": "https://www.domusweb.it/en/design/gallery/2020/02/06/thonet-no-14-a-benchmark-for-chair-design.html"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Jindřich Štreit, Who Photographed Czech Village Life and Was Arrested in 1982, Turns 80 With a Paris Show",
+          "source": "Blind Magazine",
+          "byline": "Guénola Pellen",
+          "date": "Nov 6",
+          "url": "https://www.blind-magazine.com/news/the-defiant-tenderness-of-jindrich-streit/"
+        },
+        {
+          "headline": "Léonard Bourgois-Beaulieu Grows Microorganisms on His Negatives, So the Prints Keep Changing",
+          "source": "Fisheye Magazine",
+          "byline": "Apolline Coëffet",
+          "date": "Nov 6",
+          "url": "https://fisheyemagazine.fr/article/les-vestiges-indociles-leonard-bourgois-beaulieu/",
+          "image": "https://fisheyeimmersive.com/wp-content/uploads/2026/11/leonard-bourgois-beaulieu-fisheye-4-1024x846.jpg"
+        },
+        {
+          "headline": "A Third-Generation Kyoto Hina Doll Maker Makes Smaller Sets as Japan's Population Shrinks",
+          "source": "Garland Magazine",
+          "byline": "Tomohiro Oshima",
+          "date": "Nov 1",
+          "url": "https://garlandmag.com/article/hina-dolls/"
+        },
+        {
+          "headline": "Städel Conservators Spent Six Years Restoring Two Near Life-Size Flémalle Panels",
+          "source": "Städel Stories",
+          "byline": "Stephan Knobloch and Linda Schmidt",
+          "date": "Jan 21, 2026",
+          "evergreen": true,
+          "url": "https://stories.staedelmuseum.de/de/restaurierung-flemaller-tafeln"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Andy Stott's Late Loop Is Built From Loops and Hidden Samples, Beautiful but Often Too Comfortable",
+          "source": "Beats Per Minute",
+          "byline": "John Wohlmacher",
+          "date": "Nov 5",
+          "url": "https://beatsperminute.com/?p=152488"
+        },
+        {
+          "headline": "Phillip Golub's Loop 8/9 Turns Quarter Tones and Just Intonation Into Slow, Restful Chords",
+          "source": "Sequenza21",
+          "byline": "Paul Muller",
+          "date": "Nov 7",
+          "url": "https://www.sequenza21.com/2026/11/phillip-golub-loop-8-9/"
+        },
+        {
+          "headline": "Sister Duo Girl Tones on the Grief Behind Their Punk-Driven Debut Album, Precious",
+          "source": "Melodic Mag",
+          "byline": "Justice Petersen",
+          "date": "Nov 5",
+          "url": "https://www.melodicmag.com/features/interviews/girl-tones-deliver-ethereal-punk-rage-on-debut-album-precious/",
+          "image": "https://www.melodicmag.com/wp-content/uploads/2026/11/GirlTones_Precious6103-1-scaled.jpg"
+        },
+        {
+          "headline": "Benjamin Grosvenor Plays Rachmaninov 2 With John Wilson's Sinfonia of London in Nottingham",
+          "source": "Classical Music Daily",
+          "byline": "Mike Wheeler",
+          "date": "Nov 7",
+          "url": "https://www.classicalmusicdaily.com/2026/11/sinfonia-of-london.htm"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Postal Historian Follows Two 1860s Letters Advertised as Uncollected, and One Ended Up at the Dead Letter Office",
+          "source": "Postal History Sunday",
+          "byline": "Rob Faux",
+          "date": "Nov 8",
+          "url": "https://postalhistorysunday.substack.com/p/hey-youve-got-a-letter",
+          "image": "https://substack-post-media.s3.amazonaws.com/public/images/5c17a858-3a59-4aab-90c2-2365b79fdee9_1407x807.jpeg"
+        },
+        {
+          "headline": "An Atari Steeplechase Cabinet Rescued From a Derelict Building in France Is Playable Again",
+          "source": "The Arcade Blogger",
+          "byline": "Tony",
+          "date": "Oct 20",
+          "url": "https://arcadeblogger.com/2026/10/20/atari-steeplechase-restoration/"
+        },
+        {
+          "headline": "Did a York Clockmaker Hint at Catholic Ties in the Brass Corners of His Clocks?",
+          "source": "Antiquarian Horological Society",
+          "byline": "Matthew Read and Rachel Wicaksono",
+          "date": "Sep 10, 2026",
+          "evergreen": true,
+          "url": "https://www.ahsoc.org/blog/spandrels-as-religious-networking/"
+        },
+        {
+          "headline": "A Typewriter Collector and a Friend Type Poems on Request at the American Sign Museum, on a Voss and a 1923 Remington",
+          "source": "Writing Ball",
+          "byline": "Richard Polt",
+          "date": "Oct 18",
+          "url": "https://writingball.blogspot.com/2026/10/typing-at-sign-museum.html"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Genealogist Uses Probate Files and Matching Signatures to Propose the Mother of Revolutionary War Soldier Warham Wheeler's Son",
+          "source": "Vita Brevis",
+          "byline": "Ashley Morin",
+          "date": "Nov 2",
+          "url": "https://vitabrevis.americanancestors.org/the-warham-wheeler-affair"
+        },
+        {
+          "headline": "India Office Records Show Witchcraft Accusations in Western India and the Gulf Fell Hardest on Marginalised Women",
+          "source": "British Library",
+          "byline": "Bianca Miranda Cardoso",
+          "date": "Nov 2",
+          "url": "https://www.bl.uk/stories/blogs/posts/witchcraft-accusations-and-witch-hunt",
+          "image": "https://www.bl.uk/images/v5dwkion/production/3911cf783a8a9d90940efaffb1dc799598e4ccdb-2479x1753.jpg/gheel-people-beliefs-1850-minute-ior-p-393-36-f398r.jpg"
+        },
+        {
+          "headline": "Before the Record Office: Orchards, a Brewer's Land, Sherburne House and a Car Park at 3 Orchard Street, Chichester",
+          "source": "West Sussex Record Office",
+          "byline": "Imogen Russell",
+          "date": "Oct 15",
+          "url": "https://westsussexrecordofficeblog.com/2026/10/15/what-was-here-before-the-record-office-a-brief-history-of-3-orchard-street/"
+        },
+        {
+          "headline": "The Watercolour Contract Plans of 1884 Show the Ha-Ha Wall and Small Cells of Adelaide's Z Ward Asylum",
+          "source": "State Records of South Australia",
+          "evergreen": true,
+          "url": "https://archives.sa.gov.au/finding-information/discover-our-collection/stories-from-the-archive/z-ward-a-story-in-drawings"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Orange-Flavoured Wedding Gathers a Quarrelling Family of Seven Siblings for the Youngest's Wedding, Cluttered but Cohesive",
+          "source": "High on Films",
+          "byline": "Julian Malandruccolo",
+          "date": "Nov 6",
+          "url": "https://www.highonfilms.com/orange-flavoured-wedding-2026-cinemania-movie-review/"
+        },
+        {
+          "headline": "Film In Dublin Marks 30 Years of Michael Collins With a Screening at Cleary's Pub, and Founder Luke Dunne Looks Back",
+          "source": "Film Ireland",
+          "date": "Nov 5",
+          "url": "https://www.filmireland.net/article-its-a-history-people-want-to-connect-with-film-in-dublin-celebrates-30-years-of-michael-collins/"
+        },
+        {
+          "headline": "A Library of Congress Curator on Its VistaVision Holdings, the Widescreen Format That Ran Film Sideways",
+          "source": "Library of Congress",
+          "byline": "Daniel Mauro",
+          "date": "Jun 25, 2026",
+          "evergreen": true,
+          "url": "https://blogs.loc.gov/now-see-hear/2026/06/one-format-after-another-vistavision-in-the-librarys-collection/"
+        },
+        {
+          "headline": "Paul Schrader Recut Dying of the Light From DVD Copies of His Workprint, and the Bootleg Is the Stronger Film",
+          "source": "Crooked Marquee",
+          "byline": "Kayleigh Donaldson",
+          "date": "Nov 4",
+          "url": "https://crookedmarquee.com/paul-schraders-bootleg-cut-of-dying-of-the-light-reclaimed-a-story-of-mental-and-spiritual-decline/",
+          "image": "https://crookedmarquee.com/wp-content/uploads/2026/11/dying_of_the_light-still.jpeg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 7, 2026",
     "hero": {
       "headline": "Two Iron-Bound Chests at Glenarm Castle Are Said to Come From the Armada Galleass Girona",
