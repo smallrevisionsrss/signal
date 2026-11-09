@@ -1,5 +1,206 @@
 [
   {
+    "dateLabel": "November 9, 2026",
+    "hero": {
+      "headline": "Lynne Littman's Testament Kept Its Nuclear Attack Offscreen and Charted One Family's Slow Collapse",
+      "dek": "Bernardo Rondeau returns to Testament, Lynne Littman's 1983 debut feature, as it screened on 35mm at the Museum of the Moving Image with Littman present. Jane Alexander plays Carol Weatherly, a mother in the small California town of Hamelin after a nuclear attack nobody explains. The bombing stays almost entirely offscreen: a flash interrupts a children's cartoon, and a radio voice reports a mistaken strike on Yosemite. Rondeau links the film to Carol Amen's 1981 Ms. story and to fear of the Strategic Defense Initiative, then follows Carol's diary entries and Super 8 home movies as the household comes apart.",
+      "byline": "By Bernardo Rondeau · Screen Slate",
+      "category": "photo-film",
+      "image": "https://media.screenslate.com/Testament.jpg",
+      "url": "https://lab.screenslate.com/articles/testament"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Jonathan Schwabish and Alice Feng Show How Workshop Groups Retitle One Chart of Family Wealth by Race",
+          "source": "Nightingale",
+          "byline": "Jonathan Schwabish and Alice Feng",
+          "date": "Nov 6",
+          "url": "https://nightingaledvs.com/same-chart-many-titles/",
+          "image": "https://nightingaledvs.com/wp-content/uploads/2026/11/image-1.png"
+        },
+        {
+          "headline": "Houshang Seyhoun's Glass-Fronted Cinema Asia in Tehran Still Stands, Emptied of Its Seats and Screen",
+          "source": "The Twentieth Century Society",
+          "byline": "Niloofar Abounoori",
+          "evergreen": true,
+          "url": "https://c20society.org.uk/building-of-the-month/cinema-asia-tehran"
+        },
+        {
+          "headline": "Lahore's Mayo School Taught Furniture Making Through Turners, Lattice Work and a Pattern Book in Three Languages",
+          "source": "Design History Society",
+          "byline": "Tanya Talwar",
+          "date": "Nov 5",
+          "url": "https://www.designhistorysociety.org/blog/view/crafting-furniture-in-the-global-south-punjab-woodwork-querying-art-education-through-furniture"
+        },
+        {
+          "headline": "JoyBoy Creative Studio Redesigned the Identity of the Sukhishvili National Ballet of Georgia",
+          "source": "Brand New",
+          "byline": "Danica",
+          "date": "Nov 5",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_sukhishvili_national_ballet_of_georgia_by_joyboy_creative_studio.php"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Lubaina Himid on Filling the British Pavilion in Venice With Paintings of Makers at Work",
+          "source": "BOMB",
+          "byline": "Ksenia M. Soboleva",
+          "date": "Nov 4",
+          "url": "https://bombmagazine.org/articles/2026/11/04/lubaina-himid-by-ksenia-m-soboleva"
+        },
+        {
+          "headline": "Lucas Seré Peltzer on Fieldwork, Found Materials and Installations Made From Refugee Blankets",
+          "source": "Sculpture Magazine",
+          "byline": "María Carolina Baulo",
+          "date": "Nov 5",
+          "url": "https://sculpturemagazine.art/un-trabajo-de-campo-una-conversacion-con-lucas-sere-peltzer/",
+          "image": "https://sculpturemagazine.art/wp-content/uploads/2026/11/05_OBRA-Industry-on-Parole.jpg"
+        },
+        {
+          "headline": "Michael E. Northrup's Over the Electric Grapevine Gathers Three Decades of Blurred, Surreal Photographs",
+          "source": "PhotoBook Journal",
+          "byline": "Hans Hickerson",
+          "date": "Nov 5",
+          "url": "https://photobookjournal.com/2026/11/05/michael-e-northrup-over-the-electric-grapevine/"
+        },
+        {
+          "headline": "Nada Elkalaawy Paints Grief Through Found Photographs and Family Albums at Lawrie Shabibi in Dubai",
+          "source": "Canvas",
+          "byline": "Dana Husseino",
+          "date": "Nov 3",
+          "url": "https://canvasonline.com/reassembling-the-familiar-nada-elkalaawy-at-lawrie-shabibi/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Anna Clyne's Orchestral Version of Steve Reich's Proverb Gets Its World Premiere With the Hallé",
+          "source": "The Arts Desk",
+          "byline": "Robert Beale",
+          "date": "Nov 6",
+          "url": "https://theartsdesk.com/classical-music/halle-jackson-bridgewater-hall-manchester-review-new-look-philosophers-proverb"
+        },
+        {
+          "headline": "Chuck Ainlay on Mixing Brothers in Arms in Surround and Recording Frampton at Studio Phenix",
+          "source": "Stereophile",
+          "byline": "Mike Mettler",
+          "evergreen": true,
+          "url": "https://www.stereophile.com/content/studio-confidential-interview-series-part-1-chuck-ainlay"
+        },
+        {
+          "headline": "Tobias Kratzer's Munich Siegfried Plays Wagner as a Coming-of-Age Story About Parents and Children",
+          "source": "Parterre Box",
+          "byline": "Montagu James",
+          "date": "Nov 8",
+          "url": "https://parterre.com/2026/11/08/the-mirror-stage/",
+          "image": "https://parterre.com/wp-content/uploads/2026/11/Siegfried_F.Froebel_M.Klink_c_Monika_Rittershaus-e1794063168891.jpg"
+        },
+        {
+          "headline": "Adolphus Hailstork's Oboe Triptych Distant Lands Premieres With the Cleveland Orchestra",
+          "source": "Seen and Heard International",
+          "byline": "Mark S Jordan",
+          "date": "Nov 6",
+          "url": "https://seenandheard-international.com/2026/11/popelka-and-cleveland-savor-warm-brahms-and-a-new-concertante-oboe-piece-by-hailstork/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Vintage Watch Researcher Finds Restored Numerals on the Patek Philippe 1463 Phillips Calls Fully Original",
+          "source": "Perezcope",
+          "byline": "Jose Pereztroika",
+          "date": "Nov 6",
+          "url": "https://perezcope.com/2026/11/06/patek-philippe-ref-1463-at-phillips-untouched-except-for-the-touch-ups/",
+          "image": "https://perezcope.com/wp-content/uploads/2026/11/20261106-patek-philippe-1463-tasti-tondi-steel-653525-867701-breguet-numerals-phillips-title.jpg"
+        },
+        {
+          "headline": "The Interim Computer Museum Aims to Revive a DEC LINC-8 That Came From New Zealand via Sydney",
+          "source": "Interim Computer Museum",
+          "date": "Oct 19",
+          "url": "https://icm.museum/blog/?p=758"
+        },
+        {
+          "headline": "Conservators Read the Nail Holes in Alexander Hamilton's Dining Chairs to Find Their First Upholstery",
+          "source": "Winterthur",
+          "byline": "Kathy Z. Gillis",
+          "date": "Aug 10, 2026",
+          "evergreen": true,
+          "url": "https://www.winterthur.org/uncovering-the-story-of-hamiltons-chairs/"
+        },
+        {
+          "headline": "Manchester Museum Asks Visitors and Diaspora Partners to Fill the Gaps in Its African Insect Records",
+          "source": "NatSCA",
+          "byline": "Diana Arzuza Buelvas and Lucy Edematie",
+          "date": "Nov 5",
+          "url": "https://natsca.blog/2026/11/05/partnering-with-communities-to-expand-knowledge-and-understanding-of-entomology-collections-at-manchester-museum/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The Twinflower Linnaeus Took as His Emblem Runs Through the Linnean Society's Building, Herbaria and Portraits",
+          "source": "Linnean Society",
+          "byline": "Isabelle Charmantier",
+          "date": "Oct 30",
+          "url": "https://www.linnean.org/news/2026/10/30/linnaea-borealis"
+        },
+        {
+          "headline": "A Ninth Century Paper Leaf Suggests Abbasid Readers Bought, Read and Discarded the Thousand and One Nights",
+          "source": "The Digital Orientalist",
+          "byline": "Zhaleh Nayebossadrian",
+          "date": "Oct 30, 2026",
+          "evergreen": true,
+          "url": "https://digitalorientalist.com/2026/10/30/from-hazar-afsan-to-the-earliest-thousand-and-one-nights-a-digital-fragmentology-approach/"
+        },
+        {
+          "headline": "A Letter From Jamaica in the Fitzherbert Papers Reveals the Hidden Origins of Georgian Barrister Robert Laing",
+          "source": "Derbyshire Record Office",
+          "byline": "Sarah Chubb",
+          "date": "Oct 23",
+          "url": "https://recordoffice.wordpress.com/2026/10/23/hidden-in-plain-sight-why-black-history-can-be-so-hard-to-find/",
+          "image": "https://recordoffice.wordpress.com/wp-content/uploads/2026/10/d239-m-e-16972-03-cropped.jpg"
+        },
+        {
+          "headline": "Carole Boyce Davies on Black Women's Rights and Leadership, From Anna Julia Cooper to Transnational Black Feminist Theory",
+          "source": "Black Perspectives",
+          "byline": "AAIHS Editors",
+          "date": "Oct 26",
+          "url": "https://www.aaihs.org/black-womens-rights-and-leadership-an-interview-with-carole-boyce-davies/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Dreamcat Began With a Dark Monster That Was Scrapped and Ended With Joost Jansen's Recurring Cat in the Lead",
+          "source": "Motionographer",
+          "byline": "Carlos El Asmar",
+          "date": "Nov 4",
+          "url": "https://motionographer.com/2026/11/04/im-having-a-breakdown-dreamcat-the-monster-that-wasnt-his/"
+        },
+        {
+          "headline": "John Matysiak Lit a Converted Sandwich Shop With 60 Watt Practicals to Give Motor City Its 1970s Street Feel",
+          "source": "American Cinematographer",
+          "byline": "John Matysiak",
+          "date": "Nov 4",
+          "url": "https://theasc.com/article/motor-city-cinematography-matysiak/",
+          "image": "https://theasc.com/wp-content/uploads/2026/11/MC_00409-1024x683.jpg"
+        },
+        {
+          "headline": "Being Heumann Narrows Judith Heumann's Life to the 26-Day Sit-In of 1977 at a San Francisco Federal Office",
+          "source": "ScreenAnarchy",
+          "byline": "Olga Artemyeva",
+          "date": "Nov 6",
+          "url": "https://screenanarchy.com/2026/11/being-heumann-review.html"
+        },
+        {
+          "headline": "The NFSA's Then Chief Curator Looks Back on Ten Years and More Than 36 Restorations of Australian Films",
+          "source": "National Film and Sound Archive of Australia",
+          "byline": "Kate Scott",
+          "date": "Jun 12, 2024",
+          "evergreen": true,
+          "url": "https://www.nfsa.gov.au/latest/alchemy-restoration-10-years-nfsa-restores"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 8, 2026",
     "hero": {
       "headline": "Has Time Been Unkind to Charles Ray's Sculptures?",
