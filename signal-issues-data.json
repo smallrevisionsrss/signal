@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "November 10, 2026",
+    "hero": {
+      "headline": "A Poet Reads Historic Deerfield's Paint Books to Learn How the Shakers Colored Their Villages",
+      "dek": "Brece Honeycutt, a poet and research fellow at Historic Deerfield's Memorial Libraries, spent four weeks of January 2026 reading the color and paint books in the Stephen L. Wolf Collection. She begins at Deerfield's Wells-Thorn house, built in 1751 and painted Prussian sky blue around 1800, then follows the Shakers' Millennial Laws of 1845, which set light hues for the fronts of buildings on the street and dark ones for barns. She reads those rules against the color writing of George Field and Faber Birren, and against the ochre-yellow buildings of the Shaker village at New Lebanon.",
+      "byline": "By Brece Honeycutt · Historic Deerfield",
+      "category": "design-arch",
+      "image": "https://www.historic-deerfield.org/wp-content/uploads/2026/11/Fig-1-new-WEB.jpg",
+      "url": "https://www.historic-deerfield.org/put-your-best-building-forward/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Joan Trochut's Super-Veloz Promised the Equivalent of a Hundred Typefaces From About Two Hundred Metal Pieces",
+          "source": "Letterform Archive",
+          "byline": "Chris Westcott",
+          "date": "Nov 9",
+          "url": "https://letterformarchive.org/news/inside-super-veloz/",
+          "image": "https://letterformarchive.org/wp-content/uploads/2026/10/InsideSuperVeloz_banner.jpg"
+        },
+        {
+          "headline": "Raymond Erith and Quinlan Terry's Drawings for a Classical Baha'i Temple Near Tehran, Ended by 1979",
+          "source": "Drawing Matter",
+          "byline": "Clive Aslet",
+          "date": "Nov 5",
+          "url": "https://drawingmatter.org/the-temple/"
+        },
+        {
+          "headline": "FIU Interior Architecture Students Study Ocean Liner Deck Plans and Brochures in the Wolfsonian Library",
+          "source": "Wolfsonian-FIU Library",
+          "date": "Oct 28",
+          "url": "https://wolfsonianfiulibrary.wordpress.com/2026/10/28/ship-shape-florida-international-university-faculty-and-students-explore-our-cruise-line-collection/"
+        },
+        {
+          "headline": "Studio KO's Karl Fournier and Olivier Marty Among the Books, Records and Materials of Their Paris Hôtel Particulier",
+          "source": "Openhouse Magazine",
+          "byline": "Inma Buendía",
+          "evergreen": true,
+          "url": "https://openhouse-magazine.com/architecture-studio-ko/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Laia Abril Turns the Language of the Archive on Rape and Institutional Failure at the International Center of Photography",
+          "source": "e-flux Criticism",
+          "byline": "Wendy Vogel",
+          "date": "Nov 10",
+          "url": "https://www.e-flux.com/criticism/6782494/laia-abril-s-on-rape-and-institutional-failure"
+        },
+        {
+          "headline": "Michael Novak on Letting Paul Taylor's Dances Teach the Dancers",
+          "source": "Interlocutor Magazine",
+          "byline": "Catherine Tharin",
+          "date": "Nov 3",
+          "url": "https://interlocutorinterviews.com/interview-michael-novak-paul-taylor-dance-company-lincoln-center-2026-season/",
+          "image": "https://interlocutorinterviews.com/wp-content/uploads/2026/11/John-Harnage-Austin-Kelly-Alex-Clayton-Spindrift-photo-by-Erin-Baiano-1024x683.jpg"
+        },
+        {
+          "headline": "Phyllis Green's Fifteen-Year Survey at the Laband Treats Sculpture as Spiritual Practice",
+          "source": "Art and Cake",
+          "byline": "Lorraine Heitzman",
+          "date": "Oct 28",
+          "url": "https://www.artandcakela.com/post/phyllis-green-a-life-of-artistic-inquiry"
+        },
+        {
+          "headline": "A Sixteen-Year-Old Photographer Shoots a Family Trip Through Vietnam on Portra and Gold",
+          "source": "Shoot It With Film",
+          "byline": "Antoine Dupierre",
+          "date": "Oct 28",
+          "url": "https://shootitwithfilm.com/vietnam-travel-essay-by-antoine-dupierre/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Jeffrey Brillhart on Learning to Improvise at the Organ, From a Roller Rink Hammond to Toulouse",
+          "source": "The Diapason",
+          "byline": "Robert McCormick",
+          "date": "Oct 16",
+          "url": "https://www.thediapason.com/content/spotlight-improvisation-part-6-interview-jeffrey-brillhart"
+        },
+        {
+          "headline": "BMOP Premieres Anthony De Ritis's Sirens Piece for Orchestra and Tape, Built on Joyce's Ulysses",
+          "source": "The Boston Musical Intelligencer",
+          "byline": "Ian Wiese",
+          "date": "Nov 8",
+          "url": "https://classical-scene.com/2026/11/08/bmop-delights/"
+        },
+        {
+          "headline": "Linfield's Collaborative Music Ensemble Plays Andrea Reinkemeyer's New Rainshadow at Its Album Release Concert",
+          "source": "Oregon ArtsWatch",
+          "byline": "Charles Rose",
+          "date": "Nov 9",
+          "url": "https://www.orartswatch.org/an-extension-of-content-linfield-collaborative-music-ensembles-patterns-of-wildness-in-concert/",
+          "image": "https://www.orartswatch.org/wp-content/uploads/2026/11/image3-1.jpeg"
+        },
+        {
+          "headline": "A South Australian Family's 1901 Wax Cylinders Are Heard Again, Transferred on an Archeophone",
+          "source": "State Library of South Australia",
+          "evergreen": true,
+          "url": "https://www.slsa.sa.gov.au/voices-captured-wax-digitising-wax-cylinder-recordings-from-1901"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A 1932 Leica II and a 1934 Summar Lens, Bought Separately, Go Street Shooting in New York",
+          "source": "35mmc",
+          "byline": "Scott Ferguson",
+          "date": "Nov 10",
+          "url": "https://www.35mmc.com/10/11/2026/leica-ii-d-1932-leica-summar-50mm-f2-1934-nyc-street-shooting/",
+          "image": "https://www.35mmc.com/wp-content/uploads/2026/09/20420027-scaled.jpg"
+        },
+        {
+          "headline": "A Collector Replaces the Slipping Two-Piece Stem of a Black-Dial 1960 Hamilton Thinline 5000",
+          "source": "Hamilton Chronicles",
+          "byline": "HandyDan",
+          "date": "Nov 7",
+          "url": "https://www.hamiltonchronicles.com/2026/11/1960-thinline-5000.html"
+        },
+        {
+          "headline": "A Notebook Blogger Lays Out the Larger Journals and Sketchbooks Kept From High School Through College",
+          "source": "Notebook Stories",
+          "byline": "Nifty Notebook",
+          "date": "Nov 4",
+          "url": "https://www.notebookstories.com/2026/11/04/larger-notebooks-from-my-collection/"
+        },
+        {
+          "headline": "V&A Conservators Remove Later Gilding From an Augsburg Cabinet Clock and Find Its Original Silver Foil",
+          "source": "V&A Blog",
+          "byline": "Zoe Allen and Flora Clark",
+          "date": "Feb 19, 2026",
+          "evergreen": true,
+          "url": "https://www.vam.ac.uk/blog/museum-life/turning-back-time-conserving-a-cabinet-clock-from-the-gilbert-collection"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A du Pont Glass Plate of an Andover Dorm Room Shows Puck's Bosses of the Senate Cartoon on the Wall",
+          "source": "Hagley Museum and Library",
+          "date": "Oct 23",
+          "url": "https://www.hagley.org/librarynews/dorm-life-ps-dupont"
+        },
+        {
+          "headline": "What John Adams Wrote on His Birthdays, Traced Through the Adams Papers",
+          "source": "Massachusetts Historical Society",
+          "byline": "Miriam Liebman",
+          "date": "Oct 29",
+          "url": "https://www.masshist.org/beehiveblog/2026/10/happy-birthday-john-and-abigail-adams/"
+        },
+        {
+          "headline": "A Volunteer Overlays Tithe Maps and Ordnance Surveys to Find the Lost Site of Crown Point House",
+          "source": "Norfolk Record Office",
+          "byline": "Leslie Eddowes",
+          "date": "Nov 9",
+          "url": "https://norfolkrecordofficeblog.org/2026/11/09/a-search-to-pin-point-crown-point/",
+          "image": "https://norfolkrecordofficeblog.org/wp-content/uploads/2026/10/fadensmap1797-1.jpg"
+        },
+        {
+          "headline": "A Leiden Manuscript's Certificates Record 305 Hadith Reading Sessions, From Damascus in 1021 to Cairo in 1550",
+          "source": "Leiden Special Collections Blog",
+          "byline": "Vincent Engelhardt",
+          "date": "May 8, 2026",
+          "evergreen": true,
+          "url": "https://www.leidenspecialcollectionsblog.nl/articles/mapping-medieval-scholarship-arabic-audition-certificates-from-the-leiden-special-collection"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Kristin Thompson on Lea Jacobs's Production History of John Ford's 1930s Films",
+          "source": "Observations on film art",
+          "byline": "Kristin Thompson",
+          "date": "Mar 23, 2026",
+          "evergreen": true,
+          "url": "https://www.davidbordwell.net/blog/2026/03/23/john-ford-in-a-whole-new-light/"
+        },
+        {
+          "headline": "Lillian St. Cyr and James Young Johnson Play Indigenous Merchants Who Help Bring In a Kidnapper in a 1910 Western",
+          "source": "Movies Silently",
+          "byline": "Fritzi Kramer",
+          "date": "Nov 8",
+          "url": "https://moviessilently.com/2026/11/08/the-cowboy-and-the-school-marm-1910-a-silent-film-review/"
+        },
+        {
+          "headline": "Thad Komorowski Rates Warner Archive's Complete Quick Draw McGraw Blu-ray the One to Get",
+          "source": "Cartoon Research",
+          "byline": "Thad Komorowski",
+          "date": "Nov 6",
+          "url": "https://cartoonresearch.com/index.php/the-thad-review-quick-draw-mcgraw-the-complete-series/"
+        },
+        {
+          "headline": "Kogonada Returns to Small Independent Filmmaking With Zi, Shot on 16mm in Hong Kong",
+          "source": "Reverse Shot",
+          "byline": "Kathy Ou",
+          "date": "Nov 9",
+          "url": "https://reverseshot.org/reviews/entry/3527/zi",
+          "image": "https://reverseshot.org/uploads/entries/images/zi_MichelleMao-590x308.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 9, 2026",
     "hero": {
       "headline": "Lynne Littman's Testament Kept Its Nuclear Attack Offscreen and Charted One Family's Slow Collapse",
