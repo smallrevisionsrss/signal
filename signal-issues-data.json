@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "November 11, 2026",
+    "hero": {
+      "headline": "Old Maps Trace the Lost Ditches That Made Dickens's Jacob's Island an Island",
+      "dek": "Jacob's Island in Bermondsey is where Charles Dickens sent Bill Sikes to his death in Oliver Twist. A London Inheritance traces the ditches that made it an island onto a modern street map, and sets John Rocque's 1746 map, where the ditches still bound the area, against an 1890s Ordnance Survey sheet, by which time they were gone. Nineteenth-century newspaper reports, 1850s prints in the British Museum and a 1920s photograph then test Dickens's picture of the slum against what the records say was there.",
+      "byline": "By A London Inheritance",
+      "source": "A London Inheritance",
+      "category": "archives",
+      "image": "https://alondoninheritance.com/wp-content/uploads/2026/11/Jacobs-Island-16-scaled.jpg",
+      "url": "https://alondoninheritance.com/rivers-and-streams/jacobs-island-bermondsey/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Lake Flato Built Two Texas Collectors a Limestone Gallery on Marble Falls' Main Street",
+          "source": "Azure",
+          "byline": "Eric Webb",
+          "date": "Nov 6",
+          "url": "https://www.azuremagazine.com/article/arthouse-lake-flato-marble-falls-texas/",
+          "image": "https://www.azuremagazine.com/wp-content/uploads/2026/10/Azure-SiteVisit-Arthouse-Texas.jpg"
+        },
+        {
+          "headline": "Reginald Uren's Brick Box at Rayners Lane Gave the Piccadilly Line a Two-Entrance Station in 1938",
+          "source": "Modernism in Metro-Land",
+          "date": "Nov 10",
+          "url": "https://modernisminmetroland885496.substack.com/p/the-little-box-rayners-lane-underground"
+        },
+        {
+          "headline": "Five Years After Their Book, the London Ghost Signs That Have Been Painted Over, Covered or Half Restored",
+          "source": "Ghostsigns",
+          "byline": "Sam Roberts",
+          "date": "Nov 3",
+          "url": "https://ghostsigns.co.uk/2026/11/saying-hello-and-goodbye-to-londons-ghost-signs/"
+        },
+        {
+          "headline": "A Plan to Open New Orleans' Overlooked Bayou Sauvage Refuge Through Eleven Entrances",
+          "source": "Landscape Architecture Magazine",
+          "byline": "Amy Seek",
+          "date": "Nov 4",
+          "url": "https://landscapearchitecturemagazine.org/bayou-sauvage"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "William Schaeuble Hangs Veronica's Veil on a Power Line and Sets Biblical Scenes on the Iowa Prairie",
+          "source": "Newcity Art",
+          "byline": "Charles Venkatesh Young",
+          "date": "Nov 9",
+          "url": "https://art.newcity.com/2026/11/09/william-schaeuble-depicts-the-divine-in-midwestern-landscapes"
+        },
+        {
+          "headline": "Florence Peake Fills HOME Manchester With Hessian and Plaster Sculptures and Totems Made in Grief Workshops",
+          "source": "Corridor8",
+          "byline": "Grey Marlow",
+          "date": "Nov 6",
+          "url": "https://corridor8.co.uk/article/florence-peake-vitalities/",
+          "image": "https://corridor8.co.uk/wp-content/uploads/2026/11/Florence-Peake-Vitalities-0054-Photo_-Michael-Pollard-scaled.jpg"
+        },
+        {
+          "headline": "Jumaadi Strings 147 Buffalo-Hide Shadow Puppets Through a Wooden Hut at Tumurun Museum",
+          "source": "ArtReview",
+          "byline": "Innas Tsuroiya",
+          "date": "Nov 10",
+          "url": "https://artreview.com/jumaadi-the-winged-one-with-the-skeleton-of-a-leaf-tumurun-museum-surakarta-review-innas-tsuroiya/"
+        },
+        {
+          "headline": "Karol Radziszewski Opens the DIK Fagazine Archive at Galeria Studio, More Quietly Than Its Title Promises",
+          "source": "SZUM",
+          "byline": "Patrycja Ignaczak",
+          "date": "Nov 6",
+          "url": "https://magazynszum.pl/nie-az-tak-brudne-strony-karola-radziszewskiego-w-galerii-studio/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "John Carpenter, His Son and His Godson Built Cathedral in Logic Across Los Angeles and Tokyo",
+          "source": "Mix",
+          "byline": "Lily Moayeri",
+          "date": "Nov 10",
+          "url": "https://www.mixonline.com/recording/music-production/cover-story-music-by-john-carpenter"
+        },
+        {
+          "headline": "Imaginary Baseball League, Dormant Since 2005, Reunite for a Show at The 5 Spot",
+          "source": "Nashville Scene",
+          "byline": "Charlie Zaillian",
+          "date": "Nov 10",
+          "url": "https://www.nashvillescene.com/music/features/imaginary-baseball-league-aaron-robinson-interview-nashville/article_42c638b6-b12e-44e4-b236-de68c37b8d2a.html"
+        },
+        {
+          "headline": "Joseph Bertolozzi Plays the Mid-Hudson Bridge and the Eiffel Tower With Mallets of Wood, Rubber and Steel",
+          "source": "Copper",
+          "byline": "Joe Caplan",
+          "date": "Nov 2",
+          "url": "https://www.psaudio.com/blogs/copper/composer-joseph-bertolozzi-uses-bridges-structures-and-the-world-as-musical-instruments",
+          "image": "https://www.psaudio.com/cdn/shop/articles/Joseph_Bertolozzi_Header_236.jpg"
+        },
+        {
+          "headline": "Rick Cox and John Von Seggern on Jon Hassell's Last Concert, Now Released as Music Is Invisible",
+          "source": "Perfect Sound Forever",
+          "byline": "Jason Gross and Daniel Barbiero",
+          "evergreen": true,
+          "url": "https://www.furious.com/perfect/jonhassellmusicisinvisible.html"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Bronx Hot Rodder Who Builds Period-Correct 1950s Cars Lost His Garage to a Condo Tower",
+          "source": "The Vintagent",
+          "byline": "Michael McCabe",
+          "date": "Nov 3",
+          "url": "https://thevintagent.com/2026/11/03/new-york-city-hot-rodding-with-brian-darwas/",
+          "image": "https://thevintagent.com/dev/wp-content/uploads/2026/10/Brian-driving-his-32-Ford-coup-Photo-Michael-McCabe-1024x768.jpg"
+        },
+        {
+          "headline": "Mego's 1980 Catalog Shows the 12-Inch Star Trek Figures, a Line That Lost Two Aliens Before Toy Fair",
+          "source": "Mego Museum",
+          "byline": "Brain",
+          "date": "Nov 2",
+          "url": "https://www.megomuseum.com/mego-catalog-1980-star-trek-12-figures/"
+        },
+        {
+          "headline": "A Pen Blogger Measures a Halloween Gel Pen Rebuilt by Hand With Glitter, Vinyl and Polymer Clay",
+          "source": "Fountain Pen Chronicles",
+          "byline": "Danny Watts",
+          "date": "Nov 9",
+          "url": "https://fountainpenchronicles.blog/2026/11/09/cuddles-in-a-cup/"
+        },
+        {
+          "headline": "A Postcard Map Traces the Buffalo Soldiers' 1897 Bicycle Ride From Montana to St. Louis",
+          "source": "Postcard History",
+          "byline": "Ray Hahn",
+          "date": "Nov 5",
+          "url": "https://postcardhistory.net/2026/11/soldiers-on-bicycles"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Library of Virginia Chancery Suit Shows How Jane King Ran Richmond's Ice Business for Two Decades",
+          "source": "Library of Virginia",
+          "byline": "Caroline Collins",
+          "date": "Nov 4",
+          "url": "https://uncommonwealth.lva.virginia.gov/blog/2026/11/04/ice-queen-of-richmond/"
+        },
+        {
+          "headline": "Darwin's 1857 Letter to Asa Gray, Held at Harvard, Helped Secure His Priority Over Wallace",
+          "source": "Biodiversity Heritage Library",
+          "byline": "Diane M. Rielinger",
+          "date": "Nov 5",
+          "url": "https://blog.biodiversitylibrary.org/2026/11/race-to-the-origin"
+        },
+        {
+          "headline": "Bernard Fantus Hid Bitter Medicine in Candy, and the National Library of Medicine Keeps His 1915 Booklet",
+          "source": "Circulating Now",
+          "byline": "Krista Stracka",
+          "date": "Oct 29",
+          "url": "https://circulatingnow.nlm.nih.gov/2026/10/29/fantuss-trick-for-treating-a-tablet-full-of-sugar/"
+        },
+        {
+          "headline": "The Staatsbibliothek zu Berlin's Type Specimens, From Flodoard von Biedermann's Collection to Berthold's 1939 Caprice",
+          "source": "Staatsbibliothek zu Berlin",
+          "byline": "Christian Mathieu",
+          "date": "Nov 6",
+          "url": "https://blog.sbb.berlin/schriftproben/",
+          "image": "https://blog.sbb.berlin/wp-content/uploads/caprice_blog1.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "J. Hoberman on Across the Movi-Verse, His Film Criticism From the Years After the Village Voice",
+          "source": "The Brooklyn Rail",
+          "byline": "Payton McCarty-Simas",
+          "evergreen": true,
+          "url": "https://brooklynrail.org/2026/11/film/j-hoberman-with-payton-mc-carty-simas/"
+        },
+        {
+          "headline": "Lisa Downs and Ashley Pugh on As Far Back As I Can Remember, Their Documentary on the Legacy of Goodfellas",
+          "source": "POV Magazine",
+          "byline": "Pat Mullen",
+          "date": "Nov 10",
+          "url": "https://povmagazine.com/how-as-far-back-as-i-can-remember-captures-the-legacy-of-goodfellas/",
+          "image": "https://povmagazine.com/wp-content/uploads/2026/11/HERO-SHOT_AFBAICR_Scorsese_Lorraine_Polaroid.jpg"
+        },
+        {
+          "headline": "David Watkin's Memoir Contradicts the Official Account of How Humphrey Jennings Died on Poros in 1950",
+          "source": "Shadowplay",
+          "byline": "David Cairns",
+          "date": "Nov 6",
+          "url": "https://dcairns.wordpress.com/2026/11/06/the-death-of-humphrey-jennings/"
+        },
+        {
+          "headline": "Marta Popivoda on SLET 1988, Her Short Film About the Lead Dancer of Yugoslavia's Final Mass Performance",
+          "source": "Berlin Art Link",
+          "byline": "Alison Hugill",
+          "date": "Nov 10",
+          "url": "https://www.berlinartlink.com/2026/11/10/living-traces-an-interview-with-marta-popivoda/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 10, 2026",
     "hero": {
       "headline": "A Poet Reads Historic Deerfield's Paint Books to Learn How the Shakers Colored Their Villages",
