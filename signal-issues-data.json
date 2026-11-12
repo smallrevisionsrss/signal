@@ -1,5 +1,199 @@
 [
   {
+    "dateLabel": "November 12, 2026",
+    "hero": {
+      "headline": "Richard Malone Asks Why Some Knowledge Is Preserved, With Irish Quilts at the Council of the EU",
+      "dek": "Christina Donoghue talks to the Irish artist and designer Richard Malone about cuimhne agus séadchomhartha (memory and monument), his installation at the Council of the European Union in Brussels during Ireland's EU presidency. Malone questions why some knowledge is preserved and some is not (\"There are these cut-off points in our collective memory\"), in an installation that relies on Irish Chain and Triple Chain quilts.",
+      "byline": "By Christina Donoghue · Something Curated",
+      "category": "craft",
+      "image": "https://somethingcurated.com/wp-content/uploads/2026/11/Richard_Malone-10-scaled.jpg",
+      "url": "https://somethingcurated.com/2026/11/11/richard-malone-wants-to-know-who-made-your-clothes/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A Stuttgart Panel Discusses Verner Panton's Colour Interiors at 100",
+          "source": "smow Journal",
+          "date": "Nov 2",
+          "url": "https://www.smow.com/blog/2026/11/talking-spaces-iconic-rooms-newly-designed/",
+          "image": "https://www.smow.com/blog/wp-content/uploads/2026/11/1-smow-stuttgart-talking-spaces-journal.jpg"
+        },
+        {
+          "headline": "Five Havana Designers Who Called Themselves Nocturnal Remade the Cuban Movie Poster",
+          "source": "Poster House",
+          "byline": "Marc H. Choko",
+          "date": "Nov 5",
+          "url": "https://posterhouse.org/blog/nocturnal-the-renewal-of-the-cuban-movie-poster/"
+        },
+        {
+          "headline": "The Tesla Roadster Read as a Piece of Car Design",
+          "source": "Car Design News",
+          "byline": "Karl Smith",
+          "date": "Nov 10",
+          "url": "https://www.cardesignnews.com/cars/considering-the-tesla-roadster-the-last-best-drivers-car/2765038"
+        },
+        {
+          "headline": "David Jonathan Ross Tries Three Times to Give Bungee a Lowercase",
+          "source": "DJR",
+          "byline": "David Jonathan Ross",
+          "date": "Nov 8",
+          "url": "https://djr.com/notes/bungee-gothic-lowercase-font-of-the-month"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Rebecca Mezoff Explains When to Weave a Tapestry Sideways",
+          "source": "Rebecca Mezoff",
+          "byline": "Rebecca Mezoff",
+          "date": "Nov 12",
+          "url": "https://rebeccamezoff.com/blog/2026/11/12/weaving-sideways-when-to-turn-your-cartoon-to-weave-a-design-from-the-side"
+        },
+        {
+          "headline": "An MCA Chicago Show Treats Dancehall and Reggaeton as Political Practice",
+          "source": "Sixty Inches From Center",
+          "byline": "Alexandra Martinez",
+          "date": "Nov 7",
+          "url": "https://sixtyinchesfromcenter.org/dancing-toward-revolution/",
+          "image": "https://sixtyinchesfromcenter.org/wp-content/uploads/2026/10/MCA1.jpg"
+        },
+        {
+          "headline": "Autumn Knight Builds an Archive of Complaint at the ICA",
+          "source": "Burlington Contemporary",
+          "byline": "Grace Tomlinson",
+          "date": "Nov 6",
+          "url": "https://contemporary.burlington.org.uk/reviews/reviews/autumn-knight-i-cant-complain"
+        },
+        {
+          "headline": "Daisuke Tomizawa's Yū-kai Pairs Photographs Into a World With Its Own Logic",
+          "source": "Conscientious Photography Magazine",
+          "byline": "Jörg Colberg",
+          "date": "Nov 8",
+          "url": "https://cphmag.com/yu-kai/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Marc Weidenbaum Links Richard Lippold's Mobile at St. Mary's Cathedral to John Cage",
+          "source": "Disquiet",
+          "byline": "Marc Weidenbaum",
+          "date": "Nov 9",
+          "url": "https://disquiet.com/2026/11/09/openness-in-motion/"
+        },
+        {
+          "headline": "Twenty Three Peers and Collaborators Celebrate Juan Atkins",
+          "source": "Resident Advisor",
+          "date": "Nov 10",
+          "url": "https://ra.co/features/4531"
+        },
+        {
+          "headline": "Le Guess Who Turns Twenty With Tortoise, Bethlehem and a 24 Hour Dub Marathon",
+          "source": "The Quietus",
+          "byline": "Patrick Clarke",
+          "date": "Nov 10",
+          "url": "https://thequietus.com/quietus-reviews/live-reviews/international-feel-highlights-from-le-guess-who-2026/",
+          "image": "https://thequietus.com/app/uploads/2026/11/Bethlehem-by-Maarten-Mooijman-1024x683.jpg"
+        },
+        {
+          "headline": "Dave Denyer Hears What Rhino's Reel to Reel Forever Changes Adds Over Vinyl and Streaming",
+          "source": "The Reel-to-Reel Rambler",
+          "byline": "Dave Denyer",
+          "date": "Nov 6",
+          "url": "https://thereeltoreelrambler.com/2026/11/06/review-loves-forever-changes-from-rhino-high-fidelity-reel-to-reel/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Detroit Woman Kept the Replies Presidents' Families Sent to Her Condolence Notes",
+          "source": "Inconspicuous Consumption",
+          "byline": "Paul Lukas",
+          "date": "Nov 5",
+          "url": "https://www.inconspicuous.info/p/a-very-special-collection"
+        },
+        {
+          "headline": "Neil Pearson on the Rescued Files of a British Film Studio's Readers' Department",
+          "source": "The Book Collector",
+          "byline": "Neil Pearson",
+          "date": "Nov 12",
+          "url": "https://thebookcollector.co.uk/not-recommended-the-archive-of-the-associated-british-picture-corporations-readers-department/",
+          "image": "https://thebookcollector.co.uk/wp-content/uploads/2026/11/Pearson1-scaled-e1794224353134.jpg"
+        },
+        {
+          "headline": "Cameron Kaiser Rewires His Classic Console Corner Around a 2006 Panasonic TV",
+          "source": "Old Vintage Computing Research",
+          "byline": "Cameron Kaiser",
+          "date": "Nov 9",
+          "url": "https://oldvcr.blogspot.com/2026/11/the-classic-console-corners-crt.html"
+        },
+        {
+          "headline": "A Clock Restorer Traces a Stalling Banjo Clock of About 1825 to an Unevenly Curved Washer",
+          "source": "Antique and Vintage Clock",
+          "date": "Nov 9",
+          "url": "https://antiquevintageclock.com/2026/11/09/troubleshooting-the-motion-works-on-an-1840-john-sawin-banjo-clock/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Glamorgan Archives Needs an Old PC to Get Files Off Its Zip Disks",
+          "source": "Glamorgan Archives",
+          "date": "Nov 5",
+          "url": "https://glamarchives.wordpress.com/2026/11/05/world-digital-preservation-day/",
+          "image": "https://glamarchives.wordpress.com/wp-content/uploads/2026/11/img_1963.jpeg"
+        },
+        {
+          "headline": "A 1515 Herat Manuscript of Jami's Divan Carries the Stamps of Mughal Emperors",
+          "source": "Digital Scriptorium",
+          "byline": "Kelly Tuttle",
+          "date": "Oct 29",
+          "url": "https://digital-scriptorium.org/about/blog/20261029-lafayette-divan/"
+        },
+        {
+          "headline": "Unpublished Letters at the Women's Library Show the Fights Inside Red Rag Magazine",
+          "source": "LSE History",
+          "byline": "Amy Todd",
+          "date": "Nov 4",
+          "url": "https://blogs.lse.ac.uk/lsehistory/2026/11/04/red-rag-magazine/"
+        },
+        {
+          "headline": "Town Criers Spread the Law Across Early Modern Europe, Forty Archives Show",
+          "source": "Historical Transactions",
+          "byline": "Christophe Gillain, Laura Incollingo, Arthur der Weduwen, Barnaby Cullen and Paweł Pietrowcew",
+          "date": "Nov 6",
+          "url": "https://blog.royalhistsoc.org/2026/11/06/the-voice-of-the-law-the-town-crier-as-an-agent-of-state-communication-in-early-modern-europe/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "John McElwee Recalls Watching a Hindenburg Scoring Session at Universal in 1975",
+          "source": "Greenbriar Picture Shows",
+          "byline": "John McElwee",
+          "date": "Nov 9",
+          "url": "http://greenbriarpictureshows.blogspot.com/2026/11/history-for-fun-3.html"
+        },
+        {
+          "headline": "Ehsan Zamani Reads Five Iranian Films Through the Censor's Eyes",
+          "source": "Cineaste",
+          "byline": "Ehsan Zamani",
+          "evergreen": true,
+          "url": "https://www.cineaste.com/winter2026/censored-realities-social-and-political-tensions-in-iranian-cinema"
+        },
+        {
+          "headline": "Framestore Started From Scans of the Hero Puppet to Build Rocky for Project Hail Mary",
+          "source": "The Art of VFX",
+          "byline": "Vincent Frei",
+          "date": "Nov 10",
+          "url": "https://www.artofvfx.com/project-hail-mary-stuart-penn-bob-winter-and-arslan-elver-framestore/",
+          "image": "https://www.artofvfx.com/wp-content/uploads/2026/11/PHM_Framestore_ITW_03.jpg"
+        },
+        {
+          "headline": "First Assistant Editor Louis Armistead Describes Cutting Room Work on 42.6 Years",
+          "source": "CineMontage",
+          "date": "Nov 4",
+          "url": "https://cinemontage.org/what-our-members-do-louis-armistead-first-assistant-editor/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 11, 2026",
     "hero": {
       "headline": "Old Maps Trace the Lost Ditches That Made Dickens's Jacob's Island an Island",
