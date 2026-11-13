@@ -1,5 +1,200 @@
 [
   {
+    "dateLabel": "November 13, 2026",
+    "hero": {
+      "headline": "Victoria's Garden City Electronic Music Society Turns From Its Cancelled Wonderment Festival to the Noisier NeuzTec",
+      "dek": "Tom Beedham profiles the Victoria, B.C. society behind NeuzTec, its festival of experimental sound, which runs November 12 to 15. The founders explain the funding problems that forced them to cancel their Wonderment festival this year, and why they put their energy into the noisier event instead.",
+      "byline": "By Tom Beedham · Musicworks",
+      "category": "sound-vinyl",
+      "image": "https://musicworks.ca/wp-content/uploads/2026/11/Neuztec-deep-field-array-scaled.jpeg",
+      "url": "https://musicworks.ca/garden-city-electronic-music-society-is-seeding-a-noisier-future/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Loose Parts Reworks a 1950 Lower East Side Co-op Kitchen Around What Was Already There",
+          "source": "Remodelista",
+          "byline": "Fan Winston",
+          "date": "Nov 12",
+          "url": "https://www.remodelista.com/posts/kitchen-week-ikea-loose-parts-nyc/",
+          "image": "https://www.remodelista.com/wp-content/uploads/2026/11/loose-parts-nyc-kitchen-black-stiel-2.jpg"
+        },
+        {
+          "headline": "Tsukamoto Laboratory Reads the Louvered Windows of Aalto's Säynätsalo Council Chamber",
+          "source": "Window Research Institute",
+          "byline": "Yoshiharu Tsukamoto Laboratory",
+          "date": "Nov 12",
+          "url": "https://madoken.jp/en/series/44149/"
+        },
+        {
+          "headline": "Richard Ardagh Traces East London's Typefounders From Caslon to Monotype",
+          "source": "Spitalfields Life",
+          "byline": "The Gentle Author",
+          "date": "Nov 12",
+          "url": "https://spitalfieldslife.com/2026/11/12/typefounders-of-east-london-ii/"
+        },
+        {
+          "headline": "Donald Pittenger Tracks the Ford Fordor Sedan's Profile From 1935 to 1941",
+          "source": "Car Style Critic",
+          "byline": "Donald Pittenger",
+          "date": "Nov 9",
+          "url": "https://carstylecritic.blogspot.com/2026/11/ford-fordor-sedan-profiles-1935-1941.html"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "How Foundation Skateboards Keeps Remaking Its Team",
+          "source": "Quartersnacks",
+          "byline": "Mike Munzenrider",
+          "date": "Nov 11",
+          "url": "https://quartersnacks.com/2026/11/adventure-today-tomorrow-and-forever-foundation-and-its-ever-changing-moods/"
+        },
+        {
+          "headline": "Selma Selman Builds 1000 Tears in Bergamo Around a Wartime Family Photograph and Scrap Metal",
+          "source": "Berlin Art Link",
+          "byline": "Adela Lovric",
+          "date": "Oct 30",
+          "url": "https://www.berlinartlink.com/2026/10/30/selma-selman-gamec-exhibition-review/",
+          "image": "https://www.berlinartlink.com/wp-content/uploads/2026/10/berlinartlink-SelmaSelman_Letters-to-Omer_91690022-a-1.jpg"
+        },
+        {
+          "headline": "Alice Rendon Reads Annarita Bianco's Jewellery Piece Hold me, in this delicate balance",
+          "source": "Klimt02",
+          "byline": "Alice Rendon",
+          "date": "Nov 9",
+          "url": "https://klimt02.net/forum/articles/hold-me-delicate-balance-annarita-bianco-future-classic-contemporary-jewellery-alice-rendon"
+        },
+        {
+          "headline": "Living With an Insulin Pump, a Writer Considers Dress and the Wearable Medical Device",
+          "source": "Vestoj",
+          "byline": "Beatrice Radden Keefe",
+          "date": "Nov 3",
+          "url": "https://vestoj.com/organ-recital/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Jimmy Eat World's Engineers Explain How They Mix the 25th Anniversary Tour",
+          "source": "ProSoundWeb",
+          "byline": "Maxime Brunet",
+          "date": "Nov 11",
+          "url": "https://www.prosoundweb.com/crowd-favorite-the-engineers-mixing-strategies-behind-jimmy-eat-worlds-25th-anniversary-tour/"
+        },
+        {
+          "headline": "SLIKBACK and KMRU Meet Halfway on a Four Track EP From Nairobi's Experimental Scene",
+          "source": "A Closer Listen",
+          "byline": "Gianmarco Del Re",
+          "date": "Nov 13",
+          "url": "https://acloserlisten.com/2026/11/13/slikback-x-kmru-eneo/"
+        },
+        {
+          "headline": "Buck Curran Kept First Takes and Family Voices on His Rimbaud-Inspired Guitar Album",
+          "source": "Foxy Digitalis",
+          "byline": "Brad Rose",
+          "date": "Nov 5",
+          "url": "https://foxydigitalis.zone/2026/11/05/buck-curran-and-the-guitar-under-the-bed/",
+          "image": "https://foxydigitalis.zone/wp-content/uploads/2026/11/Buck-Curran-Rimbaud-Illuminations-Press-Photo-2026.jpg"
+        },
+        {
+          "headline": "Andy Hamilton Reviews Mosaic's Six CD Set of Louis Armstrong in New York, 1924 to 1925",
+          "source": "Jazz Journal",
+          "byline": "Andy Hamilton",
+          "date": "Nov 12",
+          "url": "https://jazzjournal.co.uk/2026/11/12/reviewed-eumir-deodato-louis-armstrong-jason-kao-hwang-human-rites-trio-judi-silvanos-garden-winds/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Beamish Puts Gateshead Tram No. 10 Back Into Passenger Service After a Decade Away",
+          "source": "Beamish Transport Online",
+          "byline": "Paul Jarman",
+          "date": "Nov 11",
+          "url": "https://beamishtransportonline.co.uk/2026/11/gateshead-10-returns-to-service/",
+          "image": "https://beamishtransportonline.co.uk/wp-content/uploads/2026/11/IMG_1467-scaled.jpeg"
+        },
+        {
+          "headline": "Restoring a 1978 Seiko Golden Tuna That Arrived Not Running, With a Bent Hand and a Missing Click Ball",
+          "source": "Adventures in Amateur Watch Fettling",
+          "byline": "Martin",
+          "date": "Oct 22",
+          "url": "https://adventuresinamateurwatchfettling.com/2026/10/22/a-seiko-7549-7000-golden-tuna-from-august-1978/"
+        },
+        {
+          "headline": "Steve Butler Finds Two Toy Vehicles and an Original Box at an Antique Mall on the Way to Allentown",
+          "source": "Antique Toy World",
+          "byline": "Steve Butler",
+          "date": "Oct 28",
+          "url": "https://www.antiquetoyworld.com/beyond-expectations-by-steve-butler/"
+        },
+        {
+          "headline": "The Royal Mint Museum Traces Two London Counterfeiting Cases Through the Dies and Punches It Holds",
+          "source": "Royal Mint Museum",
+          "evergreen": true,
+          "url": "https://www.royalmintmuseum.org.uk/journal/curators-corner/counterfeits-and-cautionary-tales/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Marie Curie Went to Hertha Ayrton in 1912 After the Press Turned on Her",
+          "source": "IET Archives Blog",
+          "byline": "Patricia Fara",
+          "date": "Nov 2",
+          "url": "https://ietarchivesblog.org/2026/11/02/wives-united-marie-curie-and-hertha-ayrton/"
+        },
+        {
+          "headline": "An 1822 House on Hicks Street Was the Roeblings' Bridge Office, a Grocery and an Animal Hospital",
+          "source": "Ephemeral New York",
+          "date": "Nov 9",
+          "url": "https://ephemeralnewyork.wordpress.com/2026/11/09/this-200-year-old-house-on-cranberry-street-bears-witness-to-the-incredible-evolution-of-brooklyn/",
+          "image": "https://ephemeralnewyork.wordpress.com/wp-content/uploads/2026/11/59hicks2026.jpg"
+        },
+        {
+          "headline": "How York Minster's South Transept Burned in 1984 and Was Rebuilt",
+          "source": "Explore York",
+          "byline": "Ashley",
+          "date": "Nov 6",
+          "url": "https://citymakinghistory.org/2026/11/06/from-ashes-to-restoration-the-story-of-the-1984-york-minster-fire/"
+        },
+        {
+          "headline": "A Privy Purse Official's Papers Hold Royal Garden Bills, a Payment to Handel and a Spy Letter",
+          "source": "Worcestershire Archive and Archaeology Service",
+          "date": "Oct 17",
+          "url": "https://www.explorethepast.co.uk/2026/10/handel-espionage-and-gardens-royal-accounts-in-the-archive/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Studio Eeksaurus Animated The Godawan Frame by Frame on Ceramics in a Blue Pottery Style",
+          "source": "Animation Obsessive",
+          "date": "Nov 2",
+          "url": "https://animationobsessive.substack.com/p/animating-traditional-pottery-in"
+        },
+        {
+          "headline": "Editor Yaël Bitton on the Rooms Where She Cuts Films",
+          "source": "Documentary",
+          "byline": "Yaël Bitton",
+          "date": "Nov 11",
+          "url": "https://www.documentary.org/column/whats-my-desk-yael-bitton"
+        },
+        {
+          "headline": "Almodóvar Builds His Most Explicit Autofiction in Bitter Christmas",
+          "source": "In Review Online",
+          "byline": "Christian Craig",
+          "date": "Nov 11",
+          "url": "https://inreviewonline.com/2026/11/11/bitter-christmas-review/"
+        },
+        {
+          "headline": "James Gray's Paper Tiger Plays as a Brother Film to Armageddon Time",
+          "source": "Hammer to Nail",
+          "byline": "Brandon Wilson",
+          "date": "Nov 11",
+          "url": "https://www.hammertonail.com/reviews/paper-tiger/",
+          "image": "https://www.hammertonail.com/wp-content/uploads/2026/11/tiger.jpeg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 12, 2026",
     "hero": {
       "headline": "Richard Malone Asks Why Some Knowledge Is Preserved, With Irish Quilts at the Council of the EU",
