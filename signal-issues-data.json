@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "November 15, 2026",
+    "hero": {
+      "headline": "North East Wales Archives Catalogues Six Collections, From a 1699 Will to 1940s Tourism Brochures",
+      "dek": "A project archivist at North East Wales Archives reports on six collections now catalogued under a Welsh Government-funded project: the records of Ysgol Rhewl in Llanynys; the Gregory family papers from Buckley, which hold First World War army orders to Leonard Gregory to investigate possible hostile mining under Monmouth House and the 1699 will of Gabriel Stephen, a yeoman of Llanfwrog; Denbighshire and Flintshire Agricultural Society records back to 1888; a tourism collection with brochures from the 1940s on; the papers of Dr Buddug Owen; and records of the Clwyd County Clerk.",
+      "byline": "By North East Wales Archives · North East Wales Archives",
+      "category": "archives",
+      "image": "https://denbighshirearchives.wordpress.com/wp-content/uploads/2026/10/last-will-and-testament-photo-e1793351252789-1-edited-1.jpg",
+      "url": "https://denbighshirearchives.wordpress.com/2026/11/06/an-update-from-our-project-archivist/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Krayon's Anywhere Magnolia Uses Petals on an Onyx Dial to Mark Sunrise and Sunset",
+          "source": "SJX Watches",
+          "byline": "Brandon Moore",
+          "date": "Nov 14",
+          "url": "https://watchesbysjx.com/2026/11/krayon-anywhere-magnolia.html",
+          "image": "https://watchesbysjx.com/wp-content/uploads/2026/11/Krayon-Anywhere-Magnolia-3x2-centred-header-2.jpg"
+        },
+        {
+          "headline": "Inside Tove Jansson's Attic Studio in Helsinki",
+          "source": "Kinfolk",
+          "byline": "Petri Burtsoff",
+          "evergreen": true,
+          "url": "https://www.kinfolk.com/stories/home-tour-tove-janssons-helsinki-atelier/"
+        },
+        {
+          "headline": "Vadim Zuev and Matveij Malkin on Font Licensing, Pricing by Company Size and AI Clauses",
+          "source": "type.today",
+          "byline": "Adelina Shaidullina",
+          "date": "Nov 13",
+          "url": "https://type.today/en/journal/vadimzuev-matveijmalkin"
+        },
+        {
+          "headline": "Studio Carson Kelly Rebuilds a Sydney Terrace Less Than Four Metres Wide Around Mirrors and Marble",
+          "source": "ArchitectureAU",
+          "byline": "Rebecca Gross",
+          "date": "Nov 12",
+          "url": "https://architectureau.com/articles/Little-James-by-Studio-Carson-Kelly/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "A Studio Visit to Catherine Tough, Who Designs Socks on Lea Bridge Road",
+          "source": "Spitalfields Life",
+          "byline": "The Gentle Author",
+          "date": "Nov 13",
+          "url": "https://spitalfieldslife.com/2026/11/13/catherine-tough-queen-of-socks/"
+        },
+        {
+          "headline": "Linda Yablonsky Finds Krasner and Pollock Answering Each Other at the Met",
+          "source": "The Art Newspaper",
+          "byline": "Linda Yablonsky",
+          "date": "Nov 9",
+          "url": "https://www.theartnewspaper.com/2026/11/09/big-review-krasner-and-pollock-past-continuous",
+          "image": "https://cdn.sanity.io/images/cxgd3urn/production/b23d6bb281e1212a12dec567a0b9e3d138736e96-2249x1500.jpg"
+        },
+        {
+          "headline": "Bill Evaul Has Spent Decades Researching the Provincetown Printers' White-Line Woodcut",
+          "source": "The Provincetown Independent",
+          "byline": "Pat Kearns",
+          "date": "Nov 11",
+          "url": "https://provincetownindependent.org/arts-minds/2026/11/11/the-artist-as-researcher/"
+        },
+        {
+          "headline": "Flóra Carlile-Kovács Wet-Felts Merino and Silk Into Lichen Forms",
+          "source": "Fiber Art Now",
+          "byline": "Cami Smith",
+          "evergreen": true,
+          "url": "https://www.fiberartnow.net/blog/wool-silk-and-symbiosis/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Monique Evette Byars Builds Blooming Harps and Koi-Pond Guitars",
+          "source": "CDM",
+          "byline": "Peter Kirn",
+          "date": "Nov 13",
+          "url": "https://cdm.link/fanciful-creations-of-monique-evette/"
+        },
+        {
+          "headline": "Woodstock Guitar Maker Joe Veillette Has Built More Than 2,000 Instruments",
+          "source": "Chronogram",
+          "byline": "Peter Aaron",
+          "date": "Nov 1",
+          "url": "https://www.chronogram.com/arts/music/joe-veillette-woodstock-guitar-maker/"
+        },
+        {
+          "headline": "How The Necks Scored the Dread in the 1998 Film The Boys",
+          "source": "Limelight",
+          "byline": "Alison Cole",
+          "date": "Nov 9",
+          "url": "https://limelight-arts.com.au/features/the-sound-of-dread/",
+          "image": "https://limelight-arts.com.au/wp-content/uploads/2026/11/The-Necks_1.jpg"
+        },
+        {
+          "headline": "The British Library Holds the Only Known Score of Fastnachts-Lust, a 1697 Dresden Court Entertainment",
+          "source": "British Library",
+          "byline": "Sebastian Biesold",
+          "date": "Nov 9",
+          "url": "https://www.bl.uk/stories/blogs/posts/rediscovering-fastnachts-lust"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Nick Engvall Makes the Case for Re-Releasing the 2004 Air Jordan XIX",
+          "source": "Sneaker History",
+          "byline": "Nick Engvall",
+          "date": "Nov 14",
+          "url": "https://sneakerhistory.com/air-jordan-xix-retro/",
+          "image": "https://sneakerhistory.com/wp-content/uploads/2026/10/air-jordan-xix-2004-flint-grey.jpg.jpg"
+        },
+        {
+          "headline": "Mego's 12-Inch Star Trek: The Motion Picture Figures",
+          "source": "Plaid Stallions",
+          "byline": "Mantooth",
+          "date": "Nov 13",
+          "url": "https://plaidstallions.com/reboot/vintage-mego-12-star-trek-the-motion-picture-figures/"
+        },
+        {
+          "headline": "A Royal 240 Typewriter, Examined by Its Owner",
+          "source": "Nicole Express",
+          "byline": "Nicole",
+          "date": "Nov 8",
+          "url": "https://nicole.express/2026/cutting-edge-technology.html"
+        },
+        {
+          "headline": "Pete Smith Says Struck Coin Metal Flows Outward, Citing His 1984 Turban Cent Research",
+          "source": "The E-Sylum",
+          "byline": "Pete Smith",
+          "date": "Nov 8",
+          "url": "https://www.coinbooks.org/v29/esylum_v29n45.html"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Research Project Traces the Families of 27 Men Killed in Commando Training During the Second World War",
+          "source": "National Records of Scotland",
+          "byline": "Steve Nicoll",
+          "date": "Oct 28",
+          "url": "https://blog.nrscotland.gov.uk/2026/10/28/we-will-remember-them-we-must-remember-them/"
+        },
+        {
+          "headline": "A Handwritten Key in Chetham's First Edition of Absalom and Achitophel Names Dryden's Targets",
+          "source": "Chetham's Library",
+          "byline": "John Cleary",
+          "evergreen": true,
+          "url": "https://library.chethams.com/blog/a-sweetness-which-tickles-even-while-it-hurts-absalom-and-achitophel-1681-by-john-dryden-a-seventeenth-century-political-satire/"
+        },
+        {
+          "headline": "Leeds Libraries Asks Readers to Help Identify the People and Places in a Leeds Rifles Photograph Album",
+          "source": "Leeds Libraries",
+          "date": "Nov 8",
+          "url": "https://secretlibraryleeds.net/2026/11/08/7th-and-8th-battalion-book/",
+          "image": "https://secretlibraryleeds.net/wp-content/uploads/2026/11/p12.jpeg"
+        },
+        {
+          "headline": "The Royal Society's Picture Curator Picks Five Images, From an 1888 Krakatoa Study to a 1743 Mezzotint of Shells",
+          "source": "Royal Society",
+          "byline": "Katherine Marshall",
+          "date": "Nov 10",
+          "url": "https://royalsociety.org/blog/2026/11/christmas-illuminations/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Zsuzsanna Kreif on Making Her Animated Short Adgwa-Ata",
+          "source": "Cartoon Brew",
+          "byline": "Jamie Lang",
+          "date": "Nov 13",
+          "url": "https://www.cartoonbrew.com/awards/adgwa-ata-zsuzsanna-kreif-269414.html"
+        },
+        {
+          "headline": "Camilo Monsalve on Shooting Three Episodes of One Hundred Years of Solitude: Part Two",
+          "source": "Definition Magazine",
+          "byline": "Nicola Foley",
+          "date": "Nov 4",
+          "url": "https://definitionmagazine.com/features/filming-one-hundred-years-of-solitude-part-two/",
+          "image": "https://api.definitionmagazine.com/wp-content/uploads/2026/10/CADS_S2-EP04-SCN20-09516-HighRes-scaled-e1793352824577-1024x570.jpeg"
+        },
+        {
+          "headline": "A Walk Through the Cinémathèque Française's Belmondo Exhibition",
+          "source": "FILMDIENST",
+          "byline": "Denis Sasse",
+          "date": "Nov 13",
+          "url": "https://www.filmdienst.de/artikel/82852/belmondo-ausstellung-paris"
+        },
+        {
+          "headline": "Ivica Matić Wanted a 35mm Feature and Made Woman With a Landscape on 16mm for Television",
+          "source": "Slovenian Cinematheque",
+          "byline": "Amir Muratović",
+          "date": "Nov 4",
+          "url": "https://kinoteka.si/en/news/ivica-matic-down-to-earth-human-and-witty/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 14, 2026",
     "hero": {
       "headline": "A Connecticut Shop Owner Keeps Three Renault Clio V6s and Runs Them on Slicks",
