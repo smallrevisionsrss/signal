@@ -1,5 +1,199 @@
 [
   {
+    "dateLabel": "November 14, 2026",
+    "hero": {
+      "headline": "A Connecticut Shop Owner Keeps Three Renault Clio V6s and Runs Them on Slicks",
+      "dek": "Pete Boccarossa owns three Renault Clio V6s, the hatchbacks Renault built with a 3.0-litre V6 mounted sideways where the back seat used to be, and he bolts slicks on them for laps of the lot behind his shop in Bethel, Connecticut. His test for any car is whether he still wants to look back at it after walking away; a new Corvette failed. Kris Clewell traces the line from the Renault 5 Turbo through the 1998 TWR-built concept and the one-make Trophy series, and Boccarossa explains buying one Phase 2 at a Japanese auction, another from Italy, and a Trophy rebuilt to about 375 wheel horsepower.",
+      "byline": "By Kris Clewell · Petrolicious",
+      "category": "collecting",
+      "image": "https://petrolicious.com/cdn/shop/articles/BOCC-CLIO-05.jpg",
+      "url": "https://petrolicious.com/blogs/articles/renault-clio-v6-trophy-bocca-motors"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Hartlepool's Council Housing Grew Out of Slum Clearance, a German Bombardment and a Timber-Yard Fire",
+          "source": "Municipal Dreams",
+          "date": "Nov 10",
+          "url": "https://municipaldreams.wordpress.com/2026/11/10/the-hartlepools-part-i/",
+          "image": "https://municipaldreams.wordpress.com/wp-content/uploads/2026/10/west-view-aerial-2010.jpg"
+        },
+        {
+          "headline": "Graphéine Follows Stefan Sagmeister From a Sign-Painter Grandfather to Finally Something Good",
+          "source": "Graphéine",
+          "date": "Nov 9",
+          "url": "https://grapheine.com/en/magazine/stefan-sagmeister-incorrigible-optimistic/"
+        },
+        {
+          "headline": "iFixit Tears Down the MacBook Pro's PROLED XDR and Finds Four LEDs Lighting the Apple Logo",
+          "source": "iFixit",
+          "byline": "Elizabeth Chamberlain",
+          "date": "Nov 10",
+          "url": "https://www.ifixit.com/News/120152/we-tore-down-the-macbook-proled-xdr-and-found-the-secret-of-the-glowing-apple"
+        },
+        {
+          "headline": "Álvaro Siza's Sketchbooks Show the 1980s Plan He and Távora Drew for Expanding Macau on Reclaimed Land",
+          "source": "Canadian Centre for Architecture",
+          "evergreen": true,
+          "url": "https://www.cca.qc.ca/en/articles/106341/the-reading-of-nature"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Greg Lamarche Recalls Launching His 1990s Graffiti Zine Skills From a Copy Shop",
+          "source": "Letterform Archive",
+          "byline": "Greg Lamarche",
+          "date": "Nov 13",
+          "url": "https://letterformarchive.org/news/coming-of-age-in-graffitis-zine-era/"
+        },
+        {
+          "headline": "A Toruń Show Gathers Nine Lithuanian Photographers for the PreFka Photography Review",
+          "source": "Contemporary Lynx",
+          "byline": "Małgorzata Marszałł",
+          "date": "Nov 10",
+          "url": "https://contemporarylynx.co.uk/a-journey-through-lithuanian-photography-at-the-prefka-photography-review-in-torun",
+          "image": "https://contemporarylynx.co.uk/wp-content/uploads/2026/11/Romualdas-Pozerskis-Trip-to-the-seaside-1972.jpg"
+        },
+        {
+          "headline": "Mike Eckman Tests the Thorium Lenses in His Camera Collection With a $30 Geiger Counter",
+          "source": "mike eckman dot com",
+          "date": "Nov 10",
+          "url": "https://mikeeckman.com/2026/11/radioactive-lenses-and-a-30-radiation-detector/"
+        },
+        {
+          "headline": "Nanna Friis Reviews Tracey Emin's Retrospective A Second Life at Louisiana in Denmark",
+          "source": "Kunstkritikk",
+          "byline": "Nanna Friis",
+          "date": "Nov 6",
+          "url": "https://kunstkritikk.com/scarred-eyes/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Lauren Ritter Built Her Girl Got Lashes Remix on an Analog Rytm, a Digitakt II and an SH-01A",
+          "source": "Magnetic Magazine",
+          "byline": "Will Vance",
+          "date": "Nov 12",
+          "url": "https://magneticmag.com/2026/11/how-it-was-made-c-vogt-sofian-girl-got-lashes-lauren-ritter-remix/"
+        },
+        {
+          "headline": "Chris Farnsworth Argues, Half in Jest, That Burlington Has Saved Rock and Roll",
+          "source": "Seven Days",
+          "byline": "Chris Farnsworth",
+          "date": "Nov 11",
+          "url": "https://www.sevendaysvt.com/music/musicnews/soundbites-burlington-has-saved-rock-and-roll/"
+        },
+        {
+          "headline": "At Krakow's Sacrum Profanum, an Accordion Premiere, Twin Auloi and Bagpipes Played as Ritual",
+          "source": "5:4",
+          "date": "Nov 14",
+          "url": "https://5against4.com/2026/11/14/sacrum-profanum-2026/",
+          "image": "https://5against4.com/wp-content/uploads/2026/11/sacrumprofanum2026_FI.jpg"
+        },
+        {
+          "headline": "Falmouth and Penryn's DIY Punk Scene Gathers Around the Fish Factory",
+          "source": "Maximum Rocknroll",
+          "byline": "Charlie Murphy",
+          "evergreen": true,
+          "url": "https://www.maximumrocknroll.com/article/no-end-in-view-a-falmouth-penryn-scene-report"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Jeff Garrett Explains Why Two Coins With the Same Grade Sell for Different Prices",
+          "source": "CoinWeek",
+          "byline": "Jeff Garrett",
+          "date": "Nov 13",
+          "url": "https://coinweek.com/why-eye-appeal-matters-more-than-the-grade-on-a-coin-holder/"
+        },
+        {
+          "headline": "Restoring a Mid-1960s Gates Executive Console That Arrived From eBay for Parts",
+          "source": "WhitakerAudio",
+          "date": "Oct 13, 2026",
+          "evergreen": true,
+          "url": "https://whitakeraudio.com/2026/10/gates-executive-audio-console-restoration/",
+          "image": "https://whitakeraudio.com/wp-content/uploads/2022/02/executive-0-HR-scaled.jpg"
+        },
+        {
+          "headline": "William Healey Collected Western Art for Decades, Then Built a Collection of Some 185 Works by Native Artists",
+          "source": "Southwest Contemporary",
+          "byline": "Eric Vanderwall",
+          "date": "Nov 10",
+          "url": "https://southwestcontemporary.com/the-way-we-came-phoenix-art-museum/"
+        },
+        {
+          "headline": "A Yorkshire Teacher's Rugby Programme Collection Began With One Bought With Money From Selling a Leek",
+          "source": "Rugby World",
+          "byline": "Joe Robinson",
+          "date": "Nov 10",
+          "url": "https://rugbyworld.com/featured/john-lovell-programme-collector-interview-186309"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Long-Sealed Hospital Notes Show a 1923 Stoker Taking Insulin When He Could Afford It",
+          "source": "Royal College of Physicians",
+          "byline": "Shu-Yu Ho",
+          "date": "Nov 13",
+          "url": "https://history.rcp.ac.uk/blog/when-insulin-was-new-early-treatment-and-cost-care"
+        },
+        {
+          "headline": "City Records Trace the S.S. United States From Its 1952 Ticker-Tape Welcome to Its Last Tow",
+          "source": "NYC Municipal Archives",
+          "byline": "Kenneth Cobb",
+          "date": "Nov 10",
+          "url": "https://www.archives.nyc/blog/2026/11/10/the-ss-united-states-final-voyage"
+        },
+        {
+          "headline": "The National Railway Museum Updates Its Database of 20,592 Railwaymen Killed in the First World War",
+          "source": "National Railway Museum",
+          "byline": "Emily Brunell",
+          "date": "Nov 11",
+          "url": "https://blog.railwaymuseum.org.uk/fallen-railwaymen/",
+          "image": "https://blog.railwaymuseum.org.uk/wp-content/uploads/sites/9/2026/11/GWR-army-recruits-1915.jpg"
+        },
+        {
+          "headline": "Survivors of the 1954 Yangtze Flood Tell What Wuhan's Monument Leaves Out",
+          "source": "NiCHE",
+          "byline": "Kristin Reeves and Yue Liang",
+          "date": "Nov 9",
+          "url": "https://niche-canada.org/2026/11/09/the-bodies-beneath-the-monument-survivor-voices-and-the-unfinished-disaster-of-the-1954-yangtze-flood/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Jan-Christopher Horak on the Czech Avant-Garde and Industrial Films Shown at Pordenone",
+          "source": "Archival Spaces",
+          "byline": "Jan-Christopher Horak",
+          "date": "Nov 13",
+          "url": "https://archivalspaces.com/2026/11/13/412-giornate-del-cinema-muto-ii/",
+          "image": "https://archivalspaces.com/wp-content/uploads/2026/10/ac01_bezucelna_prochazka_1930_credit_narodni_filmovy_archiv.jpg"
+        },
+        {
+          "headline": "Felipe Bustos Sierra Rebuilt the Kenmure Street Blockade From Phone Footage and Re-enactments",
+          "source": "Filmkrant",
+          "byline": "Ivo De Kock",
+          "date": "Nov 14",
+          "url": "https://filmkrant.nl/interview/felipe-bustos-sierra-over-everybody-to-kenmure-street/"
+        },
+        {
+          "headline": "Being Heumann Editor Geraud Brisson Cut Its Sign Language Scenes From Timestamped ASL Logs",
+          "source": "MovieMaker Magazine",
+          "byline": "Tim Molloy",
+          "date": "Nov 13",
+          "url": "https://www.moviemaker.com/being-heumann-geraud-brisson/"
+        },
+        {
+          "headline": "Gonzalo Maza Remembers Sebastián Lelio, His Co-Writer on Four Films",
+          "source": "Sight and Sound",
+          "byline": "Gonzalo Maza",
+          "date": "Nov 13",
+          "url": "https://www.bfi.org.uk/sight-and-sound/features/world-with-no-strangers-sebastian-lelio-remembered-screenwriter-gonzalo-maza"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 13, 2026",
     "hero": {
       "headline": "Victoria's Garden City Electronic Music Society Turns From Its Cancelled Wonderment Festival to the Noisier NeuzTec",
