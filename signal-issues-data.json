@@ -1,5 +1,202 @@
 [
   {
+    "dateLabel": "November 16, 2026",
+    "hero": {
+      "headline": "José Luis Ruíz on Making The Unwanted, His 1975 KNBC Documentary on Mexican Immigrants in Los Angeles",
+      "dek": "UCLA Film & Television Archive's television curator Mark Quigley interviews Ruíz, whose one-hour documentary the archive restored with him. In a full Q&A, Ruíz describes his path from KABC's Unidos series to KNBC, the station's allowance of ten film days and one pickup day for a one-hour documentary, and shooting the film's interviews out of sequence. The restoration premiered at the 2026 UCLA Festival of Preservation.",
+      "byline": "By Mark Quigley · UCLA Film & Television Archive",
+      "category": "photo-film",
+      "image": "https://static.library.ucla.edu/craftassetsprod/FTVA/_fullscreen/Unwanted_0130217_crop_3300x2550.jpg",
+      "url": "https://www.cinema.ucla.edu/blog/interview-with-filmmaker-activist-jose-luis-ruiz-director-the-unwanted"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Susan Milligan on Why So Much Design Still Fits Only Men",
+          "source": "PRINT Magazine",
+          "byline": "Susan Milligan",
+          "date": "Nov 9",
+          "url": "https://www.printmag.com/product-design/one-size-fits-men/",
+          "image": "https://www.printmag.com/wp-content/uploads/2026/11/25164730835903-1-scaled.jpg"
+        },
+        {
+          "headline": "Eric Timothy Carlson Inverts His Own Cover for Bon Iver's 22, A Million Ten Years On",
+          "source": "It's Nice That",
+          "byline": "Paul Moore",
+          "date": "Nov 10",
+          "url": "https://www.itsnicethat.com/articles/eric-timothy-carlson-bon-iver-22-a-million-graphic-design-101126"
+        },
+        {
+          "headline": "Craig Hamilton's Classical Redesign of Three Buildings on Pall Mall",
+          "source": "Drawing Matter",
+          "byline": "Craig Hamilton",
+          "date": "Nov 9",
+          "url": "https://drawingmatter.org/redesigning-pall-mall/"
+        },
+        {
+          "headline": "Ken Shirriff Reverse-Engineers the Signetics ST680A, a Four-Gate DTL Chip",
+          "source": "Ken Shirriff's blog",
+          "byline": "Ken Shirriff",
+          "evergreen": true,
+          "url": "https://www.righto.com/2026/11/signetics-st680a-dtl-nand.html"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Sable Elyse Smith and Johanna Fateman Talk Through Clockwork",
+          "source": "Elephant",
+          "date": "Nov 14",
+          "url": "https://elephant.art/sable-elyse-smith-and-johanna-fateman-talk-clockwork/"
+        },
+        {
+          "headline": "In Reykjavík's Galleries, Iceland's Volcanic Landscape Keeps Returning",
+          "source": "Kunstkritikk",
+          "byline": "Louise Steiwer",
+          "date": "Nov 3",
+          "url": "https://kunstkritikk.com/the-ash-cloud-in-my-minds-eye/",
+          "image": "https://cdn.kunstkritikk.no/uploads/2026/11/Veil-2012_Sigurdur-Gudjonsson-4.jpg"
+        },
+        {
+          "headline": "The Jaou Tunis Biennale Sets Migration and the Mediterranean at the Centre of Two Exhibitions",
+          "source": "Contemporary Lynx",
+          "byline": "Niccolò Lucarelli",
+          "date": "Nov 14",
+          "url": "https://contemporarylynx.co.uk/2026-jaou-tunis-biennale"
+        },
+        {
+          "headline": "Celia Paul on Her Venice Residency Two Years After Her Husband's Death",
+          "source": "Apollo",
+          "byline": "Sophie Barling",
+          "date": "Nov 6",
+          "url": "https://apollo-magazine.com/celia-paul-interview-venice-objects-of-desire-exhibition-book/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Guitarist Ayal Senior Lists the Venues, Records and Writers That Shaped Him",
+          "source": "Dusted Magazine",
+          "date": "Nov 13",
+          "url": "https://dustedmagazine.tumblr.com/post/833194792335917056/listed-ayal-senior"
+        },
+        {
+          "headline": "David Chesky Asks Why the Symphony Orchestra Does Not Groove",
+          "source": "Copper",
+          "byline": "David Chesky",
+          "date": "Nov 2",
+          "url": "https://www.psaudio.com/blogs/copper/the-great-rhythmic-divide-composer-david-chesky-asks-why-doesnt-the-symphony-orchestra-groove"
+        },
+        {
+          "headline": "A Gdansk Hardcore Band Built Its Own Studio and Hand Makes Its Cassettes",
+          "source": "IDIOTEQ",
+          "byline": "Karol Kamiński",
+          "date": "Nov 14",
+          "url": "https://idioteq.com/heavy-hardcore-band-no-one-leaves-discuss-splitting/",
+          "image": "https://idioteq.com/wp-content/uploads/2026/11/dsc-2973.jpg"
+        },
+        {
+          "headline": "Ace Records Collects Barbara Moore's Arranging, Library and Screen Music, 1965 to 1981",
+          "source": "UK Jazz News",
+          "byline": "Andrew Cartmel",
+          "date": "Nov 1",
+          "url": "https://ukjazznews.com/barbara-moore-bedazzled-tv-film-and-studio-work-1965-81/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The Monitor-Stand Power Centers of the 1980s, and How to Fix One",
+          "source": "The Silicon Underground",
+          "byline": "Dave Farquhar",
+          "date": "Nov 14",
+          "url": "https://dfarq.homeip.net/vintage-computer-power-centers/",
+          "image": "https://dfarq.homeip.net/wp-content/uploads/2023/02/vintage-computer-power-center.jpg"
+        },
+        {
+          "headline": "A Writer Drives the Only Privately Owned GM EV1 After Its 383-Day Restoration",
+          "source": "The Autopian",
+          "byline": "Nick Hernandez",
+          "date": "Nov 15",
+          "url": "https://www.theautopian.com/the-only-privately-held-gm-ev1-has-been-restored-and-they-let-me-drive-it/"
+        },
+        {
+          "headline": "The Computer He Learned On, Bought Back Twenty-Three Years Later",
+          "source": "Low End Mac",
+          "byline": "Mark Sokolovsky",
+          "date": "Oct 8",
+          "url": "https://lowendmac.com/2026/my-first-ever-computer/"
+        },
+        {
+          "headline": "A Moser Grape Pitcher Shows Off Bohemian Enamelled Glass",
+          "source": "Kovels Antique Trader",
+          "byline": "Elizabeth Heineman",
+          "date": "Oct 13",
+          "url": "https://www.antiquetrader.com/collectors-notebook-grapes-in-bohemian-glass"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Parish Registers and Old Bailey Books Trace John Anthony, a Chinese Sailor Who Became an East London Landlord",
+          "source": "The London Archives",
+          "byline": "Howard Doble",
+          "date": "Oct 20",
+          "url": "https://www.thelondonarchives.org/blog/john-anthony-a-chinese-londoner"
+        },
+        {
+          "headline": "Pamphlets at Marsh's Library Show Henri IV's Courtiers Staging Religious Debates as Combat",
+          "source": "Marsh's Library",
+          "byline": "Marc W. S. Jaffré",
+          "evergreen": true,
+          "url": "https://marshlibrary.ie/debate-bros-at-the-french-court/"
+        },
+        {
+          "headline": "A Mentalist's Hundred Scrapbooks Sit in the Library of Congress, Many Still Uncatalogued",
+          "source": "Library of Congress",
+          "byline": "Callie Beattie",
+          "date": "Nov 4",
+          "url": "https://blogs.loc.gov/bibliomania/2026/11/04/the-scrapbooking-mentalist/",
+          "image": "https://blogs.loc.gov/bibliomania/files/2026/10/library_pic_page5-1024x731.jpg"
+        },
+        {
+          "headline": "LSE's Archives Trace Italian Women's Fight for the Vote and the Merlin Law",
+          "source": "LSE History",
+          "byline": "Marzia Maccaferri",
+          "date": "Nov 11",
+          "url": "https://blogs.lse.ac.uk/lsehistory/2026/11/11/suffrage-citizenship-and-the-making-of-the-italian-republic/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Lee Chang-dong on Love, Light and the Unseen in Possible Love, His First Film Since Burning",
+          "source": "MUBI Notebook",
+          "byline": "Lukasz Mankowski",
+          "date": "Nov 12",
+          "url": "https://mubi.com/en/notebook/posts/the-possibilities-of-the-unseen-in-conversation-with-lee-chang-dong"
+        },
+        {
+          "headline": "Kamila Serwicka Filmed Her Family for Five Years as It Recovered From Abuse",
+          "source": "Documentary",
+          "byline": "Sonya Vseliubska",
+          "date": "Nov 5",
+          "url": "https://www.documentary.org/online-feature/enormous-responsibility-kamila-serwicka-chronicling-her-familys-recovery-domestic"
+        },
+        {
+          "headline": "A Hematologist on What You Can See Everything Shows of Elizabeth Holmes",
+          "source": "Science & Film",
+          "byline": "Mikkael Sekeres",
+          "date": "Nov 2",
+          "url": "https://scienceandfilm.org/articles/what-we-really-see-of-elizabeth-holmes-in-you-can-see-everything/"
+        },
+        {
+          "headline": "Brad Bird Wants Animation Taken as Seriously as Live Action",
+          "source": "MovieMaker",
+          "byline": "Greg Gilman",
+          "date": "Nov 12",
+          "url": "https://www.moviemaker.com/ray-gunn-brad-bird/",
+          "image": "https://www.moviemaker.com/wp-content/uploads/2026/11/Ray-Gunn-Brad-Bird.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 15, 2026",
     "hero": {
       "headline": "North East Wales Archives Catalogues Six Collections, From a 1699 Will to 1940s Tourism Brochures",
