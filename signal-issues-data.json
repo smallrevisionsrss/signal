@@ -1,5 +1,205 @@
 [
   {
+    "dateLabel": "November 17, 2026",
+    "hero": {
+      "headline": "Utah State's Moab Building Reaches Net Zero With Old Desert Tactics and a 209 kW Canopy Array",
+      "dek": "Nate Traylor reports on Utah State University's 22,000 square foot Moab Academic Building by Lake Flato Architects with MHTN, which earned ILFI Zero Energy certification in March 2026 as the university's first net zero building. The piece walks through the passive moves first: an east west bar, deep south overhangs, honed concrete block for thermal mass, clerestories over the circulation spine and operable windows. Then the systems: ground source heat pumps under the parking lot and a photovoltaic array on four parking canopies, enlarged from 178 kW to 209 kW by a local grant. Testing before occupancy caught a unit missing its backup heating and a refrigerant leak.",
+      "byline": "By Nate Traylor · ARCHITECT",
+      "category": "design-arch",
+      "image": "https://www.architectmagazine.com/wp-content/uploads/sites/5/2026/11/USU_Moab_Exterior_Paul-Richer-1.jpg",
+      "url": "https://www.architectmagazine.com/buildings/the-ancient-roots-of-net-zero-design-lessons-from-usu-moab/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Álvaro Siza's Boa Nova Tea House Reveals the Atlantic in Stages From a Granite Headland",
+          "source": "ArchEyes",
+          "byline": "ArchEyes Team",
+          "date": "Nov 16",
+          "url": "https://archeyes.com/boa-nova-tea-house-by-alvaro-siza-in-leca-da-palmeira-portugal/",
+          "image": "https://archeyes.com/wp-content/uploads/2026/11/04-tea-house-roof-with-leca-lighthouse-and-coastline-boa-nova-tea-house-alvaro-siza-alejandro-suarez-archeyes.jpg"
+        },
+        {
+          "headline": "York's Walmgate Bar Still Has Its Medieval Barbican, Repaired After the 1644 Siege",
+          "source": "English Buildings",
+          "byline": "Philip Wilkinson",
+          "date": "Nov 14",
+          "url": "https://englishbuildings.blogspot.com/2026/11/york_01371485955.html"
+        },
+        {
+          "headline": "A Plastics Museum Lines Up Its Food Gadgets From the 1950s Quickmix to the Veg-O-Matic",
+          "source": "MoDiP",
+          "byline": "Louise Dennis",
+          "date": "Nov 11",
+          "url": "https://www.modip.ac.uk/blog/2026/11/britain-made-it-domestic-appliances-part-1"
+        },
+        {
+          "headline": "An Architect Argues Cities Should Be Planned Around the Wind From the First Sketch",
+          "source": "Common Edge",
+          "byline": "Prisca Weems",
+          "date": "Nov 16",
+          "url": "https://commonedge.org/what-if-we-designed-cities-around-the-wind/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "John Glenn Bought an Ansco Autoset at a Drugstore for $45, and a Broken One Still Makes Pictures",
+          "source": "35mmc",
+          "byline": "Neal Wellons",
+          "date": "Nov 16",
+          "url": "https://www.35mmc.com/16/11/2026/ansco-autoset-camera-john-glenn-used-one-and-i-did-too/"
+        },
+        {
+          "headline": "Juana Alicia Spent Five Years on a Glowing Glass Nopal for the Mission Branch Library",
+          "source": "Mission Local",
+          "byline": "Andres Jimenez Larios",
+          "date": "Nov 14",
+          "url": "https://missionlocal.org/2026/11/glowing-cactus-mission-library/",
+          "image": "https://missionlocal.org/wp-content/uploads/2026/11/1126_ZM_MissionBranchLibrary-17-scaled.jpg"
+        },
+        {
+          "headline": "Marilou Schultz Wove an Intel Pentium Chip on Her Grandmother's Loom",
+          "source": "The Brooklyn Rail",
+          "byline": "Amanda Gluibizzi",
+          "date": "Oct 30",
+          "url": "https://brooklynrail.org/2026/11/artseen/marilou-schultz/"
+        },
+        {
+          "headline": "Leiden's Textile Research Centre Brings Home a Georgian Blue Cloth and Its Printing Block",
+          "source": "Textile Research Centre Leiden",
+          "byline": "Gillian Vogelsang-Eastwood",
+          "date": "Nov 3",
+          "url": "https://www.trc-leiden.nl/trc/index.php/en/blog/1899-international"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Salvador's Blocos Afro Built Carnaval's Brand but Still Struggle for Funding",
+          "source": "Afropop Worldwide",
+          "byline": "Oisakhose Aghomo",
+          "date": "Nov 16",
+          "url": "https://www.afropop.org/articles/who-profits-from-salvadors-carnaval"
+        },
+        {
+          "headline": "Mark Berry Hears Inmo Yang and Sakari Oramo Play Bartók's First Violin Concerto at the Barbican",
+          "source": "Boulezian",
+          "byline": "Mark Berry",
+          "date": "Nov 12",
+          "url": "https://boulezian.blogspot.com/2026/11/yangbbc-sooramo-enescu-bartok-and.html"
+        },
+        {
+          "headline": "Six Composers Each Scored One Reel of the 1926 Silent Film The Flying Ace",
+          "source": "I CARE IF YOU LISTEN",
+          "byline": "A. Kori Hill",
+          "date": "Nov 11",
+          "url": "https://icareifyoulisten.com/2026/11/six-composers-give-new-life-to-the-flying-ace/",
+          "image": "https://icareifyoulisten.com/wp-content/uploads/sites/3/2026/11/the-flying-ace-reading-bw-photo-courtesy-jacksonville-symphony-1440px.jpg"
+        },
+        {
+          "headline": "An Edison Cylinder From 1910 Holds One of Alexander Prince's Two Solo Concertina Recordings",
+          "source": "Tinfoil.com",
+          "evergreen": true,
+          "url": "https://www.tinfoil.com/cylmonth.htm"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The Strong's Chief Curator Traces the Care Bears From Greeting Card Sketches to Kenner Plush",
+          "source": "The Strong National Museum of Play",
+          "byline": "Michelle Parnett-Dwyer",
+          "date": "Nov 13",
+          "url": "https://www.museumofplay.org/blog/care-bears-bring-cheer-to-the-national-toy-hall-of-fame/",
+          "image": "https://www.museumofplay.org/app/uploads/2026/11/Care-Bears-Figures.jpg"
+        },
+        {
+          "headline": "A Héron Pack Carrying a Spanish Insurance Broker's Advert Puzzles a Playing Card Collector",
+          "source": "The World of Playing Cards",
+          "byline": "Roddy Somerville",
+          "date": "Nov 16",
+          "url": "https://www.wopc.co.uk/france/france-cartes/heron/castilian-pattern"
+        },
+        {
+          "headline": "Fifteen Years On, Pencil Talk Corrects Its Own Account of the J. R. Moon Try-Rex Pencil",
+          "source": "Pencil Talk",
+          "byline": "Stephen",
+          "date": "Nov 14",
+          "url": "https://www.penciltalk.org/2026/11/the-j-r-moon-try-rex-pencil"
+        },
+        {
+          "headline": "A Broken 1984 Seiko Talking Watch From eBay Speaks Again After a Battery Diagnosis",
+          "source": "Retro Repairs and Refurbs",
+          "byline": "Adam Wilson",
+          "date": "May 5, 2026",
+          "evergreen": true,
+          "url": "https://retrorepairsandrefurbs.com/2026/05/05/1984-seiko-talking-watch-a965-4000-repair-restoration/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "177 Cambridge Scholars Signed a Latin Address for J.E.B. Mayor's Eightieth Birthday",
+          "source": "Antigone",
+          "byline": "David Butterfield",
+          "date": "Nov 8",
+          "url": "https://antigonejournal.com/2026/11/jeb-mayor-eightieth/"
+        },
+        {
+          "headline": "Sam Adams's Papers Recall a 4,300-Mile Test of the Civil Rights Act in 1964",
+          "source": "Kenneth Spencer Research Library",
+          "byline": "Kenneth Stephens",
+          "date": "Oct 28",
+          "url": "https://blogs.lib.ku.edu/spencer/remembering-sam-adams-and-his-highways-to-hope/"
+        },
+        {
+          "headline": "How William and Mary's Youngest Board Member Fought a Stadium Plan in 1979",
+          "source": "William & Mary Libraries",
+          "byline": "Neel Sawkar and Enna Carbone",
+          "evergreen": true,
+          "url": "https://libraries.wm.edu/blog/youngest-ever-member-board-visitors-battle-over-cary-field"
+        },
+        {
+          "headline": "Five Chemistry Book Covers From 1991 to 2002 Show the Look Fans Call Utopian Scholastic",
+          "source": "Science History Institute",
+          "byline": "Eddie Rubeiz",
+          "date": "Nov 12",
+          "url": "https://www.sciencehistory.org/collections/blog/utopian-scholastic/",
+          "image": "https://www.sciencehistory.org/wp-content/uploads/2026/11/chemistry_molecular_science_hero.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Viola Stephan Recalls Filming Post-Soviet Life Without a Script",
+          "source": "Sabzian",
+          "byline": "Jordan Cronk",
+          "date": "Nov 4",
+          "url": "https://www.sabzian.be/text/the-spirit-of-a-moment"
+        },
+        {
+          "headline": "Nazila Azizi on Turning Her Kabul Evacuation Footage Into Lineout",
+          "source": "DMovies",
+          "byline": "Romey Norton",
+          "date": "Nov 14",
+          "url": "https://dmovies.org/2026/11/14/our-dirty-questions-to-nazila-azizi/",
+          "image": "https://dmovies.org/wp-content/uploads/2026/11/NazilaAzizi-800450.jpg"
+        },
+        {
+          "headline": "Video Visions Puts Dead Lover on Disc With a Scratch-and-Sniff Card",
+          "source": "Moviejawn",
+          "byline": "Tina Kakadelis",
+          "date": "Nov 17",
+          "url": "https://www.moviejawn.com/home/2026/11/17/disc-dispatch-dead-lover"
+        },
+        {
+          "headline": "Paul Taglianetti on Building the Video Screens of Demolition Man",
+          "source": "Pushing Pixels",
+          "byline": "Kirill Grouchnikov",
+          "date": "Oct 23, 2024",
+          "evergreen": true,
+          "url": "https://www.pushing-pixels.org/2024/10/23/the-screens-of-demolition-man-interview-with-paul-taglianetti.html"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 16, 2026",
     "hero": {
       "headline": "José Luis Ruíz on Making The Unwanted, His 1975 KNBC Documentary on Mexican Immigrants in Los Angeles",
