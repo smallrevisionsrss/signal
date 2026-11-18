@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "November 18, 2026",
+    "hero": {
+      "headline": "Natalie Curtis Photographs Her Way Out of Manchester in a Paris Show Called Tower",
+      "dek": "Dora Sahbazovic interviews photographer Natalie Curtis, daughter of Ian Curtis of Joy Division, in Paris, where her show Tower runs at Galerie Arnaud Lefebvre from November 5 to 28, 2026. Curtis, from Cheshire near Manchester, has described Tower as an exit project coinciding with leaving Manchester for good. She recalls a village school where dairy cows often delayed the morning commute, chipping a tooth as an extra in a riot scene on Control, and taking riding lessons instead of learning to drive. She says taking a picture is a feeling that is a need, and that photographs can be both document and myth.",
+      "byline": "By Dora Sahbazovic · Interview Magazine",
+      "category": "craft",
+      "image": "https://www.interviewmagazine.com/wp-content/uploads/2026/11/IMG_4310-scaled.jpg",
+      "url": "https://www.interviewmagazine.com/art/natalie-curtis-tower-photography-ian-curtis-joy-division"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Freshkills Landfill Is Becoming Habitat on Purpose",
+          "source": "Urban Omnibus",
+          "byline": "Russell Jacobs",
+          "date": "Nov 5",
+          "url": "https://urbanomnibus.net/2026/11/the-land-and-the-landfill/",
+          "image": "https://urbanomnibus.net/wp-content/uploads/sites/2/2026/11/00-featured-image-thumbnail-1.jpg"
+        },
+        {
+          "headline": "Latinotype's Eighteen Years, From a One-Person Chilean Project to 300 Families",
+          "source": "TYPE01",
+          "byline": "Poppy Thaxter",
+          "date": "Nov 9",
+          "url": "https://type-01.com/the-latinotype-archive/"
+        },
+        {
+          "headline": "How Capacitive Touch Works, From Phone Screens to the SawStop Brake",
+          "source": "Tangible Interfaces",
+          "date": "Nov 10",
+          "url": "https://buttondown.com/turbek/archive/Tangible-tuesday-21-a-touchy-subject/"
+        },
+        {
+          "headline": "Jonathan Hoefler Traces Gotham From a Port Authority Sign to a 66-Style Family",
+          "source": "Jonathan Hoefler",
+          "byline": "Jonathan Hoefler",
+          "evergreen": true,
+          "url": "https://jonathanhoefler.com/articles/history-of-the-gotham-font"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Natalie White Makes Double Exposures on a Giant Polaroid Loaded With Film Nearly Two Decades Old",
+          "source": "Hyperallergic",
+          "byline": "Sarah Cascone",
+          "date": "Nov 17",
+          "url": "https://hyperallergic.com/meet-natalie-white-photographys-giant-polaroid-whisperer/"
+        },
+        {
+          "headline": "Ceramic Effigies Made With Soil and Human Hair Rethink How Artists Mourn",
+          "source": "Ceramics Now",
+          "byline": "Aleina Grace Edwards",
+          "date": "Nov 6",
+          "url": "https://www.ceramicsnow.org/articles/at-rest/",
+          "image": "https://www.ceramicsnow.org/wp-content/uploads/2026/11/2Corpus-Mundi-by-iris-yirei-hu.jpg"
+        },
+        {
+          "headline": "A V&A Curator Traces Colonial Era Vietnamese Embroidery Through a Bắc Ninh Firm's Sample Book",
+          "source": "V&A Blog",
+          "byline": "Sau Fong Chan",
+          "date": "Nov 10",
+          "url": "https://www.vam.ac.uk/blog/news/vietnamese-embroidery-a-little-known-textile-tradition"
+        },
+        {
+          "headline": "Dave Pearlman Builds Tube Condenser Microphones by Hand in Canyon Country",
+          "source": "Tape Op",
+          "byline": "Mike Kosacek",
+          "evergreen": true,
+          "url": "https://tapeop.com/interviews/176/dave-pearlman-of-pearlman-of-pearlman-microphones"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "How Melbourne's 3RRR Spent Fifty Years Giving Record Label Owners a Place on Air",
+          "source": "Bandcamp Daily",
+          "byline": "Jimmy Trash",
+          "date": "Nov 11",
+          "url": "https://daily.bandcamp.com/features/3rrr-50th-anniversary-feature"
+        },
+        {
+          "headline": "Jess Williamson's New Songs Finally Came in a Rented Room at a Marfa Methodist Church",
+          "source": "The Creative Independent",
+          "byline": "Jess Williamson",
+          "date": "Nov 16",
+          "url": "https://thecreativeindependent.com/essays/on-songwriting-between-places/"
+        },
+        {
+          "headline": "Shanghai's New Grand Opera House Has Everything but an Artistic Identity",
+          "source": "VAN Magazine",
+          "byline": "Rudolph Tang",
+          "date": "Nov 5",
+          "url": "https://van-magazine.com/mag/shanghai-grand-opera-house-criticism/",
+          "image": "https://van-magazine.com/wp-content/uploads/2026/11/shanghai-grand-opera-house-criticism.jpg"
+        },
+        {
+          "headline": "Jessie Montgomery Built a Cello Concerto From Three of Her Mother's Poems",
+          "source": "Strings",
+          "byline": "Greg Cahill",
+          "evergreen": true,
+          "url": "https://stringsmagazine.com/reaching-for-the-divine-jessie-montgomerys-new-cello-concerto-connects-with-her-ancestors/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "The Last Letter Typed on the 14-Ton Underwood at the New York World's Fair",
+          "source": "oz.Typewriter",
+          "byline": "Robert Messenger",
+          "date": "Nov 18",
+          "url": "https://oztypewriter.blogspot.com/2026/11/the-worlds-largest-typed-letter-from.html"
+        },
+        {
+          "headline": "Chaz Howard and Eric Battle Trace Black Comic Heroes at Penn Libraries",
+          "source": "Toy Tales",
+          "byline": "Joanna Hauser",
+          "date": "Nov 6",
+          "url": "https://toytales.ca/chaz-howard-eric-battle-the-black-heros-journey/",
+          "image": "https://toytales.ca/wp-content/uploads/2026/10/friday-five-hoard-battle.jpg"
+        },
+        {
+          "headline": "The Henry Ford Brings 251 Pieces of Pamela Erbe's Art Pottery to Dearborn",
+          "source": "The Henry Ford",
+          "byline": "Aimee Burpee",
+          "date": "Nov 6",
+          "url": "https://www.thehenryford.org/collections/explore/articles/keeping-the-light-on--pamela-erbe-s-ceramics-collection"
+        },
+        {
+          "headline": "The National Bank Notes of Galax, Virginia, a Blue Ridge Railroad Town",
+          "source": "Numismatic News",
+          "byline": "Mark Hotz",
+          "date": "Nov 12",
+          "url": "https://numismaticnews.net/hotz-off-the-press-old-time-fun-and-notes-in-galax-virginia"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Dictated 1778 Letter Shows Elizabeth Chudleigh Pleading With the Duke of Kingston's Nephew Over Her Bigamy",
+          "source": "OHIO Archives",
+          "byline": "Luke Homan",
+          "date": "Nov 12",
+          "url": "https://sites.ohio.edu/library-archives-blog/2026/11/12/duchess-elizabeth-chudleigh/",
+          "image": "https://sites.ohio.edu/library-archives-blog/wp-content/uploads/2026/10/E.-Chudleugh-Letters0004-2-1024x664.jpg"
+        },
+        {
+          "headline": "Three Horse Thieves Who Served Time in Reading Gaol Alongside Oscar Wilde",
+          "source": "Royal Berkshire Archives",
+          "byline": "Katherine Bett",
+          "date": "Nov 2",
+          "url": "https://www.royalberkshirearchives.org.uk/blog/imprisoned-with-oscar-you-wouldnt-steal-a-pony-and-trap"
+        },
+        {
+          "headline": "Why Spain's Anarchists Turned Down Power in Barcelona in July 1936",
+          "source": "History Workshop",
+          "byline": "Arturo Zoffmann Rodriguez",
+          "date": "Nov 12",
+          "url": "https://www.historyworkshop.org.uk/anti-fascism/the-rise-and-fall-of-the-spanish-anarchists-1868-1937/"
+        },
+        {
+          "headline": "A University of Surrey Archivist Finds SharePoint Alters Microsoft Office Files on Upload",
+          "source": "University of Surrey Archives and Special Collections",
+          "byline": "Simon Mackley",
+          "date": "Nov 5",
+          "url": "https://blogs.surrey.ac.uk/archives/2026/11/05/sos-digipres/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Michael Satzinger's Whispering Moon Turns Twenty",
+          "source": "Film Obsessive",
+          "byline": "Lúcio Reis Filho",
+          "date": "Nov 16",
+          "url": "https://filmobsessive.com/film/new-releases/a-feature-length-meme-at-20-revisiting-whispering-moon/"
+        },
+        {
+          "headline": "Paul Cuff Searches Three Archives for the Paper Trail of Brigitte Helm",
+          "source": "The Realm of Silence",
+          "byline": "Paul Cuff",
+          "date": "Nov 6",
+          "url": "https://therealmofsilence.com/2026/11/06/rediscovering-brigitte-helm-2-print-and-manuscript-archives/"
+        },
+        {
+          "headline": "Kasia Adamik on Turning a Seven-Page Tokarczuk Story Into Winter of the Crow",
+          "source": "FILMHOUNDS",
+          "byline": "Clotilde Chinnici",
+          "date": "Nov 11",
+          "url": "https://filmhounds.co.uk/2026/11/11/director-kasia-adamik-talks-winter-of-the-crow-it-is-a-very-personal-movie/",
+          "image": "https://filmhounds.co.uk/wp-content/uploads/2026/11/Winter-of-the-Crow-Signature-Entertainment.png"
+        },
+        {
+          "headline": "Eye Filmmuseum Streams Ten Arthur Melbourne-Cooper Films With a New Score",
+          "source": "Eye Filmmuseum",
+          "byline": "Eloise Pasmore O'Pray",
+          "date": "Jul 13, 2026",
+          "evergreen": true,
+          "url": "https://www.eyefilm.nl/en/magazine/arthur-melbourne-cooper-veelzijdig-filmpionier/1660858"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 17, 2026",
     "hero": {
       "headline": "Utah State's Moab Building Reaches Net Zero With Old Desert Tactics and a 209 kW Canopy Array",
