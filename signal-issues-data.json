@@ -1,5 +1,201 @@
 [
   {
+    "dateLabel": "November 19, 2026",
+    "hero": {
+      "headline": "Gunvor Nelson Made Films From Water, Collage and Her Own Family",
+      "dek": "David Schwartz surveys the work of Gunvor Nelson, the Stockholm-born painter who became one of San Francisco's central experimental filmmakers and died last year in Kristinehamn, Sweden. He argues that water, with its reflections and distortions, anchors her films and that they fuse surrealism with realism. He moves from Schmeerguntz (1966), the collage made with Dorothy Wiley and often read as feminist satire, a label Nelson resisted, to Moon's Pool (1973), shot entirely underwater, and on to My Name Is Oona (1969), added to the National Film Registry in 2019. Time Being (1991), a silent portrait of her mother's last days, and the video Trace Elements (2003) close a body of work he reads as outward-looking rather than confessional.",
+      "byline": "By David Schwartz · Metrograph",
+      "category": "photo-film",
+      "image": "https://metrograph.com/wp-content/uploads/2026/11/gunvornelson.png",
+      "url": "https://metrograph.com/gunvor-nelson-schwartz/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Johnston Architects Add a Snow-Holding Second House to a Methow Valley Retreat",
+          "source": "ARCHITECT",
+          "byline": "Nate Traylor",
+          "date": "Nov 10",
+          "url": "https://www.architectmagazine.com/design/editorial/a-mountain-home-years-in-the-making/",
+          "image": "https://www.architectmagazine.com/wp-content/uploads/sites/5/2026/11/Second-Gear_Exterior.jpg"
+        },
+        {
+          "headline": "Scott and Scott Finish a Toronto Rowhouse Renovation Begun by the Late Peter Cardew",
+          "source": "Architectural Record",
+          "byline": "Patrick Templeton",
+          "date": "Nov 17",
+          "url": "https://www.architecturalrecord.com/articles/18533-scott-and-scott-picks-up-the-design-of-a-toronto-rowhouse-renovation-where-late-architect-peter-cardew-left-off"
+        },
+        {
+          "headline": "Dafi Kühne Prints a Tokyo Exhibition Poster From Meccano Parts, Linoleum and Hot Metal",
+          "source": "Fonts In Use",
+          "byline": "Dafi Kühne",
+          "date": "Nov 18",
+          "url": "https://fontsinuse.com/uses/78663/dafi-kuehne-constructing-posters"
+        },
+        {
+          "headline": "Eight Designers Pick Their Favourite Logo at Eye's First Type Tuesday North",
+          "source": "Eye Magazine",
+          "byline": "Eye editors",
+          "date": "Nov 13",
+          "url": "https://www.eyemagazine.com/blog/post/carnival-of-logos"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Cecilia Vicuña's Wool Quipus Lead a Whitechapel Survey of Her Work",
+          "source": "Studio International",
+          "byline": "Joe Lloyd",
+          "date": "Nov 17",
+          "url": "https://www.studiointernational.com/cecilia-vicuna-living-threads-review-whitechapel-gallery-london/"
+        },
+        {
+          "headline": "Jason Fox on Japanese Chisels, Hand Planes and Teaching Woodworking in Maine",
+          "source": "Fine Woodworking",
+          "byline": "Phil Evans",
+          "date": "Nov 12",
+          "url": "https://www.finewoodworking.com/2026/11/12/the-maine-japanese-woodworking-festival-part-2",
+          "image": "https://images.finewoodworking.com/app/uploads/2026/11/06080011/Maine-026.png"
+        },
+        {
+          "headline": "A Mother and Son, Both Beginners, Build a Live-Edge Coffee Table and a Porch Bench",
+          "source": "Popular Woodworking",
+          "byline": "Yoav Liberman",
+          "date": "Nov 12",
+          "url": "https://www.popularwoodworking.com/editors-blog/teaching-live-edge-part-3-mother-son-collaboration-and-practical-joinery/"
+        },
+        {
+          "headline": "Urs Graf, Swiss Mercenary and Draftsman, Drew Soldiering as Glory and Folly",
+          "source": "The Public Domain Review",
+          "byline": "Miya Tokumitsu",
+          "date": "Nov 11",
+          "url": "https://publicdomainreview.org/essay/soldiers-of-misfortune/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Pamela Z on Looping Her Voice Through Delay Lines and Gesture Sensors Since the Early 1980s",
+          "source": "Tape Op",
+          "byline": "Ian Brennan",
+          "evergreen": true,
+          "url": "https://tapeop.com/interviews/176/pamela-z"
+        },
+        {
+          "headline": "The Residents' Long Road to Eskimo",
+          "source": "Aquarium Drunkard",
+          "date": "Nov 17",
+          "url": "https://aquariumdrunkard.com/2026/11/17/inspiration-not-limitation-the-residents-eskimo-journey/"
+        },
+        {
+          "headline": "A Seattle School Has Spent Twenty One Years Teaching Children Medieval and Baroque Music",
+          "source": "Early Music America",
+          "byline": "Kyle MacMillan",
+          "date": "Nov 17",
+          "url": "https://www.earlymusicamerica.org/emag-feature/the-unsung-treasures-of-shak/",
+          "image": "https://www.earlymusicamerica.org/wp-content/uploads/2026/11/MacMillan-SHAK-medieval-dress-MAIN-669x500.jpg"
+        },
+        {
+          "headline": "Thomas Hampson on Why Mahler's Wunderhorn Songs Are a Collection, Not a Cycle",
+          "source": "Bachtrack",
+          "byline": "Lawrence Dunn",
+          "date": "Nov 15",
+          "url": "https://bachtrack.com/interview-thomas-hampson-mahler-knaben-wunderhorn-andermatt-november-2026"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Ryan R. Martins Collects Rogues, Hoaxers and Highwaymen in Early Modern Print",
+          "source": "Fine Books & Collections",
+          "byline": "Nate Pedersen",
+          "date": "Nov 17",
+          "url": "https://www.finebooksmagazine.com/fine-books-news/book-collector-ryan-r-martins-early-modern-curiosities-books-gifts-and"
+        },
+        {
+          "headline": "A Slovene Conscript's Kodak Camera From the Spanish Civil War",
+          "source": "National Museum of Contemporary History of Slovenia",
+          "date": "Oct 30",
+          "url": "https://www.muzej-nz.si/en/predmet-meseca/camera-from-the-spanish-civil-war/",
+          "image": "https://www.muzej-nz.si/wp-content/uploads/2026/10/predmet-meseca-nov26.png"
+        },
+        {
+          "headline": "A Berlin Porcelain Cup Celebrating the Capture of Paris in 1814",
+          "source": "National Museum of Finland",
+          "byline": "Jouni Kuurne",
+          "date": "Nov 3",
+          "url": "https://suomenkansallismuseo.fi/en/exhibit/a-coffee-cup-to-commemorate-the-victory-over-napoleon/"
+        },
+        {
+          "headline": "The Stoneware Hot Water Bottle, Traced Back to Roman Clay Flasks",
+          "source": "Thame Museum",
+          "byline": "YvonneM",
+          "evergreen": true,
+          "url": "https://thamemuseum.org/object-of-the-month-november-2026"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Findlater Castle's Eight Centuries on a Moray Firth Cliff",
+          "source": "Historic Environment Scotland Blog",
+          "byline": "Orla Craig",
+          "date": "Nov 16",
+          "url": "https://blog.historicenvironment.scot/2026/11/windswept-and-interesting-800-years-of-history-at-findlater-castle/",
+          "image": "https://blog.historicenvironment.scot/wp-content/uploads/2026/11/Findlater-Castle-header-scaled.jpg"
+        },
+        {
+          "headline": "The Flash Language of London's Criminals in Court Reports and Parliamentary Papers",
+          "source": "A London Inheritance",
+          "date": "Nov 15",
+          "url": "https://alondoninheritance.com/london-history/alderman-lushington-is-concerned/"
+        },
+        {
+          "headline": "Photographs From a Cuban Sugar Estate Trace Enriqueta Rylands's Family From Matanzas to Manchester",
+          "source": "Rylands Blog",
+          "byline": "Elizabeth Gow",
+          "date": "Nov 12",
+          "url": "https://rylandscollections.com/2026/11/12/rylands-reflects-from-matanzas-to-manchester/"
+        },
+        {
+          "headline": "Juli McLoone Cooks Tomato Canapes and Raspberry Jell-O From Two 1920s Cookbooks",
+          "source": "University of Michigan Library",
+          "byline": "Juli McLoone",
+          "date": "Oct 30",
+          "url": "https://blogs.lib.umich.edu/beyond-reading-room/recipes-month-tomato-canap%C3%A9-1928-and-raspberry-delight-1927"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "BFI Archive Staff Report From Warsaw, Pordenone, Preston and Hastings",
+          "source": "BFI",
+          "byline": "Joanna White, Molly Petter, Bryony Dixon, Sinéad Beverland",
+          "date": "Nov 19",
+          "url": "https://www.bfi.org.uk/inside-the-archive/news/inside-archive-79-poland-pordenone-preston"
+        },
+        {
+          "headline": "Ehsan Khoshbakht on Restoring Iran's Pre-Revolutionary Films in Bologna",
+          "source": "Ehsan Khoshbakht",
+          "byline": "Ehsan Khoshbakht",
+          "date": "Nov 15",
+          "url": "https://ehsankhoshbakht.substack.com/p/the-machine-of-empathy-a-conversation"
+        },
+        {
+          "headline": "How Primetime Was Shot on Alexa, DV and Tube Cameras",
+          "source": "Phantasmag",
+          "byline": "Lana Thorn",
+          "date": "Nov 16",
+          "url": "https://www.phantasmag.com/articles-7/primetime-david-bolen-interview-cinematographer"
+        },
+        {
+          "headline": "Fred Camper on Suicide Note, His Ten-Reel Super 8 Film",
+          "source": "Film Comment",
+          "byline": "Brian O'Connell",
+          "evergreen": true,
+          "url": "https://www.filmcomment.com/article/interview-fred-camper-on-suicide-note/",
+          "image": "https://www.filmcomment.com/wp-content/uploads/articles/Suicide-Note_NYFF64_FEATURE-2560x1920.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 18, 2026",
     "hero": {
       "headline": "Natalie Curtis Photographs Her Way Out of Manchester in a Paris Show Called Tower",
