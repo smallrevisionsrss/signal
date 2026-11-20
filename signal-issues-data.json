@@ -1,5 +1,201 @@
 [
   {
+    "dateLabel": "November 20, 2026",
+    "hero": {
+      "headline": "Louis Kahn's Only Theatre Reopens in Fort Wayne After Its First Major Renovation",
+      "dek": "Kahn's Arts United Center in Fort Wayne, Indiana, opened in 1973 and was listed on the National Register of Historic Places in 2024. Anthony Paletta talks to the two firms behind its first major renovation, MKM Architecture + Design and Mills + Schnoering, about how they updated accessibility, stage systems and circulation without losing the spaces Kahn designed.",
+      "byline": "By Anthony Paletta · Wallpaper*",
+      "category": "design-arch",
+      "image": "https://cdn.mos.cms.futurecdn.net/vBTLCsgMZeKjZGNDPfkKvA-1920-80.jpg",
+      "url": "https://www.wallpaper.com/architecture/public-buildings/louis-kahn-arts-united-center-fort-wayne-indiana"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Jimmy Carter's 32 White House Solar Panels and Why the Idea Stalled",
+          "source": "99% Invisible",
+          "byline": "Roman Mars, with Bill McKibben",
+          "date": "Nov 13",
+          "url": "https://99percentinvisible.org/episode/100-objects-024-white-house-solar-panels/",
+          "image": "https://99percentinvisible.org/wp-content/uploads/2026/10/024-100objects-white-house-solar2-1920x1080-1.png"
+        },
+        {
+          "headline": "How Mario Pani Turned a Brief for 200 Houses Into Mexico City's First Modern Housing Block",
+          "source": "ArchDaily",
+          "byline": "Camilla Ghisleni",
+          "date": "Nov 17",
+          "url": "https://www.archdaily.com/1188165/modern-and-mexican-mario-panis-cupa-housing-complex-in-mexico-city"
+        },
+        {
+          "headline": "An Art Advisor and a Gallerist Make Their Home in a Former Jewish Girls' School in Berlin",
+          "source": "Freunde von Freunden",
+          "byline": "Stella Roos",
+          "date": "Oct 21",
+          "url": "https://www.freundevonfreunden.com/stories/from-classroom-to-living-room-michael-fuchs-constance-breton/"
+        },
+        {
+          "headline": "A Preservation Carpenter Argues Against the Black-and-White House",
+          "source": "The Craftsman Blog",
+          "byline": "Scott Sidler",
+          "date": "Nov 2",
+          "url": "https://thecraftsmanblog.com/no-more-black-white-houses-please/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "The Whitney's Lichtenstein Catalogue Is Better Designed Than It Is Written",
+          "source": "The Arts Fuse",
+          "byline": "Trevor Fairbrother",
+          "date": "Nov 20",
+          "url": "https://artsfuse.org/337630/book-review-roy-lichtenstein-like-new-more-pop-in-the-pages-than-the-prose/"
+        },
+        {
+          "headline": "Adam Putnam's Deity at P·P·O·W Reads Like a Tarot Spread",
+          "source": "Two Coats of Paint",
+          "byline": "Bill Arning",
+          "date": "Nov 17",
+          "url": "https://twocoatsofpaint.com/2026/11/adam-putnams-instruments-of-divination.html",
+          "image": "https://twocoatsofpaint.com/wp-content/uploads/2026/11/putnam-install-1.jpg"
+        },
+        {
+          "headline": "Gabriela Garcez Trains an AI on Museum Visitors' Movements After Hours",
+          "source": "Whitehot Magazine",
+          "byline": "Esme Graham",
+          "date": "Nov 19",
+          "url": "https://whitehotmagazine.com/articles/garcez-at-museum-moving-image/8189"
+        },
+        {
+          "headline": "Boatbuilder Jay Smith on Building Valkyrie, a 56-Foot Viking Ship",
+          "source": "Mortise & Tenon Magazine",
+          "date": "Nov 6",
+          "url": "https://www.mortiseandtenonmag.com/blogs/blog/podcast-86-building-a-viking-ship-with-jay-smith"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Rosetta's Matt Weed on Recording the Band's Last Album in a Church Sanctuary",
+          "source": "Echoes And Dust",
+          "byline": "Gary Davidson",
+          "date": "Nov 19",
+          "url": "https://echoesanddust.com/2026/11/matt-weed-from-rosetta/"
+        },
+        {
+          "headline": "Prague Forces Return to Honegger's Jeanne d'Arc au Bûcher Fifty Years After Their First Recording",
+          "source": "Planet Hugill",
+          "byline": "Robert Hugill",
+          "date": "Nov 17",
+          "url": "https://www.planethugill.com/2026/11/well-worth-returning-to-prague-under.html"
+        },
+        {
+          "headline": "Blues Guitarist Jad Tariq's Road From Beale Street to Touring With Charlie Musselwhite",
+          "source": "Memphis Flyer",
+          "byline": "Alex Greene",
+          "date": "Nov 18",
+          "url": "https://www.memphisflyer.com/your-go-to-for-the-blues/",
+          "image": "https://www.memphisflyer.com/wp-content/uploads/2026/11/COVER_09172026-Memphis-Rhythm-Review-%C2%A9-Karen-Pulfer-Focht-012.jpg"
+        },
+        {
+          "headline": "Barcelona Luthiers Close a Long Crack in a 1756 Guillamí Cello",
+          "source": "Museu de la Música de Barcelona",
+          "byline": "Jordi Pinto",
+          "evergreen": true,
+          "url": "https://ajuntament.barcelona.cat/museumusica/en/blog/restoration-of-the-guillami-cello-mdmb-c-10488-by-the-luthiers-of-casa-parramon"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A 1949 Minolta Memo Made in Occupied Japan Goes Out With a Hand-Rolled Roll of Plus-X",
+          "source": "mike eckman dot com",
+          "byline": "Mike Eckman",
+          "date": "Nov 17",
+          "url": "https://mikeeckman.com/2026/11/minolta-memo-1949/",
+          "image": "https://mikeeckman.com/wp-content/uploads/2026/10/MinoltaMemo-19-1024x683.jpg"
+        },
+        {
+          "headline": "Five Upper Valley Collectors on Miniature Toilets, Student Lamps and Hundreds of Telephones",
+          "source": "Valley News",
+          "byline": "Liz Sauchelli",
+          "evergreen": true,
+          "url": "https://vnews.com/2026/06/05/collecting-miniature-toilets-happiness/"
+        },
+        {
+          "headline": "Cleaning Leaked Battery Corrosion Out of a Game Boy Light and Recapping It",
+          "source": "hitmanmcc",
+          "byline": "hitmanmcc",
+          "date": "Nov 2",
+          "url": "https://hitmanmcc.com/entry/nintendo-game-boy-light-mgb-101-battery-leak-recap"
+        },
+        {
+          "headline": "How the National Science and Media Museum Traps and Identifies Insect Pests in Its Stores",
+          "source": "National Science and Media Museum",
+          "byline": "Emma Callaghan",
+          "date": "Oct 28",
+          "url": "https://blog.scienceandmediamuseum.org.uk/blog-from-the-basement-pest-prevention/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Dorset History Centre Logs 56,000 Record Locations During Its Closed Fortnight",
+          "source": "Dorset History Centre",
+          "date": "Nov 20",
+          "url": "https://news.dorsetcouncil.gov.uk/dorset-history-centre-blog/2026/11/20/collections-fortnight-2026-what-did-we-do/"
+        },
+        {
+          "headline": "Lyda Moore Merrick and the Braille Magazine She Co-Founded for Black Readers",
+          "source": "The Devil's Tale",
+          "byline": "Erika Jackson",
+          "date": "Nov 19",
+          "url": "https://blogs.library.duke.edu/rubenstein/2026/11/19/remembering-the-life-and-work-of-lyda-moore-merrick/"
+        },
+        {
+          "headline": "Tracing the Ravensbrück Women Filmed Arriving in Malmö in April 1945",
+          "source": "EHRI Document Blog",
+          "byline": "Pablo García Varela",
+          "date": "Oct 26",
+          "url": "https://blog.ehri-project.eu/2026/10/26/women-deportees-after-ravensbruck/",
+          "image": "https://blog.ehri-project.eu/wp-content/uploads/2026/10/IMG_20260602_132553197_DOC-5-1024x834.jpg"
+        },
+        {
+          "headline": "The Royal Asiatic Society Puts 54 Notebooks of Zoroastrian Scholar E. W. West Online",
+          "source": "Royal Asiatic Society",
+          "date": "Nov 13",
+          "url": "https://royalasiaticsociety.org/new-additions-to-the-digital-library-and-upcoming-events/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Kiyoshi Kurosawa Turns From Horror to a Classical Period Drama in The Samurai and the Prisoner",
+          "source": "Bright Wall/Dark Room",
+          "byline": "Zosha Millman",
+          "date": "Nov 10",
+          "url": "https://www.brightwalldarkroom.com/2026/11/10/the-samurai-and-the-prisoner/"
+        },
+        {
+          "headline": "Children Facing Death in Films by Hayakawa Chie, Sōmai Shinji and Edward Yang",
+          "source": "Senses of Cinema",
+          "byline": "Bea Phi",
+          "evergreen": true,
+          "url": "https://www.sensesofcinema.com/2026/feature-articles/think-of-the-children-childlike-wonder-and-death-in-the-films-of-chie-hayakawa-shinji-somai-and-edward-yang/"
+        },
+        {
+          "headline": "Who Still Trains Newcomers as UK Animation's Entry-Level Jobs Shrink",
+          "source": "Skwigly",
+          "byline": "Bruce Bigg",
+          "date": "Nov 9",
+          "url": "https://www.skwigly.co.uk/animation-talent-development-in-2026/"
+        },
+        {
+          "headline": "Restoring Guinea's 1968 Documentary Et Vint la Liberté to Its Full Length",
+          "source": "Ultra Dogme",
+          "byline": "Finn Jubak",
+          "date": "Nov 17",
+          "url": "https://ultradogme.com/2026/11/17/et-vint-la-liberte/",
+          "image": "https://ultradogme.com/wp-content/uploads/2026/11/Et-Vint-4-1-scaled.png"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 19, 2026",
     "hero": {
       "headline": "Gunvor Nelson Made Films From Water, Collage and Her Own Family",
