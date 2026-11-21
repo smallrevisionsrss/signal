@@ -1,5 +1,201 @@
 [
   {
+    "dateLabel": "November 21, 2026",
+    "hero": {
+      "headline": "A New York Exhibition Restores Maciej and Stanisława Nowicki to the Story of Modernism",
+      "dek": "Anthony Paletta reviews Humanist Modernity at New York's Center for Architecture, on view until March 27, 2027, which recovers a Polish couple from the margins of modernism. Maciej Nowicki died in a 1950 plane crash at 40, after consulting on the UN Headquarters, planning Raleigh's Dorton Arena and drafting the leaf-shaped plan for Chandigarh that Le Corbusier later replaced with a grid. Stanisława Sandecka-Nowicka taught basic design at Penn from 1963 to 1977, alongside Louis Kahn and Robert Venturi.",
+      "byline": "By Anthony Paletta · METROPOLIS",
+      "category": "design-arch",
+      "image": "https://metropolismag.com/wp-content/uploads/2026/11/Installation-view-of-Humanist-Modernity-at-the-Center-for-Architecture-New-York-NY.-Photo-%C2%A9-Asya-Gorovits_1-1.jpg",
+      "url": "https://metropolismag.com/viewpoints/uncovering-the-legacy-of-maciej-and-stanislawa-nowicki/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Gaetano Pesce's La Michetta Sofa Takes Its Logic From a Milanese Bread Roll",
+          "source": "industrialkonzept",
+          "date": "Nov 19",
+          "url": "https://industrialkonzept.com/blogs/editorial/gaetano-pesce-la-michetta-sofa",
+          "image": "https://industrialkonzept.com/cdn/shop/articles/pesce-la-michetta-modules-cover.jpg"
+        },
+        {
+          "headline": "Why a City's Yearly Total of Comfortable Hours Is the Wrong Unit to Map",
+          "source": "Nightingale",
+          "byline": "Christoph Wackher",
+          "date": "Nov 20",
+          "url": "https://nightingaledvs.com/your-citys-yearly-total-is-the-wrong-unit/"
+        },
+        {
+          "headline": "Augusta Hoffman Turns a Former Tribeca Mercantile Exchange Into Danielle Frankel's Bridal Flagship",
+          "source": "Wallpaper*",
+          "byline": "Anna Fixsen",
+          "date": "Nov 20",
+          "url": "https://www.wallpaper.com/design-interiors/interior-design/danielle-frankel-new-york"
+        },
+        {
+          "headline": "Lisa Cain on Back to Nature's Quiet Repackaging in a Loud Snack Aisle",
+          "source": "BP&O",
+          "byline": "Lisa Cain",
+          "date": "Nov 18",
+          "url": "https://bpando.org/2026/11/18/less-loaded/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Pedro Leão Neto on Photographing Architecture as Something in Use",
+          "source": "PhMuseum",
+          "byline": "PhMuseum",
+          "date": "Nov 18",
+          "url": "https://phmuseum.com/news/architecture-is-not-a-still-object-pedro-leao-neto-on-the-luis-ferreira-alves-award"
+        },
+        {
+          "headline": "Zizipho Poswa Coils Monumental Stoneware Sculptures From Her Xhosa Matrilineal Heritage",
+          "source": "Ceramic Review",
+          "byline": "Annie Le Santo",
+          "evergreen": true,
+          "url": "https://www.ceramicreview.com/profile/inherited-forms/",
+          "image": "https://www.ceramicreview.com/wp-content/uploads/2026/10/ZiziphoPoswa_iMbewuTheSeed_2026_Cr.DanBradicaSGuild.11.HR-1-1118x839.jpg"
+        },
+        {
+          "headline": "Lubaina Himid and Magda Stawarska Spiral 200 Metres of Wax Print Beneath a Paris Chapel Dome",
+          "source": "Selvedge",
+          "date": "Nov 19",
+          "url": "https://www.selvedge.org/blogs/selvedge/counting-heartbeats-beneath-a-dome-of-wax-print"
+        },
+        {
+          "headline": "The MEP Traces Irving Penn's Fashion Pictures From Twelve Models in 1947 to Issey Miyake",
+          "source": "Blind Magazine",
+          "byline": "Guénola Pellen",
+          "date": "Nov 20",
+          "url": "https://www.blind-magazine.com/news/irving-penn-and-the-haute-couture-of-photography/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Rockbridge Guitar Company Builds Just Under 70 Flattops a Year and Won Players by Lending Them Out",
+          "source": "Acoustic Guitar",
+          "byline": "E.E. Bradman",
+          "date": "Nov 18",
+          "url": "https://acousticguitar.com/rockbridge-guitar-company-brian-calhoun/"
+        },
+        {
+          "headline": "Wayfarer Trade Black Metal Blast Beats for Banjo on Riders of the Setting Sun",
+          "source": "No Clean Singing",
+          "byline": "Gonzo",
+          "date": "Nov 20",
+          "url": "https://www.nocleansinging.com/2026/11/20/wayfarer-riders-of-the-setting-sun/"
+        },
+        {
+          "headline": "Sarah Davachi and Sean McCann Talk Through Their Records in Their Glendale Living Room",
+          "source": "Talkhouse",
+          "byline": "Sarah Davachi and Sean McCann",
+          "date": "Nov 20",
+          "url": "https://talkhouse.com/sarah-davachi-and-sean-mccann-live-from-their-living-room",
+          "image": "https://lede-admin.talkhouse.com/wp-content/uploads/sites/73/2026/11/MixCollage-17-Nov-2026-09-14-AM-8893.jpg"
+        },
+        {
+          "headline": "Gurf Morlix Turns From Alt-Country to Hammond-Driven R&B on Ain't No Perfect World",
+          "source": "Americana Highways",
+          "byline": "Scott Ward",
+          "date": "Nov 18",
+          "url": "https://americanahighways.org/2026/11/18/review-gurf-morlix-aint-no-perfect-world/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Old Rhinebeck's 1909 Bleriot XI Gets Back in the Air After an Engine Teardown",
+          "source": "Vintage Aviation News",
+          "byline": "Moreno Aguiari",
+          "date": "Nov 21",
+          "url": "https://vintageaviationnews.com/vintage-aviation/1909-bleriot-xi-the-oldest-flying-aircraft-in-the-americas-flies-again-at-old-rhinebeck-aerodrome.html",
+          "image": "https://vintageaviationnews.com/wp-content/uploads/1909-ble-riot-xi-the-oldest-flying-aircraft-in-the-americas-flies-again-at-old-rhinebeck-aerodrome-nancy-pearson.jpg"
+        },
+        {
+          "headline": "Three Thousand Restaurant Matchbooks Trace Chinese American Dining at the Newberry",
+          "source": "Newberry Library",
+          "byline": "Jen Wolfe",
+          "date": "Nov 18",
+          "url": "https://www.newberry.org/blog/a-matchbook-sized-history-of-chinese-american-dining"
+        },
+        {
+          "headline": "Queensland Museum's 1911 Garrett Traction Engine Worked Sawmills and Roads Before It Was Collected",
+          "source": "Queensland Museum",
+          "evergreen": true,
+          "url": "https://blog.qm.qld.gov.au/2026/09/14/queensland-museums-garrett-steam-traction-engine/"
+        },
+        {
+          "headline": "A 1925 HRD at Brooklands and the Romanian Teenager Who Won on It",
+          "source": "Old Bike Mart",
+          "byline": "Simon Robinson",
+          "date": "Nov 19",
+          "url": "https://www.oldbikemart.co.uk/1925-brooklands-the-rare-hrd-motorcycle-a-romanian-nobleman-and-a-remarkable-racing-story/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Kent's University Archivist Marks Sixty Years With an Exhibition Drawn From the Archive",
+          "source": "University of Kent Special Collections",
+          "byline": "Tess Manders",
+          "date": "Nov 16",
+          "url": "https://blogs.kent.ac.uk/specialcollections/2026/11/16/past-present-and-future-60-years-of-the-university-exhibition/"
+        },
+        {
+          "headline": "An Urdu Scholar's Letters to Curzon Survive Inside the Viceroy's Own Copy of Persia and the Persian Question",
+          "source": "British Library",
+          "byline": "Kurosh Meshkat and David Fitzpatrick",
+          "date": "Nov 17",
+          "url": "https://www.bl.uk/stories/blogs/posts/a-view-from-uttar-pradesh-on-persia-and-the-persian-question",
+          "image": "https://www.bl.uk/images/v5dwkion/production/c3409de706989a1cd9d402dd07d9f94fa2f94695-2000x907.jpg/saharanpuri-letter-to-curzon-extract-mss-eur-f111-33-f49.jpg"
+        },
+        {
+          "headline": "A 1970 Oral History Recalls Homesteading in the South Dakota Badlands",
+          "source": "University of South Dakota Archives and Special Collections",
+          "byline": "Evelyn Schlenker",
+          "date": "Nov 1",
+          "url": "https://readingroom.usd.edu/post/homesteading-in-the-badlands-and-interior-south-dakota"
+        },
+        {
+          "headline": "The 1876 Newspaper Pavilion That Held 8,128 American Papers",
+          "source": "Past is Present",
+          "byline": "Alicia Murphy",
+          "date": "Nov 17",
+          "url": "https://pastispresent.org/2026/good-sources/new-online-gallery-showcases-rowells-newspaper-exhibition/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Jo Willems on Shooting the 1970s Panem of Sunrise on the Reaping",
+          "source": "The Credits",
+          "byline": "Susannah Edelbaum",
+          "date": "Nov 19",
+          "url": "https://www.motionpictures.org/2026/11/a-technicolor-nightmare-cinematographer-jo-willems-on-the-retro-world-of-the-hunger-games-sunrise-on-the-reaping/"
+        },
+        {
+          "headline": "Lee Chang-dong on the Decade-Long Road to Possible Love",
+          "source": "Little White Lies",
+          "byline": "David Jenkins",
+          "evergreen": true,
+          "url": "https://www.lwlies.com/in-conversation/lee-chang-dong-possible-love"
+        },
+        {
+          "headline": "A New Documentary Lets Edward Said Speak at Length",
+          "source": "Hyperallergic",
+          "byline": "Moustafa Bayoumi",
+          "date": "Nov 18",
+          "url": "https://hyperallergic.com/edward-said-speaks-more-urgently-than-ever/"
+        },
+        {
+          "headline": "Meriem Bennani and Orian Barki Built Bouchra From Real Phone Calls",
+          "source": "Animation Scoop",
+          "byline": "Jackson Murphy",
+          "date": "Nov 19",
+          "url": "https://www.animationscoop.com/interview-the-moviemaking-of-bouchra/",
+          "image": "https://www.animationscoop.com/wp-content/uploads/2026/11/Bouchra1-900.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 20, 2026",
     "hero": {
       "headline": "Louis Kahn's Only Theatre Reopens in Fort Wayne After Its First Major Renovation",
