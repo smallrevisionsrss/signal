@@ -1,5 +1,199 @@
 [
   {
+    "dateLabel": "November 22, 2026",
+    "hero": {
+      "headline": "A 1925 F.N. Four Took Nearly Four Years and a 3D-Scanned Manifold to Bring Back",
+      "dek": "Greg Williams follows a 1925 F.N. M.50 Four, a 748cc air-cooled inline four from the Belgian maker and one of the last of its four-cylinder machines, into Jim Balestrieri's F.N. collection at the Throttlestop Museum in Elkhart Lake, Wisconsin. Donovon LeVan of The Good Old Days spent nearly four years on it: a crankshaft rebuilt after a seized front bearing, machined transmission parts, a restored Bosch magneto and generator, and an intake manifold so far gone it was 3D scanned, reproduced and sand cast anew.",
+      "byline": "By Greg Williams · Motorcycle Classics",
+      "category": "collecting",
+      "image": "https://ogden_images.s3.amazonaws.com/www.motorcycleclassics.com/images/2026/08/06155756/1925-FN-M50-Four-lead-End-of-an-Era-MCCSO26.jpg",
+      "url": "https://www.motorcycleclassics.com/more-classic-motorcycles/1925-fn-m50-four-zm0z26sozbro/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "A House Near Appenzell Is Clad in 200 Silver Firs Felled Under a Waning Moon",
+          "source": "METROPOLIS",
+          "byline": "Lydia Lee",
+          "date": "Nov 17",
+          "url": "https://metropolismag.com/projects/j2-architects-alpine-house-moon-wood/",
+          "image": "https://metropolismag.com/wp-content/uploads/2026/11/9-EFH-Appenzell-Steinegg-scaled.jpg"
+        },
+        {
+          "headline": "Keiron Gait Architects Turns a Faux Queenslander in New Farm Toward Its Garden",
+          "source": "The Design Files",
+          "byline": "Bea Taylor",
+          "date": "Nov 19",
+          "url": "https://thedesignfiles.net/2026/11/architecture-new-farm-keiron-gait-architects"
+        },
+        {
+          "headline": "Andreas Angelidakis on the Soft Foam Ruins Behind His Greek Pavilion in Venice",
+          "source": "Sculpture",
+          "byline": "Elaine A. King",
+          "date": "Nov 21",
+          "url": "https://sculpturemagazine.art/between-restraint-and-freedom-a-conversation-with-andreas-angelidakis/"
+        },
+        {
+          "headline": "Novato's Hypar Roof Spans a Former Warehouse in Three Inches of Concrete",
+          "source": "Eames Institute",
+          "byline": "Marisela Mendoza Ramos and John Ochsendorf",
+          "evergreen": true,
+          "url": "https://www.eamesinstitute.org/stories/art-design-hypar-roof/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Inside Domyo, the Tokyo Kumihimo House That Has Braided Silk Cords Since 1652",
+          "source": "Garland",
+          "byline": "Shohei Toguri",
+          "date": "Nov 1",
+          "url": "https://garlandmag.com/article/kumihimo/"
+        },
+        {
+          "headline": "Lucy Ives Traces the Camera Obscura From Chambered Cairns to Abelardo Morell's Bedrooms",
+          "source": "Aperture",
+          "byline": "Lucy Ives",
+          "date": "Nov 20",
+          "url": "https://aperture.org/editorial/the-camera-obscura-turns-photographys-history-upside-down/",
+          "image": "https://aperture.org/wp-content/uploads/2026/11/264MAG050_Obscuras_Morrell_HR.jpg"
+        },
+        {
+          "headline": "Chiara Indelicato Photographs Stromboli in Seawater and Coffee After the 2022 Fire and Mudslides",
+          "source": "PhotoBook Journal",
+          "byline": "Hans Hickerson",
+          "date": "Nov 18",
+          "url": "https://photobookjournal.com/2026/11/18/chiara-indelicato-pelle-di-lava/"
+        },
+        {
+          "headline": "Amant's Sentient Earth Ties Moving-Image Art to Mining and Extraction",
+          "source": "Screen Slate",
+          "date": "Nov 19",
+          "url": "https://www.screenslate.com/articles/sentient-earth"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Vallejo Punk Comes Back Through a Lowrider Shop and an 1872 Odd Fellows Hall",
+          "source": "KQED",
+          "byline": "John Beck",
+          "date": "Nov 17",
+          "url": "https://www.kqed.org/arts/13995678/vallejo-punk-shows-707-carnalitos-odd-fellows-scene"
+        },
+        {
+          "headline": "Allison de Groot and Rich Ruth Set Clawhammer Banjo Against Pedal Steel and Radio Static",
+          "source": "KLOF Mag",
+          "byline": "Glenn Kimpton",
+          "date": "Nov 20",
+          "url": "https://klofmag.com/2026/11/allison-de-groot-rich-ruth-rich-ruth-allison-de-groot/"
+        },
+        {
+          "headline": "Angine de Poitrine Play Eight Long Songs on a Microtonal Double-Neck in Boston",
+          "source": "The Arts Fuse",
+          "byline": "Paul Robicheau",
+          "date": "Nov 21",
+          "url": "https://artsfuse.org/337714/concert-review-angine-du-poitrine-connects-danceable-dots-at-roadrunner/",
+          "image": "https://artsfuse.org/wp-content/uploads/2026/11/Angine-du-Poitrine-at-Roadrunner-c-2026-photo-Paul-Robicheau.jpg"
+        },
+        {
+          "headline": "Thor G. Noras Built Norway's Early Beat Scene Out of a Youth Club in Ski",
+          "source": "Ugly Things",
+          "byline": "Mike Stax",
+          "date": "Jan 14, 2015",
+          "evergreen": true,
+          "url": "https://ugly-things.com/thor-g-noras-look-to-norway/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A $100 Apple II Clone From an E-Waste Recycler Had Its Language Card in Backwards",
+          "source": "Leaded Solder",
+          "date": "Nov 17",
+          "url": "https://www.leadedsolder.com/2026/11/17/apple-iie-clone-loose-crystal.html",
+          "image": "https://www.leadedsolder.com/assets/apple-ii-clone-screen-garbage.jpg"
+        },
+        {
+          "headline": "Charrington's and Mann Crossman and Paulin Beer Labels From the East End",
+          "source": "Spitalfields Life",
+          "byline": "The Gentle Author",
+          "date": "Nov 20",
+          "url": "https://spitalfieldslife.com/2026/11/20/east-end-beer-bottle-labels-ii/"
+        },
+        {
+          "headline": "Shackleton's King Penguin and the 1910 Letters That Brought It to Cardiff",
+          "source": "Amgueddfa Cymru – Museum Wales",
+          "byline": "Dafydd Newton-Evans",
+          "date": "Oct 29",
+          "url": "https://museum.wales/blog/2965/From-Antarctica-to-Wales-The-Remarkable-Journey-of-Shackletons-Penguin/"
+        },
+        {
+          "headline": "Revs Institute's 1929 Sunbeam 3-Litre Returns After a Three-Year Restoration",
+          "source": "Revs Institute",
+          "evergreen": true,
+          "url": "https://revsinstitute.org/blog/sunbeams-floridian-achievements-and-the-return-of-our-sunbeam-3-liter"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "UC Davis Library Surveys Its Beer and Brewing Holdings From a Cuneiform Barley Receipt to the Bamforth Papers",
+          "source": "UC Davis Library",
+          "byline": "Kristina Bellas and Michelle Trujillo",
+          "date": "Nov 17",
+          "url": "https://library.ucdavis.edu/news/what-makes-uc-davis-library-collections-distinctive-beer-and-brewing/"
+        },
+        {
+          "headline": "Bob Elliott Recalls Arriving in Tucson to Play Basketball in 1972",
+          "source": "University of Arizona Libraries",
+          "date": "Oct 28",
+          "url": "https://lib.arizona.edu/about/news/archive-tucson-oral-history-spotlight-ua-basketball-recruitment-first-impressions-tucson"
+        },
+        {
+          "headline": "Archives of Ontario Explains the Four Niiwin Paintings Hung as Its Land Acknowledgement",
+          "source": "Archives of Ontario",
+          "date": "Nov 18",
+          "url": "https://www.archives.gov.on.ca/niiwin-medicine-wheel-anishinaabe-teachings/",
+          "image": "https://www.archives.gov.on.ca/ao-content/media/uploads/2026/11/Image-1.webp"
+        },
+        {
+          "headline": "Two 17th-Century Almanac Leaves Survived as Stuffing in Balls Found in a Wheldrake Fireplace",
+          "source": "Borthwick Institute for Archives",
+          "date": "Oct 30",
+          "url": "https://www.york.ac.uk/borthwick/news/2026/borthwicknewsletter-november2026/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Ferrara's Pasolini and Kramer's On the Beach Make the Case for the Nonauteurist Film",
+          "source": "Jonathan Rosenbaum",
+          "byline": "Jonathan Rosenbaum",
+          "date": "Nov 21",
+          "url": "https://jonathanrosenbaum.net/2026/11/en-movimiento-two-nonauteurist-films-new-and-old-pasolini-on-the-beachtk/"
+        },
+        {
+          "headline": "Jim Frohna on Lighting Verity With a Split Diopter and a Single Rosco Dash",
+          "source": "American Cinematographer",
+          "byline": "Jim Frohna",
+          "date": "Nov 3",
+          "url": "https://theasc.com/article/verity-cinematography-frohna/",
+          "image": "https://theasc.com/wp-content/uploads/2026/11/VRTY_FP_00282_R-1024x429.jpg"
+        },
+        {
+          "headline": "Mike Leigh in Conversation With Nick Pinkerton",
+          "source": "Metrograph",
+          "byline": "Nick Pinkerton",
+          "date": "Nov 19",
+          "url": "https://metrograph.com/mike-leigh-pinkerton/"
+        },
+        {
+          "headline": "Alfred Guzzetti Built Films Like Musical Counterpoint, From Family Portrait Sittings to Gallery Video",
+          "source": "Harvard Film Archive",
+          "byline": "Brittany Gravely",
+          "evergreen": true,
+          "url": "https://harvardfilmarchive.org/programs/points-of-departure-alfred-guzzetti"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 21, 2026",
     "hero": {
       "headline": "A New York Exhibition Restores Maciej and Stanisława Nowicki to the Story of Modernism",
