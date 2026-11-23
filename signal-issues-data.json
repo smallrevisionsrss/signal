@@ -1,5 +1,204 @@
 [
   {
+    "dateLabel": "November 23, 2026",
+    "hero": {
+      "headline": "Carmit Hassine Casts Bodies in Marble Dust and Graphite and Props Them on Steel",
+      "dek": "In a long interview with Robert Preece, the Tel Aviv sculptor Carmit Hassine explains how she models forms in soft clay, casts them in powdered marble, quartz, graphite or charcoal, and sets them on stainless steel supports that recall rehabilitation equipment, an echo of a family member's disability. She talks through Pieta, shown at the Tel Aviv Biennale of Crafts and Design, her 2026 solo show On the Verge, and the graphite and epoxy works Phantom and Arco.",
+      "byline": "By Robert Preece · Sculpture",
+      "category": "craft",
+      "image": "https://sculpturemagazine.art/wp-content/uploads/2026/11/6b-CH-Arco-scaled.jpg",
+      "url": "https://sculpturemagazine.art/testing-the-edges-a-conversation-with-carmit-hassine/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Trinidad's Bloom Mansion Reopens With Its Victorian Rooms Restored",
+          "source": "The Gazette",
+          "byline": "Ella Howell",
+          "date": "Nov 23",
+          "url": "https://gazette.com/2026/11/23/bloom-mansion-reopens-after-a-year-of-restoration/",
+          "image": "https://gazette.com/wp-content/uploads/2026/11/TrinidadMuseum-2-1-e1795026344301.jpg"
+        },
+        {
+          "headline": "Edinburgh's Fountainbridge Library, a Wartime Art Deco Building With a Cantilevered Octagonal Stair",
+          "source": "The Twentieth Century Society",
+          "byline": "Alice Strang",
+          "evergreen": true,
+          "url": "https://c20society.org.uk/building-of-the-month/fountainbridge-library-edinburgh"
+        },
+        {
+          "headline": "The Many Lives of 64 East 7th Street, From Lutheran Parsonage to Communist Print Shop to Coffeehouse",
+          "source": "Places Journal",
+          "byline": "David Hajdu",
+          "evergreen": true,
+          "url": "https://placesjournal.org/article/the-many-historical-lives-of-an-east-village-townhouse/"
+        },
+        {
+          "headline": "A Curator Opens the Patrick Hodgkinson Model for a Brunswick Centre Flat",
+          "source": "RIBA",
+          "byline": "Fiona Orsini",
+          "evergreen": true,
+          "url": "https://www.riba.org/explore/riba-collections/inside-our-collections/brunswick-centre/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "At Paris Photo the Photobooks Upstairs Outshone the Gallery Floor",
+          "source": "It's Nice That",
+          "byline": "Ellis Tree",
+          "date": "Nov 23",
+          "url": "https://www.itsnicethat.com/features/paris-photo-2026-photobooks-photography-spotlight-231126"
+        },
+        {
+          "headline": "Maree Clarke and megan evans Stage an Uncomfortable Truth Inside Boroondara Town Hall",
+          "source": "Memo Review",
+          "byline": "Susie Anderson",
+          "date": "Nov 21",
+          "url": "https://www.memoreview.net/reviews/the-uncomfortable-truth-maree-clarke-and-megan-evans-by-susie-anderson",
+          "image": "https://account.memoreview.net/media/pages/reviews/the-uncomfortable-truth-maree-clarke-and-megan-evans-by-susie-anderson/a18e7f76b2-1795161465/hero-the-uncomfortable-truth-susie-anderson.jpg"
+        },
+        {
+          "headline": "Two Photobooks Find a Haunted Country in the Bavarian Forest",
+          "source": "Perlentaucher",
+          "byline": "Peter Truschner",
+          "date": "Nov 20",
+          "url": "https://www.perlentaucher.de/fotolot/fotografieren-im-bayerischen-wald-elena-helfrecht-und-martin-waldbauer.html"
+        },
+        {
+          "headline": "A Textile Artist Walks the International Rooms of Oakville's World of Threads Festival",
+          "source": "Judy's Journal",
+          "byline": "Judy Martin",
+          "date": "Nov 21",
+          "url": "https://judys-journal.blogspot.com/2026/11/world-of-threads-2026-part-3.html"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A Basement Emo Venue in Bloomington Goes Sober and Nomadic",
+          "source": "Indiana Daily Student",
+          "byline": "Addison Jacoby",
+          "date": "Nov 19",
+          "url": "https://www.idsnews.com/article/2026/11/rotspot-venue-dyi-live-music"
+        },
+        {
+          "headline": "A 2018 Portland Festival Set Brings Scott Amendola and Jeff Parker Together as a One-Off Trio",
+          "source": "Something Else!",
+          "byline": "S. Victor Aaron",
+          "date": "Nov 20",
+          "url": "https://somethingelsereviews.com/2026/11/20/scott-amendola-trio-w_-jeff-parker-paul-bryan-pdxmmxviii-2026/"
+        },
+        {
+          "headline": "Andrew Bird Cut His I Play Rocky Songs Live in One Room, Mostly to Tape",
+          "source": "ON THE SCORE",
+          "byline": "Dreldon",
+          "date": "Nov 20",
+          "url": "https://onthescore.com/andrew-bird-flies-with-the-tunes-of-i-play-rocky/",
+          "image": "https://onthescore.com/wp-content/uploads/2026/11/i-play-rocky3.avif"
+        },
+        {
+          "headline": "Tony Berg Refuses Presets and Builds a New Sound for Every Session",
+          "source": "Sound On Sound",
+          "byline": "Paul Tingen",
+          "evergreen": true,
+          "url": "https://www.soundonsound.com/techniques/inside-track-tony-berg"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Chongzhen Sleeve Vase Painted With a Water Margin Sorcerers' Duel Makes 41,000 Pounds",
+          "source": "Antique Collecting",
+          "byline": "Georgina Wroe",
+          "date": "Nov 21",
+          "url": "https://antique-collecting.co.uk/2026/11/21/chongzhen-sleeve-vase-painted-with-a-water-margin-duel-of-sorcerers-brings-41000-hammer/"
+        },
+        {
+          "headline": "A Collector Rebuilt a Century-Old Kodak Plate Camera to Photograph the Big Boy Locomotive",
+          "source": "Journal of Antiques and Collectibles",
+          "byline": "Dwayne A. Magee, CGCM",
+          "date": "Jul 3, 2026",
+          "evergreen": true,
+          "url": "https://journalofantiques.com/digital-publications/joac-magazine/features/a-19th-century-camera-meets-a-living-giant/",
+          "image": "https://journalofantiques.com/wp-content/uploads/2026/07/Camera-1024x768.jpg"
+        },
+        {
+          "headline": "Recovering the RAM From a Commodore 64 That Went Through a House Fire",
+          "source": "Mark Fixes Stuff",
+          "byline": "Mark",
+          "date": "Nov 20",
+          "url": "https://markfixesstuff.com/fire-damaged-commodore-64-ram-recovery/"
+        },
+        {
+          "headline": "An Army Sergeant's Cardboard Dominoes From a Stranded Vehicle in Iraq",
+          "source": "Library of Congress",
+          "byline": "Megan Harris",
+          "date": "Nov 23",
+          "url": "https://blogs.loc.gov/folklife/2026/11/collection-spotlight-jimmy-dean-caldwells-homemade-dominoes/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "A Worthing Archive Follows Sydney Stafford White From the Western Front to Air Raid Rescue",
+          "source": "West Sussex Record Office",
+          "byline": "Nick Corbo-Stewart",
+          "date": "Nov 12",
+          "url": "https://westsussexrecordofficeblog.com/2026/11/12/preparing-worthing-for-war-the-story-of-sydney-stafford-white/",
+          "image": "https://westsussexrecordofficeblog.com/wp-content/uploads/2026/11/AM_1943_2_3_image_1.jpg"
+        },
+        {
+          "headline": "A 1917 Aerial Photograph Leads Essex Archivists to a Bombing School at Mill Green",
+          "source": "Essex Record Office",
+          "date": "Nov 11",
+          "url": "https://www.essexrecordofficeblog.co.uk/some-more-serendipity-in-the-searchroom/"
+        },
+        {
+          "headline": "A Dundalk Engineer's Book of Irish Tales Survives the Fire That Took Most of His Manuscripts",
+          "source": "Notre Dame Rare Books and Special Collections",
+          "byline": "Matthew Knight",
+          "date": "Nov 9",
+          "url": "https://sites.nd.edu/rbsc/a-collection-of-the-genuine-irish-tales/"
+        },
+        {
+          "headline": "What Norfolk's Archive Shows About the Second World War Fire Guard",
+          "source": "Norfolk Record Office",
+          "byline": "Max Hubbard",
+          "date": "Nov 5",
+          "url": "https://norfolkrecordofficeblog.org/2026/11/05/the-role-of-a-second-world-war-fire-guard/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Kristijonas Vildziunas Built a Soviet Lift to Send a Father Back to His Grown Children",
+          "source": "Eye For Film",
+          "byline": "Amber Wilkinson",
+          "date": "Nov 20",
+          "url": "https://www.eyeforfilm.co.uk/feature/2026-11-20-kristijonas-vildziunas-on-returning-a-father-to-his-adult-kids-with-a-soviet-elevator-in-dice-ching-o-mat-feature-story-by-amber-wilkinson"
+        },
+        {
+          "headline": "Zachary Wigon Shot Victorian Psycho in a Castle Whose Floors Bent Under the Gear",
+          "source": "Third Coast Review",
+          "byline": "Steve Prokopy",
+          "date": "Nov 17",
+          "url": "https://thirdcoastreview.com/film-tv/2026/11/17/interview-zachary-wigon-victorian-psycho"
+        },
+        {
+          "headline": "The Year of the Ghost Lets Louis Hothothot's Sister Speak for Three Generations of Wronged Women",
+          "source": "High on Films",
+          "byline": "Debanjan Dhar",
+          "date": "Nov 22",
+          "url": "https://www.highonfilms.com/the-year-of-the-ghost-2026-idfa-documentary-review/",
+          "image": "https://www.highonfilms.com/wp-content/uploads/2026/11/The-Year-of-The-Ghost-2026.webp"
+        },
+        {
+          "headline": "How Chucky Went From Cable-Rigged Doll to Nine-Puppeteer Rod Puppet",
+          "source": "ACMI",
+          "byline": "Tor Evans",
+          "date": "Nov 19",
+          "url": "https://www.acmi.net.au/stories-and-ideas/i-always-come-back-38-years-of-chucky/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 22, 2026",
     "hero": {
       "headline": "A 1925 F.N. Four Took Nearly Four Years and a 3D-Scanned Manifold to Bring Back",
