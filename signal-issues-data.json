@@ -1,5 +1,215 @@
 [
   {
+    "dateLabel": "November 24, 2026",
+    "hero": {
+      "headline": "The Benedictine Nuns Who Repair Old Books in a Castle Near Angoulême",
+      "dek": "Anna Richards visits the bookbinding workshop of the Benedictine Abbaye Sainte-Marie de Maumont at Juignac, south of Angoulême, where the sisters repair old and fragile volumes inside part of the original stone castle. The workshop began about seventy years ago at Saint-Jean-d'Angély binding council archives, and moved in 1959 when funfair noise disturbed nuns who rise before dawn to pray. Soeur Epiphane leafs through a centuries-old book with uncut, tobacco-stained pages almost as big as she is.",
+      "byline": "By Anna Richards · Craftsmanship Magazine",
+      "category": "craft",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/6d755d12-ade9-4111-a2b3-f1a90e766402_1456x1092.jpeg",
+      "url": "https://craftsmanship.substack.com/p/the-bookbinding-nuns-of-maumont"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "The V&A's Victorian Benches Were Made by Johnstone & Jeanes, Marks Under the Seats Show",
+          "source": "V&A Blog",
+          "byline": "Joana Albernaz Delgado",
+          "date": "Nov 3, 2026",
+          "evergreen": true,
+          "url": "https://www.vam.ac.uk/blog/projects/museum-seating-investigating-the-design-history-of-vas-historic-benches",
+          "image": "https://www.vam.ac.uk/blog/wp-content/uploads/2-131-610x307.jpg"
+        },
+        {
+          "headline": "How Chicago's Adler Planetarium Became the WPA Poster The Drama of the Heavens",
+          "source": "Library of Congress",
+          "byline": "Kristi Finefield",
+          "date": "Nov 20",
+          "url": "https://blogs.loc.gov/picturethis/2026/11/the-drama-of-the-heavens-at-adler-planetarium/"
+        },
+        {
+          "headline": "J.L. Hudson's Filled a Detroit Block With 51 Elevators and 705 Fitting Rooms",
+          "source": "The Henry Ford",
+          "byline": "Jeanine Head Miller",
+          "date": "Nov 17",
+          "url": "https://www.thehenryford.org/collections/explore/articles/2026/jl-hudsons-department-store-a-detroit-legend"
+        },
+        {
+          "headline": "Twenty-Five Layers of Wallpaper Tell the History of One Ontario Ballroom",
+          "source": "The Brown Homestead",
+          "byline": "Sara Nixon",
+          "evergreen": true,
+          "url": "https://thebrownhomestead.ca/journal/studying-wallpaper-in-historic-homes"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Katerina Angelopoulou Rereads Her Own Photographs of the Mati Fire",
+          "source": "American Suburb X",
+          "byline": "Katerina Angelopoulou",
+          "date": "Feb 12, 2025",
+          "evergreen": true,
+          "url": "https://americansuburbx.com/2025/02/katerina-angelopoulou-diary-entry-2-the-fumes-of-mars.html"
+        },
+        {
+          "headline": "A Wrocław Museum Rebuilds a Village Lost to the Turów Lignite Mine",
+          "source": "Szum",
+          "byline": "Marta Tomczok",
+          "date": "Nov 20",
+          "url": "https://magazynszum.pl/weglowe-asamblaze-zycie-na-weglu-ludzie-krajobrazy-dziedzictwo-w-obliczu-transformacji-energetycznej-w-muzeum-etnograficznym-we-wroclawiu/",
+          "image": "https://magazynszum.pl/wp-content/uploads/2026/11/widok-wystawy-xxxzycie-na-weglu-fot.-wojciech-rogowicz-12-1440x933.jpg"
+        },
+        {
+          "headline": "Keizo Kitajima Photographs Ordinary People in White Shirts to Undo the Portrait",
+          "source": "BRUTUS",
+          "byline": "Masanobu Sugatsuke",
+          "date": "Jan 9, 2026",
+          "evergreen": true,
+          "url": "https://brutus.jp/post-475321"
+        },
+        {
+          "headline": "Charles Fox and Prum Sisaphantha Made a Photobook With No Photographs in It",
+          "source": "c4 journal",
+          "byline": "Mark Rawlinson",
+          "date": "Nov 6, 2025",
+          "evergreen": true,
+          "url": "https://c4journal.com/hidden-charles-fox-in-conversation-with-mark-rawlinson/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A Light in the Attic Set Maps Mexico's Visionary Underground From 1977 to 1999",
+          "source": "The Arts Desk",
+          "byline": "Joe Muggs",
+          "date": "Nov 22",
+          "url": "https://theartsdesk.com/new-music/music-reissues-weekly-various-artists-la-altura-visionary-mexican-music-1977-1999-volumes-1-2"
+        },
+        {
+          "headline": "John Tilbury's Farewell Box Was Recorded Mostly at His Own Piano",
+          "source": "Boring Like a Drill",
+          "byline": "Ben.H",
+          "date": "Nov 2, 2026",
+          "evergreen": true,
+          "url": "https://www.cookylamoo.com/boringlikeadrill/2026/11/john-tilbury-at-home.html"
+        },
+        {
+          "headline": "Ambient Church Turned Ten With a Sponsor-Free Festival in New York Churches",
+          "source": "The Brooklyn Rail",
+          "byline": "Teo Blake Beauchamp",
+          "date": "Oct 27, 2026",
+          "evergreen": true,
+          "url": "https://brooklynrail.org/2026/11/music/mezame-new-york-festival/",
+          "image": "https://studio.brooklynrail.org/assets/17e38b1a-01b2-45d3-a15c-d485c9a9e40e.jpg"
+        },
+        {
+          "headline": "Concertina Players From 1950s Clare Surface From Two Donated Tape Collections",
+          "source": "Irish Traditional Music Archive",
+          "byline": "Pádraic Mac Mathúna",
+          "evergreen": true,
+          "url": "https://www.itma.ie/playlists/padraics-picks-november-2026/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A Racer Tries to Sell His Canstel Clubman Car and Meets a Fake Buyer From Cairns",
+          "source": "Australian Motor Heritage Foundation",
+          "byline": "Rod Chivas",
+          "date": "Sep 13, 2026",
+          "evergreen": true,
+          "url": "https://motorheritage.org.au/selling-a-canstel-in-2026/",
+          "image": "https://motorheritage.org.au/wp-content/uploads/CANSTEL-.jpg"
+        },
+        {
+          "headline": "Thank-You Postcards Packed With Donated Cigarettes Let Soldiers Write Home to Their Benefactors",
+          "source": "Postcard History",
+          "byline": "Richard Martorelli",
+          "date": "Nov 19",
+          "url": "https://postcardhistory.net/2026/11/tobacco-acknowledgement-postcards/"
+        },
+        {
+          "headline": "A Handwritten Memoir Saved From a House Clearance Recovers a Yorkshire Railway Family",
+          "source": "National Railway Museum",
+          "byline": "Jonathan Winter",
+          "date": "Jun 9, 2026",
+          "evergreen": true,
+          "url": "https://blog.railwaymuseum.org.uk/uncovering-a-railway-life/"
+        },
+        {
+          "headline": "A Somerset Clock Dial Engraved With a Tallow Chandler at Work",
+          "source": "Antiquarian Horological Society",
+          "byline": "James Nye",
+          "date": "Jun 3, 2026",
+          "evergreen": true,
+          "url": "https://www.ahsoc.org/blog/a-dial-with-a-story/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "How Louisiana Cooks Gave America the Deep-Fried Turkey and the Turducken",
+          "source": "The Historic New Orleans Collection",
+          "byline": "Kelton Sears",
+          "date": "Nov 18",
+          "url": "https://hnoc.org/publishing/first-draft/cajun-turkey-innovations"
+        },
+        {
+          "headline": "Two Copies of a 1524 Greek New Testament Show How Owners Remade Their Books",
+          "source": "Illinois Rare Book & Manuscript Library",
+          "byline": "Molly Banwart",
+          "date": "May 21, 2026",
+          "evergreen": true,
+          "url": "https://www.library.illinois.edu/rbx/2026/05/21/an-illuminating-comparison/"
+        },
+        {
+          "headline": "A British Boy Migrant's Letters Home From a South Australian Farm Before the Burma Railway",
+          "source": "State Records of South Australia",
+          "evergreen": true,
+          "url": "https://archives.sa.gov.au/finding-information/discover-our-collection/stories-from-the-archive/priceless-little-brothers-letters-reveal-farm-life-before-becoming-a-world-war-ii-pow"
+        },
+        {
+          "headline": "A 1940s Reference Desk Notebook Records What Melbourne Asked Its Librarians",
+          "source": "State Library Victoria",
+          "byline": "Angus Hamilton",
+          "date": "Aug 7, 2026",
+          "evergreen": true,
+          "url": "https://blogs.slv.vic.gov.au/our-stories/ask-a-librarian/victorian-history/excuse-me-but-i-wonder-if-you-could-tell-me-a-record-of-library-enquiries-from-the-1940s/",
+          "image": "https://blogs.slv.vic.gov.au/wp-content/uploads/2026/07/EnquiryExamples-1024x776.jpg"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Hamaguchi's Three-Hour All of a Sudden Sets Eldercare Against Late Capitalism",
+          "source": "Reverse Shot",
+          "byline": "Michael Koresky",
+          "date": "Nov 24",
+          "url": "https://reverseshot.org/reviews/entry/3513/all_of_a_sudden"
+        },
+        {
+          "headline": "Eureka's 4K Scarlet Street Makes the Case for Lang's Bleakest Hollywood Noir",
+          "source": "The People's Movies",
+          "byline": "Nick Bartlett",
+          "date": "Nov 23",
+          "url": "https://thepeoplesmovies.com/scarlet-street-masters-of-cinema-review/",
+          "image": "https://thepeoplesmovies.com/wp-content/uploads/2026/11/Scarlet-Street-1.webp"
+        },
+        {
+          "headline": "Gijón's 64th Festival Seen Through a Montenegrin Shepherd Documentary, a Japanese Melodrama and Radu Jude",
+          "source": "OtrosCines.com",
+          "byline": "Alejandro Lingenti",
+          "date": "Nov 21",
+          "url": "https://otroscines.com/post/festival-de-gijon-2026-balance-y-resenas-de-las-mejores-peliculas-del-ficx-64"
+        },
+        {
+          "headline": "Stan Midgley Spent 45 Years Falling Off Cliffs in His Own Travelogues",
+          "source": "UCLA Film & Television Archive",
+          "byline": "Emory Harms",
+          "date": "Jul 24, 2026",
+          "evergreen": true,
+          "url": "https://www.cinema.ucla.edu/blog/to-make-the-world-laugh-stan-midgley-and-the-humor-in-travelogues/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 23, 2026",
     "hero": {
       "headline": "Carmit Hassine Casts Bodies in Marble Dust and Graphite and Props Them on Steel",
