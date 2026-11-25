@@ -1,5 +1,202 @@
 [
   {
+    "dateLabel": "November 25, 2026",
+    "hero": {
+      "headline": "The Michigan Teenage Prog Band October Cut Its First LP in a Dearborn Home Studio",
+      "dek": "Brad Tolinski, later the longtime editor of Guitar World, tells Klemen Breznikar about October, the Taylor, Michigan band he co-founded as a teenager, which traded the guitar lineup for two keyboards, electric violin and bass. Its first LP was cut on Jon Jarvis's eight-track home studio in Dearborn, with players spread through the hallways, a piano prepared with clothespins and a broken Moog, and about 500 copies pressed. A second album was later assembled from the tapes without the band knowing.",
+      "byline": "By Klemen Breznikar · It's Psychedelic Baby Magazine",
+      "category": "sound-vinyl",
+      "image": "https://www.psychedelicbabymag.com/wp-content/uploads/2026/11/October.jpg",
+      "url": "https://www.psychedelicbabymag.com/2026/11/october-interview.html"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "Philadelphia's 1947 Planning Show Filled Gimbels With a 45,000-Building Model of Center City",
+          "source": "Hidden City Philadelphia",
+          "byline": "Thomas H. Keels",
+          "date": "Nov 24",
+          "url": "https://hiddencityphila.org/2026/11/renew-or-die-the-better-philadelphia-exhibition-of-1947/",
+          "image": "https://hiddencityphila.org/wp-content/uploads/2026/11/Better-Philadlephia-exhibit.jpeg"
+        },
+        {
+          "headline": "Roadside Signs of Memphis, From a Working Peanut Roaster to Joe's Liquors Roto-Spheres",
+          "source": "Roadside Architecture",
+          "byline": "roadsidenut",
+          "date": "Nov 23",
+          "url": "https://roadarch.blog/2026/11/23/day-29-memphis/"
+        },
+        {
+          "headline": "Andrew Tucker Leavis Revives the Nottingham Journal as an Indie Literary Magazine",
+          "source": "magCulture",
+          "byline": "Jeremy Leslie",
+          "date": "Nov 23",
+          "url": "https://magculture.com/blogs/journal/andrew-tucker-leavis-new-nottingham-journal"
+        },
+        {
+          "headline": "How Fissore Restyled DKW's Two-Strokes for Brazil and Argentina",
+          "source": "Driven to Write",
+          "byline": "Bruno V",
+          "date": "Nov 23",
+          "url": "https://driventowrite.com/2026/11/23/little-italy-in-the-southern-cone/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Polo Perks Talks Skating, Rap and the Album That Took Two Years",
+          "source": "Skate Jawn",
+          "date": "Nov 24",
+          "url": "https://skatejawn.com/polo-perks-333-interview/"
+        },
+        {
+          "headline": "Steve Rodriguez Explains How the Brooklyn Banks Built New York's Skate Events",
+          "source": "Closer Skateboarding",
+          "byline": "Farran Golding",
+          "date": "Nov 13",
+          "url": "https://closerskateboarding.com/2026/11/13/steve-rodriguez-brooklyn-banks-events-history/",
+          "image": "https://closerskateboarding.com/wp-content/uploads/2026/11/Steve-Rodriguez-Brooklyn-Banks-Events-Closer-Skateboarding-Headliner-Antonio-Duraro-Shiloh-Catori-Cole-Giordano-WEB.jpg"
+        },
+        {
+          "headline": "Street Art NYC Photographs New Graffiti Along the Freight Tracks of Queens",
+          "source": "Street Art NYC",
+          "date": "Nov 19",
+          "url": "https://streetartnyc.org/blog/2026/11/19/pushing-it-forward-illicit-creatives-making-their-mark-in-queens-qzar-silent-ves-riot-stu-aob-smells-seoh-ent-elvis-angr-zoot-anso-wase-squidge-shazr-dase-poet-ideal-more/"
+        },
+        {
+          "headline": "Peixuan Ouyang's Two-Channel Video Retraces Xi Jinping's 2020 Visit to a Yao Village in Hunan",
+          "source": "Sixty Inches From Center",
+          "byline": "el n.k. lee",
+          "date": "Nov 25",
+          "url": "https://sixtyinchesfromcenter.org/the-machine-of-representation-in-peixuan-ouyangs-nanwang-de-yi-tian/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Mary Jane Leach on Bass Clarinets, Pipe Organs and Recovering Julius Eastman's Lost Cello Piece",
+          "source": "Tone Glow",
+          "byline": "Joshua Minsoo Kim",
+          "date": "Nov 10",
+          "url": "https://toneglow.substack.com/p/tone-glow-246-mary-jane-leach"
+        },
+        {
+          "headline": "A Reel-to-Reel Collector Plays Natty Dread on Ultra Tape Against the 1974 Island Pressing",
+          "source": "The Reel to Reel Rambler",
+          "byline": "Dave Denyer",
+          "date": "Nov 18",
+          "url": "https://thereeltoreelrambler.com/2026/11/18/review-bob-marley-the-wailers-natty-dread-on-ultra-tape-from-analogue-productions-a-collaborative-mastering-sensation/"
+        },
+        {
+          "headline": "Vini Reilly's Collaborators Play the Durutti Column Without Him at Manchester's Albert Hall",
+          "source": "Louder Than War",
+          "byline": "Nigel Carr",
+          "date": "Nov 24",
+          "url": "https://louderthanwar.com/for-vini-the-music-the-durutti-column-manchester-albert-hall-live-review/",
+          "image": "https://louderthanwar.com/wp-content/uploads/2026/11/The-Durutti-Column-Albert-hall-Nov-2027-Copyright-Helen-Millington-696x474.jpeg"
+        },
+        {
+          "headline": "The Dallas Cowboys, Two Friends in Batman Masks, Make Chiptune Screamo on Nintendo DS Handhelds",
+          "source": "Jenkem Magazine",
+          "byline": "Ben Komins",
+          "date": "Nov 23",
+          "url": "https://www.jenkemmag.com/home/2026/11/23/the-dallas-cowboys-are-turning-video-game-music-into-party-anthems/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "A German Patina Specialist Finishes a 1926 Condor Works Racer Without Erasing Its Century",
+          "source": "The Vintagent",
+          "byline": "Sven Freund",
+          "date": "Nov 19",
+          "url": "https://thevintagent.com/2026/11/19/what-should-a-100-year-old-bike-look-like/"
+        },
+        {
+          "headline": "Brian Heiler Asks Whether Mego's Rocket Tubes Sank the Micronauts",
+          "source": "Mego Museum",
+          "byline": "Brian Heiler",
+          "date": "Nov 18",
+          "url": "https://www.megomuseum.com/did-rocket-tubes-kill-megos-micronauts/",
+          "image": "https://www.megomuseum.com/wp-content/uploads/2026/11/rockettubesarticle.png"
+        },
+        {
+          "headline": "Andrew Borman on Rebuilding the Lost HEAT.Net Online Game Service From a Defunct Studio's Discs",
+          "source": "Sega-16",
+          "byline": "Ken Horowitz",
+          "date": "Nov 24",
+          "url": "https://www.sega-16.com/2026/11/interview-andrew-borman-director-of-digital-preservation-at-the-strong-national-museum-of-play/"
+        },
+        {
+          "headline": "A Doll Collector Restores the Attractionistas Gracey to Open a Haunted Mansion Series",
+          "source": "Teatime Tangents and Toys",
+          "byline": "DB",
+          "date": "Nov 22",
+          "url": "https://teatimetangentsandtoys.blogspot.com/2026/11/disneys-haunted-mansion-dolls-part-1.html"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Why a Famous Rhinoceros Stands Behind a Skeleton in Albinus's 1747 Anatomy Atlas",
+          "source": "Rauner Special Collections Library",
+          "date": "Nov 20",
+          "url": "https://raunerlibrary.blogspot.com/2026/11/clara-and-skeleton.html"
+        },
+        {
+          "headline": "Bishopsgate's Archive Holds the Punk Fanzines Temporary Hoarding and Drastic Measures",
+          "source": "Bishopsgate Institute",
+          "byline": "Grace Healy",
+          "date": "Oct 21, 2022",
+          "evergreen": true,
+          "url": "https://www.bishopsgate.org.uk/stories/from-the-archives-punk-fanzines-temporary-hoarding-drastic-measures"
+        },
+        {
+          "headline": "A Shaker Sister's Health Manual Treated Women's Bodies Without Reference to Childbirth",
+          "source": "Nursing Clio",
+          "byline": "Savannah Jane Flanagan",
+          "date": "Nov 18",
+          "url": "https://nursingclio.org/2026/11/18/reproductive-healthcare-beyond-reproduction-shaker-sister-prudences-health-manual-for-her-fellow-sisters/",
+          "image": "https://nursingclio.org/wp-content/uploads/2026/11/shaker-women.jpg"
+        },
+        {
+          "headline": "A Virginia Governor Declared His Love for a Teenager Before the House of Burgesses in 1701",
+          "source": "Library of Virginia",
+          "byline": "Karen King",
+          "date": "Nov 18",
+          "url": "https://uncommonwealth.lva.virginia.gov/blog/2026/11/18/married-to-a-scorpio/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Broncho Billy's Narrow Escape Shows a 1912 Western Built on a Quiet Romance",
+          "source": "Movies Silently",
+          "byline": "Fritzi Kramer",
+          "date": "Nov 23",
+          "url": "https://moviessilently.com/2026/11/23/broncho-billys-narrow-escape-1912-a-silent-film-review/",
+          "image": "https://moviessilently.com/wp-content/uploads/2026/11/broncho-billys-narrow-escape-header.jpg"
+        },
+        {
+          "headline": "Synapse's 4K Frankenhooker Makes the Old Blu-ray Look Like VHS",
+          "source": "DoBlu",
+          "byline": "Christopher Zabel",
+          "date": "Nov 23",
+          "url": "https://www.doblu.com/2026/11/23/frankenhooker-4k-uhd-review/"
+        },
+        {
+          "headline": "David Cairns Rewatches Chicago Calling, With Dan Duryea as a Broke Veteran Waiting on a Phone Line",
+          "source": "Shadowplay",
+          "byline": "David Cairns",
+          "date": "Nov 24",
+          "url": "https://dcairns.wordpress.com/2026/11/24/skid-roaming/"
+        },
+        {
+          "headline": "John McElwee Reads Hollywood's Holiday Newspaper Ads From 1931 to 1947",
+          "source": "Greenbriar Picture Shows",
+          "byline": "John McElwee",
+          "date": "Nov 23",
+          "url": "http://greenbriarpictureshows.blogspot.com/2026/11/ads-to-promise-moon-and-stars.html"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 24, 2026",
     "hero": {
       "headline": "The Benedictine Nuns Who Repair Old Books in a Castle Near Angoulême",
