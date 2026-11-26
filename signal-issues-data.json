@@ -1,5 +1,200 @@
 [
   {
+    "dateLabel": "November 26, 2026",
+    "hero": {
+      "headline": "Mark Jenkin's Hand-Processed Films Treat the Cornish Coast as a Living Archive",
+      "dek": "Edwin Miles reads four films by Mark Jenkin, from the Ireland-set travelogue Dear Marianne and The Road to Zennor, shot on a single unedited roll of Super 8, to Bait and Rose of Nevada. He argues that the scratches, chemical marks and exposure flicker of hand-processed 16mm share a world with the eroded cliffs, engine houses and rusted boats they record, so the coast becomes a store of labour, memory and belonging.",
+      "byline": "By Edwin Miles · Vague Visages",
+      "category": "photo-film",
+      "image": "https://vaguevisages.com/wp-content/uploads/2026/11/Mark-Jenkin-Essay-Movies-Films-Director-Bait-Three.jpg",
+      "url": "https://vaguevisages.com/2026/11/24/the-material-coast-landscape-memory-and-belonging-in-the-films-of-mark-jenkin/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "The Wolfsonian Library Opens Its Fairy Tale Books, From Rackham Silhouettes to a Navajo Tale Bound in Wood",
+          "source": "Wolfsonian-FIU Library",
+          "byline": "The Chief",
+          "date": "Nov 16",
+          "url": "https://wolfsonianfiulibrary.wordpress.com/2026/11/16/fairy-tales-familiar-and-foreign/",
+          "image": "https://wolfsonianfiulibrary.wordpress.com/wp-content/uploads/2026/11/xc2021.03.36_002.jpg"
+        },
+        {
+          "headline": "Ian Mansfield Walks Through the London Museum's New Home in Smithfield's Old Markets",
+          "source": "ianVisits",
+          "byline": "Ian Mansfield",
+          "date": "Nov 25",
+          "url": "https://www.ianvisits.co.uk/articles/smithfields-old-market-makes-a-glorious-home-for-the-london-museum-94365/"
+        },
+        {
+          "headline": "Indie Auto Fills In What a Video on Ford's 1966 Mustang Wagon Prototype Left Out",
+          "source": "Indie Auto",
+          "byline": "Steve",
+          "date": "Nov 24",
+          "url": "https://www.indieauto.org/2026/11/24/reporting-on-proposed-1966-ford-mustang-wagon-leaves-out-crucial-details/"
+        },
+        {
+          "headline": "How the 1948 Pontiac Facelift Hinted at the 1949 Redesign",
+          "source": "Car Style Critic",
+          "byline": "Donald Pittenger",
+          "date": "Nov 26",
+          "url": "https://carstylecritic.blogspot.com/2026/11/1948-pontics-anticipating-1949-redesign.html"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Xin Chen and T'kya Xavier Build Uncertain Landscapes at BACKLIT in Nottingham",
+          "source": "Corridor8",
+          "byline": "Jennifer Brough",
+          "date": "Nov 20",
+          "url": "https://corridor8.co.uk/article/xin-chen-and-tkya-xavier-lands-of-uncertain-shape/"
+        },
+        {
+          "headline": "A Photographer Makes Positives on Black Glass and Tintype With Dry Plates",
+          "source": "Shoot It With Film",
+          "byline": "Alec Pain",
+          "date": "Nov 20",
+          "url": "https://shootitwithfilm.com/finding-positive-in-the-positive-dry-plate-photography-part-ii/",
+          "image": "https://shootitwithfilm.com/wp-content/uploads/2026/11/Dry-Plate-Film-Photography-by-Alec-Pain-on-Shoot-It-With-Film-Featured-Image.jpg"
+        },
+        {
+          "headline": "Ella Fleck Makes Scent the Medium, From Pheromone Forums to a Puddle on the Floor",
+          "source": "Berlin Art Link",
+          "byline": "William Kherbek",
+          "date": "Nov 20",
+          "url": "https://www.berlinartlink.com/2026/11/20/interview-ella-fleck-scent/"
+        },
+        {
+          "headline": "Fairy Shampoo Draws Between Dreams and Memories",
+          "source": "sabukaru",
+          "byline": "Yuuki Hayashi",
+          "date": "Nov 11",
+          "url": "https://sabukaru.online/articles/drawing-between-dreams-and-memories-meet-fairy-shampoo"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "A 1967 Radio Bremen Session Puts Schlippenbach, Brötzmann and Van Hove in One Room",
+          "source": "The Free Jazz Collective",
+          "byline": "Ferruccio Martinotti",
+          "date": "Nov 25",
+          "url": "https://www.freejazzblog.org/2026/11/alexander-von-schlippenbach-main.html"
+        },
+        {
+          "headline": "Peter Taylor Closes His Sixtieth Inside No. 9 Mix With Alvin Lucier's Room",
+          "source": "Foxy Digitalis",
+          "byline": "Peter Taylor",
+          "date": "Nov 24",
+          "url": "https://foxydigitalis.zone/2026/11/24/inside-no-9-season-5-episode-60-2026-i-am-sitting-in-a-backroom/"
+        },
+        {
+          "headline": "Tom Guralnick Built Albuquerque's Outpost Performance Space on a Ten Thousand Dollar Budget",
+          "source": "The Syncopated Times",
+          "byline": "Steve Provizer",
+          "date": "Oct 31",
+          "url": "https://syncopatedtimes.com/tom-guralnick-and-the-outpost-albuquerques-performance-space/",
+          "image": "https://syncopatedtimes.com/wp-content/uploads/2026/10/tom-guralnick-his-setup-circa1985-1024x716.jpeg"
+        },
+        {
+          "headline": "The Hook Brothers Built More Than 2,600 Organs and Two of Them Are Now for Sale",
+          "source": "The Diapason",
+          "byline": "John Bishop",
+          "date": "Nov 19",
+          "url": "https://www.thediapason.com/content/wind-hook-organbuilders"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Soviet and Romanian Postal Stationery Honoured Doctors the West Forgot",
+          "source": "Health in Stamps",
+          "date": "Nov 15",
+          "url": "https://healthinstamps.com/medical-pioneers-history-postcards/",
+          "image": "https://healthinstamps.com/wp-content/uploads/2026/11/USSR_1984-1.jpg"
+        },
+        {
+          "headline": "A Taxidermist and a Conservator Rebuild Two 1930s Caspian Tigers in Azerbaijan",
+          "source": "NatSCA",
+          "byline": "Jazmine Miles Long and Bethany Palumbo",
+          "date": "Nov 26",
+          "url": "https://natsca.blog/2026/11/26/the-restoration-of-turan-or-caspian-tigers-in-azerbaijan-for-ngo-the-international-dialogue-for-environmental-action-idea/"
+        },
+        {
+          "headline": "Restoring a BBC Micro Model B With a Watford Electronics Sideways ROM Board",
+          "source": "Andrew Dorey",
+          "date": "Nov 18",
+          "url": "https://andrewdorey.com/post/restoring-a-bbc-micro-computer-part-4"
+        },
+        {
+          "headline": "Readers Pin Down the Lost Entrance to the Long Island Motor Parkway's Meadow Brook Lodge",
+          "source": "VanderbiltCupRaces.com",
+          "date": "Nov 24",
+          "url": "https://www.vanderbiltcupraces.com/blog/article/mystery_friday_foto_47_a_former_parkway_location"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "The Archaeologist Who Doubted Altamira Later Published the Book That Showed Its Paintings",
+          "source": "Linda Hall Library",
+          "byline": "William B. Ashworth, Jr.",
+          "date": "Nov 25",
+          "url": "https://www.lindahall.org/about/news/scientist-of-the-day/emile-cartailhac/"
+        },
+        {
+          "headline": "Pauper Accounts Trace the Families Maine Evicted From Malaga Island in 1912",
+          "source": "Vita Brevis",
+          "byline": "Christine Bachman-Sanders",
+          "date": "Nov 16",
+          "url": "https://vitabrevis.americanancestors.org/part-ii-researching-the-residents-of-malaga-island-maine"
+        },
+        {
+          "headline": "A Tribeca Wholesale Grocer Sold Gilded Age New York Roast Turkey in a Can",
+          "source": "Ephemeral New York",
+          "date": "Nov 23",
+          "url": "https://ephemeralnewyork.wordpress.com/2026/11/23/the-tribeca-provisions-company-that-supplied-gilded-age-new-york-with-roast-canned-turkey/",
+          "image": "https://ephemeralnewyork.wordpress.com/wp-content/uploads/2026/11/gobbling-thanksgiving-new-york-5.jpg"
+        },
+        {
+          "headline": "A Homesick 14-Year-Old Fills Her Paris Diary With Jealousy and Christmas Hopes in 1889",
+          "source": "Massachusetts Historical Society",
+          "byline": "Susan Martin",
+          "date": "Nov 16",
+          "url": "https://www.masshist.org/beehiveblog/2026/11/the-diaries-of-henrietta-maria-schroeder-stout-part-viii/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Dennis Cooper and Zac Farley Build a Family Haunted House in Room Temperature",
+          "source": "In Review Online",
+          "byline": "Robert Stinner",
+          "date": "Nov 25",
+          "url": "https://inreviewonline.com/2026/11/25/room-temperature-review/"
+        },
+        {
+          "headline": "The Tuners Films the Piano Technicians Working Unseen at Warsaw's Chopin Competition",
+          "source": "The Moveable Fest",
+          "byline": "Stephen Saito",
+          "date": "Nov 24",
+          "url": "https://moveablefest.com/joanna-chorzepa-pawel-chorzepa-tuners/",
+          "image": "https://moveablefest.com/wp-content/uploads/2026/11/TunersPawelChorzpa.jpg"
+        },
+        {
+          "headline": "The Message Follows a Canadian Town's UFO Sightings Toward Nuclear Sites",
+          "source": "ScreenAnarchy",
+          "byline": "Martin Kudlac",
+          "date": "Nov 24",
+          "url": "https://screenanarchy.com/2026/11/idfa-2026-review-the-message-probes-ufos-and-humanitys.html"
+        },
+        {
+          "headline": "A New Documentary Traces Don Bluth's Long Fight to Rival Disney",
+          "source": "Cartoon Research",
+          "byline": "Martin Goodman",
+          "date": "Nov 23",
+          "url": "https://cartoonresearch.com/index.php/documentary-review-don-bluth-somewhere-out-there/"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 25, 2026",
     "hero": {
       "headline": "The Michigan Teenage Prog Band October Cut Its First LP in a Dearborn Home Studio",
