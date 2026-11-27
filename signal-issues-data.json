@@ -1,5 +1,203 @@
 [
   {
+    "dateLabel": "November 27, 2026",
+    "hero": {
+      "headline": "Kamil Khan Mumtaz, the Lahore Architect Who Brought Back the Flat Dome and Muqarnas",
+      "dek": "Samuel Hughes profiles Kamil Khan Mumtaz, born in Calcutta in 1939 and trained at the Architectural Association, who returned to Pakistan in 1966, was twice jailed as a communist activist, and wrote the late-1970s report arguing for preserving Lahore's Walled City. Around 1980 a book on Persian Sufi architecture turned him toward local tradition, and his houses, mosques and schools have since revived lost techniques such as the flat dome and muqarnas.",
+      "byline": "By Samuel Hughes · Works in Progress",
+      "category": "design-arch",
+      "image": "https://assets.worksinprogress.co/wp-content/uploads/2026/11/00-featured-image-kkm-marble-mosque.jpg",
+      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/"
+    },
+    "categories": {
+      "design-arch": [
+        {
+          "headline": "How Kremer Beat Porsche at Its Own 935 With an Inverted Intake and Kevlar Bodywork",
+          "source": "Petrolicious",
+          "byline": "Jathu Thillai",
+          "date": "Nov 26",
+          "url": "https://petrolicious.com/blogs/articles/kremer-porsche-935-k3-carlos-de-quesada-dp-motorsport",
+          "image": "https://petrolicious.com/cdn/shop/articles/Britec_935-29.jpg"
+        },
+        {
+          "headline": "OMA Keeps Kikutake's Super Skeleton in Its Renovation of the Edo-Tokyo Museum",
+          "source": "Azure",
+          "byline": "Yuki Sumner",
+          "date": "Nov 20",
+          "url": "https://www.azuremagazine.com/article/with-the-edo-tokyo-museum-oma-revives-a-metabolist-marvel/"
+        },
+        {
+          "headline": "A Walnut Creek Eichler Kitchen Is Rebuilt Around an Orange Range",
+          "source": "Atomic Ranch",
+          "byline": "Dana Mauer",
+          "date": "Nov 19",
+          "url": "https://www.atomic-ranch.com/atomic-kitchens/efficiency-meets-mid-century-color-in-a-classic-walnut-creek-eichler-remodel/"
+        },
+        {
+          "headline": "Poster House Reads the Space Race Through Airline and Aerospace Posters",
+          "source": "Poster House",
+          "byline": "B.A. Van Sise",
+          "date": "Nov 19",
+          "url": "https://posterhouse.org/blog/american-space-race/"
+        }
+      ],
+      "craft": [
+        {
+          "headline": "Alex Margo Arden Rebuilds Amy Winehouse's Perfume and 412 Lost Books",
+          "source": "Burlington Contemporary",
+          "byline": "Gabe Beckhurst Feijoo",
+          "date": "Nov 26",
+          "url": "https://contemporary.burlington.org.uk/articles/articles/alex-margo-arden"
+        },
+        {
+          "headline": "Beatriz González's Prints Hold On to Images of Colombian Violence at the Art Institute of Chicago",
+          "source": "Newcity Art",
+          "byline": "Jonathan Bonfiglio",
+          "date": "Nov 23",
+          "url": "https://art.newcity.com/2026/11/23/beatriz-gonzalez-on-the-property-of-memory-at-the-art-institute/",
+          "image": "https://art.newcity.com/wp-content/uploads/2026/11/Study-for-Interior-Decoration-detail-scaled.jpg"
+        },
+        {
+          "headline": "Rowan Zorilla Picks the Five Skate Video Parts That Shaped Him",
+          "source": "Quartersnacks",
+          "byline": "Adam Abada",
+          "date": "Nov 25",
+          "url": "https://quartersnacks.com/2026/11/five-favorite-parts-with-rowan-zorilla/"
+        },
+        {
+          "headline": "Hans Gremmen Indexes Twenty-Five Years of Making Photobooks",
+          "source": "Conscientious Photography Magazine",
+          "date": "Nov 22",
+          "url": "https://cphmag.com/in-between/"
+        }
+      ],
+      "sound-vinyl": [
+        {
+          "headline": "Grimório de Abril Builds an Album From Film Scores and a 1499 Venetian Romance",
+          "source": "A Closer Listen",
+          "byline": "Gianmarco Del Re",
+          "date": "Nov 25",
+          "url": "https://acloserlisten.com/2026/11/25/grimorio-de-abril-hypnerotomachia-poliphili/"
+        },
+        {
+          "headline": "A New Discography Reconstructs the 1920s Italian American Splendor Record Company",
+          "source": "Mainspring Press",
+          "byline": "Giuliana Fugazzotto",
+          "date": "Nov 20",
+          "url": "https://mainspringpress.org/2026/11/20/splendor-records-a-documentary-reconstruction-of-an-italian-american-recording-venture-by-giuliana-fugazzotto-free-download-includes-discography/"
+        },
+        {
+          "headline": "Aleksandra Słyż Wakes the Dormant Polish Radio Experimental Studio for a Piece About Ruins",
+          "source": "The Quietus",
+          "byline": "Claire Sawers",
+          "date": "Nov 25",
+          "url": "https://thequietus.com/interviews/aleksandra-slyz-interview/",
+          "image": "https://thequietus.com/app/uploads/2026/11/Ola_Slyz_0073-0115-1-1024x670.jpg"
+        },
+        {
+          "headline": "James Romig Writes Two Slow Circles for Three Vibraphones",
+          "source": "Sequenza21",
+          "byline": "Christian Carey",
+          "date": "Nov 21",
+          "url": "https://www.sequenza21.com/2026/11/james-romig-circles/"
+        }
+      ],
+      "collecting": [
+        {
+          "headline": "Two Rolls of Tri-X Left Undeveloped for a Decade Bring Back Jerry Laboranti's '32 Coupe",
+          "source": "The Jalopy Journal",
+          "byline": "Ryan",
+          "date": "Nov 24",
+          "url": "https://www.jalopyjournal.com/?p=66533"
+        },
+        {
+          "headline": "Vianney Halter's Second Act, From the Antiqua to a Bulgari Collaboration",
+          "source": "Oracle Time",
+          "byline": "Thor Svaboe",
+          "date": "Nov 26",
+          "url": "https://oracleoftime.com/vianney-halter-the-steampunk-senseis-second-wind/",
+          "image": "https://oracleoftime.com/wp-content/uploads/2026/11/Vianney-Halter-2.jpg"
+        },
+        {
+          "headline": "Jewellery Artist Shinji Nakaba Shows the Five Objects That Shaped His Work",
+          "source": "Art Jewelry Forum",
+          "byline": "Jennifer Altmann",
+          "date": "Nov 23",
+          "url": "https://artjewelryforum.org/articles/a-peek-into-the-collection-of-jewelry-artist-shinji-nakaba_subj-natl-japan_auth_jennifer-altmann_authnatl-us_11-23-2026/"
+        },
+        {
+          "headline": "A Notebook Diarist Lists Every Planner, Journal and Sketchbook in Use This Month",
+          "source": "Notebook Stories",
+          "byline": "Nifty Notebook",
+          "date": "Nov 24",
+          "url": "https://www.notebookstories.com/2026/11/24/what-im-using-now-november-2026/"
+        }
+      ],
+      "archives": [
+        {
+          "headline": "Winchcombe Abbey's Medieval Cartularies Keep Ars Nova Music in Their Bindings",
+          "source": "Gloucestershire Archives",
+          "byline": "Anthony Phillips",
+          "date": "Nov 9",
+          "url": "https://gloucestershirearchives.wordpress.com/2026/11/09/how-chickens-incorrect-italian-bread-and-winchcombe-abbey-led-to-a-discovery/",
+          "image": "https://gloucestershirearchives.wordpress.com/wp-content/uploads/2026/11/d678-1-m4-2-text.jpg"
+        },
+        {
+          "headline": "A 1665 Probate Inventory Opens the Gardens of New Netherland",
+          "source": "NiCHE",
+          "byline": "Jonas Danen",
+          "date": "Nov 26",
+          "url": "https://niche-canada.org/2026/11/26/the-gardens-of-new-netherland-cultivating-a-sense-of-belonging/"
+        },
+        {
+          "headline": "Nottingham Could Not Stay Out of the Wars of the Roses",
+          "source": "The History of Parliament",
+          "byline": "Simon Payling",
+          "date": "Nov 26",
+          "url": "https://historyofparliament.com/2026/11/26/nottingham-and-the-wars-of-the-roses/"
+        },
+        {
+          "headline": "Derbyshire Record Office Puts Names to Unlabelled Portraits of Its Council Chairmen",
+          "source": "Derbyshire Record Office",
+          "byline": "Mark Smith",
+          "date": "Nov 24",
+          "url": "https://recordoffice.wordpress.com/2026/11/24/names-in-the-frame-part-2/"
+        }
+      ],
+      "photo-film": [
+        {
+          "headline": "Shirogumi's Artists Explain How They Animated King Ghidorah by Hand for Godzilla Minus Zero",
+          "source": "The Art of VFX",
+          "byline": "Vincent Frei",
+          "date": "Nov 24",
+          "url": "https://www.artofvfx.com/godzilla-minus-zero-tatsuji-nojima-takayuki-ueki-shirogumi/"
+        },
+        {
+          "headline": "Jeremy Herbert Calls The Mosquito Coast Harrison Ford's Most Frightening Performance",
+          "source": "Crooked Marquee",
+          "byline": "Jeremy Herbert",
+          "date": "Nov 25",
+          "url": "https://crookedmarquee.com/harrison-ford-and-the-jungle-not-taken-the-mosquito-coast-at-40/"
+        },
+        {
+          "headline": "Helvio Soto's 1975 Film on the Chilean Coup, Set Against Wild Horse Nine",
+          "source": "Cinefilia Ritrovata",
+          "byline": "Olmo Giovannini",
+          "date": "Nov 26",
+          "url": "https://www.cinefiliaritrovata.it/il-cile-di-helvio-soto/"
+        },
+        {
+          "headline": "Steve Patry Films a Dozen Men in a Quebec Anger Management Program",
+          "source": "POV Magazine",
+          "byline": "Justine Smith",
+          "date": "Nov 24",
+          "url": "https://povmagazine.com/steve-patrys-a-breath-at-a-time-and-the-possibility-for-change/",
+          "image": "https://povmagazine.com/wp-content/uploads/2026/11/Un-souffle_72dpi_001.jpg"
+        }
+      ]
+    }
+  },
+  {
     "dateLabel": "November 26, 2026",
     "hero": {
       "headline": "Mark Jenkin's Hand-Processed Films Treat the Cornish Coast as a Living Archive",
